@@ -1,0 +1,29 @@
+.navbar {
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+	background: #171c26;
+	color: #ffffff
+	border: 0px;
+}
+
+.welcome {
+	border-top: 5px solid #ad0a22;
+	padding: 50px;
+	width: 100%;
+	height: 250px;
+	background-image: url(img/bg-welcome.jpg);
+	color: #fff;
+}
+
+.content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.end {
+	border-top: 5px solid #ad0a22;
+	background: #171c26;
+	color: #bbbbbb;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

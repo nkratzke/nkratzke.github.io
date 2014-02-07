@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,200,400,700);
 @import url(http://fonts.googleapis.com/css?family=Dosis:100,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+
 
 body {
 	font-family: 'Raleway', sans-serif;
@@ -8,8 +12,8 @@ body {
 }
 
 h1, h2, h3, h4, h4, h5, h6 {
-	font-family: 'Dosis', sans-serif;
-	font-weight: 700;
+	font-family: 'Indie Flower', sans-serif;
+	font-weight: bold;
 }
 
 h1 { font-size: 5rem; }
@@ -17,14 +21,23 @@ h2 { font-size: 4rem; }
 h3 { font-size: 3rem; }
 
 .navbar {
-	font-weight: 200;
+	font-weight: normal;
+	font-size: 1.5rem;
 	margin-bottom: 0px !important;
 	border-radius: 0px !important;
-	background: rgba(0, 0, 0, 0.9); /* #171c26; */
+	background: rgba(0, 0, 0, 0.8); /* #171c26; */
 	color: #ffffff
 	border: 0px;
 }
 
+.navbar .navbar-brand {
+	font-family: 'Indie Flower', 'Raleway', sans-serif;
+	font-size: 3.0rem;
+	font-weight: bold;
+	color: white;
+}
+
+/* WELCOME SECTION */
 .welcome {
 	font-weight: 100;
 	border-top: 5px solid #ad0a22;
@@ -35,9 +48,8 @@ h3 { font-size: 3rem; }
 	color: #fff;
 	padding-top: 115px;
 }
-
 .welcome p {
-	width: 275px;
+	width: 200px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;		
@@ -51,6 +63,34 @@ h3 { font-size: 3rem; }
 	border-radius: 10px;
 	text-align: center;
 }
+.welcome p.subslogan {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Indie Flower', serif;
+	font-size: 2.5rem;
+	transform: rotate(355deg);
+	-ms-transform: rotate(355deg);
+	-webkit-transform: rotate(355deg);
+	/*padding-left: 100px;*/
+}
+
+/* SIDEBAR */
+.sidebar {
+	background: white;
+	box-shadow: 0px 0px 10px #333;
+	font-size: 1.66rem;
+}
+.sidebar h3, .sidebar p {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;	
+}
+
+.sidebar .photo {
+	width: 100%;
+	height: auto;
+}
 
 .content {
 	padding-top: 50px;
@@ -61,8 +101,20 @@ h3 { font-size: 3rem; }
 	font-size: 0.66em;
 	font-weight: 400;
 	border-top: 5px solid #ad0a22;
-	background: #171c26;
+	background: rgba(0, 0, 0, 0.9); /* #171c26; */
 	color: #bbbbbb;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.end p.cite {
+	border-top: 1px rgba(255, 255, 255, 0.25) solid;
+	color: rgba(255, 255, 255, 0.25);
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 25px;
+	padding-top: 25px;
+	text-align: center;
+	font-family: 'Coming Soon', serif;
 }

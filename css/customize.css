@@ -3,17 +3,18 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 }
 
 h1, h2, h3, h4, h4, h5, h6 {
-	font-family: 'Indie Flower', sans-serif;
-	font-weight: bold;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bolder;
 }
 
 h1 { font-size: 5rem; }
@@ -31,7 +32,7 @@ h3 { font-size: 3rem; }
 }
 
 .navbar .navbar-brand {
-	font-family: 'Indie Flower', 'Raleway', sans-serif;
+	font-family: 'Indie Flower', sans-serif;
 	font-size: 3.0rem;
 	font-weight: bold;
 	color: white;
@@ -39,6 +40,7 @@ h3 { font-size: 3rem; }
 
 /* WELCOME SECTION */
 .welcome {
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	border-top: 5px solid #ad0a22;
 	padding: 50px;
@@ -92,29 +94,60 @@ h3 { font-size: 3rem; }
 	height: auto;
 }
 
+.sidebar .socialsites {
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.9);
+	text-align: center;
+}
+
+.sidebar .socialsites img {
+	width: 32px;
+	opacity: 0.5;
+}
+
+.sidebar .socialsites img:hover {
+	opacity: 1.0;
+}
+
+/* CENTRAL CONTENT AREA */
 .content {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
+.content .container h2:first-child {
+	margin-top: 100px;
+}
+
+/* FOOTER */
 .end {
 	font-size: 0.66em;
 	font-weight: 400;
 	border-top: 5px solid #ad0a22;
 	background: rgba(0, 0, 0, 0.9); /* #171c26; */
 	color: #bbbbbb;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
-.end p.cite {
-	border-top: 1px rgba(255, 255, 255, 0.25) solid;
-	color: rgba(255, 255, 255, 0.25);
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	margin-top: 25px;
-	padding-top: 25px;
-	text-align: center;
-	font-family: 'Coming Soon', serif;
+.end .block {
+	margin: 40px 40px 40px 40px;
+}
+
+.end .socialsites img {
+	width: 48px;
+	opacity: 0.5;
+}
+
+.end .socialsites img:hover {
+	opacity: 1.0;
+}
+
+.end .officialsites img {
+	height: 64px;
+	margin-top: 10px;
+	margin-right: 20px;
+	opacity: 0.5;
+}
+
+.end .officialsites img:hover {
+	opacity: 1.0;
 }

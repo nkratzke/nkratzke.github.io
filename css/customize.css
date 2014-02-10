@@ -4,6 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(http://fonts.googleapis.com/css?family=Coming+Soon);
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 
 
 body {
@@ -12,10 +13,12 @@ body {
 	font-size: 20px;
 }
 
-h1, h2, h3, h4, h4, h5, h6 {
-	font-family: 'Varela Round', sans-serif;
-	font-weight: bolder;
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
 }
+
+h1, h2, h3 { text-transform: uppercase; margin-top: 50px; }
 
 h1 { font-size: 5rem; }
 h2 { font-size: 4rem; }
@@ -36,6 +39,76 @@ h3 { font-size: 3rem; }
 	font-size: 3.0rem;
 	font-weight: bold;
 	color: white;
+}
+
+/* HOME PAGE */
+#home .row {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+#home .row h1 {
+	font-size: 7.5rem;
+}
+
+#home img {
+	width: 33%;
+}
+
+#home .socialsites {
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.9);
+	text-align: center;
+}
+
+#home .socialsites img {
+	width: 32px;
+	opacity: 0.5;
+}
+
+#home .socialsites img:hover {
+	opacity: 1.0;
+}
+
+/* ABOUT PAGE */
+#about .photo {
+	text-align: center;
+}
+
+#about .photo img {
+	width: 66%;
+	height: auto;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+#about .visualizer-left, #about .visualizer-right {
+	text-align: center;
+}
+
+#about .visualizer-left img, #about .visualizer-right img {
+	margin-top: 50px;
+	width: 50%;
+}
+
+#about .row {
+	margin-bottom: 50px;
+}
+
+/* BIBLIOGRAPHY */
+.bibliography {
+	list-style-type: none;
+	list-style-position: outside;
+	padding: 0px;
+	font-size: 1.7rem;
+}
+
+.bibliography li {
+	padding: 5px;
+}
+
+.bibliography li {
+	border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 /* WELCOME SECTION */
@@ -74,39 +147,6 @@ h3 { font-size: 3rem; }
 	transform: rotate(355deg);
 	-ms-transform: rotate(355deg);
 	-webkit-transform: rotate(355deg);
-	/*padding-left: 100px;*/
-}
-
-/* SIDEBAR */
-.sidebar {
-	background: white;
-	box-shadow: 0px 0px 10px #333;
-	font-size: 1.66rem;
-}
-.sidebar h3, .sidebar p {
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;	
-}
-
-.sidebar .photo {
-	width: 100%;
-	height: auto;
-}
-
-.sidebar .socialsites {
-	padding: 10px;
-	background: rgba(0, 0, 0, 0.9);
-	text-align: center;
-}
-
-.sidebar .socialsites img {
-	width: 32px;
-	opacity: 0.5;
-}
-
-.sidebar .socialsites img:hover {
-	opacity: 1.0;
 }
 
 /* CENTRAL CONTENT AREA */
@@ -115,8 +155,8 @@ h3 { font-size: 3rem; }
 	padding-bottom: 50px;
 }
 
-.content .container h2:first-child {
-	margin-top: 100px;
+.content .container .row:first-child {
+	margin-top: 50px;
 }
 
 /* FOOTER */

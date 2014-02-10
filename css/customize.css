@@ -53,7 +53,7 @@ h3 { font-size: 3rem; }
 }
 
 #home img {
-	width: 33%;
+	width: 50%;
 }
 
 #home .socialsites {
@@ -110,6 +110,11 @@ h3 { font-size: 3rem; }
 .bibliography li {
 	border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
+
+.bibliography li:first-child {
+	border-top: 2px solid rgba(0, 0, 0, 0.66);
+}
+
 
 /* WELCOME SECTION */
 .welcome {
@@ -190,4 +195,22 @@ h3 { font-size: 3rem; }
 
 .end .officialsites img:hover {
 	opacity: 1.0;
+}
+
+.footer {
+	background: #3576be;	
+}
+
+.footer .links {
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+	font-size: 0.66em;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+}
+
+.footer .links a {
+	color: rgba(0, 0, 0, 0.5);
 }

@@ -71,7 +71,7 @@ h3 { font-size: 3rem; }
 	width: 50%;
 }
 
-#home .col-md-4:last-child {
+#home .col-sm-4:last-child {
 	padding-bottom: 50px;
 }
 

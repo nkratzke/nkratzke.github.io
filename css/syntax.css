@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+
 .highlight { 
   margin: 1em;
   overflow: hidden;
@@ -10,13 +12,13 @@
 .highlight pre {
   border-radius: 0px;
   border: 0px solid transparent;
-  border-left: 5px rgba(0, 0, 0, 0.75) solid;  
-  background: rgba(0, 0, 0, 0.1);
+  border-left: 5px rgba(0, 0, 0, 0.2) solid;  
+  background: rgba(0, 0, 0, 0.05);
   padding: 20px;
 }
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-family: 'Droid Sans Mono', 'Courier', monospace;
 }
 
 .highlight .c { color: #586E75 } /* Comment */

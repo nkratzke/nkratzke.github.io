@@ -1,11 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,400,700);
-@import url(http://fonts.googleapis.com/css?family=Dosis:100,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower);
-@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 
+/* GENERAL TYPOGRAPHY */
 
 body {
 	font-family: 'Helvetica', 'Arial', sans-serif;
@@ -24,6 +20,8 @@ h1 { font-size: 5rem; }
 h2 { font-size: 4rem; }
 h3 { font-size: 3rem; }
 
+/* NAVBAR */
+
 .navbar {
 	font-weight: normal;
 	font-size: 1.5rem;
@@ -35,9 +33,8 @@ h3 { font-size: 3rem; }
 }
 
 .navbar .navbar-brand {
-	font-family: 'Indie Flower', sans-serif;
+	font-family: 'Courier', monospace;;
 	font-size: 3.0rem;
-	font-weight: bold;
 	color: white;
 }
 
@@ -68,35 +65,15 @@ h3 { font-size: 3rem; }
 
 #home img {
 	opacity: 0.75;
-	width: 50%;
+	width: 66%;
 }
 
-#home .col-sm-4:last-child {
+#home .row:last-child {
 	padding-bottom: 50px;
 }
 
-/* ABOUT PAGE */
-#about .photo {
-	text-align: center;
-}
-
-#about .photo img {
-	width: 66%;
-	height: auto;
-	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
-}
-
-#about .visualizer-left, #about .visualizer-right {
-	text-align: center;
-}
-
-#about .visualizer-left img, #about .visualizer-right img {
-	margin-top: 50px;
-	width: 50%;
-}
-
-#about .row {
-	margin-bottom: 50px;
+#home + .content .row {
+	margin-top: 0px;
 }
 
 /* BIBLIOGRAPHY */
@@ -135,11 +112,16 @@ h3 { font-size: 3rem; }
 	font-weight: 400;
 	border-top: 5px solid #ad0a22;
 	background: rgba(0, 0, 0, 0.9); /* #171c26; */
-	color: #bbbbbb;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.end .row {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .end .block {
-	margin: 40px 40px 40px 40px;
+	margin: 20px 0px 20px 0px;
 }
 
 .end .socialsites img {
@@ -163,23 +145,26 @@ h3 { font-size: 3rem; }
 }
 
 .footer {
-	background: #3576be;	
-}
-
-.footer .links {
-	color: rgba(0, 0, 0, 0.5);
-	font-weight: bold;
+	color: rgba(255, 255, 255, 0.5);
 	font-size: 0.66em;
 	text-align: center;
-	margin-left: 50px;
-	margin-right: 50px;
-	padding: 20px;
 }
 
-.footer .links a {
-	color: rgba(0, 0, 0, 0.5);
+.footer a {
+	color: rgba(255, 255, 255, 0.5);
 }
 
-.footer .links img {
+.footer img {
 	opacity: 0.5;
+}
+
+.footer .hostinglinks {
+	padding: 20px;
+	background: #4076be;
+}
+
+.footer .disclosurelinks {
+	color: rgba(255, 255, 255, 0.5);
+	background: #14234f;
+	padding: 5px 20px 5px 20px;
 }

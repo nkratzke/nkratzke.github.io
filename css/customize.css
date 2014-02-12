@@ -76,6 +76,15 @@ h3 { font-size: 3rem; }
 	margin-top: 0px;
 }
 
+/* ABOUT PAGE */
+#about img {
+	opacity: 0.5;
+}
+
+#about img.photo {
+	opacity: 1.0;
+}
+
 /* BIBLIOGRAPHY */
 .bibliography {
 	list-style-type: none;
@@ -131,7 +140,7 @@ h3 { font-size: 3rem; }
 	font-weight: 400;
 	border-top: 5px solid #ad0a22;
 	background: rgba(0, 0, 0, 0.9); /* #171c26; */
-	color: rgba(255, 255, 255, 0.75);
+	color: rgba(255, 255, 255, 0.5);
 }
 
 .end .row {
@@ -169,10 +178,6 @@ h3 { font-size: 3rem; }
 	text-align: center;
 }
 
-.footer a {
-	color: rgba(255, 255, 255, 0.5);
-}
-
 .footer img {
 	opacity: 0.5;
 }
@@ -183,7 +188,7 @@ h3 { font-size: 3rem; }
 }
 
 .footer .disclosurelinks {
-	color: rgba(255, 255, 255, 0.5);
-	background: #14234f;
-	padding: 5px 20px 5px 20px;
+	color: rgba(0, 0, 0, 0.75);
+	background: white; /* #171c26; */
+	padding: 50px 0px 50px 0px;
 }

@@ -56,7 +56,7 @@ h3 { font-size: 3rem; }
 }
 
 #home .row h1 {
-	font-size: 7.5rem;
+	font-size: 6.5rem;
 }
 
 #home h1 small, #home a {
@@ -65,7 +65,7 @@ h3 { font-size: 3rem; }
 
 #home img {
 	opacity: 0.75;
-	width: 66%;
+	width: 33%;
 }
 
 #home .row:last-child {

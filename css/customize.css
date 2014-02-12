@@ -32,12 +32,8 @@ img.photo {
 /* GENERAL HR HANDLING */
 
 hr {
-	width: 100%;
+	border-top: 3px solid rgba(0, 0, 0, 0.05);
 	height: 0px;
-	background: rgba(0, 0, 0, 0.1);
-	padding-top: 1px;
-	padding-bottom: 1px;
-	border-radius: 10px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -152,13 +148,13 @@ hr {
 	font-size: 0.66em;
 	font-weight: 400;
 	border-top: 5px solid #ad0a22;
-	background: rgba(0, 0, 0, 0.9); /* #171c26; */
+	background: black; /*rgba(0, 0, 0, 0.9); /* #171c26; */
 	color: rgba(255, 255, 255, 0.5);
 }
 
 .end .row {
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .end .block {
@@ -187,21 +183,30 @@ hr {
 
 .footer {
 	color: rgba(255, 255, 255, 0.5);
+	background: rgba(0, 0, 0, 0.9); /*#4076be; /* #171c26; */
 	font-size: 0.66em;
 	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.footer hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.footer a {
+	color: rgba(255, 255, 255, 0.5);	
+}
+
+.footer a:hover {
+	color: white;
 }
 
 .footer img {
 	opacity: 0.5;
 }
 
-.footer .hostinglinks {
-	padding: 20px;
-	background: #4076be;
-}
-
-.footer .disclosurelinks {
-	color: rgba(0, 0, 0, 0.75);
-	background: white; /* #171c26; */
-	padding: 50px 0px 50px 0px;
+.footer img:hover {
+	opacity: 1.0;
 }

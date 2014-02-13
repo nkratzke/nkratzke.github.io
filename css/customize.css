@@ -38,6 +38,51 @@ hr {
 	margin-bottom: 50px;
 }
 
+/* GENERAL SHARING STYLES */
+.share img {
+	width: 48px;
+	border: 1px solid #3576be;
+	border-radius: 100px;
+	opacity: 0.25;
+	background-color: #3576be;
+}
+
+.share img:hover {
+	opacity: 1.0;
+}
+
+/* POST */
+
+.share, .tags {
+	margin-bottom: 20px;
+	height: 100%;
+}
+
+.tags .tag {
+	background: rgba(0, 0, 0, 0.1);
+	padding: 3px 20px 3px 20px;
+	margin-bottom: 3px;
+	border-radius: 20px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.tags .tag:hover {
+	background: #3576be;
+}
+
+header .share, footer .tags {
+	text-align: left;
+}
+
+header .tags, footer .share {
+	text-align: right;
+}
+
+footer {
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
+	padding-top: 20px;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -137,10 +182,6 @@ hr {
 .content {
 	padding-top: 50px;
 	padding-bottom: 50px;
-}
-
-.content .container .row:first-child {
-	margin-top: 50px;
 }
 
 /* FOOTER */

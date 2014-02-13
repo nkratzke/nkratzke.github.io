@@ -64,6 +64,7 @@ hr {
 	margin-bottom: 3px;
 	border-radius: 20px;
 	color: rgba(0, 0, 0, 0.5);
+	line-height: 1.75;
 }
 
 .tags .tag:hover {

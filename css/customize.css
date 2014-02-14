@@ -63,12 +63,13 @@ hr {
 	padding: 3px 20px 3px 20px;
 	margin-bottom: 3px;
 	border-radius: 20px;
-	color: rgba(0, 0, 0, 0.5);
+	color: black;
 	line-height: 1.75;
 }
 
 .tags .tag:hover {
-	background: #3576be;
+	color: white;
+	background: #ad0a22;
 }
 
 header .share, footer .tags {
@@ -225,16 +226,11 @@ footer {
 
 .footer {
 	color: rgba(255, 255, 255, 0.5);
-	background: rgba(0, 0, 0, 0.9); /*#4076be; /* #171c26; */
+	background: #3576be; /*#4076be; /* #171c26; */
 	font-size: 0.66em;
 	text-align: center;
 	padding-top: 20px;
-	padding-bottom: 50px;
-}
-
-.footer hr {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .footer a {
@@ -243,12 +239,4 @@ footer {
 
 .footer a:hover {
 	color: white;
-}
-
-.footer img {
-	opacity: 0.5;
-}
-
-.footer img:hover {
-	opacity: 1.0;
 }

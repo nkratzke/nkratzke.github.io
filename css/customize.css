@@ -46,6 +46,7 @@ hr {
 	border-radius: 48px;
 	background-size: 48px 48px;
 	background-position: center;
+	background-color: black;
 	opacity: 0.25;
 	margin-right: 5px;
 }
@@ -64,22 +65,18 @@ footer .share > a > span {
 
 .onTwitter {
 	background-image: url('/img/social/twitter-128.png');
-	background-color: #499ce8;
 }
 
 .onGooglePlus {
 	background-image: url('/img/social/googleplus-128.png');
-	background-color: #bf2720;
 }
 
 .onLinkedIn {
 	background-image: url('/img/social/linkedin-128.png');
-	background-color: #11518c;
 }
 
 .onXing {
 	background-image: url('/img/social/xing-128.png');
-	background-color: #105354;
 }
 
 

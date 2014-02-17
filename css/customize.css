@@ -43,7 +43,7 @@ hr {
 .share > a > span {
 	width: 48px;
 	height: 48px;
-	border-radius: 48px;
+	/* border-radius: 48px; */
 	background-size: 48px 48px;
 	background-position: center;
 	background-color: black;
@@ -90,9 +90,9 @@ footer .share > a > span {
 
 .tags .tag {
 	background: rgba(0, 0, 0, 0.1);
-	padding: 3px 20px 3px 20px;
-	margin-bottom: 3px;
-	border-radius: 20px;
+	padding: 2px 10px 2px 10px;
+	margin-bottom: 2px;
+	/* border-radius: 20px; */
 	color: black;
 	line-height: 1.75;
 }

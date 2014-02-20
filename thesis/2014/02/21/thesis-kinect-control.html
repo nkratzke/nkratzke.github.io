@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kinect to Touch Control Framework</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/customize.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+
+    <!-- ShareThis Scripts
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "ur-be54e553-bdea-6613-5866-3a0cca99f467", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>-->
+
+    <!-- Google Analytics -->    
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-380838-9']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+  </head>
+  <body>
+    
+    <!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    	<span class="sr-only">Toggle navigation</span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">nkode.io</span></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+    	<li><a href="/about.html">About</a></li>
+		<li><a href="/thesis/">Thesis</a></li>    	
+    	<li><a href="/publications.html">Publications</a></li>            
+    <!--	<li><a href="#about">Research</a></li>            
+    	<li><a href="#contact">Lectures</a></li>
+    	<li><a href="#contact">Thesis</a></li>
+    	<li><a href="#contact">Publications</a></li>-->
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+    
+    
+    
+    <div class="content">
+      <div class="container">
+        <article class"post">
+	<header>
+		<h2>Kinect to Touch Control Framework</h2>
+		<p class="meta"><strong>21 Feb 2014</strong>
+		
+		by <em>Nane Kratzke</em>
+			
+		</p>
+		<p class="share hidden-print">
+	<a href="http://twitter.com/home?status=Kinect+to+Touch+Control+Framework http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html" target="_blank"><span class="onTwitter"></span></a>
+	<a href="https://plus.google.com/share?url=http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html" target="_blank"><span class="onGooglePlus"></span></a>
+	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html&title=Kinect+to+Touch+Control+Framework&summary=&source=" target="_blank"><span class="onLinkedIn"></span></a>
+	<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Fwww.nkode.io%2Fthesis%2F2014%2F02%2F21%2Fthesis-kinect-control.html&title=Kinect+to+Touch+Control+Framework" target="_blank"><span class="onXing"></span></a>
+</p>
+
+		<p class="tags hidden-print">
+	<strong>Tags: </strong>
+	
+	<span class="tag">thesis</span>
+	
+	<span class="tag">kinect</span>
+	
+</p>
+	</header>
+	<section>
+		<h3>Aufgabenstellung</h3>
+
+<p>In Zusammenarbeit mit der <a href="http://www.sforit.de/">Solutions For Innovative Technology GmbH</a> soll die Entwicklung einer Gestensteuerungs-Umgebung erfolgen. Eine Host-Anwendung soll Handbewegungen des Nutzers über eine angeschlossene Microsoft <a href="http://www.xbox.com/de-DE/Kinect">Kinect</a> für Windows erkennen und in Touch-Befehle umwandeln, sodass die Bedienung einer oder mehrerer Client-Applikationen mittels Gestensteuerung möglich wird. Dieses Konzept fügt sich in eine Umgebung mit weiteren Geräten wie Microsoft <a href="http://www.microsoft.com/en-us/pixelsense/default.aspx">PixelSense</a> und Microsoft Surface ein und soll im Zusammenhang mit diesen für Präsentationsflächen z.B. auf Messen verwendet werden.</p>
+
+<p>Zentraler Aspekt der Aufgabenstellung ist die Entwicklung einer Schnittstelle für die Umwandlung von <a href="http://www.xbox.com/de-DE/Kinect">Kinect</a>-Gesten-Daten in Touch-Daten und deren Übermittlung an verschiedene Touch-fähige Endgeräte. Dabei soll die Möglichkeit bestehen, gleichzeitig an mehrere Geräte zu senden. Außerdem soll die Übertragung nicht an eine bestimmte Darstellung gebunden sein, sondern die Informationen sollen möglichst universell nutzbar sein. Der prototypische Nachweis erfolgt über eine zu entwickelnde Empfänger-Software, die empfangene Daten geeignet umsetzt.</p>
+
+<p>Hierzu müssen im Detail folgende Teilaufgaben bearbeitet werden:</p>
+
+<ul>
+<li><strong>Anforderungsanalyse</strong> an eine Kinect to Touch Umsetzung vor dem Hintergrund des oben beschriebenen Anwendungsrahmens</li>
+<li>Entwicklung einer geeigneten <strong>Evaluations- und Nachweisstrategie (QS)</strong></li>
+<li><strong>Analyse und Auswahl geeigneter Protokolle und Frameworks</strong> zur Übertragung von Kinect Steueranweisungen (und deren geeignete Umsetzung für Touch-fähige Endgeräte)</li>
+<li>Entwicklung einer modularen/erweiterbaren <strong>Architektur</strong> zur Erfassung von Kinect Steueranweisungen und Übertragung dieser an Touch-fähige Endgeräte</li>
+<li><strong>Implementierung</strong> inkl. Test/Nachweis eines Moduls zur Erfassung, Aufbereitung und Verbreitung von Kinect Positions- und Steuerdaten</li>
+<li>Implementierung inkl. Test/Nachweis eines Moduls zur Umsetzung von übermittelten und aufbereiteten Kinect Positions- und Steuerdaten in Touch-Anweisungen</li>
+<li>Der <strong>prototypische Nachweis</strong> der Machbarkeit erfolgt mittels einer Anwendung, die ein Verkaufsregal mit verschiedenen Produkten darstellt. Zu jedem Produkt können dann durch &quot;Berühren&quot; mittels Geste weitere Informationen abgerufen werden. Ggf. kann der Nachweis der Machbarkeit an einem anderen Betrachtungsgegenstand vergleichbarer Komplexität erfolgen.</li>
+<li><strong>Begleitende Dokumentation</strong> der oben angegebenen Schritte, Designentscheidungen und Ergebnisse (Bachelorarbeit)</li>
+</ul>
+
+	</section>
+	<footer>
+		<div class="row">
+			<div class="col-sm-6">
+				<p class="tags hidden-print">
+	<strong>Tags: </strong>
+	
+	<span class="tag">thesis</span>
+	
+	<span class="tag">kinect</span>
+	
+</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="share hidden-print">
+	<a href="http://twitter.com/home?status=Kinect+to+Touch+Control+Framework http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html" target="_blank"><span class="onTwitter"></span></a>
+	<a href="https://plus.google.com/share?url=http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html" target="_blank"><span class="onGooglePlus"></span></a>
+	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html&title=Kinect+to+Touch+Control+Framework&summary=&source=" target="_blank"><span class="onLinkedIn"></span></a>
+	<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Fwww.nkode.io%2Fthesis%2F2014%2F02%2F21%2Fthesis-kinect-control.html&title=Kinect+to+Touch+Control+Framework" target="_blank"><span class="onXing"></span></a>
+</p>
+
+			</div>
+		</div>
+	</footer>
+
+      </div>
+    </div>
+    
+    <div class="end hidden-print">
+  <div class="container">
+      <div class="row">
+    	<div class="col-sm-5 block">
+	    	<center>
+		    	&copy; Nane Kratzke (All rights reserved)
+		   		<div class="socialsites">
+   <a href="https://twitter.com/nanekratzke" title="Twitter"><img src="/img/social/twitter-128.png" alt="Twitter"></a>
+   <a href="http://www.slideshare.com/i21aneka" title="Slideshare"><img src="/img/social/slideshare-128.png" alt="Slideshare"></a>
+   <a href="https://github.com/nkratzke" title="Github"><img src="/img/social/github-128.png" alt="Github"></a>
+   <a href="https://de.linkedin.com/in/nanekratzke" title="LinkedIN"><img src="/img/social/linkedin-128.png" alt="LinkedIN"></a>
+   <a href="https://www.xing.com/profile/Nane_Kratzke" title="Xing"><img src="/img/social/xing-128.png" alt="Xing"></a>
+   <a href="https://plus.google.com/+NaneKratzke" title="Google Plus"><img src="/img/social/googleplus-128.png" alt="Google Plus"></a>
+   <a href="https://www.facebook.com/nane.kratzke" title="Facebook"><img src="/img/social/facebook-128.png" alt="Facebook"></a>
+</div>
+    		</center>
+    	</div>
+       <div class="col-sm-2"></div>
+    	<div class="col-sm-5 block hidden-xs">
+	    	<center>
+		      Links to my official sites
+		      <div class="officialsites">
+   <a href="http://www.fh-luebeck.de/Inhalt/09_Fachhochschule_intern/07_Services/70_Verzeichnis_der_Hochschulangehoerigen/06_personenarchiv/kratzke_nane.html"><img src="/img/official/fhl-logo.png"></a>
+   <a href="http://www.cosa.fh-luebeck.de/en/home/kratzke"><img src="/img/official/cosa-logo.png"></a>
+</div>
+    		</center>
+    	</div>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<div class="footer hidden-print">
+	<div class="container">
+		<center>
+			<a href="/about.html">About</a> &bullet;		
+			<a href="/disclosure.html">Contact</a> &bullet;
+			<a href="/disclosure.html">Legal Disclosure</a>
+		</center>
+	</div>
+</div>
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

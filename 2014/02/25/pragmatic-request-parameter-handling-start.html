@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My good deed yesterday: Provided a proposal for pragmatic post parameter handling in start</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/customize.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+
+    <!-- ShareThis Scripts
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "ur-be54e553-bdea-6613-5866-3a0cca99f467", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>-->
+
+    <!-- Google Analytics -->    
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-380838-9']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+  </head>
+  <body>
+    
+    <!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    	<span class="sr-only">Toggle navigation</span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">nkode.io</span></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+    	<li><a href="/about.html">About</a></li>
+		<li><a href="/thesis/">Thesis</a></li>    	
+    	<li><a href="/publications.html">Publications</a></li>            
+    <!--	<li><a href="#about">Research</a></li>            
+    	<li><a href="#contact">Lectures</a></li>
+    	<li><a href="#contact">Thesis</a></li>
+    	<li><a href="#contact">Publications</a></li>-->
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+    
+    
+    
+    <div class="content">
+      <div class="container">
+        <article class"post">
+	<header>
+		<h2>My good deed yesterday: Provided a proposal for pragmatic post parameter handling in start</h2>
+		<p class="meta"><strong>25 Feb 2014</strong>
+		
+		by <em>Nane Kratzke</em>
+			
+		</p>
+		<p class="share hidden-print">
+	<a href="http://twitter.com/home?status=My+good+deed+yesterday%3A+Provided+a+proposal+for+pragmatic+post+parameter+handling+in+start http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html" target="_blank"><span class="onTwitter"></span></a>
+	<a href="https://plus.google.com/share?url=http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html" target="_blank"><span class="onGooglePlus"></span></a>
+	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html&title=My+good+deed+yesterday%3A+Provided+a+proposal+for+pragmatic+post+parameter+handling+in+start&summary=&source=" target="_blank"><span class="onLinkedIn"></span></a>
+	<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Fwww.nkode.io%2F2014%2F02%2F25%2Fpragmatic-request-parameter-handling-start.html&title=My+good+deed+yesterday%3A+Provided+a+proposal+for+pragmatic+post+parameter+handling+in+start" target="_blank"><span class="onXing"></span></a>
+</p>
+
+		<p class="tags hidden-print">
+	<strong>Tags: </strong>
+	
+	<span class="tag">dart</span>
+	
+	<span class="tag">programming</span>
+	
+	<span class="tag">start</span>
+	
+</p>
+	</header>
+	<section>
+		<h3>Pragmatic request parameter handling with start</h3>
+
+<p><a href="https://github.com/lvivski/start">Start</a> is a <a href="http://www.sinatrarb.com/">Sinatra</a> inspired web framework for <a href="https://www.dartlang.org/">Dart</a>. Up to version 0.2.0 <a href="https://github.com/lvivski/start">Start</a> provided no pragmatic post parameter handling. With <a href="https://github.com/lvivski/start/issues/49">issue 49</a> I proposed a <code>getPostParams</code> method for the <code>Request</code> class.</p>
+
+<p>That is how my <a href="https://github.com/lvivski/start/issues/49">proposal</a> looked like:</p>
+
+<div class="highlight"><pre><code class="dart"><span class="cm">/**</span>
+<span class="cm"> * Method to get post parameters from a [Request] object.</span>
+<span class="cm"> */</span>
+<span class="n">Future</span><span class="o">&lt;</span><span class="n">Map</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">String</span><span class="o">&gt;&gt;</span> <span class="n">getPostParams</span><span class="p">({</span> <span class="n">Encoding</span> <span class="nl">enc:</span> <span class="n">UTF8</span> <span class="p">})</span> <span class="p">{</span>
+  <span class="n">Completer</span> <span class="n">c</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Completer</span><span class="p">();</span>
+  <span class="k">this</span><span class="p">.</span><span class="n">input</span><span class="p">.</span><span class="n">transform</span><span class="p">(</span><span class="kd">const</span> <span class="n">AsciiDecoder</span><span class="p">()).</span><span class="n">listen</span><span class="p">((</span><span class="n">content</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">final</span> <span class="n">postParams</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Map</span><span class="p">.</span><span class="n">fromIterable</span><span class="p">(</span>
+        <span class="n">content</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;&amp;&quot;</span><span class="p">).</span><span class="n">map</span><span class="p">((</span><span class="n">kvs</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">kvs</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;=&quot;</span><span class="p">)),</span>
+        <span class="nl">key:</span> <span class="p">(</span><span class="n">kv</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">Uri</span><span class="p">.</span><span class="n">decodeQueryComponent</span><span class="p">(</span><span class="n">kv</span><span class="p">[</span><span class="m">0</span><span class="p">],</span> <span class="nl">encoding:</span> <span class="n">enc</span><span class="p">),</span>
+        <span class="nl">value:</span> <span class="p">(</span><span class="n">kv</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">Uri</span><span class="p">.</span><span class="n">decodeQueryComponent</span><span class="p">(</span><span class="n">kv</span><span class="p">[</span><span class="m">1</span><span class="p">],</span> <span class="nl">encoding:</span> <span class="n">enc</span><span class="p">)</span>
+    <span class="p">);</span>
+    <span class="n">c</span><span class="p">.</span><span class="n">complete</span><span class="p">(</span><span class="n">postParams</span><span class="p">);</span>
+  <span class="p">});</span>
+  <span class="k">return</span> <span class="n">c</span><span class="p">.</span><span class="n">future</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>This proposal has made it to <a href="https://github.com/lvivski/start">Start</a> version 0.2.1 with following <a href="https://github.com/lvivski/start/commit/8b68217ae8b3674429e883fc64f1a66b6f8dfcc8">commit</a>. So with <a href="https://github.com/lvivski/start">Start</a> version 0.2.1 you can do now the following pragmatic form of post request parameter handling.</p>
+
+<div class="highlight"><pre><code class="dart"><span class="k">import</span> <span class="s1">&#39;package:start/start.dart&#39;</span><span class="p">;</span>
+
+<span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">start</span><span class="p">(</span><span class="nl">port:</span> <span class="m">3000</span><span class="p">).</span><span class="n">then</span><span class="p">((</span><span class="n">Server</span> <span class="n">app</span><span class="p">)</span> <span class="p">{</span>
+    
+    <span class="p">[...]</span>
+    
+    <span class="n">app</span><span class="p">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;/formular&quot;</span><span class="p">).</span><span class="n">listen</span><span class="p">((</span><span class="n">Request</span> <span class="n">req</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">req</span><span class="p">.</span><span class="n">getPostParams</span><span class="p">().</span><span class="n">then</span><span class="p">((</span><span class="n">params</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">final</span> <span class="n">fn</span> <span class="o">=</span> <span class="n">params</span><span class="p">[</span><span class="s1">&#39;first name&#39;</span><span class="p">];</span>
+        <span class="kd">final</span> <span class="n">ln</span> <span class="o">=</span> <span class="n">params</span><span class="p">[</span><span class="s1">&#39;last name&#39;</span><span class="p">];</span>
+        <span class="n">req</span><span class="p">.</span><span class="n">response</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="s2">&quot;Hello </span><span class="si">$</span><span class="n">fn</span><span class="s2"> </span><span class="si">$</span><span class="n">ln</span><span class="s2">&quot;</span><span class="p">);</span>
+      <span class="p">});</span>
+    <span class="p">});</span>
+
+    <span class="p">[...]</span>
+
+  <span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Thanks to <a href="https://github.com/lvivski">Yehor Lvivski</a> for providing the <a href="http://www.sinatrarb.com/">Sinatra</a> inspired <a href="https://github.com/lvivski/start">Start</a> web framework and for integrating <a href="https://github.com/lvivski/start/issues/49">issue 49</a>.
+It makes post parameter handling with <a href="https://github.com/lvivski/start">Start</a> more pragmatic.</p>
+
+	</section>
+	<footer>
+		<div class="row">
+			<div class="col-sm-6">
+				<p class="tags hidden-print">
+	<strong>Tags: </strong>
+	
+	<span class="tag">dart</span>
+	
+	<span class="tag">programming</span>
+	
+	<span class="tag">start</span>
+	
+</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="share hidden-print">
+	<a href="http://twitter.com/home?status=My+good+deed+yesterday%3A+Provided+a+proposal+for+pragmatic+post+parameter+handling+in+start http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html" target="_blank"><span class="onTwitter"></span></a>
+	<a href="https://plus.google.com/share?url=http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html" target="_blank"><span class="onGooglePlus"></span></a>
+	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html&title=My+good+deed+yesterday%3A+Provided+a+proposal+for+pragmatic+post+parameter+handling+in+start&summary=&source=" target="_blank"><span class="onLinkedIn"></span></a>
+	<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Fwww.nkode.io%2F2014%2F02%2F25%2Fpragmatic-request-parameter-handling-start.html&title=My+good+deed+yesterday%3A+Provided+a+proposal+for+pragmatic+post+parameter+handling+in+start" target="_blank"><span class="onXing"></span></a>
+</p>
+
+			</div>
+		</div>
+	</footer>
+
+      </div>
+    </div>
+    
+    <div class="end hidden-print">
+  <div class="container">
+      <div class="row">
+    	<div class="col-sm-5 block">
+	    	<center>
+		    	&copy; Nane Kratzke (All rights reserved)
+		   		<div class="socialsites">
+   <a href="https://twitter.com/nanekratzke" title="Twitter"><img src="/img/social/twitter-128.png" alt="Twitter"></a>
+   <a href="http://www.slideshare.com/i21aneka" title="Slideshare"><img src="/img/social/slideshare-128.png" alt="Slideshare"></a>
+   <a href="https://github.com/nkratzke" title="Github"><img src="/img/social/github-128.png" alt="Github"></a>
+   <a href="https://de.linkedin.com/in/nanekratzke" title="LinkedIN"><img src="/img/social/linkedin-128.png" alt="LinkedIN"></a>
+   <a href="https://www.xing.com/profile/Nane_Kratzke" title="Xing"><img src="/img/social/xing-128.png" alt="Xing"></a>
+   <a href="https://plus.google.com/+NaneKratzke" title="Google Plus"><img src="/img/social/googleplus-128.png" alt="Google Plus"></a>
+   <a href="https://www.facebook.com/nane.kratzke" title="Facebook"><img src="/img/social/facebook-128.png" alt="Facebook"></a>
+</div>
+    		</center>
+    	</div>
+       <div class="col-sm-2"></div>
+    	<div class="col-sm-5 block hidden-xs">
+	    	<center>
+		      Links to my official sites
+		      <div class="officialsites">
+   <a href="http://www.fh-luebeck.de/Inhalt/09_Fachhochschule_intern/07_Services/70_Verzeichnis_der_Hochschulangehoerigen/06_personenarchiv/kratzke_nane.html"><img src="/img/official/fhl-logo.png"></a>
+   <a href="http://www.cosa.fh-luebeck.de/en/home/kratzke"><img src="/img/official/cosa-logo.png"></a>
+</div>
+    		</center>
+    	</div>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<div class="footer hidden-print">
+	<div class="container">
+		<center>
+			<a href="/about.html">About</a> &bullet;		
+			<a href="/disclosure.html">Contact</a> &bullet;
+			<a href="/disclosure.html">Legal Disclosure</a>
+		</center>
+	</div>
+</div>
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

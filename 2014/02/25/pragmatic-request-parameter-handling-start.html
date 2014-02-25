@@ -138,8 +138,33 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <span class="p">}</span>
 </code></pre></div>
 
-<p>Thanks to <a href="https://github.com/lvivski">Yehor Lvivski</a> for providing the <a href="http://www.sinatrarb.com/">Sinatra</a> inspired <a href="https://github.com/lvivski/start">Start</a> web framework and for integrating <a href="https://github.com/lvivski/start/issues/49">issue 49</a>.
-It makes post parameter handling with <a href="https://github.com/lvivski/start">Start</a> more pragmatic.</p>
+<p>Thanks to <a href="https://github.com/lvivski">Yehor Lvivski</a> for providing the <a href="http://www.sinatrarb.com/">Sinatra</a> inspired <a href="https://github.com/lvivski/start">Start</a> web framework and for integrating <a href="https://github.com/lvivski/start/issues/49">issue 49</a>. It makes post parameter handling with <a href="https://github.com/lvivski/start">Start</a> more pragmatic.</p>
+
+<h3>Update</h3>
+
+<p>Since <a href="https://github.com/lvivski/start">Start</a> version 0.2.3 you should use <code>payload()</code>. By using <code>payload</code> you can also handle parameters provided via POST, PUT, DELETE in request body. Above mentioned parameter handling changes to:</p>
+
+<div class="highlight"><pre><code class="dart"><span class="k">import</span> <span class="s1">&#39;package:start/start.dart&#39;</span><span class="p">;</span>
+
+<span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">start</span><span class="p">(</span><span class="nl">port:</span> <span class="m">3000</span><span class="p">).</span><span class="n">then</span><span class="p">((</span><span class="n">Server</span> <span class="n">app</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="p">[...]</span>
+
+    <span class="c1">// Since version 0.2.3 ALSO put and delete is possible here</span>
+    <span class="n">app</span><span class="p">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;/formular&quot;</span><span class="p">).</span><span class="n">listen</span><span class="p">((</span><span class="n">Request</span> <span class="n">req</span><span class="p">)</span> <span class="p">{</span>  
+      <span class="n">req</span><span class="p">.</span><span class="n">payload</span><span class="p">().</span><span class="n">then</span><span class="p">((</span><span class="n">params</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">final</span> <span class="n">fn</span> <span class="o">=</span> <span class="n">params</span><span class="p">[</span><span class="s1">&#39;first name&#39;</span><span class="p">];</span>
+        <span class="kd">final</span> <span class="n">ln</span> <span class="o">=</span> <span class="n">params</span><span class="p">[</span><span class="s1">&#39;last name&#39;</span><span class="p">];</span>
+        <span class="n">req</span><span class="p">.</span><span class="n">response</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="s2">&quot;Hello </span><span class="si">$</span><span class="n">fn</span><span class="s2"> </span><span class="si">$</span><span class="n">ln</span><span class="s2">&quot;</span><span class="p">);</span>
+      <span class="p">});</span>
+    <span class="p">});</span>
+
+    <span class="p">[...]</span>
+
+  <span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div>
 
 	</section>
 	<footer>

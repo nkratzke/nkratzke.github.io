@@ -125,7 +125,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     <span class="p">[...]</span>
     
     <span class="n">app</span><span class="p">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;/formular&quot;</span><span class="p">).</span><span class="n">listen</span><span class="p">((</span><span class="n">Request</span> <span class="n">req</span><span class="p">)</span> <span class="p">{</span>
-      <span class="n">req</span><span class="p">.</span><span class="n">getPostParams</span><span class="p">().</span><span class="n">then</span><span class="p">((</span><span class="n">params</span><span class="p">)</span> <span class="p">{</span>
+      <span class="n">req</span><span class="p">.</span><span class="n">postParams</span><span class="p">().</span><span class="n">then</span><span class="p">((</span><span class="n">params</span><span class="p">)</span> <span class="p">{</span>
         <span class="kd">final</span> <span class="n">fn</span> <span class="o">=</span> <span class="n">params</span><span class="p">[</span><span class="s1">&#39;first name&#39;</span><span class="p">];</span>
         <span class="kd">final</span> <span class="n">ln</span> <span class="o">=</span> <span class="n">params</span><span class="p">[</span><span class="s1">&#39;last name&#39;</span><span class="p">];</span>
         <span class="n">req</span><span class="p">.</span><span class="n">response</span><span class="p">.</span><span class="n">send</span><span class="p">(</span><span class="s2">&quot;Hello </span><span class="si">$</span><span class="n">fn</span><span class="s2"> </span><span class="si">$</span><span class="n">ln</span><span class="s2">&quot;</span><span class="p">);</span>

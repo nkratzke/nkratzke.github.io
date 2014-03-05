@@ -133,6 +133,14 @@ footer {
 	color: white;
 }
 
+.navbar .navbar-collapse img {
+	height: 24px;
+}
+
+.navbar .navbar-collapse img:hover {
+	opacity: 1.0;
+}
+
 /* HOME PAGE */
 
 #home {

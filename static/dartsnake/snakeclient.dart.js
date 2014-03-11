@@ -348,6 +348,8 @@ yu:function(a){var z
 if(a>=-2147483648&&a<=2147483647)return a|0
 if(isFinite(a)){z=a<0?Math.ceil(a):Math.floor(a)
 return z+0}throw H.b(P.f(''+a))},
+UD:function(a){if(a<0)return-Math.round(-a)
+else return Math.round(a)},
 bu:function(a){if(a===0&&1/a<0)return"-0.0"
 else return""+a},
 gEo:function(a){return a&0x1FFFFFFF},
@@ -3534,15 +3536,21 @@ z.Um=C.Ks
 this.Wr.eC(z)
 return}this.Vt.wf()
 this.Wr.eC(this.Vt)},
-OT:function(){var z=this.Vt
+OT:function(){var z,y
+z=this.Vt
 if(!z.EG.gWa()||z.EG.guF()){z=this.Vt
 z.Um=C.Ks
 this.Wr.eC(z)
 return}z=this.Vt
+y=z.yD
 if(J.de(z.Um,C.L2))z.EG.h7()
+if(this.Vt.yD>y)this.a1()
 z=this.Vt
 if(!z.EG.gWa()||z.EG.guF())return
 this.Wr.eC(this.Vt)},
+a1:function(){this.bj.Gv()
+var z=this.Vt.yD
+this.bj=P.SZ(P.k5(0,0,C.CD.yu(C.CD.UD(C.Xl.Fq*Math.pow(0.99,z))),0,0,0),new E.rk(this))},
 T7:function(){var z=J.Vg(document.querySelector("#start"))
 H.VM(new W.xC(0,z.uv,z.Ph,W.VF(new E.SB(this)),z.Sg),[H.Kp(z,0)]).Zz()
 z=H.VM(new W.RO(window,C.rl.Ph,!1),[null])
@@ -3594,6 +3602,9 @@ z.JF=1
 z.m9=0
 break
 default:}}},
+rk:{
+"^":"Tp:8;a",
+call$1:function(a){return this.a.OT()}},
 zG:{
 "^":"a;Ir,fo,JF,m9",
 h7:function(){var z,y,x,w,v,u,t

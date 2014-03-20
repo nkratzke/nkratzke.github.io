@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-weight: 700;
 }
 
@@ -146,6 +146,11 @@ footer {
 #home {
 	background-color: #ad0a22;
 	color: rgba(255, 255, 255, 0.75);
+}
+
+#home h1, #home h2, #home h3 {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-weight: 700;
 }
 
 #home a {

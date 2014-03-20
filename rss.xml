@@ -9,7 +9,15 @@
     <link>http://www.nkode.io</link>
     <description>A Blog About Programming, Cloud Computing, Webbased Systems</description>
     <copyright>Nane Kratzke, 2014</copyright>
-    <pubDate>Tue, 18 Mar 2014 14:17:55 -0000</pubDate>
+    <pubDate>Thu, 20 Mar 2014 08:24:17 -0000</pubDate>
+    <item>
+      <title>Analysis of Legacy Code (Analyse von Legacy Code)</title>
+      <link>http://www.nkode.io/thesis/2014/03/20/thesis-analyse-von-legacy-software.html</link>
+      <description></description>
+      <pubDate>Thu, 20 Mar 2014 08:24:17 -0000</pubDate>
+      <guid>http://www.nkode.io/thesis/2014/03/20/thesis-analyse-von-legacy-software.html</guid>
+      <dc:date>2014-03-20T08:24:17Z</dc:date>
+    </item>
     <item>
       <title>Lecture: Webtechnologies (webtech)</title>
       <link>http://www.nkode.io/lecture/2014/03/18/lecture-webtechnology.html</link>
@@ -93,6 +101,6 @@ To get the most out of the survey you should be familiar with at least one progr
       <guid>http://www.nkode.io/2014/02/13/dart-part-I.html</guid>
       <dc:date>2014-02-13T08:39:48Z</dc:date>
     </item>
-    <dc:date>2014-03-18T14:17:55Z</dc:date>
+    <dc:date>2014-03-20T08:24:17Z</dc:date>
   </channel>
 </rss>

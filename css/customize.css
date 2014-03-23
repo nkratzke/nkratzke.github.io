@@ -1,16 +1,16 @@
-@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,700|Pontano+Sans);
 
 /* GENERAL TYPOGRAPHY */
 
 body {
-	font-family: 'Helvetica', 'Arial', sans-serif;
-	font-weight: 400;
+	font-family: 'Pontana Sans', sans-serif;
+	font-weight: lighter;
+	word-spacing: 2px;
 	font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-weight: 700;
 }
 
@@ -149,7 +149,7 @@ footer {
 }
 
 #home h1, #home h2, #home h3 {
-	font-family: 'Oswald', 'Arial', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-weight: 700;
 }
 

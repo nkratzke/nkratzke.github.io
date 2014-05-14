@@ -184,6 +184,28 @@ footer {
 	margin-top: 0px;
 }
 
+/* TEASER STYLING */
+
+.postteaser {
+	border: 1px solid rgb(0, 0, 0);
+	margin-bottom: 20px;
+}
+
+.postteaser h3 {
+	background-color: rgb(0, 0, 0);
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.postteaser h3 a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.postteaser h3 ~ p {
+	padding: 20px;
+}
+
 /* BIBLIOGRAPHY */
 .bibliography {
 	list-style-type: none;

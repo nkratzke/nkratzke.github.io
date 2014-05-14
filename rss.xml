@@ -93,9 +93,7 @@
     <item>
       <title>Tour de Dart (Part I)</title>
       <link>http://www.nkode.io/2014/02/13/dart-part-I.html</link>
-      <description>&lt;p&gt;This (german) presentation provides a comprehensive survey of the programming language &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; and its core concepts.
-&lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; is a web programming language mainly developed by Google with the intention to provide an alternative to JavaScript (the actual de facto standard in web client side programming).
-To get the most out of the survey you should be familiar with at least one programming language and the concepts of object oriented programming.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&quot;/img/posts/dart-tour.png&quot; width=&quot;100%&quot; class=&quot;photo&quot; /&gt;&lt;/p&gt;
 </description>
       <pubDate>Thu, 13 Feb 2014 08:39:48 -0000</pubDate>
       <guid>http://www.nkode.io/2014/02/13/dart-part-I.html</guid>

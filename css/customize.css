@@ -209,7 +209,48 @@ footer {
 
 .postteaser p {
 	padding: 20px;
-	margin: px;
+}
+
+/* ABOUT ME STYLING (Landing Page) */
+.aboutme {
+	position: relative;
+	margin-bottom: 40px;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.aboutme h3 {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.aboutme h3 a, .aboutme h3 small {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.aboutme p {
+	padding: 20px;
+}
+
+/* SOCIALSITES STYLING (Landing Page, Right Bar) */
+.socialsites {
+	text-align: left;
+}
+
+.socialsites img {
+	width: 32px;
+	opacity: 0.5;
+}
+
+.socialsites img:hover {
+	opacity: 1.0;
 }
 
 /* BIBLIOGRAPHY */

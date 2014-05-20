@@ -9,14 +9,14 @@
     <link>http://www.nkode.io</link>
     <description>A Blog About Programming, Cloud Computing, Webbased Systems</description>
     <copyright>Nane Kratzke, 2014</copyright>
-    <pubDate>Wed, 14 May 2014 19:37:25 -0000</pubDate>
+    <pubDate>Mon, 19 May 2014 19:37:25 -0000</pubDate>
     <item>
       <title>Action Item Ontology</title>
-      <link>http://www.nkode.io/thesis/2014/05/14/thesis-action-item-ontology.html</link>
+      <link>http://www.nkode.io/thesis/2014/05/19/thesis-action-item-ontology.html</link>
       <description></description>
-      <pubDate>Wed, 14 May 2014 19:37:25 -0000</pubDate>
-      <guid>http://www.nkode.io/thesis/2014/05/14/thesis-action-item-ontology.html</guid>
-      <dc:date>2014-05-14T19:37:25Z</dc:date>
+      <pubDate>Mon, 19 May 2014 19:37:25 -0000</pubDate>
+      <guid>http://www.nkode.io/thesis/2014/05/19/thesis-action-item-ontology.html</guid>
+      <dc:date>2014-05-19T19:37:25Z</dc:date>
     </item>
     <item>
       <title>Analysis of Legacy Code (Analyse von Legacy Code)</title>
@@ -109,6 +109,6 @@ To get the most out of the survey you should be familiar with at least one progr
       <guid>http://www.nkode.io/2014/02/13/dart-part-I.html</guid>
       <dc:date>2014-02-13T08:39:48Z</dc:date>
     </item>
-    <dc:date>2014-05-14T19:37:25Z</dc:date>
+    <dc:date>2014-05-19T19:37:25Z</dc:date>
   </channel>
 </rss>

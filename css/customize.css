@@ -40,23 +40,24 @@ hr {
 
 /* GENERAL SHARING STYLES */
 
+.share {
+	height: 48px;
+}
+
 .share > a > span {
 	width: 48px;
 	height: 48px;
 	/* border-radius: 48px; */
 	background-size: 48px 48px;
 	background-position: center;
-	background-color: black;
-	opacity: 0.25;
+	/* background-color: black; */
+	opacity: 0.5;
 	margin-right: 5px;
-}
-
-header .share > a > span {
 	float: left;
 }
 
-.share > a > span {
-	float: right;
+.share > a:last-child:after > span {
+	clear: both;
 }
 
 .share > a:hover > span {
@@ -85,15 +86,14 @@ header .share > a > span {
 
 .share, .tags {
 	margin-bottom: 20px;
-	height: 100%;
+	color: rgba(255, 255, 255, 0.5);	
 }
 
 .tags .tag {
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.5);
 	padding: 2px 10px 2px 10px;
 	margin-bottom: 2px;
-	/* border-radius: 20px; */
-	color: black;
+	border-radius: 20px;
 	line-height: 1.75;
 }
 
@@ -124,16 +124,7 @@ header .headline h2 {
 	margin: 0px;
 }
 
-header .share, footer .tags {
-	text-align: left;
-}
-
-footer .share {
-	text-align: right;
-}
-
 footer {
-	border-top: 1px solid rgba(0, 0, 0, 0.5);
 	padding-top: 20px;
 }
 
@@ -150,7 +141,7 @@ footer {
 }
 
 .navbar .navbar-brand {
-	font-family: 'Courier', monospace;;
+	font-family: 'Dosis', sans-serif;
 	font-size: 3.0rem;
 	color: white;
 }
@@ -324,10 +315,6 @@ footer {
 
 
 /* CENTRAL CONTENT AREA */
-
-.tagshare {
-	margin-bottom: 20px;
-}
 
 .content {
 	padding-top: 50px;

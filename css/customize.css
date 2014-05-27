@@ -22,7 +22,6 @@ h3 { font-size: 3rem; }
 
 /* GENERAL IMAGE HANDLING */
 img {
-	opacity: 0.25;
 }
 
 img.photo {
@@ -232,6 +231,24 @@ footer {
 
 .postteaser p {
 	padding: 20px;
+}
+
+/* TAGTEASER STYLING */
+.tagteaser tr td:first-child {
+	white-space: nowrap;
+}
+
+.tagteaser tr td {
+	vertical-align: top;
+	padding: 0.5em;
+}
+
+.tagteaser tr:nth-child(odd) td {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tagteaser tr:last-child td {
+	border-bottom: 0px solid transparent;	
 }
 
 /* ABOUT ME STYLING (Landing Page) */

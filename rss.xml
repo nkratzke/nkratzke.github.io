@@ -9,7 +9,15 @@
     <link>http://www.nkode.io</link>
     <description>A Blog About Programming, Cloud Computing, Webbased Systems</description>
     <copyright>Nane Kratzke, 2014</copyright>
-    <pubDate>Mon, 19 May 2014 19:37:25 -0000</pubDate>
+    <pubDate>Sat, 24 May 2014 00:00:00 +0200</pubDate>
+    <item>
+      <title>Lecture: Webtechnologies (webtech)</title>
+      <link>http://www.nkode.io/lecture/2014/05/24/lecture-webtechnology.html</link>
+      <description></description>
+      <pubDate>Sat, 24 May 2014 00:00:00 +0200</pubDate>
+      <guid>http://www.nkode.io/lecture/2014/05/24/lecture-webtechnology.html</guid>
+      <dc:date>2014-05-24T00:00:00+02:00</dc:date>
+    </item>
     <item>
       <title>Action Item Ontology</title>
       <link>http://www.nkode.io/thesis/2014/05/19/thesis-action-item-ontology.html</link>
@@ -25,14 +33,6 @@
       <pubDate>Wed, 19 Mar 2014 20:04:25 -0000</pubDate>
       <guid>http://www.nkode.io/thesis/2014/03/19/thesis-analyse-von-legacy-software.html</guid>
       <dc:date>2014-03-19T20:04:25Z</dc:date>
-    </item>
-    <item>
-      <title>Lecture: Webtechnologies (webtech)</title>
-      <link>http://www.nkode.io/lecture/2014/03/18/lecture-webtechnology.html</link>
-      <description></description>
-      <pubDate>Tue, 18 Mar 2014 14:17:55 -0000</pubDate>
-      <guid>http://www.nkode.io/lecture/2014/03/18/lecture-webtechnology.html</guid>
-      <dc:date>2014-03-18T14:17:55Z</dc:date>
     </item>
     <item>
       <title>Analysis of Mouse Data (Analyse von Mausdaten)</title>
@@ -109,6 +109,6 @@ To get the most out of the survey you should be familiar with at least one progr
       <guid>http://www.nkode.io/2014/02/13/dart-part-I.html</guid>
       <dc:date>2014-02-13T08:39:48Z</dc:date>
     </item>
-    <dc:date>2014-05-19T19:37:25Z</dc:date>
+    <dc:date>2014-05-24T00:00:00+02:00</dc:date>
   </channel>
 </rss>

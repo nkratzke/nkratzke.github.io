@@ -50,11 +50,19 @@
     </url>
     <url>
         <loc>http://www.nkode.io/about.html</loc>
-        <lastmod>2014-05-28T16:56:10+02:00</lastmod>
+        <lastmod>2014-05-28T17:39:19+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/thesis/announced.html</loc>
+        <lastmod>2014-05-28T09:28:56+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/archive.html</loc>
         <lastmod>2014-05-27T19:25:25+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/thesis/completed.html</loc>
+        <lastmod>2014-05-28T09:39:40+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/disclosure.html</loc>
@@ -65,19 +73,11 @@
         <lastmod>2014-05-27T12:25:32+02:00</lastmod>
     </url>
     <url>
-        <loc>http://www.nkode.io/publications.html</loc>
-        <lastmod>2014-05-27T08:48:23+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/announced.html</loc>
-        <lastmod>2014-05-28T09:28:56+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/completed.html</loc>
-        <lastmod>2014-05-28T09:39:40+02:00</lastmod>
-    </url>
-    <url>
         <loc>http://www.nkode.io/thesis/ongoing.html</loc>
         <lastmod>2014-05-28T09:27:55+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/publications.html</loc>
+        <lastmod>2014-05-27T08:48:23+02:00</lastmod>
     </url>
 </urlset>

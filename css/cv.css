@@ -54,6 +54,29 @@ table.cv tr td.end {
   border-top: 0px solid transparent;
 }
 
+span.avocational {
+  border-radius: 2em;
+  background-color: #428bca;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+
+span.vocational {
+  border-radius: 2em;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: black;
+  font-size: 0.8em;
+  padding: 0.5em;  
+}
+
+p.legend {
+  margin-top: 1.5em;
+  text-align: center;
+  font-size: 0.8em;
+}
+
 table.cv tr td.avocationalstart {
   font-size: 0.8em;
   text-align: center;

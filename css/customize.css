@@ -132,6 +132,16 @@ footer {
 	padding-top: 20px;
 }
 
+/* ADDITIONAL TAB STYLING */
+.nav-tabs .active {
+	border-top: 5px solid #428bca;
+}
+
+.nav-tabs li a {
+	margin-right: 0px;
+	border-radius: 0px;
+}
+
 /* TABBODY */
 .tabbody {
 	padding: 20px;

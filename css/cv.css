@@ -101,10 +101,8 @@ table.cv tr td.avocational {
   background-image: linear-gradient(90deg, transparent 10%, transparent 25%, #428bca 25%, #428bca 100%);
 }
 
-table tr td:last-child {
+table.cv tr td:last-child {
   padding: 0.5em;
-  color: #428bca;
-  border-left: 1px solid #428bca;
   border-top: 0px solid transparent !important;
 }
 

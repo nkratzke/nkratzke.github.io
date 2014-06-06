@@ -1,0 +1,70 @@
+		.teaser {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.teaser .sep {
+			height: 40px;
+		}
+
+		.teaser .post {
+			background-color: rgba(0, 0, 0, 0.05);
+			border-top: 10px solid rgba(0, 0, 0, 0.5);
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		.teaser .post a {
+			color: rgba(0, 0, 0, 0.5);
+		}
+
+		.teaser .thesis {
+			border-top: 10px solid darkred;
+		}
+
+		.teaser .thesis a {
+			color: darkred;
+		}
+
+		.teaser .lecture {
+			border-top: 10px solid #cc9900;
+		}
+
+		.teaser .lecture a {
+			color: #cc9900;
+		}
+
+		.teaser .project {
+			border-top: 10px solid darkgreen;
+		}
+
+		.teaser .project a {
+			border-top: 10px solid darkgreen;
+			color: darkgreen;
+		}
+
+		.teaser .content {
+			margin: 0px;
+			padding: 0px;
+			font-style: italic;
+		}
+
+		.teaser .content h3 {
+			margin-top: 0px;
+		}
+
+		.teaser .content p {
+			padding: 20px 20px 20px 20px;
+		}
+
+
+		.teaser .meta {
+			font-family: 'Dosis', sans-serif;
+			font-size: 1.25em;
+			color: rgba(0, 0, 0, 0.5);
+			margin-bottom: 20px;
+		}
+
+		.teaser img {
+			width: 100%;
+		}

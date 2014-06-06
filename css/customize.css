@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
-h1, h2, h3 { text-transform: uppercase; margin-top: 50px; }
+h1, h2, h3 { text-transform: uppercase; margin-top: 20px; }
 
 h1 { font-size: 5rem; }
 h2 { font-size: 4rem; }
@@ -79,18 +79,16 @@ hr {
 	background-image: url('/img/social/xing-128.png');
 }
 
-
-
 /* POST */
 
 .share, .tags {
 	margin-bottom: 20px;
-	color: rgba(255, 255, 255, 0.5);	
+	color: rgba(255, 255, 255, 0.5);
 }
 
 .tags a, .tags a:hover, .tags a:visited {
 	color: rgba(255, 255, 255, 0.5);
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .tags .tag {
@@ -134,7 +132,7 @@ footer {
 
 /* ADDITIONAL TAB STYLING */
 .nav-tabs .active {
-	border-top: 5px solid #428bca;
+	border-top: 5px solid darkred;
 }
 
 .nav-tabs li a {
@@ -174,6 +172,51 @@ footer {
 
 .navbar .navbar-collapse img:hover {
 	opacity: 1.0;
+}
+
+/* ACTION NAVIGATION */
+#home + #action_navigation {
+	margin-top: 0px;
+}
+
+#action_navigation {
+	margin-top: 50px;
+	background: #3576be;
+	/*background-image: url('/img/posts/standard.png');*/
+	background-position: center center;
+	background-size: cover;
+
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+#action_navigation a {
+	font-style: bold;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	width: 200px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+#action_navigation a.project:hover {
+	background: darkgreen;
+	border: 1px solid darkgreen;
+}
+
+#action_navigation a.lecture:hover {
+	background: #cc9900;
+	border: 1px solid #cc9900;
+}
+
+#action_navigation a.thesis:hover {
+	background: darkred;
+	border: 1px solid darkred;
+}
+
+#action_navigation a:hover {
+	text-decoration: none;
 }
 
 /* HOME PAGE */
@@ -223,7 +266,7 @@ footer {
 
 .postteaser {
 	margin-bottom: 40px;
-	background: rgba(0, 0, 0, 0.05);	
+	background: rgba(0, 0, 0, 0.05);
 }
 
 .postteaser .head {
@@ -266,7 +309,7 @@ footer {
 }
 
 .tagteaser tr:last-child td {
-	border-bottom: 0px solid transparent;	
+	border-bottom: 0px solid transparent;
 }
 
 /* ABOUT ME STYLING (Landing Page) */
@@ -409,7 +452,7 @@ footer {
 }
 
 .footer a, .share a {
-	color: rgba(255, 255, 255, 0.5);	
+	color: rgba(255, 255, 255, 0.5);
 }
 
 .footer a:hover, .share a:hover {

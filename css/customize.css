@@ -181,42 +181,17 @@ footer {
 
 #action_navigation {
 	margin-top: 50px;
-	background: #3576be;
-	/*background-image: url('/img/posts/standard.png');*/
-	background-position: center center;
-	background-size: cover;
+	/*background-image: url('/img/posts/standard.png');
+	background-position: right center;
+	background-size: cover;*/
 
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
-#action_navigation a {
-	font-style: bold;
-	color: white;
-	padding: 10px 20px 10px 20px;
-	width: 200px;
-	border: 1px solid white;
-	border-radius: 10px;
-}
-
-#action_navigation a.project:hover {
-	background: darkgreen;
-	border: 1px solid darkgreen;
-}
-
-#action_navigation a.lecture:hover {
-	background: #cc9900;
-	border: 1px solid #cc9900;
-}
-
-#action_navigation a.thesis:hover {
-	background: darkred;
-	border: 1px solid darkred;
-}
-
-#action_navigation a:hover {
-	text-decoration: none;
+#action_navigation ul li {
+	border: 1px solid grey;
 }
 
 /* HOME PAGE */

@@ -374,6 +374,10 @@ footer {
 
 /* CENTRAL CONTENT AREA */
 
+.navbar-fixed-top + .content {
+	margin-top: 50px;
+}
+
 .content {
 	padding-top: 50px;
 	padding-bottom: 50px;

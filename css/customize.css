@@ -155,9 +155,71 @@ footer {
 	font-size: 1.5rem;
 	margin-bottom: 0px !important;
 	border-radius: 0px !important;
-	background: rgba(0, 0, 0, 0.8); /* #171c26; */
-	color: #ffffff
-	border: 0px;
+	background: black;
+	color: #ffffff;
+}
+
+.navbar .navbar-toggle {
+	color: white;
+	border-color: white;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.navbar .nav li a {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar .nav li#about:hover {
+	border-top: 5px solid #428bca;
+  text-transform: uppercase;
+}
+
+.navbar .nav li#about:hover a {
+	color: #428bca;
+	background: transparent;
+}
+
+.navbar .nav li#archive:hover {
+	border-top: 5px solid lightgrey;
+  text-transform: uppercase;
+}
+
+.navbar .nav li#archive:hover a {
+	color: lightgrey;
+  background: transparent;
+}
+
+.navbar .nav li#lectures:hover {
+	border-top: 5px solid #cc9900;
+  text-transform: uppercase;
+}
+
+.navbar .nav li#lectures:hover a {
+	color: #cc9900;
+  background: transparent;
+}
+
+.navbar .nav li#thesis:hover {
+	border-top: 5px solid darkred;
+	text-transform: uppercase;
+}
+
+.navbar .nav li#thesis:hover a {
+	color: darkred;
+  background: transparent;
+}
+
+.navbar .nav li#publications:hover {
+	border-top: 5px solid white;
+	text-transform: uppercase;
+}
+
+.navbar .nav li#publications:hover a {
+	color: white;
+	background: transparent;
 }
 
 .navbar .navbar-brand {
@@ -168,10 +230,6 @@ footer {
 
 .navbar .navbar-collapse img {
 	height: 24px;
-}
-
-.navbar .navbar-collapse img:hover {
-	opacity: 1.0;
 }
 
 /* HOME PAGE */

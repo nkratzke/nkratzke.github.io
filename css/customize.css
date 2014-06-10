@@ -265,6 +265,10 @@ footer {
 	color: rgba(0, 0, 0, 0.5);
 }
 
+#home h2 small {
+	color: rgba(0, 0, 0, 0.5);
+}
+
 #home img {
 	opacity: 0.75;
 	width: 33%;

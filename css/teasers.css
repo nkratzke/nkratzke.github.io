@@ -8,39 +8,29 @@
 		}
 
 		.teaser .post {
-			background-color: rgba(0, 0, 0, 0.05);
-			border-top: 10px solid rgba(0, 0, 0, 0.5);
+			background-color: transparent;
+			border-left: 20px solid rgba(0, 0, 0, 0.5);
+			/*border-top-left-radius: 20px;
+			border-bottom-left-radius: 20px;*/
 			padding: 20px;
 			margin-bottom: 20px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
 		}
 
-		.teaser .post a {
+		.teaser .post h3 a {
 			color: rgba(0, 0, 0, 0.5);
 		}
 
 		.teaser .thesis {
-			border-top: 10px solid darkred;
-		}
-
-		.teaser .thesis a {
-			color: darkred;
+			border-left: 20px solid darkred;
 		}
 
 		.teaser .lecture {
-			border-top: 10px solid #cc9900;
-		}
-
-		.teaser .lecture a {
-			color: #cc9900;
+			border-left: 20px solid #cc9900;
 		}
 
 		.teaser .project {
-			border-top: 10px solid darkgreen;
-		}
-
-		.teaser .project a {
-			border-top: 10px solid darkgreen;
-			color: darkgreen;
+			border-left: 20px solid darkgreen;
 		}
 
 		.teaser .content {

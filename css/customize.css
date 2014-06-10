@@ -20,6 +20,12 @@ h1 { font-size: 5rem; }
 h2 { font-size: 4rem; }
 h3 { font-size: 3rem; }
 
+a, a:hover, a:visited {
+	color: #3576be;
+	font-family: 'Dosis', sans-serif;
+	text-decoration: none;
+}
+
 /* GENERAL IMAGE HANDLING */
 img {
 }

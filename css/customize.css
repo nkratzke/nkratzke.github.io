@@ -170,6 +170,7 @@ footer {
 	font-size: 1.5rem;
 	margin-bottom: 0px !important;
 	border-radius: 0px !important;
+	border: 0px !important;
 	background: black;
 	color: #ffffff;
 }
@@ -189,7 +190,11 @@ footer {
 
 .navbar .nav li#about:hover {
 	border-top: 5px solid #428bca;
-  text-transform: uppercase;
+  border-bottom: 0px;
+}
+
+.navbar .nav li#about {
+	border-bottom: 5px solid #428bca;
 }
 
 .navbar .nav li#about:hover a {
@@ -199,7 +204,7 @@ footer {
 
 .navbar .nav li#archive:hover {
 	border-top: 5px solid lightgrey;
-  text-transform: uppercase;
+  border-bottom: 0px;
 }
 
 .navbar .nav li#archive:hover a {
@@ -207,9 +212,13 @@ footer {
   background: transparent;
 }
 
+.navbar .nav li#archive {
+	border-bottom: 5px solid lightgrey;
+}
+
 .navbar .nav li#lectures:hover {
 	border-top: 5px solid #cc9900;
-  text-transform: uppercase;
+  border-bottom: 0px;
 }
 
 .navbar .nav li#lectures:hover a {
@@ -217,9 +226,13 @@ footer {
   background: transparent;
 }
 
+.navbar .nav li#lectures {
+	border-bottom: 5px solid #cc9900;
+}
+
 .navbar .nav li#thesis:hover {
 	border-top: 5px solid darkred;
-	text-transform: uppercase;
+	border-bottom: 0px;
 }
 
 .navbar .nav li#thesis:hover a {
@@ -227,14 +240,22 @@ footer {
   background: transparent;
 }
 
+.navbar .nav li#thesis {
+	border-bottom: 5px solid darkred;
+}
+
 .navbar .nav li#publications:hover {
 	border-top: 5px solid white;
-	text-transform: uppercase;
+  border-bottom: 0px;
 }
 
 .navbar .nav li#publications:hover a {
 	color: white;
 	background: transparent;
+}
+
+.navbar .nav li#publications {
+	border-bottom: 5px solid white;
 }
 
 .navbar .navbar-brand {

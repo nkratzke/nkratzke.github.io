@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
+    <title>Dart meets Docker (how to dockerize dart apps)</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/customize.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+
+    
+
+    <!-- ShareThis Scripts
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "ur-be54e553-bdea-6613-5866-3a0cca99f467", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>-->
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-380838-9']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+<div class="navbar navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    	<span class="sr-only">Toggle navigation</span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">nkode.io</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+  	    <li id="about"><a href="/about.html">About me</a></li>
+        <li id="lectures"><a href="/lectures.html">Lectures</a></li>
+        <li id="thesis"><a href="/thesis/ongoing.html">Thesis</a></li>
+        <li id="archive"><a href="/archive.html">Archive</a></li>
+  		  <li id="publications"><a href="/publications.html">Publications</a></li>
+    	</ul>
+    </div>
+  </div>
+</div>
+
+
+    
+    <div class="content">
+      <div class="container">
+        <article class="post ">
+	<header>
+		
+		<img src="/img/posts/containerdart-teaser.png" class="photo" width="100%">
+		
+		<div class="headline">
+			<h2>Dart meets Docker (how to dockerize dart apps)</h2>
+			<p class="meta"><strong>05 Mar 2014</strong>
+			
+			by <em>Nane Kratzke</em>
+			
+			</p>
+			<div class="share hidden-print">
+	<a href="http://twitter.com/home?status=Dart+meets+Docker+%28how+to+dockerize+dart+apps%29 http://www.nkode.io/2014/03/05/dockerize-dart.html" target="_blank"><span class="onTwitter"></span></a>
+	<a href="https://plus.google.com/share?url=http://www.nkode.io/2014/03/05/dockerize-dart.html" target="_blank"><span class="onGooglePlus"></span></a>
+	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nkode.io/2014/03/05/dockerize-dart.html&title=Dart+meets+Docker+%28how+to+dockerize+dart+apps%29&summary=&source=" target="_blank"><span class="onLinkedIn"></span></a>
+	<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Fwww.nkode.io%2F2014%2F03%2F05%2Fdockerize-dart.html&title=Dart+meets+Docker+%28how+to+dockerize+dart+apps%29" target="_blank"><span class="onXing"></span></a>
+</div>
+
+			<div class="tags hidden-print hidden-xs">
+	Tags: <br />
+	
+	<a href="/tag/dart"><span class="tag">#dart</span></a>
+	
+	<a href="/tag/deploy"><span class="tag">#deploy</span></a>
+	
+	<a href="/tag/docker"><span class="tag">#docker</span></a>
+	
+</div>
+
+		</div>
+	</header>
+	<section>
+		<p><a href="https://www.docker.io">Docker</a> is an open-source engine that automates the deployment of applications as portable and self-sufficient containers that will run virtually anywhere. Dockerized applications reduce configuration efforts and obstacles for administrators. Applications can be provided in a configured, self-sufficient and frictionless way.</p>
+
+<p><a href="https://www.dartlang.org">Dart</a> is a web programming language mainly developed by Google with the intention to provide an alternative to JavaScript (the actual de facto standard in web client side programming). Nevertheless Dart can be used to develop server side programs (see <a href="/2014/02/28/dart-part-II.html">Tour de Dart Part II</a> for more details concerning server side programming with Dart).</p>
+
+<p><a href="https://www.dartlang.org">Dart</a> and <a href="https://www.docker.io">Docker</a> are a great fit to provide frictionless deployable Dart apps. All you have to do is to supply an additional <em>Dockerfile</em> to an existing Dart package. This post show how to do this.</p>
+
+<p><a href="https://github.com/nkratzke/containerdart">Containerdart</a> is a very simple <a href="https://www.dartlang.org">Dart</a> HTTP server using the <a href="http://www.sinatrarb.com/">Sinatra</a> inspired web framework <a href="https://github.com/lvivski/start">Start</a> to provide static content.</p>
+
+<div class="highlight"><pre><code class="dart"><span class="k">import</span> <span class="s1">&#39;package:start/start.dart&#39;</span><span class="p">;</span>
+
+<span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">start</span><span class="p">(</span><span class="nl">host:</span> <span class="s1">&#39;0.0.0.0&#39;</span><span class="p">,</span> <span class="nl">port:</span> <span class="m">8080</span><span class="p">).</span><span class="n">then</span><span class="p">((</span><span class="n">Server</span> <span class="n">app</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">app</span><span class="p">.</span><span class="kd">static</span><span class="p">(</span><span class="s1">&#39;../build/web&#39;</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><a href="https://github.com/nkratzke/containerdart">Containerdart</a> is provided via <a href="https://github.com/nkratzke/containerdart">github</a> as a general blueprint how Dart applications can be seamlessly dockerized.</p>
+
+<p>In the next steps you will learn</p>
+
+<ul>
+<li>how to install dockerized Dart applications from Github by installing Containerdart as a simple example</li>
+<li>and how Containerdart has been dockerized using an additonal <em>Dockerfile</em>.</li>
+</ul>
+
+<h3>Install Containerdart using Docker</h3>
+
+<p>All you need is a system where docker is installed on. You can install docker following the <a href="https://www.docker.io/gettingstarted/">install instructions</a> provided by <a href="https://www.docker.io">Docker</a>.</p>
+
+<p>Dockerized applications hosted on Github can be installed by docker with one command. We take <a href="https://github.com/nkratzke/containerdart">Containerdart</a> as an example.</p>
+
+<div class="highlight"><pre><code class="bash">docker build -t containerdart github.com/nkratzke/containerdart
+</code></pre></div>
+
+<p>Docker downloads specified repository from github and processes a <em>Dockerfile</em> in it to create an image from it. If image creation is completed you can instantiate a <em>container</em> from this image with the following command.</p>
+
+<div class="highlight"><pre><code class="bash">docker run -p 8888:8080 -d containerdart
+</code></pre></div>
+
+<p>Last command starts the container as a daemon and binds the container internal port 8080 to the host port 8888 (it is also possible to map the exposed container port 8080 to any other port number, e.g. 80). The container provided webserver should be accessible on <a href="http://localhost:8888">http://localhost:8888</a>.</p>
+
+<p>You can run </p>
+
+<div class="highlight"><pre><code class="bash">docker ps
+</code></pre></div>
+
+<p>to see that a container containing our simple Dart based HTTP server is running.</p>
+
+<p>If it is working you should see this webpage.</p>
+
+<p><center class="hidden-xs">
+<img src="/img/posts/containerdart.png" width="75%" class="photo" />
+</center>
+<img src="/img/posts/containerdart.png" width="100%" class="photo visible-xs" /></p>
+
+<h3>How is it working</h3>
+
+<p>It is recommended to inspect the git repository of <a href="https://github.com/nkratzke/containerdart">Containerdart</a> on github. You will see it is a normal Dart package except one additional file called <em>Dockerfile</em>. Docker uses dockerfiles to automate image generation. It is a great and simple format to define deployments.</p>
+
+<div class="highlight"><pre><code class="bash"><span class="c"># Install a dart container for demonstration purposes.</span>
+<span class="c"># Your dart server app will be accessible via HTTP on container port 8080.</span>
+<span class="c"># You should adapt this Dockerfile to your needs.</span>
+<span class="c"># If you are new to Dockerfiles please read </span>
+<span class="c"># http://docs.docker.io/en/latest/reference/builder/</span>
+<span class="c"># to learn more about Dockerfiles.</span>
+
+FROM stackbrew/ubuntu:13.10
+MAINTAINER Nane Kratzke &lt;nane@nkode.io&gt;
+
+<span class="c"># Install Dart SDK. Do not touch this until you know what you are doing.</span>
+<span class="c"># We do not install darteditor nor dartium because this is a server container.</span>
+<span class="c"># See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu</span>
+RUN apt-get update
+RUN apt-get install -y software-properties-common python-software-properties
+RUN apt-add-repository ppa:hachre/dart
+RUN apt-get -y update
+RUN apt-get install -y dartsdk
+
+<span class="c"># Install the dart server app. Add additional directories if necessary for your app.</span>
+ADD pubspec.yaml /container/pubspec.yaml
+ADD bin          /container/bin       
+ADD web          /container/web
+
+<span class="c"># Build the app. Do not touch this.</span>
+WORKDIR /container
+RUN pub build
+
+<span class="c"># Expose port 8080. You should change it to the port(s) your app is serving on.</span>
+EXPOSE 8080
+
+<span class="c"># Entrypoint. </span>
+<span class="c"># Whenever the container is started the following command is executed in your container.</span>
+<span class="c"># In most cases it simply starts your app.</span>
+WORKDIR /container/bin
+ENTRYPOINT <span class="o">[</span><span class="s2">&quot;dart&quot;</span><span class="o">]</span>
+
+<span class="c"># Change this to your starting dart.</span>
+CMD <span class="o">[</span><span class="s2">&quot;httpserver.dart&quot;</span><span class="o">]</span>
+</code></pre></div>
+
+<p>This file explains docker what to do when</p>
+
+<div class="highlight"><pre><code class="bash">docker build -t containerdart github.com/nkratzke/containerdart
+</code></pre></div>
+
+<p>is called. So the above shown <em>Dockerfile</em> extends</p>
+
+<ul>
+<li>a barebone Ubuntu 13.10 system,</li>
+<li>installs additionally Dart SDK,</li>
+<li>copies the application files into the container (bin and web directory),</li>
+<li>starts the build process on the system,</li>
+<li>defines an entrypoint (which is being called when the container is started by docker).</li>
+</ul>
+
+<p>It can be easily adapted to other Dart apps. Just clone the <a href="https://github.com/nkratzke/containerdart">Containerdart</a> repository and adapt it to your needs.</p>
+
+<h3>A slightly more complex example (Dartchat)</h3>
+
+<p><a href="https://github.com/nkratzke/dartchat">Dartchat</a> is another server side Dart app providing a simple websocket based chat server. It is available via <a href="https://github.com/nkratzke/dartchat">github</a> or <a href="http://pub.dartlang.org/packages/dartchat">pub.dartlang.org</a>. <a href="https://github.com/nkratzke/dartchat">Dartchat</a> is an example of second part of the <a href="/2014/02/28/dart-part-II.html">Tour de Dart</a>.</p>
+
+<p>You can install it using docker</p>
+
+<div class="highlight"><pre><code class="bash">docker build -t dartchat github.com/nkratzke/dartchat
+</code></pre></div>
+
+<p>and run it like this</p>
+
+<div class="highlight"><pre><code class="bash">docker run -p 8080:3000 -d dartchat
+</code></pre></div>
+
+<p>Accessing <a href="http://localhost:8080">http://localhost:8080</a> will provide you following webpage:</p>
+
+<p><center class="hidden-xs">
+<img src="/img/posts/dartchat.png" width="75%" class="photo" />
+</center>
+<img src="/img/posts/dartchat.png" width="100%" class="photo visible-xs" /></p>
+
+<p>The responsible <em>Dockerfile</em> of Dartchat looks like this:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="c"># Install a dartchat as a docker container.</span>
+<span class="c"># Dartchat will be exposed via HTTP on port 3000.</span>
+<span class="c">#</span>
+<span class="c"># This file is hosted on github. Therefore you can start it in docker like this:</span>
+<span class="c"># &gt; docker build -t dartchat github.com/nkratzke/dartchat</span>
+<span class="c"># &gt; docker run -p 8080:3000 -d dartchat</span>
+
+FROM stackbrew/ubuntu:13.10
+MAINTAINER Nane Kratzke &lt;nane@nkode.io&gt;
+
+<span class="c"># Install Dart SDK. Do not touch this until you know what you are doing.</span>
+<span class="c"># We do not install darteditor nor dartium because this is a server container.</span>
+<span class="c"># See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu</span>
+RUN apt-get update
+RUN apt-get install -y software-properties-common python-software-properties
+RUN apt-add-repository ppa:hachre/dart
+RUN apt-get -y update
+RUN apt-get install -y dartsdk
+
+<span class="c"># Install the dart server app. </span>
+ADD pubspec.yaml /container/pubspec.yaml
+ADD lib          /container/lib
+ADD bin          /container/bin       
+ADD web          /container/web
+
+<span class="c"># Build the app. Do not touch this.</span>
+WORKDIR /container
+RUN pub build
+
+<span class="c"># Expose port 3000.</span>
+EXPOSE 3000
+
+<span class="c"># Entrypoint.</span>
+WORKDIR /container/bin
+ENTRYPOINT <span class="o">[</span><span class="s2">&quot;dart&quot;</span><span class="o">]</span>
+
+<span class="c"># Change this to your starting dart.</span>
+CMD <span class="o">[</span><span class="s2">&quot;chartserver.dart&quot;</span><span class="o">]</span>
+</code></pre></div>
+
+<h3>Closing remarks regarding docker (on non linux systems)</h3>
+
+<p>If docker is used on a non linux system like Mac OS X it is likely that docker uses <a href="https://www.virtualbox.org/">VirtualBox</a> under the hood. In theses cases you must configure port forwarding in virtual box. So if you are exposing port 8080 in your docker container mapping it to port 8888 for the outside world you must forward host port 8888 to docker-vm port 8888 in virtualbox. How to do this is explained <a href="http://www.virtualbox.org/manual/ch06.html#natforward">here</a>.</p>
+
+	</section>
+	<footer>
+	</footer>
+	
+	<img src="http://vg08.met.vgwort.de/na/8f1f231fba7d4ef2bf1cf04714a139d1" width="1" height="1" alt="">
+	
+</article>
+
+      </div>
+    </div>
+
+    <div class="end hidden-print">
+  <div class="container">
+      <div class="row">
+    	<div class="col-sm-5 block">
+	    	<center>
+		    	&copy; Nane Kratzke (All rights reserved)
+		   		<div class="socialsites">
+   <a href="https://twitter.com/nanekratzke" title="Twitter"><img src="/img/social/twitter-128.png" alt="Twitter"></a>
+   <a href="http://www.slideshare.com/i21aneka" title="Slideshare"><img src="/img/social/slideshare-128.png" alt="Slideshare"></a>
+   <a href="https://github.com/nkratzke" title="Github"><img src="/img/social/github-128.png" alt="Github"></a>
+   <a href="https://de.linkedin.com/in/nanekratzke" title="LinkedIN"><img src="/img/social/linkedin-128.png" alt="LinkedIN"></a>
+   <a href="https://www.xing.com/profile/Nane_Kratzke" title="Xing"><img src="/img/social/xing-128.png" alt="Xing"></a>
+   <a href="https://plus.google.com/+NaneKratzke" title="Google Plus"><img src="/img/social/googleplus-128.png" alt="Google Plus"></a>
+   <a href="https://www.facebook.com/nane.kratzke" title="Facebook"><img src="/img/social/facebook-128.png" alt="Facebook"></a>
+   <a href="/rss.xml" title="RSS"><img src="/img/social/rss-128.png" alt="RSS"></a>
+
+</div>
+    		</center>
+    	</div>
+       <div class="col-sm-2"></div>
+    	<div class="col-sm-5 block hidden-xs">
+	    	<center>
+		      Links to my official sites
+		      <div class="officialsites">
+   <a href="http://www.fh-luebeck.de/Inhalt/09_Fachhochschule_intern/07_Services/70_Verzeichnis_der_Hochschulangehoerigen/06_personenarchiv/kratzke_nane.html"><img src="/img/official/fhl-logo.png"></a>
+   <a href="http://www.cosa.fh-luebeck.de/en/home/kratzke"><img src="/img/official/cosa-logo.png"></a>
+</div>
+    		</center>
+    	</div>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<div class="footer hidden-print">
+	<div class="container">
+		<center>
+			<a href="/about.html">About</a> &bullet;		
+			<a href="/disclosure.html">Contact</a> &bullet;
+			<a href="/disclosure.html">Legal Disclosure</a>
+		</center>
+	</div>
+</div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

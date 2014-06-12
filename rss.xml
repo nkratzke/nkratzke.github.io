@@ -9,7 +9,15 @@
     <link>http://www.nkode.io</link>
     <description>A Blog About Programming, Cloud Computing, Webbased Systems</description>
     <copyright>Nane Kratzke, 2014</copyright>
-    <pubDate>Sat, 24 May 2014 00:00:00 +0200</pubDate>
+    <pubDate>Thu, 12 Jun 2014 00:00:00 +0200</pubDate>
+    <item>
+      <title>Programming I</title>
+      <link>http://www.nkode.io/lecture/2014/06/12/lecture-programming-i.html</link>
+      <description></description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0200</pubDate>
+      <guid>http://www.nkode.io/lecture/2014/06/12/lecture-programming-i.html</guid>
+      <dc:date>2014-06-12T00:00:00+02:00</dc:date>
+    </item>
     <item>
       <title>Webtechnologies (webtech)</title>
       <link>http://www.nkode.io/lecture/2014/05/24/lecture-webtechnology.html</link>
@@ -109,6 +117,6 @@ To get the most out of the survey you should be familiar with at least one progr
       <guid>http://www.nkode.io/2014/02/13/dart-part-I.html</guid>
       <dc:date>2014-02-13T08:39:48Z</dc:date>
     </item>
-    <dc:date>2014-05-24T00:00:00+02:00</dc:date>
+    <dc:date>2014-06-12T00:00:00+02:00</dc:date>
   </channel>
 </rss>

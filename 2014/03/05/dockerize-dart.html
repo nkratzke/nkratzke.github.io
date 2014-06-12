@@ -48,11 +48,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     	<span class="icon-bar"></span>
     	<span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">nkode.io</a>
+      <a class="navbar-brand" href="/"><img src="/img/topic/cloud.png" height="32px"> nkode.io</a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav pull-right">
   	    <li id="about"><a href="/about.html">About me</a></li>
+        <li id="blog"><a href="/blog.html">Blog</a></li>
         <li id="lectures"><a href="/lectures.html">Lectures</a></li>
         <li id="thesis"><a href="/thesis/ongoing.html">Thesis</a></li>
         <li id="archive"><a href="/archive.html">Archive</a></li>
@@ -93,6 +94,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	<a href="/tag/deploy"><span class="tag">#deploy</span></a>
 	
 	<a href="/tag/docker"><span class="tag">#docker</span></a>
+	
+	<a href="/tag/cloud"><span class="tag">#cloud</span></a>
 	
 </div>
 
@@ -141,7 +144,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <p>Last command starts the container as a daemon and binds the container internal port 8080 to the host port 8888 (it is also possible to map the exposed container port 8080 to any other port number, e.g. 80). The container provided webserver should be accessible on <a href="http://localhost:8888">http://localhost:8888</a>.</p>
 
-<p>You can run </p>
+<p>You can run</p>
 
 <div class="highlight"><pre><code class="bash">docker ps
 </code></pre></div>
@@ -162,7 +165,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <div class="highlight"><pre><code class="bash"><span class="c"># Install a dart container for demonstration purposes.</span>
 <span class="c"># Your dart server app will be accessible via HTTP on container port 8080.</span>
 <span class="c"># You should adapt this Dockerfile to your needs.</span>
-<span class="c"># If you are new to Dockerfiles please read </span>
+<span class="c"># If you are new to Dockerfiles please read</span>
 <span class="c"># http://docs.docker.io/en/latest/reference/builder/</span>
 <span class="c"># to learn more about Dockerfiles.</span>
 
@@ -180,7 +183,7 @@ RUN apt-get install -y dartsdk
 
 <span class="c"># Install the dart server app. Add additional directories if necessary for your app.</span>
 ADD pubspec.yaml /container/pubspec.yaml
-ADD bin          /container/bin       
+ADD bin          /container/bin
 ADD web          /container/web
 
 <span class="c"># Build the app. Do not touch this.</span>
@@ -190,7 +193,7 @@ RUN pub build
 <span class="c"># Expose port 8080. You should change it to the port(s) your app is serving on.</span>
 EXPOSE 8080
 
-<span class="c"># Entrypoint. </span>
+<span class="c"># Entrypoint.</span>
 <span class="c"># Whenever the container is started the following command is executed in your container.</span>
 <span class="c"># In most cases it simply starts your app.</span>
 WORKDIR /container/bin
@@ -259,10 +262,10 @@ RUN apt-add-repository ppa:hachre/dart
 RUN apt-get -y update
 RUN apt-get install -y dartsdk
 
-<span class="c"># Install the dart server app. </span>
+<span class="c"># Install the dart server app.</span>
 ADD pubspec.yaml /container/pubspec.yaml
 ADD lib          /container/lib
-ADD bin          /container/bin       
+ADD bin          /container/bin
 ADD web          /container/web
 
 <span class="c"># Build the app. Do not touch this.</span>

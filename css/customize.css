@@ -184,6 +184,13 @@ footer {
 	background-color: white;
 }
 
+.navbar .nav li {
+	width: 80px;
+	text-align: center;
+	font-size: 0.9em;
+	white-space: nowrap;
+}
+
 .navbar .nav li a {
 	color: rgba(255, 255, 255, 0.5);
 }

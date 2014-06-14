@@ -22,7 +22,6 @@ h3 { font-size: 3rem; }
 
 a, a:hover, a:visited {
 	color: #3576be;
-	font-family: 'Dosis', sans-serif;
 	text-decoration: none;
 }
 
@@ -193,6 +192,8 @@ footer {
 
 .navbar .nav li a {
 	color: rgba(255, 255, 255, 0.5);
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .navbar .nav li#about:hover {

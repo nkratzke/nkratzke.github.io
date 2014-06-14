@@ -6,7 +6,7 @@ body {
 	font-family: 'Pontana Sans', sans-serif;
 	font-weight: lighter;
 	word-spacing: 2px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,6 +23,10 @@ h3 { font-size: 3rem; }
 a, a:hover, a:visited {
 	color: #3576be;
 	text-decoration: none;
+}
+
+ul {
+	padding-left: 1.5em;
 }
 
 /* GENERAL IMAGE HANDLING */
@@ -64,7 +68,7 @@ hr {
 	background-size: 48px 48px;
 	background-position: center;
 	/* background-color: black; */
-	opacity: 0.5;
+	/* opacity: 0.5; */
 	margin-right: 5px;
 	float: left;
 }
@@ -74,23 +78,23 @@ hr {
 }
 
 .share > a:hover > span {
-	opacity: 1.0;
+	border-bottom: 5px solid black;
 }
 
 .onTwitter {
-	background-image: url('/img/social/twitter-128.png');
+	background-image: url('/img/social/twitter-128-black.png');
 }
 
 .onGooglePlus {
-	background-image: url('/img/social/googleplus-128.png');
+	background-image: url('/img/social/googleplus-128-black.png');
 }
 
 .onLinkedIn {
-	background-image: url('/img/social/linkedin-128.png');
+	background-image: url('/img/social/linkedin-128-black.png');
 }
 
 .onXing {
-	background-image: url('/img/social/xing-128.png');
+	background-image: url('/img/social/xing-128-black.png');
 }
 
 /* POST */
@@ -100,16 +104,20 @@ hr {
 	color: rgba(255, 255, 255, 0.5);
 }
 
+.share {
+	text-align: center;
+}
+
 .tags a, .tags a:hover, .tags a:visited {
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.5);
 	text-decoration: none;
 }
 
 .tags .tag {
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.66);
 	padding: 2px 10px 2px 10px;
 	margin-bottom: 2px;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	line-height: 1.75;
 }
 

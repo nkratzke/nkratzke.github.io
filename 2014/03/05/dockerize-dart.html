@@ -76,21 +76,23 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			<h2>Dart meets Docker (how to dockerize dart apps)</h2>
 			<p class="meta"><strong>05 Mar 2014</strong>
 			</p>
-			<div class="tags hidden-print hidden-xs">
-	
-	<a href="/tag/dart"><span class="tag">#dart</span></a>
-	
-	<a href="/tag/deploy"><span class="tag">#deploy</span></a>
-	
-	<a href="/tag/docker"><span class="tag">#docker</span></a>
-	
-	<a href="/tag/cloud"><span class="tag">#cloud</span></a>
-	
-</div>
-
 		</div>
 	</header>
 	<section>
+		<div class="tags hidden-print">
+	<ul>
+	
+		<li><a href="/tag/dart"><span class="tag">#dart</span></a></li>
+	
+		<li><a href="/tag/deploy"><span class="tag">#deploy</span></a></li>
+	
+		<li><a href="/tag/docker"><span class="tag">#docker</span></a></li>
+	
+		<li><a href="/tag/cloud"><span class="tag">#cloud</span></a></li>
+	
+	</ul>
+</div>
+
 		<div class="share hidden-print">
 	<a href="http://twitter.com/home?status=Dart+meets+Docker+%28how+to+dockerize+dart+apps%29 http://www.nkode.io/2014/03/05/dockerize-dart.html" target="_blank"><span class="onTwitter"></span></a>
 	<a href="https://plus.google.com/share?url=http://www.nkode.io/2014/03/05/dockerize-dart.html" target="_blank"><span class="onGooglePlus"></span></a>
@@ -112,7 +114,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   <span class="n">start</span><span class="p">(</span><span class="nl">host:</span> <span class="s1">&#39;0.0.0.0&#39;</span><span class="p">,</span> <span class="nl">port:</span> <span class="m">8080</span><span class="p">).</span><span class="n">then</span><span class="p">((</span><span class="n">Server</span> <span class="n">app</span><span class="p">)</span> <span class="p">{</span>
     <span class="n">app</span><span class="p">.</span><span class="kd">static</span><span class="p">(</span><span class="s1">&#39;../build/web&#39;</span><span class="p">);</span>
   <span class="p">});</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 <p><a href="https://github.com/nkratzke/containerdart">Containerdart</a> is provided via <a href="https://github.com/nkratzke/containerdart">github</a> as a general blueprint how Dart applications can be seamlessly dockerized.</p>
 
@@ -129,17 +132,20 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <p>Dockerized applications hosted on Github can be installed by docker with one command. We take <a href="https://github.com/nkratzke/containerdart">Containerdart</a> as an example.</p>
 
-<div class="highlight"><pre><code class="bash">docker build -t containerdart github.com/nkratzke/containerdart</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker build -t containerdart github.com/nkratzke/containerdart
+</code></pre></div>
 
 <p>Docker downloads specified repository from github and processes a <em>Dockerfile</em> in it to create an image from it. If image creation is completed you can instantiate a <em>container</em> from this image with the following command.</p>
 
-<div class="highlight"><pre><code class="bash">docker run -p 8888:8080 -d containerdart</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -p 8888:8080 -d containerdart
+</code></pre></div>
 
 <p>Last command starts the container as a daemon and binds the container internal port 8080 to the host port 8888 (it is also possible to map the exposed container port 8080 to any other port number, e.g. 80). The container provided webserver should be accessible on <a href="http://localhost:8888">http://localhost:8888</a>.</p>
 
 <p>You can run</p>
 
-<div class="highlight"><pre><code class="bash">docker ps</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker ps
+</code></pre></div>
 
 <p>to see that a container containing our simple Dart based HTTP server is running.</p>
 
@@ -192,11 +198,13 @@ WORKDIR /container/bin
 ENTRYPOINT <span class="o">[</span><span class="s2">&quot;dart&quot;</span><span class="o">]</span>
 
 <span class="c"># Change this to your starting dart.</span>
-CMD <span class="o">[</span><span class="s2">&quot;httpserver.dart&quot;</span><span class="o">]</span></code></pre></div>
+CMD <span class="o">[</span><span class="s2">&quot;httpserver.dart&quot;</span><span class="o">]</span>
+</code></pre></div>
 
 <p>This file explains docker what to do when</p>
 
-<div class="highlight"><pre><code class="bash">docker build -t containerdart github.com/nkratzke/containerdart</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker build -t containerdart github.com/nkratzke/containerdart
+</code></pre></div>
 
 <p>is called. So the above shown <em>Dockerfile</em> extends</p>
 
@@ -216,11 +224,13 @@ CMD <span class="o">[</span><span class="s2">&quot;httpserver.dart&quot;</span><
 
 <p>You can install it using docker</p>
 
-<div class="highlight"><pre><code class="bash">docker build -t dartchat github.com/nkratzke/dartchat</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker build -t dartchat github.com/nkratzke/dartchat
+</code></pre></div>
 
 <p>and run it like this</p>
 
-<div class="highlight"><pre><code class="bash">docker run -p 8080:3000 -d dartchat</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -p 8080:3000 -d dartchat
+</code></pre></div>
 
 <p>Accessing <a href="http://localhost:8080">http://localhost:8080</a> will provide you following webpage:</p>
 
@@ -268,7 +278,8 @@ WORKDIR /container/bin
 ENTRYPOINT <span class="o">[</span><span class="s2">&quot;dart&quot;</span><span class="o">]</span>
 
 <span class="c"># Change this to your starting dart.</span>
-CMD <span class="o">[</span><span class="s2">&quot;chartserver.dart&quot;</span><span class="o">]</span></code></pre></div>
+CMD <span class="o">[</span><span class="s2">&quot;chartserver.dart&quot;</span><span class="o">]</span>
+</code></pre></div>
 
 <h3>Closing remarks regarding docker (on non linux systems)</h3>
 

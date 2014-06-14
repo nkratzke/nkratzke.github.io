@@ -62,10 +62,10 @@ hr {
 }
 
 .share > a > span {
-	width: 48px;
-	height: 48px;
+	width: 40px;
+	height: 40px;
 	/* border-radius: 48px; */
-	background-size: 48px 48px;
+	background-size: 40px 40px;
 	background-position: center;
 	/* background-color: black; */
 	/* opacity: 0.5; */
@@ -113,17 +113,38 @@ hr {
 	text-decoration: none;
 }
 
-.tags .tag {
-	background: rgba(255, 255, 255, 0.66);
-	padding: 2px 10px 2px 10px;
+.tags {
+	float: right;
+}
+
+.tags ul {
+	margin-left: 0px;
+	margin-right: -45px;
+	list-style-type: none;
+}
+
+.tags li {
+	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1));
+	text-align: right;
 	margin-bottom: 2px;
-	/* border-radius: 5px; */
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 5px solid grey;
+	font-size: 0.8em;
+}
+
+.tags .tag {
 	line-height: 1.75;
 }
 
-.tags .tag:hover {
+.tags li:hover {
 	color: white;
-	background: #ad0a22;
+	background: #3576be;
+	border-right: 5px solid #3576be;
+}
+
+.tags li:hover a {
+	color: white;
 }
 
 header {

@@ -57,8 +57,19 @@ hr {
 
 /* GENERAL SHARING STYLES */
 
-.share {
-	height: 48px;
+.rightbar {
+	float: right;
+	text-align: right;
+	margin-right: -40px;
+	padding-top: 10px;
+	margin-left: 20px;
+	/*box-shadow: 1px 0px 5px lightgrey inset;*/
+}
+
+.rightbar h3 {
+	margin-top: 0px;
+	padding-right: 5px;
+	font-size: 1em;
 }
 
 .share > a > span {
@@ -70,42 +81,45 @@ hr {
 	/* background-color: black; */
 	/* opacity: 0.5; */
 	margin-right: 5px;
-	float: left;
+	/* float: left; */
 }
 
-.share > a:last-child:after > span {
+/*.share > a:last-child:after > span {
 	clear: both;
-}
+}*/
 
 .share > a:hover > span {
 	border-bottom: 5px solid black;
 }
 
-.onTwitter {
-	background-image: url('/img/social/twitter-128-black.png');
-}
-
-.onGooglePlus {
-	background-image: url('/img/social/googleplus-128-black.png');
-}
-
-.onLinkedIn {
-	background-image: url('/img/social/linkedin-128-black.png');
-}
-
-.onXing {
-	background-image: url('/img/social/xing-128-black.png');
-}
-
 /* POST */
 
 .share, .tags {
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	color: rgba(255, 255, 255, 0.5);
 }
 
-.share {
-	text-align: center;
+.share img {
+	width: 48px;
+	margin-right: -5px;
+	border-right: 5px solid black;
+	margin-bottom: 2px;
+	opacity: 0.5;
+	background: linear-gradient(to right, transparent 50%, lightgrey);
+}
+
+.share li:last-child img {
+	margin-bottom: 0px;
+}
+
+.share img:hover {
+	opacity: 1.0;
+}
+
+.share ul {
+	list-style-type: none;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
 
 .tags a, .tags a:hover, .tags a:visited {
@@ -113,14 +127,16 @@ hr {
 	text-decoration: none;
 }
 
-.tags {
-	float: right;
+.tags ul {
+	margin-left: 10px;
+	padding-left: 0px;
+	margin-right: -5px;
+	list-style-type: none;
 }
 
-.tags ul {
-	margin-left: 0px;
-	margin-right: -45px;
-	list-style-type: none;
+.teaser .tags ul {
+	float: right;
+	margin-right: -25px;
 }
 
 .tags li {
@@ -325,7 +341,7 @@ footer {
 	background-color: darkgray;
 	color: rgba(255, 255, 255, 0.75);
 	background-image: url('/img/landing/keyboard.jpg');
-	background-position: center center;
+	background-position: center top;
 	background-size: cover;
 }
 
@@ -488,6 +504,7 @@ footer {
 /* TAGTEASER STYLING */
 .tagteaser {
 	border-collapse: separate;
+	width: 100%;
 }
 
 .tagteaser tr td.category {

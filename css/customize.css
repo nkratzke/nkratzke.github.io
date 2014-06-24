@@ -724,6 +724,43 @@ article.post table.project tr td ul {
 	padding-left: 0px;
 }
 
+/* DISCLOSURE BLAMEING */
+.thesis .disclosure {
+	background-color: #ad0a22;
+	background-image: url('/img/topic/sad-icon-white.png');
+	background-position: 40px 40px;
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+	color: rgba(255, 255, 255, 0.7);
+	min-height: 160px;
+	padding: 40px;
+	padding-left: 160px;
+	margin-top: 40px;
+	margin-left: -40px;
+	margin-right: -40px;
+	margin-bottom: -40px;
+}
+
+.thesis .disclosure a {
+	color: white;
+	font-style: italic;
+}
+
+/* THESIS OUTCOME */
+.thesis .outcome {
+	background-color: #3576be;
+	padding: 40px;
+	margin-left: -40px;
+	margin-right: -40px;
+	margin-top: 40px;
+	margin-bottom: -40px;
+	text-align: center;
+}
+
+.thesis .outcome .document a, .thesis .outcome .sourcecode a {
+	color: white;
+}
+
 /* FOOTER */
 .end {
 	font-size: 0.66em;

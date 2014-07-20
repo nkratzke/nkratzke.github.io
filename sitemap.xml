@@ -68,7 +68,7 @@
     </url>
     <url>
         <loc>http://www.nkode.io/research/project/2014/06/25/project-cloud-transit.html</loc>
-        <lastmod>2014-07-11T13:57:57+02:00</lastmod>
+        <lastmod>2014-07-20T17:05:45+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/lecture/2014/07/13/lecture-programming-ii.html</loc>
@@ -79,6 +79,10 @@
         <lastmod>2014-06-14T11:13:47+02:00</lastmod>
     </url>
     <url>
+        <loc>http://www.nkode.io/thesis/announced.html</loc>
+        <lastmod>2014-06-06T17:59:59+02:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.nkode.io/archive.html</loc>
         <lastmod>2014-06-11T13:06:09+02:00</lastmod>
     </url>
@@ -87,16 +91,24 @@
         <lastmod>2014-06-11T13:31:46+02:00</lastmod>
     </url>
     <url>
+        <loc>http://www.nkode.io/thesis/completed.html</loc>
+        <lastmod>2014-06-25T09:40:36+02:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.nkode.io/disclosure.html</loc>
         <lastmod>2014-06-06T17:59:59+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/</loc>
-        <lastmod>2014-07-12T10:41:33+02:00</lastmod>
+        <lastmod>2014-07-20T17:05:45+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/lectures.html</loc>
         <lastmod>2014-06-17T20:39:55+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/thesis/ongoing.html</loc>
+        <lastmod>2014-06-06T17:59:59+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/publications.html</loc>
@@ -105,17 +117,5 @@
     <url>
         <loc>http://www.nkode.io/research.html</loc>
         <lastmod>2014-06-17T20:40:12+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/announced.html</loc>
-        <lastmod>2014-06-06T17:59:59+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/completed.html</loc>
-        <lastmod>2014-06-25T09:40:36+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/ongoing.html</loc>
-        <lastmod>2014-06-06T17:59:59+02:00</lastmod>
     </url>
 </urlset>

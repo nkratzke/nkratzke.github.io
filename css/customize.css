@@ -443,6 +443,12 @@ footer {
 	width: 100px;
 }
 
+#actionnavigation .action small {
+	min-height: 4em;
+	display: block;
+}
+
+
 #actionnavigation .more {
 	border: 1px solid rgba(0, 0, 0, 0.5);
 	width: 150px;

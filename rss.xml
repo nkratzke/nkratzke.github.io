@@ -9,7 +9,15 @@
     <link>http://www.nkode.io</link>
     <description>A Blog About Programming, Cloud Computing, Webbased Systems</description>
     <copyright>Nane Kratzke, 2014</copyright>
-    <pubDate>Sun, 13 Jul 2014 00:00:00 +0200</pubDate>
+    <pubDate>Thu, 21 Aug 2014 00:00:00 +0200</pubDate>
+    <item>
+      <title>Komfortables Deployen und Skalieren von CoreOS Clustern</title>
+      <link>http://www.nkode.io/thesis/2014/08/21/thesis-coreos-deployment.html</link>
+      <description></description>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://www.nkode.io/thesis/2014/08/21/thesis-coreos-deployment.html</guid>
+      <dc:date>2014-08-21T00:00:00+02:00</dc:date>
+    </item>
     <item>
       <title>Programming II</title>
       <link>http://www.nkode.io/lecture/2014/07/13/lecture-programming-ii.html</link>
@@ -93,9 +101,9 @@
       <title>Analysis of Mouse Data (Analyse von Mausdaten)</title>
       <link>http://www.nkode.io/thesis/2014/03/06/thesis-mouse-daten.html</link>
       <description></description>
-      <pubDate>Thu, 06 Mar 2014 20:00:25 +0100</pubDate>
+      <pubDate>Thu, 06 Mar 2014 00:00:00 +0100</pubDate>
       <guid>http://www.nkode.io/thesis/2014/03/06/thesis-mouse-daten.html</guid>
-      <dc:date>2014-03-06T20:00:25+01:00</dc:date>
+      <dc:date>2014-03-06T00:00:00+01:00</dc:date>
     </item>
     <item>
       <title>Dart meets Docker (how to dockerize dart apps)</title>
@@ -192,6 +200,6 @@ und deren Produkten geworden.&lt;/p&gt;
       <guid>http://www.nkode.io/thesis/2013/08/08/thesis-test-mobile-apps.html</guid>
       <dc:date>2013-08-08T00:00:00+02:00</dc:date>
     </item>
-    <dc:date>2014-07-13T00:00:00+02:00</dc:date>
+    <dc:date>2014-08-21T00:00:00+02:00</dc:date>
   </channel>
 </rss>

@@ -124,11 +124,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </div>
 
 		</div>
-		<p><a href="https://www.dartlang.org/">Dart</a> programs run in a single isolate by default. Although Dart provides 
+		<p><a href="https://www.dartlang.org/">Dart</a> programs run in a single isolate by default. Although Dart provides
 several comfortable asynchronous programming techniques like Futures and Streams Dart
 does not use multithreading features of modern processors by default.</p>
 
-<p>This is a reasonable language design decision mainly due to problematic controllability of 
+<p>This is a reasonable language design decision mainly due to problematic controllability of
 concurrency aspects (<a href="https://en.wikipedia.org/wiki/Thread_safety">thread safety</a>) in programming.</p>
 
 <p>Let us assume we want to calculate the sum of the fibonacci numbers from 40 to 45
@@ -184,10 +184,10 @@ more than one thread in parallel).</p>
   <span class="c1">// executing isolates without to worry about Send- and ReceivePorts and</span>
   <span class="c1">// all the nitty critty details.</span>
   <span class="kd">final</span> <span class="n">worker</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Worker</span><span class="p">();</span>
-  
+
   <span class="c1">// Our problem to compute.</span>
   <span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
-  
+
   <span class="c1">// We assign our problem to solve in parallel by using the handle method</span>
   <span class="c1">// of the worker.</span>
   <span class="kd">final</span> <span class="n">futures</span> <span class="o">=</span> <span class="n">vs</span><span class="p">.</span><span class="n">map</span><span class="p">((</span><span class="n">i</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">worker</span><span class="p">.</span><span class="n">handle</span><span class="p">(</span><span class="k">new</span> <span class="n">FibTask</span><span class="p">(</span><span class="n">i</span><span class="p">)));</span>
@@ -203,8 +203,8 @@ more than one thread in parallel).</p>
   <span class="p">});</span>
 <span class="p">}</span>
 
-<span class="c1">// We have to define a computational task class to create </span>
-<span class="c1">// computational objects which can be transferred by worker </span>
+<span class="c1">// We have to define a computational task class to create</span>
+<span class="c1">// computational objects which can be transferred by worker</span>
 <span class="c1">// to isolates. A computational task encapsulates our</span>
 <span class="c1">// computational function (in our case fib) in its #execute method.</span>
 <span class="kd">class</span> <span class="nc">FibTask</span> <span class="kd">extends</span> <span class="n">Task</span> <span class="p">{</span>
@@ -412,6 +412,22 @@ to a pragmatic form to express parallelization in Dart:</p>
                               <span class="n">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
                           <span class="p">});</span></code></pre></div>
 
+		
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'wwwnkodeio'; // required: replace example with your forum shortname
+
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+							var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+							dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+							(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		
 	</section>
 	<footer>
 	</footer>

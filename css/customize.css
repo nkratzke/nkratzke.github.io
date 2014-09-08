@@ -19,6 +19,7 @@ h1, h2, h3 { text-transform: uppercase; margin-top: 20px; }
 h1 { font-size: 5rem; }
 h2 { font-size: 4rem; }
 h3 { font-size: 3rem; }
+h4 { font-size: 2rem; }
 
 a, a:hover, a:visited {
 	color: #3576be;
@@ -549,14 +550,22 @@ footer {
 	width: 100%;
 }
 
-.tagteaser tr td.category {
-	width: 10px;
-	padding: 0px;
-  background-color: #356AA0 !important;
+.tagteaser tr td.year {
+	background-color: transparent !important;
 }
 
-.tagteaser tr td:nth-child(2) {
+.tagteaser tr td.year h4 {
+	margin-top: 0px;
+}
+
+.tagteaser tr td:first-child {
 	white-space: nowrap;
+}
+
+.tagteaser tr td.category {
+	width: 5px;
+	padding: 0px;
+  background-color: #356AA0 !important;
 }
 
 .tagteaser tr {

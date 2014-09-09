@@ -691,6 +691,20 @@ footer {
 	margin-bottom: 80px;
 }
 
+/* ResearchGate Styling */
+.researchgate a {
+		padding-left: 5px;
+		padding-right: 5px;
+		color: white;
+		background-color: grey;
+		text-decoration: none;
+}
+
+.researchgate a em {
+	color: #94c034;
+	font-style: normal;
+}
+
 
 /* CENTRAL CONTENT AREA */
 

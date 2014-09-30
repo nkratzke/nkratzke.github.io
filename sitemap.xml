@@ -11,36 +11,38 @@
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
-        <loc>http://www.nkode.io/2014/02/13/dart-part-I.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <loc>http://www.nkode.io/blog/2014/02/13/dart-part-I.html</loc>
+        <lastmod>2014-09-30T10:40:11+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/thesis/2014/02/17/thesis-bomberman.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
-        <loc>http://www.nkode.io/2014/02/18/parallels-dart.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <loc>http://www.nkode.io/blog/2014/02/18/parallels-dart.html</loc>
+        <lastmod>2014-09-30T10:40:13+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
-        <loc>http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <loc>
+            http://www.nkode.io/blog/2014/02/25/pragmatic-request-parameter-handling-start.html
+        </loc>
+        <lastmod>2014-09-30T10:40:04+02:00</lastmod>
     </url>
     <url>
-        <loc>http://www.nkode.io/2014/02/28/dart-part-II.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <loc>http://www.nkode.io/blog/2014/02/28/dart-part-II.html</loc>
+        <lastmod>2014-09-30T10:40:02+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/thesis/2014/03/04/thesis-pumpscanner.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
-        <loc>http://www.nkode.io/2014/03/05/dockerize-dart.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <loc>http://www.nkode.io/blog/2014/03/05/dockerize-dart.html</loc>
+        <lastmod>2014-09-30T10:40:06+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/thesis/2014/03/06/thesis-mouse-daten.html</loc>
@@ -63,8 +65,8 @@
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
-        <loc>http://www.nkode.io/2014/06/25/job-posting-cloud-transit.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <loc>http://www.nkode.io/blog/2014/06/25/job-posting-cloud-transit.html</loc>
+        <lastmod>2014-09-30T10:40:08+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/research/project/2014/06/25/project-cloud-transit.html</loc>
@@ -79,19 +81,15 @@
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
-        <loc>http://www.nkode.io/2014/08/24/valuable-docker-links.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <loc>http://www.nkode.io/blog/2014/08/24/valuable-docker-links.html</loc>
+        <lastmod>2014-09-30T10:40:47+02:00</lastmod>
     </url>
     <url>
-        <loc>http://www.nkode.io/2014/09/12/easymysql.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <loc>http://www.nkode.io/blog/2014/09/12/easymysql.html</loc>
+        <lastmod>2014-09-30T10:39:59+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/about.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/announced.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
@@ -100,11 +98,7 @@
     </url>
     <url>
         <loc>http://www.nkode.io/blog.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/completed.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <lastmod>2014-09-30T10:42:05+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/disclosure.html</loc>
@@ -112,14 +106,10 @@
     </url>
     <url>
         <loc>http://www.nkode.io/</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+        <lastmod>2014-09-30T10:40:47+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/lectures.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/ongoing.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
@@ -128,6 +118,18 @@
     </url>
     <url>
         <loc>http://www.nkode.io/research.html</loc>
+        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/thesis/announced.html</loc>
+        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/thesis/completed.html</loc>
+        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/thesis/ongoing.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
 </urlset>

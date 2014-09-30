@@ -9,12 +9,17 @@
 
 		.teaser .post {
 			background-color: transparent;
-			border-left: 20px solid #356AA0;
+			border-left: 10px solid #356AA0;
 			/*border-top-left-radius: 20px;
 			border-bottom-left-radius: 20px;*/
-			padding: 20px;
-			margin-bottom: 20px;
-			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+			padding: 10px 20px 20px 20px;
+			margin-bottom: 2px;
+			/*border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+			/*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);*/
+		}
+
+		.teaser .post:nth-child(odd) {
+			background-color: #FAFAFA;
 		}
 
 		.teaser .post h3 a {
@@ -22,15 +27,15 @@
 		}
 
 		.teaser .thesis {
-			border-left: 20px solid darkred;
+			border-left: 10px solid darkred;
 		}
 
 		.teaser .lecture {
-			border-left: 20px solid #cc9900;
+			border-left: 10px solid #cc9900;
 		}
 
 		.teaser .research {
-			border-left: 20px solid #6BBA70;
+			border-left: 10px solid #6BBA70;
 		}
 
 		.teaser .content {

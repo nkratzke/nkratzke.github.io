@@ -82,7 +82,7 @@
     </url>
     <url>
         <loc>http://www.nkode.io/blog/2014/08/24/valuable-docker-links.html</loc>
-        <lastmod>2014-09-30T10:40:47+02:00</lastmod>
+        <lastmod>2014-10-03T08:55:58+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/blog/2014/09/12/easymysql.html</loc>
@@ -90,6 +90,10 @@
     </url>
     <url>
         <loc>http://www.nkode.io/about.html</loc>
+        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/thesis/announced.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
@@ -101,15 +105,23 @@
         <lastmod>2014-09-30T10:42:05+02:00</lastmod>
     </url>
     <url>
+        <loc>http://www.nkode.io/thesis/completed.html</loc>
+        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.nkode.io/disclosure.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/</loc>
-        <lastmod>2014-09-30T10:40:47+02:00</lastmod>
+        <lastmod>2014-10-03T08:55:58+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/lectures.html</loc>
+        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/thesis/ongoing.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
@@ -118,18 +130,6 @@
     </url>
     <url>
         <loc>http://www.nkode.io/research.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/announced.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/completed.html</loc>
-        <lastmod>2014-09-26T08:11:24+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.nkode.io/thesis/ongoing.html</loc>
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
 </urlset>

@@ -12,18 +12,18 @@
     <pubDate>Fri, 12 Sep 2014 00:00:00 +0200</pubDate>
     <item>
       <title>Easy MySQL with Docker</title>
-      <link>http://www.nkode.io/blog/2014/09/12/easymysql.html</link>
+      <link>http://www.nkode.io/2014/09/12/easymysql.html</link>
       <description></description>
       <pubDate>Fri, 12 Sep 2014 00:00:00 +0200</pubDate>
-      <guid>http://www.nkode.io/blog/2014/09/12/easymysql.html</guid>
+      <guid>http://www.nkode.io/2014/09/12/easymysql.html</guid>
       <dc:date>2014-09-12T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Valuable Docker Links</title>
-      <link>http://www.nkode.io/blog/2014/08/24/valuable-docker-links.html</link>
+      <link>http://www.nkode.io/2014/08/24/valuable-docker-links.html</link>
       <description></description>
       <pubDate>Sun, 24 Aug 2014 00:00:00 +0200</pubDate>
-      <guid>http://www.nkode.io/blog/2014/08/24/valuable-docker-links.html</guid>
+      <guid>http://www.nkode.io/2014/08/24/valuable-docker-links.html</guid>
       <dc:date>2014-08-24T00:00:00+02:00</dc:date>
     </item>
     <item>
@@ -75,10 +75,10 @@
     </item>
     <item>
       <title>Research Assistant (Cloud Computing)</title>
-      <link>http://www.nkode.io/blog/2014/06/25/job-posting-cloud-transit.html</link>
+      <link>http://www.nkode.io/2014/06/25/job-posting-cloud-transit.html</link>
       <description></description>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://www.nkode.io/blog/2014/06/25/job-posting-cloud-transit.html</guid>
+      <guid>http://www.nkode.io/2014/06/25/job-posting-cloud-transit.html</guid>
       <dc:date>2014-06-25T00:00:00+02:00</dc:date>
     </item>
     <item>
@@ -123,10 +123,10 @@
     </item>
     <item>
       <title>Dart meets Docker (how to dockerize dart apps)</title>
-      <link>http://www.nkode.io/blog/2014/03/05/dockerize-dart.html</link>
+      <link>http://www.nkode.io/2014/03/05/dockerize-dart.html</link>
       <description></description>
       <pubDate>Wed, 05 Mar 2014 15:12:00 +0100</pubDate>
-      <guid>http://www.nkode.io/blog/2014/03/05/dockerize-dart.html</guid>
+      <guid>http://www.nkode.io/2014/03/05/dockerize-dart.html</guid>
       <dc:date>2014-03-05T15:12:00+01:00</dc:date>
     </item>
     <item>
@@ -139,18 +139,18 @@
     </item>
     <item>
       <title>Tour de Dart (Part II)</title>
-      <link>http://www.nkode.io/blog/2014/02/28/dart-part-II.html</link>
+      <link>http://www.nkode.io/2014/02/28/dart-part-II.html</link>
       <description></description>
       <pubDate>Fri, 28 Feb 2014 15:12:00 +0100</pubDate>
-      <guid>http://www.nkode.io/blog/2014/02/28/dart-part-II.html</guid>
+      <guid>http://www.nkode.io/2014/02/28/dart-part-II.html</guid>
       <dc:date>2014-02-28T15:12:00+01:00</dc:date>
     </item>
     <item>
       <title>Pragmatic post parameter handling in start</title>
-      <link>http://www.nkode.io/blog/2014/02/25/pragmatic-request-parameter-handling-start.html</link>
+      <link>http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html</link>
       <description></description>
       <pubDate>Tue, 25 Feb 2014 16:39:48 +0100</pubDate>
-      <guid>http://www.nkode.io/blog/2014/02/25/pragmatic-request-parameter-handling-start.html</guid>
+      <guid>http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html</guid>
       <dc:date>2014-02-25T16:39:48+01:00</dc:date>
     </item>
     <item>
@@ -163,10 +163,10 @@
     </item>
     <item>
       <title>Parallel Map for Dart</title>
-      <link>http://www.nkode.io/blog/2014/02/18/parallels-dart.html</link>
+      <link>http://www.nkode.io/2014/02/18/parallels-dart.html</link>
       <description></description>
       <pubDate>Tue, 18 Feb 2014 16:39:48 +0100</pubDate>
-      <guid>http://www.nkode.io/blog/2014/02/18/parallels-dart.html</guid>
+      <guid>http://www.nkode.io/2014/02/18/parallels-dart.html</guid>
       <dc:date>2014-02-18T16:39:48+01:00</dc:date>
     </item>
     <item>
@@ -179,13 +179,13 @@
     </item>
     <item>
       <title>Tour de Dart (Part I)</title>
-      <link>http://www.nkode.io/blog/2014/02/13/dart-part-I.html</link>
+      <link>http://www.nkode.io/2014/02/13/dart-part-I.html</link>
       <description>&lt;p&gt;This (german) presentation provides a comprehensive survey of the programming language &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; and its core concepts.
 &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; is a web programming language mainly developed by Google with the intention to provide an alternative to JavaScript (the actual de facto standard in web client side programming).
 To get the most out of the survey you should be familiar with at least one programming language and the concepts of object oriented programming.&lt;/p&gt;
 </description>
       <pubDate>Thu, 13 Feb 2014 09:39:48 +0100</pubDate>
-      <guid>http://www.nkode.io/blog/2014/02/13/dart-part-I.html</guid>
+      <guid>http://www.nkode.io/2014/02/13/dart-part-I.html</guid>
       <dc:date>2014-02-13T09:39:48+01:00</dc:date>
     </item>
     <item>

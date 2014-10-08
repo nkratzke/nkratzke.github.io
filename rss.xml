@@ -9,7 +9,36 @@
     <link>http://www.nkode.io</link>
     <description>A Blog About Programming, Cloud Computing, Webbased Systems</description>
     <copyright>Nane Kratzke, 2014</copyright>
-    <pubDate>Fri, 12 Sep 2014 00:00:00 +0200</pubDate>
+    <pubDate>Wed, 08 Oct 2014 00:00:00 +0200</pubDate>
+    <item>
+      <title>New Paper: Lightweight Virtualization Cluster</title>
+      <link>http://www.nkode.io/2014/10/08/paper-lvc.html</link>
+      <description>&lt;p&gt;To overcome vendor lock-in obstacles in public cloud computing the capability
+to define transferable cloud-based services is crucial but not yet solved
+satisfactory. This is especially true for small and medium sized enterprises
+being typically not able to operate a vast staff of cloud service and IT experts.
+Current state of the art cloud service design does not deal systematically
+how to define, deploy and operate cross-plattform capable cloud services.
+This is mainly due to inherent complexity of the field and differences
+in details between a plenty of existing public and private cloud infrastructures.
+One way to handle this complexity is to restrict cloud service design
+to a common subset of commodity features provided by existing public and
+private cloud infrastructures. Nevertheless these restrictions raise
+new service design questions and have to be answered in ongoing research
+in a pragmatic manner regarding the limited IT-operation capabilities
+of small and medium sized enterprises. By simplifying and harmonizing
+the use of cloud infrastructures using lightweight virtualization
+approaches the transfer of cloud deployments between a variety of
+cloud service providers will become possible. This article will discuss
+several aspects like high availability, secure communication, elastic
+service design, transferability of services and formal descriptions of
+service deployments which have to be addressed and are investigated by our
+ongoing research.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 08 Oct 2014 00:00:00 +0200</pubDate>
+      <guid>http://www.nkode.io/2014/10/08/paper-lvc.html</guid>
+      <dc:date>2014-10-08T00:00:00+02:00</dc:date>
+    </item>
     <item>
       <title>Easy MySQL with Docker</title>
       <link>http://www.nkode.io/2014/09/12/easymysql.html</link>
@@ -216,6 +245,6 @@ und deren Produkten geworden.&lt;/p&gt;
       <guid>http://www.nkode.io/thesis/2013/08/08/thesis-test-mobile-apps.html</guid>
       <dc:date>2013-08-08T00:00:00+02:00</dc:date>
     </item>
-    <dc:date>2014-09-12T00:00:00+02:00</dc:date>
+    <dc:date>2014-10-08T00:00:00+02:00</dc:date>
   </channel>
 </rss>

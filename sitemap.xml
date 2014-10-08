@@ -88,7 +88,7 @@
     </url>
     <url>
         <loc>http://www.nkode.io/2014/10/08/paper-lvc.html</loc>
-        <lastmod>2014-10-08T08:45:48+02:00</lastmod>
+        <lastmod>2014-10-08T09:00:50+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/about.html</loc>
@@ -108,15 +108,7 @@
     </url>
     <url>
         <loc>http://www.nkode.io/</loc>
-<<<<<<< Updated upstream
-        <lastmod>2014-10-07T12:17:51+02:00</lastmod>
-=======
-<<<<<<< HEAD
-        <lastmod>2014-10-08T08:45:48+02:00</lastmod>
-=======
-        <lastmod>2014-10-07T12:17:51+02:00</lastmod>
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
+        <lastmod>2014-10-08T09:00:50+02:00</lastmod>
     </url>
     <url>
         <loc>http://www.nkode.io/lectures.html</loc>

@@ -13,7 +13,7 @@
     <item>
       <title>New Paper: Lightweight Virtualization Cluster</title>
       <link>http://www.nkode.io/2014/10/08/paper-lvc.html</link>
-      <description>&lt;p&gt;To overcome vendor lock-in obstacles in public cloud computing the capability
+      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; To overcome vendor lock-in obstacles in public cloud computing the capability
 to define transferable cloud-based services is crucial but not yet solved
 satisfactory. This is especially true for small and medium sized enterprises
 being typically not able to operate a vast staff of cloud service and IT experts.

@@ -9,7 +9,23 @@
     <link>http://www.nkode.io</link>
     <description>A Blog About Programming, Cloud Computing, Webbased Systems</description>
     <copyright>Nane Kratzke, 2014</copyright>
-    <pubDate>Wed, 08 Oct 2014 00:00:00 +0200</pubDate>
+    <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
+    <item>
+      <title>Reactive Bluetooth Low Energy Framework for iOS</title>
+      <link>http://www.nkode.io/thesis/2014/10/13/thesis-bluetooth-low-energy.html</link>
+      <description>&lt;p&gt;&lt;a href=&quot;https://de.wikipedia.org/wiki/Bluetooth_Low_Energy&quot;&gt;Bluetooth Low Energy&lt;/a&gt; wurde
+bereits vor mehreren Jahren vorgestellt und standardisiert, findet aber erst allmählich eine breitere
+Aufmerksamkeit.
+Apples &lt;a href=&quot;https://de.wikipedia.org/wiki/IBeacon&quot;&gt;iBeacons&lt;/a&gt; Technologie trägt dazu
+sicherlich ihren
+Teil bei. Ebenso wie ein verstärkt festzustellendes Interesse an Themenfeldern wie dem
+&lt;a href=&quot;https://de.wikipedia.org/wiki/Internet_der_Dinge&quot;&gt;Internet der Dinge&lt;/a&gt; oder bspw.
+&lt;a href=&quot;https://de.wikipedia.org/wiki/Smart_Home&quot;&gt;Smart Home&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
+      <guid>http://www.nkode.io/thesis/2014/10/13/thesis-bluetooth-low-energy.html</guid>
+      <dc:date>2014-10-13T00:00:00+02:00</dc:date>
+    </item>
     <item>
       <title>New Paper: Lightweight Virtualization Cluster</title>
       <link>http://www.nkode.io/2014/10/08/paper-lvc.html</link>
@@ -245,6 +261,6 @@ und deren Produkten geworden.&lt;/p&gt;
       <guid>http://www.nkode.io/thesis/2013/08/08/thesis-test-mobile-apps.html</guid>
       <dc:date>2013-08-08T00:00:00+02:00</dc:date>
     </item>
-    <dc:date>2014-10-08T00:00:00+02:00</dc:date>
+    <dc:date>2014-10-13T00:00:00+02:00</dc:date>
   </channel>
 </rss>

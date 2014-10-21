@@ -189,12 +189,14 @@ server. You can clone this repository or tell docker to do the repository handli
 behind the scenes for you (which is my preferred way in case of github provided
   Dockerfiles):</p>
 
-<div class="highlight"><pre><code class="bash">docker build -t mysqldb github.com/nkratzke/easymysql</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker build -t mysqldb github.com/nkratzke/easymysql
+</code></pre></div>
 
 <p>Now you have an image named <em>mysqldb</em> on your system, capable to
 provide MySQL databases. The simplest way to do start a database is like that:</p>
 
-<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 mysqldb</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 mysqldb
+</code></pre></div>
 
 <p>It will create a running container on your system providing a MySQL server.</p>
 
@@ -206,26 +208,31 @@ provide MySQL databases. The simplest way to do start a database is like that:</
 
 <p>If you want to run your database on a different port than 3306 just do the following:</p>
 
-<div class="highlight"><pre><code class="bash">docker run -d -p 4407:3306 mysqldb</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -d -p 4407:3306 mysqldb
+</code></pre></div>
 
 <p>to run it on port 4407 (for instance). You can figure out that the container is running</p>
 
-<div class="highlight"><pre><code class="bash">docker ps</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker ps
+</code></pre></div>
 
 <p>and docker returns an output like that.</p>
 
 <div class="highlight"><pre><code class="bash">CONTAINERID  IMAGE    COMMAND       CREATED       STATUS       PORTS
-85fbad3eb5c  mysqldb  <span class="s2">&quot;/bin/start&quot;</span>   56 min. ago   Up 55 min.   0.0.0.0:3306-&gt;3306</code></pre></div>
+85fbad3eb5c  mysqldb  <span class="s2">&quot;/bin/start&quot;</span>   56 min. ago   Up 55 min.   0.0.0.0:3306-&gt;3306
+</code></pre></div>
 
 <p>To check whether the database is working, you can connect to it.
 Figure out what address your docker host has. If you are working with Boot2Docker
 you con do this</p>
 
-<div class="highlight"><pre><code class="bash">boot2docker ip</code></pre></div>
+<div class="highlight"><pre><code class="bash">boot2docker ip
+</code></pre></div>
 
 <p>and you will get an answer like that:</p>
 
-<div class="highlight"><pre><code class="bash">The VM<span class="err">&#39;</span>s Host only interface IP address is: 192.168.59.104</code></pre></div>
+<div class="highlight"><pre><code class="bash">The VM<span class="err">&#39;</span>s Host only interface IP address is: 192.168.59.104
+</code></pre></div>
 
 <p>Now you have all to connect to your MySQL database. To check that everything is fine
 just start <a href="https://dev.mysql.com/downloads/workbench/">MySQLWorkbench</a> and
@@ -241,7 +248,8 @@ enter the following parameters when creating a new database connection:</p>
 <p>To stop a container simply figure out its CONTAINER ID (via <code>docker ps</code> as shown above)
 and stop it like that:</p>
 
-<div class="highlight"><pre><code class="bash">docker stop 85fbad3eb5ce</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker stop 85fbad3eb5ce
+</code></pre></div>
 
 <p>The above mentioned standard database is a read only default database. Not very helpful
 (except for me and my lectures).
@@ -263,7 +271,8 @@ This file can be hosted anywhere (accessible from your docker host).</p>
 
 <p><strong>Attention!</strong> SQL file is assumed to be encoded as UTF8 and has to valid as well as non interactively processable by mysql.</p>
 
-<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">&quot;http://www.example.org/my/database.sql&quot;</span> mysqldb</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">&quot;http://www.example.org/my/database.sql&quot;</span> mysqldb
+</code></pre></div>
 
 <h3>Define user with <code>user</code> and <code>password</code></h3>
 
@@ -271,7 +280,8 @@ This file can be hosted anywhere (accessible from your docker host).</p>
 <code>password</code> parameter.
 By default the created MySQL user will get read access to all databases hosted by this container.</p>
 
-<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">&quot;Nane&quot;</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">&quot;meins&quot;</span> mysqldb</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">&quot;Nane&quot;</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">&quot;meins&quot;</span> mysqldb
+</code></pre></div>
 
 <h3>Change access rights with <code>right</code></h3>
 
@@ -299,11 +309,13 @@ with the database including</p>
 
 <p>The read access right is the default one. So</p>
 
-<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 -e <span class="nv">right</span><span class="o">=</span><span class="s2">&quot;READ&quot;</span> mysqldb</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 -e <span class="nv">right</span><span class="o">=</span><span class="s2">&quot;READ&quot;</span> mysqldb
+</code></pre></div>
 
 <p>is synonym to</p>
 
-<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 mysqldb</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 mysqldb
+</code></pre></div>
 
 <p>Read access is perfect for providing read-only datasets. E.g. databases for students
 they should use to answer questions. By providing the database read-only
@@ -312,7 +324,8 @@ it is assured that no student can destroy the database accidentally.</p>
 <p>If you want to create a user with complete write access to your database
 you can run something like that</p>
 
-<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">&quot;Me&quot;</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">&quot;mine&quot;</span> -e <span class="nv">right</span><span class="o">=</span><span class="s2">&quot;WRITE&quot;</span> mysqldb</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -d -p 3306:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">&quot;Me&quot;</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">&quot;mine&quot;</span> -e <span class="nv">right</span><span class="o">=</span><span class="s2">&quot;WRITE&quot;</span> mysqldb
+</code></pre></div>
 
 <p>which will provide <strong>full access</strong> to the database for user <em>Me</em>.</p>
 
@@ -334,7 +347,8 @@ file provided via the <code>url</code> parameter is valid and processable by MyS
 with the <code>-t</code> and <code>-i</code> parameter of docker. This will forward the output of the container
 to your console, which is likely to be helpful for debugging purposes.</p>
 
-<div class="highlight"><pre><code class="bash">docker run -t -i -p 3306:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">&quot;http://www.ex.org/my/database.sql&quot;</span> mysqldb</code></pre></div>
+<div class="highlight"><pre><code class="bash">docker run -t -i -p 3306:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">&quot;http://www.ex.org/my/database.sql&quot;</span> mysqldb
+</code></pre></div>
 
 		
 			<hr>

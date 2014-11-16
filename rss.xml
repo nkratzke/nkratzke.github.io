@@ -9,7 +9,16 @@
     <link>http://www.nkode.io</link>
     <description>A Blog About Programming, Cloud Computing, Webbased Systems</description>
     <copyright>Nane Kratzke, 2014</copyright>
-    <pubDate>Tue, 21 Oct 2014 00:00:00 +0200</pubDate>
+    <pubDate>Sun, 16 Nov 2014 00:00:00 +0100</pubDate>
+    <item>
+      <title>Ping Pong</title>
+      <link>http://www.nkode.io/2014/11/16/pingpong.html</link>
+      <description>&lt;h3&gt;A distributed HTTP-based and REST-like ping-pong system for test and benchmarking purposes.&lt;/h3&gt;
+</description>
+      <pubDate>Sun, 16 Nov 2014 00:00:00 +0100</pubDate>
+      <guid>http://www.nkode.io/2014/11/16/pingpong.html</guid>
+      <dc:date>2014-11-16T00:00:00+01:00</dc:date>
+    </item>
     <item>
       <title>Betriebssystemunabhängiger Touchscreen Tisch auf Basis kostengünstiger Consumerprodukte</title>
       <link>http://www.nkode.io/thesis/2014/10/21/thesis-low-cost-touch-projector.html</link>
@@ -272,6 +281,6 @@ und deren Produkten geworden.&lt;/p&gt;
       <guid>http://www.nkode.io/thesis/2013/08/08/thesis-test-mobile-apps.html</guid>
       <dc:date>2013-08-08T00:00:00+02:00</dc:date>
     </item>
-    <dc:date>2014-10-21T00:00:00+02:00</dc:date>
+    <dc:date>2014-11-16T00:00:00+01:00</dc:date>
   </channel>
 </rss>

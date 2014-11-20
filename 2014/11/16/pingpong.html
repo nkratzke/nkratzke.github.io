@@ -152,11 +152,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <p>To do a benchmark you have to set up a <em>siege</em>, a <em>ping</em> and a <em>pong</em> host. We assume these are Linux hosts with git, apt-get, wget and curl installed. Install this package on all of this three hosts by running following commands.</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text">git clone https://github.com/nkratzke/pingpong.git
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text">git clone https://github.com/nkratzke/pingpong.git
->>>>>>> Stashed changes
 cd pingpong
 sudo sh ./install.sh
 </code></pre></div>
@@ -165,11 +161,7 @@ sudo sh ./install.sh
 
 <p>It is possible to run the <em>ping</em> and <em>pong</em> service as a docker container. Therefore you have to build a pingpong image on your <em>ping</em> and <em>pong</em> hosts, like that:</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text">docker build -t pingpong github.com/nkratzke/pingpong
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text">docker build -t pingpong github.com/nkratzke/pingpong
->>>>>>> Stashed changes
 </code></pre></div>
 
 <p>Please be aware, that the dockerized ping-pong system will not show the same performance like a &quot;naked&quot; run ping-pong system.</p>
@@ -178,30 +170,18 @@ sudo sh ./install.sh
 
 <p>First step is to start the <em>pong</em> service on the <em>pong</em> host. This will start the <em>pong</em> service on the host on port 8080.</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text">pong:$ sudo dart bin/pong.dart --port=8080
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text">pong:$ sudo dart bin/pong.dart --port=8080
->>>>>>> Stashed changes
 </code></pre></div>
 
 <p>It is although possible to run the pong server as docker container (you will have performance impacts of about 10% to 20%):</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text">pong:$ docker build -t pingpong github.com/nkratzke/pingpong
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text">pong:$ docker build -t pingpong github.com/nkratzke/pingpong
->>>>>>> Stashed changes
 pong:$ docker run -d -p 8080:8080 pingpong --asPong --port=8080
 </code></pre></div>
 
 <p>You want to check wether the <em>pong</em> service is working correctly by checking that</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text">pong:$ curl http://localhost:8080/pong/5
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text">pong:$ curl http://localhost:8080/pong/5
->>>>>>> Stashed changes
 </code></pre></div>
 
 <p>answers with &#39;poong&#39;.</p>
@@ -213,30 +193,18 @@ pong:$ docker run -d -p 8080:8080 pingpong --asPong --port=8080
 <p>Second step is to start the <em>ping</em> service on the <em>ping</em> host. This will start the <em>ping</em> service on the host on port 8080.
 You will have to provide the <em>ping</em> service where it will find its <em>pong</em> service by providing <code>&lt;pongip&gt;</code> and port number you have assigned to the <em>pong</em> service above.</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text">ping:$ sudo dart bin/ping.dart --port=8080 --url=http://&lt;pongip&gt;:8080
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text">ping:$ sudo dart bin/ping.dart --port=8080 --url=http://&lt;pongip&gt;:8080
->>>>>>> Stashed changes
 </code></pre></div>
 
 <p>It is although possible to run the ping server as docker container (you will have performance impacts of about 10% to 20%):</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text">pong:$ docker build -t pingpong github.com/nkratzke/pingpong
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text">pong:$ docker build -t pingpong github.com/nkratzke/pingpong
->>>>>>> Stashed changes
 pong:$ docker run -d -p 8080:8080 pingpong --asPing --port=8080 --url=http://&lt;pongip&gt;:8080
 </code></pre></div>
 
 <p>You want to check wether the <em>ping</em> service is started and able to communicate with the <em>pong</em> service by checking that</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text">ping:$ curl http://localhost:8080/ping/5
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text">ping:$ curl http://localhost:8080/ping/5
->>>>>>> Stashed changes
 </code></pre></div>
 
 <p>answers with &#39;poong&#39;.</p>
@@ -247,11 +215,7 @@ pong:$ docker run -d -p 8080:8080 pingpong --asPing --port=8080 --url=http://&lt
 
 <p>Third step you should run the benchmark to figure out the answer performance of your ping-pong system. On your <em>siege</em> host you will find a <code>run.sh</code> script to start your benchmark. You should replace <code>http://my.host.com/ping</code> with <code>http://&lt;pingip&gt;:8080/ping</code> to provide the script the correct ping service uri.</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text"># Run the experiment against
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text"># Run the experiment against
->>>>>>> Stashed changes
 # You have to specify your ping host here!
 URL=http://my.host.com/ping
 </code></pre></div>
@@ -268,11 +232,7 @@ URL=http://my.host.com/ping
 
 <p>The following line converts experiment data (apachebench log format), tag it with a name (here &#39;Reference&#39;) and convert it into a csv file. You can use tags to distinguish different experiments for analysis.</p>
 
-<<<<<<< Updated upstream
-<div class="highlight"><pre><code class="language-text" data-lang="text">dart bin/analze.dart --tag=Reference apachebench.log &gt; reference.csv
-=======
 <div class="highlight"><pre><code class="text language-text" data-lang="text">dart bin/analze.dart --tag=Reference apachebench.log &gt; reference.csv
->>>>>>> Stashed changes
 </code></pre></div>
 
 		

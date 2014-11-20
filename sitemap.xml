@@ -80,7 +80,11 @@
     </url>
     <url>
         <loc>http://www.nkode.io/2014/08/24/valuable-docker-links.html</loc>
+<<<<<<< Updated upstream
         <lastmod>2014-11-14T19:09:20+01:00</lastmod>
+=======
+        <lastmod>2014-11-20T08:38:27+01:00</lastmod>
+>>>>>>> Stashed changes
     </url>
     <url>
         <loc>http://www.nkode.io/2014/09/12/easymysql.html</loc>
@@ -123,7 +127,15 @@
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>
+<<<<<<< Updated upstream
         <loc>http://www.nkode.io/disclosure.html</loc>
+=======
+        <loc>http://www.nkode.io/</loc>
+        <lastmod>2014-11-20T08:38:27+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.nkode.io/lectures.html</loc>
+>>>>>>> Stashed changes
         <lastmod>2014-09-26T08:11:24+02:00</lastmod>
     </url>
     <url>

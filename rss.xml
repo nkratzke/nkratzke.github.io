@@ -120,7 +120,7 @@ ongoing research.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;th&gt;Project staff&lt;/th&gt;
-  &lt;td&gt;nominated&lt;/td&gt;
+  &lt;td&gt;Peter-Christian Quint&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;th&gt;Project partners&lt;/th&gt;
@@ -152,14 +152,6 @@ ongoing research.&lt;/p&gt;
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://www.nkode.io/lecture/2014/06/12/lecture-programming-i.html</guid>
       <dc:date>2014-06-12T00:00:00+02:00</dc:date>
-    </item>
-    <item>
-      <title>Webtechnologies (webtech)</title>
-      <link>http://www.nkode.io/lecture/2014/05/24/lecture-webtechnology.html</link>
-      <description></description>
-      <pubDate>Sat, 24 May 2014 00:00:00 +0200</pubDate>
-      <guid>http://www.nkode.io/lecture/2014/05/24/lecture-webtechnology.html</guid>
-      <dc:date>2014-05-24T00:00:00+02:00</dc:date>
     </item>
     <item>
       <title>Action Item Ontology</title>
@@ -279,6 +271,14 @@ und deren Produkten geworden.&lt;/p&gt;
       <pubDate>Thu, 08 Aug 2013 00:00:00 +0200</pubDate>
       <guid>http://www.nkode.io/thesis/2013/08/08/thesis-test-mobile-apps.html</guid>
       <dc:date>2013-08-08T00:00:00+02:00</dc:date>
+    </item>
+    <item>
+      <title>Database-based Web Server Programming (Winter 2012)</title>
+      <link>http://www.nkode.io/lecture/2012/09/01/lecture-db-web-programming.html</link>
+      <description></description>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0200</pubDate>
+      <guid>http://www.nkode.io/lecture/2012/09/01/lecture-db-web-programming.html</guid>
+      <dc:date>2012-09-01T00:00:00+02:00</dc:date>
     </item>
     <dc:date>2014-11-16T00:00:00+01:00</dc:date>
   </channel>

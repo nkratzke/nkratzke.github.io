@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
+    <meta property="twitter:account_id" content="4503599630726265" />
+    <title>Komfortables Deployen und Skalieren von CoreOS Clustern</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/customize.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+
+    
+
+    <!-- ShareThis Scripts
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "ur-be54e553-bdea-6613-5866-3a0cca99f467", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>-->
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-380838-9']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+<div class="navbar navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    	<span class="sr-only">Toggle navigation</span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><div class="brand-icon"></div>nkode.io</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+  	    <li id="about"><a href="/about.html">About me</a></li>
+        <li id="blog"><a href="/blog.html">Blog</a></li>
+        <li id="research"><a href="/research.html">Research</a></li>
+        <li id="lectures"><a href="/lectures.html">Lectures</a></li>
+        <li id="thesis"><a href="/thesis/ongoing.html">Thesis</a></li>
+        <li id="archive"><a href="/archive.html">Archive</a></li>
+  		  <li id="publications"><a href="/publications.html">Publications</a></li>
+    	</ul>
+    </div>
+  </div>
+</div>
+
+
+    
+    <div class="content">
+      <div class="container">
+        <article class="post thesis">
+	<header>
+		
+		<img src="/img/posts/coreos.png" class="photo" width="100%">
+		
+		<div class="headline">
+			<h2>Komfortables Deployen und Skalieren von CoreOS Clustern</h2>
+			<p class="meta">
+			
+			Latest update: <strong>2014-08-23</strong>
+			
+			</p>
+		</div>
+	</header>
+	<section>
+		<div class="rightbar">
+			<h3>Tags </h3>
+			<div class="tags hidden-print">
+	<ul>
+	
+		<li><a href="/tag/thesis"><span class="tag">#thesis</span></a></li>
+	
+		<li><a href="/tag/cloud"><span class="tag">#cloud</span></a></li>
+	
+		<li><a href="/tag/docker"><span class="tag">#docker</span></a></li>
+	
+		<li><a href="/tag/coreos"><span class="tag">#coreos</span></a></li>
+	
+		<li><a href="/tag/vagrant"><span class="tag">#vagrant</span></a></li>
+	
+		<li><a href="/tag/deploy"><span class="tag">#deploy</span></a></li>
+	
+		<li><a href="/tag/cluster"><span class="tag">#cluster</span></a></li>
+	
+	</ul>
+</div>
+
+			<h3>Share </h3>
+			<div class="share hidden-print">
+	<ul>
+		<li>
+			<a href="http://twitter.com/home?status=Komfortables+Deployen+und+Skalieren+von+CoreOS+Clustern http://www.nkode.io/thesis/2014/08/21/thesis-coreos-deployment.html" target="_blank">
+				<img src="/img/social/twitter-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="https://plus.google.com/share?url=http://www.nkode.io/thesis/2014/08/21/thesis-coreos-deployment.html" target="_blank">
+				<img src="/img/social/googleplus-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nkode.io/thesis/2014/08/21/thesis-coreos-deployment.html&title=Komfortables+Deployen+und+Skalieren+von+CoreOS+Clustern&summary=&source=" target="_blank">
+				<img src="/img/social/linkedin-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Fwww.nkode.io%2Fthesis%2F2014%2F08%2F21%2Fthesis-coreos-deployment.html&title=Komfortables+Deployen+und+Skalieren+von+CoreOS+Clustern" target="_blank">
+				<img src="/img/social/xing-128-black.png">
+			</a>
+		</li>
+	</ul>
+</div>
+
+		</div>
+		<table class="project">
+
+<tr>
+	<th>Degree: </th>
+	<td>Bachelor (B. Sc.)</td>
+</tr>
+
+
+
+<tr>
+	<th>Study programme: </th>
+	<td>Informatik/Softwaretechnik</td>
+</tr>
+
+
+
+<tr>
+	<th>State: </th>
+	<td>announced</td>
+</tr>
+
+
+
+
+
+<tr>
+	<th>Company: </th>
+	<td><a href="http://www.cosa.fh-luebeck.de">CoSA</a></td>
+</tr>
+
+
+
+<tr>
+	<th>Language: </th>
+	<td>German</td>
+</tr>
+
+
+
+</table>
+
+<br>
+
+<p><small>
+<h3>Voraussetzungen und Hinweise</h3>
+Erfahrungen mit Linux Betriebssystemen sind zur Bearbeitung dieser Bachelorarbeit
+von Vorteil. Entsprechende Kenntnisse werden vorausgesetzt. Aufgrund der Quellenlage
+ist die meiste Dokumentation auf Englisch. Gute bis sehr gute Englischkenntnisse
+(Lesen-Verstehen) werden daher ebenfalls vorausgesetzt.</p>
+
+<p>Details der Aufgabenstellung können noch im Vorfeld der Abschlussarbeit abgestimmt werden.
+</small></p>
+
+<hr>
+
+<p><a href="https://coreos.com/">CoreOS</a> ist eine Clusterumgebung,
+die auf vielfältigen Cloud Infrastrukturen
+ausgeprägt werden kann. In CoreOS Clustern werden <a href="http://www.docker.com/">Docker</a> Container
+ausgeführt, die beliebige Anwendungen in ausführbarer Form (d.h.
+  inklusive aller Abhängigkeiten und mit allen
+  erforderlichen Konfigurationseinstellungen)
+  kapseln. Aus mehreren Containern können so beliebig komplexe verteilte Systeme
+  gebildet werden.</p>
+
+<p>Im Rahmen des Forschungsprojekts <a href="/research/project/2014/06/25/project-cloud-transit.html">Cloud TRANSIT</a> wird u.a. CoreOS als
+Abstraktionslayer für unterschiedlichste Cloud Infrastrukturen genutzt. Hierfür
+müssen immer wieder CoreOS Cluster in unterschiedlichen Zielinfrastrukturen
+ausgeprägt und ggf. skaliert werden.</p>
+
+<p>Dieses Deployment soll mittels einer Command Line Applikation
+vereinheitlicht werden. Die zu entwickelnde Command Line Applikation <code>cloud</code>
+soll CoreOS Cluster zum Beispiel in</p>
+
+<ul>
+<li>der Cloud Infrastruktur <a href="https://aws.amazon.com/de/ec2/">Amazon Web Services (EC2)</a></li>
+<li>der Cloud Infrastruktur <a href="https://cloud.google.com/products/compute-engine/">Google Compute Engine (GCE)</a></li>
+<li>der Virtualisierungs-Infrastruktur VMWare <a href="http://www.vmware.com/de/products/vsphere">vSphere</a></li>
+<li>oder der lokalen Virtualisierungsumgebung <a href="https://www.virtualbox.org/">Virtualbox</a></li>
+</ul>
+
+<p>komfortabel ausprägen und skalieren können.</p>
+
+<h3>Feature 1: Installieren von Deployer-Plugins</h3>
+
+<p>Konzeptionell sind beliebige weitere Zielinfrastrukturen
+über ein Plugin System vorzusehen. Das Plugin System soll es ermöglichen,
+verschiedene Deployer für unterschiedliche Zielinfrastrukturen zu installieren.
+Um bspw. einen Deployer für die Zielinfrastruktur Virtualbox oder vSphere
+zu installieren, soll es ausreichen ein Kommando folgender Art auszuführen.</p>
+
+<div class="highlight"><pre><code class="bash">cloud install --deployer virtualbox-deployer
+</code></pre></div>
+
+<div class="highlight"><pre><code class="bash">cloud install --deployer vsphere-deployer
+</code></pre></div>
+
+<p>Dieses soll
+entsprechende Deployer
+(für eine Virtualbox bzw. eine vSphere Infrastruktur)
+aus einer Standardquelle laden und installieren.</p>
+
+<p>Es soll aber auch ergänzend möglich sein, beliebige Deployer direkt aus einem
+Git Repository zu installieren. Z.B. in dieser Form:</p>
+
+<div class="highlight"><pre><code class="bash">cloud install --deployer git://github.com/nkratzke/my-special-deployer.git
+</code></pre></div>
+
+<p>Die Funktionstüchtigkeit des Plugin-Systems soll mindestens an den
+in der Aufgabenstellung (AWS EC2, GCE, Virtualbox, vSphere) aufgeführten
+Zielinfrastrukturen prototypisch nachgewiesen werden.</p>
+
+<h3>Feature 2: Definition von CoreOS Clustern</h3>
+
+<p>Ein CoreOS Cluster soll mittels einer json Datei beliebig definiert werden können.
+Diese definiert
+welche Instanztypen im CoreOS Cluster vorhanden sind und die Anzahl an Instanzen
+pro Instanztyp, die im COREOS Cluster initial mittels
+  <code>cloud deploy</code> ausgeprägt werden sollen.</p>
+
+<p>Eine beispielhafte Clusterdefinition könnte bspw. so aussehen:</p>
+
+<div class="highlight"><pre><code class="json"><span class="p">{</span>
+  <span class="err">cluster:</span> <span class="nt">&quot;Cluster Type Name&quot;</span><span class="p">,</span>
+  <span class="err">instance-types:</span> <span class="err">[</span>
+    <span class="err">t1:</span> <span class="err">{</span> <span class="err">vcpu:</span> <span class="err">1.6,</span> <span class="err">vcore:</span> <span class="err">2,</span> <span class="err">network:</span> <span class="nt">&quot;high&quot;</span><span class="p">,</span> <span class="err">vmemory:</span> <span class="nt">&quot;4000MB&quot;</span><span class="p">,</span>  <span class="err">disk:</span> <span class="nt">&quot;4GB&quot;</span> <span class="p">}</span><span class="err">,</span>
+    <span class="err">t</span><span class="mi">2</span><span class="err">:</span> <span class="p">{</span> <span class="err">vcpu:</span> <span class="err">1,</span>  <span class="err">vcore:</span> <span class="err">2,</span> <span class="err">network:</span> <span class="nt">&quot;high&quot;</span><span class="p">,</span> <span class="err">vmemory:</span> <span class="nt">&quot;8000MB&quot;</span><span class="p">,</span>  <span class="err">disk:</span> <span class="nt">&quot;4GB&quot;</span> <span class="p">}</span><span class="err">,</span>
+    <span class="err">t</span><span class="mi">3</span><span class="err">:</span> <span class="p">{</span> <span class="err">vcpu:</span> <span class="err">2,</span>  <span class="err">vcore:</span> <span class="err">2,</span> <span class="err">network:</span> <span class="nt">&quot;high&quot;</span><span class="p">,</span> <span class="err">vmemory:</span> <span class="nt">&quot;16GB&quot;</span><span class="p">,</span> <span class="err">disk:</span> <span class="nt">&quot;12GB&quot;</span> <span class="p">}</span><span class="err">,</span>
+    <span class="err">t</span><span class="mi">4</span><span class="err">:</span> <span class="p">{</span> <span class="err">vcpu:</span> <span class="err">3,</span>  <span class="err">vcore:</span> <span class="err">2,</span> <span class="err">network:</span> <span class="nt">&quot;high&quot;</span><span class="p">,</span> <span class="err">vmemory:</span> <span class="nt">&quot;32GB&quot;</span><span class="p">,</span> <span class="err">disk:</span> <span class="nt">&quot;12GB&quot;</span> <span class="p">}</span>
+  <span class="err">],</span>
+  <span class="err">instances:</span> <span class="p">{</span> <span class="err">t1:</span> <span class="err">5,</span> <span class="err">t2:</span> <span class="err">10,</span> <span class="err">t3:</span> <span class="err">20</span> <span class="p">}</span>
+<span class="err">}</span>
+</code></pre></div>
+
+<h3>Feature 3: Deployen von CoreOS Clustern</h3>
+
+<p>Mittels eines Deployers soll ein CoreOS Cluster auf einer Zielinfrastruktur
+ausgeprägt werden können. Im einfachsten Fall soll dies wie folgt auf einer lokalen
+Maschine (localhost) gehen. Das Deployment liefert einen Identifier
+<code>LVCID</code> zurück,
+über den der Cluster anschließend angesprochen werden kann.</p>
+
+<p>Sind in der Zielinfrastruktur ggf. erforderliche Voraussetzungen für
+ein erfolgreiches CoreOS Deployment erforderlich
+(z.B. Anlegen von Security Groups im EC2 Service, Anlegen von Netzwerken in GCE,
+  Portforwardings in Virtualbox etc.)
+so sind diese Vorausetzungen durch den Deployer im Vorfeld zu prüfen
+und bei nicht Existenz ggf. herzustellen.</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider virtualbox
+</code></pre></div>
+
+<p>Sollte die Zielinfrastruktur Access Credentials benötigen und einen
+Remote Endpoint beinhalten, soll ein Deployment in folgender Form möglich sein.</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider vsphere --akid user --secret password --endpoint url
+</code></pre></div>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider aws --akid &lt;akid&gt; --secret &lt;awssecret&gt; --endpoint &lt;awsendpoint&gt;
+</code></pre></div>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider gce --akid &lt;user&gt; --secret &lt;googlepwd&gt; --using &lt;googleendpoint&gt;
+</code></pre></div>
+
+<h3>Feature 4: Einloggen in einen CoreOS Cluster</h3>
+
+<p>Mittels</p>
+
+<div class="highlight"><pre><code class="bash">cloud login <span class="nv">$LVCID</span>
+</code></pre></div>
+
+<p>soll man sich in den ausgeprägten CoreOS Cluster verschlüsselt mittels SSH einloggen können.
+Der CoreOS Cluster soll bei diesem Login mit dem dafür vorgesehenen Command <code>fleetctl</code>
+administriert werden können. Dies ist nicht Gegenstand der Arbeit, die Arbeit soll
+nur ein Login ermöglichen.</p>
+
+<h3>Feature 5: Herunterfahren eines CoreOS Clusters</h3>
+
+<p>Letztlich soll</p>
+
+<div class="highlight"><pre><code class="bash">cloud shutdown <span class="nv">$LVCID</span>
+</code></pre></div>
+
+<p>einen Cluster zerstören und alle Instanzen sowie weitere für den Clusterbetrieb
+erforderlichen Voraussetzungen (siehe Req. 3) in der Zielinfrastruktur
+wieder zurücknehmen.</p>
+
+<h3>Feature 6: Skalieren von CoreOS Clustern</h3>
+
+<p>Es soll ferner ein manuelles Up- und Downscaling eines laufenden CoreOS Clusters
+in folgender Form möglich sein.</p>
+
+<div class="highlight"><pre><code class="bash">cloud scale <span class="nv">$LVCID</span> --t1 10 --t2 10 --t3 10 --t4 10
+</code></pre></div>
+
+<p>Dieses Command soll zur Folge haben,</p>
+
+<ul>
+<li>dass Instanzen vom Typ <code>t1</code> von 5 auf 10 erhöht werden,</li>
+<li>dass Instanzen vom Typ <code>t2</code> auf 10 belassen werden,</li>
+<li>dass Instanzen vom Typ <code>t3</code> von 20 auf 10 reduziert werden,</li>
+<li>dass Instanzen vom Typ <code>t4</code> von 0 auf 10 erhöht werden,</li>
+</ul>
+
+<p>wenn Instanzen wie in oben stehender <code>cluster.json</code> definiert worden sind.</p>
+
+<h3>Aufgaben, Dokumentation und Outcomes</h3>
+
+<p>Im einzelnen sind die folgenden Aufgaben zu bearbeiten:</p>
+
+<ul>
+<li>Analysieren der oben genannten Features, Ableitung und Dokumentation verfeinerter <strong>Software Requirements</strong></li>
+<li><strong>Analyse</strong> wie man sich Deployment Tools wie bspw. <a href="http://docs.vagrantup.com/v2/getting-started/index.html">Vagrant</a> zur Lösung vorliegenden Problems zu nutze machen kann.</li>
+<li>Definition und Abstimmung mit dem Aufgabensteller eines <strong>leichtgewichtigen Datenformats</strong> zur Definition von CoreOS Clustern (Feature 2)</li>
+<li>Entwicklung und Abstimmung mit dem Aufgabensteller einer <strong>Plugin-fähigen Architektur</strong> und <strong>Software Designs</strong> für die Command Line Applikation <code>cloud</code></li>
+<li><strong>Implementieren</strong> der Command Line Applikation <code>cloud</code>. Hierbei sind die folgenden subcommands wie folgt absteigend priorisiert:
+
+<ol>
+<li><code>deploy</code>, <code>login</code></li>
+<li><code>scale</code>, <code>install</code></li>
+<li><code>shutdown</code></li>
+</ol></li>
+<li><strong>Test und Nachweis</strong> der Funktionstüchtigkeit der Command Line Applikation <code>cloud</code> an den Zielinfrastrukturen
+
+<ol>
+<li>Virtualbox, AWS EC2</li>
+<li>Google Compute Engine</li>
+<li>vSphere</li>
+</ol></li>
+<li>Begleitende <strong>Dokumentation</strong> (deutsch oder englisch) der oben angegebenen Schritte, Designentscheidungen und Ergebnisse gem. folgendem <a href="https://github.com/nkratzke/BAMA-Template">Template</a>.</li>
+</ul>
+
+<hr>
+
+<p><small></p>
+
+<h3>Ggf. hilfreiche Hinweise und Links</h3>
+
+<p>Da viele Deployment Tools wie z.B. <a href="http://www.vagrantup.com/">Vagrant</a> oder Cross-Cloud-Platform
+Bibliotheken (wie z.B. <a href="http://www.fog.io">fog</a>) in der Programmiersprache
+<a href="http://www.ruby.org">Ruby</a> geschrieben wurden, ist die Nutzung der Sprache Ruby vermutlich
+naheliegend.</p>
+
+<p>Zur Einarbeitung in die Aufgabenstellung sind ergänzend die folgenden Links
+gegeben:</p>
+
+<ul>
+<li>Was ist <a href="https://coreos.com/">CoreOS</a>?</li>
+<li>Was ist <a href="http://www.docker.com/">Docker</a>?</li>
+<li>Was ist <a href="http://docs.vagrantup.com/v2/getting-started/index.html">Vagrant</a>?</li>
+<li>Wie kann man einen CoreOS Cluster mittels Vagrant lokal <a href="http://coreos.com/blog/coreos-clustering-with-vagrant/">ausprägen</a>?</li>
+<li>Wie kann man einen CoreOS Cluster in EC2 <a href="http://coreos.com/docs/running-coreos/cloud-providers/ec2/">starten</a>?</li>
+<li>Wie kann man einen CoreOS Cluster in GCE <a href="http://coreos.com/docs/running-coreos/cloud-providers/google-compute-engine/">starten</a>?</li>
+<li>Wie kann man einen CoreOS Cluster in VMWare <a href="https://coreos.com/docs/running-coreos/platforms/vmware/">starten</a>?</li>
+<li>Wie kann man in einem CoreOS Cluster <a href="http://coreos.com/docs/launching-containers/launching/launching-containers-fleet/">fleet</a> nutzen?</li>
+<li>Wie kann man einfach ein <a href="http://www.sitepoint.com/ruby-command-line-interface-gems/">Command Line Interface</a> in Ruby entwickeln?
+</small></li>
+</ul>
+
+
+
+
+		
+			<hr>
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'wwwnkodeio'; // required: replace example with your forum shortname
+
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+							var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+							dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+							(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		
+	</section>
+	<footer>
+	</footer>
+	
+</article>
+
+      </div>
+    </div>
+
+    <div class="end hidden-print">
+  <div class="container">
+      <div class="row">
+    	<div class="col-sm-5 block">
+	    	<center>
+		    	&copy; Nane Kratzke (All rights reserved)
+		   		<div class="socialsites">
+  <center>
+   <a href="https://twitter.com/nanekratzke" title="Twitter"><img src="/img/social/twitter-128.png" alt="Twitter"></a>
+   <a href="http://www.slideshare.com/i21aneka" title="Slideshare"><img src="/img/social/slideshare-128.png" alt="Slideshare"></a>
+   <a href="https://github.com/nkratzke" title="Github"><img src="/img/social/github-128.png" alt="Github"></a>
+   <a href="https://www.researchgate.net/profile/Nane_Kratzke" title="Researchgate"><img src="/img/social/researchgate-128.png" alt="Researchgate"></a>
+   <a href="https://de.linkedin.com/in/nanekratzke" title="LinkedIN"><img src="/img/social/linkedin-128.png" alt="LinkedIN"></a>
+   <a href="https://www.xing.com/profile/Nane_Kratzke" title="Xing"><img src="/img/social/xing-128.png" alt="Xing"></a>
+   <a href="https://plus.google.com/+NaneKratzke" title="Google Plus"><img src="/img/social/googleplus-128.png" alt="Google Plus"></a>
+   <a href="https://www.facebook.com/nane.kratzke" title="Facebook"><img src="/img/social/facebook-128.png" alt="Facebook"></a>
+   <a href="/rss.xml" title="RSS"><img src="/img/social/rss-128.png" alt="RSS"></a>
+ </center>
+</div>
+
+    		</center>
+    	</div>
+       <div class="col-sm-2"></div>
+    	<div class="col-sm-5 block hidden-xs">
+	    	<center>
+		      Links to my official sites
+		      <div class="officialsites">
+   <a href="http://www.fh-luebeck.de/Inhalt/09_Fachhochschule_intern/07_Services/70_Verzeichnis_der_Hochschulangehoerigen/06_personenarchiv/kratzke_nane.html"><img src="/img/official/fhl-logo.png"></a>
+   <a href="http://www.cosa.fh-luebeck.de/en/home/kratzke"><img src="/img/official/cosa-logo.png"></a>
+</div>
+    		</center>
+    	</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer hidden-print">
+	<div class="container">
+		<center>
+			<a href="/about.html">About</a> &bullet;
+			<a href="/disclosure.html">Contact</a> &bullet;
+			<a href="/disclosure.html">Legal Notice (Impressum)</a>
+		</center>
+	</div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

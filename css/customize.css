@@ -24,6 +24,7 @@ h1, h2, h3 {
 article section h1,
 article section h2,
 article section h3 {
+	margin-top: 5rem;
 	border-bottom: 1px solid rgb(50, 50, 50);
 }
 

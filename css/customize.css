@@ -28,6 +28,10 @@ article section h3 {
 	border-bottom: 1px solid rgb(50, 50, 50);
 }
 
+.thesis > .disclosure > h3 {
+	border-bottom: 0px solid transparent;	
+}
+
 h1 { font-size: 5rem; }
 h2 { font-size: 4rem; }
 h3 { font-size: 3rem; }
@@ -722,6 +726,26 @@ footer {
 .researchgate a em {
 	color: #94c034;
 	font-style: normal;
+}
+
+/* THUMBNAIL STYLING */
+.thumbnail {
+	padding: 0px;
+	height: 360px;
+	overflow: hidden;
+	border-radius: 0px;
+}
+
+div.lecture {
+	border-top: 5px solid #cc9900;
+}
+
+div.blog {
+	border-top: 5px solid #356AA0;
+}
+
+.row > div > div.thesis {
+	border-top: 5px solid darkred;
 }
 
 

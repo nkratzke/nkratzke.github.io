@@ -8,7 +8,11 @@
     
     <item>
       <title>Ping Pong</title>
-      <description>&lt;h3&gt;A distributed HTTP-based and REST-like ping-pong system for test and benchmarking purposes.&lt;/h3&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/pingpong-experiment.png&quot;&gt;
+        
+        &lt;h3&gt;A distributed HTTP-based and REST-like ping-pong system for test and benchmarking purposes.&lt;/h3&gt;
 
 &lt;p&gt;The intended usage of this &lt;a href=&quot;https://github.com/nkratzke/pingpong&quot;&gt;tool suite&lt;/a&gt; (check it out on &lt;a href=&quot;https://github.com/nkratzke/pingpong&quot;&gt;github&lt;/a&gt;) is to run two hosts which are queried (benchmarked) by a third host (the &lt;em&gt;siege&lt;/em&gt;). Host 1 runs a &lt;em&gt;ping&lt;/em&gt; service querying a &lt;em&gt;pong&lt;/em&gt; service (on host 2) for the answer. &lt;em&gt;Ping&lt;/em&gt; and &lt;em&gt;pong&lt;/em&gt; build a very simple distributed system.&lt;/p&gt;
 
@@ -95,7 +99,8 @@ URL=http://my.host.com/ping
 
 &lt;p&gt;The following line converts experiment data (apachebench log format), tag it with a name (here &amp;#39;Reference&amp;#39;) and convert it into a csv file. You can use tags to distinguish different experiments for analysis.&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;dart bin/analze.dart --tag=Reference apachebench.log &amp;gt; reference.csv
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
       <pubDate>Sun, 16 Nov 2014 00:00:00 +0100</pubDate>
       <link>http://www.nkode.io//2014/11/16/pingpong.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/11/16/pingpong.html</guid>
@@ -103,7 +108,11 @@ URL=http://my.host.com/ping
     
     <item>
       <title>Betriebssystemunabhängiger Touchscreen Aufbau auf Basis kostengünstiger Consumerprodukte</title>
-      <description>&lt;p&gt;Sogenannte Touchscreen- oder Multitouchtische werden bspw. auf Messen eingesetzt, um
+      <description>
+        
+        &lt;img src=&quot;/img/posts/interactive_table.jpg&quot;&gt;
+        
+        &lt;p&gt;Sogenannte Touchscreen- oder Multitouchtische werden bspw. auf Messen eingesetzt, um
 Kunden beeindruckende Interaktionsmöglichkeiten zu geben.
 Kommerzielle Systeme kosten dabei schnell mehrere tausend Euro (z.B. &lt;a href=&quot;https://de.wikipedia.org/wiki/Microsoft_PixelSense&quot;&gt;MicroSoft Pixelsense&lt;/a&gt;).&lt;/p&gt;
 
@@ -145,7 +154,8 @@ Grenzen des Aufbaus sind aufzuzeigen.&lt;/p&gt;
 &lt;li&gt;Realisierung eines &lt;strong&gt;Beameraufbaus&lt;/strong&gt; sowie &lt;strong&gt;Implementierung&lt;/strong&gt; inkl. Test/Nachweis der Software zur Steuerung beliebiger Software&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Begleitende Dokumentation&lt;/strong&gt; der oben angegebenen Schritte, Designentscheidungen und Ergebnisse (Bachelorarbeit)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Tue, 21 Oct 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//thesis/2014/10/21/thesis-low-cost-touch-projector.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2014/10/21/thesis-low-cost-touch-projector.html</guid>
@@ -153,7 +163,11 @@ Grenzen des Aufbaus sind aufzuzeigen.&lt;/p&gt;
     
     <item>
       <title>Reactive Bluetooth Low Energy Framework for iOS</title>
-      <description>&lt;p&gt;&lt;a href=&quot;https://de.wikipedia.org/wiki/Bluetooth_Low_Energy&quot;&gt;Bluetooth Low Energy&lt;/a&gt; wurde
+      <description>
+        
+        &lt;img src=&quot;/img/posts/bluetooth_smart.png&quot;&gt;
+        
+        &lt;p&gt;&lt;a href=&quot;https://de.wikipedia.org/wiki/Bluetooth_Low_Energy&quot;&gt;Bluetooth Low Energy&lt;/a&gt; wurde
 bereits vor mehreren Jahren vorgestellt und standardisiert, findet aber erst allmählich eine breitere
 Aufmerksamkeit.
 Apples &lt;a href=&quot;https://de.wikipedia.org/wiki/IBeacon&quot;&gt;iBeacons&lt;/a&gt; Technologie trägt dazu
@@ -193,7 +207,8 @@ für den Einsatz als Central und als Peripheral Modul.&lt;/p&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Begleitende Dokumentation&lt;/strong&gt; der oben angegebenen Schritte, Designentscheidungen und Ergebnisse (Bachelorarbeit)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//thesis/2014/10/13/thesis-bluetooth-low-energy.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2014/10/13/thesis-bluetooth-low-energy.html</guid>
@@ -201,7 +216,11 @@ für den Einsatz als Central und als Peripheral Modul.&lt;/p&gt;
     
     <item>
       <title>New Paper: Lightweight Virtualization Cluster</title>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; To overcome vendor lock-in obstacles in public cloud computing the capability
+      <description>
+        
+        &lt;img src=&quot;/img/posts/paper.jpg&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; To overcome vendor lock-in obstacles in public cloud computing the capability
 to define transferable cloud-based services is crucial but not yet solved
 satisfactory. This is especially true for small and medium sized enterprises
 being typically not able to operate a vast staff of cloud service and IT experts.
@@ -231,7 +250,8 @@ or via &lt;a href=&quot;https://www.researchgate.net/publication/265416477_Light
 &lt;li&gt;You will find informations how to cite the paper &lt;a href=&quot;/bibliography/Kra2014a.html&quot;&gt;here&lt;/a&gt;.
 &lt;/ul&gt;
 &lt;/small&gt;&lt;/p&gt;
-</description>
+
+      </description>
       <pubDate>Wed, 08 Oct 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//2014/10/08/paper-lvc.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/10/08/paper-lvc.html</guid>
@@ -239,7 +259,11 @@ or via &lt;a href=&quot;https://www.researchgate.net/publication/265416477_Light
     
     <item>
       <title>Easy MySQL with Docker</title>
-      <description>&lt;p&gt;&lt;strong&gt;A docker container to provide MySQL databases on the fly.&lt;/strong&gt;&lt;/p&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/docker.png&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;A docker container to provide MySQL databases on the fly.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;docker&quot;&gt;Docker&lt;/a&gt; is an open-source engine that automates the deployment of applications
 as portable and self-contained containers that will run virtually anywhere.
@@ -447,7 +471,8 @@ with the &lt;code&gt;-t&lt;/code&gt; and &lt;code&gt;-i&lt;/code&gt; parameter o
 to your console, which is likely to be helpful for debugging purposes.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -t -i -p 3306:3306 -e &lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;http://www.ex.org/my/database.sql&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
+
+      </description>
       <pubDate>Fri, 12 Sep 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//2014/09/12/easymysql.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/09/12/easymysql.html</guid>
@@ -455,7 +480,11 @@ to your console, which is likely to be helpful for debugging purposes.&lt;/p&gt;
     
     <item>
       <title>Programming I (Winter 2014)</title>
-      <description>&lt;p&gt;The lecture &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming
 for freshman students.&lt;/p&gt;
 
 &lt;p&gt;The lecture covers aspects like primitive and reference data types, operators, expressions,
@@ -490,7 +519,8 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 &lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ws2014/progI/unit06.pdf&quot;&gt;OO and UML&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2014/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//lecture/2014/09/01/lecture-programming-i.html</link>
       <guid isPermaLink="true">http://www.nkode.io//lecture/2014/09/01/lecture-programming-i.html</guid>
@@ -498,7 +528,11 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
     
     <item>
       <title>Fundamentals of Programming (Winter 2014)</title>
-      <description>&lt;p&gt;The lecture is about fundamentals of programming
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture is about fundamentals of programming
 for freshman students.&lt;/p&gt;
 
 &lt;p&gt;The lecture covers aspects like primitive and reference data types, operators, expressions,
@@ -529,7 +563,8 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2014/progI/unit05.pdf&quot;&gt;Recursive programming&lt;/a&gt; (functional programming skipped, just for self study)&lt;/li&gt;
 &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2014/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//lecture/2014/09/01/lecture-fundamentals-of-programming.html</link>
       <guid isPermaLink="true">http://www.nkode.io//lecture/2014/09/01/lecture-fundamentals-of-programming.html</guid>
@@ -537,7 +572,11 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
     
     <item>
       <title>Database and Web Programming (Winter 2014)</title>
-      <description>&lt;p&gt;The lecture is about common technologies used to build (part) of web information systems. Lecture is held for students
+      <description>
+        
+        &lt;img src=&quot;/img/posts/webtech.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture is about common technologies used to build (part) of web information systems. Lecture is held for students
 at Lübeck University of Applied Sciences (in german language). Lecture covers following aspects:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -569,7 +608,8 @@ Course is supported by educational grants from:
 &lt;/a&gt;
 &lt;/center&gt;
 &lt;/div&gt;
-</description>
+
+      </description>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//lecture/2014/09/01/lecture-db-web-programming.html</link>
       <guid isPermaLink="true">http://www.nkode.io//lecture/2014/09/01/lecture-db-web-programming.html</guid>
@@ -577,7 +617,11 @@ Course is supported by educational grants from:
     
     <item>
       <title>Valuable Docker Links</title>
-      <description>&lt;p&gt;&lt;small&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/docker.png&quot;&gt;
+        
+        &lt;p&gt;&lt;small&gt;
 The &lt;a href=&quot;http://www.docker.io&quot;&gt;Docker&lt;/a&gt; weekly email &lt;a href=&quot;https://www.docker.com/subscribe_newsletter/&quot;&gt;newsletter&lt;/a&gt; is a great service to stay tuned
 with Docker on a weekly basis. You will find great links, news, articles, howtos,
 manuals and so. It is all about Docker and its evolving ecosystem.
@@ -762,7 +806,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;http://panamax.io&quot;&gt;Panamax: Docker management for humans&lt;/a&gt; (added 24th August 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.coreos.com&quot;&gt;CoreOS: Linux for Massive Server Deployments&lt;/a&gt; (added 25th July 2014&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Sun, 24 Aug 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//2014/08/24/valuable-docker-links.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/08/24/valuable-docker-links.html</guid>
@@ -770,7 +815,11 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
     
     <item>
       <title>Komfortables Deployen und Skalieren von CoreOS Clustern</title>
-      <description>&lt;p&gt;&lt;small&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/coreos.png&quot;&gt;
+        
+        &lt;p&gt;&lt;small&gt;
 &lt;h3&gt;Voraussetzungen und Hinweise&lt;/h3&gt;
 Erfahrungen mit Linux Betriebssystemen sind zur Bearbeitung dieser Bachelorarbeit
 von Vorteil. Entsprechende Kenntnisse werden vorausgesetzt. Aufgrund der Quellenlage
@@ -973,7 +1022,8 @@ gegeben:&lt;/p&gt;
 &lt;li&gt;Wie kann man einfach ein &lt;a href=&quot;http://www.sitepoint.com/ruby-command-line-interface-gems/&quot;&gt;Command Line Interface&lt;/a&gt; in Ruby entwickeln?
 &lt;/small&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Thu, 21 Aug 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//thesis/2014/08/21/thesis-coreos-deployment.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2014/08/21/thesis-coreos-deployment.html</guid>
@@ -981,7 +1031,11 @@ gegeben:&lt;/p&gt;
     
     <item>
       <title>Programming II (Summer 2014)</title>
-      <description>&lt;p&gt;The lecture &lt;strong&gt;Programming II&lt;/strong&gt; continues &lt;strong&gt;Programming I&lt;/strong&gt; by introducing
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture &lt;strong&gt;Programming II&lt;/strong&gt; continues &lt;strong&gt;Programming I&lt;/strong&gt; by introducing
 more sophistacted programming aspects
 for freshman students (second semester).&lt;/p&gt;
 
@@ -1021,7 +1075,8 @@ as well as concurrent programming using threads.&lt;/p&gt;
 &lt;li&gt;Lecture Unit 12: &lt;a href=&quot;/assets/programming/prog-unit12.pdf&quot;&gt;Thread based programming&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercises: &lt;a href=&quot;/assets/programming/prog-excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//lecture/2014/07/13/lecture-programming-ii.html</link>
       <guid isPermaLink="true">http://www.nkode.io//lecture/2014/07/13/lecture-programming-ii.html</guid>
@@ -1029,7 +1084,11 @@ as well as concurrent programming using threads.&lt;/p&gt;
     
     <item>
       <title>Cloud TRANSIT</title>
-      <description>&lt;p&gt;&lt;small&gt;(Image: incredibleguy / flickr.com, Lizenz: CC-BY)&lt;/small&gt;&lt;/p&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/cloud.jpg&quot;&gt;
+        
+        &lt;p&gt;&lt;small&gt;(Image: incredibleguy / flickr.com, Lizenz: CC-BY)&lt;/small&gt;&lt;/p&gt;
 
 &lt;table class=&quot;project&quot;&gt;
 &lt;tr&gt;
@@ -1146,7 +1205,8 @@ Following companies are supporting us by providing research grants.
 &lt;/a&gt;
 &lt;/center&gt;
 &lt;/div&gt;
-</description>
+
+      </description>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//research/project/2014/06/25/project-cloud-transit.html</link>
       <guid isPermaLink="true">http://www.nkode.io//research/project/2014/06/25/project-cloud-transit.html</guid>
@@ -1154,7 +1214,11 @@ Following companies are supporting us by providing research grants.
     
     <item>
       <title>Research Assistant (Cloud Computing)</title>
-      <description>&lt;p&gt;&lt;small&gt;(Image: incredibleguy / flickr.com, Lizenz: CC-BY)&lt;/small&gt;&lt;/p&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/cloud.jpg&quot;&gt;
+        
+        &lt;p&gt;&lt;small&gt;(Image: incredibleguy / flickr.com, Lizenz: CC-BY)&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;small&gt;
 &lt;strong&gt;Remark:&lt;/strong&gt; &lt;em&gt;This translation is just for convenience for non german speaking candidates.
@@ -1230,7 +1294,8 @@ according to the regulatories of the
 &lt;/p&gt;
 &lt;img src=&quot;/img/posts/bmbf.png&quot;&gt;
 &lt;/div&gt;
-</description>
+
+      </description>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//2014/06/25/job-posting-cloud-transit.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/06/25/job-posting-cloud-transit.html</guid>
@@ -1238,7 +1303,11 @@ according to the regulatories of the
     
     <item>
       <title>Action Item Ontology</title>
-      <description>&lt;p&gt;Ziel dieser Bachelorarbeit ist es, ein semantisches Modell für eine &lt;a href=&quot;https://de.wikipedia.org/wiki/Semantisches_Web&quot;&gt;Semantic Web&lt;/a&gt; Applikation für Maßnahmen (&lt;em&gt;Action Items&lt;/em&gt;) zu entwerfen, dass es ermöglicht&lt;/p&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/todo.jpg&quot;&gt;
+        
+        &lt;p&gt;Ziel dieser Bachelorarbeit ist es, ein semantisches Modell für eine &lt;a href=&quot;https://de.wikipedia.org/wiki/Semantisches_Web&quot;&gt;Semantic Web&lt;/a&gt; Applikation für Maßnahmen (&lt;em&gt;Action Items&lt;/em&gt;) zu entwerfen, dass es ermöglicht&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Action Items&lt;/em&gt; aus anderen Systemen zu importieren&lt;/li&gt;
@@ -1260,7 +1329,8 @@ according to the regulatories of the
 &lt;li&gt;&lt;strong&gt;Implementierung&lt;/strong&gt; inkl. Test/Nachweis der Action Item Applikation&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Begleitende Dokumentation&lt;/strong&gt; der oben angegebenen Schritte, Designentscheidungen und Ergebnisse (Bachelorarbeit)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//thesis/2014/05/19/thesis-action-item-ontology.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2014/05/19/thesis-action-item-ontology.html</guid>
@@ -1268,7 +1338,11 @@ according to the regulatories of the
     
     <item>
       <title>Analysis of Legacy Code (Analyse von Legacy Code)</title>
-      <description>&lt;p&gt;Unter &lt;em&gt;Legacy Code&lt;/em&gt; wird (neben anderen Definitionen) Code verstanden, der sich durch unerwünschte (jedoch in Praxis häufig anzutreffende) Eigenschaften auszeichnet: wenige bis keine Tests, kaum dokumentiert, nicht nachvollziehbar strukturiert, hohe Komplexität, schwer verständlich.&lt;/p&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;Unter &lt;em&gt;Legacy Code&lt;/em&gt; wird (neben anderen Definitionen) Code verstanden, der sich durch unerwünschte (jedoch in Praxis häufig anzutreffende) Eigenschaften auszeichnet: wenige bis keine Tests, kaum dokumentiert, nicht nachvollziehbar strukturiert, hohe Komplexität, schwer verständlich.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Legacy Code&lt;/em&gt; in diesem Verständnis ist dabei nicht auf Altsysteme (Legacy Systeme) beschränkt, sondern kann dabei in allen Bereichen des Software-Engineerings auftreten, z.B. in alten Anwendungen des Finanzsektors, in modernen ERP Systemen oder auch in allen Formen von Open Source Software.&lt;/p&gt;
 
@@ -1287,7 +1361,8 @@ according to the regulatories of the
 &lt;li&gt;Die &lt;strong&gt;Funktionstüchtigkeit&lt;/strong&gt; des Analysewerkzeugs ist für einen Prototypen geeignet nachzuweisen.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Analysewerkzeug&lt;/strong&gt; soll ferner stichprobenartig an mehreren großen frei verfügbaren Open Source Codebasen (bspw. gehostet von &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;) &lt;strong&gt;evaluiert&lt;/strong&gt; werden, entsprechende Erkenntnisse sind geeignet aufzubereiten.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Wed, 19 Mar 2014 00:00:00 +0100</pubDate>
       <link>http://www.nkode.io//thesis/2014/03/19/thesis-analyse-von-legacy-software.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2014/03/19/thesis-analyse-von-legacy-software.html</guid>
@@ -1295,7 +1370,11 @@ according to the regulatories of the
     
     <item>
       <title>Analysis of Mouse Data (Analyse von Mausdaten)</title>
-      <description>&lt;p&gt;Um eine möglichst hohe Interaktionsrate für eine Webseite zu erreichen, ist es notwendig diese zielgruppengerecht zu gestalten. Allein die besuchten Seiten und das Endergebnis durch Analysetools aufzuzeichnen reicht für die Optimierung einer Webseite meistens nicht.&lt;/p&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/mouse.jpg&quot;&gt;
+        
+        &lt;p&gt;Um eine möglichst hohe Interaktionsrate für eine Webseite zu erreichen, ist es notwendig diese zielgruppengerecht zu gestalten. Allein die besuchten Seiten und das Endergebnis durch Analysetools aufzuzeichnen reicht für die Optimierung einer Webseite meistens nicht.&lt;/p&gt;
 
 &lt;p&gt;Im Rahmen dieser Bachelorarbeit soll ein Trackingscript entwickelt werden, welches Maus-Daten (Klick, Aufenthaltsbereiche des Mauszeigers, ggf. Bewegungsdaten und Aufenthaltsdauern des Mauszeigers) eines Benutzers registriert. Diese Daten sollen in einer Datenbank gespeichert und in einer webbasierten Anwendung geeignet visualisiert werden.&lt;/p&gt;
 
@@ -1313,7 +1392,8 @@ according to the regulatories of the
 &lt;li&gt;&lt;strong&gt;Test und Evaluierung&lt;/strong&gt; der Anwendung sowie Dokumentation der Test- und Evaluierungsergebnisse&lt;/li&gt;
 &lt;li&gt;Nachvollziehbare &lt;strong&gt;Dokumentation&lt;/strong&gt; der oben angegebenen Schritte, Designentscheidungen und Ergebnisse (BA Dokument)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Thu, 06 Mar 2014 00:00:00 +0100</pubDate>
       <link>http://www.nkode.io//thesis/2014/03/06/thesis-mouse-daten.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2014/03/06/thesis-mouse-daten.html</guid>
@@ -1321,7 +1401,11 @@ according to the regulatories of the
     
     <item>
       <title>Dart meets Docker (how to dockerize dart apps)</title>
-      <description>&lt;p&gt;&lt;a href=&quot;https://www.docker.io&quot;&gt;Docker&lt;/a&gt; is an open-source engine that automates the deployment of applications as portable and self-sufficient containers that will run virtually anywhere. Dockerized applications reduce configuration efforts and obstacles for administrators. Applications can be provided in a configured, self-sufficient and frictionless way.&lt;/p&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/containerdart-teaser.png&quot;&gt;
+        
+        &lt;p&gt;&lt;a href=&quot;https://www.docker.io&quot;&gt;Docker&lt;/a&gt; is an open-source engine that automates the deployment of applications as portable and self-sufficient containers that will run virtually anywhere. Dockerized applications reduce configuration efforts and obstacles for administrators. Applications can be provided in a configured, self-sufficient and frictionless way.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.dartlang.org&quot;&gt;Dart&lt;/a&gt; is a web programming language mainly developed by Google with the intention to provide an alternative to JavaScript (the actual de facto standard in web client side programming). Nevertheless Dart can be used to develop server side programs (see &lt;a href=&quot;/2014/02/28/dart-part-II.html&quot;&gt;Tour de Dart Part II&lt;/a&gt; for more details concerning server side programming with Dart).&lt;/p&gt;
 
@@ -1496,7 +1580,8 @@ CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&
 &lt;h3&gt;Closing remarks regarding docker (on non linux systems)&lt;/h3&gt;
 
 &lt;p&gt;If docker is used on a non linux system like Mac OS X it is likely that docker uses &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;VirtualBox&lt;/a&gt; under the hood. In theses cases you must configure port forwarding in virtual box. So if you are exposing port 8080 in your docker container mapping it to port 8888 for the outside world you must forward host port 8888 to docker-vm port 8888 in virtualbox. How to do this is explained &lt;a href=&quot;http://www.virtualbox.org/manual/ch06.html#natforward&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
+
+      </description>
       <pubDate>Wed, 05 Mar 2014 15:12:00 +0100</pubDate>
       <link>http://www.nkode.io//2014/03/05/dockerize-dart.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/03/05/dockerize-dart.html</guid>
@@ -1504,7 +1589,9 @@ CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&
     
     <item>
       <title>Extension of PumpScanner with an interface for Bluetooth communications with the PSCommunicator</title>
-      <description>&lt;p&gt;The Android App PumpScanner by &lt;a href=&quot;http://www.lorentz.de&quot;&gt;Lorentz GmbH &amp;amp; Co. KG&lt;/a&gt; is able to communicate with the Lorentz DataModule using the smartphone’s Bluetooth module. The DataModule is placed directly on the pump and measures and stores actual data and pump settings.&lt;/p&gt;
+      <description>
+        
+        &lt;p&gt;The Android App PumpScanner by &lt;a href=&quot;http://www.lorentz.de&quot;&gt;Lorentz GmbH &amp;amp; Co. KG&lt;/a&gt; is able to communicate with the Lorentz DataModule using the smartphone’s Bluetooth module. The DataModule is placed directly on the pump and measures and stores actual data and pump settings.&lt;/p&gt;
 
 &lt;p&gt;Additionally the customers are offered a product named PSCommunicator. This device has a Bluetooth module and a GSM module and acts like a transmitter to forward the actual data and the settings to the Lorentz server. On the server, the customers can log in and check and control their pumps. Right now, PumpScanner can only be used to communicate with pumps.&lt;/p&gt;
 
@@ -1523,7 +1610,8 @@ CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&
 &lt;/ul&gt;
 
 &lt;p&gt;PumpScanner is programmed in JAVA using the &lt;a href=&quot;https://developer.android.com/sdk/index.html&quot;&gt;Android Development Toolkit&lt;/a&gt; supplied by Google. All Test devices will be supplied by &lt;a href=&quot;http://www.lorentz.de&quot;&gt;Lorentz&lt;/a&gt;.&lt;/p&gt;
-</description>
+
+      </description>
       <pubDate>Tue, 04 Mar 2014 10:56:13 +0100</pubDate>
       <link>http://www.nkode.io//thesis/2014/03/04/thesis-pumpscanner.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2014/03/04/thesis-pumpscanner.html</guid>
@@ -1531,7 +1619,11 @@ CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&
     
     <item>
       <title>Web Technologies (Summer 2014)</title>
-      <description>&lt;p&gt;The lecture is about common technologies used to build (part) of web information systems. Lecture is held for students
+      <description>
+        
+        &lt;img src=&quot;/img/posts/webtech.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture is about common technologies used to build (part) of web information systems. Lecture is held for students
 at Lübeck University of Applied Sciences (in german language). Lecture covers following aspects:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1565,7 +1657,8 @@ Course is supported by educational grants from:
 &lt;/a&gt;
 &lt;/center&gt;
 &lt;/div&gt;
-</description>
+
+      </description>
       <pubDate>Sat, 01 Mar 2014 00:00:00 +0100</pubDate>
       <link>http://www.nkode.io//lecture/2014/03/01/lecture-webtech.html</link>
       <guid isPermaLink="true">http://www.nkode.io//lecture/2014/03/01/lecture-webtech.html</guid>
@@ -1573,7 +1666,11 @@ Course is supported by educational grants from:
     
     <item>
       <title>Tour de Dart (Part II)</title>
-      <description>&lt;p&gt;This is the second part of the Tour de Dart (german). &lt;a href=&quot;/2014/02/13/dart-part-I.html&quot;&gt;Part I&lt;/a&gt; focused the language &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; itself and had a look at
+      <description>
+        
+        &lt;img src=&quot;/img/posts/dart-tour.png&quot;&gt;
+        
+        &lt;p&gt;This is the second part of the Tour de Dart (german). &lt;a href=&quot;/2014/02/13/dart-part-I.html&quot;&gt;Part I&lt;/a&gt; focused the language &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; itself and had a look at
 &lt;em&gt;the optional type system, data types, functions, operators, object oriented concepts, and generics&lt;/em&gt; of the programming language &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Second part will concentrate on further aspects like library system and package manager pub, asynchronous programming, file I/O, DOM tree programming including selectors and event handling, server and client side programming covering how to develop http servers, client applications and how to use websockets. Also data converting (JSON, Base64) is explained as well as HTML escaping to prevent cross site scripting. Bonus: a simple chat server example to demonstrate websockets. Example is provided via github and pub.dartlang.org for free.&lt;/p&gt;
@@ -1608,7 +1705,8 @@ Course is supported by educational grants from:
 &lt;li&gt;&lt;a href=&quot;https://github.com/nkratzke/dartchat&quot;&gt;dartchat on github&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://pub.dartlang.org/packages/dartchat&quot;&gt;dartchat on pub.dartlang.org&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Fri, 28 Feb 2014 15:12:00 +0100</pubDate>
       <link>http://www.nkode.io//2014/02/28/dart-part-II.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/02/28/dart-part-II.html</guid>
@@ -1616,7 +1714,9 @@ Course is supported by educational grants from:
     
     <item>
       <title>Pragmatic post parameter handling in start</title>
-      <description>&lt;p&gt;&lt;a href=&quot;https://github.com/lvivski/start&quot;&gt;Start&lt;/a&gt; is a &lt;a href=&quot;http://www.sinatrarb.com/&quot;&gt;Sinatra&lt;/a&gt; inspired web framework for &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt;. Up to version 0.2.0 &lt;a href=&quot;https://github.com/lvivski/start&quot;&gt;Start&lt;/a&gt; provided no pragmatic post parameter handling. With &lt;a href=&quot;https://github.com/lvivski/start/issues/49&quot;&gt;issue 49&lt;/a&gt; I proposed a &lt;code&gt;getPostParams&lt;/code&gt; method for the &lt;code&gt;Request&lt;/code&gt; class.&lt;/p&gt;
+      <description>
+        
+        &lt;p&gt;&lt;a href=&quot;https://github.com/lvivski/start&quot;&gt;Start&lt;/a&gt; is a &lt;a href=&quot;http://www.sinatrarb.com/&quot;&gt;Sinatra&lt;/a&gt; inspired web framework for &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt;. Up to version 0.2.0 &lt;a href=&quot;https://github.com/lvivski/start&quot;&gt;Start&lt;/a&gt; provided no pragmatic post parameter handling. With &lt;a href=&quot;https://github.com/lvivski/start/issues/49&quot;&gt;issue 49&lt;/a&gt; I proposed a &lt;code&gt;getPostParams&lt;/code&gt; method for the &lt;code&gt;Request&lt;/code&gt; class.&lt;/p&gt;
 
 &lt;p&gt;That is how my &lt;a href=&quot;https://github.com/lvivski/start/issues/49&quot;&gt;proposal&lt;/a&gt; looked like:&lt;/p&gt;
 
@@ -1684,7 +1784,8 @@ Course is supported by educational grants from:
 
   &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
+
+      </description>
       <pubDate>Tue, 25 Feb 2014 16:39:48 +0100</pubDate>
       <link>http://www.nkode.io//2014/02/25/pragmatic-request-parameter-handling-start.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/02/25/pragmatic-request-parameter-handling-start.html</guid>
@@ -1692,7 +1793,11 @@ Course is supported by educational grants from:
     
     <item>
       <title>Kinect to Touch Control Framework</title>
-      <description>&lt;p&gt;In Zusammenarbeit mit der &lt;a href=&quot;http://www.sforit.de/&quot;&gt;Solutions For Innovative Technology GmbH&lt;/a&gt; soll die Entwicklung einer Gestensteuerungs-Umgebung erfolgen. Eine Host-Anwendung soll Handbewegungen des Nutzers über eine angeschlossene Microsoft &lt;a href=&quot;http://www.xbox.com/de-DE/Kinect&quot;&gt;Kinect&lt;/a&gt; für Windows erkennen und in Touch-Befehle umwandeln, sodass die Bedienung einer oder mehrerer Client-Applikationen mittels Gestensteuerung möglich wird. Dieses Konzept fügt sich in eine Umgebung mit weiteren Geräten wie Microsoft &lt;a href=&quot;http://www.microsoft.com/en-us/pixelsense/default.aspx&quot;&gt;PixelSense&lt;/a&gt; und Microsoft Surface ein und soll im Zusammenhang mit diesen für Präsentationsflächen z.B. auf Messen verwendet werden.&lt;/p&gt;
+      <description>
+        
+        &lt;img src=&quot;/img/posts/kinect.png&quot;&gt;
+        
+        &lt;p&gt;In Zusammenarbeit mit der &lt;a href=&quot;http://www.sforit.de/&quot;&gt;Solutions For Innovative Technology GmbH&lt;/a&gt; soll die Entwicklung einer Gestensteuerungs-Umgebung erfolgen. Eine Host-Anwendung soll Handbewegungen des Nutzers über eine angeschlossene Microsoft &lt;a href=&quot;http://www.xbox.com/de-DE/Kinect&quot;&gt;Kinect&lt;/a&gt; für Windows erkennen und in Touch-Befehle umwandeln, sodass die Bedienung einer oder mehrerer Client-Applikationen mittels Gestensteuerung möglich wird. Dieses Konzept fügt sich in eine Umgebung mit weiteren Geräten wie Microsoft &lt;a href=&quot;http://www.microsoft.com/en-us/pixelsense/default.aspx&quot;&gt;PixelSense&lt;/a&gt; und Microsoft Surface ein und soll im Zusammenhang mit diesen für Präsentationsflächen z.B. auf Messen verwendet werden.&lt;/p&gt;
 
 &lt;p&gt;Zentraler Aspekt der Aufgabenstellung ist die Entwicklung einer Schnittstelle für die Umwandlung von &lt;a href=&quot;http://www.xbox.com/de-DE/Kinect&quot;&gt;Kinect&lt;/a&gt;-Gesten-Daten in Touch-Daten und deren Übermittlung an verschiedene Touch-fähige Endgeräte. Dabei soll die Möglichkeit bestehen, gleichzeitig an mehrere Geräte zu senden. Außerdem soll die Übertragung nicht an eine bestimmte Darstellung gebunden sein, sondern die Informationen sollen möglichst universell nutzbar sein. Der prototypische Nachweis erfolgt über eine zu entwickelnde Empfänger-Software, die empfangene Daten geeignet umsetzt.&lt;/p&gt;
 
@@ -1708,7 +1813,8 @@ Course is supported by educational grants from:
 &lt;li&gt;Der &lt;strong&gt;prototypische Nachweis&lt;/strong&gt; der Machbarkeit erfolgt mittels einer Anwendung, die ein Verkaufsregal mit verschiedenen Produkten darstellt. Zu jedem Produkt können dann durch &amp;quot;Berühren&amp;quot; mittels Geste weitere Informationen abgerufen werden. Ggf. kann der Nachweis der Machbarkeit an einem anderen Betrachtungsgegenstand vergleichbarer Komplexität erfolgen.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Begleitende Dokumentation&lt;/strong&gt; der oben angegebenen Schritte, Designentscheidungen und Ergebnisse (Bachelorarbeit)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Fri, 21 Feb 2014 20:37:25 +0100</pubDate>
       <link>http://www.nkode.io//thesis/2014/02/21/thesis-kinect-control.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2014/02/21/thesis-kinect-control.html</guid>
@@ -1716,7 +1822,9 @@ Course is supported by educational grants from:
     
     <item>
       <title>Parallel Map for Dart</title>
-      <description>&lt;p&gt;&lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; programs run in a single isolate by default. Although Dart provides
+      <description>
+        
+        &lt;p&gt;&lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; programs run in a single isolate by default. Although Dart provides
 several comfortable asynchronous programming techniques like Futures and Streams Dart
 does not use multithreading features of modern processors by default.&lt;/p&gt;
 
@@ -2003,7 +2111,8 @@ to a pragmatic form to express parallelization in Dart:&lt;/p&gt;
                           &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
                               &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
                           &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
+
+      </description>
       <pubDate>Tue, 18 Feb 2014 16:39:48 +0100</pubDate>
       <link>http://www.nkode.io//2014/02/18/parallels-dart.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/02/18/parallels-dart.html</guid>
@@ -2011,7 +2120,11 @@ to a pragmatic form to express parallelization in Dart:&lt;/p&gt;
     
     <item>
       <title>Rebuild of a flash game using JavaScript</title>
-      <description>&lt;p&gt;The technical capabilities of JavaScript are often underestimated. The aim of this thesis is to demonstrate
+      <description>
+        
+        &lt;img src=&quot;/img/posts/bomberman.jpg&quot;&gt;
+        
+        &lt;p&gt;The technical capabilities of JavaScript are often underestimated. The aim of this thesis is to demonstrate
 technical capabilities of JavaScript by implementing a variation of a well known game series called &lt;a href=&quot;https://en.wikipedia.org/wiki/Bomberman&quot;&gt;Bomberman&lt;/a&gt; for
 demonstration purposes.&lt;/p&gt;
 
@@ -2042,7 +2155,8 @@ and destroy obstacles. Exploding bombs can set off other bombs, kill or injure e
 &lt;li&gt;Test and evaluate the game according to the developed software test strategy&lt;/li&gt;
 &lt;li&gt;Document the above mentioned steps, design decisions and results (thesis document)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Mon, 17 Feb 2014 00:00:00 +0100</pubDate>
       <link>http://www.nkode.io//thesis/2014/02/17/thesis-bomberman.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2014/02/17/thesis-bomberman.html</guid>
@@ -2050,7 +2164,11 @@ and destroy obstacles. Exploding bombs can set off other bombs, kill or injure e
     
     <item>
       <title>Tour de Dart (Part I)</title>
-      <description>&lt;p&gt;This (german) presentation provides a comprehensive survey of the programming language &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; and its core concepts.
+      <description>
+        
+        &lt;img src=&quot;/img/posts/dart-tour.png&quot;&gt;
+        
+        &lt;p&gt;This (german) presentation provides a comprehensive survey of the programming language &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; and its core concepts.
 &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; is a web programming language mainly developed by Google with the intention to provide an alternative to JavaScript (the actual de facto standard in web client side programming).
 To get the most out of the survey you should be familiar with at least one programming language and the concepts of object oriented programming.&lt;/p&gt;
 
@@ -2073,7 +2191,8 @@ To get the most out of the survey you should be familiar with at least one progr
 conversion of data formats (often used in the web domain)&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;So stay tuned.&lt;/strong&gt;&lt;/p&gt;
-</description>
+
+      </description>
       <pubDate>Thu, 13 Feb 2014 09:39:48 +0100</pubDate>
       <link>http://www.nkode.io//2014/02/13/dart-part-I.html</link>
       <guid isPermaLink="true">http://www.nkode.io//2014/02/13/dart-part-I.html</guid>
@@ -2081,7 +2200,11 @@ conversion of data formats (often used in the web domain)&lt;/em&gt;.&lt;/p&gt;
     
     <item>
       <title>Evaluierung von Cross Mobile Frameworks</title>
-      <description>&lt;p&gt;Durch die stetig steigende Bedeutung von Smartphones und Tablets
+      <description>
+        
+        &lt;img src=&quot;/img/posts/mobile-phones.jpg&quot;&gt;
+        
+        &lt;p&gt;Durch die stetig steigende Bedeutung von Smartphones und Tablets
 für Unternehmen und private Anwendungen stehen App-Entwickler häufig
 vor der Aufgabe Anwendungen für mehrere Zielplattformen (iOS, Android, Symbian, etc.)
 ggf. unter Nutzung plattformspezifischer Programmiersprachen entwicklen
@@ -2146,7 +2269,8 @@ Kategorien:&lt;/p&gt;
 &lt;li&gt;Feldtest der Apps auf Testgeräten (alle Apps sollten bspw. dieselben
 Sensordaten wie die nativ entwickelte App darstellen)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+
+      </description>
       <pubDate>Fri, 08 Nov 2013 00:00:00 +0100</pubDate>
       <link>http://www.nkode.io//thesis/2013/11/08/thesis-evaluation-cross-mobile-frameworks.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2013/11/08/thesis-evaluation-cross-mobile-frameworks.html</guid>
@@ -2154,7 +2278,11 @@ Sensordaten wie die nativ entwickelte App darstellen)&lt;/li&gt;
     
     <item>
       <title>Systematisches Testen von Mobile Applikationen</title>
-      <description>&lt;p&gt;In allen Bereichen in denen Software ihren Einsatz findet, ist die Qualität
+      <description>
+        
+        &lt;img src=&quot;/img/posts/mobile-phones.jpg&quot;&gt;
+        
+        &lt;p&gt;In allen Bereichen in denen Software ihren Einsatz findet, ist die Qualität
 der Software zu einem entscheidenden Faktor für den Erfolg eines Unternehmens
 und deren Produkten geworden.&lt;/p&gt;
 
@@ -2211,7 +2339,8 @@ Kriterien:&lt;/p&gt;
 
 &lt;p&gt;So soll die Eignung der jeweiligen Frameworks für Testphasen/Testarten erhoben
 und aufbereitet werden.&lt;/p&gt;
-</description>
+
+      </description>
       <pubDate>Thu, 08 Aug 2013 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//thesis/2013/08/08/thesis-test-mobile-apps.html</link>
       <guid isPermaLink="true">http://www.nkode.io//thesis/2013/08/08/thesis-test-mobile-apps.html</guid>
@@ -2219,7 +2348,11 @@ und aufbereitet werden.&lt;/p&gt;
     
     <item>
       <title>Database-based Web Server Programming (Winter 2012)</title>
-      <description>&lt;p&gt;The lecture is about common technologies used to build (part) of web information systems. Lecture is held for students
+      <description>
+        
+        &lt;img src=&quot;/img/posts/webtech.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture is about common technologies used to build (part) of web information systems. Lecture is held for students
 at Lübeck University of Applied Sciences (in german language). Lecture covers following aspects:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -2253,7 +2386,8 @@ Course is supported by educational grants from:
 &lt;/a&gt;
 &lt;/center&gt;
 &lt;/div&gt;
-</description>
+
+      </description>
       <pubDate>Sat, 01 Sep 2012 00:00:00 +0200</pubDate>
       <link>http://www.nkode.io//lecture/2012/09/01/lecture-db-web-programming.html</link>
       <guid isPermaLink="true">http://www.nkode.io//lecture/2012/09/01/lecture-db-web-programming.html</guid>

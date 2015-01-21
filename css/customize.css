@@ -29,7 +29,7 @@ article section h3 {
 }
 
 .thesis > .disclosure > h3 {
-	border-bottom: 0px solid transparent;	
+	border-bottom: 0px solid transparent;
 }
 
 h1 { font-size: 5rem; }
@@ -748,6 +748,28 @@ div.blog {
 	border-top: 5px solid darkred;
 }
 
+div.media {
+	padding: 10px;
+}
+
+div.media div.media-left {
+	padding-right: 20px;
+}
+
+div.media img.media-object {
+	width: 128px;
+	height: auto;
+}
+
+div.media:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+/* LIST GROUP */
+.list-group li.active a {
+	color: white;
+}
 
 /* CENTRAL CONTENT AREA */
 

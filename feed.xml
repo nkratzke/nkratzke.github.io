@@ -683,6 +683,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Docker &lt;small&gt;overlay network solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/&quot;&gt;Docker Virtual Networking with Socketplane.io&lt;/a&gt; by &lt;strong&gt;Ryan Wallner&lt;/strong&gt; (added 22th Jan. 2015)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@ALGrendel/docker-weave-a-little-cloud-and-a-raspberry-pi-381f73a4376d&quot;&gt;Docker, Weave, Raspberry Pi and a bit of Networked Cloud Computing!&lt;/a&gt; by &lt;strong&gt;Alexander Grendel&lt;/strong&gt; (added 15th December 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://containerops.org/2014/11/11/future-of-docker-networking&quot;&gt;Future of Docker Networking&lt;/a&gt; by &lt;strong&gt;Milos Gajdos&lt;/strong&gt; (added 13th November 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://thenewstack.io/sdn-and-dockerfiles-for-clocker-the-docker-cloud-maker/&quot;&gt;SDN and Dockerfiles for Clocker, the Docker Cloud Maker&lt;/a&gt; by &lt;strong&gt;Andrew Donald Kennedy&lt;/strong&gt; (added 16th October 2014)&lt;/li&gt;
@@ -700,6 +701,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22th Jan. 2015)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://csaba.palfi.me/random-docker-tips/&quot;&gt;24 random docker tips&lt;/a&gt; by &lt;strong&gt;Csaba Palfi&lt;/strong&gt; (added 19th December 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2014/11/6-dockerfile-tips-official-images/&quot;&gt;6 Dockerfile Tips from the Official Images&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 20th November 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@vaceletm/docker-layers-cost-b28cb13cb627&quot;&gt;Docker Layers cost&lt;/a&gt; by &lt;strong&gt;Manuel Velcet&lt;/strong&gt; (added 13th November 2014)&lt;/li&gt;
@@ -768,6 +770,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://technolo-g.com/generate-ssl-for-docker-swarm/&quot;&gt;Creating SSL/TLS Certificates for Docker and Docker Swarm&lt;/a&gt; by &lt;strong&gt;Matthew Bajor&lt;/strong&gt; (added 22th Jan. 2015)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines&quot;&gt;Docker Secure Deployment Guide&lt;/a&gt; by &lt;strong&gt;Quentin Grosperring&lt;/strong&gt; (added 15th January 2015)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/safer-local-docker-networks-8ce22127f9df&quot;&gt;Safer Local Docker Networks&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 8th January 2015)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/docker-http-basic-auth/&quot;&gt;Securing Docker with HTTP Basic Authentication&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 30th October 2014)&lt;/li&gt;

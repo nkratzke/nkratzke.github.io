@@ -889,6 +889,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29th Jan. 2015)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22th Jan. 2015)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://csaba.palfi.me/random-docker-tips/&quot;&gt;24 random docker tips&lt;/a&gt; by &lt;strong&gt;Csaba Palfi&lt;/strong&gt; (added 19th December 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2014/11/6-dockerfile-tips-official-images/&quot;&gt;6 Dockerfile Tips from the Official Images&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 20th November 2014)&lt;/li&gt;
@@ -914,6 +915,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Docker &lt;small&gt;How to use the APIs&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://cocoahunter.com/2015/01/23/docker-2/&quot;&gt;Setting up a private Docker registry&lt;/a&gt; by &lt;strong&gt;Michelangelo Chasseur&lt;/strong&gt; (added 29th Jan. 2015)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/2014/12/remove-docker-image-container-with-criteria-techtip60/&quot;&gt;Remove Docker image and container with a criteria&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 5th December 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lollyrock.com/articles/execute-in-docker-sandbox/&quot;&gt;Execute commands in a Docker sandbox&lt;/a&gt; by &lt;strong&gt;Chris Rock&lt;/strong&gt; (added 9th October 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.tech-d.net/2014/07/03/libswarm/&quot;&gt;Libswarm in a nutshell&lt;/a&gt; by &lt;strong&gt;Brian Goff&lt;/strong&gt; (added 17th July 2014)&lt;/li&gt;
@@ -986,7 +988,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.fig.sh&quot;&gt;Fig: Fast, isolated development environments using Docker.&lt;/a&gt; by &lt;strong&gt;fig.sh&lt;/strong&gt; (added 25th July 2014)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Projects &lt;small&gt;providing &lt;strong&gt;lightweight virtualization clusters&lt;/strong&gt; for microservice approaches&lt;/small&gt;&lt;/h3&gt;
+&lt;h3&gt;Projects &lt;small&gt;providing &lt;strong&gt;container clusters&lt;/strong&gt; for microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.tutum.co/&quot;&gt;Tutum - Build, deploy, and manage your apps across any cloud&lt;/a&gt; (added 30th October 2014)&lt;/li&gt;

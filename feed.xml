@@ -837,90 +837,91 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@behruz/dockerizability-is-better-than-dockerized-3c08b9dbd84c&quot;&gt;&amp;quot;Dockerizability&amp;quot; is better than &amp;quot;dockerized&amp;quot;&lt;/a&gt; by &lt;strong&gt;Behrooz Nobakht&lt;/strong&gt; (added 5th December 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://etherealmind.com/basics-docker-containers-hypervisors-coreos/&quot;&gt;Basics – Docker, Containers, Hypervisors, CoreOS&lt;/a&gt; by &lt;strong&gt;Greg Ferro&lt;/strong&gt; (added 4th September 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kristofdm.be/blog/post/docker-introduction&quot;&gt;Docker: an introduction&lt;/a&gt; by &lt;strong&gt;Kristof De Middelaer&lt;/strong&gt; (added 18th August 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.bryanbraun.com/2014/07/15/the-frontend-developers-guide-to-docker&quot;&gt;The Frontend Developer&amp;#39;s Guide to Docker&lt;/a&gt; by &lt;strong&gt;Bryan Braun&lt;/strong&gt; (added 17th July 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cloudsolutions.co.uk/news-and-events/find-out-more-about-docker/&quot;&gt;Find out more about Docker, the next big thing in cloud computing&lt;/a&gt; by &lt;strong&gt;cloudsolutions.co.uk&lt;/strong&gt; (added 3rd July 2014)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@behruz/dockerizability-is-better-than-dockerized-3c08b9dbd84c&quot;&gt;&amp;quot;Dockerizability&amp;quot; is better than &amp;quot;dockerized&amp;quot;&lt;/a&gt; by &lt;strong&gt;Behrooz Nobakht&lt;/strong&gt; (added 05 Dec 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://etherealmind.com/basics-docker-containers-hypervisors-coreos/&quot;&gt;Basics – Docker, Containers, Hypervisors, CoreOS&lt;/a&gt; by &lt;strong&gt;Greg Ferro&lt;/strong&gt; (added 04 Sep 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kristofdm.be/blog/post/docker-introduction&quot;&gt;Docker: an introduction&lt;/a&gt; by &lt;strong&gt;Kristof De Middelaer&lt;/strong&gt; (added 18 Aug 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.bryanbraun.com/2014/07/15/the-frontend-developers-guide-to-docker&quot;&gt;The Frontend Developer&amp;#39;s Guide to Docker&lt;/a&gt; by &lt;strong&gt;Bryan Braun&lt;/strong&gt; (added 17 Jul 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cloudsolutions.co.uk/news-and-events/find-out-more-about-docker/&quot;&gt;Find out more about Docker, the next big thing in cloud computing&lt;/a&gt; by &lt;strong&gt;cloudsolutions.co.uk&lt;/strong&gt; (added 03 Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Opinions around Docker&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/12/containers-microservices-and-orchestrating-whole-symphony&quot;&gt;Containers, microservices, and orchestrating the whole symphony&lt;/a&gt; by &lt;strong&gt;Uri Cohen&lt;/strong&gt; (added 15th December 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana&quot;&gt;Docker vs. VMs? Combining Both for Cloud Portability Nirvana&lt;/a&gt; by &lt;strong&gt;Thorsten von Eicken&lt;/strong&gt; (added 11th September 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.nextflow.io/blog/2014/nextflow-meets-docker.html&quot;&gt;Reproducibility in Science - Nextflow meets Docker&lt;/a&gt; by &lt;strong&gt;Maria Chatzou&lt;/strong&gt; (added 11th September 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.techrepublic.com/article/why-docker-and-why-now/&quot;&gt;Why Docker... and why now?&lt;/a&gt; by &lt;strong&gt;Matt Asay&lt;/strong&gt; (added 4th September 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.infoworld.com/t/application-virtualization/five-ways-docker-taking-over-the-world-248832&quot;&gt;Five Ways Docker is taking over the World&lt;/a&gt; by &lt;strong&gt;Serdar Yegulap&lt;/strong&gt; (added 29th August 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/8/docker-is-not-virtualization&quot;&gt;What does Docker provide if not virtualization?&lt;/a&gt; by &lt;strong&gt;Thomas Crowe&lt;/strong&gt; (added 18th August 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://diginomica.com/2014/07/02/virtualization-dead-long-live-containerization/&quot;&gt;Virtualization is dead, long live containerization&lt;/a&gt; by &lt;strong&gt;Phil Wainewright&lt;/strong&gt; (added 10th July 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/infrastructure-as-a-service/cloud-trends-to-watch-structure-2014/a/d-id/1278761&quot;&gt;Cloud Trends to Watch: Structure 2014&lt;/a&gt; by &lt;strong&gt;Charles Babcock&lt;/strong&gt; (added 3rd July 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.xebialabs.com/2014/06/19/will-future-dockerized-notes-discussion-docker-containers-future-application-delivery&quot;&gt;“Will the future be Dockerized?” A discussion on Docker, containers and the future of application delivery&lt;/a&gt; by &lt;strong&gt;Xebialabs.com&lt;/strong&gt; (added on 3rd July 2014)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/12/containers-microservices-and-orchestrating-whole-symphony&quot;&gt;Containers, microservices, and orchestrating the whole symphony&lt;/a&gt; by &lt;strong&gt;Uri Cohen&lt;/strong&gt; (added 15 Dec 2014) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana&quot;&gt;Docker vs. VMs? Combining Both for Cloud Portability Nirvana&lt;/a&gt; by &lt;strong&gt;Thorsten von Eicken&lt;/strong&gt; (added 11 Sep 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.nextflow.io/blog/2014/nextflow-meets-docker.html&quot;&gt;Reproducibility in Science - Nextflow meets Docker&lt;/a&gt; by &lt;strong&gt;Maria Chatzou&lt;/strong&gt; (added 11 Sep 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.techrepublic.com/article/why-docker-and-why-now/&quot;&gt;Why Docker... and why now?&lt;/a&gt; by &lt;strong&gt;Matt Asay&lt;/strong&gt; (added 04 Sep 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.infoworld.com/t/application-virtualization/five-ways-docker-taking-over-the-world-248832&quot;&gt;Five Ways Docker is taking over the World&lt;/a&gt; by &lt;strong&gt;Serdar Yegulap&lt;/strong&gt; (added 29 Aug 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/8/docker-is-not-virtualization&quot;&gt;What does Docker provide if not virtualization?&lt;/a&gt; by &lt;strong&gt;Thomas Crowe&lt;/strong&gt; (added 18 Aug 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://diginomica.com/2014/07/02/virtualization-dead-long-live-containerization/&quot;&gt;Virtualization is dead, long live containerization&lt;/a&gt; by &lt;strong&gt;Phil Wainewright&lt;/strong&gt; (added 10 Jul 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/infrastructure-as-a-service/cloud-trends-to-watch-structure-2014/a/d-id/1278761&quot;&gt;Cloud Trends to Watch: Structure 2014&lt;/a&gt; by &lt;strong&gt;Charles Babcock&lt;/strong&gt; (added 03 Jul 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.xebialabs.com/2014/06/19/will-future-dockerized-notes-discussion-docker-containers-future-application-delivery&quot;&gt;“Will the future be Dockerized?” A discussion on Docker, containers and the future of application delivery&lt;/a&gt; by &lt;strong&gt;Xebialabs.com&lt;/strong&gt; (added 03 Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/2014/10/17/how-to-deploy-a-docker-application-into-production-on-amazon-aws/&quot;&gt;How To Deploy A Docker Application Into Production On Amazon AWS&lt;/a&gt; by &lt;strong&gt;Mark van Holsteijn&lt;/strong&gt; (added 30th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/platform-as-a-service/microsoft-brings-containers-to-windows-azure/d/d-id/1316654&quot;&gt;Microsoft Brings Containers to Windows, Azure&lt;/a&gt; by &lt;strong&gt;Charles Babcock&lt;/strong&gt; (added 23th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.oddbit.com/2014/08/30/docker-plugin-for-openstack-he/&quot;&gt;Docker Plugin for OpenStack Heat&lt;/a&gt; by &lt;strong&gt;Lars Kellogg-Stedman&lt;/strong&gt; (added 4th September 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/08/12/docker-networking/&quot;&gt;Docker intercontainer networking explained&lt;/a&gt; by &lt;strong&gt;Attila Kanto&lt;/strong&gt; (added 21th August 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.appnovation.com/blog/docker-containers-take-vm-shipping-google-app-engine&quot;&gt;Docker Containers Take on VM, shipping on Google App Engine&lt;/a&gt; by &lt;strong&gt;appnovation.com&lt;/strong&gt; (added 25th July 2014)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/2014/10/17/how-to-deploy-a-docker-application-into-production-on-amazon-aws/&quot;&gt;How To Deploy A Docker Application Into Production On Amazon AWS&lt;/a&gt; by &lt;strong&gt;Mark van Holsteijn&lt;/strong&gt; (added 30 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/platform-as-a-service/microsoft-brings-containers-to-windows-azure/d/d-id/1316654&quot;&gt;Microsoft Brings Containers to Windows, Azure&lt;/a&gt; by &lt;strong&gt;Charles Babcock&lt;/strong&gt; (added 29 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.oddbit.com/2014/08/30/docker-plugin-for-openstack-he/&quot;&gt;Docker Plugin for OpenStack Heat&lt;/a&gt; by &lt;strong&gt;Lars Kellogg-Stedman&lt;/strong&gt; (added 04 Sep 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/08/12/docker-networking/&quot;&gt;Docker intercontainer networking explained&lt;/a&gt; by &lt;strong&gt;Attila Kanto&lt;/strong&gt; (added 21 Aug 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.appnovation.com/blog/docker-containers-take-vm-shipping-google-app-engine&quot;&gt;Docker Containers Take on VM, shipping on Google App Engine&lt;/a&gt; by &lt;strong&gt;appnovation.com&lt;/strong&gt; (added 25 Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;overlay network solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/&quot;&gt;Docker Virtual Networking with Socketplane.io&lt;/a&gt; by &lt;strong&gt;Ryan Wallner&lt;/strong&gt; (added 22th Jan. 2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@ALGrendel/docker-weave-a-little-cloud-and-a-raspberry-pi-381f73a4376d&quot;&gt;Docker, Weave, Raspberry Pi and a bit of Networked Cloud Computing!&lt;/a&gt; by &lt;strong&gt;Alexander Grendel&lt;/strong&gt; (added 15th December 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://containerops.org/2014/11/11/future-of-docker-networking&quot;&gt;Future of Docker Networking&lt;/a&gt; by &lt;strong&gt;Milos Gajdos&lt;/strong&gt; (added 13th November 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://thenewstack.io/sdn-and-dockerfiles-for-clocker-the-docker-cloud-maker/&quot;&gt;SDN and Dockerfiles for Clocker, the Docker Cloud Maker&lt;/a&gt; by &lt;strong&gt;Andrew Donald Kennedy&lt;/strong&gt; (added 16th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/zettio/weave&quot;&gt;Weave - the Docker network&lt;/a&gt; by &lt;strong&gt;Zettio&lt;/strong&gt; (added 18th September 2014)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/01/29/powerstrip-weave-a-docker-networking-extension/&quot;&gt;Powerstrip-weave: a docker networking extension&lt;/a&gt; by &lt;strong&gt;Michael Bridgen&lt;/strong&gt; (added 30 Jan 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/&quot;&gt;Docker Virtual Networking with Socketplane.io&lt;/a&gt; by &lt;strong&gt;Ryan Wallner&lt;/strong&gt; (added 22 Jan 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@ALGrendel/docker-weave-a-little-cloud-and-a-raspberry-pi-381f73a4376d&quot;&gt;Docker, Weave, Raspberry Pi and a bit of Networked Cloud Computing!&lt;/a&gt; by &lt;strong&gt;Alexander Grendel&lt;/strong&gt; (added 15 Dec 2014) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://containerops.org/2014/11/11/future-of-docker-networking&quot;&gt;Future of Docker Networking&lt;/a&gt; by &lt;strong&gt;Milos Gajdos&lt;/strong&gt; (added 13 Nov 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://thenewstack.io/sdn-and-dockerfiles-for-clocker-the-docker-cloud-maker/&quot;&gt;SDN and Dockerfiles for Clocker, the Docker Cloud Maker&lt;/a&gt; by &lt;strong&gt;Andrew Donald Kennedy&lt;/strong&gt; (added 16 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/zettio/weave&quot;&gt;Weave - the Docker network&lt;/a&gt; by &lt;strong&gt;Zettio&lt;/strong&gt; (added 18 Sep 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/data-packed-volume-containers-distribute-configuration-c23ff80987cd&quot;&gt;Data Packed Volume Containers: Distribute Configuration&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 3rd January 2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/on-docker-container-composition-a98788f1aa3c&quot;&gt;On Docker Container Composition&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 27th November 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://container42.com/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/&quot;&gt;Persistent volumes with Docker - Data-only container pattern&lt;/a&gt; by &lt;strong&gt;Container 42&lt;/strong&gt; (added 27th November 2014)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/data-packed-volume-containers-distribute-configuration-c23ff80987cd&quot;&gt;Data Packed Volume Containers: Distribute Configuration&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 03 Jan 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/on-docker-container-composition-a98788f1aa3c&quot;&gt;On Docker Container Composition&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 27 Nov 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://container42.com/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/&quot;&gt;Persistent volumes with Docker - Data-only container pattern&lt;/a&gt; by &lt;strong&gt;Container 42&lt;/strong&gt; (added 27 Nov 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29th Jan. 2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22th Jan. 2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://csaba.palfi.me/random-docker-tips/&quot;&gt;24 random docker tips&lt;/a&gt; by &lt;strong&gt;Csaba Palfi&lt;/strong&gt; (added 19th December 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2014/11/6-dockerfile-tips-official-images/&quot;&gt;6 Dockerfile Tips from the Official Images&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 20th November 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@vaceletm/docker-layers-cost-b28cb13cb627&quot;&gt;Docker Layers cost&lt;/a&gt; by &lt;strong&gt;Manuel Velcet&lt;/strong&gt; (added 13th November 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/mattes/fugu&quot;&gt;Fugu&lt;/a&gt; by &lt;strong&gt;Matthias Kadenbach&lt;/strong&gt; (added 10th November 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.jaas.co/2014/10/23/how-to-use-a-local-persistent-docker-registry-on-centos-6-5/&quot;&gt;How to use a local persistent Docker Registry on CentOS 6.5&lt;/a&gt; by &lt;strong&gt;Josh Grey&lt;/strong&gt; (added 30th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2014/10/22/how-to-optimize-your-dockerfile/&quot;&gt;How to Optimize Your Dockerfile&lt;/a&gt; by &lt;strong&gt;Maxime Hekel&lt;/strong&gt; (added 23th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.hokstad.com/docker/patterns&quot;&gt;Eight Docker Development Patterns&lt;/a&gt; by &lt;strong&gt;Vidar Hokstad&lt;/strong&gt; (added 23th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.calazan.com/docker-cleanup-commands/&quot;&gt;Docker Cleanup Commands&lt;/a&gt; by &lt;strong&gt;Calazan&lt;/strong&gt; (added 9th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-network-and.html&quot;&gt;Storage Concepts in Docker: Network and Cloud Storage&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 23th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-persistent.html&quot;&gt;Storage Concepts in Docker: Persistent Storage&lt;/a&gt; &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 16th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker.html&quot;&gt;Storage Concepts in Docker: Shared Storage and the VOLUME directive&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 09th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/harbur/docker-sdlc&quot;&gt;Docker-based multi-container Software Development Life Cycle environment&lt;/a&gt; by &lt;strong&gt;Spiddy @ Harbur&lt;/strong&gt; (added 7th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/09/24/edit-files-docker/&quot;&gt;Edit files in Docker containers&lt;/a&gt; by &lt;strong&gt;Lajos Papp&lt;/strong&gt; (added 3rd October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://coderwall.com/p/fvfjyg&quot;&gt;Lightweight dev environment with fig &amp;amp; boot2docker on OSX&lt;/a&gt; by &lt;strong&gt;Martin Naumann&lt;/strong&gt; (added 25th September 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/&quot;&gt;Running GUI apps with Docker&lt;/a&gt; by &lt;strong&gt;Fábio Rehm&lt;/strong&gt; (added 18th September 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://devo.ps/blog/docker-dos-and-donts/&quot;&gt;Docker Do&amp;#39;s And Don&amp;#39;ts&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 29th August 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/komljen/dockerfile-examples&quot;&gt;Dockerfile examples&lt;/a&gt; by &lt;strong&gt;Alen Komljen&lt;/strong&gt; (added 27th August)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/wsargent/docker-cheat-sheet&quot;&gt;Docker Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Will Sargent&lt;/strong&gt; (added 27th August 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.wouterdanes.net/2014/04/16/some-docker-tips-and-tricks.html&quot;&gt;Some Docker Tips and Tricks&lt;/a&gt; by &lt;strong&gt;Wouter Danes&lt;/strong&gt; (added 27th August 2014)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29 Jan 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22 Jan 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://csaba.palfi.me/random-docker-tips/&quot;&gt;24 random docker tips&lt;/a&gt; by &lt;strong&gt;Csaba Palfi&lt;/strong&gt; (added 22 Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2014/11/6-dockerfile-tips-official-images/&quot;&gt;6 Dockerfile Tips from the Official Images&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 22 Nov 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@vaceletm/docker-layers-cost-b28cb13cb627&quot;&gt;Docker Layers cost&lt;/a&gt; by &lt;strong&gt;Manuel Velcet&lt;/strong&gt; (added 13 Nov 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mattes/fugu&quot;&gt;Fugu&lt;/a&gt; by &lt;strong&gt;Matthias Kadenbach&lt;/strong&gt; (added 10 Nov 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jaas.co/2014/10/23/how-to-use-a-local-persistent-docker-registry-on-centos-6-5/&quot;&gt;How to use a local persistent Docker Registry on CentOS 6.5&lt;/a&gt; by &lt;strong&gt;Josh Grey&lt;/strong&gt; (added 30 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2014/10/22/how-to-optimize-your-dockerfile/&quot;&gt;How to Optimize Your Dockerfile&lt;/a&gt; by &lt;strong&gt;Maxime Hekel&lt;/strong&gt; (added 23 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.hokstad.com/docker/patterns&quot;&gt;Eight Docker Development Patterns&lt;/a&gt; by &lt;strong&gt;Vidar Hokstad&lt;/strong&gt; (added 23 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.calazan.com/docker-cleanup-commands/&quot;&gt;Docker Cleanup Commands&lt;/a&gt; by &lt;strong&gt;Calazan&lt;/strong&gt; (added 09 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-network-and.html&quot;&gt;Storage Concepts in Docker: Network and Cloud Storage&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 23 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-persistent.html&quot;&gt;Storage Concepts in Docker: Persistent Storage&lt;/a&gt; &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 16 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker.html&quot;&gt;Storage Concepts in Docker: Shared Storage and the VOLUME directive&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 09 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/harbur/docker-sdlc&quot;&gt;Docker-based multi-container Software Development Life Cycle environment&lt;/a&gt; by &lt;strong&gt;Spiddy @ Harbur&lt;/strong&gt; (added 07 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/09/24/edit-files-docker/&quot;&gt;Edit files in Docker containers&lt;/a&gt; by &lt;strong&gt;Lajos Papp&lt;/strong&gt; (added 03 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://coderwall.com/p/fvfjyg&quot;&gt;Lightweight dev environment with fig &amp;amp; boot2docker on OSX&lt;/a&gt; by &lt;strong&gt;Martin Naumann&lt;/strong&gt; (added 25 Sep 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/&quot;&gt;Running GUI apps with Docker&lt;/a&gt; by &lt;strong&gt;Fábio Rehm&lt;/strong&gt; (added 18 Sep 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://devo.ps/blog/docker-dos-and-donts/&quot;&gt;Docker Do&amp;#39;s And Don&amp;#39;ts&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 29 Aug 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/komljen/dockerfile-examples&quot;&gt;Dockerfile examples&lt;/a&gt; by &lt;strong&gt;Alen Komljen&lt;/strong&gt; (added 27 Aug 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/wsargent/docker-cheat-sheet&quot;&gt;Docker Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Will Sargent&lt;/strong&gt; (added 27 Aug 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.wouterdanes.net/2014/04/16/some-docker-tips-and-tricks.html&quot;&gt;Some Docker Tips and Tricks&lt;/a&gt; by &lt;strong&gt;Wouter Danes&lt;/strong&gt; (added 27 Aug 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;How to use the APIs&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://cocoahunter.com/2015/01/23/docker-2/&quot;&gt;Setting up a private Docker registry&lt;/a&gt; by &lt;strong&gt;Michelangelo Chasseur&lt;/strong&gt; (added 29th Jan. 2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/2014/12/remove-docker-image-container-with-criteria-techtip60/&quot;&gt;Remove Docker image and container with a criteria&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 5th December 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lollyrock.com/articles/execute-in-docker-sandbox/&quot;&gt;Execute commands in a Docker sandbox&lt;/a&gt; by &lt;strong&gt;Chris Rock&lt;/strong&gt; (added 9th October 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.tech-d.net/2014/07/03/libswarm/&quot;&gt;Libswarm in a nutshell&lt;/a&gt; by &lt;strong&gt;Brian Goff&lt;/strong&gt; (added 17th July 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://flux7.com/blogs/docker/docker-tutorial-series-part-9-10-docker-remote-api-commands-for-images/&quot;&gt;10 Docker Remote API Commands for Images&lt;/a&gt; by &lt;strong&gt;Flux7&lt;/strong&gt; (added 17th July 2014)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://flux7.com/blogs/docker/docker-tutorial-series-part-8-docker-remote-api/&quot;&gt;Docker Remote API&lt;/a&gt; by &lt;strong&gt;Flux7&lt;/strong&gt; (Docker Tutorial Series, added 3rd July 2014)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cocoahunter.com/2015/01/23/docker-2/&quot;&gt;Setting up a private Docker registry&lt;/a&gt; by &lt;strong&gt;Michelangelo Chasseur&lt;/strong&gt; (added 29 Jan 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/2014/12/remove-docker-image-container-with-criteria-techtip60/&quot;&gt;Remove Docker image and container with a criteria&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 05 Dec 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lollyrock.com/articles/execute-in-docker-sandbox/&quot;&gt;Execute commands in a Docker sandbox&lt;/a&gt; by &lt;strong&gt;Chris Rock&lt;/strong&gt; (added 09 Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.tech-d.net/2014/07/03/libswarm/&quot;&gt;Libswarm in a nutshell&lt;/a&gt; by &lt;strong&gt;Brian Goff&lt;/strong&gt; (added 17 Jul 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://flux7.com/blogs/docker/docker-tutorial-series-part-9-10-docker-remote-api-commands-for-images/&quot;&gt;10 Docker Remote API Commands for Images&lt;/a&gt; by &lt;strong&gt;Flux7&lt;/strong&gt; (added 17 Jul 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://flux7.com/blogs/docker/docker-tutorial-series-part-8-docker-remote-api/&quot;&gt;Docker Remote API&lt;/a&gt; by &lt;strong&gt;Flux7&lt;/strong&gt; (added 03 Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;How to dockerize &lt;small&gt;apps&lt;/small&gt;&lt;/h3&gt;
@@ -960,9 +961,9 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://technolo-g.com/generate-ssl-for-docker-swarm/&quot;&gt;Creating SSL/TLS Certificates for Docker and Docker Swarm&lt;/a&gt; by &lt;strong&gt;Matthew Bajor&lt;/strong&gt; (added 22th Jan. 2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines&quot;&gt;Docker Secure Deployment Guide&lt;/a&gt; by &lt;strong&gt;Quentin Grosperring&lt;/strong&gt; (added 15th January 2015)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/safer-local-docker-networks-8ce22127f9df&quot;&gt;Safer Local Docker Networks&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 8th January 2015)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://technolo-g.com/generate-ssl-for-docker-swarm/&quot;&gt;Creating SSL/TLS Certificates for Docker and Docker Swarm&lt;/a&gt; by &lt;strong&gt;Matthew Bajor&lt;/strong&gt; (added 22 Jan 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines&quot;&gt;Docker Secure Deployment Guide&lt;/a&gt; by &lt;strong&gt;Quentin Grosperring&lt;/strong&gt; (added 15 Jan 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/safer-local-docker-networks-8ce22127f9df&quot;&gt;Safer Local Docker Networks&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 08 Jan 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/docker-http-basic-auth/&quot;&gt;Securing Docker with HTTP Basic Authentication&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 30th October 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.zdnet.com/docker-1-3-arrives-with-improved-security-7000034810/&quot;&gt;Docker 1.3 arrives with improved security&lt;/a&gt; by &lt;strong&gt;Steven Vaughan-Nicols&lt;/strong&gt; (added 23th October 2014)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/infrastructure-as-a-service/how-docker-changes-cloud-security/a/d-id/1316793?_mc=RSS_IWK_EDT&quot;&gt;How Docker Changes Cloud Security&lt;/a&gt; by &lt;strong&gt;Lucas Carlson&lt;/strong&gt; (added 23th October 2014)&lt;/li&gt;

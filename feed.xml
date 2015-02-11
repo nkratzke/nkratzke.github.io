@@ -811,19 +811,19 @@ Course is supported by educational grants from:
         
         &lt;p&gt;&lt;small&gt;
 The &lt;a href=&quot;http://www.docker.io&quot;&gt;Docker&lt;/a&gt; weekly email &lt;a href=&quot;https://www.docker.com/subscribe_newsletter/&quot;&gt;newsletter&lt;/a&gt; is a great service to stay tuned
-with Docker on a weekly basis. You will find great links, news, articles, howtos,
-manuals and so. It is all about Docker and its evolving ecosystem.
+with Docker. You find great links, news, articles, howtos,
+manuals, and more, and all about Docker and its evolving ecosystem.
 Nevertheless, these informations are short-living. They are fading out of
 focus as the weeks pass by. But there are a lot of great posts
 which should be collected and presented in a more enduring way.&lt;/p&gt;
 
-&lt;p&gt;This page will capture some important links I discovered following the weekly Docker
+&lt;p&gt;This post will capture some important links I discovered following the weekly Docker
 newsletter. I use these links the most in my day by day business as a cloud computing
 researcher trying to overcome cloud service provider generated vendor lock-ins.&lt;/p&gt;
 
-&lt;p&gt;The links on this site are evaluated weekly (very subjective).
-So links may be added if I find new interesting online ressources. Links may be
-replaced if I find better online ressources. And links may be deleted if I think
+&lt;p&gt;The links on this site are reviewed weekly (very subjective).
+So links may be added, if I find new interesting online ressources. Links may be
+replaced, if I find better online ressources. And links may be deleted, if I think
 they are outdated or no longer useful at all.&lt;/p&gt;
 
 &lt;p&gt;Feel free to contact &lt;a href=&quot;/about.html&quot;&gt;me&lt;/a&gt; if you think there are valuable links missing
@@ -848,7 +848,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Opinions around Docker&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/12/containers-microservices-and-orchestrating-whole-symphony&quot;&gt;Containers, microservices, and orchestrating the whole symphony&lt;/a&gt; by &lt;strong&gt;Uri Cohen&lt;/strong&gt; (added 15. Dec. 2014) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/12/containers-microservices-and-orchestrating-whole-symphony&quot;&gt;Containers, microservices, and orchestrating the whole symphony&lt;/a&gt; by &lt;strong&gt;Uri Cohen&lt;/strong&gt; (added 15. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana&quot;&gt;Docker vs. VMs? Combining Both for Cloud Portability Nirvana&lt;/a&gt; by &lt;strong&gt;Thorsten von Eicken&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.nextflow.io/blog/2014/nextflow-meets-docker.html&quot;&gt;Reproducibility in Science - Nextflow meets Docker&lt;/a&gt; by &lt;strong&gt;Maria Chatzou&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.techrepublic.com/article/why-docker-and-why-now/&quot;&gt;Why Docker... and why now?&lt;/a&gt; by &lt;strong&gt;Matt Asay&lt;/strong&gt; (added 4. Sep. 2014) &lt;/li&gt;
@@ -874,7 +874,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/01/29/powerstrip-weave-a-docker-networking-extension/&quot;&gt;Powerstrip-weave: a docker networking extension&lt;/a&gt; by &lt;strong&gt;Michael Bridgen&lt;/strong&gt; (added 30. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/&quot;&gt;Docker Virtual Networking with Socketplane.io&lt;/a&gt; by &lt;strong&gt;Ryan Wallner&lt;/strong&gt; (added 22. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@ALGrendel/docker-weave-a-little-cloud-and-a-raspberry-pi-381f73a4376d&quot;&gt;Docker, Weave, Raspberry Pi and a bit of Networked Cloud Computing!&lt;/a&gt; by &lt;strong&gt;Alexander Grendel&lt;/strong&gt; (added 15. Dec. 2014) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@ALGrendel/docker-weave-a-little-cloud-and-a-raspberry-pi-381f73a4376d&quot;&gt;Docker, Weave, Raspberry Pi and a bit of Networked Cloud Computing!&lt;/a&gt; by &lt;strong&gt;Alexander Grendel&lt;/strong&gt; (added 15. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://containerops.org/2014/11/11/future-of-docker-networking&quot;&gt;Future of Docker Networking&lt;/a&gt; by &lt;strong&gt;Milos Gajdos&lt;/strong&gt; (added 13. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://thenewstack.io/sdn-and-dockerfiles-for-clocker-the-docker-cloud-maker/&quot;&gt;SDN and Dockerfiles for Clocker, the Docker Cloud Maker&lt;/a&gt; by &lt;strong&gt;Andrew Donald Kennedy&lt;/strong&gt; (added 16. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/zettio/weave&quot;&gt;Weave - the Docker network&lt;/a&gt; by &lt;strong&gt;Zettio&lt;/strong&gt; (added 18. Sep. 2014) &lt;/li&gt;

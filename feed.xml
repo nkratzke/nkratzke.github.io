@@ -886,32 +886,30 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/data-packed-volume-containers-distribute-configuration-c23ff80987cd&quot;&gt;Data Packed Volume Containers: Distribute Configuration&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 3. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/on-docker-container-composition-a98788f1aa3c&quot;&gt;On Docker Container Composition&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 27. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container42.com/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/&quot;&gt;Persistent volumes with Docker - Data-only container pattern&lt;/a&gt; by &lt;strong&gt;Container 42&lt;/strong&gt; (added 27. Nov. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.hokstad.com/docker/patterns&quot;&gt;Eight Docker Development Patterns&lt;/a&gt; by &lt;strong&gt;Vidar Hokstad&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-network-and.html&quot;&gt;Storage Concepts in Docker: Network and Cloud Storage&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-persistent.html&quot;&gt;Storage Concepts in Docker: Persistent Storage&lt;/a&gt; &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 16. Oct. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker.html&quot;&gt;Storage Concepts in Docker: Shared Storage and the VOLUME directive&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 9. Oct. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/&quot;&gt;Ten tips for wonderful bash productivity&lt;/a&gt; by &lt;strong&gt;Nicola Paolucci&lt;/strong&gt; (added 12. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://csaba.palfi.me/random-docker-tips/&quot;&gt;24 random docker tips&lt;/a&gt; by &lt;strong&gt;Csaba Palfi&lt;/strong&gt; (added 22. Dec. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2014/11/6-dockerfile-tips-official-images/&quot;&gt;6 Dockerfile Tips from the Official Images&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 22. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@vaceletm/docker-layers-cost-b28cb13cb627&quot;&gt;Docker Layers cost&lt;/a&gt; by &lt;strong&gt;Manuel Velcet&lt;/strong&gt; (added 13. Nov. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/mattes/fugu&quot;&gt;Fugu&lt;/a&gt; by &lt;strong&gt;Matthias Kadenbach&lt;/strong&gt; (added 10. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.jaas.co/2014/10/23/how-to-use-a-local-persistent-docker-registry-on-centos-6-5/&quot;&gt;How to use a local persistent Docker Registry on CentOS 6.5&lt;/a&gt; by &lt;strong&gt;Josh Grey&lt;/strong&gt; (added 30. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2014/10/22/how-to-optimize-your-dockerfile/&quot;&gt;How to Optimize Your Dockerfile&lt;/a&gt; by &lt;strong&gt;Maxime Hekel&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.hokstad.com/docker/patterns&quot;&gt;Eight Docker Development Patterns&lt;/a&gt; by &lt;strong&gt;Vidar Hokstad&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.calazan.com/docker-cleanup-commands/&quot;&gt;Docker Cleanup Commands&lt;/a&gt; by &lt;strong&gt;Calazan&lt;/strong&gt; (added 9. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-network-and.html&quot;&gt;Storage Concepts in Docker: Network and Cloud Storage&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-persistent.html&quot;&gt;Storage Concepts in Docker: Persistent Storage&lt;/a&gt; &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 16. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker.html&quot;&gt;Storage Concepts in Docker: Shared Storage and the VOLUME directive&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 9. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/harbur/docker-sdlc&quot;&gt;Docker-based multi-container Software Development Life Cycle environment&lt;/a&gt; by &lt;strong&gt;Spiddy @ Harbur&lt;/strong&gt; (added 7. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/09/24/edit-files-docker/&quot;&gt;Edit files in Docker containers&lt;/a&gt; by &lt;strong&gt;Lajos Papp&lt;/strong&gt; (added 3. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://coderwall.com/p/fvfjyg&quot;&gt;Lightweight dev environment with fig &amp;amp; boot2docker on OSX&lt;/a&gt; by &lt;strong&gt;Martin Naumann&lt;/strong&gt; (added 25. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/&quot;&gt;Running GUI apps with Docker&lt;/a&gt; by &lt;strong&gt;Fábio Rehm&lt;/strong&gt; (added 18. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://devo.ps/blog/docker-dos-and-donts/&quot;&gt;Docker Do&amp;#39;s And Don&amp;#39;ts&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/komljen/dockerfile-examples&quot;&gt;Dockerfile examples&lt;/a&gt; by &lt;strong&gt;Alen Komljen&lt;/strong&gt; (added 27. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/wsargent/docker-cheat-sheet&quot;&gt;Docker Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Will Sargent&lt;/strong&gt; (added 27. Aug. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.wouterdanes.net/2014/04/16/some-docker-tips-and-tricks.html&quot;&gt;Some Docker Tips and Tricks&lt;/a&gt; by &lt;strong&gt;Wouter Danes&lt;/strong&gt; (added 27. Aug. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;How to use the APIs&lt;/small&gt;&lt;/h3&gt;
@@ -928,6 +926,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;How to dockerize &lt;small&gt;apps&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.centurylinklabs.com/small-docker-images-for-go-apps/&quot;&gt;Small Docker Images For Go Apps&lt;/a&gt; by &lt;strong&gt;Brian DeHamer&lt;/strong&gt; (added 12. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.kennybastani.com/2014/11/graph-analytics-docker-spark-neo4j.html&quot;&gt;A Docker Image for Graph Analytics on Neo4j woth Apache Spark GraphX&lt;/a&gt; by &lt;strong&gt;Kenny Bastani&lt;/strong&gt; (added 5. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.giantswarm.io/getting-started-with-java-development-on-docker&quot;&gt;Getting Started with Java Development on Docker&lt;/a&gt; by &lt;strong&gt;Matthias Lübken&lt;/strong&gt; (added 11. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://nginx.com/blog/deploying-nginx-nginx-plus-docker/&quot;&gt;Deploying NGINX and NGINX Plus with Docker&lt;/a&gt; by &lt;strong&gt;Rick Nelson&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;

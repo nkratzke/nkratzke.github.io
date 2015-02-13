@@ -845,9 +845,10 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.cloudsolutions.co.uk/news-and-events/find-out-more-about-docker/&quot;&gt;Find out more about Docker, the next big thing in cloud computing&lt;/a&gt; by &lt;strong&gt;cloudsolutions.co.uk&lt;/strong&gt; (added 3. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Opinions around Docker&lt;/h3&gt;
+&lt;h3&gt;Opinions around Containerization&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.hpcwire.com/2015/02/09/run-anywhere-big-data-hpc-workloads/&quot;&gt;Run Anywhere Big Data and HPC Workloads&lt;/a&gt; by &lt;strong&gt;Tryggvi Lárusson&lt;/strong&gt; (added 13. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/12/containers-microservices-and-orchestrating-whole-symphony&quot;&gt;Containers, microservices, and orchestrating the whole symphony&lt;/a&gt; by &lt;strong&gt;Uri Cohen&lt;/strong&gt; (added 15. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana&quot;&gt;Docker vs. VMs? Combining Both for Cloud Portability Nirvana&lt;/a&gt; by &lt;strong&gt;Thorsten von Eicken&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.nextflow.io/blog/2014/nextflow-meets-docker.html&quot;&gt;Reproducibility in Science - Nextflow meets Docker&lt;/a&gt; by &lt;strong&gt;Maria Chatzou&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;
@@ -855,7 +856,6 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.infoworld.com/t/application-virtualization/five-ways-docker-taking-over-the-world-248832&quot;&gt;Five Ways Docker is taking over the World&lt;/a&gt; by &lt;strong&gt;Serdar Yegulap&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/8/docker-is-not-virtualization&quot;&gt;What does Docker provide if not virtualization?&lt;/a&gt; by &lt;strong&gt;Thomas Crowe&lt;/strong&gt; (added 18. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://diginomica.com/2014/07/02/virtualization-dead-long-live-containerization/&quot;&gt;Virtualization is dead, long live containerization&lt;/a&gt; by &lt;strong&gt;Phil Wainewright&lt;/strong&gt; (added 10. Jul. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/infrastructure-as-a-service/cloud-trends-to-watch-structure-2014/a/d-id/1278761&quot;&gt;Cloud Trends to Watch: Structure 2014&lt;/a&gt; by &lt;strong&gt;Charles Babcock&lt;/strong&gt; (added 3. Jul. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.xebialabs.com/2014/06/19/will-future-dockerized-notes-discussion-docker-containers-future-application-delivery&quot;&gt;“Will the future be Dockerized?” A discussion on Docker, containers and the future of application delivery&lt;/a&gt; by &lt;strong&gt;Xebialabs.com&lt;/strong&gt; (added 3. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 

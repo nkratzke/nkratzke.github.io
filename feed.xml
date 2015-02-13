@@ -831,7 +831,10 @@ or if you know better ones. You may also want to use the disqus comments at the 
 article to propose improvements or additional or even better links.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
-  contains links I find useful from a pure personal opinion).&lt;/strong&gt;
+  contains links I find useful from a pure personal opinion).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You may want check comparable pages like &lt;a href=&quot;http://getawesomeness.com/get/docker&quot;&gt;Awesome Docker&lt;/a&gt;
+to get further informations about Docker and Containerization.
 &lt;/small&gt;&lt;/p&gt;
 
 &lt;h3&gt;What is Docker?&lt;/h3&gt;

@@ -1315,52 +1315,52 @@ as well as concurrent programming using threads.&lt;/p&gt;
 
 &lt;h3&gt;Research context&lt;/h3&gt;
 
-&lt;p&gt;Actual cloud computing related research focuses often
+&lt;p&gt;Current cloud computing related research focuses often
 &lt;a href=&quot;https://www.springer.com/business+%26+management/operations+research/book/978-1-4419-1627-3&quot;&gt;Service Science&lt;/a&gt; related problems
 and therefore concentrates on aspects how to design, operate and deliver
 agile cloud based services according to a broad (economical as well as technological)
 understanding of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Service&quot;&gt;service&lt;/a&gt; term.&lt;/p&gt;
 
-&lt;p&gt;Beside common security, governance and cost forecast concerns
-especially technological &lt;a href=&quot;https://en.wikipedia.org/wiki/Vendor_lock-in&quot;&gt;vendor lock-in&lt;/a&gt;
-worries often come along with cloud computing which is
+&lt;p&gt;Beside common security, governance and cost forecast concerns,
+often technological &lt;a href=&quot;https://en.wikipedia.org/wiki/Vendor_lock-in&quot;&gt;vendor lock-in&lt;/a&gt;
+worries often come along with cloud computing, which is
 especially true for small and medium-sized enterprises
 (&lt;a href=&quot;/bibliography/Kra2011a.html&quot;&gt;Kra2011a&lt;/a&gt;, &lt;a href=&quot;/bibliography/Kra2011b.html&quot;&gt;Kra2011b&lt;/a&gt;, &lt;a href=&quot;/bibliography/Kra2012b.html&quot;&gt;Kra2012b&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;But astonishing little research activities focus a technological point of view
 how to overcome technical &lt;a href=&quot;https://en.wikipedia.org/wiki/Vendor_lock-in&quot;&gt;vendor lock-in&lt;/a&gt; problems in cloud computing.&lt;/p&gt;
 
-&lt;p&gt;Therefore this technological point of view is addressed particularly
+&lt;p&gt;Therefore, this technological point of view is addressed particularly
 by this research project.&lt;/p&gt;
 
 &lt;h3&gt;Research objective&lt;/h3&gt;
 
-&lt;p&gt;Actual state of the art cloud based software services are often
+&lt;p&gt;Current state of the art cloud based software services are often
 characterized by a highly implicit technological
 dependency on underlying hosting cloud infrastructures.
 The project &lt;strong&gt;Cloud TRANSIT&lt;/strong&gt;
-investigates how to design cloud based software services to reduce
+investigates, how to design cloud based software services to reduce
 technological dependencies on underlying cloud infrastructures.&lt;/p&gt;
 
-&lt;p&gt;By designing and developing a generic cloud service description language it
+&lt;p&gt;By designing and developing a generic cloud service description language, it
 should be possible to define secure, transferable and elastic services of
 typical complexity being deployable
-to any IaaS cloud infrastructure. It furthermore should be possible to
+to any IaaS cloud infrastructure. Furthermore, it should be possible to
 migrate these services from one private or public cloud infrastructure
 to another (not necessary compatible) cloud infrastructure.&lt;/p&gt;
 
-&lt;p&gt;Especially transferability reduces cloud infrastructure related
+&lt;p&gt;This kind of &lt;strong&gt;transferability&lt;/strong&gt; reduces cloud infrastructure related
 technical vendor lock-in problems for small and medium sized
-enterprises substantially.&lt;/p&gt;
+enterprises.&lt;/p&gt;
 
-&lt;p&gt;The project will therefore&lt;/p&gt;
+&lt;p&gt;Therefore, the project&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;analyse several common public and private cloud infrastructures&lt;/li&gt;
-&lt;li&gt;derive requirements for a generic cloud service description language&lt;/li&gt;
-&lt;li&gt;for cloud services of typical complexity (distributed, load balanced, auto scaling)&lt;/li&gt;
-&lt;li&gt;implement a prototypic implementation of the description language&lt;/li&gt;
-&lt;li&gt;to provide a proof-of-concept.&lt;/li&gt;
+&lt;li&gt;analyzes several common public and private cloud infrastructures,&lt;/li&gt;
+&lt;li&gt;derives requirements for a generic cloud service description language.&lt;/li&gt;
+&lt;li&gt;For cloud services of typical complexity (distributed, load balanced, auto scaling)&lt;/li&gt;
+&lt;li&gt;a prototypic implementation of the description language is implemented&lt;/li&gt;
+&lt;li&gt;and a proof-of-concept is provided.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
@@ -1384,26 +1384,32 @@ enterprises substantially.&lt;/p&gt;
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014d.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
 
 &lt;div class=&quot;funded&quot;&gt;
+&lt;div&gt;
 &lt;p&gt;
 Research project Cloud TRANSIT (03FH021PX4) is funded by German
 &lt;a href=&quot;http://www.bmbf.de/en/index.php&quot;&gt;Federal Ministry of Education and Research&lt;/a&gt;
 according to the regulatories of the
 &lt;a href=&quot;http://www.bmbf.de/de/1952.php&quot;&gt;FHprofUnt 2014&lt;/a&gt; framework.
 &lt;/p&gt;
-&lt;img src=&quot;/img/posts/bmbf.png&quot;&gt;
 &lt;center&gt;
+&lt;img src=&quot;/img/posts/bmbf.png&quot; style=&quot;padding-right:20px&quot;&gt;
+&lt;img src=&quot;/img/posts/profunt_logo.jpg&quot; height=&quot;75px&quot; style=&quot;padding-right:20px&quot;&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;center&gt;
 &lt;hr&gt;
 &lt;p&gt;
 Following companies are supporting us by providing research grants.
 &lt;/p&gt;
 &lt;a href=&quot;https://cloud.google.com/&quot;&gt;
-  &lt;img src=&quot;/img/posts/google-cloud-platform.png&quot; height=&quot;50px&quot;&gt;
+  &lt;img src=&quot;/img/posts/google-cloud-platform.png&quot; height=&quot;30px&quot;&gt;
 &lt;/a&gt;
 &lt;a href=&quot;http://www.fat-itsolutions.de/&quot;&gt;
-  &lt;img src=&quot;/img/posts/fat-it-solutions.png&quot;&gt;
+  &lt;img src=&quot;/img/posts/fat-it-solutions.png&quot; height=&quot;30px&quot;&gt;
 &lt;/a&gt;
 &lt;/center&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
       </description>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0200</pubDate>

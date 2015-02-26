@@ -7,6 +7,139 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Web Technologies (Summer 2015)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/webtech.jpg&quot;&gt;
+        
+        &lt;p&gt;This project is about common technologies used to build (part) of web information systems.
+The project course is given for students
+at Lübeck University of Applied Sciences (in german language).
+The course covers following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IaaS Cloud Computing&lt;/strong&gt; to host (distributed and scalable) web applications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;descriptional languages&lt;/strong&gt; for web content like &lt;a href=&quot;http://www.w3.org/html/&quot;&gt;HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;presentational languages&lt;/strong&gt; for web content like &lt;a href=&quot;http://www.w3.org/Style/CSS/&quot;&gt;CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Document Object Model&lt;/strong&gt; (DOM)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;client and server side programming&lt;/strong&gt; with &lt;a href=&quot;https://www.dartlang.org&quot;&gt;Dart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;security aspects&lt;/strong&gt; like &lt;em&gt;HTML/SQL injections&lt;/em&gt; or &lt;em&gt;session hijacking&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Students apply their intensified web programming skills by developing
+a small one person, DOM-tree based (that means not canvas based)
+online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;IaaS Cloud Computing is introduced to provide a convenient form
+to host even complex and distributed web based systems.&lt;/p&gt;
+
+&lt;h3&gt;Course Material (german only)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Crash course: &lt;a href=&quot;/assets/ss2015/webtech/webtech-cloud.pdf&quot;&gt;IaaS Cloud Computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;HTML Units: &lt;a href=&quot;/assets/ss2015/webtech/webtech-html-css.pdf&quot;&gt;HTML and CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dart Units: &lt;a href=&quot;/assets/ss2015/webtech/webtech-dart-i.pdf&quot;&gt;Part 1&lt;/a&gt;, &lt;a href=&quot;/assets/ss2015/webtech/webtech-dart-ii.pdf&quot;&gt;Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exercises: &lt;a href=&quot;/assets/ss2015/webtech/webtech-ex1.pdf&quot;&gt;Excercise 1&lt;/a&gt;, &lt;a href=&quot;/assets/ss2015/webtech/webtech-ex2.pdf&quot;&gt;Excercise 2&lt;/a&gt;, &lt;a href=&quot;/assets/ss2015/webtech/webtech-ex3.pdf&quot;&gt;Excercise 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;funded&quot;&gt;
+&lt;center&gt;
+&lt;p&gt;
+Course is supported by educational grants from:
+&lt;/p&gt;
+&lt;a href=&quot;https://aws.amazon.com/&quot;&gt;
+  &lt;img src=&quot;/img/posts/amazon-web-services.png&quot; height=&quot;50px&quot;&gt;
+&lt;/a&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+
+      </description>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//lecture/2015/03/01/lecture-webtech.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/03/01/lecture-webtech.html</guid>
+    </item>
+    
+    <item>
+      <title>Programming II (Summer 2015)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture &lt;strong&gt;Programming II&lt;/strong&gt; continues &lt;strong&gt;Programming I&lt;/strong&gt; by introducing
+more sophistacted programming aspects
+for freshman students (second semester).&lt;/p&gt;
+
+&lt;p&gt;JAVA is used as teaching language. Nevertheless, the principles are applicable to every (class based) object oriented programming language.&lt;/p&gt;
+
+&lt;p&gt;Lecture is given for students of the &lt;a href=&quot;http://www.fh-luebeck.de/Inhalt/03_Hochschulangehoerige_Ch031/04_FB_Elektrotechnik/03_Studiengaenge/04_Q_Informatik_BSc13/index.html&quot;&gt;Computer Science/Software Engineering&lt;/a&gt; study programme
+at Lübeck University of Applied Sciences and will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Object oriented concepts&lt;/strong&gt; and programming techniques&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt; of software including introduction to &lt;strong&gt;contracts&lt;/strong&gt;, &lt;strong&gt;unit testing&lt;/strong&gt; and &lt;strong&gt;code coverage&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generics&lt;/strong&gt; introducing concepts like generic classes and methodes as well as concepts like type erasure, bounds&lt;/li&gt;
+&lt;li&gt;Introduction to &lt;strong&gt;OOAD&lt;/strong&gt; (object oriented analysis and design) by example of Tic Tac Toe&lt;/li&gt;
+&lt;li&gt;Graphical user interfaces (&lt;strong&gt;GUI&lt;/strong&gt;) using Swing introducing &lt;strong&gt;MVC&lt;/strong&gt; (model view controler) paradigma&lt;/li&gt;
+&lt;li&gt;Concurrent programming using &lt;strong&gt;threads&lt;/strong&gt; introducing accompanying &lt;strong&gt;thread safeness&lt;/strong&gt; problems like race conditions, producer-consumer problem, deadlocks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Course Material (german only)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ss2015/progII/prog-unit06.pdf&quot;&gt;Introduction to object oriented programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Self Study Unit 7: &lt;a href=&quot;/assets/ss2015/progII/prog-unit07.pdf&quot;&gt;Further aspects of object oriented programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 8: &lt;a href=&quot;/assets/ss2015/progII/prog-unit08.pdf&quot;&gt;Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 9: &lt;a href=&quot;/assets/ss2015/progII/prog-unit09.pdf&quot;&gt;Generics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 10: &lt;a href=&quot;/assets/ss2015/progII/prog-unit10.pdf&quot;&gt;OOAD by example of Tic Tac Toe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 11: &lt;a href=&quot;/assets/ss2015/progII/prog-unit11.pdf&quot;&gt;GUI and MVC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 12: &lt;a href=&quot;/assets/ss2015/progII/prog-unit12.pdf&quot;&gt;Concurrent programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exercises: &lt;a href=&quot;/assets/ss2015/progII/prog-excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//lecture/2015/03/01/lecture-programming-ii.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/03/01/lecture-programming-ii.html</guid>
+    </item>
+    
+    <item>
+      <title>Advanced Programming (Summer 2015)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture &lt;strong&gt;Advanced Programming&lt;/strong&gt; continues &lt;strong&gt;Fundaments of Programming&lt;/strong&gt; by introducing
+more sophistacted programming aspects
+for freshman students (second semester).&lt;/p&gt;
+
+&lt;p&gt;JAVA is used as teaching language. Nevertheless, the principles are applicable to every (class based) object oriented programming language.&lt;/p&gt;
+
+&lt;p&gt;Lecture is given for students of the &lt;a href=&quot;http://www.fh-luebeck.de/Inhalt/03_Hochschulangehoerige_Ch031/04_FB_Elektrotechnik/03_Studiengaenge/01_Q_ITD_BSc/index.html&quot;&gt;Information Technology and Design&lt;/a&gt; study program at Lübeck University of Applied Sciences
+and will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Object oriented concepts and programming techniques&lt;/li&gt;
+&lt;li&gt;Introduction to &lt;strong&gt;OOAD&lt;/strong&gt; (object oriented analysis and design) by example of Tic Tac Toe&lt;/li&gt;
+&lt;li&gt;Graphical user interfaces (&lt;strong&gt;GUI&lt;/strong&gt;) using Swing introducing &lt;strong&gt;MVC&lt;/strong&gt; (model view controler) paradigma&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Course Material (german only)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ss2015/progII/prog-unit06.pdf&quot;&gt;Introduction to object oriented programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Self Study Unit 7: &lt;a href=&quot;/assets/ss2015/progII/prog-unit07.pdf&quot;&gt;Further aspects of object oriented programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 10: &lt;a href=&quot;/assets/ss2015/progII/prog-unit10.pdf&quot;&gt;OOAD by example of Tic Tac Toe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 11: &lt;a href=&quot;/assets/ss2015/progII/prog-unit11.pdf&quot;&gt;GUI and MVC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exercises: &lt;a href=&quot;/assets/ss2015/progII/prog-excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//lecture/2015/03/01/lecture-advanced-programming.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/03/01/lecture-advanced-programming.html</guid>
+    </item>
+    
+    <item>
       <title>Some Links to Consider when Writing a Paper</title>
       <description>
         

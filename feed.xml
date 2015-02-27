@@ -973,12 +973,11 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components&quot;&gt;The Docker Ecosystem: An Introduction to Common Components&lt;/a&gt; by &lt;strong&gt;Justin Ellingwood&lt;/strong&gt; (added 5. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem&quot;&gt;The Docker Ecosystem Tutorial Series&lt;/a&gt; by &lt;strong&gt;Justin Ellingwood&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@behruz/dockerizability-is-better-than-dockerized-3c08b9dbd84c&quot;&gt;&amp;quot;Dockerizability&amp;quot; is better than &amp;quot;dockerized&amp;quot;&lt;/a&gt; by &lt;strong&gt;Behrooz Nobakht&lt;/strong&gt; (added 5. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://etherealmind.com/basics-docker-containers-hypervisors-coreos/&quot;&gt;Basics – Docker, Containers, Hypervisors, CoreOS&lt;/a&gt; by &lt;strong&gt;Greg Ferro&lt;/strong&gt; (added 4. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kristofdm.be/blog/post/docker-introduction&quot;&gt;Docker: an introduction&lt;/a&gt; by &lt;strong&gt;Kristof De Middelaer&lt;/strong&gt; (added 18. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.bryanbraun.com/2014/07/15/the-frontend-developers-guide-to-docker&quot;&gt;The Frontend Developer&amp;#39;s Guide to Docker&lt;/a&gt; by &lt;strong&gt;Bryan Braun&lt;/strong&gt; (added 17. Jul. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cloudsolutions.co.uk/news-and-events/find-out-more-about-docker/&quot;&gt;Find out more about Docker, the next big thing in cloud computing&lt;/a&gt; by &lt;strong&gt;cloudsolutions.co.uk&lt;/strong&gt; (added 3. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Opinions around Containerization&lt;/h3&gt;
@@ -998,11 +997,25 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/installation/google/&quot;&gt;QuickStart with Container-optimized Google Compute Engine images&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/2014/10/17/how-to-deploy-a-docker-application-into-production-on-amazon-aws/&quot;&gt;How To Deploy A Docker Application Into Production On Amazon AWS&lt;/a&gt; by &lt;strong&gt;Mark van Holsteijn&lt;/strong&gt; (added 30. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/platform-as-a-service/microsoft-brings-containers-to-windows-azure/d/d-id/1316654&quot;&gt;Microsoft Brings Containers to Windows, Azure&lt;/a&gt; by &lt;strong&gt;Charles Babcock&lt;/strong&gt; (added 29. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.oddbit.com/2014/08/30/docker-plugin-for-openstack-he/&quot;&gt;Docker Plugin for OpenStack Heat&lt;/a&gt; by &lt;strong&gt;Lars Kellogg-Stedman&lt;/strong&gt; (added 4. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/08/12/docker-networking/&quot;&gt;Docker intercontainer networking explained&lt;/a&gt; by &lt;strong&gt;Attila Kanto&lt;/strong&gt; (added 21. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.appnovation.com/blog/docker-containers-take-vm-shipping-google-app-engine&quot;&gt;Docker Containers Take on VM, shipping on Google App Engine&lt;/a&gt; by &lt;strong&gt;appnovation.com&lt;/strong&gt; (added 25. Jul. 2014) &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Projects &lt;small&gt;providing &lt;strong&gt;container clusters&lt;/strong&gt; for microservice approaches&lt;/small&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 28. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.tutum.co/&quot;&gt;Tutum - Build, deploy, and manage your apps across any cloud&lt;/a&gt; (added 30. Oct. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cloudsoftcorp.com/blog/2014/06/clocker-creating-a-docker-cloud-with-apache-brooklyn/&quot;&gt;Clocker – Creating a Docker Cloud with Apache Brooklyn&lt;/a&gt; (added 16. Oct. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/kubernetes&quot;&gt;Kubernetes&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mesosphere.io/&quot;&gt;Mesoshpere: Mesosphere brings Google-scale compute to everybody&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.projectatomic.io&quot;&gt;Project Atomic: Deploy and Manage your Docker Containers&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://panamax.io&quot;&gt;Panamax: Docker management for humans&lt;/a&gt; (added 24. Aug. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.coreos.com&quot;&gt;CoreOS: Linux for Massive Server Deployments&lt;/a&gt; (added 25. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;overlay network solutions&lt;/small&gt;&lt;/h3&gt;
@@ -1031,6 +1044,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 28. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/&quot;&gt;Ten tips for wonderful bash productivity&lt;/a&gt; by &lt;strong&gt;Nicola Paolucci&lt;/strong&gt; (added 12. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -1041,7 +1055,6 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2014/10/22/how-to-optimize-your-dockerfile/&quot;&gt;How to Optimize Your Dockerfile&lt;/a&gt; by &lt;strong&gt;Maxime Hekel&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.calazan.com/docker-cleanup-commands/&quot;&gt;Docker Cleanup Commands&lt;/a&gt; by &lt;strong&gt;Calazan&lt;/strong&gt; (added 9. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/09/24/edit-files-docker/&quot;&gt;Edit files in Docker containers&lt;/a&gt; by &lt;strong&gt;Lajos Papp&lt;/strong&gt; (added 3. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://coderwall.com/p/fvfjyg&quot;&gt;Lightweight dev environment with fig &amp;amp; boot2docker on OSX&lt;/a&gt; by &lt;strong&gt;Martin Naumann&lt;/strong&gt; (added 25. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/&quot;&gt;Running GUI apps with Docker&lt;/a&gt; by &lt;strong&gt;Fábio Rehm&lt;/strong&gt; (added 18. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://devo.ps/blog/docker-dos-and-donts/&quot;&gt;Docker Do&amp;#39;s And Don&amp;#39;ts&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/komljen/dockerfile-examples&quot;&gt;Dockerfile examples&lt;/a&gt; by &lt;strong&gt;Alen Komljen&lt;/strong&gt; (added 27. Aug. 2014) &lt;/li&gt;
@@ -1123,20 +1136,6 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;https://adetante.github.io/articles/service-discovery-with-docker-1/&quot;&gt;Service Discovery Part I&lt;/a&gt; by &lt;strong&gt;Antoine&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://beingasysadmin.wordpress.com/2014/08/16/managing-ha-docker-cluster-using-multiple-mesos-masters/&quot;&gt;Managing HA Docker Cluster Using Multiple Mesos Masters&lt;/a&gt; by &lt;strong&gt;Deepak Mdass&lt;/strong&gt; (added 21. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2014/08/getting-started-with-orchestration-using-fig/&quot;&gt;Getting Started with Docker Orchestration Using Fig&lt;/a&gt; by &lt;strong&gt;docker.com&lt;/strong&gt; (added 18. Aug. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.relateiq.com/mesos-docker-and-chef/&quot;&gt;Mesos, Docker, and Chef&lt;/a&gt; by &lt;strong&gt;Jón Tómas Grétarsson&lt;/strong&gt; (added 18. Jul. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.fig.sh&quot;&gt;Fig: Fast, isolated development environments using Docker.&lt;/a&gt; by &lt;strong&gt;fig.sh&lt;/strong&gt; (added 25. Jul. 2014) &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Projects &lt;small&gt;providing &lt;strong&gt;container clusters&lt;/strong&gt; for microservice approaches&lt;/small&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.tutum.co/&quot;&gt;Tutum - Build, deploy, and manage your apps across any cloud&lt;/a&gt; (added 30. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cloudsoftcorp.com/blog/2014/06/clocker-creating-a-docker-cloud-with-apache-brooklyn/&quot;&gt;Clocker – Creating a Docker Cloud with Apache Brooklyn&lt;/a&gt; (added 16. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/kubernetes&quot;&gt;Kubernetes&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://mesosphere.io/&quot;&gt;Mesoshpere: Mesosphere brings Google-scale compute to everybody&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.projectatomic.io&quot;&gt;Project Atomic: Deploy and Manage your Docker Containers&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://panamax.io&quot;&gt;Panamax: Docker management for humans&lt;/a&gt; (added 24. Aug. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.coreos.com&quot;&gt;CoreOS: Linux for Massive Server Deployments&lt;/a&gt; (added 25. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

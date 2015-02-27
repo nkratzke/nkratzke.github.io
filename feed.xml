@@ -1005,10 +1005,10 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://www.appnovation.com/blog/docker-containers-take-vm-shipping-google-app-engine&quot;&gt;Docker Containers Take on VM, shipping on Google App Engine&lt;/a&gt; by &lt;strong&gt;appnovation.com&lt;/strong&gt; (added 25. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Projects &lt;small&gt;providing &lt;strong&gt;container clusters&lt;/strong&gt; for microservice approaches&lt;/small&gt;&lt;/h3&gt;
+&lt;h3&gt;Docker &lt;small&gt;container clusters and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 28. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.tutum.co/&quot;&gt;Tutum - Build, deploy, and manage your apps across any cloud&lt;/a&gt; (added 30. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.cloudsoftcorp.com/blog/2014/06/clocker-creating-a-docker-cloud-with-apache-brooklyn/&quot;&gt;Clocker – Creating a Docker Cloud with Apache Brooklyn&lt;/a&gt; (added 16. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/kubernetes&quot;&gt;Kubernetes&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
@@ -1044,7 +1044,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 28. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/&quot;&gt;Ten tips for wonderful bash productivity&lt;/a&gt; by &lt;strong&gt;Nicola Paolucci&lt;/strong&gt; (added 12. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;

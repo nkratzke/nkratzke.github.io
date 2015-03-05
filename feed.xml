@@ -966,7 +966,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
   contains links I find useful from a pure personal opinion).&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;You may want check comparable pages like &lt;a href=&quot;http://getawesomeness.com/get/docker&quot;&gt;Awesome Docker&lt;/a&gt;
+&lt;p&gt;You may want to check similar pages like &lt;a href=&quot;http://getawesomeness.com/get/docker&quot;&gt;Awesome Docker&lt;/a&gt;
 to get further informations about Docker and Containerization.
 &lt;/small&gt;&lt;/p&gt;
 
@@ -1018,9 +1018,10 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://www.coreos.com&quot;&gt;CoreOS: Linux for Massive Server Deployments&lt;/a&gt; (added 25. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Docker &lt;small&gt;overlay network solutions&lt;/small&gt;&lt;/h3&gt;
+&lt;h3&gt;Docker &lt;small&gt;(overlay) network solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiredcraft.com/blog/multi-host-docker-network/&quot;&gt;Multi-Host Docker Network&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/01/29/powerstrip-weave-a-docker-networking-extension/&quot;&gt;Powerstrip-weave: a docker networking extension&lt;/a&gt; by &lt;strong&gt;Michael Bridgen&lt;/strong&gt; (added 30. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/&quot;&gt;Docker Virtual Networking with Socketplane.io&lt;/a&gt; by &lt;strong&gt;Ryan Wallner&lt;/strong&gt; (added 22. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@ALGrendel/docker-weave-a-little-cloud-and-a-raspberry-pi-381f73a4376d&quot;&gt;Docker, Weave, Raspberry Pi and a bit of Networked Cloud Computing!&lt;/a&gt; by &lt;strong&gt;Alexander Grendel&lt;/strong&gt; (added 15. Dec. 2014) &lt;/li&gt;
@@ -1032,7 +1033,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/data-packed-volume-containers-distribute-configuration-c23ff80987cd&quot;&gt;Data Packed Volume Containers: Distribute Configuration&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 3. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/data-packed-volume-containers-distribute-configuration-c23ff80987cd&quot;&gt;Data Packed Volume Containers: Distribute Configuration&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 3. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/on-docker-container-composition-a98788f1aa3c&quot;&gt;On Docker Container Composition&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 27. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container42.com/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/&quot;&gt;Persistent volumes with Docker - Data-only container pattern&lt;/a&gt; by &lt;strong&gt;Container 42&lt;/strong&gt; (added 27. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.hokstad.com/docker/patterns&quot;&gt;Eight Docker Development Patterns&lt;/a&gt; by &lt;strong&gt;Vidar Hokstad&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;
@@ -1044,6 +1045,8 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://standalonex.com/docker-exec-is-your-boss/&quot;&gt;Docker Exec is Your Boss&lt;/a&gt; by &lt;strong&gt;Azri Jamil&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/&quot;&gt;Ten tips for wonderful bash productivity&lt;/a&gt; by &lt;strong&gt;Nicola Paolucci&lt;/strong&gt; (added 12. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -1067,7 +1070,6 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://cocoahunter.com/2015/01/23/docker-2/&quot;&gt;Setting up a private Docker registry&lt;/a&gt; by &lt;strong&gt;Michelangelo Chasseur&lt;/strong&gt; (added 29. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/2014/12/remove-docker-image-container-with-criteria-techtip60/&quot;&gt;Remove Docker image and container with a criteria&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 5. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lollyrock.com/articles/execute-in-docker-sandbox/&quot;&gt;Execute commands in a Docker sandbox&lt;/a&gt; by &lt;strong&gt;Chris Rock&lt;/strong&gt; (added 9. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.tech-d.net/2014/07/03/libswarm/&quot;&gt;Libswarm in a nutshell&lt;/a&gt; by &lt;strong&gt;Brian Goff&lt;/strong&gt; (added 17. Jul. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://flux7.com/blogs/docker/docker-tutorial-series-part-9-10-docker-remote-api-commands-for-images/&quot;&gt;10 Docker Remote API Commands for Images&lt;/a&gt; by &lt;strong&gt;Flux7&lt;/strong&gt; (added 17. Jul. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://flux7.com/blogs/docker/docker-tutorial-series-part-8-docker-remote-api/&quot;&gt;Docker Remote API&lt;/a&gt; by &lt;strong&gt;Flux7&lt;/strong&gt; (added 3. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
@@ -1114,7 +1116,7 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2015/02/03/hardening-containers-disable-suid-programs/&quot;&gt;Hardening Docker Containers: Disable SUID Programs&lt;/a&gt; &lt;strong&gt;allingeek&lt;/strong&gt; (added 5. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://technolo-g.com/generate-ssl-for-docker-swarm/&quot;&gt;Creating SSL/TLS Certificates for Docker and Docker Swarm&lt;/a&gt; by &lt;strong&gt;Matthew Bajor&lt;/strong&gt; (added 22. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines&quot;&gt;Docker Secure Deployment Guide&lt;/a&gt; by &lt;strong&gt;Quentin Grosperring&lt;/strong&gt; (added 15. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/safer-local-docker-networks-8ce22127f9df&quot;&gt;Safer Local Docker Networks&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 8. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/safer-local-docker-networks-8ce22127f9df&quot;&gt;Safer Local Docker Networks&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 8. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/docker-http-basic-auth/&quot;&gt;Securing Docker with HTTP Basic Authentication&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 30. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.zdnet.com/docker-1-3-arrives-with-improved-security-7000034810/&quot;&gt;Docker 1.3 arrives with improved security&lt;/a&gt; by &lt;strong&gt;Steven Vaughan-Nicols&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/infrastructure-as-a-service/how-docker-changes-cloud-security/a/d-id/1316793?_mc=RSS_IWK_EDT&quot;&gt;How Docker Changes Cloud Security&lt;/a&gt; by &lt;strong&gt;Lucas Carlson&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;
@@ -1419,9 +1421,7 @@ as well as concurrent programming using threads.&lt;/p&gt;
         
         &lt;img src=&quot;/img/posts/cloud.jpg&quot;&gt;
         
-        &lt;p&gt;&lt;small&gt;(Image: incredibleguy / flickr.com, Lizenz: CC-BY)&lt;/small&gt;&lt;/p&gt;
-
-&lt;table class=&quot;project&quot;&gt;
+        &lt;table class=&quot;project&quot;&gt;
 &lt;tr&gt;
   &lt;th&gt;Project duration&lt;/th&gt;
   &lt;td&gt;1st. Nov. 2014 - 31th Oct. 2017&lt;/td&gt;
@@ -1455,7 +1455,7 @@ understanding of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Service&quot
 
 &lt;p&gt;Beside common security, governance and cost forecast concerns,
 often technological &lt;a href=&quot;https://en.wikipedia.org/wiki/Vendor_lock-in&quot;&gt;vendor lock-in&lt;/a&gt;
-worries often come along with cloud computing, which is
+worries come along with cloud computing, which is
 especially true for small and medium-sized enterprises
 (&lt;a href=&quot;/bibliography/Kra2011a.html&quot;&gt;Kra2011a&lt;/a&gt;, &lt;a href=&quot;/bibliography/Kra2011b.html&quot;&gt;Kra2011b&lt;/a&gt;, &lt;a href=&quot;/bibliography/Kra2012b.html&quot;&gt;Kra2012b&lt;/a&gt;).&lt;/p&gt;
 

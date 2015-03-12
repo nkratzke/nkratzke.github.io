@@ -2976,26 +2976,26 @@ var $$ = Object.create(null);
   main_closure: {
     "^": "Closure:10;box_0,NMAX_1,error_div_2,prims_div_3",
     call$1: function(ev) {
-      var t1, t2, t3, t4;
+      var t1, t2, t3, n, t4, t5;
       t1 = this.error_div_2;
       t2 = J.getInterceptor$x(t1);
       t2.set$innerHtml(t1, "");
-      t3 = J.getInterceptor$x(ev);
-      if (!J.$eq(J.get$value$x(t3.get$target(ev)), ""))
-        this.box_0.n_0 = H.Primitives_parseInt(J.get$value$x(t3.get$target(ev)), null, new U.main__closure(t1, this.prims_div_3));
-      t3 = this.box_0;
-      if (J.$le$n(t3.n_0, 0)) {
+      t3 = this.prims_div_3;
+      n = H.Primitives_parseInt(J.get$value$x(J.get$target$x(ev)), null, new U.main__closure(t1, t3));
+      t4 = this.box_0;
+      t4.n_0 = n;
+      if (J.$le$n(n, 0)) {
         t2.set$innerHtml(t1, "Bitte geben Sie eine positive ganze Zahl > 0 ein!");
-        J.set$innerHtml$x(this.prims_div_3, "");
-        t3.n_0 = 0;
+        J.set$innerHtml$x(t3, "");
+        t4.n_0 = 0;
       }
-      t4 = this.NMAX_1;
-      if (J.$ge$n(t3.n_0, t4)) {
-        t2.set$innerHtml(t1, "Wir berechnen nur Primzahlen bis " + t4 + "!");
-        J.set$innerHtml$x(this.prims_div_3, "");
-        t3.n_0 = t4;
+      t5 = this.NMAX_1;
+      if (J.$ge$n(t4.n_0, t5)) {
+        t2.set$innerHtml(t1, "Wir berechnen nur Primzahlen bis " + t5 + "!");
+        J.set$innerHtml$x(t3, "");
+        t4.n_0 = t5;
       }
-      J.set$innerHtml$x(this.prims_div_3, R.toHtmlTable(R.prims(t3.n_0), 13, "eratosthenes"));
+      J.set$innerHtml$x(t3, R.toHtmlTable(R.prims(t4.n_0), 13, "eratosthenes"));
     }
   },
   main__closure: {
@@ -7302,6 +7302,9 @@ J.get$nodes$x = function(receiver) {
 };
 J.get$onInput$x = function(receiver) {
   return J.getInterceptor$x(receiver).get$onInput(receiver);
+};
+J.get$target$x = function(receiver) {
+  return J.getInterceptor$x(receiver).get$target(receiver);
 };
 J.get$value$x = function(receiver) {
   return J.getInterceptor$x(receiver).get$value(receiver);

@@ -18,13 +18,11 @@ main() {
   input.onInput.listen((ev) {
     error_div.innerHtml = "";
 
-    if (ev.target.value != "") {
-      n = int.parse(ev.target.value, onError: (s) {
-        error_div.innerHtml = "Bitte geben Sie eine positive ganze Zahl > 0 ein!";
-        prims_div.innerHtml = "";
-        return 0;
-      });
-    }
+    n = int.parse(ev.target.value, onError: (s) {
+      error_div.innerHtml = "Bitte geben Sie eine positive ganze Zahl > 0 ein!";
+      prims_div.innerHtml = "";
+      return 0;
+    });
 
     if (n <= 0) {
       error_div.innerHtml = "Bitte geben Sie eine positive ganze Zahl > 0 ein!";

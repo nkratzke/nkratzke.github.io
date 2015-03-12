@@ -964,7 +964,7 @@ or if you know better ones. You may also want to use the disqus comments at the 
 article to propose improvements or additional or even better links.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
-  contains links I find useful from a pure personal opinion).&lt;/strong&gt;&lt;/p&gt;
+  contains links I find useful from a very personal point of view).&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;You may want to check similar pages like &lt;a href=&quot;http://getawesomeness.com/get/docker&quot;&gt;Awesome Docker&lt;/a&gt;
 to get further informations about Docker and Containerization.
@@ -1115,7 +1115,7 @@ to get further informations about Docker and Containerization.
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2015/02/03/hardening-containers-disable-suid-programs/&quot;&gt;Hardening Docker Containers: Disable SUID Programs&lt;/a&gt; &lt;strong&gt;allingeek&lt;/strong&gt; (added 5. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://technolo-g.com/generate-ssl-for-docker-swarm/&quot;&gt;Creating SSL/TLS Certificates for Docker and Docker Swarm&lt;/a&gt; by &lt;strong&gt;Matthew Bajor&lt;/strong&gt; (added 22. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines&quot;&gt;Docker Secure Deployment Guide&lt;/a&gt; by &lt;strong&gt;Quentin Grosperring&lt;/strong&gt; (added 15. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines&quot;&gt;Docker Secure Deployment Guide&lt;/a&gt; by &lt;strong&gt;Quentin Grosperring&lt;/strong&gt; (added 15. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/safer-local-docker-networks-8ce22127f9df&quot;&gt;Safer Local Docker Networks&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 8. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/docker-http-basic-auth/&quot;&gt;Securing Docker with HTTP Basic Authentication&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 30. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.zdnet.com/docker-1-3-arrives-with-improved-security-7000034810/&quot;&gt;Docker 1.3 arrives with improved security&lt;/a&gt; by &lt;strong&gt;Steven Vaughan-Nicols&lt;/strong&gt; (added 23. Oct. 2014) &lt;/li&gt;

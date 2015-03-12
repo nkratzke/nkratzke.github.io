@@ -1045,6 +1045,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/03/kitematic-a-docker-gui-joins-the-docker-family/&quot;&gt;Kitematic, A Docker GUI Joins the Docker Family&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://standalonex.com/docker-exec-is-your-boss/&quot;&gt;Docker Exec is Your Boss&lt;/a&gt; by &lt;strong&gt;Azri Jamil&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -1113,7 +1114,8 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2015/02/03/hardening-containers-disable-suid-programs/&quot;&gt;Hardening Docker Containers: Disable SUID Programs&lt;/a&gt; &lt;strong&gt;allingeek&lt;/strong&gt; (added 5. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://opensource.com/business/15/3/docker-security-tuning&quot;&gt;Tuning Docker with the newest security enhancements&lt;/a&gt; by &lt;strong&gt;Daniel Walsh&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2015/02/03/hardening-containers-disable-suid-programs/&quot;&gt;Hardening Docker Containers: Disable SUID Programs&lt;/a&gt; by &lt;strong&gt;allingeek&lt;/strong&gt; (added 5. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://technolo-g.com/generate-ssl-for-docker-swarm/&quot;&gt;Creating SSL/TLS Certificates for Docker and Docker Swarm&lt;/a&gt; by &lt;strong&gt;Matthew Bajor&lt;/strong&gt; (added 22. Jan. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines&quot;&gt;Docker Secure Deployment Guide&lt;/a&gt; by &lt;strong&gt;Quentin Grosperring&lt;/strong&gt; (added 15. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/safer-local-docker-networks-8ce22127f9df&quot;&gt;Safer Local Docker Networks&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 8. Jan. 2015) &lt;/li&gt;
@@ -1130,6 +1132,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to use Docker in a (massive) distributed way &lt;small&gt;Tools and Frameworks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.scottlowe.org/2015/03/06/running-own-docker-swarm-cluster/&quot;&gt;Running a Small Docker Swarm Cluster&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://hortonworks.com/blog/openshift-v3-kubernetes-docker-hadoop-yarn/&quot;&gt;OpenShift, Kubernetes, Docker and Apache Hadoop YARN&lt;/a&gt; by &lt;strong&gt;Arun Murthy&lt;/strong&gt; (added 3. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.linux.com/news/enterprise/cloud-computing/787177-mesoscon-highlights-apache-mesos-020-and-docker-support&quot;&gt;MesosCon Highlights: Apache Mesos 0.20 and Docker Support&lt;/a&gt; by &lt;strong&gt;Isabel Jimenez&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://mukis.de/pages/akka-cluster-with-docker-containers/&quot;&gt;Akka Cluster with Docker containers&lt;/a&gt; by &lt;strong&gt;Nepomuk Seiler&lt;/strong&gt; (added 4. Sep. 2014) &lt;/li&gt;
@@ -1137,7 +1140,6 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;https://adetante.github.io/articles/service-discovery-with-docker-2/&quot;&gt;Service Discovery Part II&lt;/a&gt; by &lt;strong&gt;Antoine&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://adetante.github.io/articles/service-discovery-with-docker-1/&quot;&gt;Service Discovery Part I&lt;/a&gt; by &lt;strong&gt;Antoine&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://beingasysadmin.wordpress.com/2014/08/16/managing-ha-docker-cluster-using-multiple-mesos-masters/&quot;&gt;Managing HA Docker Cluster Using Multiple Mesos Masters&lt;/a&gt; by &lt;strong&gt;Deepak Mdass&lt;/strong&gt; (added 21. Aug. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2014/08/getting-started-with-orchestration-using-fig/&quot;&gt;Getting Started with Docker Orchestration Using Fig&lt;/a&gt; by &lt;strong&gt;docker.com&lt;/strong&gt; (added 18. Aug. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

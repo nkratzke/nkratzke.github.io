@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
+    <meta property="twitter:account_id" content="4503599630726265" />
+    <title>About Microservices, Containers and their Underestimated Impact on Network Performance</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/customize.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+
+    
+
+    <link href='/feed.xml' rel='alternate' type='application/atom+xml'>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-380838-9']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+<div class="navbar navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    	<span class="sr-only">Toggle navigation</span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><div class="brand-icon"></div>nkode.io</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+  	    <li id="about"><a href="/about.html">About me</a></li>
+        <li id="blog"><a href="/blog.html">Blog</a></li>
+        <li id="research"><a href="/research.html">Research</a></li>
+        <li id="lectures"><a href="/lectures.html">Lectures</a></li>
+        <li id="thesis"><a href="/thesis.html">Thesis</a></li>
+        <li id="archive"><a href="/archive.html">Archive</a></li>
+  		  <li id="publications"><a href="/publications.html">Publications</a></li>
+    	</ul>
+    </div>
+  </div>
+</div>
+
+
+    
+    <div class="content">
+      <div class="container">
+        <article class="post ">
+	<header>
+		
+		<img src="/img/posts/nice-cloud-computing-2015.jpg" class="photo" width="100%">
+		
+		<div class="headline">
+			
+			<small>(Image: Nice, luke chan / flickr.com, Licence: CC BY-NC-SA 2.0)</small>
+			
+			<h2>About Microservices, Containers and their Underestimated Impact on Network Performance</h2>
+			<p class="meta">
+			
+			<strong>16 Mar 2015</strong>
+			
+			</p>
+		</div>
+	</header>
+	<section>
+		<div class="rightbar">
+			<h3>Tags </h3>
+			<div class="tags hidden-print">
+	<ul>
+	
+		<li><a href="/tag/blog"><span class="tag">#blog</span></a></li>
+	
+		<li><a href="/tag/paper"><span class="tag">#paper</span></a></li>
+	
+		<li><a href="/tag/cloud"><span class="tag">#cloud</span></a></li>
+	
+		<li><a href="/tag/research"><span class="tag">#research</span></a></li>
+	
+		<li><a href="/tag/cloudtransit"><span class="tag">#cloudtransit</span></a></li>
+	
+	</ul>
+</div>
+
+			<h3>Share </h3>
+			<div class="share hidden-print">
+	<ul>
+		<li>
+			<a href="http://twitter.com/home?status=About+Microservices%2C+Containers+and+their+Underestimated+Impact+on+Network+Performance http://www.nkode.io/2015/03/16/cloudcomputing2015.html" target="_blank">
+				<img src="/img/social/twitter-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="https://plus.google.com/share?url=http://www.nkode.io/2015/03/16/cloudcomputing2015.html" target="_blank">
+				<img src="/img/social/googleplus-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nkode.io/2015/03/16/cloudcomputing2015.html&title=About+Microservices%2C+Containers+and+their+Underestimated+Impact+on+Network+Performance&summary=&source=" target="_blank">
+				<img src="/img/social/linkedin-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Fwww.nkode.io%2F2015%2F03%2F16%2Fcloudcomputing2015.html&title=About+Microservices%2C+Containers+and+their+Underestimated+Impact+on+Network+Performance" target="_blank">
+				<img src="/img/social/xing-128-black.png">
+			</a>
+		</li>
+	</ul>
+</div>
+
+		</div>
+		<p>I am going to present this paper on the <a href="http://www.iaria.org/conferences2015/CLOUDCOMPUTING15.html">6th International Conference on Cloud Computing</a> (CLOUD COMPUTING 2015, <a href="http://www.iaria.org/conferences2015/ProgramCLOUDCOMPUTING15.html">Cloud Computing 7, Challenging Features Track</a>) in Nice, France.</p>
+
+<p>A full text version of the paper is provided via <span class="researchgate"><a href="https://www.researchgate.net/publication/273456042">Research<em>Gate</em></a></span>.
+Informations how to cite the paper can be found <a href="/bibliography/Kra2015b.html">here</a>.</p>
+
+<h3>Abstract</h3>
+
+<p>Microservices are used to build complex applications composed of small, independent and highly decoupled processes. Recently, microservices are often mentioned in one breath with container technologies like Docker. That is why operating system virtualization experiences a renaissance in cloud computing. These approaches shall provide horizontally scalable, easily deployable systems and a high-performance alternative to hypervisors. Nevertheless, performance impacts of containers on top of hypervisors are hardly investigated. Furthermore, microservice frameworks often come along with software defined networks. This contribution presents benchmark results to quantify the impacts of container, software defined networking and encryption on network performance. Even containers, although postulated to be lightweight, show a noteworthy impact to network performance. These impacts can be minimized on several system layers. Some design recommendations for cloud deployed systems following the microservice architecture pattern are derived.</p>
+
+<h3>Slides</h3>
+
+<p><center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/45853143"
+        width="100%"
+        height="500px"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        scrolling="no"
+        style="border: 1px solid white; max-width: 100%; background-color: white;"></iframe>
+</center></p>
+
+<h3>Data</h3>
+
+<p>A Docker container providing a MySQL database containing measurement data
+and analytical views of presented experiments is provided as well as a
+<a href="https://github.com/nkratzke/sdvn-impact-database">github repository</a>.
+Run it by installing Docker and launch the following commands:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">docker build -t sdvn github.com/nkratzke/sdvn-impact-database
+docker run -d -p 3306:3306 sdvn</code></pre></div>
+
+<p>How to access this database is described <a href="https://github.com/nkratzke/sdvn-impact-database">here</a>.</p>
+
+<h3>Tools</h3>
+
+<p>The <a href="https://github.com/nkratzke/pingpong">Ping Pong</a> system was used to collect the benchmark data. You can
+easily install the system on any Linux system.</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/nkratzke/pingpong.git
+<span class="nb">cd </span>pingpong
+sudo sh ./install.sh</code></pre></div>
+
+<p>This will install <em>Dart</em> runtime and development environment, apachebench,
+<em>Docker</em> as well as the docker overlay network <em>weave</em>.</p>
+
+<p>It is possible to run the ping and pong service as a docker container.
+Therefore, you have to build a pingpong image on your ping and pong hosts, like that:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">docker build -t pingpong github.com/nkratzke/pingpong</code></pre></div>
+
+<p>For further information please read the informations provided with the
+<a href="https://github.com/nkratzke/pingpong">Ping Pong github repository</a>.</p>
+
+		
+	</section>
+	<footer>
+	</footer>
+	
+</article>
+
+      </div>
+    </div>
+
+    <div class="end hidden-print">
+  <div class="container">
+      <div class="row">
+    	<div class="col-sm-5 block">
+	    	<center>
+		    	&copy; Nane Kratzke (All rights reserved)
+		   		<div class="socialsites">
+  <center>
+   <a href="https://twitter.com/nanekratzke" title="Twitter"><img src="/img/social/twitter-128.png" alt="Twitter"></a>
+   <a href="http://www.slideshare.com/i21aneka" title="Slideshare"><img src="/img/social/slideshare-128.png" alt="Slideshare"></a>
+   <a href="https://github.com/nkratzke" title="Github"><img src="/img/social/github-128.png" alt="Github"></a>
+   <a href="https://www.researchgate.net/profile/Nane_Kratzke" title="Researchgate"><img src="/img/social/researchgate-128.png" alt="Researchgate"></a>
+   <a href="https://de.linkedin.com/in/nanekratzke" title="LinkedIN"><img src="/img/social/linkedin-128.png" alt="LinkedIN"></a>
+   <a href="https://www.xing.com/profile/Nane_Kratzke" title="Xing"><img src="/img/social/xing-128.png" alt="Xing"></a>
+   <a href="https://plus.google.com/+NaneKratzke" title="Google Plus"><img src="/img/social/googleplus-128.png" alt="Google Plus"></a>
+   <a href="https://www.facebook.com/nane.kratzke" title="Facebook"><img src="/img/social/facebook-128.png" alt="Facebook"></a>
+   <a href="/feed.xml" title="RSS"><img src="/img/social/rss-128.png" alt="RSS"></a>
+ </center>
+</div>
+
+    		</center>
+    	</div>
+       <div class="col-sm-2"></div>
+    	<div class="col-sm-5 block hidden-xs">
+	    	<center>
+		      Links to my official sites
+		      <div class="officialsites">
+   <a href="http://www.fh-luebeck.de/Inhalt/09_Fachhochschule_intern/07_Services/70_Verzeichnis_der_Hochschulangehoerigen/06_personenarchiv/kratzke_nane.html"><img src="/img/official/fhl-logo.png"></a>
+   <a href="http://www.cosa.fh-luebeck.de/en/home/kratzke"><img src="/img/official/cosa-logo.png"></a>
+</div>
+    		</center>
+    	</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer hidden-print">
+	<div class="container">
+		<center>
+			<a href="/about.html">About</a> &bullet;
+			<a href="/disclosure.html">Contact</a> &bullet;
+			<a href="/disclosure.html">Legal Notice (Impressum)</a>
+		</center>
+	</div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

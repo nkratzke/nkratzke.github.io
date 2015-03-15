@@ -7,6 +7,72 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>About Microservices, Containers and their Underestimated Impact on Network Performance</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/nice-cloud-computing-2015.jpg&quot;&gt;
+        
+        &lt;p&gt;I am going to present this paper on the &lt;a href=&quot;http://www.iaria.org/conferences2015/CLOUDCOMPUTING15.html&quot;&gt;6th International Conference on Cloud Computing&lt;/a&gt; (CLOUD COMPUTING 2015, &lt;a href=&quot;http://www.iaria.org/conferences2015/ProgramCLOUDCOMPUTING15.html&quot;&gt;Cloud Computing 7, Challenging Features Track&lt;/a&gt;) in Nice, France.&lt;/p&gt;
+
+&lt;p&gt;A full text version of the paper is provided via &lt;span class=&quot;researchgate&quot;&gt;&lt;a href=&quot;https://www.researchgate.net/publication/273456042&quot;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;&lt;/span&gt;.
+Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/Kra2015b.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Microservices are used to build complex applications composed of small, independent and highly decoupled processes. Recently, microservices are often mentioned in one breath with container technologies like Docker. That is why operating system virtualization experiences a renaissance in cloud computing. These approaches shall provide horizontally scalable, easily deployable systems and a high-performance alternative to hypervisors. Nevertheless, performance impacts of containers on top of hypervisors are hardly investigated. Furthermore, microservice frameworks often come along with software defined networks. This contribution presents benchmark results to quantify the impacts of container, software defined networking and encryption on network performance. Even containers, although postulated to be lightweight, show a noteworthy impact to network performance. These impacts can be minimized on several system layers. Some design recommendations for cloud deployed systems following the microservice architecture pattern are derived.&lt;/p&gt;
+
+&lt;h3&gt;Slides&lt;/h3&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe src=&quot;http://www.slideshare.net/slideshow/embed_code/45853143&quot;
+        width=&quot;100%&quot;
+        height=&quot;500px&quot;
+        frameborder=&quot;0&quot;
+        marginwidth=&quot;0&quot;
+        marginheight=&quot;0&quot;
+        scrolling=&quot;no&quot;
+        style=&quot;border: 1px solid white; max-width: 100%; background-color: white;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3&gt;Data&lt;/h3&gt;
+
+&lt;p&gt;A Docker container providing a MySQL database containing measurement data
+and analytical views of presented experiments is provided as well as a
+&lt;a href=&quot;https://github.com/nkratzke/sdvn-impact-database&quot;&gt;github repository&lt;/a&gt;.
+Run it by installing Docker and launch the following commands:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker build -t sdvn github.com/nkratzke/sdvn-impact-database
+docker run -d -p 3306:3306 sdvn&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;How to access this database is described &lt;a href=&quot;https://github.com/nkratzke/sdvn-impact-database&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Tools&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/nkratzke/pingpong&quot;&gt;Ping Pong&lt;/a&gt; system was used to collect the benchmark data. You can
+easily install the system on any Linux system.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone https://github.com/nkratzke/pingpong.git
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;pingpong
+sudo sh ./install.sh&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This will install &lt;em&gt;Dart&lt;/em&gt; runtime and development environment, apachebench,
+&lt;em&gt;Docker&lt;/em&gt; as well as the docker overlay network &lt;em&gt;weave&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is possible to run the ping and pong service as a docker container.
+Therefore, you have to build a pingpong image on your ping and pong hosts, like that:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker build -t pingpong github.com/nkratzke/pingpong&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For further information please read the informations provided with the
+&lt;a href=&quot;https://github.com/nkratzke/pingpong&quot;&gt;Ping Pong github repository&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+      <pubDate>Mon, 16 Mar 2015 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//2015/03/16/cloudcomputing2015.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2015/03/16/cloudcomputing2015.html</guid>
+    </item>
+    
+    <item>
       <title>Web Technologies (Summer 2015)</title>
       <description>
         

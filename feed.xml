@@ -1074,6 +1074,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;container clusters and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos with Docker Compose&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 18. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.tutum.co/&quot;&gt;Tutum - Build, deploy, and manage your apps across any cloud&lt;/a&gt; (added 30. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.cloudsoftcorp.com/blog/2014/06/clocker-creating-a-docker-cloud-with-apache-brooklyn/&quot;&gt;Clocker – Creating a Docker Cloud with Apache Brooklyn&lt;/a&gt; (added 16. Oct. 2014) &lt;/li&gt;

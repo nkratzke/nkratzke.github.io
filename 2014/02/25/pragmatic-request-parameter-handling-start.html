@@ -128,7 +128,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <p>That is how my <a href="https://github.com/lvivski/start/issues/49">proposal</a> looked like:</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="cm">/**</span>
+<div class="highlight"><pre><code class="dart"><span class="cm">/**</span>
 <span class="cm"> * Method to get post parameters from a [Request] object.</span>
 <span class="cm"> */</span>
 <span class="n">Future</span><span class="o">&lt;</span><span class="n">Map</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">String</span><span class="o">&gt;&gt;</span> <span class="n">getPostParams</span><span class="p">({</span> <span class="n">Encoding</span> <span class="nl">enc:</span> <span class="n">UTF8</span> <span class="p">})</span> <span class="p">{</span>
@@ -142,11 +142,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     <span class="n">c</span><span class="p">.</span><span class="n">complete</span><span class="p">(</span><span class="n">postParams</span><span class="p">);</span>
   <span class="p">});</span>
   <span class="k">return</span> <span class="n">c</span><span class="p">.</span><span class="n">future</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>This proposal has made it to <a href="https://github.com/lvivski/start">Start</a> version 0.2.1 with following <a href="https://github.com/lvivski/start/commit/8b68217ae8b3674429e883fc64f1a66b6f8dfcc8">commit</a>. So with <a href="https://github.com/lvivski/start">Start</a> version 0.2.1 you can do now the following pragmatic form of post request parameter handling.</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="k">import</span> <span class="s1">&#39;package:start/start.dart&#39;</span><span class="p">;</span>
+<div class="highlight"><pre><code class="dart"><span class="k">import</span> <span class="s1">&#39;package:start/start.dart&#39;</span><span class="p">;</span>
 
 <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
   <span class="n">start</span><span class="p">(</span><span class="nl">port:</span> <span class="m">3000</span><span class="p">).</span><span class="n">then</span><span class="p">((</span><span class="n">Server</span> <span class="n">app</span><span class="p">)</span> <span class="p">{</span>
@@ -164,7 +165,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     <span class="p">[...]</span>
 
   <span class="p">});</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>Thanks to <a href="https://github.com/lvivski">Yehor Lvivski</a> for providing the <a href="http://www.sinatrarb.com/">Sinatra</a> inspired <a href="https://github.com/lvivski/start">Start</a> web framework and for integrating <a href="https://github.com/lvivski/start/issues/49">issue 49</a>. It makes post parameter handling with <a href="https://github.com/lvivski/start">Start</a> more pragmatic.</p>
 
@@ -172,7 +174,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <p>Since <a href="https://github.com/lvivski/start">Start</a> version 0.2.2 you should use <code>payload()</code>. By using <code>payload</code> you can also handle parameters provided via POST, PUT, DELETE in request body. Above mentioned parameter handling changes to:</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="k">import</span> <span class="s1">&#39;package:start/start.dart&#39;</span><span class="p">;</span>
+<div class="highlight"><pre><code class="dart"><span class="k">import</span> <span class="s1">&#39;package:start/start.dart&#39;</span><span class="p">;</span>
 
 <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
   <span class="n">start</span><span class="p">(</span><span class="nl">port:</span> <span class="m">3000</span><span class="p">).</span><span class="n">then</span><span class="p">((</span><span class="n">Server</span> <span class="n">app</span><span class="p">)</span> <span class="p">{</span>
@@ -191,7 +193,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     <span class="p">[...]</span>
 
   <span class="p">});</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 		
 	</section>

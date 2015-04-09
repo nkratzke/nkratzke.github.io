@@ -157,9 +157,8 @@ and analytical views of presented experiments is provided as well as a
 <a href="https://github.com/nkratzke/sdvn-impact-database">github repository</a>.
 Run it by installing Docker and launch the following commands:</p>
 
-<div class="highlight"><pre><code class="bash">docker build -t sdvn github.com/nkratzke/sdvn-impact-database
-docker run -d -p 3306:3306 sdvn
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">docker build -t sdvn github.com/nkratzke/sdvn-impact-database
+docker run -d -p 3306:3306 sdvn</code></pre></div>
 
 <p>How to access this database is described <a href="https://github.com/nkratzke/sdvn-impact-database">here</a>.</p>
 
@@ -168,10 +167,9 @@ docker run -d -p 3306:3306 sdvn
 <p>The <a href="https://github.com/nkratzke/pingpong">Ping Pong</a> system was used to collect the benchmark data. You can
 easily install the system on any Linux system.</p>
 
-<div class="highlight"><pre><code class="bash">git clone https://github.com/nkratzke/pingpong.git
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/nkratzke/pingpong.git
 <span class="nb">cd </span>pingpong
-sudo sh ./install.sh
-</code></pre></div>
+sudo sh ./install.sh</code></pre></div>
 
 <p>This will install <em>Dart</em> runtime and development environment, apachebench,
 <em>Docker</em> as well as the docker overlay network <em>weave</em>.</p>
@@ -179,8 +177,7 @@ sudo sh ./install.sh
 <p>It is possible to run the ping and pong service as a docker container.
 Therefore, you have to build a pingpong image on your ping and pong hosts, like that:</p>
 
-<div class="highlight"><pre><code class="bash">docker build -t pingpong github.com/nkratzke/pingpong
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">docker build -t pingpong github.com/nkratzke/pingpong</code></pre></div>
 
 <p>For further information please read the informations provided with the
 <a href="https://github.com/nkratzke/pingpong">Ping Pong github repository</a>.</p>

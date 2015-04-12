@@ -1055,7 +1055,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Opinions around Containerization&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.hpcwire.com/2015/02/09/run-anywhere-big-data-hpc-workloads/&quot;&gt;Run Anywhere Big Data and HPC Workloads&lt;/a&gt; by &lt;strong&gt;Tryggvi Lárusson&lt;/strong&gt; (added 13. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.hpcwire.com/2015/02/09/run-anywhere-big-data-hpc-workloads/&quot;&gt;Run Anywhere Big Data and HPC Workloads&lt;/a&gt; by &lt;strong&gt;Tryggvi Lárusson&lt;/strong&gt; (added 13. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/12/containers-microservices-and-orchestrating-whole-symphony&quot;&gt;Containers, microservices, and orchestrating the whole symphony&lt;/a&gt; by &lt;strong&gt;Uri Cohen&lt;/strong&gt; (added 15. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.rightscale.com/blog/cloud-management-best-practices/docker-vs-vms-combining-both-cloud-portability-nirvana&quot;&gt;Docker vs. VMs? Combining Both for Cloud Portability Nirvana&lt;/a&gt; by &lt;strong&gt;Thorsten von Eicken&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.nextflow.io/blog/2014/nextflow-meets-docker.html&quot;&gt;Reproducibility in Science - Nextflow meets Docker&lt;/a&gt; by &lt;strong&gt;Maria Chatzou&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;

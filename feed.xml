@@ -7,6 +7,31 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Sperrvermerke bei Abschlussarbeiten</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/top-secret.jpg&quot;&gt;
+        
+        &lt;p&gt;&lt;small&gt;
+&lt;strong&gt;Hinweis:&lt;/strong&gt; Dies ist die self-archive Version eines Artikels, der 2015 im &lt;a href=&quot;http://www.springer.com/computer/journal/287&quot;&gt;Informatik Spektrum&lt;/a&gt; der
+&lt;a href=&quot;http://www.gi.de/&quot;&gt;Gesellschaft für Informatik&lt;/a&gt; veröffentlicht wurde (&lt;a href=&quot;http://link.springer.com&quot;&gt;Springer Verlag&lt;/a&gt;). Der Original Artikel findet sich &lt;a href=&quot;http://link.springer.com/article/10.1007/s00287-015-0888-7&quot;&gt;hier&lt;/a&gt;.
+&lt;/small&gt;&lt;/p&gt;
+
+&lt;h3&gt;Zusammenfassung&lt;/h3&gt;
+
+&lt;p&gt;Werden Bachelor- oder Masterarbeiten in Unternehmen geschrieben, werden diese häufig mit Sperrvermerken versehen, um die Interessen der Unternehmen zu schützen. Solche Abschlussarbeiten bearbeiten häufig interes-sante und äußerst praxisrelevante Fragestellungen. Erkenntnisse und Lösungsansätze gelangen jedoch kaum an das Licht der Öffentlichkeit. Insbesondere an Fachhochschulen wird das Schreiben von Abschlussarbeiten in Unternehmen gefördert und gerne gesehen. Praxisrelevante Fragestellungen finden sich nun mal häufig in Un-ternehmen. Sperrvermerke werden dabei von den meisten Hochschullehrern mittlerweile als normal hingenommen, ganz selten nur hinterfragt. Sperrvermerke fördern aber eine alles andere als akademische Art des Umgangs mit Wissen. Mit Sperrvermerken erziehen wir unsere Studierenden dazu, ihr Wissen und ihre Erkenntnisse nicht mehr zu teilen, sondern es als Alleinstellungsmerkmal zu begreifen. Sollte ein Studium aber letztendlich nicht den Drang vermitteln, sein Wissen mit anderen zu teilen (und dadurch zu mehren), als das Bedürfnis, es wegzuschließen? Die Praxis der Sperrvermerke sieht anders aus.&lt;/p&gt;
+
+&lt;h3&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/self-archive/Sperrvermerke-2015-03-16.pdf&quot;&gt;Self archive Version des Artikels.&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+      <pubDate>Mon, 13 Apr 2015 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2015/04/13/sperrvermerk.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2015/04/13/sperrvermerk.html</guid>
+    </item>
+    
+    <item>
       <title>About Microservices, Containers and their Underestimated Impact on Network Performance</title>
       <description>
         

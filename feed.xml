@@ -1105,14 +1105,21 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;container clusters and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes with Docker Compase&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos with Docker Compose&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 18. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.scottlowe.org/2015/03/06/running-own-docker-swarm-cluster/&quot;&gt;Running a Small Docker Swarm Cluster&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.tutum.co/&quot;&gt;Tutum - Build, deploy, and manage your apps across any cloud&lt;/a&gt; (added 30. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cloudsoftcorp.com/blog/2014/06/clocker-creating-a-docker-cloud-with-apache-brooklyn/&quot;&gt;Clocker – Creating a Docker Cloud with Apache Brooklyn&lt;/a&gt; (added 16. Oct. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://hortonworks.com/blog/openshift-v3-kubernetes-docker-hadoop-yarn/&quot;&gt;OpenShift, Kubernetes, Docker and Apache Hadoop YARN&lt;/a&gt; by &lt;strong&gt;Arun Murthy&lt;/strong&gt; (added 3. Oct. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.linux.com/news/enterprise/cloud-computing/787177-mesoscon-highlights-apache-mesos-020-and-docker-support&quot;&gt;MesosCon Highlights: Apache Mesos 0.20 and Docker Support&lt;/a&gt; by &lt;strong&gt;Isabel Jimenez&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mukis.de/pages/akka-cluster-with-docker-containers/&quot;&gt;Akka Cluster with Docker containers&lt;/a&gt; by &lt;strong&gt;Nepomuk Seiler&lt;/strong&gt; (added 4. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/GoogleCloudPlatform/kubernetes&quot;&gt;Kubernetes&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://mesosphere.io/&quot;&gt;Mesoshpere: Mesosphere brings Google-scale compute to everybody&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectatomic.io&quot;&gt;Project Atomic: Deploy and Manage your Docker Containers&lt;/a&gt; (added 29. Aug. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://adetante.github.io/articles/service-discovery-with-docker-2/&quot;&gt;Service Discovery Part II&lt;/a&gt; by &lt;strong&gt;Antoine&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://adetante.github.io/articles/service-discovery-with-docker-1/&quot;&gt;Service Discovery Part I&lt;/a&gt; by &lt;strong&gt;Antoine&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://panamax.io&quot;&gt;Panamax: Docker management for humans&lt;/a&gt; (added 24. Aug. 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://beingasysadmin.wordpress.com/2014/08/16/managing-ha-docker-cluster-using-multiple-mesos-masters/&quot;&gt;Managing HA Docker Cluster Using Multiple Mesos Masters&lt;/a&gt; by &lt;strong&gt;Deepak Mdass&lt;/strong&gt; (added 21. Aug. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.coreos.com&quot;&gt;CoreOS: Linux for Massive Server Deployments&lt;/a&gt; (added 25. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1132,7 +1139,7 @@ to get further informations about Docker and Containerization.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://12factor.net/&quot;&gt;The Twelve Factor App (not just for Docker)&lt;/a&gt; by &lt;strong&gt;Adam Wiggins&lt;/strong&gt; (added 6. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.tryolabs.com/2015/03/26/configurable-docker-containers-for-multiple-environments/&quot;&gt;Configurable Docker Containers for Multiple Environments&lt;/a&gt; by &lt;strong&gt;alan (Tryolabs)&lt;/strong&gt; (added 6. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.tryolabs.com/2015/03/26/configurable-docker-containers-for-multiple-environments/&quot;&gt;Configurable Docker Containers for Multiple Environments&lt;/a&gt; by &lt;strong&gt;alan (Tryolabs)&lt;/strong&gt; (added 4. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/data-packed-volume-containers-distribute-configuration-c23ff80987cd&quot;&gt;Data Packed Volume Containers: Distribute Configuration&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 3. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/on-docker-container-composition-a98788f1aa3c&quot;&gt;On Docker Container Composition&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 27. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container42.com/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/&quot;&gt;Persistent volumes with Docker - Data-only container pattern&lt;/a&gt; by &lt;strong&gt;Container 42&lt;/strong&gt; (added 27. Nov. 2014) &lt;/li&gt;
@@ -1145,6 +1152,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.ibm.com/bluemix/2015/04/16/installing-docker-windows-fixes-common-problems/&quot;&gt;Docker on Windows - Fixes for common problems&lt;/a&gt; by &lt;strong&gt;Bobby Wolf (IBM)&lt;/strong&gt; (added 17. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://4sysops.com/archives/install-docker-on-windows/&quot;&gt;Install Docker on Windows&lt;/a&gt; by &lt;strong&gt;Timothy Warner&lt;/strong&gt; (added 9. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/03/kitematic-a-docker-gui-joins-the-docker-family/&quot;&gt;Kitematic, A Docker GUI Joins the Docker Family&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -1153,7 +1161,7 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/&quot;&gt;Ten tips for wonderful bash productivity&lt;/a&gt; by &lt;strong&gt;Nicola Paolucci&lt;/strong&gt; (added 12. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22. Jan. 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://csaba.palfi.me/random-docker-tips/&quot;&gt;24 random docker tips&lt;/a&gt; by &lt;strong&gt;Csaba Palfi&lt;/strong&gt; (added 22. Dec. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://csaba.palfi.me/random-docker-tips/&quot;&gt;24 random docker tips&lt;/a&gt; by &lt;strong&gt;Csaba Palfi&lt;/strong&gt; (added 22. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2014/11/6-dockerfile-tips-official-images/&quot;&gt;6 Dockerfile Tips from the Official Images&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 22. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@vaceletm/docker-layers-cost-b28cb13cb627&quot;&gt;Docker Layers cost&lt;/a&gt; by &lt;strong&gt;Manuel Velcet&lt;/strong&gt; (added 13. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.jaas.co/2014/10/23/how-to-use-a-local-persistent-docker-registry-on-centos-6-5/&quot;&gt;How to use a local persistent Docker Registry on CentOS 6.5&lt;/a&gt; by &lt;strong&gt;Josh Grey&lt;/strong&gt; (added 30. Oct. 2014) &lt;/li&gt;
@@ -1228,19 +1236,6 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/7/docker-security-selinux&quot;&gt;Docker security with SELinux&lt;/a&gt; by &lt;strong&gt;Daniel Walsh&lt;/strong&gt; (added 25. Jul. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://de.slideshare.net/jpetazzo/is-it-safe-to-run-applications-in-linux-containers&quot;&gt;Is it safe to run applications in Linux Containers&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 25. Jul. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.openshift.com/blogs/securing-docker%E2%80%99s-future-with-selinux-and-the-open-source-way&quot;&gt;Securing Docker&amp;#39;s Future with SELinux and the Open Source Way&lt;/a&gt; by &lt;strong&gt;OpenShift&lt;/strong&gt; (added 10. Jul. 2014) &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;How to use Docker in a (massive) distributed way &lt;small&gt;Tools and Frameworks&lt;/small&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.scottlowe.org/2015/03/06/running-own-docker-swarm-cluster/&quot;&gt;Running a Small Docker Swarm Cluster&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://hortonworks.com/blog/openshift-v3-kubernetes-docker-hadoop-yarn/&quot;&gt;OpenShift, Kubernetes, Docker and Apache Hadoop YARN&lt;/a&gt; by &lt;strong&gt;Arun Murthy&lt;/strong&gt; (added 3. Oct. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.linux.com/news/enterprise/cloud-computing/787177-mesoscon-highlights-apache-mesos-020-and-docker-support&quot;&gt;MesosCon Highlights: Apache Mesos 0.20 and Docker Support&lt;/a&gt; by &lt;strong&gt;Isabel Jimenez&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://mukis.de/pages/akka-cluster-with-docker-containers/&quot;&gt;Akka Cluster with Docker containers&lt;/a&gt; by &lt;strong&gt;Nepomuk Seiler&lt;/strong&gt; (added 4. Sep. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://tnachen.wordpress.com/2014/08/19/docker-in-mesos-0-20/&quot;&gt;Docker on Mesos 0.20&lt;/a&gt; by &lt;strong&gt;Timothy Chen&lt;/strong&gt; (added 4. Sep. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://adetante.github.io/articles/service-discovery-with-docker-2/&quot;&gt;Service Discovery Part II&lt;/a&gt; by &lt;strong&gt;Antoine&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://adetante.github.io/articles/service-discovery-with-docker-1/&quot;&gt;Service Discovery Part I&lt;/a&gt; by &lt;strong&gt;Antoine&lt;/strong&gt; (added 29. Aug. 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://beingasysadmin.wordpress.com/2014/08/16/managing-ha-docker-cluster-using-multiple-mesos-masters/&quot;&gt;Managing HA Docker Cluster Using Multiple Mesos Masters&lt;/a&gt; by &lt;strong&gt;Deepak Mdass&lt;/strong&gt; (added 21. Aug. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

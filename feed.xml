@@ -1070,7 +1070,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem&quot;&gt;The Docker Ecosystem Tutorial Series&lt;/a&gt; by &lt;strong&gt;Justin Ellingwood&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem&quot;&gt;The Docker Ecosystem Tutorial Series&lt;/a&gt; by &lt;strong&gt;Justin Ellingwood&lt;/strong&gt; (added 27. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@behruz/dockerizability-is-better-than-dockerized-3c08b9dbd84c&quot;&gt;&amp;quot;Dockerizability&amp;quot; is better than &amp;quot;dockerized&amp;quot;&lt;/a&gt; by &lt;strong&gt;Behrooz Nobakht&lt;/strong&gt; (added 5. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://etherealmind.com/basics-docker-containers-hypervisors-coreos/&quot;&gt;Basics – Docker, Containers, Hypervisors, CoreOS&lt;/a&gt; by &lt;strong&gt;Greg Ferro&lt;/strong&gt; (added 4. Sep. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kristofdm.be/blog/post/docker-introduction&quot;&gt;Docker: an introduction&lt;/a&gt; by &lt;strong&gt;Kristof De Middelaer&lt;/strong&gt; (added 18. Aug. 2014) &lt;/li&gt;
@@ -1094,7 +1094,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/installation/google/&quot;&gt;QuickStart with Container-optimized Google Compute Engine images&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/installation/google/&quot;&gt;QuickStart with Container-optimized Google Compute Engine images&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/2014/10/17/how-to-deploy-a-docker-application-into-production-on-amazon-aws/&quot;&gt;How To Deploy A Docker Application Into Production On Amazon AWS&lt;/a&gt; by &lt;strong&gt;Mark van Holsteijn&lt;/strong&gt; (added 30. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/platform-as-a-service/microsoft-brings-containers-to-windows-azure/d/d-id/1316654&quot;&gt;Microsoft Brings Containers to Windows, Azure&lt;/a&gt; by &lt;strong&gt;Charles Babcock&lt;/strong&gt; (added 29. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.oddbit.com/2014/08/30/docker-plugin-for-openstack-he/&quot;&gt;Docker Plugin for OpenStack Heat&lt;/a&gt; by &lt;strong&gt;Lars Kellogg-Stedman&lt;/strong&gt; (added 4. Sep. 2014) &lt;/li&gt;
@@ -1108,7 +1108,7 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes with Docker Compase&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos with Docker Compose&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 18. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.scottlowe.org/2015/03/06/running-own-docker-swarm-cluster/&quot;&gt;Running a Small Docker Swarm Cluster&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.tutum.co/&quot;&gt;Tutum - Build, deploy, and manage your apps across any cloud&lt;/a&gt; (added 30. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://hortonworks.com/blog/openshift-v3-kubernetes-docker-hadoop-yarn/&quot;&gt;OpenShift, Kubernetes, Docker and Apache Hadoop YARN&lt;/a&gt; by &lt;strong&gt;Arun Murthy&lt;/strong&gt; (added 3. Oct. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.linux.com/news/enterprise/cloud-computing/787177-mesoscon-highlights-apache-mesos-020-and-docker-support&quot;&gt;MesosCon Highlights: Apache Mesos 0.20 and Docker Support&lt;/a&gt; by &lt;strong&gt;Isabel Jimenez&lt;/strong&gt; (added 11. Sep. 2014) &lt;/li&gt;
@@ -1157,7 +1157,7 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/03/kitematic-a-docker-gui-joins-the-docker-family/&quot;&gt;Kitematic, A Docker GUI Joins the Docker Family&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://standalonex.com/docker-exec-is-your-boss/&quot;&gt;Docker Exec is Your Boss&lt;/a&gt; by &lt;strong&gt;Azri Jamil&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/&quot;&gt;Ten tips for wonderful bash productivity&lt;/a&gt; by &lt;strong&gt;Nicola Paolucci&lt;/strong&gt; (added 12. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22. Jan. 2015) &lt;/li&gt;
@@ -1211,6 +1211,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to monitor and manage docker &lt;small&gt;performance&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://rancher.com/comparing-monitoring-options-for-docker-deployments/&quot;&gt;Comparing Five Monitoring Options for Docker&lt;/a&gt; and &lt;a href=&quot;http://rancher.com/docker-monitoring-continued-prometheus-and-sysdig/&quot;&gt;Docker Monitoring Continued&lt;/a&gt; by &lt;strong&gt;Usman Ismail&lt;/strong&gt; (added 24. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jam.sg/blog/mongodb-docker-part-2/&quot;&gt;MongoDB &amp;amp; Docker - Benchmarking layered FS, host directory data volumes &amp;amp; data-only containers&lt;/a&gt; by &lt;strong&gt;James Tan&lt;/strong&gt; (added 5. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.labouisse.com/how-to/2014/11/17/simple-monitoring-for-docker-part-1/&quot;&gt;Simple Monitoring for Docker (Part I)&lt;/a&gt; by &lt;strong&gt;Christophe Labouisse&lt;/strong&gt;  (added 20. Nov. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/&quot;&gt;Resource management in Docker&lt;/a&gt; by &lt;strong&gt;Marek Goldmann&lt;/strong&gt;  (added 18. Sep. 2014) &lt;/li&gt;

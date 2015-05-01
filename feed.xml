@@ -1126,7 +1126,8 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;(overlay) network solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://wiredcraft.com/blog/multi-host-docker-network/&quot;&gt;Multi-Host Docker Network&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/&quot;&gt;Using Docker Machine with Weave 0.10&lt;/a&gt; by &lt;strong&gt;Weaveblog.com&lt;/strong&gt; (added 1. May. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiredcraft.com/blog/multi-host-docker-network/&quot;&gt;Multi-Host Docker Network&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 5. Mar. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/01/29/powerstrip-weave-a-docker-networking-extension/&quot;&gt;Powerstrip-weave: a docker networking extension&lt;/a&gt; by &lt;strong&gt;Michael Bridgen&lt;/strong&gt; (added 30. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/&quot;&gt;Docker Virtual Networking with Socketplane.io&lt;/a&gt; by &lt;strong&gt;Ryan Wallner&lt;/strong&gt; (added 22. Jan. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@ALGrendel/docker-weave-a-little-cloud-and-a-raspberry-pi-381f73a4376d&quot;&gt;Docker, Weave, Raspberry Pi and a bit of Networked Cloud Computing!&lt;/a&gt; by &lt;strong&gt;Alexander Grendel&lt;/strong&gt; (added 15. Dec. 2014) &lt;/li&gt;
@@ -1155,8 +1156,8 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;https://developer.ibm.com/bluemix/2015/04/16/installing-docker-windows-fixes-common-problems/&quot;&gt;Docker on Windows - Fixes for common problems&lt;/a&gt; by &lt;strong&gt;Bobby Wolf (IBM)&lt;/strong&gt; (added 17. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://4sysops.com/archives/install-docker-on-windows/&quot;&gt;Install Docker on Windows&lt;/a&gt; by &lt;strong&gt;Timothy Warner&lt;/strong&gt; (added 9. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/03/kitematic-a-docker-gui-joins-the-docker-family/&quot;&gt;Kitematic, A Docker GUI Joins the Docker Family&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://standalonex.com/docker-exec-is-your-boss/&quot;&gt;Docker Exec is Your Boss&lt;/a&gt; by &lt;strong&gt;Azri Jamil&lt;/strong&gt; (added 5. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar. 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://standalonex.com/docker-exec-is-your-boss/&quot;&gt;Docker Exec is Your Boss&lt;/a&gt; by &lt;strong&gt;Azri Jamil&lt;/strong&gt; (added 5. Mar. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/&quot;&gt;Ten tips for wonderful bash productivity&lt;/a&gt; by &lt;strong&gt;Nicola Paolucci&lt;/strong&gt; (added 12. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29. Jan. 2015) &lt;/li&gt;
@@ -1187,6 +1188,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to dockerize &lt;small&gt;apps&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/&quot;&gt;Deploying a DNS Server using Docker&lt;/a&gt; by &lt;strong&gt;Sameer Naik&lt;/strong&gt; (added 1. May. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.centurylinklabs.com/small-docker-images-for-go-apps/&quot;&gt;Small Docker Images For Go Apps&lt;/a&gt; by &lt;strong&gt;Brian DeHamer&lt;/strong&gt; (added 12. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.kennybastani.com/2014/11/graph-analytics-docker-spark-neo4j.html&quot;&gt;A Docker Image for Graph Analytics on Neo4j woth Apache Spark GraphX&lt;/a&gt; by &lt;strong&gt;Kenny Bastani&lt;/strong&gt; (added 5. Dec. 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.giantswarm.io/getting-started-with-java-development-on-docker&quot;&gt;Getting Started with Java Development on Docker&lt;/a&gt; by &lt;strong&gt;Matthias Lübken&lt;/strong&gt; (added 11. Nov. 2014) &lt;/li&gt;
@@ -1224,6 +1226,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2015/04/running-secured-docker-registry-2-0/&quot;&gt;Running Secured Docker Registry 2.0&lt;/a&gt; by &lt;strong&gt;Jaroslav Holub&lt;/strong&gt; (added 1. May. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://opensource.com/business/15/3/docker-security-tuning&quot;&gt;Tuning Docker with the newest security enhancements&lt;/a&gt; by &lt;strong&gt;Daniel Walsh&lt;/strong&gt; (added 12. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2015/02/03/hardening-containers-disable-suid-programs/&quot;&gt;Hardening Docker Containers: Disable SUID Programs&lt;/a&gt; by &lt;strong&gt;allingeek&lt;/strong&gt; (added 5. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://technolo-g.com/generate-ssl-for-docker-swarm/&quot;&gt;Creating SSL/TLS Certificates for Docker and Docker Swarm&lt;/a&gt; by &lt;strong&gt;Matthew Bajor&lt;/strong&gt; (added 22. Jan. 2015) &lt;/li&gt;

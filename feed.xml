@@ -1126,6 +1126,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;(overlay) network solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt; &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/&quot;&gt;Using Docker Machine with Weave 0.10&lt;/a&gt; by &lt;strong&gt;Weaveblog.com&lt;/strong&gt; (added 1. May. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://wiredcraft.com/blog/multi-host-docker-network/&quot;&gt;Multi-Host Docker Network&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 5. Mar. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/01/29/powerstrip-weave-a-docker-networking-extension/&quot;&gt;Powerstrip-weave: a docker networking extension&lt;/a&gt; by &lt;strong&gt;Michael Bridgen&lt;/strong&gt; (added 30. Jan. 2015) &lt;/li&gt;

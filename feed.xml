@@ -1113,6 +1113,12 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://flux7.com/blogs/docker/docker-tutorial-series-part-8-docker-remote-api/&quot;&gt;Docker Remote API&lt;/a&gt; by &lt;strong&gt;Flux7&lt;/strong&gt; (added 3. Jul. 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3&gt;Using the Docker Remote API programmatically &lt;small&gt;language bindings&lt;/small&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pub.dartlang.org/packages/bwu_docker&quot;&gt;Dart client for the Docker remote API&lt;/a&gt; by &lt;strong&gt;Guenter Zoechbauer&lt;/strong&gt; (added 14. May. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3&gt;How to containerize &lt;small&gt;apps&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -1170,7 +1176,7 @@ to get further informations about Docker and Containerization.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes with Docker Compase&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos with Docker Compose&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 18. Mar. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos with Docker Compose&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 18. Mar. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.scottlowe.org/2015/03/06/running-own-docker-swarm-cluster/&quot;&gt;Running a Small Docker Swarm Cluster&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 12. Mar. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb. 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.tutum.co/&quot;&gt;Tutum - Build, deploy, and manage your apps across any cloud&lt;/a&gt; (added 30. Oct. 2014) &lt;/li&gt;

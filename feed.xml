@@ -1116,6 +1116,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Using the Docker Remote API programmatically &lt;small&gt;language bindings&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/reference/api/remote_api_client_libraries/&quot;&gt;Docker Remote API Client Libraries&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 14. May. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://pub.dartlang.org/packages/bwu_docker&quot;&gt;Dart client for the Docker remote API&lt;/a&gt; by &lt;strong&gt;Guenter Zoechbauer&lt;/strong&gt; (added 14. May. 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

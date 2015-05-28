@@ -1213,6 +1213,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to monitor and manage docker &lt;small&gt;performance&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.brianchristner.io/how-to-setup-docker-monitoring/&quot;&gt;How to Setup Docker Monitoring&lt;/a&gt; by &lt;strong&gt;Brian Christner&lt;/strong&gt; (added 28. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://rancher.com/comparing-monitoring-options-for-docker-deployments/&quot;&gt;Comparing Five Monitoring Options for Docker&lt;/a&gt; and &lt;a href=&quot;http://rancher.com/docker-monitoring-continued-prometheus-and-sysdig/&quot;&gt;Docker Monitoring Continued&lt;/a&gt; by &lt;strong&gt;Usman Ismail&lt;/strong&gt; (added 24. Apr 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jam.sg/blog/mongodb-docker-part-2/&quot;&gt;MongoDB &amp;amp; Docker - Benchmarking layered FS, host directory data volumes &amp;amp; data-only containers&lt;/a&gt; by &lt;strong&gt;James Tan&lt;/strong&gt; (added 5. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.labouisse.com/how-to/2014/11/17/simple-monitoring-for-docker-part-1/&quot;&gt;Simple Monitoring for Docker (Part I)&lt;/a&gt; by &lt;strong&gt;Christophe Labouisse&lt;/strong&gt;  (added 20. Nov 2014) &lt;/li&gt;
@@ -1226,6 +1227,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://zwischenzugs.wordpress.com/2015/05/21/a-field-guide-to-docker-security-measures/&quot;&gt;A Field Guide to Docker Security Measures&lt;/a&gt; by &lt;strong&gt;zwischenzugs&lt;/strong&gt; (added 28. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2015/04/running-secured-docker-registry-2-0/&quot;&gt;Running Secured Docker Registry 2.0&lt;/a&gt; by &lt;strong&gt;Jaroslav Holub&lt;/strong&gt; (added 1. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://opensource.com/business/15/3/docker-security-tuning&quot;&gt;Tuning Docker with the newest security enhancements&lt;/a&gt; by &lt;strong&gt;Daniel Walsh&lt;/strong&gt; (added 12. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2015/02/03/hardening-containers-disable-suid-programs/&quot;&gt;Hardening Docker Containers: Disable SUID Programs&lt;/a&gt; by &lt;strong&gt;allingeek&lt;/strong&gt; (added 5. Feb 2015) &lt;/li&gt;
@@ -1599,13 +1601,19 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;.&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href=&#39;https://www.researchgate.net/publication/273456042&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2015b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2014d]&lt;/strong&gt; &lt;span id=&quot;Kra2014d&quot;&gt;Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittles einer generischen Cloud Service Description Language. &lt;i&gt;Impulse - Aus Forschung Und Lehre Der FH Lübeck&lt;/i&gt;, &lt;i&gt;18&lt;/i&gt;(1).&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014d.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2014a]&lt;/strong&gt; &lt;span id=&quot;Kra2014a&quot;&gt;Kratzke, N. (2014). Lightweight Virtualization Cluster - Howto overcome Cloud Vendor Lock-in. &lt;i&gt;Journal Of Computer and Communication (JCC)&lt;/i&gt;, &lt;i&gt;2&lt;/i&gt;(12). doi:10.4236/jcc.2014.212001&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -1613,9 +1621,6 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kra2014d]&lt;/strong&gt; &lt;span id=&quot;Kra2014d&quot;&gt;Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittles einer generischen Cloud Service Description Language. &lt;i&gt;Impulse - Aus Forschung Und Lehre Der FH Lübeck&lt;/i&gt;, &lt;i&gt;18&lt;/i&gt;(1).&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014d.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2014b]&lt;/strong&gt; &lt;span id=&quot;Kra2014b&quot;&gt;Kratzke, N. (2014). A Lightweight Virtualization Cluster Reference Architecture Derived from Open Source PaaS Platforms. &lt;i&gt;Open Journal Of Mobile Computing and Cloud Computing (MCCC)&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(2), 17–30.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;

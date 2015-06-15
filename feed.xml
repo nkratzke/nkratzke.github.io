@@ -7,6 +7,62 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>New Paper: About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/paper.jpg&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; Cloud service selection can be a complex and challenging task for a cloud engineer. 
+Most current approaches try to identify a best cloud service provider by evaluating several relevant criteria like prices, processing, memory, disk, network performance, quality of service and so on. 
+Nevertheless, the decision making problem involves so many variables, that it is hard to model it appropriately. 
+We present an approach that is not about selecting a best cloud service provider. 
+It is about selecting most similar resources provided by different cloud service providers. 
+This fits much better practical needs of cloud service engineers. 
+Especially, if container clusters are involved.
+EasyCompare, an automated benchmarking tool suite to compare cloud service providers, is able to benchmark and compare virtual machine types of different cloud service providers using an Euclidian distance measure. 
+It turned out, that only 1% of theoretical possible machine pairs have to be considered in practice. 
+These relevant machine types can be identified by systematic benchmark runs in less than three hours. 
+We present some expectable but also astonishing evaluation results of EasyCompare used to evaluate two major and representative public cloud service providers: Amazon Web Services and Google Compute Engine.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You may want to check the paper in open access &lt;a href=&quot;http://jccr.uscip.us/PublishedIssues.aspx&quot;&gt;Journal of Cloud Computing Research&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;or via &lt;a href=&quot;https://www.researchgate.net/publication/278242891&quot;&gt;ResearchGate&lt;/a&gt; to dig into all the details.&lt;/li&gt;
+&lt;li&gt;You will find informations how to cite the paper &lt;a href=&quot;/bibliography/KQ2015.html&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You will find some benchmark excerpts comparing Amazon Web Services and Google Compute Engine from the paper below:&lt;/p&gt;
+
+&lt;h3&gt;Similarities of Provided Instance/Machine Types&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/iaas-similarities.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Comparing Processing Performances&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-processing.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Comparing Memory Transfers&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-memory.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Comparing Disk I/O Transfers&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-disk.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Comparing Network Transfer Rates&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-network.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;All measuered Instance Types&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-types.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
+
+      </description>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2015/06/15/paper-automatic-benchmark-iaas.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2015/06/15/paper-automatic-benchmark-iaas.html</guid>
+    </item>
+    
+    <item>
       <title>Sperrvermerke bei Abschlussarbeiten</title>
       <description>
         
@@ -1083,7 +1139,7 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://jonathan.bergknoff.com/journal/building-better-docker-images&quot;&gt;Building better Docker Images&lt;/a&gt; by &lt;strong&gt;Jonathan Bergknoff&lt;/strong&gt; (added 11. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.zhaw.ch/icclab/process-management-in-docker-containers/&quot;&gt;Process Management in Docker&lt;/a&gt; by &lt;strong&gt;Martin Blöchinger&lt;/strong&gt; (added 11. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://odewahn.github.io/docker-jumpstart/&quot;&gt;Docker Jumpstart&lt;/a&gt; by &lt;strong&gt;Adrew Odewahn&lt;/strong&gt; (added 7. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://developer.ibm.com/bluemix/2015/04/16/installing-docker-windows-fixes-common-problems/&quot;&gt;Docker on Windows - Fixes for common problems&lt;/a&gt; by &lt;strong&gt;Bobby Wolf (IBM)&lt;/strong&gt; (added 17. Apr 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.ibm.com/bluemix/2015/04/16/installing-docker-windows-fixes-common-problems/&quot;&gt;Docker on Windows - Fixes for common problems&lt;/a&gt; by &lt;strong&gt;Bobby Wolf (IBM)&lt;/strong&gt; (added 17. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://4sysops.com/archives/install-docker-on-windows/&quot;&gt;Install Docker on Windows&lt;/a&gt; by &lt;strong&gt;Timothy Warner&lt;/strong&gt; (added 9. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/03/kitematic-a-docker-gui-joins-the-docker-family/&quot;&gt;Kitematic, A Docker GUI Joins the Docker Family&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 12. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
@@ -1182,7 +1238,7 @@ to get further informations about Docker and Containerization.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.factual.com/docker-mesos-marathon-and-the-end-of-pets&quot;&gt;Docker, Mesos, Marathon, and the End of Pets&lt;/a&gt; by &lt;strong&gt;Boris Shimanovsky&lt;/strong&gt; (added 4. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes with Docker Compase&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes with Docker Compase&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos with Docker Compose&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 18. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.scottlowe.org/2015/03/06/running-own-docker-swarm-cluster/&quot;&gt;Running a Small Docker Swarm Cluster&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 12. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
@@ -1606,7 +1662,11 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;.&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/278242891&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;

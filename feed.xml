@@ -36,23 +36,23 @@ We present some expectable but also astonishing evaluation results of EasyCompar
 
 &lt;p&gt;&lt;img src=&quot;/img/posts/iaas-similarities.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
 
-&lt;h3&gt;Comparing Processing Performances&lt;/h3&gt;
+&lt;h3&gt;Comparing Processing Performance&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-processing.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
 
-&lt;h3&gt;Comparing Memory Transfers&lt;/h3&gt;
+&lt;h3&gt;Comparing Memory Transfer&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-memory.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
 
-&lt;h3&gt;Comparing Disk I/O Transfers&lt;/h3&gt;
+&lt;h3&gt;Comparing Disk I/O Transfer&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-disk.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
 
-&lt;h3&gt;Comparing Network Transfer Rates&lt;/h3&gt;
+&lt;h3&gt;Comparing Network Transfer&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-network.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
 
-&lt;h3&gt;All measuered Instance Types&lt;/h3&gt;
+&lt;h3&gt;All measured Instance Types&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/posts/gce-aws-types.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
 
@@ -1172,9 +1172,10 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://flux7.com/blogs/docker/docker-tutorial-series-part-8-docker-remote-api/&quot;&gt;Docker Remote API&lt;/a&gt; by &lt;strong&gt;Flux7&lt;/strong&gt; (added 3. Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Using the Docker Remote API programmatically &lt;small&gt;language bindings&lt;/small&gt;&lt;/h3&gt;
+&lt;h3&gt;Using the Docker programmatically &lt;small&gt;language bindings and IDEs&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.zenika.com/index.php?post/2015/06/15/Docker-meets-the-IDE&quot;&gt;Docker meets the IDE&lt;/a&gt; by &lt;strong&gt;Mario Loriedo&lt;/strong&gt; (added 18. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/reference/api/remote_api_client_libraries/&quot;&gt;Docker Remote API Client Libraries&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 14. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://pub.dartlang.org/packages/bwu_docker&quot;&gt;Dart client for the Docker remote API&lt;/a&gt; by &lt;strong&gt;Guenter Zoechbauer&lt;/strong&gt; (added 14. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1223,6 +1224,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-1/&quot;&gt;OpenStack and Docker (Part I)&lt;/a&gt; and &lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Sreenivas Makam&lt;/strong&gt; (added 18. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://b.yyaazz.hu/2015/06/01/getting-started-docker-swarm-aws.html&quot;&gt;Getting Started with Docker Swarm on AWS&lt;/a&gt; by &lt;strong&gt;Jacint Juhascz&lt;/strong&gt; (added 6. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linoxide.com/linux-how-to/use-docker-machine-cloud-provider/&quot;&gt;How to Use Docker Machine with a Cloud Provider&lt;/a&gt; by &lt;strong&gt;Arun Paysi&lt;/strong&gt; (added 20. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/aws-activate-startup-blog/running-services-using-docker-and-amazon-ec2-container-service-bde16b099cb9&quot;&gt;Running Services Using Docker and Amazon EC2 Container Service&lt;/a&gt; by &lt;strong&gt;Nate Slater&lt;/strong&gt; (added 7. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -1238,8 +1240,7 @@ to get further informations about Docker and Containerization.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.factual.com/docker-mesos-marathon-and-the-end-of-pets&quot;&gt;Docker, Mesos, Marathon, and the End of Pets&lt;/a&gt; by &lt;strong&gt;Boris Shimanovsky&lt;/strong&gt; (added 4. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes with Docker Compase&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos with Docker Compose&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 18. Mar 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes&lt;/a&gt; and &lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.scottlowe.org/2015/03/06/running-own-docker-swarm-cluster/&quot;&gt;Running a Small Docker Swarm Cluster&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 12. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/scaling-docker-with-swarm/&quot;&gt;Scaling Docker with Swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.tutum.co/&quot;&gt;Tutum - Build, deploy, and manage your apps across any cloud&lt;/a&gt; (added 30. Oct 2014) &lt;/li&gt;
@@ -1287,6 +1288,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://container-solutions.com/docker-security-cheat-sheet/&quot;&gt;Docker Security Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 18. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/docker/docker-bench-security&quot;&gt;Docker Bench for Security&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 4. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://zwischenzugs.wordpress.com/2015/05/21/a-field-guide-to-docker-security-measures/&quot;&gt;A Field Guide to Docker Security Measures&lt;/a&gt; by &lt;strong&gt;zwischenzugs&lt;/strong&gt; (added 28. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2015/04/running-secured-docker-registry-2-0/&quot;&gt;Running Secured Docker Registry 2.0&lt;/a&gt; by &lt;strong&gt;Jaroslav Holub&lt;/strong&gt; (added 1. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;

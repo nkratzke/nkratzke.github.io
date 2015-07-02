@@ -1126,6 +1126,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://linkis.com/cloudswithcarl.com/f8FdQ?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57ugtX6e0lMI%2F0ER3fOvrPUfGjI4ATcBgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D&quot;&gt;Top 10 takeaways the day after #DockerCon&lt;/a&gt; by &lt;strong&gt;Carl Osipov&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem&quot;&gt;The Docker Ecosystem Tutorial Series&lt;/a&gt; by &lt;strong&gt;Justin Ellingwood&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@behruz/dockerizability-is-better-than-dockerized-3c08b9dbd84c&quot;&gt;&amp;quot;Dockerizability&amp;quot; is better than &amp;quot;dockerized&amp;quot;&lt;/a&gt; by &lt;strong&gt;Behrooz Nobakht&lt;/strong&gt; (added 5. Dec 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://etherealmind.com/basics-docker-containers-hypervisors-coreos/&quot;&gt;Basics – Docker, Containers, Hypervisors, CoreOS&lt;/a&gt; by &lt;strong&gt;Greg Ferro&lt;/strong&gt; (added 4. Sep 2014) &lt;/li&gt;
@@ -1136,9 +1137,10 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.brunopaz.net/easy-discover-your-docker-containers-with-dnsdock&quot;&gt;Easy discover your docker containers with dnsdock&lt;/a&gt; by &lt;strong&gt;Bruno Paz&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jonathan.bergknoff.com/journal/building-better-docker-images&quot;&gt;Building better Docker Images&lt;/a&gt; by &lt;strong&gt;Jonathan Bergknoff&lt;/strong&gt; (added 11. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.zhaw.ch/icclab/process-management-in-docker-containers/&quot;&gt;Process Management in Docker&lt;/a&gt; by &lt;strong&gt;Martin Blöchinger&lt;/strong&gt; (added 11. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://odewahn.github.io/docker-jumpstart/&quot;&gt;Docker Jumpstart&lt;/a&gt; by &lt;strong&gt;Adrew Odewahn&lt;/strong&gt; (added 7. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://odewahn.github.io/docker-jumpstart/&quot;&gt;Docker Jumpstart&lt;/a&gt; by &lt;strong&gt;Adrew Odewahn&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.ibm.com/bluemix/2015/04/16/installing-docker-windows-fixes-common-problems/&quot;&gt;Docker on Windows - Fixes for common problems&lt;/a&gt; by &lt;strong&gt;Bobby Wolf (IBM)&lt;/strong&gt; (added 17. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://4sysops.com/archives/install-docker-on-windows/&quot;&gt;Install Docker on Windows&lt;/a&gt; by &lt;strong&gt;Timothy Warner&lt;/strong&gt; (added 9. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/03/kitematic-a-docker-gui-joins-the-docker-family/&quot;&gt;Kitematic, A Docker GUI Joins the Docker Family&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 12. Mar 2015) &lt;/li&gt;
@@ -1159,6 +1161,13 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://devo.ps/blog/docker-dos-and-donts/&quot;&gt;Docker Do&amp;#39;s And Don&amp;#39;ts&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 29. Aug 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/komljen/dockerfile-examples&quot;&gt;Dockerfile examples&lt;/a&gt; by &lt;strong&gt;Alen Komljen&lt;/strong&gt; (added 27. Aug 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/wsargent/docker-cheat-sheet&quot;&gt;Docker Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Will Sargent&lt;/strong&gt; (added 27. Aug 2014) &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Cool things &lt;small&gt;you can do with Docker easily&lt;/small&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container&quot;&gt;How to Route Traffic through a Tor Docker container&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/R-containers-for-data-science&quot;&gt;Using an R Container for Analytical Models&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;How to use the APIs&lt;/small&gt;&lt;/h3&gt;
@@ -1183,9 +1192,9 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;How to containerize &lt;small&gt;apps&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://habd.as/simple-websites-jekyll-docker/&quot;&gt;Simple websites with Jekyll and Docker&lt;/a&gt; by &lt;strong&gt;Josh Habdas&lt;/strong&gt; (added 7. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.inovex.de/docker-a-comparison-of-minimalistic-operating-systems/&quot;&gt;Docker: A Comparison of Minimalistic Operating Systems&lt;/a&gt; by &lt;strong&gt;Johannes Scheuermann&lt;/strong&gt; (added 7. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/&quot;&gt;Deploying a DNS Server using Docker&lt;/a&gt; by &lt;strong&gt;Sameer Naik&lt;/strong&gt; (added 1. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://habd.as/simple-websites-jekyll-docker/&quot;&gt;Simple websites with Jekyll and Docker&lt;/a&gt; by &lt;strong&gt;Josh Habdas&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.inovex.de/docker-a-comparison-of-minimalistic-operating-systems/&quot;&gt;Docker: A Comparison of Minimalistic Operating Systems&lt;/a&gt; by &lt;strong&gt;Johannes Scheuermann&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/&quot;&gt;Deploying a DNS Server using Docker&lt;/a&gt; by &lt;strong&gt;Sameer Naik&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.centurylinklabs.com/small-docker-images-for-go-apps/&quot;&gt;Small Docker Images For Go Apps&lt;/a&gt; by &lt;strong&gt;Brian DeHamer&lt;/strong&gt; (added 12. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.kennybastani.com/2014/11/graph-analytics-docker-spark-neo4j.html&quot;&gt;A Docker Image for Graph Analytics on Neo4j woth Apache Spark GraphX&lt;/a&gt; by &lt;strong&gt;Kenny Bastani&lt;/strong&gt; (added 5. Dec 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.giantswarm.io/getting-started-with-java-development-on-docker&quot;&gt;Getting Started with Java Development on Docker&lt;/a&gt; by &lt;strong&gt;Matthias Lübken&lt;/strong&gt; (added 11. Nov 2014) &lt;/li&gt;
@@ -1227,7 +1236,7 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-1/&quot;&gt;OpenStack and Docker (Part I)&lt;/a&gt; and &lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Sreenivas Makam&lt;/strong&gt; (added 18. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://b.yyaazz.hu/2015/06/01/getting-started-docker-swarm-aws.html&quot;&gt;Getting Started with Docker Swarm on AWS&lt;/a&gt; by &lt;strong&gt;Jacint Juhascz&lt;/strong&gt; (added 6. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linoxide.com/linux-how-to/use-docker-machine-cloud-provider/&quot;&gt;How to Use Docker Machine with a Cloud Provider&lt;/a&gt; by &lt;strong&gt;Arun Paysi&lt;/strong&gt; (added 20. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/aws-activate-startup-blog/running-services-using-docker-and-amazon-ec2-container-service-bde16b099cb9&quot;&gt;Running Services Using Docker and Amazon EC2 Container Service&lt;/a&gt; by &lt;strong&gt;Nate Slater&lt;/strong&gt; (added 7. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/aws-activate-startup-blog/running-services-using-docker-and-amazon-ec2-container-service-bde16b099cb9&quot;&gt;Running Services Using Docker and Amazon EC2 Container Service&lt;/a&gt; by &lt;strong&gt;Nate Slater&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/installation/google/&quot;&gt;QuickStart with Container-optimized Google Compute Engine images&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/2014/10/17/how-to-deploy-a-docker-application-into-production-on-amazon-aws/&quot;&gt;How To Deploy A Docker Application Into Production On Amazon AWS&lt;/a&gt; by &lt;strong&gt;Mark van Holsteijn&lt;/strong&gt; (added 30. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/platform-as-a-service/microsoft-brings-containers-to-windows-azure/d/d-id/1316654&quot;&gt;Microsoft Brings Containers to Windows, Azure&lt;/a&gt; by &lt;strong&gt;Charles Babcock&lt;/strong&gt; (added 29. Oct 2014) &lt;/li&gt;
@@ -1260,8 +1269,8 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;(Overlay) Network &lt;small&gt;solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/&quot;&gt;Using Docker Machine with Weave 0.10&lt;/a&gt; by &lt;strong&gt;Weaveblog.com&lt;/strong&gt; (added 1. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/&quot;&gt;Using Docker Machine with Weave 0.10&lt;/a&gt; by &lt;strong&gt;Weaveblog.com&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://wiredcraft.com/blog/multi-host-docker-network/&quot;&gt;Multi-Host Docker Network&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/01/29/powerstrip-weave-a-docker-networking-extension/&quot;&gt;Powerstrip-weave: a docker networking extension&lt;/a&gt; by &lt;strong&gt;Michael Bridgen&lt;/strong&gt; (added 30. Jan 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/&quot;&gt;Docker Virtual Networking with Socketplane.io&lt;/a&gt; by &lt;strong&gt;Ryan Wallner&lt;/strong&gt; (added 22. Jan 2015) &lt;/li&gt;
@@ -1275,7 +1284,7 @@ to get further informations about Docker and Containerization.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.brianchristner.io/how-to-setup-docker-monitoring/&quot;&gt;How to Setup Docker Monitoring&lt;/a&gt; by &lt;strong&gt;Brian Christner&lt;/strong&gt; (added 28. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rancher.com/comparing-monitoring-options-for-docker-deployments/&quot;&gt;Comparing Five Monitoring Options for Docker&lt;/a&gt; and &lt;a href=&quot;http://rancher.com/docker-monitoring-continued-prometheus-and-sysdig/&quot;&gt;Docker Monitoring Continued&lt;/a&gt; by &lt;strong&gt;Usman Ismail&lt;/strong&gt; (added 24. Apr 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rancher.com/comparing-monitoring-options-for-docker-deployments/&quot;&gt;Comparing Five Monitoring Options for Docker&lt;/a&gt; and &lt;a href=&quot;http://rancher.com/docker-monitoring-continued-prometheus-and-sysdig/&quot;&gt;Docker Monitoring Continued&lt;/a&gt; by &lt;strong&gt;Usman Ismail&lt;/strong&gt; (added 24. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jam.sg/blog/mongodb-docker-part-2/&quot;&gt;MongoDB &amp;amp; Docker - Benchmarking layered FS, host directory data volumes &amp;amp; data-only containers&lt;/a&gt; by &lt;strong&gt;James Tan&lt;/strong&gt; (added 5. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.labouisse.com/how-to/2014/11/17/simple-monitoring-for-docker-part-1/&quot;&gt;Simple Monitoring for Docker (Part I)&lt;/a&gt; by &lt;strong&gt;Christophe Labouisse&lt;/strong&gt;  (added 20. Nov 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/&quot;&gt;Resource management in Docker&lt;/a&gt; by &lt;strong&gt;Marek Goldmann&lt;/strong&gt;  (added 18. Sep 2014) &lt;/li&gt;
@@ -1291,7 +1300,7 @@ to get further informations about Docker and Containerization.
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/docker-security-cheat-sheet/&quot;&gt;Docker Security Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 18. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/docker/docker-bench-security&quot;&gt;Docker Bench for Security&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 4. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://zwischenzugs.wordpress.com/2015/05/21/a-field-guide-to-docker-security-measures/&quot;&gt;A Field Guide to Docker Security Measures&lt;/a&gt; by &lt;strong&gt;zwischenzugs&lt;/strong&gt; (added 28. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2015/04/running-secured-docker-registry-2-0/&quot;&gt;Running Secured Docker Registry 2.0&lt;/a&gt; by &lt;strong&gt;Jaroslav Holub&lt;/strong&gt; (added 1. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2015/04/running-secured-docker-registry-2-0/&quot;&gt;Running Secured Docker Registry 2.0&lt;/a&gt; by &lt;strong&gt;Jaroslav Holub&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://opensource.com/business/15/3/docker-security-tuning&quot;&gt;Tuning Docker with the newest security enhancements&lt;/a&gt; by &lt;strong&gt;Daniel Walsh&lt;/strong&gt; (added 12. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2015/02/03/hardening-containers-disable-suid-programs/&quot;&gt;Hardening Docker Containers: Disable SUID Programs&lt;/a&gt; by &lt;strong&gt;allingeek&lt;/strong&gt; (added 5. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://technolo-g.com/generate-ssl-for-docker-swarm/&quot;&gt;Creating SSL/TLS Certificates for Docker and Docker Swarm&lt;/a&gt; by &lt;strong&gt;Matthew Bajor&lt;/strong&gt; (added 22. Jan 2015) &lt;/li&gt;

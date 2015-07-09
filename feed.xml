@@ -203,13 +203,13 @@ All games are only using HTML, CSS and &lt;a href=&quot;https://www.dartlang.org
 
 &lt;ul&gt;
 &lt;li&gt;Break Out&lt;/li&gt;
-&lt;li&gt;Cave Escape&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/assets/ss2015/webtech/games/caveescape/index.html&quot;&gt;Cave Escape&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Dice Wars&lt;/li&gt;
 &lt;li&gt;MouseGame, a variant of the famous Snake Game, but here you are the mouse!&lt;/li&gt;
 &lt;li&gt;Pac Man&lt;/li&gt;
 &lt;li&gt;Raumffish&lt;/li&gt;
 &lt;li&gt;Rennspiel&lt;/li&gt;
-&lt;li&gt;Stack Attack&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/assets/ss2015/webtech/games/stackattack/index.html&quot;&gt;Stack Attack&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Space Invaders (fist interpretation) &lt;/li&gt;
 &lt;li&gt;Space Invaders (second interpretation)&lt;/li&gt;
 &lt;li&gt;Tower Defence&lt;/li&gt;

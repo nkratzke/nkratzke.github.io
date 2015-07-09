@@ -195,6 +195,28 @@ to host even complex and distributed web based systems.&lt;/p&gt;
 &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ss2015/webtech/webtech-ex1.pdf&quot;&gt;Excercise 1&lt;/a&gt;, &lt;a href=&quot;/assets/ss2015/webtech/webtech-ex2.pdf&quot;&gt;Excercise 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3&gt;Game outcomes&lt;/h3&gt;
+
+&lt;p&gt;Webtech course (summer 2015) game outcomes developped by students.
+Feel free to play around some classical arcade games as single page html &amp;quot;apps&amp;quot;.
+All games are only using HTML, CSS and &lt;a href=&quot;https://www.dartlang.org&quot;&gt;Dart&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Break Out&lt;/li&gt;
+&lt;li&gt;Cave Escape&lt;/li&gt;
+&lt;li&gt;Dice Wars&lt;/li&gt;
+&lt;li&gt;MouseGame, a variant of the famous Snake Game, but here you are the mouse!&lt;/li&gt;
+&lt;li&gt;Pac Man&lt;/li&gt;
+&lt;li&gt;Raumffish&lt;/li&gt;
+&lt;li&gt;Rennspiel&lt;/li&gt;
+&lt;li&gt;Stack Attack&lt;/li&gt;
+&lt;li&gt;Space Invaders (fist interpretation) &lt;/li&gt;
+&lt;li&gt;Space Invaders (second interpretation)&lt;/li&gt;
+&lt;li&gt;Tower Defence&lt;/li&gt;
+&lt;li&gt;Tetris&lt;/li&gt;
+&lt;li&gt;UnBlock It&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;div class=&quot;funded&quot;&gt;
 &lt;center&gt;
 &lt;p&gt;
@@ -1126,6 +1148,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://venturebeat.com/2015/06/30/10-myths-about-enterprise-adoption-of-docker&quot;&gt;10 myths about enterprise adoption of Docker&lt;/a&gt; by &lt;strong&gt;Bob Quillin&lt;/strong&gt; (added 9. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt; &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linkis.com/cloudswithcarl.com/f8FdQ?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57ugtX6e0lMI%2F0ER3fOvrPUfGjI4ATcBgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D&quot;&gt;Top 10 takeaways the day after #DockerCon&lt;/a&gt; by &lt;strong&gt;Carl Osipov&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem&quot;&gt;The Docker Ecosystem Tutorial Series&lt;/a&gt; by &lt;strong&gt;Justin Ellingwood&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@behruz/dockerizability-is-better-than-dockerized-3c08b9dbd84c&quot;&gt;&amp;quot;Dockerizability&amp;quot; is better than &amp;quot;dockerized&amp;quot;&lt;/a&gt; by &lt;strong&gt;Behrooz Nobakht&lt;/strong&gt; (added 5. Dec 2014) &lt;/li&gt;
@@ -1166,6 +1189,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Cool things &lt;small&gt;you can do with Docker easily&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker&quot;&gt;Run your own GitHub-like service with the help of Docker&lt;/a&gt; by &lt;strong&gt;Mathias Renner, Andreas Eiermann, Govinda Fichtner&lt;/strong&gt; (added 9. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container&quot;&gt;How to Route Traffic through a Tor Docker container&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/R-containers-for-data-science&quot;&gt;Using an R Container for Analytical Models&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1185,8 +1209,8 @@ to get further informations about Docker and Containerization.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.zenika.com/index.php?post/2015/06/15/Docker-meets-the-IDE&quot;&gt;Docker meets the IDE&lt;/a&gt; by &lt;strong&gt;Mario Loriedo&lt;/strong&gt; (added 18. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/reference/api/remote_api_client_libraries/&quot;&gt;Docker Remote API Client Libraries&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 14. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://pub.dartlang.org/packages/bwu_docker&quot;&gt;Dart client for the Docker remote API&lt;/a&gt; by &lt;strong&gt;Guenter Zoechbauer&lt;/strong&gt; (added 14. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/reference/api/remote_api_client_libraries/&quot;&gt;Docker Remote API Client Libraries&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 14. May 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pub.dartlang.org/packages/bwu_docker&quot;&gt;Dart client for the Docker remote API&lt;/a&gt; by &lt;strong&gt;Guenter Zoechbauer&lt;/strong&gt; (added 14. May 2015) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;How to containerize &lt;small&gt;apps&lt;/small&gt;&lt;/h3&gt;
@@ -1219,6 +1243,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://abdelrahmanhosny.com/2015/07/01/3-solutions-to-bi-directional-linking-problem-in-docker-compose&quot;&gt;Three Solutions to Bi-directional Linking Problem in Docker Compose&lt;/a&gt; by &lt;strong&gt;Abdelrahman Hosny&lt;/strong&gt; (added 9. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://12factor.net/&quot;&gt;The Twelve Factor App (not just for Docker)&lt;/a&gt; by &lt;strong&gt;Adam Wiggins&lt;/strong&gt; (added 6. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.tryolabs.com/2015/03/26/configurable-docker-containers-for-multiple-environments/&quot;&gt;Configurable Docker Containers for Multiple Environments&lt;/a&gt; by &lt;strong&gt;alan (Tryolabs)&lt;/strong&gt; (added 4. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/data-packed-volume-containers-distribute-configuration-c23ff80987cd&quot;&gt;Data Packed Volume Containers: Distribute Configuration&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 3. Jan 2015) &lt;/li&gt;
@@ -1722,11 +1747,8 @@ according to the regulatories of the
 &lt;p&gt;&lt;center&gt;
 &lt;hr&gt;
 &lt;p&gt;
-Following companies are supporting us by providing research grants.
+Following companies are supporting us:
 &lt;/p&gt;
-&lt;a href=&quot;https://cloud.google.com/&quot;&gt;
-  &lt;img src=&quot;/img/posts/google-cloud-platform.png&quot; height=&quot;30px&quot;&gt;
-&lt;/a&gt;
 &lt;a href=&quot;http://www.fat-itsolutions.de/&quot;&gt;
   &lt;img src=&quot;/img/posts/fat-it-solutions.png&quot; height=&quot;30px&quot;&gt;
 &lt;/a&gt;

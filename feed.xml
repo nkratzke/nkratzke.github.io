@@ -202,7 +202,7 @@ Feel free to play around some classical arcade games as single page html &amp;qu
 All games are only using HTML, CSS and &lt;a href=&quot;https://www.dartlang.org&quot;&gt;Dart&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Break Out&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/assets/ss2015/webtech/games/breakout/game.html&quot;&gt;Break Out&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/assets/ss2015/webtech/games/caveescape/index.html&quot;&gt;Cave Escape&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Dice Wars&lt;/li&gt;
 &lt;li&gt;MouseGame, a variant of the famous Snake Game, but here you are the mouse!&lt;/li&gt;

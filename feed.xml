@@ -207,13 +207,11 @@ All games are only using HTML, CSS and &lt;a href=&quot;https://www.dartlang.org
 &lt;li&gt;Dice Wars&lt;/li&gt;
 &lt;li&gt;MouseGame, a variant of the famous Snake Game, but here you are the mouse!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/assets/ss2015/webtech/games/pacman/index.html&quot;&gt;Pac Man&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Raumffish&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/assets/ss2015/webtech/games/rennspiel/index.html&quot;&gt;Rennspiel&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/assets/ss2015/webtech/games/stackattack/index.html&quot;&gt;Stack Attack&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Space Invaders (fist interpretation) &lt;/li&gt;
 &lt;li&gt;Space Invaders (second interpretation)&lt;/li&gt;
-&lt;li&gt;Tower Defence&lt;/li&gt;
-&lt;li&gt;Tetris&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/assets/ss2015/webtech/games/tetris/index.html&quot;&gt;Tetris&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/assets/ss2015/webtech/games/unblockit/index.html&quot;&gt;UnBlock It&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

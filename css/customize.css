@@ -79,6 +79,7 @@ article header .imgteaser {
 iframe {
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 	border: 0px solid transparent;
+	padding: 20px;
 }
 
 /* GENERAL HR HANDLING */

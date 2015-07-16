@@ -7,6 +7,25 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>And the winner is ... TETRIS</title>
+      <description>
+        
+        &lt;img src=&quot;/assets/webtech-hall-of-fame/background.jpg&quot;&gt;
+        
+        &lt;p&gt;We had some fun this summer semester &lt;a href=&quot;/lecture/2015/03/01/lecture-webtech.html&quot;&gt;webtechnology course&lt;/a&gt;. 
+My students implemented several classical games as &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; single page HTML &amp;#39;apps&amp;#39;.&lt;/p&gt;
+
+&lt;p&gt;Three games entered the &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Webtech Hall of Fame&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#39;75%&#39; height=&#39;600px&#39; src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
+
+      </description>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</guid>
+    </item>
+    
+    <item>
       <title>New Paper: About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters</title>
       <description>
         
@@ -1195,7 +1214,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;How to use the APIs&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.centurylinklabs.com/gracefully-stopping-docker-containers/&quot;&gt;Gracefully Stopping Docker Containers&lt;/a&gt; by &lt;strong&gt;Brian DeHamer&lt;/strong&gt; (added 20. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.centurylinklabs.com/gracefully-stopping-docker-containers/&quot;&gt;Gracefully Stopping Docker Containers&lt;/a&gt; by &lt;strong&gt;Brian DeHamer&lt;/strong&gt; (added 20. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://cocoahunter.com/2015/01/23/docker-2/&quot;&gt;Setting up a private Docker registry&lt;/a&gt; by &lt;strong&gt;Michelangelo Chasseur&lt;/strong&gt; (added 29. Jan 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/2014/12/remove-docker-image-container-with-criteria-techtip60/&quot;&gt;Remove Docker image and container with a criteria&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 5. Dec 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lollyrock.com/articles/execute-in-docker-sandbox/&quot;&gt;Execute commands in a Docker sandbox&lt;/a&gt; by &lt;strong&gt;Chris Rock&lt;/strong&gt; (added 9. Oct 2014) &lt;/li&gt;
@@ -1256,9 +1275,10 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.solinea.com/blog/up-and-running-with-docker-machine-and-openstack&quot;&gt;Up and Running with Docker Machine and OpenStack&lt;/a&gt; by &lt;strong&gt;Spencer Smith&lt;/strong&gt; (added 15. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-1/&quot;&gt;OpenStack and Docker (Part I)&lt;/a&gt; and &lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Sreenivas Makam&lt;/strong&gt; (added 18. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://b.yyaazz.hu/2015/06/01/getting-started-docker-swarm-aws.html&quot;&gt;Getting Started with Docker Swarm on AWS&lt;/a&gt; by &lt;strong&gt;Jacint Juhascz&lt;/strong&gt; (added 6. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://linoxide.com/linux-how-to/use-docker-machine-cloud-provider/&quot;&gt;How to Use Docker Machine with a Cloud Provider&lt;/a&gt; by &lt;strong&gt;Arun Paysi&lt;/strong&gt; (added 20. May 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://linoxide.com/linux-how-to/use-docker-machine-cloud-provider/&quot;&gt;How to Use Docker Machine with a Cloud Provider&lt;/a&gt; by &lt;strong&gt;Arun Paysi&lt;/strong&gt; (added 20. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/aws-activate-startup-blog/running-services-using-docker-and-amazon-ec2-container-service-bde16b099cb9&quot;&gt;Running Services Using Docker and Amazon EC2 Container Service&lt;/a&gt; by &lt;strong&gt;Nate Slater&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/installation/google/&quot;&gt;QuickStart with Container-optimized Google Compute Engine images&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/2014/10/17/how-to-deploy-a-docker-application-into-production-on-amazon-aws/&quot;&gt;How To Deploy A Docker Application Into Production On Amazon AWS&lt;/a&gt; by &lt;strong&gt;Mark van Holsteijn&lt;/strong&gt; (added 30. Oct 2014) &lt;/li&gt;
@@ -1271,6 +1291,7 @@ to get further informations about Docker and Containerization.
 &lt;h3&gt;Container clusters &lt;small&gt;and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/multicontainer-applications-docker-compose-swarm&quot;&gt;Multi-container Applications using Docker Compose and Swarm&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.factual.com/docker-mesos-marathon-and-the-end-of-pets&quot;&gt;Docker, Mesos, Marathon, and the End of Pets&lt;/a&gt; by &lt;strong&gt;Boris Shimanovsky&lt;/strong&gt; (added 4. Jun 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes&lt;/a&gt; and &lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.scottlowe.org/2015/03/06/running-own-docker-swarm-cluster/&quot;&gt;Running a Small Docker Swarm Cluster&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 12. Mar 2015) &lt;/li&gt;

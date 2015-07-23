@@ -133,23 +133,26 @@ concurrency aspects (<a href="https://en.wikipedia.org/wiki/Thread_safety">threa
 by applying the following function <code>fib</code> (and of course the fibonacci function is here only a
 placeholder for any computational intensive function of the real world)</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kt">int</span> <span class="n">fib</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="dart"><span class="kt">int</span> <span class="n">fib</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="k">return</span> <span class="m">0</span><span class="p">;</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="m">1</span><span class="p">)</span> <span class="k">return</span> <span class="m">1</span><span class="p">;</span>
   <span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="m">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="m">2</span><span class="p">);</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>we could do this in Dart like that (a very simple example of map/reduce):</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
+<div class="highlight"><pre><code class="dart"><span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
 <span class="n">print</span><span class="p">(</span>
   <span class="s2">&quot;fib(40) + fib(41) + ... + fib(45) = &quot;</span>
   <span class="s2">&quot;</span><span class="si">${</span><span class="n">vs</span><span class="p">.</span><span class="n">map</span><span class="p">((</span><span class="n">n</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">)).</span><span class="n">reduce</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="p">);</span></code></pre></div>
+<span class="p">);</span>
+</code></pre></div>
 
 <p>This would prompt the following result on console.</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">fib<span class="o">(</span>40<span class="o">)</span> + fib<span class="o">(</span>41<span class="o">)</span> + ... + fib<span class="o">(</span>45<span class="o">)</span> <span class="o">=</span> 2805634932</code></pre></div>
+<div class="highlight"><pre><code class="bash">fib<span class="o">(</span>40<span class="o">)</span> + fib<span class="o">(</span>41<span class="o">)</span> + ... + fib<span class="o">(</span>45<span class="o">)</span> <span class="o">=</span> 2805634932
+</code></pre></div>
 
 <h3> Parallelize map </h3>
 
@@ -174,7 +177,7 @@ more than one thread in parallel).</p>
 
 <p>By using Rochas Worker package the calculation of our fibonacci sum can be parallelized like that</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="k">import</span> <span class="s2">&quot;package:worker/worker.dart&quot;</span><span class="p">;</span>
+<div class="highlight"><pre><code class="dart"><span class="k">import</span> <span class="s2">&quot;package:worker/worker.dart&quot;</span><span class="p">;</span>
 <span class="k">import</span> <span class="s2">&quot;dart:async&quot;</span><span class="p">;</span>
 
 <span class="kt">void</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
@@ -209,11 +212,13 @@ more than one thread in parallel).</p>
   <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
   <span class="n">FibTask</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">n</span><span class="p">);</span>
   <span class="n">execute</span><span class="p">()</span> <span class="o">=&gt;</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>and we will get the same result (but now computed in parallel).</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">fib<span class="o">(</span>40<span class="o">)</span> + fib<span class="o">(</span>41<span class="o">)</span> + ... + fib<span class="o">(</span>45<span class="o">)</span> <span class="o">=</span> 2805634932</code></pre></div>
+<div class="highlight"><pre><code class="bash">fib<span class="o">(</span>40<span class="o">)</span> + fib<span class="o">(</span>41<span class="o">)</span> + ... + fib<span class="o">(</span>45<span class="o">)</span> <span class="o">=</span> 2805634932
+</code></pre></div>
 
 <h3> Discussion of the worker solution </h3>
 
@@ -228,11 +233,12 @@ Me either (but actual it is not possible to do it in another way, but we will co
 
 <p>Let us take our initial problem.</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
+<div class="highlight"><pre><code class="dart"><span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
 <span class="n">print</span><span class="p">(</span>
   <span class="s2">&quot;fib(40) + fib(41) + ... + fib(45) = &quot;</span>
   <span class="s2">&quot;</span><span class="si">${</span><span class="n">vs</span><span class="p">.</span><span class="n">map</span><span class="p">((</span><span class="n">n</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">)).</span><span class="n">reduce</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="p">);</span></code></pre></div>
+<span class="p">);</span>
+</code></pre></div>
 
 <p>In fact we want to tell Dart to execute <code>vs.map((n) =&gt; fib(n)</code>
 in parallel. It would be cool, if we could write something like <code>vs.pmap((n) =&gt; fib(n))</code>
@@ -244,18 +250,20 @@ in parallel</em> (and not in sequential order, which is what <code>map</code> do
 
 <p>This is called a <strong>parallel map</strong> and it works great on iterables. Parallel map <code>pmap</code> might be typed like that:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">Future&lt;Iterable&gt; pmap<span class="o">(</span>dynamic f<span class="o">(</span>dynamic<span class="o">))</span><span class="p">;</span></code></pre></div>
+<div class="highlight"><pre><code class="bash">Future&lt;Iterable&gt; pmap<span class="o">(</span>dynamic f<span class="o">(</span>dynamic<span class="o">))</span><span class="p">;</span>
+</code></pre></div>
 
 <p>Because <code>pmap</code> returns a <code>Future</code> (it is executed asynchronously because it is parallel) of an <code>Iterable</code> we have to rewrite our
 initial problem a little bit.</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
+<div class="highlight"><pre><code class="dart"><span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
 <span class="n">vs</span><span class="p">.</span><span class="n">pmap</span><span class="p">((</span><span class="n">n</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">)).</span><span class="n">then</span><span class="p">((</span><span class="n">results</span><span class="p">)</span> <span class="p">{</span>
   <span class="n">print</span><span class="p">(</span>
     <span class="s2">&quot;fib(40) + fib(41) + ... + fib(45) = &quot;</span>
     <span class="s2">&quot;</span><span class="si">${</span><span class="n">results</span><span class="p">.</span><span class="n">reduce</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
   <span class="p">);</span>
-<span class="p">});</span></code></pre></div>
+<span class="p">});</span>
+</code></pre></div>
 
 <p>From my point of view this would be the perfect solution for Dart providing a very pragmatic form of parallelization.</p>
 
@@ -266,25 +274,28 @@ initial problem a little bit.</p>
 <p>Gilad Bracha has written an interesting blog post about <a href="https://www.dartlang.org/articles/emulating-functions/">emulating functions in Dart</a>. According to this article we
 are able to implement our fibonacci function as a <em>wannabe function</em> like that</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">FibFunc</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="dart"><span class="kd">class</span> <span class="nc">FibFunc</span> <span class="p">{</span>
   <span class="kt">int</span> <span class="n">call</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>and we can instantiate objects of this class being callable like &quot;normal&quot; functions.</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">final</span> <span class="n">fibFunc</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FibFunc</span><span class="p">();</span>
-<span class="kd">final</span> <span class="n">fib40</span> <span class="o">=</span> <span class="n">fibFunc</span><span class="p">(</span><span class="m">40</span><span class="p">);</span></code></pre></div>
+<div class="highlight"><pre><code class="dart"><span class="kd">final</span> <span class="n">fibFunc</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FibFunc</span><span class="p">();</span>
+<span class="kd">final</span> <span class="n">fib40</span> <span class="o">=</span> <span class="n">fibFunc</span><span class="p">(</span><span class="m">40</span><span class="p">);</span>
+</code></pre></div>
 
 <p>These objects are no closures but behave like functions and they are transferable between isolates. Our solution would change into</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
+<div class="highlight"><pre><code class="dart"><span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
 <span class="kd">final</span> <span class="n">func</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FibFunc</span><span class="p">();</span>
 <span class="n">vs</span><span class="p">.</span><span class="n">pmap</span><span class="p">(</span><span class="n">func</span><span class="p">).</span><span class="n">then</span><span class="p">((</span><span class="n">results</span><span class="p">)</span> <span class="p">{</span>
   <span class="n">print</span><span class="p">(</span>
     <span class="s2">&quot;fib(40) + fib(41) + ... + fib(45) = &quot;</span>
     <span class="s2">&quot;</span><span class="si">${</span><span class="n">results</span><span class="p">.</span><span class="n">reduce</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
   <span class="p">);</span>
-<span class="p">});</span></code></pre></div>
+<span class="p">});</span>
+</code></pre></div>
 
 <p>which is very close to our intent.</p>
 
@@ -295,22 +306,24 @@ is in fact only a small wrapper around the worker package. It defines a parallel
 
 <p>Therefore the parallel package defines a function <code>parallel</code> to transform any <code>Iterable</code> collection into a <code>PIterable</code> collection.</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="n">PIterable</span> <span class="n">parallel</span><span class="p">(</span><span class="n">Iterable</span> <span class="n">collection</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="k">new</span> <span class="n">PIterable</span><span class="p">(</span>
+<div class="highlight"><pre><code class="dart"><span class="n">PIterable</span> <span class="n">parallel</span><span class="p">(</span><span class="n">Iterable</span> <span class="n">collection</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="k">new</span> <span class="n">PIterable</span><span class="p">(</span>
     <span class="k">new</span> <span class="n">Future</span><span class="p">.</span><span class="n">value</span><span class="p">(</span><span class="n">collection</span><span class="p">)</span>
-<span class="p">);</span></code></pre></div>
+<span class="p">);</span>
+</code></pre></div>
 
 <p>It furthermore defines a library private <code>MessagableFunction</code> by extending the <code>Task</code> concept of the <a href="https://pub.dartlang.org/packages/worker">Worker</a> package (this library private class is in fact the bridge to the worker package).</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">_MessageableFunction</span> <span class="kd">extends</span> <span class="n">Task</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="dart"><span class="kd">class</span> <span class="nc">_MessageableFunction</span> <span class="kd">extends</span> <span class="n">Task</span> <span class="p">{</span>
   <span class="kd">final</span> <span class="n">f</span><span class="p">;</span>
   <span class="kd">final</span> <span class="n">x</span><span class="p">;</span>
   <span class="n">_MessageableFunction</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">f</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="n">x</span><span class="p">);</span>
   <span class="n">dynamic</span> <span class="n">execute</span><span class="p">()</span> <span class="o">=&gt;</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>Finally the <code>PIterable</code> class is implemented like this:</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">PIterable</span> <span class="kd">implements</span> <span class="n">Iterable</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="dart"><span class="kd">class</span> <span class="nc">PIterable</span> <span class="kd">implements</span> <span class="n">Iterable</span> <span class="p">{</span>
 
   <span class="c1">// Wrapped future of an iterable</span>
   <span class="kd">final</span> <span class="n">Future</span><span class="o">&lt;</span><span class="n">Iterable</span><span class="o">&gt;</span> <span class="n">_futureIterable</span><span class="p">;</span>
@@ -345,7 +358,8 @@ is in fact only a small wrapper around the worker package. It defines a parallel
     <span class="p">});</span>
     <span class="k">return</span> <span class="n">c</span><span class="p">.</span><span class="n">future</span><span class="p">;</span>
   <span class="p">}</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>Now we have a function <code>parallel</code> to transform each <code>Iterable</code>
 into a parallelizable <code>PIterable</code> form. And we have a <code>map</code> method defined
@@ -355,7 +369,7 @@ on <code>PIterable</code> which can be executed in parallel.</p>
 you can combine the parallel <code>map</code> with all methods known from <code>Iterable</code> (for example
 <code>reduce</code>).</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">FibFunc</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="dart"><span class="kd">class</span> <span class="nc">FibFunc</span> <span class="p">{</span>
   <span class="kt">int</span> <span class="n">call</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="k">return</span> <span class="m">0</span><span class="p">;</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="m">1</span><span class="p">)</span> <span class="k">return</span> <span class="m">1</span><span class="p">;</span>
@@ -370,7 +384,8 @@ you can combine the parallel <code>map</code> with all methods known from <code>
                           <span class="p">.</span><span class="n">then</span><span class="p">((</span><span class="n">result</span><span class="p">)</span> <span class="p">{</span>
                             <span class="n">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
                           <span class="p">});</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
 <p>Some closing remarks:</p>
 
@@ -383,7 +398,7 @@ you can combine the parallel <code>map</code> with all methods known from <code>
 
 <p><em>Special thanks go to Diego Rocha and his awesome <a href="https://pub.dartlang.org/packages/worker">Worker</a> library.</em></p>
 
-<p><hr /></p>
+<hr />
 
 <h4>My last wish is about syntactic sugar</h4>
 
@@ -391,24 +406,27 @@ you can combine the parallel <code>map</code> with all methods known from <code>
 
 <p>It would be great if Dart had a syntax to create anonymous wannabe functions (not closures) so that</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">final</span> <span class="n">f</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">n</span><span class="o">&gt;</span> <span class="o">=&gt;</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>  <span class="c1">// the closure form would be (n) =&gt; fib(n)</span></code></pre></div>
+<div class="highlight"><pre><code class="dart">  <span class="kd">final</span> <span class="n">f</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">n</span><span class="o">&gt;</span> <span class="o">=&gt;</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>  <span class="c1">// the closure form would be (n) =&gt; fib(n)</span>
+</code></pre></div>
 
 <p>would be syntactic sugar for:</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">class</span> <span class="nc">FibFunc</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="dart">  <span class="kd">class</span> <span class="nc">FibFunc</span> <span class="p">{</span>
     <span class="kt">int</span> <span class="n">call</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
   <span class="p">}</span>
-  <span class="kd">final</span> <span class="n">f</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FibFunc</span><span class="p">();</span></code></pre></div>
+  <span class="kd">final</span> <span class="n">f</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FibFunc</span><span class="p">();</span>
+</code></pre></div>
 
 <p>If Dart would provide that form of syntactic sugar it would be possible to come very close
 to a pragmatic form to express parallelization in Dart:</p>
 
-<div class="highlight"><pre><code class="language-dart" data-lang="dart"><span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
+<div class="highlight"><pre><code class="dart">  <span class="kd">final</span> <span class="n">vs</span> <span class="o">=</span> <span class="p">[</span><span class="m">40</span><span class="p">,</span> <span class="m">41</span><span class="p">,</span> <span class="m">42</span><span class="p">,</span> <span class="m">43</span><span class="p">,</span> <span class="m">44</span><span class="p">,</span> <span class="m">45</span><span class="p">];</span>
   <span class="kd">final</span> <span class="n">sum</span> <span class="o">=</span> <span class="n">parallel</span><span class="p">(</span><span class="n">vs</span><span class="p">).</span><span class="n">map</span><span class="p">(</span><span class="o">&lt;</span><span class="n">n</span><span class="o">&gt;</span> <span class="o">=&gt;</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>       <span class="c1">// parallel</span>
                           <span class="p">.</span><span class="n">reduce</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>  <span class="c1">// delegated to Iterable</span>
                           <span class="p">.</span><span class="n">then</span><span class="p">((</span><span class="n">result</span><span class="p">)</span> <span class="p">{</span>
                               <span class="n">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-                          <span class="p">});</span></code></pre></div>
+                          <span class="p">});</span>
+</code></pre></div>
 
 		
 			<hr>

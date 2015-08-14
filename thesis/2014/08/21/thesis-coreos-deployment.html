@@ -184,7 +184,7 @@ ist die meiste Dokumentation auf Englisch. Gute bis sehr gute Englischkenntnisse
 <p>Details der Aufgabenstellung können noch im Vorfeld der Abschlussarbeit abgestimmt werden.
 </small></p>
 
-<hr>
+<p><hr></p>
 
 <p><a href="https://coreos.com/">CoreOS</a> ist eine Clusterumgebung,
 die auf vielfältigen Cloud Infrastrukturen
@@ -221,11 +221,9 @@ verschiedene Deployer für unterschiedliche Zielinfrastrukturen zu installieren.
 Um bspw. einen Deployer für die Zielinfrastruktur Virtualbox oder vSphere
 zu installieren, soll es ausreichen ein Kommando folgender Art auszuführen.</p>
 
-<div class="highlight"><pre><code class="bash">cloud install --deployer virtualbox-deployer
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">cloud install --deployer virtualbox-deployer</code></pre></div>
 
-<div class="highlight"><pre><code class="bash">cloud install --deployer vsphere-deployer
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">cloud install --deployer vsphere-deployer</code></pre></div>
 
 <p>Dieses soll
 entsprechende Deployer
@@ -235,8 +233,7 @@ aus einer Standardquelle laden und installieren.</p>
 <p>Es soll aber auch ergänzend möglich sein, beliebige Deployer direkt aus einem
 Git Repository zu installieren. Z.B. in dieser Form:</p>
 
-<div class="highlight"><pre><code class="bash">cloud install --deployer git://github.com/nkratzke/my-special-deployer.git
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">cloud install --deployer git://github.com/nkratzke/my-special-deployer.git</code></pre></div>
 
 <p>Die Funktionstüchtigkeit des Plugin-Systems soll mindestens an den
 in der Aufgabenstellung (AWS EC2, GCE, Virtualbox, vSphere) aufgeführten
@@ -252,7 +249,7 @@ pro Instanztyp, die im COREOS Cluster initial mittels
 
 <p>Eine beispielhafte Clusterdefinition könnte bspw. so aussehen:</p>
 
-<div class="highlight"><pre><code class="json"><span class="p">{</span>
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span>
   <span class="err">cluster:</span> <span class="nt">&quot;Cluster Type Name&quot;</span><span class="p">,</span>
   <span class="err">instance-types:</span> <span class="err">[</span>
     <span class="err">t1:</span> <span class="err">{</span> <span class="err">vcpu:</span> <span class="err">1.6,</span> <span class="err">vcore:</span> <span class="err">2,</span> <span class="err">network:</span> <span class="nt">&quot;high&quot;</span><span class="p">,</span> <span class="err">vmemory:</span> <span class="nt">&quot;4000MB&quot;</span><span class="p">,</span>  <span class="err">disk:</span> <span class="nt">&quot;4GB&quot;</span> <span class="p">}</span><span class="err">,</span>
@@ -261,8 +258,7 @@ pro Instanztyp, die im COREOS Cluster initial mittels
     <span class="err">t</span><span class="mi">4</span><span class="err">:</span> <span class="p">{</span> <span class="err">vcpu:</span> <span class="err">3,</span>  <span class="err">vcore:</span> <span class="err">2,</span> <span class="err">network:</span> <span class="nt">&quot;high&quot;</span><span class="p">,</span> <span class="err">vmemory:</span> <span class="nt">&quot;32GB&quot;</span><span class="p">,</span> <span class="err">disk:</span> <span class="nt">&quot;12GB&quot;</span> <span class="p">}</span>
   <span class="err">],</span>
   <span class="err">instances:</span> <span class="p">{</span> <span class="err">t1:</span> <span class="err">5,</span> <span class="err">t2:</span> <span class="err">10,</span> <span class="err">t3:</span> <span class="err">20</span> <span class="p">}</span>
-<span class="err">}</span>
-</code></pre></div>
+<span class="err">}</span></code></pre></div>
 
 <h3>Feature 3: Deployen von CoreOS Clustern</h3>
 
@@ -279,27 +275,22 @@ ein erfolgreiches CoreOS Deployment erforderlich
 so sind diese Vorausetzungen durch den Deployer im Vorfeld zu prüfen
 und bei nicht Existenz ggf. herzustellen.</p>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider virtualbox
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider virtualbox</code></pre></div>
 
 <p>Sollte die Zielinfrastruktur Access Credentials benötigen und einen
 Remote Endpoint beinhalten, soll ein Deployment in folgender Form möglich sein.</p>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider vsphere --akid user --secret password --endpoint url
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider vsphere --akid user --secret password --endpoint url</code></pre></div>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider aws --akid &lt;akid&gt; --secret &lt;awssecret&gt; --endpoint &lt;awsendpoint&gt;
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider aws --akid &lt;akid&gt; --secret &lt;awssecret&gt; --endpoint &lt;awsendpoint&gt;</code></pre></div>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider gce --akid &lt;user&gt; --secret &lt;googlepwd&gt; --using &lt;googleendpoint&gt;
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$LVCID</span> <span class="o">=</span> cloud deploy cluster.json --provider gce --akid &lt;user&gt; --secret &lt;googlepwd&gt; --using &lt;googleendpoint&gt;</code></pre></div>
 
 <h3>Feature 4: Einloggen in einen CoreOS Cluster</h3>
 
 <p>Mittels</p>
 
-<div class="highlight"><pre><code class="bash">cloud login <span class="nv">$LVCID</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">cloud login <span class="nv">$LVCID</span></code></pre></div>
 
 <p>soll man sich in den ausgeprägten CoreOS Cluster verschlüsselt mittels SSH einloggen können.
 Der CoreOS Cluster soll bei diesem Login mit dem dafür vorgesehenen Command <code>fleetctl</code>
@@ -310,8 +301,7 @@ nur ein Login ermöglichen.</p>
 
 <p>Letztlich soll</p>
 
-<div class="highlight"><pre><code class="bash">cloud shutdown <span class="nv">$LVCID</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">cloud shutdown <span class="nv">$LVCID</span></code></pre></div>
 
 <p>einen Cluster zerstören und alle Instanzen sowie weitere für den Clusterbetrieb
 erforderlichen Voraussetzungen (siehe Req. 3) in der Zielinfrastruktur
@@ -322,8 +312,7 @@ wieder zurücknehmen.</p>
 <p>Es soll ferner ein manuelles Up- und Downscaling eines laufenden CoreOS Clusters
 in folgender Form möglich sein.</p>
 
-<div class="highlight"><pre><code class="bash">cloud scale <span class="nv">$LVCID</span> --t1 10 --t2 10 --t3 10 --t4 10
-</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">cloud scale <span class="nv">$LVCID</span> --t1 <span class="m">10</span> --t2 <span class="m">10</span> --t3 <span class="m">10</span> --t4 10</code></pre></div>
 
 <p>Dieses Command soll zur Folge haben,</p>
 
@@ -362,7 +351,7 @@ in folgender Form möglich sein.</p>
 <li>Begleitende <strong>Dokumentation</strong> (deutsch oder englisch) der oben angegebenen Schritte, Designentscheidungen und Ergebnisse gem. folgendem <a href="https://github.com/nkratzke/BAMA-Template">Template</a>.</li>
 </ul>
 
-<hr>
+<p><hr></p>
 
 <p><small></p>
 

@@ -1150,17 +1150,13 @@ Nevertheless, these informations are short-living. They are fading out of
 focus as the weeks pass by. But there are a lot of great posts
 which should be collected and presented in a more enduring way.&lt;/p&gt;
 
-&lt;p&gt;This post will capture some important links I discovered following the weekly Docker
-newsletter. I use these links the most in my day by day business as a cloud computing
-researcher trying to overcome cloud service provider generated vendor lock-ins.&lt;/p&gt;
-
 &lt;p&gt;The links on this site are reviewed weekly (very subjective).
 So links may be added, if I find new interesting online ressources. Links may be
 replaced, if I find better online ressources. And links may be deleted, if I think
 they are outdated or no longer useful at all.&lt;/p&gt;
 
 &lt;p&gt;Feel free to contact &lt;a href=&quot;/about.html&quot;&gt;me&lt;/a&gt; if you think there are valuable links missing
-or if you know better ones. You may also want to use the disqus comments at the end of this
+or if you know better links. You may also want to use the disqus comments at the end of this
 article to propose improvements or additional or even better links.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
@@ -1188,6 +1184,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-toolbox&quot;&gt;Docker Toolbox&lt;/a&gt; by &lt;strong&gt;Aron Gupta&lt;/strong&gt; (added 19. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet&quot;&gt;Docker Tips and Cheatsheet&lt;/a&gt; by &lt;strong&gt;Jake Zimmermann&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.conetix.com.au/blog/docker-compose-quick-intro&quot;&gt;Docker Compose: A Quick Intro&lt;/a&gt; by &lt;strong&gt;Tim Butler&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.techbar.me/stopping-docker-containers-gracefully&quot;&gt;Stopping Docker containers Gracefully&lt;/a&gt; by &lt;strong&gt;Alen Komijen&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -1195,9 +1192,6 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://jonathan.bergknoff.com/journal/building-better-docker-images&quot;&gt;Building better Docker Images&lt;/a&gt; by &lt;strong&gt;Jonathan Bergknoff&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.zhaw.ch/icclab/process-management-in-docker-containers/&quot;&gt;Process Management in Docker&lt;/a&gt; by &lt;strong&gt;Martin Blöchinger&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://odewahn.github.io/docker-jumpstart/&quot;&gt;Docker Jumpstart&lt;/a&gt; by &lt;strong&gt;Adrew Odewahn&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://developer.ibm.com/bluemix/2015/04/16/installing-docker-windows-fixes-common-problems/&quot;&gt;Docker on Windows - Fixes for common problems&lt;/a&gt; by &lt;strong&gt;Bobby Wolf (IBM)&lt;/strong&gt; (added 17. Apr 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://4sysops.com/archives/install-docker-on-windows/&quot;&gt;Install Docker on Windows&lt;/a&gt; by &lt;strong&gt;Timothy Warner&lt;/strong&gt; (added 9. Apr 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/03/kitematic-a-docker-gui-joins-the-docker-family/&quot;&gt;Kitematic, A Docker GUI Joins the Docker Family&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 12. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://standalonex.com/docker-exec-is-your-boss/&quot;&gt;Docker Exec is Your Boss&lt;/a&gt; by &lt;strong&gt;Azri Jamil&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;

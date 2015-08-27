@@ -1173,7 +1173,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://valdhaus.co/writings/docker-misconceptions&quot;&gt;Docker Misconceptions&lt;/a&gt; by &lt;strong&gt;Matt Jaynes&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://venturebeat.com/2015/06/30/10-myths-about-enterprise-adoption-of-docker&quot;&gt;10 myths about enterprise adoption of Docker&lt;/a&gt; by &lt;strong&gt;Bob Quillin&lt;/strong&gt; (added 9. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://linkis.com/cloudswithcarl.com/f8FdQ?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57ugtX6e0lMI%2F0ER3fOvrPUfGjI4ATcBgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D&quot;&gt;Top 10 takeaways the day after #DockerCon&lt;/a&gt; by &lt;strong&gt;Carl Osipov&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://linkis.com/cloudswithcarl.com/f8FdQ?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57ugtX6e0lMI%2F0ER3fOvrPUfGjI4ATcBgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D&quot;&gt;Top 10 takeaways the day after #DockerCon&lt;/a&gt; by &lt;strong&gt;Carl Osipov&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem&quot;&gt;The Docker Ecosystem Tutorial Series&lt;/a&gt; by &lt;strong&gt;Justin Ellingwood&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@behruz/dockerizability-is-better-than-dockerized-3c08b9dbd84c&quot;&gt;&amp;quot;Dockerizability&amp;quot; is better than &amp;quot;dockerized&amp;quot;&lt;/a&gt; by &lt;strong&gt;Behrooz Nobakht&lt;/strong&gt; (added 5. Dec 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://etherealmind.com/basics-docker-containers-hypervisors-coreos/&quot;&gt;Basics – Docker, Containers, Hypervisors, CoreOS&lt;/a&gt; by &lt;strong&gt;Greg Ferro&lt;/strong&gt; (added 4. Sep 2014) &lt;/li&gt;
@@ -1188,7 +1188,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet&quot;&gt;Docker Tips and Cheatsheet&lt;/a&gt; by &lt;strong&gt;Jake Zimmermann&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.conetix.com.au/blog/docker-compose-quick-intro&quot;&gt;Docker Compose: A Quick Intro&lt;/a&gt; by &lt;strong&gt;Tim Butler&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.techbar.me/stopping-docker-containers-gracefully&quot;&gt;Stopping Docker containers Gracefully&lt;/a&gt; by &lt;strong&gt;Alen Komijen&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.brunopaz.net/easy-discover-your-docker-containers-with-dnsdock&quot;&gt;Easy discover your docker containers with dnsdock&lt;/a&gt; by &lt;strong&gt;Bruno Paz&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.brunopaz.net/easy-discover-your-docker-containers-with-dnsdock&quot;&gt;Easy discover your docker containers with dnsdock&lt;/a&gt; by &lt;strong&gt;Bruno Paz&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jonathan.bergknoff.com/journal/building-better-docker-images&quot;&gt;Building better Docker Images&lt;/a&gt; by &lt;strong&gt;Jonathan Bergknoff&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.zhaw.ch/icclab/process-management-in-docker-containers/&quot;&gt;Process Management in Docker&lt;/a&gt; by &lt;strong&gt;Martin Blöchinger&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://odewahn.github.io/docker-jumpstart/&quot;&gt;Docker Jumpstart&lt;/a&gt; by &lt;strong&gt;Adrew Odewahn&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
@@ -1214,9 +1214,10 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Cool things &lt;small&gt;you can do with Docker easily&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/running-a-tor-relay-with-docker&quot;&gt;Running a Tor relay with Docker&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 27. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker&quot;&gt;Run your own GitHub-like service with the help of Docker&lt;/a&gt; by &lt;strong&gt;Mathias Renner, Andreas Eiermann, Govinda Fichtner&lt;/strong&gt; (added 9. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container&quot;&gt;How to Route Traffic through a Tor Docker container&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/R-containers-for-data-science&quot;&gt;Using an R Container for Analytical Models&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container&quot;&gt;How to Route Traffic through a Tor Docker container&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/R-containers-for-data-science&quot;&gt;Using an R Container for Analytical Models&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;How to use the APIs&lt;/small&gt;&lt;/h3&gt;
@@ -1269,6 +1270,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df&quot;&gt;Building the perfect data container&lt;/a&gt; by &lt;strong&gt;Mattias Holmlund&lt;/strong&gt; (added 27. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://abdelrahmanhosny.com/2015/07/01/3-solutions-to-bi-directional-linking-problem-in-docker-compose&quot;&gt;Three Solutions to Bi-directional Linking Problem in Docker Compose&lt;/a&gt; by &lt;strong&gt;Abdelrahman Hosny&lt;/strong&gt; (added 9. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://12factor.net/&quot;&gt;The Twelve Factor App (not just for Docker)&lt;/a&gt; by &lt;strong&gt;Adam Wiggins&lt;/strong&gt; (added 6. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.tryolabs.com/2015/03/26/configurable-docker-containers-for-multiple-environments/&quot;&gt;Configurable Docker Containers for Multiple Environments&lt;/a&gt; by &lt;strong&gt;alan (Tryolabs)&lt;/strong&gt; (added 4. Apr 2015) &lt;/li&gt;

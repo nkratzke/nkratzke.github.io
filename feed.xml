@@ -7,6 +7,98 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Programming I (Winter 2015)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming
+for freshman students.&lt;/p&gt;
+
+&lt;p&gt;The lecture covers aspects like primitive and reference data types, operators, expressions,
+control flow, routine (method) definitions, I/O programming,
+recursive and object oriented programming.
+JAVA is used as teaching language, nevertheless the principles are applicable to every (imperative or class based object oriented) programming language.&lt;/p&gt;
+
+&lt;p&gt;Lecture is given for computer science students at Lübeck University of Applied Sciences.&lt;/p&gt;
+
+&lt;p&gt;Lecture will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fundamental concepts&lt;/strong&gt; of programming including &lt;strong&gt;programming paradigms&lt;/strong&gt; and &lt;strong&gt;runtime models&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;, &lt;strong&gt;data types&lt;/strong&gt;, &lt;strong&gt;operators&lt;/strong&gt; and &lt;strong&gt;expressions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control flow&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt; (functions, procedures, methods)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference data types&lt;/strong&gt; and &lt;strong&gt;collections&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(Stream based) &lt;strong&gt;I/O programming&lt;/strong&gt; and &lt;strong&gt;serialization&lt;/strong&gt; of objects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recursive programming&lt;/strong&gt; and &lt;strong&gt;recursive datastructures&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Functional programming&lt;/strong&gt; using &lt;strong&gt;lambda functions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exception handling&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Introduction to &lt;strong&gt;object oriented programming&lt;/strong&gt; and &lt;strong&gt;UML&lt;/strong&gt; introducing fundamental concepts like &lt;strong&gt;abstraction&lt;/strong&gt;, &lt;strong&gt;encapsulation&lt;/strong&gt;, &lt;strong&gt;polymorphism&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Course Material (german only)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture Unit 1: &lt;a href=&quot;/assets/ws2015/progI/Unit01.pdf&quot;&gt;Core concepts of programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 2: &lt;a href=&quot;/assets/ws2015/progI/Unit02.pdf&quot;&gt;Fundamentals of imperative programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 3: &lt;a href=&quot;/assets/ws2015/progI/Unit03.pdf&quot;&gt;Reference data types and collections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2015/progI/Unit04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2015/progI/Unit05.pdf&quot;&gt;Recursive and functional programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ws2015/progI/Unit06.pdf&quot;&gt;OO and UML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2015/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//lecture/2015/09/16/lecture-programming-i.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/09/16/lecture-programming-i.html</guid>
+    </item>
+    
+    <item>
+      <title>Fundamentals of Programming (Winter 2015)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture is about fundamentals of programming
+for freshman students.&lt;/p&gt;
+
+&lt;p&gt;The lecture covers aspects like primitive and reference data types, operators, expressions,
+control flow, routine (method) definitions
+recursive and object oriented programming.
+JAVA is used as teaching language, nevertheless the principles are applicable to every (imperative or class based object oriented) programming language.&lt;/p&gt;
+
+&lt;p&gt;Lecture is given for &lt;em&gt;information technology and design&lt;/em&gt; students at Lübeck University of Applied Sciences.&lt;/p&gt;
+
+&lt;p&gt;Lecture will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fundamental concepts&lt;/strong&gt; of programming including &lt;strong&gt;programming paradigms&lt;/strong&gt; and &lt;strong&gt;runtime models&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;, &lt;strong&gt;data types&lt;/strong&gt;, &lt;strong&gt;operators&lt;/strong&gt; and &lt;strong&gt;expressions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control flow&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt; (functions, procedures, methods)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference data types&lt;/strong&gt; and &lt;strong&gt;collections&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(Stream based) &lt;strong&gt;I/O programming&lt;/strong&gt; and &lt;strong&gt;serialization&lt;/strong&gt; of objects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recursive programming&lt;/strong&gt; and &lt;strong&gt;datastructures&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Course Material (german only)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture Unit 1: &lt;a href=&quot;/assets/ws2015/progI/Unit01.pdf&quot;&gt;Core concepts of programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 2: &lt;a href=&quot;/assets/ws2015/progI/Unit02.pdf&quot;&gt;Fundamentals of imperative programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 3: &lt;a href=&quot;/assets/ws2015/progI/Unit03.pdf&quot;&gt;Reference data types and collections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2015/progI/Unit04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt; (skipped, just for self study)&lt;/li&gt;
+&lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2015/progI/Unit05.pdf&quot;&gt;Recursive programming&lt;/a&gt; (functional programming skipped, just for self study)&lt;/li&gt;
+&lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2015/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//lecture/2015/09/16/lecture-fundamentals-of-programming.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/09/16/lecture-fundamentals-of-programming.html</guid>
+    </item>
+    
+    <item>
       <title>And the winner is ... TETRIS</title>
       <description>
         
@@ -1287,7 +1379,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.solinea.com/blog/up-and-running-with-docker-machine-and-openstack&quot;&gt;Up and Running with Docker Machine and OpenStack&lt;/a&gt; by &lt;strong&gt;Spencer Smith&lt;/strong&gt; (added 15. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.solinea.com/blog/up-and-running-with-docker-machine-and-openstack&quot;&gt;Up and Running with Docker Machine and OpenStack&lt;/a&gt; by &lt;strong&gt;Spencer Smith&lt;/strong&gt; (added 15. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-1/&quot;&gt;OpenStack and Docker (Part I)&lt;/a&gt; and &lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Sreenivas Makam&lt;/strong&gt; (added 18. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://b.yyaazz.hu/2015/06/01/getting-started-docker-swarm-aws.html&quot;&gt;Getting Started with Docker Swarm on AWS&lt;/a&gt; by &lt;strong&gt;Jacint Juhascz&lt;/strong&gt; (added 6. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linoxide.com/linux-how-to/use-docker-machine-cloud-provider/&quot;&gt;How to Use Docker Machine with a Cloud Provider&lt;/a&gt; by &lt;strong&gt;Arun Paysi&lt;/strong&gt; (added 20. May 2015) &lt;/li&gt;
@@ -1303,7 +1395,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Container clusters &lt;small&gt;and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/multicontainer-applications-docker-compose-swarm&quot;&gt;Multi-container Applications using Docker Compose and Swarm&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Jul 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/multicontainer-applications-docker-compose-swarm&quot;&gt;Multi-container Applications using Docker Compose and Swarm&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.factual.com/docker-mesos-marathon-and-the-end-of-pets&quot;&gt;Docker, Mesos, Marathon, and the End of Pets&lt;/a&gt; by &lt;strong&gt;Boris Shimanovsky&lt;/strong&gt; (added 4. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes&lt;/a&gt; and &lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.scottlowe.org/2015/03/06/running-own-docker-swarm-cluster/&quot;&gt;Running a Small Docker Swarm Cluster&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 12. Mar 2015) &lt;/li&gt;

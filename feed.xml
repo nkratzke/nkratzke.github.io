@@ -1381,17 +1381,14 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.solinea.com/blog/up-and-running-with-docker-machine-and-openstack&quot;&gt;Up and Running with Docker Machine and OpenStack&lt;/a&gt; by &lt;strong&gt;Spencer Smith&lt;/strong&gt; (added 15. Jul 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://superuser.openstack.org/articles/using-docker-machine-with-openstack&quot;&gt;Using Docker Machine with OpenStack&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 8. Oct 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-1/&quot;&gt;OpenStack and Docker (Part I)&lt;/a&gt; and &lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Sreenivas Makam&lt;/strong&gt; (added 18. Jun 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://b.yyaazz.hu/2015/06/01/getting-started-docker-swarm-aws.html&quot;&gt;Getting Started with Docker Swarm on AWS&lt;/a&gt; by &lt;strong&gt;Jacint Juhascz&lt;/strong&gt; (added 6. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linoxide.com/linux-how-to/use-docker-machine-cloud-provider/&quot;&gt;How to Use Docker Machine with a Cloud Provider&lt;/a&gt; by &lt;strong&gt;Arun Paysi&lt;/strong&gt; (added 20. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/aws-activate-startup-blog/running-services-using-docker-and-amazon-ec2-container-service-bde16b099cb9&quot;&gt;Running Services Using Docker and Amazon EC2 Container Service&lt;/a&gt; by &lt;strong&gt;Nate Slater&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/installation/google/&quot;&gt;QuickStart with Container-optimized Google Compute Engine images&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/2014/10/17/how-to-deploy-a-docker-application-into-production-on-amazon-aws/&quot;&gt;How To Deploy A Docker Application Into Production On Amazon AWS&lt;/a&gt; by &lt;strong&gt;Mark van Holsteijn&lt;/strong&gt; (added 30. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/platform-as-a-service/microsoft-brings-containers-to-windows-azure/d/d-id/1316654&quot;&gt;Microsoft Brings Containers to Windows, Azure&lt;/a&gt; by &lt;strong&gt;Charles Babcock&lt;/strong&gt; (added 29. Oct 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.oddbit.com/2014/08/30/docker-plugin-for-openstack-he/&quot;&gt;Docker Plugin for OpenStack Heat&lt;/a&gt; by &lt;strong&gt;Lars Kellogg-Stedman&lt;/strong&gt; (added 4. Sep 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/08/12/docker-networking/&quot;&gt;Docker intercontainer networking explained&lt;/a&gt; by &lt;strong&gt;Attila Kanto&lt;/strong&gt; (added 21. Aug 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.appnovation.com/blog/docker-containers-take-vm-shipping-google-app-engine&quot;&gt;Docker Containers Take on VM, shipping on Google App Engine&lt;/a&gt; by &lt;strong&gt;appnovation.com&lt;/strong&gt; (added 25. Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Container clusters &lt;small&gt;and other microservice approaches&lt;/small&gt;&lt;/h3&gt;

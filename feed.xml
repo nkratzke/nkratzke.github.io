@@ -1263,7 +1263,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://valdhaus.co/writings/docker-misconceptions&quot;&gt;Docker Misconceptions&lt;/a&gt; by &lt;strong&gt;Matt Jaynes&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://valdhaus.co/writings/docker-misconceptions&quot;&gt;Docker Misconceptions&lt;/a&gt; by &lt;strong&gt;Matt Jaynes&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://venturebeat.com/2015/06/30/10-myths-about-enterprise-adoption-of-docker&quot;&gt;10 myths about enterprise adoption of Docker&lt;/a&gt; by &lt;strong&gt;Bob Quillin&lt;/strong&gt; (added 9. Jul 2015)&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linkis.com/cloudswithcarl.com/f8FdQ?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57ugtX6e0lMI%2F0ER3fOvrPUfGjI4ATcBgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D&quot;&gt;Top 10 takeaways the day after #DockerCon&lt;/a&gt; by &lt;strong&gt;Carl Osipov&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem&quot;&gt;The Docker Ecosystem Tutorial Series&lt;/a&gt; by &lt;strong&gt;Justin Ellingwood&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
@@ -1276,17 +1276,16 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-toolbox&quot;&gt;Docker Toolbox&lt;/a&gt; by &lt;strong&gt;Aron Gupta&lt;/strong&gt; (added 19. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet&quot;&gt;Docker Tips and Cheatsheet&lt;/a&gt; by &lt;strong&gt;Jake Zimmermann&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.conetix.com.au/blog/docker-compose-quick-intro&quot;&gt;Docker Compose: A Quick Intro&lt;/a&gt; by &lt;strong&gt;Tim Butler&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.techbar.me/stopping-docker-containers-gracefully&quot;&gt;Stopping Docker containers Gracefully&lt;/a&gt; by &lt;strong&gt;Alen Komijen&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sitepoint.com/docker-and-dockerfiles-made-easy&quot;&gt;Docker and Dockerfiles Made Easy!&lt;/a&gt; by &lt;strong&gt;Younies Rafie&lt;/strong&gt; (added 22. Oct 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-toolbox&quot;&gt;Docker Toolbox&lt;/a&gt; by &lt;strong&gt;Aron Gupta&lt;/strong&gt; (added 19. Aug 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet&quot;&gt;Docker Tips and Cheatsheet&lt;/a&gt; by &lt;strong&gt;Jake Zimmermann&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.conetix.com.au/blog/docker-compose-quick-intro&quot;&gt;Docker Compose: A Quick Intro&lt;/a&gt; by &lt;strong&gt;Tim Butler&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.techbar.me/stopping-docker-containers-gracefully&quot;&gt;Stopping Docker containers Gracefully&lt;/a&gt; by &lt;strong&gt;Alen Komijen&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.brunopaz.net/easy-discover-your-docker-containers-with-dnsdock&quot;&gt;Easy discover your docker containers with dnsdock&lt;/a&gt; by &lt;strong&gt;Bruno Paz&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jonathan.bergknoff.com/journal/building-better-docker-images&quot;&gt;Building better Docker Images&lt;/a&gt; by &lt;strong&gt;Jonathan Bergknoff&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.zhaw.ch/icclab/process-management-in-docker-containers/&quot;&gt;Process Management in Docker&lt;/a&gt; by &lt;strong&gt;Martin Blöchinger&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://odewahn.github.io/docker-jumpstart/&quot;&gt;Docker Jumpstart&lt;/a&gt; by &lt;strong&gt;Adrew Odewahn&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://standalonex.com/docker-exec-is-your-boss/&quot;&gt;Docker Exec is Your Boss&lt;/a&gt; by &lt;strong&gt;Azri Jamil&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2015/02/announcing-docker-compose/&quot;&gt;Docker Compose&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/&quot;&gt;Ten tips for wonderful bash productivity&lt;/a&gt; by &lt;strong&gt;Nicola Paolucci&lt;/strong&gt; (added 12. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@calvingiles/snippets-for-troubleshooting-docker-637f510f6a92&quot;&gt;Snippets for tweaking and troubleshooting docker&lt;/a&gt; by &lt;strong&gt;Calvin Giles&lt;/strong&gt; (added 29. Jan 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22. Jan 2015) &lt;/li&gt;
@@ -1299,8 +1298,6 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/09/24/edit-files-docker/&quot;&gt;Edit files in Docker containers&lt;/a&gt; by &lt;strong&gt;Lajos Papp&lt;/strong&gt; (added 3. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/&quot;&gt;Running GUI apps with Docker&lt;/a&gt; by &lt;strong&gt;Fábio Rehm&lt;/strong&gt; (added 18. Sep 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://devo.ps/blog/docker-dos-and-donts/&quot;&gt;Docker Do&amp;#39;s And Don&amp;#39;ts&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 29. Aug 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/komljen/dockerfile-examples&quot;&gt;Dockerfile examples&lt;/a&gt; by &lt;strong&gt;Alen Komljen&lt;/strong&gt; (added 27. Aug 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/wsargent/docker-cheat-sheet&quot;&gt;Docker Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Will Sargent&lt;/strong&gt; (added 27. Aug 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Cool things &lt;small&gt;you can do with Docker (toolbox) easily&lt;/small&gt;&lt;/h3&gt;
@@ -1309,7 +1306,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;https://blog.codeship.com/docker-machine-compose-and-swarm-how-they-work-together&quot;&gt;Docker Machine, Compose, and Swarm: How They Work Together&lt;/a&gt; by &lt;strong&gt;Jonas Rosland&lt;/strong&gt; (added 2. Oct 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.brianchristner.io/how-to-scale-a-docker-container-with-docker-compose/&quot;&gt;How to Scale Docker Containers with Docker-Compose&lt;/a&gt; by &lt;strong&gt;Brian Christner&lt;/strong&gt; (added 17. Sep 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/iron-io-blog/the-easiest-way-to-develop-with-go-introducing-a-docker-based-go-tool-c456238507d6&quot;&gt;The Easiest Way to Develop with Go — Introducing a Docker Based Go Tool&lt;/a&gt; by &lt;strong&gt;Travis Reeder&lt;/strong&gt; (added 2. Sep 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/running-a-tor-relay-with-docker&quot;&gt;Running a Tor relay with Docker&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 27. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/running-a-tor-relay-with-docker&quot;&gt;Running a Tor relay with Docker&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 27. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker&quot;&gt;Run your own GitHub-like service with the help of Docker&lt;/a&gt; by &lt;strong&gt;Mathias Renner, Andreas Eiermann, Govinda Fichtner&lt;/strong&gt; (added 9. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container&quot;&gt;How to Route Traffic through a Tor Docker container&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/R-containers-for-data-science&quot;&gt;Using an R Container for Analytical Models&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
@@ -1365,7 +1362,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df&quot;&gt;Building the perfect data container&lt;/a&gt; by &lt;strong&gt;Mattias Holmlund&lt;/strong&gt; (added 27. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df&quot;&gt;Building the perfect data container&lt;/a&gt; by &lt;strong&gt;Mattias Holmlund&lt;/strong&gt; (added 27. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://abdelrahmanhosny.com/2015/07/01/3-solutions-to-bi-directional-linking-problem-in-docker-compose&quot;&gt;Three Solutions to Bi-directional Linking Problem in Docker Compose&lt;/a&gt; by &lt;strong&gt;Abdelrahman Hosny&lt;/strong&gt; (added 9. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://12factor.net/&quot;&gt;The Twelve Factor App (not just for Docker)&lt;/a&gt; by &lt;strong&gt;Adam Wiggins&lt;/strong&gt; (added 6. Apr 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.tryolabs.com/2015/03/26/configurable-docker-containers-for-multiple-environments/&quot;&gt;Configurable Docker Containers for Multiple Environments&lt;/a&gt; by &lt;strong&gt;alan (Tryolabs)&lt;/strong&gt; (added 4. Apr 2015) &lt;/li&gt;
@@ -1445,7 +1442,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rudijs.github.io/2015-07/docker-restricting-container-access-with-iptables&quot;&gt;Restricting Docker Container Access with Iptables&lt;/a&gt; by &lt;strong&gt;Rudi Starcevic&lt;/strong&gt; (added 14. Aug 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rudijs.github.io/2015-07/docker-restricting-container-access-with-iptables&quot;&gt;Restricting Docker Container Access with Iptables&lt;/a&gt; by &lt;strong&gt;Rudi Starcevic&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/docker-security-cheat-sheet/&quot;&gt;Docker Security Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 18. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/docker/docker-bench-security&quot;&gt;Docker Bench for Security&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 4. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://zwischenzugs.wordpress.com/2015/05/21/a-field-guide-to-docker-security-measures/&quot;&gt;A Field Guide to Docker Security Measures&lt;/a&gt; by &lt;strong&gt;zwischenzugs&lt;/strong&gt; (added 28. May 2015) &lt;/li&gt;

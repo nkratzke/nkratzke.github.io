@@ -1263,6 +1263,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.datadoghq.com/docker-adoption/&quot;&gt;Eight Surprising Facts about Real Docker Adoption&lt;/a&gt; by &lt;strong&gt;datadoghq.com&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://valdhaus.co/writings/docker-misconceptions&quot;&gt;Docker Misconceptions&lt;/a&gt; by &lt;strong&gt;Matt Jaynes&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://venturebeat.com/2015/06/30/10-myths-about-enterprise-adoption-of-docker&quot;&gt;10 myths about enterprise adoption of Docker&lt;/a&gt; by &lt;strong&gt;Bob Quillin&lt;/strong&gt; (added 9. Jul 2015)&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linkis.com/cloudswithcarl.com/f8FdQ?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57ugtX6e0lMI%2F0ER3fOvrPUfGjI4ATcBgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D&quot;&gt;Top 10 takeaways the day after #DockerCon&lt;/a&gt; by &lt;strong&gt;Carl Osipov&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
@@ -1305,16 +1306,17 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.codeship.com/docker-machine-compose-and-swarm-how-they-work-together&quot;&gt;Docker Machine, Compose, and Swarm: How They Work Together&lt;/a&gt; by &lt;strong&gt;Jonas Rosland&lt;/strong&gt; (added 2. Oct 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.brianchristner.io/how-to-scale-a-docker-container-with-docker-compose/&quot;&gt;How to Scale Docker Containers with Docker-Compose&lt;/a&gt; by &lt;strong&gt;Brian Christner&lt;/strong&gt; (added 17. Sep 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/iron-io-blog/the-easiest-way-to-develop-with-go-introducing-a-docker-based-go-tool-c456238507d6&quot;&gt;The Easiest Way to Develop with Go — Introducing a Docker Based Go Tool&lt;/a&gt; by &lt;strong&gt;Travis Reeder&lt;/strong&gt; (added 2. Sep 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/iron-io-blog/the-easiest-way-to-develop-with-go-introducing-a-docker-based-go-tool-c456238507d6&quot;&gt;The Easiest Way to Develop with Go — Introducing a Docker Based Go Tool&lt;/a&gt; by &lt;strong&gt;Travis Reeder&lt;/strong&gt; (added 2. Sep 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/running-a-tor-relay-with-docker&quot;&gt;Running a Tor relay with Docker&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 27. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.hypriot.com/post/run-your-own-github-like-service-with-docker&quot;&gt;Run your own GitHub-like service with the help of Docker&lt;/a&gt; by &lt;strong&gt;Mathias Renner, Andreas Eiermann, Govinda Fichtner&lt;/strong&gt; (added 9. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container&quot;&gt;How to Route Traffic through a Tor Docker container&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/R-containers-for-data-science&quot;&gt;Using an R Container for Analytical Models&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Docker &lt;small&gt;How to use the APIs&lt;/small&gt;&lt;/h3&gt;
+&lt;h3&gt;Docker &lt;small&gt;How to use (and understand) the APIs&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://merrigrove.blogspot.co.uk/2015/10/visualizing-docker-containers-and-images.html&quot;&gt;Visualizing Docker Containers and Images&lt;/a&gt; by &lt;strong&gt;Daniel Eklund&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.activestate.com/blog/2015/06/wrangling-different-docker-apis&quot;&gt;Wrangling the Different Docker APIs&lt;/a&gt; by &lt;strong&gt;Alex Hartford&lt;/strong&gt; (added 23. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.centurylinklabs.com/gracefully-stopping-docker-containers/&quot;&gt;Gracefully Stopping Docker Containers&lt;/a&gt; by &lt;strong&gt;Brian DeHamer&lt;/strong&gt; (added 20. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://cocoahunter.com/2015/01/23/docker-2/&quot;&gt;Setting up a private Docker registry&lt;/a&gt; by &lt;strong&gt;Michelangelo Chasseur&lt;/strong&gt; (added 29. Jan 2015) &lt;/li&gt;
@@ -1413,6 +1415,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;(Overlay) Network &lt;small&gt;solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015)&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/&quot;&gt;Using Docker Machine with Weave 0.10&lt;/a&gt; by &lt;strong&gt;Weaveblog.com&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://wiredcraft.com/blog/multi-host-docker-network/&quot;&gt;Multi-Host Docker Network&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;

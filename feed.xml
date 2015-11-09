@@ -1372,9 +1372,6 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/on-docker-container-composition-a98788f1aa3c&quot;&gt;On Docker Container Composition&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 27. Nov 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container42.com/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/&quot;&gt;Persistent volumes with Docker - Data-only container pattern&lt;/a&gt; by &lt;strong&gt;Container 42&lt;/strong&gt; (added 27. Nov 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.hokstad.com/docker/patterns&quot;&gt;Eight Docker Development Patterns&lt;/a&gt; by &lt;strong&gt;Vidar Hokstad&lt;/strong&gt; (added 23. Oct 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-network-and.html&quot;&gt;Storage Concepts in Docker: Network and Cloud Storage&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 23. Oct 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-persistent.html&quot;&gt;Storage Concepts in Docker: Persistent Storage&lt;/a&gt; &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 16. Oct 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker.html&quot;&gt;Storage Concepts in Docker: Shared Storage and the VOLUME directive&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 9. Oct 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
@@ -1393,6 +1390,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Container clusters &lt;small&gt;and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/swarm-1-0/&quot;&gt;Swarm 1.0: Production-ready clustering at any scale&lt;/a&gt; by &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/multicontainer-applications-docker-compose-swarm&quot;&gt;Multi-container Applications using Docker Compose and Swarm&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.factual.com/docker-mesos-marathon-and-the-end-of-pets&quot;&gt;Docker, Mesos, Marathon, and the End of Pets&lt;/a&gt; by &lt;strong&gt;Boris Shimanovsky&lt;/strong&gt; (added 4. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://sebgoa.blogspot.de/2015/04/1-command-to-kubernetes-with-docker.html&quot;&gt;1 Command to Kubernetes&lt;/a&gt; and &lt;a href=&quot;http://sebgoa.blogspot.ch/2015/03/1-command-to-mesos-with-docker-compose.html&quot;&gt;1 Command to Mesos&lt;/a&gt; by &lt;strong&gt;Sebastien Goasguen&lt;/strong&gt; (added 17. Apr 2015) &lt;/li&gt;
@@ -1415,6 +1413,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;(Overlay) Network &lt;small&gt;solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/docker-multi-host-networking-ga&quot;&gt;Multi-Host Docker Networking is now ready for production&lt;/a&gt; by &lt;strong&gt;Dave Tucker&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015)&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/&quot;&gt;Using Docker Machine with Weave 0.10&lt;/a&gt; by &lt;strong&gt;Weaveblog.com&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;
@@ -1425,6 +1424,15 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://containerops.org/2014/11/11/future-of-docker-networking&quot;&gt;Future of Docker Networking&lt;/a&gt; by &lt;strong&gt;Milos Gajdos&lt;/strong&gt; (added 13. Nov 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://thenewstack.io/sdn-and-dockerfiles-for-clocker-the-docker-cloud-maker/&quot;&gt;SDN and Dockerfiles for Clocker, the Docker Cloud Maker&lt;/a&gt; by &lt;strong&gt;Andrew Donald Kennedy&lt;/strong&gt; (added 16. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/zettio/weave&quot;&gt;Weave - the Docker network&lt;/a&gt; by &lt;strong&gt;Zettio&lt;/strong&gt; (added 18. Sep 2014) &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Data persistence &lt;small&gt;for statefull services&lt;/small&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.emccode.com/2015/11/03/use-docker-swarm-with-a-data-persistence-layer&quot;&gt;Use Docker Swarm with a data persistence layer&lt;/a&gt; by &lt;strong&gt;Jonas Rosland&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-network-and.html&quot;&gt;Storage Concepts in Docker: Network and Cloud Storage&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 23. Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker-persistent.html&quot;&gt;Storage Concepts in Docker: Persistent Storage&lt;/a&gt; &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 16. Oct 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker.html&quot;&gt;Storage Concepts in Docker: Shared Storage and the VOLUME directive&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 9. Oct 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;How to monitor and manage docker &lt;small&gt;performance&lt;/small&gt;&lt;/h3&gt;

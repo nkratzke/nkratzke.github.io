@@ -1414,7 +1414,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;(Overlay) Network &lt;small&gt;solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by _&lt;em&gt;Antoni Segura Puimedon _&lt;/em&gt; (added 15. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by &lt;strong&gt;Antoni Segura Puimedon&lt;/strong&gt; (added 15. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/docker-multi-host-networking-ga&quot;&gt;Multi-Host Docker Networking is now ready for production&lt;/a&gt; by &lt;strong&gt;Dave Tucker&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015)&lt;br&gt;&lt;/li&gt;

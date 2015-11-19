@@ -46,6 +46,7 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2015/progI/Unit05.pdf&quot;&gt;Recursive and functional programming&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ws2015/progI/Unit06.pdf&quot;&gt;OO and UML&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2015/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -90,6 +91,7 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 &lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2015/progI/Unit04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt; (skipped, just for self study)&lt;/li&gt;
 &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2015/progI/Unit05.pdf&quot;&gt;Recursive programming&lt;/a&gt; (functional programming skipped, just for self study)&lt;/li&gt;
 &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2015/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -121,8 +123,8 @@ My students implemented several classical games as &lt;a href=&quot;https://www.
 
       </description>
       <pubDate>Wed, 15 Jul 2015 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2015/07/15/and-the-winner-is-tetris.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2015/07/15/and-the-winner-is-tetris.html</guid>
+      <link>http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</guid>
     </item>
     
     <item>
@@ -1414,11 +1416,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;(Overlay) Network &lt;small&gt;solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-<<<<<<< HEAD
 &lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by _&lt;em&gt;Antoni Segura Puimedon _&lt;/em&gt; (added 15. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-=======
-&lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by &lt;strong&gt;Antoni Segura Puimedon&lt;/strong&gt; (added 15. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
->>>>>>> origin/master
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/docker-multi-host-networking-ga&quot;&gt;Multi-Host Docker Networking is now ready for production&lt;/a&gt; by &lt;strong&gt;Dave Tucker&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015)&lt;br&gt;&lt;/li&gt;
@@ -2403,8 +2401,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Fri, 28 Feb 2014 15:12:00 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/28/dart-part-ii.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/28/dart-part-ii.html</guid>
+      <link>http://www.nkode.io//2014/02/28/dart-part-II.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2014/02/28/dart-part-II.html</guid>
     </item>
     
     <item>
@@ -2889,8 +2887,8 @@ conversion of data formats (often used in the web domain)&lt;/em&gt;.&lt;/p&gt;
 
       </description>
       <pubDate>Thu, 13 Feb 2014 09:39:48 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/13/dart-part-i.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/13/dart-part-i.html</guid>
+      <link>http://www.nkode.io//2014/02/13/dart-part-I.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2014/02/13/dart-part-I.html</guid>
     </item>
     
     <item>

@@ -54,6 +54,14 @@ img {
 	filter: grayscale(100%);
 }
 
+img.nogrey {
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
 .aboutme img {
 	-webkit-filter: grayscale(0%);
 	-moz-filter: grayscale(0%);
@@ -859,6 +867,10 @@ article.post table.project tr td ul {
 	padding-left: 0px;
 }
 
+table.project tr:last-child {
+	border-bottom: 0px solid transparent;
+}
+
 /* DISCLOSURE BLAMEING */
 .thesis .disclosure {
 	background-color: #ad0a22;
@@ -949,4 +961,33 @@ article.post table.project tr td ul {
 
 .footer a:hover, .share a:hover {
 	color: white;
+}
+
+/*****************************************************************************/
+/*
+/* Tables
+/*
+/*****************************************************************************/
+
+td, th {
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+thead tr {
+	background-color: #ddd;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #eee;
+}
+
+table + p {
+	font-size: 0.9em;
+	font-weight: bold;
+	margin-bottom: 2em;
+}
+
+table {
+	margin-top: 2em;
 }

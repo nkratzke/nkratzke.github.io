@@ -2,7 +2,13 @@
 	<SaleData>
 		<product>SmartPhone V0</product>
 		<region>North America</region>
-		<volume>6963104</volume>
+		<volume>100000</volume>
+		<currency>USD</currency>
+	</SaleData>
+	<SaleData>
+		<product>SmartPhone V0</product>
+		<region>Middle America</region>
+		<volume>100000</volume>
 		<currency>USD</currency>
 	</SaleData>
 </Sales>

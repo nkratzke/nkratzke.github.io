@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.nkode.io/2015/11/24/how-to-operate-container-clusters-more-efficiently.html</loc>
+    <lastmod>2015-11-24T00:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://www.nkode.io/lecture/2015/09/16/lecture-programming-i.html</loc>
     <lastmod>2015-09-16T00:00:00+02:00</lastmod>
   </url>
@@ -416,6 +420,12 @@
   <url>
     <loc>http://www.nkode.io/tag/benchmark/</loc>
   </url>
+  <url>
+    <loc>http://www.nkode.io/tag/weave/</loc>
+  </url>
+  <url>
+    <loc>http://www.nkode.io/tag/sdn/</loc>
+  </url>
     <url>
       <loc>http://www.nkode.io/lecture/2012/09/01/lecture-db-web-programming.html</loc>
     </url>
@@ -529,6 +539,9 @@
     </url>
     <url>
       <loc>http://www.nkode.io/lecture/2015/09/16/lecture-programming-i.html</loc>
+    </url>
+    <url>
+      <loc>http://www.nkode.io/2015/11/24/how-to-operate-container-clusters-more-efficiently.html</loc>
     </url>
   <url>
     <loc>http://www.nkode.io/assets/ss2015/webtech/games/breakout/game.html</loc>

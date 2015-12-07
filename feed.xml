@@ -7,6 +7,161 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>New Paper: How to Operate Container Clusters more Efficiently?</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/sdn.jpg&quot;&gt;
+        
+        &lt;p&gt;&lt;strong&gt;Abstract.&lt;/strong&gt; In previous work, we concluded that container technologies and overlay networks typically have negative performance impacts, 
+mainly due to an additional layer to networking. This is what everybody would expect, only the degree of impact might be questionable. 
+These negative performance impacts can be accepted (if they stay moderate), 
+due to a better flexibility and manageability of the resulting systems. 
+However, we draw our conclusion only on data covering small core machine types. 
+This extended work additionally analyzed the impact of various (high core) machine 
+types of different public cloud service providers (Amazon Web Services, AWS and Google Compute Engine, GCE) 
+and comes to a more differentiated view and some astonishing results for high core machine types. 
+Our findings stand to reason that a simple and cost effective strategy is to 
+operate container cluster with highly similar high core machine types 
+(even across different cloud service providers). 
+This strategy should cover major relevant and complex data transfer rate 
+reducing effects of containers, container clusters and software-defined-networks appropriately.&lt;/p&gt;
+
+&lt;h3&gt;TL;DR;&lt;/h3&gt;
+
+&lt;p&gt;We present some insights concerning containers, software-defined-networks, 
+and their sometimes counterintuitive impact on network performance.&lt;/p&gt;
+
+&lt;p&gt;In short: From a performance point of view, &lt;strong&gt;it  seems  to  be  a  simple  strategy  to operate  container  clusters
+with most  similar  high  core machine  types across different providers.&lt;/strong&gt; We were  pleased  to  see, that the most similar
+machine types across AWS and GCE are far away from being the most expensive machine types provided by both  providers. 
+Thus, our similarity-based  virtual machine type selection strategy seems to be a cost effective strategy as well. &lt;/p&gt;
+
+&lt;p&gt;If you want to know more. The paper is going to be published in &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.iariajournals.org/networks_and_services/&quot;&gt;International Journal on Advances in Networks and Services&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You may want to check the paper on &lt;a href=&quot;https://www.researchgate.net/publication/284501557&quot;&gt;ResearchGate&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You will find informations how to cite the paper &lt;a href=&quot;/bibliography/KQ2015a.html&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Absolute data transfer rates of bare (grey), containerized (red) and SDN (blue) connected services&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/absolute-container-sdn.png&quot; width=100%&gt;
+&lt;strong&gt;Median transfer rates with 90% confidence bands (5% and 95% percentile) 
+and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Relative impact of containers (red) and SDN (blue) compared with a bare (grey) deployment&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/relative-container-sdn.png&quot; width=100%&gt;
+&lt;strong&gt;Relative transfer rates and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Summary of details concerning container impact&lt;/h3&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: left&quot;&gt;Machine type&lt;/th&gt;
+&lt;th style=&quot;text-align: center&quot;&gt;cores&lt;/th&gt;
+&lt;th style=&quot;text-align: center&quot;&gt;small messages&lt;/th&gt;
+&lt;th style=&quot;text-align: center&quot;&gt; big messages&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;AWS m3.large&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;90% - 100%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;100% - 110%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;GCE n1-stanard-2&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;95%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;95% - 100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;AWS m3.xlarge&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;90%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;120% - 130%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;GCE n1-stanard-4&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;95%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;120% - 130%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;AWS m3.2xlarge&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;90%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;110% - 130%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;GCE n1-stanard-8&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;90%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;110% - 120%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;caption&gt;Performance impacts of an additional container layer (Docker)&lt;/caption&gt;&lt;/p&gt;
+
+&lt;h3&gt;Summary of details concerning SDN impact&lt;/h3&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: left&quot;&gt;Machine type&lt;/th&gt;
+&lt;th style=&quot;text-align: center&quot;&gt;cores&lt;/th&gt;
+&lt;th style=&quot;text-align: center&quot;&gt;small messages&lt;/th&gt;
+&lt;th style=&quot;text-align: center&quot;&gt; big messages&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;AWS m3.large&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;45%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;60%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;GCE n1-stanard-2&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;25% - 80%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;25%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;AWS m3.xlarge&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;60%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;90% - 100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;GCE n1-stanard-4&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;40% - 100%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;60%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;AWS m3.2xlarge&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;70% - 80%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;90% - 100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;GCE n1-stanard-8&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;55% - 80%&lt;/td&gt;
+&lt;td style=&quot;text-align: center&quot;&gt;70%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;caption&gt;Performance impacts of an additional SDN layer (Weave)&lt;/caption&gt;&lt;/p&gt;
+
+      </description>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//2015/11/24/how-to-operate-container-clusters-more-efficiently.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2015/11/24/how-to-operate-container-clusters-more-efficiently.html</guid>
+    </item>
+    
+    <item>
       <title>Programming I (Winter 2015)</title>
       <description>
         
@@ -46,6 +201,7 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2015/progI/Unit05.pdf&quot;&gt;Recursive and functional programming&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ws2015/progI/Unit06.pdf&quot;&gt;OO and UML&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2015/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -90,6 +246,7 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 &lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2015/progI/Unit04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt; (skipped, just for self study)&lt;/li&gt;
 &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2015/progI/Unit05.pdf&quot;&gt;Recursive programming&lt;/a&gt; (functional programming skipped, just for self study)&lt;/li&gt;
 &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2015/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -1304,7 +1461,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Cool things &lt;small&gt;you can do with Docker (toolbox) easily&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.codeship.com/docker-machine-compose-and-swarm-how-they-work-together&quot;&gt;Docker Machine, Compose, and Swarm: How They Work Together&lt;/a&gt; by &lt;strong&gt;Jonas Rosland&lt;/strong&gt; (added 2. Oct 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.codeship.com/docker-machine-compose-and-swarm-how-they-work-together&quot;&gt;Docker Machine, Compose, and Swarm: How They Work Together&lt;/a&gt; by &lt;strong&gt;Jonas Rosland&lt;/strong&gt; (added 2. Oct 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.brianchristner.io/how-to-scale-a-docker-container-with-docker-compose/&quot;&gt;How to Scale Docker Containers with Docker-Compose&lt;/a&gt; by &lt;strong&gt;Brian Christner&lt;/strong&gt; (added 17. Sep 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/iron-io-blog/the-easiest-way-to-develop-with-go-introducing-a-docker-based-go-tool-c456238507d6&quot;&gt;The Easiest Way to Develop with Go — Introducing a Docker Based Go Tool&lt;/a&gt; by &lt;strong&gt;Travis Reeder&lt;/strong&gt; (added 2. Sep 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jessfraz.com/post/running-a-tor-relay-with-docker&quot;&gt;Running a Tor relay with Docker&lt;/a&gt; by &lt;strong&gt;Jessie Frazelle&lt;/strong&gt; (added 27. Aug 2015) &lt;/li&gt;
@@ -1377,7 +1534,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://superuser.openstack.org/articles/using-docker-machine-with-openstack&quot;&gt;Using Docker Machine with OpenStack&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 8. Oct 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://superuser.openstack.org/articles/using-docker-machine-with-openstack&quot;&gt;Using Docker Machine with OpenStack&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 8. Oct 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-1/&quot;&gt;OpenStack and Docker (Part I)&lt;/a&gt; and &lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Sreenivas Makam&lt;/strong&gt; (added 18. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linoxide.com/linux-how-to/use-docker-machine-cloud-provider/&quot;&gt;How to Use Docker Machine with a Cloud Provider&lt;/a&gt; by &lt;strong&gt;Arun Paysi&lt;/strong&gt; (added 20. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/aws-activate-startup-blog/running-services-using-docker-and-amazon-ec2-container-service-bde16b099cb9&quot;&gt;Running Services Using Docker and Amazon EC2 Container Service&lt;/a&gt; by &lt;strong&gt;Nate Slater&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
@@ -1390,6 +1547,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Container clusters &lt;small&gt;and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/wagl&quot;&gt;wagl: Service Discovery for Docker Swarm&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 7. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/deploy-manage-cluster-docker-swarm/&quot;&gt;Deploy and Manage Any Cluster Manager with Docker Swarm&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; (added 14. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/swarm-1-0/&quot;&gt;Swarm 1.0: Production-ready clustering at any scale&lt;/a&gt; by &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/multicontainer-applications-docker-compose-swarm&quot;&gt;Multi-container Applications using Docker Compose and Swarm&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Jul 2015) &lt;/li&gt;
@@ -1414,7 +1572,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;(Overlay) Network &lt;small&gt;solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by &lt;strong&gt;Antoni Segura Puimedon&lt;/strong&gt; (added 15. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by _&lt;em&gt;Antoni Segura Puimedon _&lt;/em&gt; (added 15. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/docker-multi-host-networking-ga&quot;&gt;Multi-Host Docker Networking is now ready for production&lt;/a&gt; by &lt;strong&gt;Dave Tucker&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015)&lt;br&gt;&lt;/li&gt;
@@ -1837,7 +1995,11 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more efficiently? Some Insights concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;6&lt;/i&gt;(34).&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4).&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/284501557&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;

@@ -1521,6 +1521,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/wagl&quot;&gt;wagl: Service Discovery for Docker Swarm&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 7. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df&quot;&gt;Building the perfect data container&lt;/a&gt; by &lt;strong&gt;Mattias Holmlund&lt;/strong&gt; (added 27. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://abdelrahmanhosny.com/2015/07/01/3-solutions-to-bi-directional-linking-problem-in-docker-compose&quot;&gt;Three Solutions to Bi-directional Linking Problem in Docker Compose&lt;/a&gt; by &lt;strong&gt;Abdelrahman Hosny&lt;/strong&gt; (added 9. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://12factor.net/&quot;&gt;The Twelve Factor App (not just for Docker)&lt;/a&gt; by &lt;strong&gt;Adam Wiggins&lt;/strong&gt; (added 6. Apr 2015) &lt;/li&gt;
@@ -1534,7 +1535,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Docker &lt;small&gt;on IaaS or PaaS&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://superuser.openstack.org/articles/using-docker-machine-with-openstack&quot;&gt;Using Docker Machine with OpenStack&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 8. Oct 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://superuser.openstack.org/articles/using-docker-machine-with-openstack&quot;&gt;Using Docker Machine with OpenStack&lt;/a&gt; by &lt;strong&gt;Scott Lowe&lt;/strong&gt; (added 8. Oct 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-1/&quot;&gt;OpenStack and Docker (Part I)&lt;/a&gt; and &lt;a href=&quot;https://sreeninet.wordpress.com/2015/06/14/openstack-and-docker-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Sreenivas Makam&lt;/strong&gt; (added 18. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linoxide.com/linux-how-to/use-docker-machine-cloud-provider/&quot;&gt;How to Use Docker Machine with a Cloud Provider&lt;/a&gt; by &lt;strong&gt;Arun Paysi&lt;/strong&gt; (added 20. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/aws-activate-startup-blog/running-services-using-docker-and-amazon-ec2-container-service-bde16b099cb9&quot;&gt;Running Services Using Docker and Amazon EC2 Container Service&lt;/a&gt; by &lt;strong&gt;Nate Slater&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;

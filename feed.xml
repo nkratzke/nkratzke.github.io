@@ -1521,7 +1521,6 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/wagl&quot;&gt;wagl: Service Discovery for Docker Swarm&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 7. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df&quot;&gt;Building the perfect data container&lt;/a&gt; by &lt;strong&gt;Mattias Holmlund&lt;/strong&gt; (added 27. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://abdelrahmanhosny.com/2015/07/01/3-solutions-to-bi-directional-linking-problem-in-docker-compose&quot;&gt;Three Solutions to Bi-directional Linking Problem in Docker Compose&lt;/a&gt; by &lt;strong&gt;Abdelrahman Hosny&lt;/strong&gt; (added 9. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://12factor.net/&quot;&gt;The Twelve Factor App (not just for Docker)&lt;/a&gt; by &lt;strong&gt;Adam Wiggins&lt;/strong&gt; (added 6. Apr 2015) &lt;/li&gt;
@@ -1548,6 +1547,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Container clusters &lt;small&gt;and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/wagl&quot;&gt;wagl: Service Discovery for Docker Swarm&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 7. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/deploy-manage-cluster-docker-swarm/&quot;&gt;Deploy and Manage Any Cluster Manager with Docker Swarm&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; (added 14. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/swarm-1-0/&quot;&gt;Swarm 1.0: Production-ready clustering at any scale&lt;/a&gt; by &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/multicontainer-applications-docker-compose-swarm&quot;&gt;Multi-container Applications using Docker Compose and Swarm&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Jul 2015) &lt;/li&gt;
@@ -1572,6 +1572,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;(Overlay) Network &lt;small&gt;solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-bridge-overlay-network-compose-variable-substitution&quot;&gt;Docker Bridge and Overlay Network with Compose Variable Substitution&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by _&lt;em&gt;Antoni Segura Puimedon _&lt;/em&gt; (added 15. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/docker-multi-host-networking-ga&quot;&gt;Multi-Host Docker Networking is now ready for production&lt;/a&gt; by &lt;strong&gt;Dave Tucker&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -1595,9 +1596,10 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://cloud-mechanic.blogspot.de/2014/10/storage-concepts-in-docker.html&quot;&gt;Storage Concepts in Docker: Shared Storage and the VOLUME directive&lt;/a&gt; by &lt;strong&gt;Mark Lamourine&lt;/strong&gt; (added 9. Oct 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;How to monitor and manage docker &lt;small&gt;performance&lt;/small&gt;&lt;/h3&gt;
+&lt;h3&gt;How to log, monitor and manage docker &lt;small&gt;performance&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.loggly.com/blog/what-does-the-docker-daemon-log-contain&quot;&gt;What Does the Docker Daemon Log Contain?&lt;/a&gt; by &lt;strong&gt;Andre Newmann&lt;/strong&gt; (added 17. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://labs.ctl.io/monitoring-docker-services-with-prometheus&quot;&gt;Monitoring Docker Services with Prometheus&lt;/a&gt; by &lt;strong&gt;Rupak Ganguly&lt;/strong&gt; (added 23. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.brianchristner.io/how-to-setup-docker-monitoring/&quot;&gt;How to Setup Docker Monitoring&lt;/a&gt; by &lt;strong&gt;Brian Christner&lt;/strong&gt; (added 28. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://rancher.com/comparing-monitoring-options-for-docker-deployments/&quot;&gt;Comparing Five Monitoring Options for Docker&lt;/a&gt; and &lt;a href=&quot;http://rancher.com/docker-monitoring-continued-prometheus-and-sysdig/&quot;&gt;Docker Monitoring Continued&lt;/a&gt; by &lt;strong&gt;Usman Ismail&lt;/strong&gt; (added 24. Apr 2015) &lt;/li&gt;

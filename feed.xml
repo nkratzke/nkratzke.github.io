@@ -1420,7 +1420,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.datadoghq.com/docker-adoption/&quot;&gt;Eight Surprising Facts about Real Docker Adoption&lt;/a&gt; by &lt;strong&gt;datadoghq.com&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.datadoghq.com/docker-adoption/&quot;&gt;Eight Surprising Facts about Real Docker Adoption&lt;/a&gt; by &lt;strong&gt;datadoghq.com&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://valdhaus.co/writings/docker-misconceptions&quot;&gt;Docker Misconceptions&lt;/a&gt; by &lt;strong&gt;Matt Jaynes&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://venturebeat.com/2015/06/30/10-myths-about-enterprise-adoption-of-docker&quot;&gt;10 myths about enterprise adoption of Docker&lt;/a&gt; by &lt;strong&gt;Bob Quillin&lt;/strong&gt; (added 9. Jul 2015)&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://linkis.com/cloudswithcarl.com/f8FdQ?mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX57ugtX6e0lMI%2F0ER3fOvrPUfGjI4ATcBgI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D&quot;&gt;Top 10 takeaways the day after #DockerCon&lt;/a&gt; by &lt;strong&gt;Carl Osipov&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
@@ -1434,7 +1434,8 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.sitepoint.com/docker-and-dockerfiles-made-easy&quot;&gt;Docker and Dockerfiles Made Easy!&lt;/a&gt; by &lt;strong&gt;Younies Rafie&lt;/strong&gt; (added 22. Oct 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage&quot;&gt;10 Practical Docker Tips for Day to Day Docker usage (see especially Tip 3: docker inspect and jq)&lt;/a&gt; by &lt;strong&gt;Jos Dirksen&lt;/strong&gt; (added 28. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sitepoint.com/docker-and-dockerfiles-made-easy&quot;&gt;Docker and Dockerfiles Made Easy!&lt;/a&gt; by &lt;strong&gt;Younies Rafie&lt;/strong&gt; (added 22. Oct 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-toolbox&quot;&gt;Docker Toolbox&lt;/a&gt; by &lt;strong&gt;Aron Gupta&lt;/strong&gt; (added 19. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet&quot;&gt;Docker Tips and Cheatsheet&lt;/a&gt; by &lt;strong&gt;Jake Zimmermann&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.conetix.com.au/blog/docker-compose-quick-intro&quot;&gt;Docker Compose: A Quick Intro&lt;/a&gt; by &lt;strong&gt;Tim Butler&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
@@ -1473,7 +1474,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Docker &lt;small&gt;How to use (and understand) the APIs&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://merrigrove.blogspot.co.uk/2015/10/visualizing-docker-containers-and-images.html&quot;&gt;Visualizing Docker Containers and Images&lt;/a&gt; by &lt;strong&gt;Daniel Eklund&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://merrigrove.blogspot.co.uk/2015/10/visualizing-docker-containers-and-images.html&quot;&gt;Visualizing Docker Containers and Images&lt;/a&gt; by &lt;strong&gt;Daniel Eklund&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.activestate.com/blog/2015/06/wrangling-different-docker-apis&quot;&gt;Wrangling the Different Docker APIs&lt;/a&gt; by &lt;strong&gt;Alex Hartford&lt;/strong&gt; (added 23. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.centurylinklabs.com/gracefully-stopping-docker-containers/&quot;&gt;Gracefully Stopping Docker Containers&lt;/a&gt; by &lt;strong&gt;Brian DeHamer&lt;/strong&gt; (added 20. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://cocoahunter.com/2015/01/23/docker-2/&quot;&gt;Setting up a private Docker registry&lt;/a&gt; by &lt;strong&gt;Michelangelo Chasseur&lt;/strong&gt; (added 29. Jan 2015) &lt;/li&gt;
@@ -1547,6 +1548,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Container clusters &lt;small&gt;and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://container-solutions.com/using-binpack-with-docker-swarm&quot;&gt;Using binpack with Docker Swarm&lt;/a&gt;  by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 28. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/wagl&quot;&gt;wagl: Service Discovery for Docker Swarm&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 7. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/deploy-manage-cluster-docker-swarm/&quot;&gt;Deploy and Manage Any Cluster Manager with Docker Swarm&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; (added 14. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/swarm-1-0/&quot;&gt;Swarm 1.0: Production-ready clustering at any scale&lt;/a&gt; by &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -1575,7 +1577,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-bridge-overlay-network-compose-variable-substitution&quot;&gt;Docker Bridge and Overlay Network with Compose Variable Substitution&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by _&lt;em&gt;Antoni Segura Puimedon _&lt;/em&gt; (added 15. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/docker-multi-host-networking-ga&quot;&gt;Multi-Host Docker Networking is now ready for production&lt;/a&gt; by &lt;strong&gt;Dave Tucker&lt;/strong&gt; (added 9. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015)&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/&quot;&gt;Using Docker Machine with Weave 0.10&lt;/a&gt; by &lt;strong&gt;Weaveblog.com&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://wiredcraft.com/blog/multi-host-docker-network/&quot;&gt;Multi-Host Docker Network&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
@@ -1615,6 +1617,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blyx.com/2015/12/01/docker-security-tools-audit-and-vulnerability-assessment&quot;&gt;Docker Security Tools: Audit and Vulnerability Assessment&lt;/a&gt; by &lt;strong&gt;Toni de la Fuente&lt;/strong&gt; (added 28. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://coreos.com/blog/vulnerability-analysis-for-containers/&quot;&gt;CoreOS Introduces Clair: Open Source Vulnerability Analysis for your Containers&lt;/a&gt; by &lt;strong&gt;Quentin Mochu&lt;/strong&gt; (added 14. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://rudijs.github.io/2015-07/docker-restricting-container-access-with-iptables&quot;&gt;Restricting Docker Container Access with Iptables&lt;/a&gt; by &lt;strong&gt;Rudi Starcevic&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/docker-security-cheat-sheet/&quot;&gt;Docker Security Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 18. Jun 2015) &lt;/li&gt;
@@ -1627,13 +1630,10 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines&quot;&gt;Docker Secure Deployment Guide&lt;/a&gt; by &lt;strong&gt;Quentin Grosperring&lt;/strong&gt; (added 15. Jan 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@allingeek/safer-local-docker-networks-8ce22127f9df&quot;&gt;Safer Local Docker Networks&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 8. Jan 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/docker-http-basic-auth/&quot;&gt;Securing Docker with HTTP Basic Authentication&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 30. Oct 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.zdnet.com/docker-1-3-arrives-with-improved-security-7000034810/&quot;&gt;Docker 1.3 arrives with improved security&lt;/a&gt; by &lt;strong&gt;Steven Vaughan-Nicols&lt;/strong&gt; (added 23. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.informationweek.com/cloud/infrastructure-as-a-service/how-docker-changes-cloud-security/a/d-id/1316793?_mc=RSS_IWK_EDT&quot;&gt;How Docker Changes Cloud Security&lt;/a&gt; by &lt;strong&gt;Lucas Carlson&lt;/strong&gt; (added 23. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://brianchristner.io/updating-your-docker-containers-for-shellshock/&quot;&gt;Updating your Docker for Shellshock&lt;/a&gt; by &lt;strong&gt;Brian Christner&lt;/strong&gt; (added 3. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/9/security-for-docker&quot;&gt;Bringing new security features to Docker&lt;/a&gt; by &lt;strong&gt;Daniel Walsh&lt;/strong&gt; (added 4. Sep 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://opensource.com/business/14/7/docker-security-selinux&quot;&gt;Docker security with SELinux&lt;/a&gt; by &lt;strong&gt;Daniel Walsh&lt;/strong&gt; (added 25. Jul 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://de.slideshare.net/jpetazzo/is-it-safe-to-run-applications-in-linux-containers&quot;&gt;Is it safe to run applications in Linux Containers&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 25. Jul 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.openshift.com/blogs/securing-docker%E2%80%99s-future-with-selinux-and-the-open-source-way&quot;&gt;Securing Docker&amp;#39;s Future with SELinux and the Open Source Way&lt;/a&gt; by &lt;strong&gt;OpenShift&lt;/strong&gt; (added 10. Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

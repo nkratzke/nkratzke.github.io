@@ -1618,6 +1618,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://jaxenter.com/docker-and-security-how-do-they-fit-together-122333.html&quot;&gt;Docker and Security: How do they fit together?&lt;/a&gt; by &lt;strong&gt;Andreas Schmidt&lt;/strong&gt; and &lt;strong&gt;Dustin Huptas&lt;/strong&gt; (added 7. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blyx.com/2015/12/01/docker-security-tools-audit-and-vulnerability-assessment&quot;&gt;Docker Security Tools: Audit and Vulnerability Assessment&lt;/a&gt; by &lt;strong&gt;Toni de la Fuente&lt;/strong&gt; (added 28. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://coreos.com/blog/vulnerability-analysis-for-containers/&quot;&gt;CoreOS Introduces Clair: Open Source Vulnerability Analysis for your Containers&lt;/a&gt; by &lt;strong&gt;Quentin Mochu&lt;/strong&gt; (added 14. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://rudijs.github.io/2015-07/docker-restricting-container-access-with-iptables&quot;&gt;Restricting Docker Container Access with Iptables&lt;/a&gt; by &lt;strong&gt;Rudi Starcevic&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;

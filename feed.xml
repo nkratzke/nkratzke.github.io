@@ -1550,7 +1550,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/using-binpack-with-docker-swarm&quot;&gt;Using binpack with Docker Swarm&lt;/a&gt;  by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 28. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/wagl&quot;&gt;wagl: Service Discovery for Docker Swarm&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 7. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/deploy-manage-cluster-docker-swarm/&quot;&gt;Deploy and Manage Any Cluster Manager with Docker Swarm&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; (added 14. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/deploy-manage-cluster-docker-swarm/&quot;&gt;Deploy and Manage Any Cluster Manager with Docker Swarm&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; (added 14. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/swarm-1-0/&quot;&gt;Swarm 1.0: Production-ready clustering at any scale&lt;/a&gt; by &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 9. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/multicontainer-applications-docker-compose-swarm&quot;&gt;Multi-container Applications using Docker Compose and Swarm&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.factual.com/docker-mesos-marathon-and-the-end-of-pets&quot;&gt;Docker, Mesos, Marathon, and the End of Pets&lt;/a&gt; by &lt;strong&gt;Boris Shimanovsky&lt;/strong&gt; (added 4. Jun 2015) &lt;/li&gt;
@@ -1575,7 +1575,7 @@ to get further informations about Docker, Containerization and Microservices.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-bridge-overlay-network-compose-variable-substitution&quot;&gt;Docker Bridge and Overlay Network with Compose Variable Substitution&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by _&lt;em&gt;Antoni Segura Puimedon _&lt;/em&gt; (added 15. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by _&lt;em&gt;Antoni Segura Puimedon _&lt;/em&gt; (added 15. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/docker-multi-host-networking-ga&quot;&gt;Multi-Host Docker Networking is now ready for production&lt;/a&gt; by &lt;strong&gt;Dave Tucker&lt;/strong&gt; (added 9. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015)&lt;br&gt;&lt;/li&gt;
@@ -1620,7 +1620,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://jaxenter.com/docker-and-security-how-do-they-fit-together-122333.html&quot;&gt;Docker and Security: How do they fit together?&lt;/a&gt; by &lt;strong&gt;Andreas Schmidt&lt;/strong&gt; and &lt;strong&gt;Dustin Huptas&lt;/strong&gt; (added 7. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blyx.com/2015/12/01/docker-security-tools-audit-and-vulnerability-assessment&quot;&gt;Docker Security Tools: Audit and Vulnerability Assessment&lt;/a&gt; by &lt;strong&gt;Toni de la Fuente&lt;/strong&gt; (added 28. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://coreos.com/blog/vulnerability-analysis-for-containers/&quot;&gt;CoreOS Introduces Clair: Open Source Vulnerability Analysis for your Containers&lt;/a&gt; by &lt;strong&gt;Quentin Mochu&lt;/strong&gt; (added 14. Nov 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://coreos.com/blog/vulnerability-analysis-for-containers/&quot;&gt;CoreOS Introduces Clair: Open Source Vulnerability Analysis for your Containers&lt;/a&gt; by &lt;strong&gt;Quentin Mochu&lt;/strong&gt; (added 14. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://rudijs.github.io/2015-07/docker-restricting-container-access-with-iptables&quot;&gt;Restricting Docker Container Access with Iptables&lt;/a&gt; by &lt;strong&gt;Rudi Starcevic&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/docker-security-cheat-sheet/&quot;&gt;Docker Security Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 18. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/docker/docker-bench-security&quot;&gt;Docker Bench for Security&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 4. Jun 2015) &lt;/li&gt;
@@ -2020,7 +2020,7 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4).&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href=&#39;https://www.researchgate.net/publication/284501557&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;

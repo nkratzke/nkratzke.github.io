@@ -28,15 +28,15 @@ reducing effects of containers, container clusters and software-defined-networks
 
 &lt;h3&gt;TL;DR;&lt;/h3&gt;
 
-&lt;p&gt;We present some insights concerning containers, software-defined-networks, 
+&lt;p&gt;We present some insights concerning containers, overlay networks (especially weave), 
 and their sometimes counterintuitive impact on network performance.&lt;/p&gt;
 
-&lt;p&gt;In short: From a performance point of view, &lt;strong&gt;it  seems  to  be  a  simple  strategy  to operate  container  clusters
+&lt;p&gt;In short: From a performance point of view, &lt;strong&gt;it  seems  to  be  a  simple  strategy  to operate  container  clusters and overlay network solutions like weave
 with most  similar  high  core machine  types across different providers.&lt;/strong&gt; We were  pleased  to  see, that the most similar
 machine types across AWS and GCE are far away from being the most expensive machine types provided by both  providers. 
 Thus, our similarity-based  virtual machine type selection strategy seems to be a cost effective strategy as well. &lt;/p&gt;
 
-&lt;p&gt;If you want to know more. The paper is going to be published in &lt;/p&gt;
+&lt;p&gt;If you want to know more. The paper is has been published in &lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.iariajournals.org/networks_and_services/&quot;&gt;International Journal on Advances in Networks and Services&lt;/a&gt;.&lt;/li&gt;
@@ -44,18 +44,7 @@ Thus, our similarity-based  virtual machine type selection strategy seems to be 
 &lt;li&gt;You will find informations how to cite the paper &lt;a href=&quot;/bibliography/KQ2015a.html&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Absolute data transfer rates of bare (grey), containerized (red) and SDN (blue) connected services&lt;/h3&gt;
-
-&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/absolute-container-sdn.png&quot; width=100%&gt;
-&lt;strong&gt;Median transfer rates with 90% confidence bands (5% and 95% percentile) 
-and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3&gt;Relative impact of containers (red) and SDN (blue) compared with a bare (grey) deployment&lt;/h3&gt;
-
-&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/relative-container-sdn.png&quot; width=100%&gt;
-&lt;strong&gt;Relative transfer rates and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3&gt;Summary of details concerning container impact&lt;/h3&gt;
+&lt;h3&gt;Summary of details concerning container impact (Docker)&lt;/h3&gt;
 
 &lt;table&gt;&lt;thead&gt;
 &lt;tr&gt;
@@ -105,7 +94,7 @@ and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;
 
 &lt;p&gt;&lt;caption&gt;Performance impacts of an additional container layer (Docker)&lt;/caption&gt;&lt;/p&gt;
 
-&lt;h3&gt;Summary of details concerning SDN impact&lt;/h3&gt;
+&lt;h3&gt;Summary of details concerning overlay network impact (Weave)&lt;/h3&gt;
 
 &lt;table&gt;&lt;thead&gt;
 &lt;tr&gt;
@@ -154,6 +143,17 @@ and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;
 &lt;/tbody&gt;&lt;/table&gt;
 
 &lt;p&gt;&lt;caption&gt;Performance impacts of an additional SDN layer (Weave)&lt;/caption&gt;&lt;/p&gt;
+
+&lt;h3&gt;Absolute data transfer rates of bare (grey), containerized (red) and overlay network connected (blue) services&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/absolute-container-sdn.png&quot; width=100%&gt;
+&lt;strong&gt;Median transfer rates with 90% confidence bands (5% and 95% percentile) 
+and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Relative impact of containers (red) and overlay network (blue) compared with a bare (grey) deployment&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/relative-container-sdn.png&quot; width=100%&gt;
+&lt;strong&gt;Relative transfer rates and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
 
       </description>
       <pubDate>Tue, 24 Nov 2015 00:00:00 +0100</pubDate>

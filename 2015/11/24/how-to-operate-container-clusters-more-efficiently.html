@@ -78,7 +78,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			<h2>New Paper: How to Operate Container Clusters more Efficiently?</h2>
 			<p class="meta">
 			
-			<strong>24 Nov 2015</strong>
+			Latest update: <strong>2016-01-10</strong>
 			
 			</p>
 		</div>
@@ -153,15 +153,15 @@ reducing effects of containers, container clusters and software-defined-networks
 
 <h3>TL;DR;</h3>
 
-<p>We present some insights concerning containers, software-defined-networks, 
+<p>We present some insights concerning containers, overlay networks (especially weave), 
 and their sometimes counterintuitive impact on network performance.</p>
 
-<p>In short: From a performance point of view, <strong>it  seems  to  be  a  simple  strategy  to operate  container  clusters
+<p>In short: From a performance point of view, <strong>it  seems  to  be  a  simple  strategy  to operate  container  clusters and overlay network solutions like weave
 with most  similar  high  core machine  types across different providers.</strong> We were  pleased  to  see, that the most similar
 machine types across AWS and GCE are far away from being the most expensive machine types provided by both  providers. 
 Thus, our similarity-based  virtual machine type selection strategy seems to be a cost effective strategy as well. </p>
 
-<p>If you want to know more. The paper is going to be published in </p>
+<p>If you want to know more. The paper is has been published in </p>
 
 <ul>
 <li><a href="http://www.iariajournals.org/networks_and_services/">International Journal on Advances in Networks and Services</a>.</li>
@@ -169,18 +169,7 @@ Thus, our similarity-based  virtual machine type selection strategy seems to be 
 <li>You will find informations how to cite the paper <a href="/bibliography/KQ2015a.html">here</a>.</li>
 </ul>
 
-<h3>Absolute data transfer rates of bare (grey), containerized (red) and SDN (blue) connected services</h3>
-
-<p><img class='nogrey' src="/img/posts/absolute-container-sdn.png" width=100%>
-<strong>Median transfer rates with 90% confidence bands (5% and 95% percentile) 
-and TCP standard receive window of 83780 bytes (dotted lines)</strong></p>
-
-<h3>Relative impact of containers (red) and SDN (blue) compared with a bare (grey) deployment</h3>
-
-<p><img class='nogrey' src="/img/posts/relative-container-sdn.png" width=100%>
-<strong>Relative transfer rates and TCP standard receive window of 83780 bytes (dotted lines)</strong></p>
-
-<h3>Summary of details concerning container impact</h3>
+<h3>Summary of details concerning container impact (Docker)</h3>
 
 <table><thead>
 <tr>
@@ -230,7 +219,7 @@ and TCP standard receive window of 83780 bytes (dotted lines)</strong></p>
 
 <p><caption>Performance impacts of an additional container layer (Docker)</caption></p>
 
-<h3>Summary of details concerning SDN impact</h3>
+<h3>Summary of details concerning overlay network impact (Weave)</h3>
 
 <table><thead>
 <tr>
@@ -279,6 +268,17 @@ and TCP standard receive window of 83780 bytes (dotted lines)</strong></p>
 </tbody></table>
 
 <p><caption>Performance impacts of an additional SDN layer (Weave)</caption></p>
+
+<h3>Absolute data transfer rates of bare (grey), containerized (red) and overlay network connected (blue) services</h3>
+
+<p><img class='nogrey' src="/img/posts/absolute-container-sdn.png" width=100%>
+<strong>Median transfer rates with 90% confidence bands (5% and 95% percentile) 
+and TCP standard receive window of 83780 bytes (dotted lines)</strong></p>
+
+<h3>Relative impact of containers (red) and overlay network (blue) compared with a bare (grey) deployment</h3>
+
+<p><img class='nogrey' src="/img/posts/relative-container-sdn.png" width=100%>
+<strong>Relative transfer rates and TCP standard receive window of 83780 bytes (dotted lines)</strong></p>
 
 		
 			<hr>

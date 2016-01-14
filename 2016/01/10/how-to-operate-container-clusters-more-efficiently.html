@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
+    <meta property="twitter:account_id" content="4503599630726265" />
+    <title>New Paper: How to Operate Container Clusters more Efficiently?</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/customize.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+
+    
+
+    <link href='/feed.xml' rel='alternate' type='application/atom+xml'>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-380838-9']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+<div class="navbar navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    	<span class="sr-only">Toggle navigation</span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><div class="brand-icon"></div>nkode.io</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+  	    <li id="about"><a href="/about.html">About me</a></li>
+        <li id="blog"><a href="/blog.html">Blog</a></li>
+        <li id="research"><a href="/research.html">Research</a></li>
+        <li id="lectures"><a href="/lectures.html">Lectures</a></li>
+        <li id="thesis"><a href="/thesis.html">Thesis</a></li>
+        <li id="archive"><a href="/log.html">Log</a></li>
+  		  <li id="publications"><a href="/publications.html">Publications</a></li>
+    	</ul>
+    </div>
+  </div>
+</div>
+
+
+    
+    <div class="content">
+      <div class="container">
+        <article class="post ">
+	<header>
+		
+		<div class='imgteaser' style='background:transparent url("/img/posts/sdn.jpg") no-repeat center center;background-size:cover'>
+		</div>
+		
+		<div class="headline">
+			
+			<small>(Image: Freescale Semiconductor / flickr.com, Lizenz: CC BY-NC-ND 2.0)</small>
+			
+			<h2>New Paper: How to Operate Container Clusters more Efficiently?</h2>
+			<p class="meta">
+			
+			<strong>10 Jan 2016</strong>
+			
+			</p>
+		</div>
+	</header>
+	<section>
+		<div class="rightbar">
+			<h3>Tags </h3>
+			<div class="tags hidden-print">
+	<ul>
+	
+		<li><a href="/tag/blog"><span class="tag">#blog</span></a></li>
+	
+		<li><a href="/tag/paper"><span class="tag">#paper</span></a></li>
+	
+		<li><a href="/tag/research"><span class="tag">#research</span></a></li>
+	
+		<li><a href="/tag/container"><span class="tag">#container</span></a></li>
+	
+		<li><a href="/tag/cluster"><span class="tag">#cluster</span></a></li>
+	
+		<li><a href="/tag/cloud"><span class="tag">#cloud</span></a></li>
+	
+		<li><a href="/tag/docker"><span class="tag">#docker</span></a></li>
+	
+		<li><a href="/tag/weave"><span class="tag">#weave</span></a></li>
+	
+		<li><a href="/tag/sdn"><span class="tag">#sdn</span></a></li>
+	
+	</ul>
+</div>
+
+			<h3>Share </h3>
+			<div class="share hidden-print">
+	<ul>
+		<li>
+			<a href="http://twitter.com/home?status=New+Paper%3A+How+to+Operate+Container+Clusters+more+Efficiently%3F http://www.nkode.io/2016/01/10/how-to-operate-container-clusters-more-efficiently.html" target="_blank">
+				<img src="/img/social/twitter-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="https://plus.google.com/share?url=http://www.nkode.io/2016/01/10/how-to-operate-container-clusters-more-efficiently.html" target="_blank">
+				<img src="/img/social/googleplus-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nkode.io/2016/01/10/how-to-operate-container-clusters-more-efficiently.html&title=New+Paper%3A+How+to+Operate+Container+Clusters+more+Efficiently%3F&summary=&source=" target="_blank">
+				<img src="/img/social/linkedin-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Fwww.nkode.io%2F2016%2F01%2F10%2Fhow-to-operate-container-clusters-more-efficiently.html&title=New+Paper%3A+How+to+Operate+Container+Clusters+more+Efficiently%3F" target="_blank">
+				<img src="/img/social/xing-128-black.png">
+			</a>
+		</li>
+	</ul>
+</div>
+
+		</div>
+		<p><strong>Abstract.</strong> In previous work, we concluded that container technologies and overlay networks typically have negative performance impacts, 
+mainly due to an additional layer to networking. This is what everybody would expect, only the degree of impact might be questionable. 
+These negative performance impacts can be accepted (if they stay moderate), 
+due to a better flexibility and manageability of the resulting systems. 
+However, we draw our conclusion only on data covering small core machine types. 
+This extended work additionally analyzed the impact of various (high core) machine 
+types of different public cloud service providers (Amazon Web Services, AWS and Google Compute Engine, GCE) 
+and comes to a more differentiated view and some astonishing results for high core machine types. 
+Our findings stand to reason that a simple and cost effective strategy is to 
+operate container cluster with highly similar high core machine types 
+(even across different cloud service providers). 
+This strategy should cover major relevant and complex data transfer rate 
+reducing effects of containers, container clusters and software-defined-networks appropriately.</p>
+
+<h3>TL;DR;</h3>
+
+<p>We present some insights concerning containers, overlay networks (especially weave), 
+and their sometimes counterintuitive impact on network performance.</p>
+
+<p>In short: From a performance point of view, <strong>it  seems  to  be  a  simple  strategy  to operate  container  clusters and overlay network solutions like weave
+with most  similar  high  core machine  types across different providers.</strong> We were  pleased  to  see, that the most similar
+machine types across AWS and GCE are far away from being the most expensive machine types provided by both  providers. 
+Thus, our similarity-based  virtual machine type selection strategy seems to be a cost effective strategy as well. </p>
+
+<p>If you want to know more. The paper is has been published in </p>
+
+<ul>
+<li><a href="http://www.iariajournals.org/networks_and_services/">International Journal on Advances in Networks and Services</a>.</li>
+<li>You may want to check the paper on <a href="https://www.researchgate.net/publication/284501557">ResearchGate</a>.</li>
+<li>You will find informations how to cite the paper <a href="/bibliography/KQ2015a.html">here</a>.</li>
+</ul>
+
+<h3>Absolute data transfer rates of bare (grey), containerized (red) and SDN (blue) connected services</h3>
+
+<p><img class='nogrey' src="/img/posts/absolute-container-sdn.png" width=100%>
+<strong>Median transfer rates with 90% confidence bands (5% and 95% percentile) 
+and TCP standard receive window of 83780 bytes (dotted lines)</strong></p>
+
+<h3>Relative impact of containers (red) and SDN (blue) compared with a bare (grey) deployment</h3>
+
+<p><img class='nogrey' src="/img/posts/relative-container-sdn.png" width=100%>
+<strong>Relative transfer rates and TCP standard receive window of 83780 bytes (dotted lines)</strong></p>
+
+<h3>Summary of details concerning container impact</h3>
+
+<table><thead>
+<tr>
+<th style="text-align: left">Machine type</th>
+<th style="text-align: center">cores</th>
+<th style="text-align: center">small messages</th>
+<th style="text-align: center"> big messages</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: left">AWS m3.large</td>
+<td style="text-align: center">2</td>
+<td style="text-align: center">90% - 100%</td>
+<td style="text-align: center">100% - 110%</td>
+</tr>
+<tr>
+<td style="text-align: left">GCE n1-stanard-2</td>
+<td style="text-align: center">2</td>
+<td style="text-align: center">95%</td>
+<td style="text-align: center">95% - 100%</td>
+</tr>
+<tr>
+<td style="text-align: left">AWS m3.xlarge</td>
+<td style="text-align: center">4</td>
+<td style="text-align: center">90%</td>
+<td style="text-align: center">120% - 130%</td>
+</tr>
+<tr>
+<td style="text-align: left">GCE n1-stanard-4</td>
+<td style="text-align: center">4</td>
+<td style="text-align: center">95%</td>
+<td style="text-align: center">120% - 130%</td>
+</tr>
+<tr>
+<td style="text-align: left">AWS m3.2xlarge</td>
+<td style="text-align: center">8</td>
+<td style="text-align: center">90%</td>
+<td style="text-align: center">110% - 130%</td>
+</tr>
+<tr>
+<td style="text-align: left">GCE n1-stanard-8</td>
+<td style="text-align: center">8</td>
+<td style="text-align: center">90%</td>
+<td style="text-align: center">110% - 120%</td>
+</tr>
+</tbody></table>
+
+<p><caption>Performance impacts of an additional container layer (Docker)</caption></p>
+
+<h3>Summary of details concerning SDN impact</h3>
+
+<table><thead>
+<tr>
+<th style="text-align: left">Machine type</th>
+<th style="text-align: center">cores</th>
+<th style="text-align: center">small messages</th>
+<th style="text-align: center"> big messages</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: left">AWS m3.large</td>
+<td style="text-align: center">2</td>
+<td style="text-align: center">45%</td>
+<td style="text-align: center">60%</td>
+</tr>
+<tr>
+<td style="text-align: left">GCE n1-stanard-2</td>
+<td style="text-align: center">2</td>
+<td style="text-align: center">25% - 80%</td>
+<td style="text-align: center">25%</td>
+</tr>
+<tr>
+<td style="text-align: left">AWS m3.xlarge</td>
+<td style="text-align: center">4</td>
+<td style="text-align: center">60%</td>
+<td style="text-align: center">90% - 100%</td>
+</tr>
+<tr>
+<td style="text-align: left">GCE n1-stanard-4</td>
+<td style="text-align: center">4</td>
+<td style="text-align: center">40% - 100%</td>
+<td style="text-align: center">60%</td>
+</tr>
+<tr>
+<td style="text-align: left">AWS m3.2xlarge</td>
+<td style="text-align: center">8</td>
+<td style="text-align: center">70% - 80%</td>
+<td style="text-align: center">90% - 100%</td>
+</tr>
+<tr>
+<td style="text-align: left">GCE n1-stanard-8</td>
+<td style="text-align: center">8</td>
+<td style="text-align: center">55% - 80%</td>
+<td style="text-align: center">70%</td>
+</tr>
+</tbody></table>
+
+<p><caption>Performance impacts of an additional SDN layer (Weave)</caption></p>
+
+		
+			<hr>
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'wwwnkodeio'; // required: replace example with your forum shortname
+
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+							var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+							dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+							(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		
+	</section>
+	<footer>
+	</footer>
+	
+</article>
+
+      </div>
+    </div>
+
+    <div class="end hidden-print">
+  <div class="container">
+     <div class="row">
+    	<div class="col-sm-5 block">
+	        <center>
+		    	&copy; Nane Kratzke (All rights reserved)
+		   		<div class="socialsites">
+  <center>
+   <a href="https://twitter.com/nanekratzke" title="Twitter"><img src="/img/social/twitter-128.png" alt="Twitter"></a>
+   <a href="http://www.slideshare.com/i21aneka" title="Slideshare"><img src="/img/social/slideshare-128.png" alt="Slideshare"></a>
+   <a href="https://github.com/nkratzke" title="Github"><img src="/img/social/github-128.png" alt="Github"></a>
+   <a href="https://www.researchgate.net/profile/Nane_Kratzke" title="Researchgate"><img src="/img/social/researchgate-128.png" alt="Researchgate"></a>
+   <a href="https://de.linkedin.com/in/nanekratzke" title="LinkedIN"><img src="/img/social/linkedin-128.png" alt="LinkedIN"></a>
+   <a href="https://www.xing.com/profile/Nane_Kratzke" title="Xing"><img src="/img/social/xing-128.png" alt="Xing"></a>
+   <a href="https://plus.google.com/+NaneKratzke" title="Google Plus"><img src="/img/social/googleplus-128.png" alt="Google Plus"></a>
+   <a href="https://www.facebook.com/nane.kratzke" title="Facebook"><img src="/img/social/facebook-128.png" alt="Facebook"></a>
+   <a href="/feed.xml" title="RSS"><img src="/img/social/rss-128.png" alt="RSS"></a>
+ </center>
+</div>
+
+    		</center>
+    	</div>
+        <div class="col-sm-2"></div>
+    	<div class="col-sm-5 block hidden-xs">
+	    	<center>
+		      Links to my official sites
+		      <div class="officialsites">
+   <a href="https://www.fh-luebeck.de/hochschule/hochschulorganisation/personalverzeichnis/person/nane-kratzke/"><img src="/img/official/fhl-logo.png"></a>
+   <a href="http://www.cosa.fh-luebeck.de/en/home/kratzke"><img src="/img/official/cosa-logo.png"></a>
+</div>
+    		</center>
+    	</div>
+    </div>
+  </div>
+</div>
+
+<div class="footer hidden-print">
+	<div class="container">
+		<center>
+			<a href="/about.html">About</a> &bullet;
+			<a href="/disclosure.html">Contact</a> &bullet;
+			<a href="/disclosure.html">Legal Notice (Impressum)</a>
+		</center>
+	</div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

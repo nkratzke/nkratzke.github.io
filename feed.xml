@@ -1399,10 +1399,7 @@ Nevertheless, these informations are short-living. They are fading out of
 focus as the weeks pass by. But there are a lot of great posts
 which should be collected and presented in a more enduring way.&lt;/p&gt;
 
-&lt;p&gt;The links on this site are reviewed weekly (very subjective).
-So links may be added, if I find new interesting online ressources. Links may be
-replaced, if I find better online ressources. And links may be deleted, if I think
-they are outdated or no longer useful at all.&lt;/p&gt;
+&lt;p&gt;The links on this site are reviewed and updated weekly (very subjective).&lt;/p&gt;
 
 &lt;p&gt;Feel free to contact &lt;a href=&quot;/about.html&quot;&gt;me&lt;/a&gt; if you think there are valuable links missing
 or if you know better links. You may also want to use the disqus comments at the end of this
@@ -1497,6 +1494,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to containerize &lt;small&gt;apps&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.iron.io/blog/2016/01/microcontainers-tiny-portable-containers.html&quot;&gt;Microcontainers – Tiny, Portable Docker Containers&lt;/a&gt; by &lt;strong&gt;Travis Reeder&lt;/strong&gt; (added 28. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://habd.as/simple-websites-jekyll-docker/&quot;&gt;Simple websites with Jekyll and Docker&lt;/a&gt; by &lt;strong&gt;Josh Habdas&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.inovex.de/docker-a-comparison-of-minimalistic-operating-systems/&quot;&gt;Docker: A Comparison of Minimalistic Operating Systems&lt;/a&gt; by &lt;strong&gt;Johannes Scheuermann&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/&quot;&gt;Deploying a DNS Server using Docker&lt;/a&gt; by &lt;strong&gt;Sameer Naik&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;

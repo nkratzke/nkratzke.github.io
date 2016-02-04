@@ -2007,7 +2007,10 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2016]&lt;/strong&gt; &lt;span id=&quot;KQ2016&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of 6th. International Conference on Cloud Computing and Service Sciences (CLOSER 2016)&lt;/i&gt;.&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2016]&lt;/strong&gt; &lt;span id=&quot;KQ2016&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of 6th. International Conference on Cloud Computing and Service Sciences (CLOSER 2016)&lt;/i&gt;.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href=&#39;https://www.researchgate.net/publication/292657431&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
@@ -2017,6 +2020,13 @@ enterprises.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;[QK2016a]&lt;/strong&gt; &lt;span id=&quot;QK2016a&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Overcome Vendor Lock-In by Integrating Already Available Container Technologies - Towards Transferability in Cloud Computing for SMEs. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2016 (7th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt;.&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/278242891&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -2031,13 +2041,6 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/278242891&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2014d]&lt;/strong&gt; &lt;span id=&quot;Kra2014d&quot;&gt;Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittels einer generischen Cloud Service Description Language. &lt;i&gt;Impulse - Aus Forschung Und Lehre Der FH Lübeck&lt;/i&gt;, &lt;i&gt;18&lt;/i&gt;(1).&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014d.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;

@@ -1432,7 +1432,7 @@ to get further informations about Docker, Containerization and Microservices.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://allysonjulian.com/setting-up-docker-with-xhyve&quot;&gt;Setting up Docker with xhyve (OS X Virtualization)&lt;/a&gt; by &lt;strong&gt;Allyson Julian&lt;/strong&gt; (added 21. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage&quot;&gt;10 Practical Docker Tips for Day to Day Docker usage (see especially Tip 3: docker inspect and jq)&lt;/a&gt; by &lt;strong&gt;Jos Dirksen&lt;/strong&gt; (added 28. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage&quot;&gt;10 Practical Docker Tips for Day to Day Docker usage (see especially Tip 3: docker inspect and jq)&lt;/a&gt; by &lt;strong&gt;Jos Dirksen&lt;/strong&gt; (added 28. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.sitepoint.com/docker-and-dockerfiles-made-easy&quot;&gt;Docker and Dockerfiles Made Easy!&lt;/a&gt; by &lt;strong&gt;Younies Rafie&lt;/strong&gt; (added 22. Oct 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-toolbox&quot;&gt;Docker Toolbox&lt;/a&gt; by &lt;strong&gt;Aron Gupta&lt;/strong&gt; (added 19. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet&quot;&gt;Docker Tips and Cheatsheet&lt;/a&gt; by &lt;strong&gt;Jake Zimmermann&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
@@ -1553,7 +1553,7 @@ to get further informations about Docker, Containerization and Microservices.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8jepaoATuN0&quot;&gt;Talk: Docker Swarm and Kubernetes&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; and &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 14. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://container-solutions.com/using-binpack-with-docker-swarm&quot;&gt;Using binpack with Docker Swarm&lt;/a&gt;  by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 28. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://container-solutions.com/using-binpack-with-docker-swarm&quot;&gt;Using binpack with Docker Swarm&lt;/a&gt;  by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 28. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/wagl&quot;&gt;wagl: Service Discovery for Docker Swarm&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 7. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/deploy-manage-cluster-docker-swarm/&quot;&gt;Deploy and Manage Any Cluster Manager with Docker Swarm&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; (added 14. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/swarm-1-0/&quot;&gt;Swarm 1.0: Production-ready clustering at any scale&lt;/a&gt; by &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 9. Nov 2015) &lt;/li&gt;
@@ -1606,7 +1606,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to log, monitor and manage docker &lt;small&gt;performance&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@yoanis_gil/logging-with-docker-part-1-b23ef1443aac#.16avnrf2a&quot;&gt;Docker Logging&lt;/a&gt; by &lt;strong&gt;Yoanis Gil Delgado&lt;/strong&gt; (added 4. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@yoanis_gil/logging-with-docker-part-1-b23ef1443aac#.16avnrf2a&quot;&gt;Docker Logging&lt;/a&gt; by &lt;strong&gt;Yoanis Gil Delgado&lt;/strong&gt; (added 4. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.loggly.com/blog/what-does-the-docker-daemon-log-contain&quot;&gt;What Does the Docker Daemon Log Contain?&lt;/a&gt; by &lt;strong&gt;Andre Newmann&lt;/strong&gt; (added 17. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://labs.ctl.io/monitoring-docker-services-with-prometheus&quot;&gt;Monitoring Docker Services with Prometheus&lt;/a&gt; by &lt;strong&gt;Rupak Ganguly&lt;/strong&gt; (added 23. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.brianchristner.io/how-to-setup-docker-monitoring/&quot;&gt;How to Setup Docker Monitoring&lt;/a&gt; by &lt;strong&gt;Brian Christner&lt;/strong&gt; (added 28. May 2015) &lt;/li&gt;
@@ -1625,7 +1625,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/security-is-maturing-in-the-docker-ecosystem&quot;&gt;Security is Maturing in the Docker Ecosystem&lt;/a&gt; by &lt;strong&gt;Sebastiaan van Steenis&lt;/strong&gt; (added 14. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://jaxenter.com/docker-and-security-how-do-they-fit-together-122333.html&quot;&gt;Docker and Security: How do they fit together?&lt;/a&gt; by &lt;strong&gt;Andreas Schmidt&lt;/strong&gt; and &lt;strong&gt;Dustin Huptas&lt;/strong&gt; (added 7. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blyx.com/2015/12/01/docker-security-tools-audit-and-vulnerability-assessment&quot;&gt;Docker Security Tools: Audit and Vulnerability Assessment&lt;/a&gt; by &lt;strong&gt;Toni de la Fuente&lt;/strong&gt; (added 28. Dec 2015) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blyx.com/2015/12/01/docker-security-tools-audit-and-vulnerability-assessment&quot;&gt;Docker Security Tools: Audit and Vulnerability Assessment&lt;/a&gt; by &lt;strong&gt;Toni de la Fuente&lt;/strong&gt; (added 28. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://coreos.com/blog/vulnerability-analysis-for-containers/&quot;&gt;CoreOS Introduces Clair: Open Source Vulnerability Analysis for your Containers&lt;/a&gt; by &lt;strong&gt;Quentin Mochu&lt;/strong&gt; (added 14. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://rudijs.github.io/2015-07/docker-restricting-container-access-with-iptables&quot;&gt;Restricting Docker Container Access with Iptables&lt;/a&gt; by &lt;strong&gt;Rudi Starcevic&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/docker-security-cheat-sheet/&quot;&gt;Docker Security Cheat Sheet&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 18. Jun 2015) &lt;/li&gt;

@@ -7,6 +7,106 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Automatisierte Auswertung von Programmier-Praktika</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/source-code.jpg&quot;&gt;
+        
+        &lt;p&gt;Der Einsatz von Continuous Integeration Lösungen gehört mittlerweile zum bewährten Vorgehen in der Softwareentwicklung.
+Diese Arbeit soll den Einsatz von Continuous Integration Lösungen im Rahmen der Hochschullehre (Programmierausbildung) untersuchen.
+Zur Unterstützung von Programmierlehrveranstaltung - insbesondere von Programmierpraktika - soll hierzu
+eine Lösung zur automatisierten Auswertung von wöchentlichen Abgabeaufgaben auf Basis von existierenden 
+Continuous Integration Lösungen geschaffen werden. Auf diese Weise sollen Praktikumsbetreuer/innen 
+in Zeiten stetig größer werdender Programmierkurse zeitlich entlastet werden
+und Studierenden eine ergänzende Möglichkeit des Feedback-gesteuerten Selbststudiums gegeben werden.&lt;/p&gt;
+
+&lt;h3&gt;Automatische Auswertung von Abgaben&lt;/h3&gt;
+
+&lt;p&gt;Die automatische Auswertung von Abgaben soll folgende Aspekte umfassen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Korrektheit&lt;/strong&gt; der Abgabe mittels Unit-Tests (eine geeignete Struktur für Unit-Tests zu finden ist Gegenstand der Arbeit)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code Coverage&lt;/strong&gt; (zur Ermittlung unnötigen Codes für die Aufgabenstellung, hierfür sind geeignete und frei verfügbare Code Coverage Lösungen zu ermitteln)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Komplexität&lt;/strong&gt; der Abgabe mittels Komplexitätsmetriken (geeignete und einfach zu erhebende Metriken zu finden, ist Gegenstand der Arbeit)&lt;/li&gt;
+&lt;li&gt;Einhaltung von &lt;strong&gt;Programmierkonventionen&lt;/strong&gt; (z.B. mittels Checkstyle, geeignete Frameworks zu finden ist Gegenstand der Arbeit)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Studierende sollen die automatisierte Auswertung von Abgaben idealerweise aus der Eclipse Entwicklungsplattform heraus anstoßen können. 
+Entsprechend geeignete Plugins sind zu analysieren und deren Eignung zu demonstrieren.&lt;/p&gt;
+
+&lt;h3&gt;Automatisiertes Feedback für Studierende&lt;/h3&gt;
+
+&lt;p&gt;Studierende sollen auf Basis dieser Aspekte ein automatisiertes Feedback pro Abgabe &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;in Relation zur Musterlösung&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;aber auch &lt;strong&gt;in Relation zur Peergroup&lt;/strong&gt; der anderen Studierenden &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;erhalten. Details sind im Verlaufe der Arbeit zu klären.&lt;/p&gt;
+
+&lt;h3&gt;Leistungsübersicht für Studierende und Lehrende&lt;/h3&gt;
+
+&lt;p&gt;Lehrende und Studierende sollen auf Basis einer solchen Auswertung schneller einen Überblick über den Leistungsstand erhalten. 
+Die Auswertung soll &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;für eine Abgabe eines Studierenden (Detailansicht einer Abgabe: für den Studierenden und Lehrende),&lt;/li&gt;
+&lt;li&gt;für eine Abgabe über alle Studierenden (Leistungsübersicht einer Abgabe: nur für Lehrende),&lt;/li&gt;
+&lt;li&gt;über alle Abgaben eines Studierenden (Leistungsübersicht eines Studierenden: für den Studierenden und Lehrende),&lt;/li&gt;
+&lt;li&gt;über alle Abgaben aller Studierenden (Leistungsübersicht eines Semesters: nur für Lehrende)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;möglich sein. Details sind im Verlaufe der Arbeit zu klären.&lt;/p&gt;
+
+&lt;h3&gt;Teilaufgaben&lt;/h3&gt;
+
+&lt;p&gt;Hierzu müssen im Detail folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Durchführen einer &lt;strong&gt;Anforderungsanalyse&lt;/strong&gt;.
+
+&lt;ul&gt;
+&lt;li&gt;Dies beinhaltet die &lt;strong&gt;Analyse des bestehenden Aufgabenkatalogs&lt;/strong&gt; der Programmierveranstaltung Prog I (Inf).&lt;/li&gt;
+&lt;li&gt;Ferner sind insbesondere bestehende Continuous Integration Lösungen hinsichtlich Eignung für den dargestellten Einsatzzweck zu analysieren.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aufbau einer Continuous Integration&lt;/strong&gt; Lösung zur automatisierten Evaluation von Abgaben im Rahmen von Programmier-Praktika. 
+
+&lt;ul&gt;
+&lt;li&gt;Die Lösung soll in einer containerisierten Form mittels Docker ausgebracht werden können.&lt;/li&gt;
+&lt;li&gt;Die Lösung muss Accounts für eine Vielzahl von Studierenden schnell und einfach erzeugen können.&lt;/li&gt;
+&lt;li&gt;Die Lösung muss die oben genannten Auswertungs-Aspekte abdecken.&lt;/li&gt;
+&lt;li&gt;Die Lösung muss sowohl ein Feedback bezogen auf die Musterlösung als auch auf die Peergroup generieren können.&lt;/li&gt;
+&lt;li&gt;Die Lösung muss eine Leistungsübersicht für Studierende und Lehrende darstellen können.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Der &lt;strong&gt;Nachweis der Realisierbarkeit&lt;/strong&gt; soll anhand mindestens 8 Aufgaben des Aufgabenkatalogs Prog I erfolgen.
+
+&lt;ul&gt;
+&lt;li&gt;Die zu betrachtenden Aufgaben sollen dabei aus dem ersten, dem zweiten, dem dritten und dem vierten Viertel des ersten Semesters stammen.&lt;/li&gt;
+&lt;li&gt;Ergänzend sollen drei Aufgaben aus dem ersten, zweiten und dritten Drittel des zweiten Semesters betrachtet werden, um abzuleiten inwiefern das Konzept auf freiere und komplexere Aufgabenstellungen übertragbar ist.&lt;/li&gt;
+&lt;li&gt;Auf Basis dieser Aufgaben soll ein &amp;quot;Kochrezept&amp;quot; abgeleitet und dokumentiert werden, wie beliebige Aufgaben des Aufgabenkatalogs umgewandelt/umgeschrieben werden müssen, damit sie einer automatisierten Evaluierung unterworfen werden können.&lt;/li&gt;
+&lt;li&gt;Es sind entsprechende Empfehlung zur Umgestaltung des Aufgabenkatalogs abzuleiten und zu dokumentieren.&lt;/li&gt;
+&lt;li&gt;Es ist ein Template zu erstellen, nach dem neue Aufgaben für den Aufgabenkatalog erstellt werden können.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Begleitende Dokumentation&lt;/strong&gt; der oben angegebenen Schritte, Designentscheidungen und Ergebnisse (Bachelorarbeit)
+
+&lt;ul&gt;
+&lt;li&gt;Die Dokumentation muss zusätzlich zu den üblichen Anforderungen an eine Bachelorarbeit, die folgenden Punkte umfassen:&lt;/li&gt;
+&lt;li&gt;Die Dokumentation muss insbesondere einen Anhang beinhalten, wie die Lösung betrieben und konfiguriert werden kann.&lt;/li&gt;
+&lt;li&gt;Die Dokumentation muss ein Kochrezept beinhalten, wie Aufgaben formuliert und gestaltet sein müssen, um diese einer automatisierten Auswertung unterwerfen zu können.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sollten sich während der Bearbeitung dieser Arbeit einzelne Aspekte als schwer realisierbar erweisen, 
+kann die Aufgabenstellung - nach plausiblem Nachweis der Schwierigkeit - angepasst werden.&lt;/p&gt;
+
+      </description>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//thesis/2016/03/01/thesis-automatisierte-bewertung-von-prog-praktika.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//thesis/2016/03/01/thesis-automatisierte-bewertung-von-prog-praktika.html</guid>
+    </item>
+    
+    <item>
       <title>New Paper: How to Operate Container Clusters more Efficiently?</title>
       <description>
         

@@ -7,6 +7,42 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Erstellung und Umsetzung eines Konzepts zur Verbesserung von automatischen Tests</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/source-code.jpg&quot;&gt;
+        
+        &lt;p&gt;Die Qualität der Workflow-Software Prinect für Druckereien von der Heidelberger
+Druckmaschinen AG wird im Entwicklungsprozess durch automatische Tests abgesichert. &lt;/p&gt;
+
+&lt;p&gt;Der Inhalt der Arbeit ist die Analyse des Testsystems. Es sind Konzepte zur Optimierung in 
+den Bereichen Laufzeit, Testerstellung und Integration in den Buildprozess (Continous 
+Integration) bzw. die automatische Systeminstallation (Continuous Delivery) zu erstellen und 
+umzusetzen.&lt;/p&gt;
+
+&lt;p&gt;Im Rahmen der Integeration ist ergänzend zu untersuchen, wie der Buildprozess (Continuous Integration) 
+und die automatische Systeminstallation (Continuous Delivery)
+durch Container Technologien - wie bspw. Docker - sinnnvoll unterstützt werden können.&lt;/p&gt;
+
+&lt;h3&gt;Teilaufgaben&lt;/h3&gt;
+
+&lt;p&gt;Hierzu müssen im Detail folgende Teilaufgaben bearbeitet und dokumentiert (Masterarbeit) werden:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Durchführen und Dokumentation des &lt;strong&gt;Ist-Standes&lt;/strong&gt; des Testsystems. Dies beinhaltet die Dokumentation der Architektur des Test-Systems.&lt;/li&gt;
+&lt;li&gt;Erhebung und Dokumentation von &lt;strong&gt;Optimierungspotenzialen&lt;/strong&gt; auf Basis des dokumentierten Ist-Standes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fortentwicklung der Continuous Integration&lt;/strong&gt; Lösung auf Basis der identifizierten Optimierungspotenziale. Dies beinhaltet auch die Dokumentation des weiterentwickelten Testsystems. Die Weiterentwicklungen des Testsystems sind nachvollziehbar auszuweisen und zu dokumentieren.&lt;/li&gt;
+&lt;li&gt;Der &lt;strong&gt;Nachweis der Realisierbarkeit&lt;/strong&gt; der erarbeitenden Konzepte soll mindestens durch prototypische Implementierungen und Ergänzungen der Continuous Integgration Lösung erfolgen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Begleitende Dokumentation&lt;/strong&gt; der oben angegebenen Schritte, Designentscheidungen und Ergebnisse (Masterarbeit). Insbesondere ist auf den sinnvollen/nicht sinnvollen Einsatz von Container Technologien einzugehen.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Tue, 15 Mar 2016 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//thesis/2016/03/15/thesis-analyse-und-optimierung-von-automatisierten-tests.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//thesis/2016/03/15/thesis-analyse-und-optimierung-von-automatisierten-tests.html</guid>
+    </item>
+    
+    <item>
       <title>Automatisierte Auswertung von Programmier-Praktika</title>
       <description>
         
@@ -378,8 +414,8 @@ My students implemented several classical games as &lt;a href=&quot;https://www.
 
       </description>
       <pubDate>Wed, 15 Jul 2015 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</guid>
+      <link>http://www.nkode.io//2015/07/15/and-the-winner-is-tetris.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2015/07/15/and-the-winner-is-tetris.html</guid>
     </item>
     
     <item>
@@ -1625,7 +1661,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://techblog.constantcontact.com/devops/a-tale-of-three-docker-anti-patterns&quot;&gt;A Tale of Three Docker Anti-Patterns&lt;/a&gt; by &lt;strong&gt;Erik Dasque&lt;/strong&gt; (added 14. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://techblog.constantcontact.com/devops/a-tale-of-three-docker-anti-patterns&quot;&gt;A Tale of Three Docker Anti-Patterns&lt;/a&gt; by &lt;strong&gt;Erik Dasque&lt;/strong&gt; (added 14. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df&quot;&gt;Building the perfect data container&lt;/a&gt; by &lt;strong&gt;Mattias Holmlund&lt;/strong&gt; (added 27. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://abdelrahmanhosny.com/2015/07/01/3-solutions-to-bi-directional-linking-problem-in-docker-compose&quot;&gt;Three Solutions to Bi-directional Linking Problem in Docker Compose&lt;/a&gt; by &lt;strong&gt;Abdelrahman Hosny&lt;/strong&gt; (added 9. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://12factor.net/&quot;&gt;The Twelve Factor App (not just for Docker)&lt;/a&gt; by &lt;strong&gt;Adam Wiggins&lt;/strong&gt; (added 6. Apr 2015) &lt;/li&gt;
@@ -1652,7 +1688,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Container clusters &lt;small&gt;and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8jepaoATuN0&quot;&gt;Talk: Docker Swarm and Kubernetes&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; and &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 14. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8jepaoATuN0&quot;&gt;Talk: Docker Swarm and Kubernetes&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; and &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 14. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/using-binpack-with-docker-swarm&quot;&gt;Using binpack with Docker Swarm&lt;/a&gt;  by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 28. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/wagl&quot;&gt;wagl: Service Discovery for Docker Swarm&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 7. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/deploy-manage-cluster-docker-swarm/&quot;&gt;Deploy and Manage Any Cluster Manager with Docker Swarm&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; (added 14. Nov 2015) &lt;/li&gt;
@@ -1723,7 +1759,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/security-is-maturing-in-the-docker-ecosystem&quot;&gt;Security is Maturing in the Docker Ecosystem&lt;/a&gt; by &lt;strong&gt;Sebastiaan van Steenis&lt;/strong&gt; (added 14. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.xebia.com/security-is-maturing-in-the-docker-ecosystem&quot;&gt;Security is Maturing in the Docker Ecosystem&lt;/a&gt; by &lt;strong&gt;Sebastiaan van Steenis&lt;/strong&gt; (added 14. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://jaxenter.com/docker-and-security-how-do-they-fit-together-122333.html&quot;&gt;Docker and Security: How do they fit together?&lt;/a&gt; by &lt;strong&gt;Andreas Schmidt&lt;/strong&gt; and &lt;strong&gt;Dustin Huptas&lt;/strong&gt; (added 7. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blyx.com/2015/12/01/docker-security-tools-audit-and-vulnerability-assessment&quot;&gt;Docker Security Tools: Audit and Vulnerability Assessment&lt;/a&gt; by &lt;strong&gt;Toni de la Fuente&lt;/strong&gt; (added 28. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://coreos.com/blog/vulnerability-analysis-for-containers/&quot;&gt;CoreOS Introduces Clair: Open Source Vulnerability Analysis for your Containers&lt;/a&gt; by &lt;strong&gt;Quentin Mochu&lt;/strong&gt; (added 14. Nov 2015) &lt;/li&gt;
@@ -2692,8 +2728,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Fri, 28 Feb 2014 15:12:00 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/28/dart-part-II.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/28/dart-part-II.html</guid>
+      <link>http://www.nkode.io//2014/02/28/dart-part-ii.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2014/02/28/dart-part-ii.html</guid>
     </item>
     
     <item>
@@ -3178,8 +3214,8 @@ conversion of data formats (often used in the web domain)&lt;/em&gt;.&lt;/p&gt;
 
       </description>
       <pubDate>Thu, 13 Feb 2014 09:39:48 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/13/dart-part-I.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/13/dart-part-I.html</guid>
+      <link>http://www.nkode.io//2014/02/13/dart-part-i.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2014/02/13/dart-part-i.html</guid>
     </item>
     
     <item>

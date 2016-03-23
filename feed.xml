@@ -414,8 +414,8 @@ My students implemented several classical games as &lt;a href=&quot;https://www.
 
       </description>
       <pubDate>Wed, 15 Jul 2015 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2015/07/15/and-the-winner-is-tetris.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2015/07/15/and-the-winner-is-tetris.html</guid>
+      <link>http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</guid>
     </item>
     
     <item>
@@ -1567,7 +1567,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://allysonjulian.com/setting-up-docker-with-xhyve&quot;&gt;Setting up Docker with xhyve (OS X Virtualization)&lt;/a&gt; by &lt;strong&gt;Allyson Julian&lt;/strong&gt; (added 21. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://allysonjulian.com/setting-up-docker-with-xhyve&quot;&gt;Setting up Docker with xhyve (OS X Virtualization)&lt;/a&gt; by &lt;strong&gt;Allyson Julian&lt;/strong&gt; (added 21. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage&quot;&gt;10 Practical Docker Tips for Day to Day Docker usage (see especially Tip 3: docker inspect and jq)&lt;/a&gt; by &lt;strong&gt;Jos Dirksen&lt;/strong&gt; (added 28. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.sitepoint.com/docker-and-dockerfiles-made-easy&quot;&gt;Docker and Dockerfiles Made Easy!&lt;/a&gt; by &lt;strong&gt;Younies Rafie&lt;/strong&gt; (added 22. Oct 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-toolbox&quot;&gt;Docker Toolbox&lt;/a&gt; by &lt;strong&gt;Aron Gupta&lt;/strong&gt; (added 19. Aug 2015) &lt;/li&gt;
@@ -1596,9 +1596,10 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Cool things &lt;small&gt;you can do with Docker (toolbox) easily&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://caseyjlaw.github.io/docker-in-astronomy.html&quot;&gt;Docker in Astronomy&lt;/a&gt; by &lt;strong&gt;Casey J. Law&lt;/strong&gt; (added 23. Mar 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.datadan.io/containerized-data-science-and-engineering&quot;&gt;Containerized Data Science and Engineering - Part 1&lt;/a&gt; by &lt;strong&gt;Daniel Whitenack&lt;/strong&gt; (added 18. Feb 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://cosmicmar.com/2016/02/14/boinc-server-docker-1&quot;&gt;Turbocharged Science on BOINC (with Docker)&lt;/a&gt; by &lt;strong&gt;Marius Millea&lt;/strong&gt; (added 18. Feb 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://fredhutchio.github.io/containers-ci/&quot;&gt;Containers for continuous integration (in science)&lt;/a&gt; by &lt;strong&gt;Erick Matsen&lt;/strong&gt; (added 21. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://fredhutchio.github.io/containers-ci/&quot;&gt;Containers for continuous integration (in science)&lt;/a&gt; by &lt;strong&gt;Erick Matsen&lt;/strong&gt; (added 21. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.codeship.com/docker-machine-compose-and-swarm-how-they-work-together&quot;&gt;Docker Machine, Compose, and Swarm: How They Work Together&lt;/a&gt; by &lt;strong&gt;Jonas Rosland&lt;/strong&gt; (added 2. Oct 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.brianchristner.io/how-to-scale-a-docker-container-with-docker-compose/&quot;&gt;How to Scale Docker Containers with Docker-Compose&lt;/a&gt; by &lt;strong&gt;Brian Christner&lt;/strong&gt; (added 17. Sep 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/iron-io-blog/the-easiest-way-to-develop-with-go-introducing-a-docker-based-go-tool-c456238507d6&quot;&gt;The Easiest Way to Develop with Go — Introducing a Docker Based Go Tool&lt;/a&gt; by &lt;strong&gt;Travis Reeder&lt;/strong&gt; (added 2. Sep 2015) &lt;/li&gt;
@@ -2728,8 +2729,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Fri, 28 Feb 2014 15:12:00 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/28/dart-part-ii.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/28/dart-part-ii.html</guid>
+      <link>http://www.nkode.io//2014/02/28/dart-part-II.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2014/02/28/dart-part-II.html</guid>
     </item>
     
     <item>
@@ -3214,8 +3215,8 @@ conversion of data formats (often used in the web domain)&lt;/em&gt;.&lt;/p&gt;
 
       </description>
       <pubDate>Thu, 13 Feb 2014 09:39:48 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/13/dart-part-i.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/13/dart-part-i.html</guid>
+      <link>http://www.nkode.io//2014/02/13/dart-part-I.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2014/02/13/dart-part-I.html</guid>
     </item>
     
     <item>

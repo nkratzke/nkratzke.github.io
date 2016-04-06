@@ -7,6 +7,93 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>ppbench - A Visualizing Network Benchmark for Microservices</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/Rome-Closer-2016.jpg&quot;&gt;
+        
+        &lt;p&gt;I am going to present this paper on the &lt;a href=&quot;http://closer.scitevents.org/Home.aspx&quot;&gt;6th International Conference on Cloud Computing and Services Science&lt;/a&gt;
+(CLOSER 2016, &lt;a href=&quot;http://closer.scitevents.org/TechnicalProgram/View/TechnicalProgram.aspx&quot;&gt;Session 5, Cloud Computing Enabling Technology&lt;/a&gt;) in Rome, Italy.&lt;/p&gt;
+
+&lt;p&gt;I will present the ppbench benchmark, as well as some insights we got throughout our research. A full text version of the paper is provided via &lt;span class=&quot;researchgate&quot;&gt;&lt;a href=&quot;https://www.researchgate.net/publication/292657431&quot;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;&lt;/span&gt;.
+Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/KQ2016.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Companies like Netflix, Google, Amazon, Twitter successfully exemplified elastic and scalable microservice architectures for very large systems. Microservice architectures are often realized in a way to deploy services as containers on container clusters. Containerized microservices often use lightweight and REST-based mechanisms. However, this lightweight communication is often routed by container clusters through heavyweight software defined networks (SDN). Services are often implemented in different programming languages adding additional complexity to a system, which might end in decreased performance. Astonishingly it is quite complex to figure out these impacts in the upfront of a microservice design process due to missing and specialized benchmarks. This contribution proposes a benchmark intentionally designed for this microservice setting. We advocate that it is more useful to reflect fundamental design decisions and their performance impacts in the upfront of a microservice architecture development and not in the aftermath. We present some findings regarding performance impacts of some TIOBE TOP 50 programming languages (Go, Java, Ruby, Dart), containers (Docker as type representative) and SDN solutions (Weave as type representative).&lt;/p&gt;
+
+&lt;h3&gt;Slides&lt;/h3&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe src=&quot;http://www.slideshare.net/slideshow/embed_code/key/snJfo9gefHD6aF&quot;
+        width=&quot;100%&quot;
+        height=&quot;500px&quot;
+        frameborder=&quot;0&quot;
+        marginwidth=&quot;0&quot;
+        marginheight=&quot;0&quot;
+        scrolling=&quot;no&quot;
+        style=&quot;border: 1px solid white; max-width: 100%; background-color: white;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3&gt;Tool&lt;/h3&gt;
+
+&lt;p&gt;The presented &lt;a href=&quot;https://github.com/nkratzke/pingpong&quot;&gt;ppbench&lt;/a&gt; benchmark is provided via GitHub. We provide &lt;code&gt;ppbench&lt;/code&gt; via RubyGems.org. So, installing &lt;code&gt;ppbench&lt;/code&gt; 
+on your system (we assume that this is your personal laptop or workstation) is very easy.
+Assuming you have &lt;strong&gt;Ruby 2.2 (or higher installed)&lt;/strong&gt; installed, simply run&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;gem install ppbench
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;to install &lt;code&gt;ppbench&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ppbench&lt;/code&gt; provides several commands and parameters to run and analyze your experiments.
+&lt;code&gt;ppbench&lt;/code&gt; comes with an online help included. Simply run&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ppbench help
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;to get some online help about available commands &lt;code&gt;ppbench&lt;/code&gt; is providing.&lt;/p&gt;
+
+&lt;p&gt;A benchmark run is started like that: &lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ppbench run --host http://&amp;lt;pinghostip&amp;gt;:8080 \
+            --experiment experiment_tag \
+            --machine machine_tag \
+            log.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;All benchmark results are written into a log (csv format). These csv based log files can be processed by &lt;code&gt;ppbench&lt;/code&gt;. 
+&lt;code&gt;Ppbench&lt;/code&gt; is able to do some summary analysis on a set of collected benchmark files for a quick analysis. Simply run&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ppbench summary *.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;to get a tabluar summary.&lt;/p&gt;
+
+&lt;p&gt;But much more interesting and helpful (summary data is intended to be used for completenes and plausability checking of data but not for detailed analysis), 
+&lt;code&gt;ppbench&lt;/code&gt; is able to generate R scripts for analysis and visualization of benchmark data.&lt;/p&gt;
+
+&lt;p&gt;The plot commands of ppbench have several flags to tune your plotting. By using the following additions flags
+it is possible to plot 75% confidence bands without showing all measured detail data points (omitting the &lt;code&gt;--nopoints&lt;/code&gt; would show both,
+confidence bands and all data points).&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ppbench transfer-plot --machines m3.xlarge \
+                      --experiments bare-dart,bare-go,bare-java \
+                      --withbands \
+                      --confidence 75 \
+                      --nopoints \
+                      --pdf graphic.pdf \
+                      *.csv | Rscript -
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This would produce a much clearer picture with additional descriptive statistical information.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&quot;/img/posts/transferplot-withbands.png&quot; class=&#39;nogrey&#39; width=75%&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2&gt;Further Information&lt;/h2&gt;
+
+&lt;p&gt;For further information please read the informations provided with the
+&lt;a href=&quot;https://github.com/nkratzke/pingpong&quot;&gt;Ping Pong github repository&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2016/04/06/closer2016.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2016/04/06/closer2016.html</guid>
+    </item>
+    
+    <item>
       <title>Erstellung und Umsetzung eines Konzepts zur Verbesserung von automatischen Tests</title>
       <description>
         

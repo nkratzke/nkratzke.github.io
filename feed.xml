@@ -1596,6 +1596,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Cool things &lt;small&gt;you can do with Docker (toolbox) easily&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ropenscilabs.github.io/r-docker-tutorial&quot;&gt;A Docker tutorial for reproducible research&lt;/a&gt; by &lt;strong&gt;ropenscilabs&lt;/strong&gt; (added 6. Apr 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://caseyjlaw.github.io/docker-in-astronomy.html&quot;&gt;Docker in Astronomy&lt;/a&gt; by &lt;strong&gt;Casey J. Law&lt;/strong&gt; (added 23. Mar 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.datadan.io/containerized-data-science-and-engineering&quot;&gt;Containerized Data Science and Engineering - Part 1&lt;/a&gt; by &lt;strong&gt;Daniel Whitenack&lt;/strong&gt; (added 18. Feb 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://cosmicmar.com/2016/02/14/boinc-server-docker-1&quot;&gt;Turbocharged Science on BOINC (with Docker)&lt;/a&gt; by &lt;strong&gt;Marius Millea&lt;/strong&gt; (added 18. Feb 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -1633,8 +1634,8 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to containerize &lt;small&gt;apps&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://coding.jandavid.de/2016/01/22/dockerizing-sinatra/&quot;&gt;Dockerizing Sinatra&lt;/a&gt; by &lt;strong&gt;Jan David&lt;/strong&gt; (added 4. Feb 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.iron.io/blog/2016/01/microcontainers-tiny-portable-containers.html&quot;&gt;Microcontainers – Tiny, Portable Docker Containers&lt;/a&gt; by &lt;strong&gt;Travis Reeder&lt;/strong&gt; (added 28. Jan 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://coding.jandavid.de/2016/01/22/dockerizing-sinatra/&quot;&gt;Dockerizing Sinatra&lt;/a&gt; by &lt;strong&gt;Jan David&lt;/strong&gt; (added 4. Feb 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.iron.io/blog/2016/01/microcontainers-tiny-portable-containers.html&quot;&gt;Microcontainers – Tiny, Portable Docker Containers&lt;/a&gt; by &lt;strong&gt;Travis Reeder&lt;/strong&gt; (added 28. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://habd.as/simple-websites-jekyll-docker/&quot;&gt;Simple websites with Jekyll and Docker&lt;/a&gt; by &lt;strong&gt;Josh Habdas&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.inovex.de/docker-a-comparison-of-minimalistic-operating-systems/&quot;&gt;Docker: A Comparison of Minimalistic Operating Systems&lt;/a&gt; by &lt;strong&gt;Johannes Scheuermann&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/&quot;&gt;Deploying a DNS Server using Docker&lt;/a&gt; by &lt;strong&gt;Sameer Naik&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;

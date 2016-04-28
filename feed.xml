@@ -7,6 +7,26 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Container- and Cluster Technologies for Microservices</title>
+      <description>
+        
+        &lt;p&gt;This poster presents a high-level overlook across microservices, container and container clustering technologies
+which are commonly widely discussed in enterprise IT and cloud-native application software engineering.&lt;/p&gt;
+
+&lt;p&gt;Feel free to &lt;a href=&quot;/assets/content/poster-container-cluster.pdf&quot;&gt;download&lt;/a&gt; 
+a DIN A1 printable PDF version (german only) for your office.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/content/poster-container-cluster.pdf&quot; mimetype=&quot;application/pdf&quot;&gt;
+    &lt;img src=&quot;/img/posts/poster-container-cluster.png&quot; class=&#39;nogrey&#39; width=90%&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2016/04/28/container-and-container-cluster.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2016/04/28/container-and-container-cluster.html</guid>
+    </item>
+    
+    <item>
       <title>Web Technologies (Summer 2016)</title>
       <description>
         
@@ -2376,20 +2396,6 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/278242891&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/273456042&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2015b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -2397,6 +2403,20 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/273456042&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2015b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/278242891&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2014d]&lt;/strong&gt; &lt;span id=&quot;Kra2014d&quot;&gt;Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittels einer generischen Cloud Service Description Language. &lt;i&gt;Impulse - Aus Forschung Und Lehre Der FH Lübeck&lt;/i&gt;, &lt;i&gt;18&lt;/i&gt;(1).&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014d.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;

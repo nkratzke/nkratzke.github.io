@@ -1799,14 +1799,13 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mercurenews.com/en/10-tips-tricks-with-docker&quot;&gt;10 Tips &amp;amp; Tricks with Docker&lt;/a&gt; by &lt;strong&gt;Dominique Haas&lt;/strong&gt; (added 17. May 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://allysonjulian.com/setting-up-docker-with-xhyve&quot;&gt;Setting up Docker with xhyve (OS X Virtualization)&lt;/a&gt; by &lt;strong&gt;Allyson Julian&lt;/strong&gt; (added 21. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage&quot;&gt;10 Practical Docker Tips for Day to Day Docker usage (see especially Tip 3: docker inspect and jq)&lt;/a&gt; by &lt;strong&gt;Jos Dirksen&lt;/strong&gt; (added 28. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.sitepoint.com/docker-and-dockerfiles-made-easy&quot;&gt;Docker and Dockerfiles Made Easy!&lt;/a&gt; by &lt;strong&gt;Younies Rafie&lt;/strong&gt; (added 22. Oct 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-toolbox&quot;&gt;Docker Toolbox&lt;/a&gt; by &lt;strong&gt;Aron Gupta&lt;/strong&gt; (added 19. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet&quot;&gt;Docker Tips and Cheatsheet&lt;/a&gt; by &lt;strong&gt;Jake Zimmermann&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.conetix.com.au/blog/docker-compose-quick-intro&quot;&gt;Docker Compose: A Quick Intro&lt;/a&gt; by &lt;strong&gt;Tim Butler&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.techbar.me/stopping-docker-containers-gracefully&quot;&gt;Stopping Docker containers Gracefully&lt;/a&gt; by &lt;strong&gt;Alen Komijen&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.brunopaz.net/easy-discover-your-docker-containers-with-dnsdock&quot;&gt;Easy discover your docker containers with dnsdock&lt;/a&gt; by &lt;strong&gt;Bruno Paz&lt;/strong&gt; (added 2. Jul 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jonathan.bergknoff.com/journal/building-better-docker-images&quot;&gt;Building better Docker Images&lt;/a&gt; by &lt;strong&gt;Jonathan Bergknoff&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.zhaw.ch/icclab/process-management-in-docker-containers/&quot;&gt;Process Management in Docker&lt;/a&gt; by &lt;strong&gt;Martin Blöchinger&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
@@ -1816,8 +1815,6 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://jpetazzo.github.io/2015/01/19/dockerfile-and-data-in-volumes/&quot;&gt;Putting Data in a Volume in a Dockerfile&lt;/a&gt; by &lt;strong&gt;Jérôme Petazzoni&lt;/strong&gt; (added 22. Jan 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://csaba.palfi.me/random-docker-tips/&quot;&gt;24 random docker tips&lt;/a&gt; by &lt;strong&gt;Csaba Palfi&lt;/strong&gt; (added 22. Dec 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/2014/11/6-dockerfile-tips-official-images/&quot;&gt;6 Dockerfile Tips from the Official Images&lt;/a&gt; by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 22. Nov 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@vaceletm/docker-layers-cost-b28cb13cb627&quot;&gt;Docker Layers cost&lt;/a&gt; by &lt;strong&gt;Manuel Velcet&lt;/strong&gt; (added 13. Nov 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.jaas.co/2014/10/23/how-to-use-a-local-persistent-docker-registry-on-centos-6-5/&quot;&gt;How to use a local persistent Docker Registry on CentOS 6.5&lt;/a&gt; by &lt;strong&gt;Josh Grey&lt;/strong&gt; (added 30. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.tutum.co/2014/10/22/how-to-optimize-your-dockerfile/&quot;&gt;How to Optimize Your Dockerfile&lt;/a&gt; by &lt;strong&gt;Maxime Hekel&lt;/strong&gt; (added 23. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.calazan.com/docker-cleanup-commands/&quot;&gt;Docker Cleanup Commands&lt;/a&gt; by &lt;strong&gt;Calazan&lt;/strong&gt; (added 9. Oct 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.sequenceiq.com/blog/2014/09/24/edit-files-docker/&quot;&gt;Edit files in Docker containers&lt;/a&gt; by &lt;strong&gt;Lajos Papp&lt;/strong&gt; (added 3. Oct 2014) &lt;/li&gt;
@@ -2396,20 +2393,6 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/284501557&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/273456042&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2015b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -2417,6 +2400,20 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/273456042&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2015b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/284501557&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2014d]&lt;/strong&gt; &lt;span id=&quot;Kra2014d&quot;&gt;Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittels einer generischen Cloud Service Description Language. &lt;i&gt;Impulse - Aus Forschung Und Lehre Der FH Lübeck&lt;/i&gt;, &lt;i&gt;18&lt;/i&gt;(1).&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014d.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;

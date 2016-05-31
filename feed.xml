@@ -2376,7 +2376,10 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - A Reference Model for Cloud-Native Applications. In &lt;i&gt;Proceedings of 20th. International Conference on Enterprise Distributed Object Computing Workshops (EDOCW 2016)&lt;/i&gt;.&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KP2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2016]&lt;/strong&gt; &lt;span id=&quot;KQ2016&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of 6th. International Conference on Cloud Computing and Service Sciences (CLOSER 2016)&lt;/i&gt; (Vol. 2, pp. 223–231).&lt;/span&gt;
@@ -2400,13 +2403,6 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/273456042&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2015b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -2414,6 +2410,13 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/273456042&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2015b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2014d]&lt;/strong&gt; &lt;span id=&quot;Kra2014d&quot;&gt;Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittels einer generischen Cloud Service Description Language. &lt;i&gt;Impulse - Aus Forschung Und Lehre Der FH Lübeck&lt;/i&gt;, &lt;i&gt;18&lt;/i&gt;(1).&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014d.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;

@@ -1825,7 +1825,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Cool things &lt;small&gt;you can do with Docker (toolbox) easily&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://ropenscilabs.github.io/r-docker-tutorial&quot;&gt;A Docker tutorial for reproducible research&lt;/a&gt; by &lt;strong&gt;ropenscilabs&lt;/strong&gt; (added 6. Apr 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ropenscilabs.github.io/r-docker-tutorial&quot;&gt;A Docker tutorial for reproducible research&lt;/a&gt; by &lt;strong&gt;ropenscilabs&lt;/strong&gt; (added 6. Apr 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://caseyjlaw.github.io/docker-in-astronomy.html&quot;&gt;Docker in Astronomy&lt;/a&gt; by &lt;strong&gt;Casey J. Law&lt;/strong&gt; (added 23. Mar 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.datadan.io/containerized-data-science-and-engineering&quot;&gt;Containerized Data Science and Engineering - Part 1&lt;/a&gt; by &lt;strong&gt;Daniel Whitenack&lt;/strong&gt; (added 18. Feb 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://cosmicmar.com/2016/02/14/boinc-server-docker-1&quot;&gt;Turbocharged Science on BOINC (with Docker)&lt;/a&gt; by &lt;strong&gt;Marius Millea&lt;/strong&gt; (added 18. Feb 2016) &lt;/li&gt;
@@ -1943,22 +1943,18 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://www.coreos.com&quot;&gt;CoreOS: Linux for Massive Server Deployments&lt;/a&gt; (added 25. Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;(Overlay) Network &lt;small&gt;solutions&lt;/small&gt;&lt;/h3&gt;
+&lt;h3&gt;Container Network &lt;small&gt;solutions&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@lherrera/poor-mans-load-balancing-with-docker-2be014983e5&quot;&gt;Poor man’s load balancing with Docker&lt;/a&gt; by &lt;strong&gt;Luis Herrera Benitez&lt;/strong&gt; (added 1. Jun 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.weave.works/&quot;&gt;Weave - the Docker network&lt;/a&gt; by &lt;strong&gt;weaveworks&lt;/strong&gt; (added 1. Jun 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-bridge-overlay-network-compose-variable-substitution&quot;&gt;Docker Bridge and Overlay Network with Compose Variable Substitution&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Dec 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.midonet.org/kuryr-midonet-networking-docker-1-9/&quot;&gt;Kuryr brings MidoNet networking to Docker 1.9&lt;/a&gt; by _&lt;em&gt;Antoni Segura Puimedon _&lt;/em&gt; (added 15. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.docker.com/2015/11/docker-multi-host-networking-ga&quot;&gt;Multi-Host Docker Networking is now ready for production&lt;/a&gt; by &lt;strong&gt;Dave Tucker&lt;/strong&gt; (added 9. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mhausenblas/docker-networking-69b4f39df051&quot;&gt;Docker Networking (simple listing of SDN solutions relevant for Docker networking)&lt;/a&gt; by &lt;strong&gt;Michael Hausenblas&lt;/strong&gt; (added 3. May 2015)&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/04/22/using-docker-machine-with-weave-0-10/&quot;&gt;Using Docker Machine with Weave 0.10&lt;/a&gt; by &lt;strong&gt;Weaveblog.com&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://wiredcraft.com/blog/multi-host-docker-network/&quot;&gt;Multi-Host Docker Network&lt;/a&gt; by &lt;strong&gt;Vincent Viallet&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://weaveblog.com/2015/01/29/powerstrip-weave-a-docker-networking-extension/&quot;&gt;Powerstrip-weave: a docker networking extension&lt;/a&gt; by &lt;strong&gt;Michael Bridgen&lt;/strong&gt; (added 30. Jan 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://aucouranton.com/2015/01/16/docker-virtual-networking-with-socketplane-io/&quot;&gt;Docker Virtual Networking with Socketplane.io&lt;/a&gt; by &lt;strong&gt;Ryan Wallner&lt;/strong&gt; (added 22. Jan 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@ALGrendel/docker-weave-a-little-cloud-and-a-raspberry-pi-381f73a4376d&quot;&gt;Docker, Weave, Raspberry Pi and a bit of Networked Cloud Computing!&lt;/a&gt; by &lt;strong&gt;Alexander Grendel&lt;/strong&gt; (added 15. Dec 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://containerops.org/2014/11/11/future-of-docker-networking&quot;&gt;Future of Docker Networking&lt;/a&gt; by &lt;strong&gt;Milos Gajdos&lt;/strong&gt; (added 13. Nov 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://thenewstack.io/sdn-and-dockerfiles-for-clocker-the-docker-cloud-maker/&quot;&gt;SDN and Dockerfiles for Clocker, the Docker Cloud Maker&lt;/a&gt; by &lt;strong&gt;Andrew Donald Kennedy&lt;/strong&gt; (added 16. Oct 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/zettio/weave&quot;&gt;Weave - the Docker network&lt;/a&gt; by &lt;strong&gt;Zettio&lt;/strong&gt; (added 18. Sep 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Data persistence &lt;small&gt;for statefull services&lt;/small&gt;&lt;/h3&gt;

@@ -1898,6 +1898,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.usenix.org/conference/hotcloud16/workshop-program/presentation/burns&quot;&gt;Design Patterns for Container-based Distributed Systems&lt;/a&gt; by &lt;strong&gt;Brendan Burns&lt;/strong&gt; and &lt;strong&gt;David Oppenheimer&lt;/strong&gt; (added 22. Jun 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://techblog.constantcontact.com/devops/a-tale-of-three-docker-anti-patterns&quot;&gt;A Tale of Three Docker Anti-Patterns&lt;/a&gt; by &lt;strong&gt;Erik Dasque&lt;/strong&gt; (added 14. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df&quot;&gt;Building the perfect data container&lt;/a&gt; by &lt;strong&gt;Mattias Holmlund&lt;/strong&gt; (added 27. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://abdelrahmanhosny.com/2015/07/01/3-solutions-to-bi-directional-linking-problem-in-docker-compose&quot;&gt;Three Solutions to Bi-directional Linking Problem in Docker Compose&lt;/a&gt; by &lt;strong&gt;Abdelrahman Hosny&lt;/strong&gt; (added 9. Jul 2015) &lt;/li&gt;
@@ -1925,6 +1926,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Container clusters &lt;small&gt;and other microservice approaches&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/&quot;&gt;DOCKER 1.12: NOW WITH BUILT-IN ORCHESTRATION!&lt;/a&gt; by &lt;strong&gt;Docker Core Engineering&lt;/strong&gt; (added 22. Jun 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8jepaoATuN0&quot;&gt;Talk: Docker Swarm and Kubernetes&lt;/a&gt; by &lt;strong&gt;Sam Alba&lt;/strong&gt; and &lt;strong&gt;Andrea Luzzardi&lt;/strong&gt; (added 14. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://container-solutions.com/using-binpack-with-docker-swarm&quot;&gt;Using binpack with Docker Swarm&lt;/a&gt;  by &lt;strong&gt;Adrian Mouat&lt;/strong&gt; (added 28. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ahmetalpbalkan.com/blog/wagl&quot;&gt;wagl: Service Discovery for Docker Swarm&lt;/a&gt; by &lt;strong&gt;Ahmet Alp Balkan&lt;/strong&gt; (added 7. Dec 2015) &lt;/li&gt;

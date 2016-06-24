@@ -56,14 +56,14 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
 &lt;li&gt;HTML Unit: &lt;a href=&quot;/assets/ss2016/webtech/webtech-html-css.pdf&quot;&gt;HTML and CSS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Dart Unit: &lt;a href=&quot;/assets/ss2016/webtech/webtech-dart-i.pdf&quot;&gt;Part 1&lt;/a&gt;, &lt;a href=&quot;/assets/ss2016/webtech/webtech-dart-ii.pdf&quot;&gt;Part 2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;REST and HTTP Unit: &lt;a href=&quot;/assets/ss2016/webtech/webtech-http-rest.pdf&quot;&gt;REST&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;An exemplary reference game: &lt;a href=&quot;https://github.com/nkratzke/dartsnake&quot;&gt;SnakeDart&lt;/a&gt; (another game has to be devleopped using Dart)&lt;/li&gt;
+&lt;li&gt;An exemplary reference game: &lt;a href=&quot;https://github.com/nkratzke/dartsnake&quot;&gt;SnakeDart&lt;/a&gt; (another game has to be developped using Dart)&lt;/li&gt;
 &lt;li&gt;An exemplary REST-based Key-Value Store: &lt;a href=&quot;https://bitbucket.org/nanekratzke/gamekey&quot;&gt;Gamekey&lt;/a&gt; (has to be reimplemented in Dart)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Game outcomes&lt;/h3&gt;
 
 &lt;p&gt;Webtech course (summer 2016) game outcomes developped by students will be presented here.
-Stay tuned.&lt;/p&gt;
+Stay tuned. Final submission date: 5th July 2016 (I expect 14 games for submission).&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Team 1: &lt;a href=&quot;/assets/ss2016/webtech/games/01-breakout/web/index.html&quot;&gt;Breakout&lt;/a&gt;&lt;/li&gt;

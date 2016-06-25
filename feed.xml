@@ -63,7 +63,11 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
 &lt;h3&gt;Game outcomes&lt;/h3&gt;
 
 &lt;p&gt;Webtech course (summer 2016) game outcomes developped by students will be presented here.
+<<<<<<< Updated upstream
 Stay tuned. Final submission date: 5th July 2016 (I expect 14 games for submission).&lt;/p&gt;
+=======
+Stay tuned. Final submission date: 5th July 2016 (14 game submissions expected).&lt;/p&gt;
+>>>>>>> Stashed changes
 
 &lt;ul&gt;
 &lt;li&gt;Team 1: &lt;a href=&quot;/assets/ss2016/webtech/games/01-breakout/web/index.html&quot;&gt;Breakout&lt;/a&gt;&lt;/li&gt;
@@ -2387,7 +2391,7 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - A Reference Model for Cloud-Native Applications. In &lt;i&gt;8th Workshop on Service oriented Enterprise Architecture for Enterprise Engineering (SoEA4EE 2016) in conjunction with the EDOC 2016 conference&lt;/i&gt;.&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - A Cloud-native Applications Reference Model for Enterprise Architects. In &lt;i&gt;8th Workshop on Service oriented Enterprise Architecture for Enterprise Engineering (SoEA4EE 2016) in conjunction with the EDOC 2016 conference&lt;/i&gt;.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href=&#39;https://www.researchgate.net/publication/304024156&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;

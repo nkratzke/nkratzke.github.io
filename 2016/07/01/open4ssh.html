@@ -73,7 +73,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			<h2>Open4ssh</h2>
 			<p class="meta">
 			
-			<strong>01 Jul 2016</strong>
+			Latest update: <strong>2016-07-4</strong>
 			
 			</p>
 		</div>
@@ -156,7 +156,7 @@ sequence of commands and returns their exit codes, standard out and standard err
 To execute simply one single command on a remote host, we can do the following:</p>
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;open4ssh&#39;</span>
 
-<span class="n">stdout</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">exec</span><span class="p">(</span>
+<span class="n">stdout</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">capture</span><span class="p">(</span>
      <span class="ss">host</span><span class="p">:</span> <span class="s1">&#39;remote.host.io&#39;</span><span class="p">,</span>
      <span class="ss">user</span><span class="p">:</span> <span class="s1">&#39;nane&#39;</span><span class="p">,</span>
      <span class="ss">pwd</span><span class="p">:</span> <span class="s1">&#39;secret&#39;</span><span class="p">,</span>
@@ -170,7 +170,7 @@ To execute simply one single command on a remote host, we can do the following:<
 (simply use the key parameter instead of the pwd parameter):</p>
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;open4ssh&#39;</span>
 
-<span class="n">stdout</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">exec</span><span class="p">(</span>
+<span class="n">stdout</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">capture</span><span class="p">(</span>
      <span class="ss">host</span><span class="p">:</span> <span class="s1">&#39;remote.host.io&#39;</span><span class="p">,</span>
      <span class="ss">user</span><span class="p">:</span> <span class="s1">&#39;nane&#39;</span><span class="p">,</span>
      <span class="ss">key</span><span class="p">:</span> <span class="s1">&#39;/path/to/your/sshkey.pem&#39;</span><span class="p">,</span>
@@ -185,7 +185,7 @@ This snippet here will execute five shell commands sequentially</p>
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;open4ssh&#39;</span>
 <span class="nb">require</span> <span class="s1">&#39;pp&#39;</span>
 
-<span class="n">returns</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">exec4</span><span class="p">(</span>
+<span class="n">returns</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">capture4</span><span class="p">(</span>
      <span class="ss">host</span><span class="p">:</span> <span class="s1">&#39;remote.host.io&#39;</span><span class="p">,</span>
      <span class="ss">user</span><span class="p">:</span> <span class="s1">&#39;nane&#39;</span><span class="p">,</span>
      <span class="ss">key</span><span class="p">:</span> <span class="s1">&#39;/path/to/your/sshkey.pem&#39;</span><span class="p">,</span>
@@ -220,7 +220,7 @@ each command could be successfully processed (exit code 0). So this snippet here
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;open4ssh&#39;</span>
 <span class="nb">require</span> <span class="s1">&#39;pp&#39;</span>
 
-<span class="n">returns</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">exec4</span><span class="p">(</span>
+<span class="n">returns</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">capture4</span><span class="p">(</span>
      <span class="ss">host</span><span class="p">:</span> <span class="s1">&#39;remote.host.io&#39;</span><span class="p">,</span>
      <span class="ss">user</span><span class="p">:</span> <span class="s1">&#39;nane&#39;</span><span class="p">,</span>
      <span class="ss">key</span><span class="p">:</span> <span class="s1">&#39;/path/to/your/sshkey.pem&#39;</span><span class="p">,</span>
@@ -245,7 +245,7 @@ each command could be successfully processed (exit code 0). So this snippet here
 
 <p>Because Open4ssh only executes commands as long as they are returning a exit code of 0, we can check 
 pragmatically whether all commands of a sequence have been executed successfully:</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">exit_code</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">exec4</span><span class="p">(</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">exit_code</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">capture4</span><span class="p">(</span>
      <span class="ss">host</span><span class="p">:</span> <span class="s1">&#39;remote.host.io&#39;</span><span class="p">,</span>
      <span class="ss">user</span><span class="p">:</span> <span class="s1">&#39;nane&#39;</span><span class="p">,</span>
      <span class="ss">key</span><span class="p">:</span> <span class="s1">&#39;/path/to/your/sshkey.pem&#39;</span><span class="p">,</span>
@@ -265,7 +265,7 @@ pragmatically whether all commands of a sequence have been executed successfully
 <h3>What is this good for?</h3>
 
 <p>Just a small example. Assuming your remote host is a Ubuntu 14.04 system we could do something like that:</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">exit_code</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">exec4</span><span class="p">(</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">exit_code</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">capture4</span><span class="p">(</span>
      <span class="ss">host</span><span class="p">:</span> <span class="s1">&#39;remote.host.io&#39;</span><span class="p">,</span>
      <span class="ss">user</span><span class="p">:</span> <span class="s1">&#39;nane&#39;</span><span class="p">,</span>
      <span class="ss">key</span><span class="p">:</span> <span class="s1">&#39;/path/to/your/sshkey.pem&#39;</span><span class="p">,</span>
@@ -286,7 +286,7 @@ Of course, you can do any other tasks as well. This was only one example ;-)</p>
 <h3>Verbose mode</h3>
 
 <p>If you want to know what is happening there you can turn on the verbose mode (mostly useful for debugging).</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">exit_code</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">exec4</span><span class="p">(</span>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">exit_code</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="o">.</span><span class="n">capture4</span><span class="p">(</span>
      <span class="ss">host</span><span class="p">:</span> <span class="s1">&#39;remote.host.io&#39;</span><span class="p">,</span>
      <span class="ss">user</span><span class="p">:</span> <span class="s1">&#39;nane&#39;</span><span class="p">,</span>
      <span class="ss">key</span><span class="p">:</span> <span class="s1">&#39;/path/to/your/sshkey.pem&#39;</span><span class="p">,</span>

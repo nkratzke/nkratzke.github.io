@@ -1,0 +1,56 @@
+﻿{"mc_newPlayerLives"	  : 2,
+"mc_newPlayerLevel" 	  : 0,
+"mc_newPlayerLevelPoints" : 0,
+"mc_newPlayerAP" 		  : 0,
+"mc_newPlayerFaction"	  : "Blau",
+"mc_newAILives" 		  : 2,
+"mc_newAILevel" 		  : 0,
+"mc_newAILevelPoints" 	  : 0,
+"mc_newAIAP" 			  : 0,
+"mc_newAIFaction" 		  : "Rot",
+
+"mc_defaultDeckRed" : ["1","3","3","4","5","6","7","8","8","10","11","12","13","14","15","18","19","20"],
+"mc_defaultDeckBlue": ["27","36","34","34","35","35","29","46","41","22","47","49","50","51","48","23","25","26"],
+
+"agc_levelupBonusMin" 	: 3,
+"agc_levelupDef"        : 5,
+"agc_levelupBonusMax" 	: 7,
+"agc_levelupThreshold"	: 7,
+"agc_levelupBonusCards" : { "lvl1" : ["58","64"], "lvl2" : ["57","61"], "lvl3":["52","54"]},
+
+"gc_cardOverlap" 		: 9,
+"gc_cardPositionOffset" : 30.15,
+"gc_cardPositionMax"	: 92,
+"gc_cardWidth"			: 7,
+"gc_cardDist" 			: 0.5,
+
+"pgc_kiLevelMod" 		: 0,
+"pgc_deckSizeMin" 		: 22,
+"pgc_handSizePlayer"  	: 10,
+"pgc_handSizeAI"      	: 10,
+
+"hornAPmod"       		: 2,
+"moraleBoostAPmod"		: 1,
+"spyDrawMax"       		: 2,
+"healerDrawMax"         : 1,
+"defaultLivesPlayer"  	: 2,
+"defaultLivesAI"  		: 2,
+
+  "cardTooltipText_EFFECTS.BROTHERHOOD" : "Enge Bindung führt zu einer Addition von Kartenwerten, falls mehrere Karten dieses Typs in einer Reihe liegen.Bsp: Besitzt die Karte einen urspr. Wert von 4, dann hat bei drei Karten dieses Types in einer Reihe jede diesr Karten den Wert von 12 ",
+  "cardTooltipText_EFFECTS.HORN"        : "Das Horn verdoppelt Punkte einer gesamten Reihe, der Horn Effekt ist nicht kumulativ, 2 Hörner in einer Reihe werden keine 4-fach Wertung in einer Reihe produzieren. Goldumrahmte Heldenkarten werden nicht beeinflusst",
+  "cardTooltipText_EFFECTS.HEALER"      : "Der Heiler ermöglicht es dem Spieler eine Einheiten- oder Wetterkarte vom Friedhof zu spielen, gibt es keine Karte auf dem Friedhof verfällt diese Zusatzoption",
+  "cardTooltipText_EFFECTS.MORALEBOOST" : "Moralschub addiert 1 Punkt zu jeder Karte in der Reihe, wirkt nicht auf die Karte selbst und goldumrahmte Heldenkarten",
+  "cardTooltipText_EFFECTS.SPY"         : "Diese Spion-Karte wird in die Reihen des Gegners gelegt. Der Spieler erhält [zwei] zufällige Karten aus dem Deck, die in seine Spielerhand platziert werden",
+  "cardTooltipText_EFFECTS.WEATHER"     : "Reduziert die Punkte aller Karten in Reihen in denen sie wirkt auf 1, goldumrahmte Heldenkarten werden nicht beeinflusst. Wetterkarten wirken auf Spieler und Gegnerreihen (Regen wirkt auf Belagerung(Panzer), Nebel wirkt auf Fernkampf(Bogen), Schnee wirkt auf Nahkampf(Faust)",
+  "cardTooltipText_EFFECTS.GOODWEATHER" : "Entfernt alle gerade wirkenden Wettereffekte vom gesamten Spielfeld",
+
+  "gk_host" 			: "212.201.22.169",
+  "gk_port" 			: "50001",
+  "gk_gameId"			: "9186f207-08ca-4e55-adde-ce21b2a8f59f",
+
+  "playCardCancelDelay" : 250,
+  "cardTooltipDelay"    : 300,
+  "gamekeyCutoff"       : 0,
+
+  "helpTableOrderOfApplication" : "Wettereffekte, Enge Bindung, Horn, Moralschub"
+}

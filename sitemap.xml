@@ -216,6 +216,9 @@
     <loc>http://www.nkode.io/thesis.html</loc>
   </url>
   <url>
+    <loc>http://www.nkode.io/bibliography/KQP+2016.html</loc>
+  </url>
+  <url>
     <loc>http://www.nkode.io/bibliography/KQ2016b.html</loc>
   </url>
   <url>
@@ -234,7 +237,7 @@
     <loc>http://www.nkode.io/bibliography/KH2016.html</loc>
   </url>
   <url>
-    <loc>http://www.nkode.io/bibliography/KQ2015.html</loc>
+    <loc>http://www.nkode.io/bibliography/KQ2015a.html</loc>
   </url>
   <url>
     <loc>http://www.nkode.io/bibliography/Kra2015a.html</loc>
@@ -243,7 +246,7 @@
     <loc>http://www.nkode.io/bibliography/Kra2015b.html</loc>
   </url>
   <url>
-    <loc>http://www.nkode.io/bibliography/KQ2015a.html</loc>
+    <loc>http://www.nkode.io/bibliography/KQ2015.html</loc>
   </url>
   <url>
     <loc>http://www.nkode.io/bibliography/Kra2014d.html</loc>
@@ -255,16 +258,16 @@
     <loc>http://www.nkode.io/bibliography/Kra2014b.html</loc>
   </url>
   <url>
-    <loc>http://www.nkode.io/bibliography/GKK2012.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2012b.html</loc>
-  </url>
-  <url>
     <loc>http://www.nkode.io/bibliography/Kra2012a.html</loc>
   </url>
   <url>
+    <loc>http://www.nkode.io/bibliography/GKK2012.html</loc>
+  </url>
+  <url>
     <loc>http://www.nkode.io/bibliography/Kra2012d.html</loc>
+  </url>
+  <url>
+    <loc>http://www.nkode.io/bibliography/Kra2012b.html</loc>
   </url>
   <url>
     <loc>http://www.nkode.io/bibliography/Kra2012c.html</loc>
@@ -710,8 +713,24 @@
     <lastmod>2016-06-21T16:03:34+02:00</lastmod>
   </url>
   <url>
+    <loc>http://www.nkode.io/assets/ss2016/webtech/games/02-cubedash/web/index.html</loc>
+    <lastmod>2016-07-06T07:59:49+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nkode.io/assets/ss2016/webtech/games/03-tankgame/web/index.html</loc>
+    <lastmod>2016-07-06T08:16:20+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://www.nkode.io/assets/ss2016/webtech/games/06-tilldeath/web/index.html</loc>
     <lastmod>2016-06-22T10:12:23+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nkode.io/assets/ss2016/webtech/games/08-brickgame/web/index.html</loc>
+    <lastmod>2016-07-06T08:53:27+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nkode.io/assets/ss2016/webtech/games/08-brickgame/web/packages/test/src/runner/browser/static/index.html</loc>
+    <lastmod>2016-07-06T08:53:29+02:00</lastmod>
   </url>
   <url>
     <loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/Breakout.html</loc>

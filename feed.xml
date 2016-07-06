@@ -262,7 +262,10 @@ Stay tuned. Final submission date: 5th July 2016 (14 game submissions expected).
 
 &lt;ul&gt;
 &lt;li&gt;Team 1: &lt;a href=&quot;/assets/ss2016/webtech/games/01-breakout/web/index.html&quot;&gt;Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Team 2: &lt;a href=&quot;/assets/ss2016/webtech/games/02-cubedash/web/index.html&quot;&gt;Cube Dash&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Team 3: &lt;a href=&quot;/assets/ss2016/webtech/games/03-tankgame/web/index.html&quot;&gt;Tank Game&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Team 6: &lt;a href=&quot;/assets/ss2016/webtech/games/06-tilldeath/web/index.html&quot;&gt;Till Death&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Team 8: &lt;a href=&quot;/assets/ss2016/webtech/games/08-brickgame/web/index.html&quot;&gt;Brick Game&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Team 9: &lt;a href=&quot;/assets/ss2016/webtech/games/09-pacman/web/index.html&quot;&gt;Pacman&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Team 12: &lt;a href=&quot;/assets/ss2016/webtech/games/12-brickcrash/web/index.html&quot;&gt;Brick Crash&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2539,7 +2542,14 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2016b]&lt;/strong&gt; &lt;span id=&quot;KQ2016b&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp;amp; J. Cardoso (Eds.), &lt;i&gt;Cloud Computing and Services Science Selected Papers&lt;/i&gt;. Springer.&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQP+2016]&lt;/strong&gt; &lt;span id=&quot;KQP+2016&quot;&gt;Kratzke, N., Quint, P.-C., Palme, D., &amp;amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp;amp; B. Koch (Eds.), &lt;i&gt;European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges&lt;/i&gt;. SCITEPRESS.&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/304578995&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQP+2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2016b]&lt;/strong&gt; &lt;span id=&quot;KQ2016b&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp;amp; J. Cardoso (Eds.), &lt;i&gt;Cloud Computing and Services Science Selected Papers&lt;/i&gt;. Springer.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href=&#39;https://www.researchgate.net/publication/304024330&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;

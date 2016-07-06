@@ -37,13 +37,13 @@ class DataLoader {
    */
   void loadData() {
     print("Loading data...");
-    var url = BASE_URL + GAMEKEY_URL;
+    var url = GAMEKEY_URL;
     HttpRequest.getString(url).then(onGameKeyLoad);
 
-    url = BASE_URL + MODEL_URL;
+    url = MODEL_URL;
     HttpRequest.getString(url).then(onParameterLoad);
 
-    url = BASE_URL + MAP_URL;
+    url = MAP_URL;
     HttpRequest.getString(url).then(onMapLoad);
   }
 

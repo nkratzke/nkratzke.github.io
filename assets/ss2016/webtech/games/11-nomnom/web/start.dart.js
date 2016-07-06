@@ -958,10 +958,9 @@
       "^": "Object;mapLoaded,gameKeyLoaded,parametersLoaded,mapData,parameters,gamekeyData,starter,BASE_URL,GAMEKEY_URL,MODEL_URL,MAP_URL",
       loadData$0: function() {
         P.print("Loading data...");
-        var t1 = this.BASE_URL;
-        W.HttpRequest_getString(t1 + this.GAMEKEY_URL, null, null).then$1(this.get$onGameKeyLoad());
-        W.HttpRequest_getString(t1 + this.MODEL_URL, null, null).then$1(this.get$onParameterLoad());
-        W.HttpRequest_getString(t1 + this.MAP_URL, null, null).then$1(this.get$onMapLoad());
+        W.HttpRequest_getString(this.GAMEKEY_URL, null, null).then$1(this.get$onGameKeyLoad());
+        W.HttpRequest_getString(this.MODEL_URL, null, null).then$1(this.get$onParameterLoad());
+        W.HttpRequest_getString(this.MAP_URL, null, null).then$1(this.get$onMapLoad());
       },
       onMapLoad$1: [function(responseText) {
         this.mapData = C.JsonCodec_null_null.decode$1(responseText);

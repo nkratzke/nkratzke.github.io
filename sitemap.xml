@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.nkode.io/2016/07/11/And-the-winner-is-namcap.html</loc>
+    <lastmod>2016-07-11T00:00:00+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://www.nkode.io/2016/07/01/open4ssh.html</loc>
     <lastmod>2016-07-01T00:00:00+02:00</lastmod>
   </url>
@@ -644,6 +648,9 @@
     <url>
       <loc>http://www.nkode.io/2016/07/01/open4ssh.html</loc>
     </url>
+    <url>
+      <loc>http://www.nkode.io/2016/07/11/And-the-winner-is-namcap.html</loc>
+    </url>
   <url>
     <loc>http://www.nkode.io/assets/ss2015/webtech/games/breakout/game.html</loc>
     <lastmod>2015-11-19T16:58:00+01:00</lastmod>
@@ -766,7 +773,7 @@
   </url>
   <url>
     <loc>http://www.nkode.io/assets/webtech-hall-of-fame/index.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
+    <lastmod>2016-07-11T19:03:04+02:00</lastmod>
   </url>
   <url>
     <loc>http://www.nkode.io/assets/webtech/examples/CSS/child/child.html</loc>

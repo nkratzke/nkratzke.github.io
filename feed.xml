@@ -7,6 +7,33 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>And the winner is ... NAMCAP</title>
+      <description>
+        
+        &lt;img src=&quot;/assets/webtech-hall-of-fame/background.jpg&quot;&gt;
+        
+        &lt;p&gt;We had some fun this summer semester &lt;a href=&quot;/lecture/2016/04/11/lecture-webtech.html&quot;&gt;webtechnology course&lt;/a&gt;. 
+My students implemented several classical games as &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; single page HTML &amp;#39;apps&amp;#39;.&lt;/p&gt;
+
+&lt;p&gt;Three games (of 13 game submissions) entered the &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Webtech Hall of Fame&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;#1: &lt;a href=&quot;/assets/ss2016/webtech/games/09-pacman/web/index.html&quot;&gt;Namcap&lt;/a&gt; by Sheraz Azad, Malte Grebe, Niklas Klatt &lt;/li&gt;
+&lt;li&gt;#2: &lt;a href=&quot;/assets/ss2016/webtech/games/07-kistenschieben/web/KistenschiebenView.html&quot;&gt;Kisten Schieben&lt;/a&gt; by Tim Cedric Korinth, Johann Michaelis, Felix Richter, Malte Schreiber&lt;/li&gt;
+&lt;li&gt;#3: &lt;a href=&quot;/assets/ss2016/webtech/games/03-tankgame/web/index.html&quot;&gt;Tank Game&lt;/a&gt; by Sönke Gonschorowski, Jannik Kühnemundt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Congratulations.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#39;90%&#39; height=&#39;2048px&#39; src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
+
+      </description>
+      <pubDate>Mon, 11 Jul 2016 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2016/07/11/And-the-winner-is-namcap.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2016/07/11/And-the-winner-is-namcap.html</guid>
+    </item>
+    
+    <item>
       <title>Open4ssh</title>
       <description>
         
@@ -260,13 +287,13 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
 &lt;ul&gt;
 &lt;li&gt;Team 1: &lt;a href=&quot;/assets/ss2016/webtech/games/01-breakout/web/index.html&quot;&gt;Breakout&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Team 2: &lt;a href=&quot;/assets/ss2016/webtech/games/02-cubedash/web/index.html&quot;&gt;Cube Dash&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Team 3: &lt;a href=&quot;/assets/ss2016/webtech/games/03-tankgame/web/index.html&quot;&gt;Tank Game&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Team 3: &lt;a href=&quot;/assets/ss2016/webtech/games/03-tankgame/web/index.html&quot;&gt;Tank Game&lt;/a&gt; entered &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Hall-of-Fame&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Team 4: &lt;a href=&quot;/assets/ss2016/webtech/games/04-legendhref/web/index.html&quot;&gt;Legend of Href&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Team 5: Shovel Knight - not deployable to a static web server (not following Dart pub conventions, arrrgh)&lt;/li&gt;
 &lt;li&gt;Team 6: &lt;a href=&quot;/assets/ss2016/webtech/games/06-tilldeath/web/index.html&quot;&gt;Till Death&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Team 7: &lt;a href=&quot;/assets/ss2016/webtech/games/07-kistenschieben/web/KistenschiebenView.html&quot;&gt;Kisten Schieben&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Team 7: &lt;a href=&quot;/assets/ss2016/webtech/games/07-kistenschieben/web/KistenschiebenView.html&quot;&gt;Kisten Schieben&lt;/a&gt; entered &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Hall-of-Fame&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Team 8: &lt;a href=&quot;/assets/ss2016/webtech/games/08-brickgame/web/index.html&quot;&gt;Brick Game&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Team 9: &lt;a href=&quot;/assets/ss2016/webtech/games/09-pacman/web/index.html&quot;&gt;Namcap (aka Pacman)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Team 9: &lt;a href=&quot;/assets/ss2016/webtech/games/09-pacman/web/index.html&quot;&gt;Namcap (aka Pacman)&lt;/a&gt; entered &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Hall-of-Fame&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Team 10: surrendered&lt;/li&gt;
 &lt;li&gt;Team 11: NomNom (aka Pacman) - not deployable to a static web server (because game data has been referenced absolutely to localhost, arrrgh)&lt;/li&gt;
 &lt;li&gt;Team 12: &lt;a href=&quot;/assets/ss2016/webtech/games/12-brickcrash/web/index.html&quot;&gt;Brick Crash&lt;/a&gt;&lt;/li&gt;

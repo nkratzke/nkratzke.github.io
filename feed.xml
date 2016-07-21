@@ -2034,7 +2034,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to use Docker &lt;small&gt;tips and tricks&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://mercurenews.com/en/10-tips-tricks-with-docker&quot;&gt;10 Tips &amp;amp; Tricks with Docker&lt;/a&gt; by &lt;strong&gt;Dominique Haas&lt;/strong&gt; (added 17. May 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mercurenews.com/en/10-tips-tricks-with-docker&quot;&gt;10 Tips &amp;amp; Tricks with Docker&lt;/a&gt; by &lt;strong&gt;Dominique Haas&lt;/strong&gt; (added 17. May 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.smartjava.org/content/10-practical-docker-tips-day-day-docker-usage&quot;&gt;10 Practical Docker Tips for Day to Day Docker usage (see especially Tip 3: docker inspect and jq)&lt;/a&gt; by &lt;strong&gt;Jos Dirksen&lt;/strong&gt; (added 28. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.sitepoint.com/docker-and-dockerfiles-made-easy&quot;&gt;Docker and Dockerfiles Made Easy!&lt;/a&gt; by &lt;strong&gt;Younies Rafie&lt;/strong&gt; (added 22. Oct 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-toolbox&quot;&gt;Docker Toolbox&lt;/a&gt; by &lt;strong&gt;Aron Gupta&lt;/strong&gt; (added 19. Aug 2015) &lt;/li&gt;
@@ -2146,6 +2146,11 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Docker &lt;small&gt;swarm mode&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1464&quot;&gt;Understanding Node Failure Handling under Docker 1.12 Swarm Mode&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1445&quot;&gt;Docker 1.12 Swarm Mode – Under the hood&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1391&quot;&gt;Docker 1.12 Networking Model Overview&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1317&quot;&gt;Docker Engine 1.12 comes with built-in Distribution &amp;amp; Orchestration System&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.couchbase.com/2016/july/labels-constraints-docker-daemon-service&quot;&gt;Labels and Constraints with Docker Daemon and Service&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@LachlanEvenson/5-minutes-dabbling-with-docker-distributed-application-bundles-dab-60f2dca3829#.b4irfua41&quot;&gt;5 minutes dabbling with Docker Distributed Application Bundles (DAB)&lt;/a&gt; by &lt;strong&gt;Lachlan Evenson&lt;/strong&gt; (added 28. Jun 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/&quot;&gt;DOCKER 1.12: NOW WITH BUILT-IN ORCHESTRATION!&lt;/a&gt; by &lt;strong&gt;Docker Core Engineering&lt;/strong&gt; (added 22. Jun 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;

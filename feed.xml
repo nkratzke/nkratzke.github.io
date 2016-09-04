@@ -7,6 +7,50 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>ClouNS - A Cloud-native Application Reference Model for Enterprise Architects</title>
+      <description>
+        
+        &lt;img src=&quot;https://c2.staticflickr.com/4/3202/2849637988_35fbe3b2db_b.jpg&quot;&gt;
+        
+        &lt;p&gt;I am going to present this paper at the 8th Workshop on Service-oriented Enterprise Architecture for Enterprise Engineering (&lt;a href=&quot;http://www.soea4ee.org/&quot;&gt;SoEA4EE 2016&lt;/a&gt;).
+This workshop is being held in conjunction with &lt;a href=&quot;http://edoc2016.univie.ac.at/&quot;&gt;EDOC 2016 conference&lt;/a&gt; in Vienna, Austria.&lt;/p&gt;
+
+&lt;p&gt;I will present a reference model for cloud-native applications for enterprise architects.
+A full text version of the paper is provided via &lt;span class=&quot;researchgate&quot;&gt;&lt;a href=&quot;https://www.researchgate.net/publication/304024156&quot;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;&lt;/span&gt;.
+Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/KP2016.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;The capability to operate cloud-native applications can create enormous business growth and value. But enterprise architects should be aware that cloud-native applications are vulnerable to vendor lock-in. We investigated cloud-native application design principles, public cloud service providers, and industrial cloud standards. All results indicate that most cloud service categories seem to foster vendor lock-in situations which might be especially problematic for enterprise architectures. This might sound disillusioning at first. However, we present a reference model for cloud-native applications that relies only on a small subset of well standardized IaaS services. The reference model can be used for codifying cloud technologies. It can guide technology identification, classification, adoption, research and development processes for cloud-native application and for vendor lock-in aware enterprise architecture engineering methodologies.&lt;/p&gt;
+
+&lt;h3&gt;Reference Model&lt;/h3&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&quot;/img/posts/cloud-native-stack.png&quot; class=&#39;nogrey&#39; width=100%&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Details are explained in the &lt;a href=&quot;/bibliography/KP2016.html&quot;&gt;paper&lt;/a&gt; (provided via Research Gate). The motivating background is presented in the following slides.&lt;/p&gt;
+
+&lt;h3&gt;Slides&lt;/h3&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe src=&quot;http://www.slideshare.net/slideshow/embed_code/key/3X2o4jhktf2Itq&quot;
+        width=&quot;100%&quot;
+        height=&quot;500px&quot;
+        frameborder=&quot;0&quot;
+        marginwidth=&quot;0&quot;
+        marginheight=&quot;0&quot;
+        scrolling=&quot;no&quot;
+        style=&quot;border: 1px solid white; max-width: 100%; background-color: white;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+      </description>
+      <pubDate>Sun, 04 Sep 2016 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2016/09/04/edoc2016.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2016/09/04/edoc2016.html</guid>
+    </item>
+    
+    <item>
       <title>And the winner is ... NAMCAP</title>
       <description>
         
@@ -2121,7 +2165,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.usenix.org/conference/hotcloud16/workshop-program/presentation/burns&quot;&gt;Design Patterns for Container-based Distributed Systems&lt;/a&gt; by &lt;strong&gt;Brendan Burns&lt;/strong&gt; and &lt;strong&gt;David Oppenheimer&lt;/strong&gt; (added 22. Jun 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.usenix.org/conference/hotcloud16/workshop-program/presentation/burns&quot;&gt;Design Patterns for Container-based Distributed Systems&lt;/a&gt; by &lt;strong&gt;Brendan Burns&lt;/strong&gt; and &lt;strong&gt;David Oppenheimer&lt;/strong&gt; (added 22. Jun 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@lherrera/poor-mans-load-balancing-with-docker-2be014983e5&quot;&gt;Poor man’s load balancing with Docker&lt;/a&gt; by &lt;strong&gt;Luis Herrera Benitez&lt;/strong&gt; (added 1. Jun 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://techblog.constantcontact.com/devops/a-tale-of-three-docker-anti-patterns&quot;&gt;A Tale of Three Docker Anti-Patterns&lt;/a&gt; by &lt;strong&gt;Erik Dasque&lt;/strong&gt; (added 14. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@mattias.holmlund/building-the-perfect-data-container-2df6bb3528df&quot;&gt;Building the perfect data container&lt;/a&gt; by &lt;strong&gt;Mattias Holmlund&lt;/strong&gt; (added 27. Aug 2015) &lt;/li&gt;
@@ -2152,8 +2196,8 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1391&quot;&gt;Docker 1.12 Networking Model Overview&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1317&quot;&gt;Docker Engine 1.12 comes with built-in Distribution &amp;amp; Orchestration System&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.couchbase.com/2016/july/labels-constraints-docker-daemon-service&quot;&gt;Labels and Constraints with Docker Daemon and Service&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@LachlanEvenson/5-minutes-dabbling-with-docker-distributed-application-bundles-dab-60f2dca3829#.b4irfua41&quot;&gt;5 minutes dabbling with Docker Distributed Application Bundles (DAB)&lt;/a&gt; by &lt;strong&gt;Lachlan Evenson&lt;/strong&gt; (added 28. Jun 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/&quot;&gt;DOCKER 1.12: NOW WITH BUILT-IN ORCHESTRATION!&lt;/a&gt; by &lt;strong&gt;Docker Core Engineering&lt;/strong&gt; (added 22. Jun 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@LachlanEvenson/5-minutes-dabbling-with-docker-distributed-application-bundles-dab-60f2dca3829#.b4irfua41&quot;&gt;5 minutes dabbling with Docker Distributed Application Bundles (DAB)&lt;/a&gt; by &lt;strong&gt;Lachlan Evenson&lt;/strong&gt; (added 28. Jun 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/&quot;&gt;DOCKER 1.12: NOW WITH BUILT-IN ORCHESTRATION!&lt;/a&gt; by &lt;strong&gt;Docker Core Engineering&lt;/strong&gt; (added 22. Jun 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Docker &lt;small&gt;network&lt;/small&gt;&lt;/h3&gt;

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<project name="Aufgabe 5.6" default="all" basedir=".">
+	
+	<property name="url.checkstyle" 
+		      value="http://www.nkode.io/assets/programming/eclipse/programming-freshman-checkstyle-conventions.xml"/>
+	<property name="url.checkstylelib" 
+		      value="http://www.nkode.io/assets/programming/eclipse/checkstyle-6.16-all.jar"/>
+	<property name="url.checkstylexsl"
+	          value="http://java.net/projects/cougarsquared/sources/svn/content/trunk/buildsystem/checkstyle/contrib/checkstyle-noframes-sorted.xsl?raw=true"/>
+	
+	<property name="url.jacocolib" 
+		      value="https://github.com/jacoco/jacoco/releases/download/v0.7.6/jacoco-0.7.6.201602180812.zip"/>
+	<property name="url.junit"
+	          value="http://search.maven.org/remotecontent?filepath=junit/junit/4.12/junit-4.12.jar"/>	
+	<property name="url.hamcrest"
+	          value="http://search.maven.org/remotecontent?filepath=org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>	
+
+	          	
+	<target name="prepare" depends="clean" description="Prepares environment">
+		<mkdir dir="lib"/>
+		
+		<get src="${url.checkstylelib}" dest="lib/checkstyle.jar"/>
+		<taskdef resource="com/puppycrawl/tools/checkstyle/ant/checkstyle-ant-task.properties"
+			     classpath="lib/checkstyle.jar"/>
+
+		<get src="${url.jacocolib}" dest="jacoco.zip"/>
+		<unzip src="jacoco.zip" dest="lib">
+			<patternset>
+				<include name="lib/*.jar"/>
+			</patternset>
+			<mapper type="flatten"/>
+		</unzip>
+		<delete file="jacoco.zip"/>
+		<taskdef resource="org/jacoco/ant/antlib.xml" 
+		         classpath="lib/jacocoant.jar"/>
+		
+		<get src="${url.junit}" dest="lib/junit.jar"/>
+		<get src="${url.hamcrest}" dest="lib/hamcrest.jar"/>
+				
+	</target>
+	
+	<target name="clean">
+		<delete dir="lib"/>
+		<delete dir="bin"/>
+		<delete dir="report"/>
+		<delete file="checkstyle.xml"/>
+		<delete file="checkstyle.xsl"/>
+	</target>
+
+	<target name="compile" depends="prepare" description="Compile">
+		<mkdir dir="bin"/>
+		<javac debug="on" includeantruntime="false" srcdir="src" destdir="bin">
+			<classpath>
+				<pathelement location="lib/junit.jar"/>
+			</classpath>
+		</javac>
+				
+	</target>
+	
+	<target name="test" description="Code Coverarge">	
+    <mkdir dir="report/tests"/>
+
+		<coverage destfile="report/unitcoverage.exec">
+			<junit fork="yes" haltonfailure="no">
+			 	<classpath>
+		        	<pathelement location="lib/junit.jar"/>
+		        	<pathelement location="lib/hamcrest.jar"/>
+					<pathelement path="bin"/>
+		    	</classpath>
+				<formatter type="xml"/>
+				<batchtest todir="report/tests">
+			       <fileset dir="src" includes="**/*Test*" excludes="**/*Abstract*"/>
+			    </batchtest>
+			</junit>
+		</coverage>		
+
+		<junitreport>
+      <fileset dir="." includes="report/tests/TEST-*.xml"/>
+			<report format="noframes" todir="report"/>
+		</junitreport>
+					
+		<report>         
+		    <executiondata>
+		        <file file="report/unitcoverage.exec"/>
+		    </executiondata>
+		                        
+		    <structure name="Measured Unit Test Coverage">
+		        <classfiles>
+		            <fileset dir="bin"/>
+		        </classfiles>
+		        <sourcefiles encoding="UTF-8">
+		            <fileset dir="src"/>
+		        </sourcefiles>
+		    </structure>           
+		    <html destdir="report/coverage"/>  
+			<xml destfile="report/coverage.xml"/>
+			<csv destfile="report/coverage.csv"/>
+		</report>
+	</target>
+	
+	<target name="checkstyle" description="Checkstyle">
+		<mkdir dir="report"/>
+		<get src="${url.checkstyle}" dest="checkstyle.xml"/>
+		<get src="${url.checkstylexsl}" dest="checkstyle.xsl"/>
+		<checkstyle config="checkstyle.xml" failOnViolation="false">
+			<fileset dir="src" includes="**/*.java" excludes="**/*Test*.java"/>
+			<formatter type="plain"/>
+			<formatter type="xml" toFile="report/checkstyle.xml"/>
+		</checkstyle>
+		<xslt in="report/checkstyle.xml" out="report/checkstyle.html" style="checkstyle.xsl"/>
+	</target>
+	
+	<target name="all" description="Run all checks" depends="clean,prepare,compile,test,checkstyle" />
+	
+</project>

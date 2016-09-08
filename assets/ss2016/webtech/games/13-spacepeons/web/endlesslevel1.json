@@ -1,0 +1,22 @@
+[{
+  "levelname" : "The Flood",
+  "endless"   : true,
+  "nextlevel" : null,
+
+
+  "rows"      : 40,
+  "cols"      : 40,
+  "abstand"   : 30,
+  "padding"   : 8,
+
+  "Peonswarms" : {
+    "Peonswarm" : {
+      "startingcol"   : 2,
+      "endcol"        : 6,
+      "abstandPx"     : 2,
+      "abstandPy"     : 2
+    }
+
+  }
+
+}]

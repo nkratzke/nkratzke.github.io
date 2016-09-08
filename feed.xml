@@ -23,6 +23,17 @@ Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/K
 
 &lt;p&gt;The capability to operate cloud-native applications can create enormous business growth and value. But enterprise architects should be aware that cloud-native applications are vulnerable to vendor lock-in. We investigated cloud-native application design principles, public cloud service providers, and industrial cloud standards. All results indicate that most cloud service categories seem to foster vendor lock-in situations which might be especially problematic for enterprise architectures. This might sound disillusioning at first. However, we present a reference model for cloud-native applications that relies only on a small subset of well standardized IaaS services. The reference model can be used for codifying cloud technologies. It can guide technology identification, classification, adoption, research and development processes for cloud-native application and for vendor lock-in aware enterprise architecture engineering methodologies.&lt;/p&gt;
 
+&lt;h3&gt;Definition of a Cloud-native Application&lt;/h3&gt;
+
+&lt;blockquote&gt;
+A &lt;strong&gt;cloud-native application&lt;/strong&gt; is a distributed, elastic and
+horizontal scalable system composed of (micro)services which
+isolates state in a  minimum of stateful components. The 
+application and each self-contained deployment unit of that
+application is designed according to cloud-focused design patterns
+and operated on a self-service elastic platform.
+&lt;/blockquote&gt;
+
 &lt;h3&gt;Reference Model&lt;/h3&gt;
 
 &lt;p&gt;&lt;center&gt;

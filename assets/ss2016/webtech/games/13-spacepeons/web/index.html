@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no" />
+    <title>Invader</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="window">
+    <p id="pauseText">Pause</p>
+    <img src="../pictures/Title.png" id="title">
+    <dev id="button_container">
+        <button class="normalbutton" id="start">Start</button>
+        <button class="normalbutton" id="playmode">Arcade</button>
+        <button class="normalbutton" id="difficulty">Leicht</button>
+        <button class="normalbutton" id="highscorebutton">Highscore</button>
+    </dev>
+    <table id="playfield">
+    </table>
+    <div id="gui"></div>
+    <div id="gameoverscreen">
+        <img id="gameover" src="../pictures/GameOver.png">
+        <p id="punkte"></p>
+        <input id="name" placeholder="Username">
+        <input id="pw" type = "password" placeholder="Password">
+        <button class="normalbutton" id="confirm">Bestaetigen</button>
+        <button class="normalbutton" id="cancelGameOver">Abbrechen</button>
+    </div>
+    <div id="highscore"></div>
+    <button class="normalbutton" id="cancelHighscore">Zurueck</button>
+</div>
+<textarea readonly rows=5 id="statusWindow"></textarea>
+<div class="mobile-only" id="mobilebuttons">
+    <button class="mobilebutton" id="left">Links</button>
+    <button class="mobilebutton" id="right">Rechts</button>
+    <button class="mobilebutton" id="fire">Feuer</button>
+</div>
+<script type ="application/dart"  src="spacepeonsClient.dart"></script>
+<script src='packages/browser/dart.js'></script>
+</body>
+</html>

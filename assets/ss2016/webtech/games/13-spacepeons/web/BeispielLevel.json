@@ -1,0 +1,67 @@
+{
+  "levelname" : "testlevel",
+  "endless"   : false,
+  "nextlevel" : null,
+
+
+  "rows"      : 40,
+  "cols"      : 40,
+  "abstand"   : 30,
+  "padding"   : 8,
+
+  "Peonswarms" : {
+    "Peonswarm" : {
+      "startingcol"   : 8,
+      "endcol"        : 12,
+      "abstandPx"     : 2,
+      "abstandPy"     : 2
+    }
+
+  },
+
+  "Peonrows" : {
+    "Peonrow" :{
+      "PeonRowCol"   : 14,
+      "abstandPx"     : 2
+    }
+  },
+
+  "Peons" : {
+    "Peon" :{
+      "col" : 16,
+      "row" : 20
+    }
+  },
+
+
+  "Motherships" : {
+    "Mothership" : {
+      "col" : 20,
+      "row" : 20
+    }
+  },
+
+  "PowerUps" : {
+    "PowerUp" :{
+      "kind"   : 5,
+      "col" : 4,
+      "row" : 20
+    }
+  },
+
+  "BarrikadenRows": {
+    "BarrikadeRow" :{
+      "BRcol" : 34,
+      "abstandBx" : 6
+    }
+  },
+
+  "Barrikaden": {
+    "Barrikade" :{
+      "row":   25,
+      "col":   20
+    }
+  }
+
+
+}

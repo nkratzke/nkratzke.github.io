@@ -1,0 +1,766 @@
+[
+  {
+    "levelname" : "First Invade",
+    "endless"   : false,
+    "nextlevel" : "arcadelevel2.json",
+
+
+    "rows"      : 40,
+    "cols"      : 40,
+    "abstand"   : 30,
+    "padding"   : 8,
+
+    "Peonswarms" : {
+      "Peonswarm" : {
+        "startingcol"   : 10,
+        "endcol"        : 15,
+        "abstandPx"     : 3,
+        "abstandPy"     : 3
+      }
+
+    },
+
+
+    "Motherships" : {
+      "Mothership" : {
+        "col" : 20,
+        "row" : 6
+      }
+    },
+
+    "BarrikadenRows": {
+      "BarrikadeRow" :{
+        "BRcol" : 34,
+        "abstandBx" : 6
+      }
+    }
+
+
+
+
+  },
+
+  {
+    "levelname" : "The Invasion Continues",
+    "endless"   : false,
+    "nextlevel" : "arcadelevel3.json",
+
+
+    "rows"      : 40,
+    "cols"      : 40,
+    "abstand"   : 30,
+    "padding"   : 8,
+
+    "Peonswarms" : {
+      "Peonswarm" : {
+        "startingcol"   : 10,
+        "endcol"        : 15,
+        "abstandPx"     : 2,
+        "abstandPy"     : 2
+      }
+
+    },
+
+
+    "Motherships" : {
+      "Mothership" : {
+        "col" : 20,
+        "row" : 6
+      }
+    },
+
+
+    "BarrikadenRows": {
+      "BarrikadeRow" :{
+        "BRcol" : 34,
+        "abstandBx" : 6
+      }
+    },
+
+
+    "Peons" : {
+      "Peon1" :{
+        "col" : 14,
+        "row" : 26
+      },
+      "Peon2" :{
+        "col" : 26,
+        "row" : 26
+      }
+    }
+
+  },
+
+
+  {
+    "levelname" : "Peon Blockade",
+    "endless"   : false,
+    "nextlevel" : "arcadelevel2.json",
+
+
+    "rows"      : 40,
+    "cols"      : 40,
+    "abstand"   : 30,
+    "padding"   : 6,
+
+    "Peonswarms" : {
+      "Peonswarm" : {
+        "startingcol"   : 20,
+        "endcol"        : 24,
+        "abstandPx"     : 1,
+        "abstandPy"     : 1
+      }
+    }
+  },
+
+  {
+    "levelname" : "Final Intent",
+    "endless"   : false,
+    "nextlevel" : "arcadelevel4.json",
+
+
+    "rows"      : 40,
+    "cols"      : 40,
+    "abstand"   : 30,
+    "padding"   : 8,
+
+    "Peonswarms" : {
+      "Peonswarm" : {
+        "startingcol"   : 5,
+        "endcol"        : 12,
+        "abstandPx"     : 2,
+        "abstandPy"     : 2
+      }
+
+    },
+
+    "Peonrows" : {
+      "Peonrow1" :{
+        "PeonRowCol"   : 14,
+        "abstandPx"     : 3
+      },
+      "Peonrow2" :{
+        "PeonRowCol"   : 17,
+        "abstandPx"     : 4
+      },
+      "Peonrow3" :{
+        "PeonRowCol"   : 20,
+        "abstandPx"     : 5
+      },
+      "Peonrow4" :{
+        "PeonRowCol"   : 23,
+        "abstandPx"     : 6
+      }
+    },
+
+
+    "Barrikaden": {
+      "Barrikade" :{
+        "row":   34,
+        "col":   20
+      }
+    }
+
+
+  },
+
+  {
+    "levelname" : "The Last Stand",
+    "endless"   : false,
+    "nextlevel" : null,
+
+
+    "rows"      : 40,
+    "cols"      : 40,
+    "abstand"   : 30,
+    "padding"   : 8,
+
+
+
+    "Peonrows" : {
+      "Peonrow1" :{
+        "PeonRowCol"   : 3,
+        "abstandPx"     : 2
+      },
+      "Peonrow2" :{
+        "PeonRowCol"   : 9,
+        "abstandPx"     : 2
+      },
+      "Peonrow3" :{
+        "PeonRowCol"   : 15,
+        "abstandPx"     : 2
+      },
+      "Peonrow4" :{
+        "PeonRowCol"   : 21,
+        "abstandPx"     : 2
+      },
+      "Peonrow5" :{
+        "PeonRowCol"   : 27,
+        "abstandPx"     : 2
+      }
+    },
+
+
+
+    "Motherships" : {
+      "Mothership1" : {
+        "col" : 5,
+        "row" : 6
+      },
+      "Mothership2" : {
+        "col" : 14,
+        "row" : 12
+      },
+      "Mothership3" : {
+        "col" : 23,
+        "row" : 18
+      },
+      "Mothership4" : {
+        "col" : 32,
+        "row" : 24
+      }
+    }
+  },
+
+  {
+    "levelname" : "Riff Raff",
+    "endless"   : false,
+    "nextlevel" : null,
+
+
+    "rows"      : 40,
+    "cols"      : 40,
+    "abstand"   : 30,
+    "padding"   : 8,
+
+
+
+    "Peonrows" : {
+      "Peonrow1" :{
+        "PeonRowCol"   : 1,
+        "abstandPx"     : 2
+      },
+      "Peonrow2" :{
+        "PeonRowCol"   : 2,
+        "abstandPx"     : 3
+      },
+      "Peonrow3" :{
+        "PeonRowCol"   : 3,
+        "abstandPx"     : 2
+      },
+      "Peonrow4" :{
+        "PeonRowCol"   : 4,
+        "abstandPx"     : 3
+      },
+      "Peonrow5" :{
+        "PeonRowCol"   : 5,
+        "abstandPx"     : 2
+      },
+      "Peonrow6" :{
+        "PeonRowCol"   : 6,
+        "abstandPx"     : 3
+      },
+      "Peonrow7" :{
+        "PeonRowCol"   : 7,
+        "abstandPx"     : 2
+      },
+      "Peonrow8" :{
+        "PeonRowCol"   : 8,
+        "abstandPx"     : 3
+      },
+      "Peonrow9" :{
+        "PeonRowCol"   : 9,
+        "abstandPx"     : 2
+      },
+      "Peonrow10" :{
+        "PeonRowCol"   : 10,
+        "abstandPx"     : 3
+      },
+      "Peonrow11" :{
+        "PeonRowCol"   : 11,
+        "abstandPx"     : 2
+      },
+      "Peonrow12" :{
+        "PeonRowCol"   : 12,
+        "abstandPx"     : 3
+      },
+      "Peonrow13" :{
+        "PeonRowCol"   : 13,
+        "abstandPx"     : 2
+      },
+      "Peonrow14" :{
+        "PeonRowCol"   : 14,
+        "abstandPx"     : 3
+      },
+      "Peonrow15" :{
+        "PeonRowCol"   : 15,
+        "abstandPx"     : 2
+      }
+    }
+
+  },
+  {
+    "levelname" : "Die Now ",
+    "endless"   : false,
+    "nextlevel" : null,
+
+
+    "rows"      : 40,
+    "cols"      : 40,
+    "abstand"   : 30,
+    "padding"   : 8,
+
+    "Peons" : {
+      "Peon1" :{
+        "col" : 12,
+        "row" : 2
+      },
+      "Peon2" :{
+        "col" : 12,
+        "row" : 3
+      },
+      "Peon3" :{
+        "col" : 12,
+        "row" : 4
+      },
+      "Peon4" :{
+        "col" : 12,
+        "row" : 5
+      },
+      "Peon5" :{
+        "col" : 12,
+        "row" : 6
+      },
+      "Peon6" :{
+        "col" : 12,
+        "row" : 8
+      },
+      "Peon7" :{
+        "col" : 12,
+        "row" : 9
+      },
+      "Peon8" :{
+        "col" : 12,
+        "row" : 10
+      },
+      "Peon9" :{
+        "col" : 12,
+        "row" : 11
+      },
+      "Peon10" :{
+        "col" : 12,
+        "row" : 12
+      },
+      "Peon11" :{
+        "col" : 13,
+        "row" : 2
+      },
+      "Peon12" :{
+        "col" : 13,
+        "row" : 6
+      },
+      "Peon13" :{
+        "col" : 13,
+        "row" : 9
+      },
+      "Peon14" :{
+        "col" : 14,
+        "row" : 2
+      },
+      "Peon15" :{
+        "col" : 14,
+        "row" : 6
+      },
+      "Peon16" :{
+        "col" : 14,
+        "row" : 10
+      },
+      "Peon17" :{
+        "col" : 15,
+        "row" : 2
+      },
+      "Peon18" :{
+        "col" : 15,
+        "row" : 6
+      },
+      "Peon19" :{
+        "col" : 15,
+        "row" : 11
+      },
+      "Peon20" :{
+        "col" : 16,
+        "row" : 3
+      },
+      "Peon21" :{
+        "col" : 16,
+        "row" : 4
+      },
+      "Peon22" :{
+        "col" : 16,
+        "row" : 5
+      },
+      "Peon23" :{
+        "col" : 16,
+        "row" : 8
+      },
+      "Peon24" :{
+        "col" : 16,
+        "row" : 9
+      },
+      "Peon25" :{
+        "col" : 16,
+        "row" : 10
+      },
+      "Peon26" :{
+        "col" : 16,
+        "row" : 11
+      },
+      "Peon27" :{
+        "col" : 16,
+        "row" : 12
+      },
+      "Peon28" :{
+        "col" : 17,
+        "row" : 2
+      },
+      "Peon29" :{
+        "col" : 17,
+        "row" : 6
+      },
+      "Peon30" :{
+        "col" : 17,
+        "row" : 9
+      },
+      "Peon31" :{
+        "col" : 17,
+        "row" : 10
+      },
+      "Peon32" :{
+        "col" : 17,
+        "row" : 11
+      },
+      "Peon33" :{
+        "col" : 18,
+        "row" : 2
+      },
+      "Peon34" :{
+        "col" : 18,
+        "row" : 6
+      },
+      "Peon35" :{
+        "col" : 18,
+        "row" : 8
+      },
+      "Peon36" :{
+        "col" : 18,
+        "row" : 12
+      },
+      "Peon37" :{
+        "col" : 19,
+        "row" : 2
+      },
+      "Peon38" :{
+        "col" : 19,
+        "row" : 3
+      },
+      "Peon39" :{
+        "col" : 19,
+        "row" : 4
+      },
+      "Peon40" :{
+        "col" : 19,
+        "row" : 5
+      },
+      "Peon41" :{
+        "col" : 19,
+        "row" : 6
+      },
+      "Peon42" :{
+        "col" : 19,
+        "row" : 8
+      },
+      "Peon43" :{
+        "col" : 19,
+        "row" : 12
+      },
+      "Peon44" :{
+        "col" : 20,
+        "row" : 2
+      },
+      "Peon45" :{
+        "col" : 20,
+        "row" : 6
+      },
+      "Peon46" :{
+        "col" : 20,
+        "row" : 8
+      },
+      "Peon47" :{
+        "col" : 20,
+        "row" : 12
+      },
+      "Peon48" :{
+        "col" : 21,
+        "row" : 2
+      },
+      "Peon49" :{
+        "col" : 21,
+        "row" : 6
+      },
+      "Peon50" :{
+        "col" : 21,
+        "row" : 9
+      },
+      "Peon51" :{
+        "col" : 21,
+        "row" : 10
+      },
+      "Peon52" :{
+        "col" : 21,
+        "row" : 11
+      },
+      "Peon53" :{
+        "col" : 23,
+        "row" : 2
+      },
+      "Peon54" :{
+        "col" : 23,
+        "row" : 3
+      },
+      "Peon55" :{
+        "col" : 23,
+        "row" : 4
+      },
+      "Peon56" :{
+        "col" : 23,
+        "row" : 5
+      },
+      "Peon57" :{
+        "col" : 23,
+        "row" : 6
+      },
+      "Peon58" :{
+        "col" : 23,
+        "row" : 8
+      },
+      "Peon59" :{
+        "col" : 23,
+        "row" : 9
+      },
+      "Peon60" :{
+        "col" : 23,
+        "row" : 10
+      },
+      "Peon61" :{
+        "col" : 23,
+        "row" : 11
+      },
+      "Peon62" :{
+        "col" : 23,
+        "row" : 12
+      },
+      "Peon63" :{
+        "col" : 24,
+        "row" : 2
+      },
+      "Peon64" :{
+        "col" : 24,
+        "row" : 4
+      },
+      "Peon65" :{
+        "col" : 24,
+        "row" : 6
+      },
+      "Peon66" :{
+        "col" : 24,
+        "row" : 11
+      },
+      "Peon67" :{
+        "col" : 25,
+        "row" : 2
+      },
+      "Peon68" :{
+        "col" : 25,
+        "row" : 4
+      },
+      "Peon69" :{
+        "col" : 25,
+        "row" : 6
+      },
+      "Peon70" :{
+        "col" : 25,
+        "row" : 10
+      },
+      "Peon71" :{
+        "col" : 26,
+        "row" : 2
+      },
+      "Peon72" :{
+        "col" : 26,
+        "row" : 6
+      },
+      "Peon73" :{
+        "col" : 26,
+        "row" : 11
+      },
+      "Peon74" :{
+        "col" : 27,
+        "row" : 2
+      },
+      "Peon75" :{
+        "col" : 27,
+        "row" : 6
+      },
+      "Peon76" :{
+        "col" : 27,
+        "row" : 8
+      },
+      "Peon77" :{
+        "col" : 27,
+        "row" : 9
+      },
+      "Peon78" :{
+        "col" : 27,
+        "row" : 10
+      },
+      "Peon79" :{
+        "col" : 27,
+        "row" : 11
+      },
+      "Peon80" :{
+        "col" : 27,
+        "row" : 12
+      }
+    }
+  },
+  {
+    "levelname": "Peon Grave",
+    "endless": false,
+    "nextlevel": null,
+    "rows": 40,
+    "cols": 40,
+    "abstand": 30,
+    "padding": 8,
+
+    "Peonrows": {
+      "Peonrow1": {
+        "PeonRowCol": 1,
+        "abstandPx": 0
+      },
+      "Peonrow2": {
+        "PeonRowCol": 2,
+        "abstandPx": 1
+      },
+      "Peonrow3": {
+        "PeonRowCol": 3,
+        "abstandPx": 2
+      },
+      "Peonrow4": {
+        "PeonRowCol": 4,
+        "abstandPx": 1
+      },
+      "Peonrow5": {
+        "PeonRowCol": 5,
+        "abstandPx": 0
+      },
+      "Peonrow6": {
+        "PeonRowCol": 6,
+        "abstandPx": 0
+      },
+      "Peonrow7": {
+        "PeonRowCol": 7,
+        "abstandPx": 1
+      },
+      "Peonrow8": {
+        "PeonRowCol": 8,
+        "abstandPx": 2
+      },
+      "Peonrow9": {
+        "PeonRowCol": 9,
+        "abstandPx": 1
+      },
+      "Peonrow10": {
+        "PeonRowCol": 10,
+        "abstandPx": 0
+      }
+
+    }
+  },
+  {
+    "levelname": "Peon List",
+    "endless": false,
+    "nextlevel": null,
+    "rows": 40,
+    "cols": 40,
+    "abstand": 30,
+    "padding": 8,
+    "Peonswarms": {
+      "Peonswarm": {
+        "startingcol": 2,
+        "endcol": 25,
+        "abstandPx": 2,
+        "abstandPy": 1
+      }
+    }
+  },
+
+  {
+    "levelname" : "Mothership Madness",
+    "endless"   : false,
+    "nextlevel" : "arcadelevel3.json",
+
+
+    "rows"      : 40,
+    "cols"      : 40,
+    "abstand"   : 30,
+    "padding"   : 8,
+
+
+
+    "Motherships" : {
+      "Mothership1" : {
+        "col" : 3,
+        "row" : 1
+      },
+      "Mothership2" : {
+        "col" : 38,
+        "row" : 4
+      },
+      "Mothership3" : {
+        "col" : 3,
+        "row" : 7
+      },
+      "Mothership4" : {
+        "col" : 38,
+        "row" : 10
+      },
+      "Mothership5" : {
+        "col" : 3,
+        "row" : 13
+      },
+      "Mothership6" : {
+        "col" : 38,
+        "row" : 16
+      },
+      "Mothership7" : {
+        "col" : 3,
+        "row" : 19
+      },
+      "Mothership8" : {
+        "col" : 38,
+        "row" : 22
+      },
+      "Mothership9" : {
+        "col" : 3,
+        "row" : 25
+      },
+      "Mothership10" : {
+        "col" : 38,
+        "row" : 28
+      }
+    }
+  }
+
+
+
+]

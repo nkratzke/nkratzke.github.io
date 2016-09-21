@@ -2202,11 +2202,11 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;Docker &lt;small&gt;swarm mode&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1464&quot;&gt;Understanding Node Failure Handling under Docker 1.12 Swarm Mode&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1445&quot;&gt;Docker 1.12 Swarm Mode – Under the hood&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1391&quot;&gt;Docker 1.12 Networking Model Overview&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1317&quot;&gt;Docker Engine 1.12 comes with built-in Distribution &amp;amp; Orchestration System&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.couchbase.com/2016/july/labels-constraints-docker-daemon-service&quot;&gt;Labels and Constraints with Docker Daemon and Service&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 21. Jul 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1464&quot;&gt;Understanding Node Failure Handling under Docker 1.12 Swarm Mode&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1445&quot;&gt;Docker 1.12 Swarm Mode – Under the hood&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1391&quot;&gt;Docker 1.12 Networking Model Overview&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1317&quot;&gt;Docker Engine 1.12 comes with built-in Distribution &amp;amp; Orchestration System&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.couchbase.com/2016/july/labels-constraints-docker-daemon-service&quot;&gt;Labels and Constraints with Docker Daemon and Service&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@LachlanEvenson/5-minutes-dabbling-with-docker-distributed-application-bundles-dab-60f2dca3829#.b4irfua41&quot;&gt;5 minutes dabbling with Docker Distributed Application Bundles (DAB)&lt;/a&gt; by &lt;strong&gt;Lachlan Evenson&lt;/strong&gt; (added 28. Jun 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/&quot;&gt;DOCKER 1.12: NOW WITH BUILT-IN ORCHESTRATION!&lt;/a&gt; by &lt;strong&gt;Docker Core Engineering&lt;/strong&gt; (added 22. Jun 2016) &lt;/li&gt;
 &lt;/ul&gt;
@@ -2233,6 +2233,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to log, monitor and manage docker &lt;small&gt;performance&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/uschtwill/docker_monitoring_logging_alerting&quot;&gt;Out of the box Docker Monitoring, Logging, Alerting&lt;/a&gt; by &lt;strong&gt;Wilhelm Uschtrin&lt;/strong&gt; (added 21. Sep 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@yoanis_gil/logging-with-docker-part-1-b23ef1443aac#.16avnrf2a&quot;&gt;Docker Logging&lt;/a&gt; by &lt;strong&gt;Yoanis Gil Delgado&lt;/strong&gt; (added 4. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.loggly.com/blog/what-does-the-docker-daemon-log-contain&quot;&gt;What Does the Docker Daemon Log Contain?&lt;/a&gt; by &lt;strong&gt;Andre Newmann&lt;/strong&gt; (added 17. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://labs.ctl.io/monitoring-docker-services-with-prometheus&quot;&gt;Monitoring Docker Services with Prometheus&lt;/a&gt; by &lt;strong&gt;Rupak Ganguly&lt;/strong&gt; (added 23. Jul 2015) &lt;/li&gt;
@@ -2644,7 +2645,7 @@ enterprises.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2016b]&lt;/strong&gt; &lt;span id=&quot;KQ2016b&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp;amp; J. Cardoso (Eds.), &lt;i&gt;Cloud Computing and Services Science Selected Papers&lt;/i&gt;. Springer.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/304024330&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/308219976&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
@@ -2658,7 +2659,7 @@ enterprises.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2016a]&lt;/strong&gt; &lt;span id=&quot;KQ2016a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of 6th. International Conference on Cloud Computing and Service Sciences (CLOSER 2016)&lt;/i&gt; (Vol. 2, pp. 223–231).&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2016a]&lt;/strong&gt; &lt;span id=&quot;KQ2016a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of the 6th International Conference on Cloud Computing and Services Science (CLOSER 2016)&lt;/i&gt; (pp. 223–231). doi:10.5220/0005732202230231&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href=&#39;https://www.researchgate.net/publication/292657431&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;

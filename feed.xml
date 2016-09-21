@@ -2096,7 +2096,6 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-toolbox&quot;&gt;Docker Toolbox&lt;/a&gt; by &lt;strong&gt;Aron Gupta&lt;/strong&gt; (added 19. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet&quot;&gt;Docker Tips and Cheatsheet&lt;/a&gt; by &lt;strong&gt;Jake Zimmermann&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.techbar.me/stopping-docker-containers-gracefully&quot;&gt;Stopping Docker containers Gracefully&lt;/a&gt; by &lt;strong&gt;Alen Komijen&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jonathan.bergknoff.com/journal/building-better-docker-images&quot;&gt;Building better Docker Images&lt;/a&gt; by &lt;strong&gt;Jonathan Bergknoff&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.zhaw.ch/icclab/process-management-in-docker-containers/&quot;&gt;Process Management in Docker&lt;/a&gt; by &lt;strong&gt;Martin Blöchinger&lt;/strong&gt; (added 11. Jun 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f&quot;&gt;Copying data between Docker containers&lt;/a&gt; by &lt;strong&gt;Grigoriy Chudnov&lt;/strong&gt; (added 5. Mar 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.atlassian.com/blog/2015/02/ten-tips-for-wonderful-bash-productivity/&quot;&gt;Ten tips for wonderful bash productivity&lt;/a&gt; by &lt;strong&gt;Nicola Paolucci&lt;/strong&gt; (added 12. Feb 2015) &lt;/li&gt;
@@ -2155,7 +2154,6 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://www.iron.io/blog/2016/01/microcontainers-tiny-portable-containers.html&quot;&gt;Microcontainers – Tiny, Portable Docker Containers&lt;/a&gt; by &lt;strong&gt;Travis Reeder&lt;/strong&gt; (added 28. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://habd.as/simple-websites-jekyll-docker/&quot;&gt;Simple websites with Jekyll and Docker&lt;/a&gt; by &lt;strong&gt;Josh Habdas&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.inovex.de/docker-a-comparison-of-minimalistic-operating-systems/&quot;&gt;Docker: A Comparison of Minimalistic Operating Systems&lt;/a&gt; by &lt;strong&gt;Johannes Scheuermann&lt;/strong&gt; (added 7. May 2015) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.damagehead.com/blog/2015/04/28/deploying-a-dns-server-using-docker/&quot;&gt;Deploying a DNS Server using Docker&lt;/a&gt; by &lt;strong&gt;Sameer Naik&lt;/strong&gt; (added 1. May 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.centurylinklabs.com/small-docker-images-for-go-apps/&quot;&gt;Small Docker Images For Go Apps&lt;/a&gt; by &lt;strong&gt;Brian DeHamer&lt;/strong&gt; (added 12. Feb 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.kennybastani.com/2014/11/graph-analytics-docker-spark-neo4j.html&quot;&gt;A Docker Image for Graph Analytics on Neo4j woth Apache Spark GraphX&lt;/a&gt; by &lt;strong&gt;Kenny Bastani&lt;/strong&gt; (added 5. Dec 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.giantswarm.io/getting-started-with-java-development-on-docker&quot;&gt;Getting Started with Java Development on Docker&lt;/a&gt; by &lt;strong&gt;Matthias Lübken&lt;/strong&gt; (added 11. Nov 2014) &lt;/li&gt;
@@ -2233,6 +2231,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;h3&gt;How to log, monitor and manage docker &lt;small&gt;performance&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://logz.io/learn/docker-monitoring-elk-stack/&quot;&gt;Docker Monitoring with the ELK Stack: A Step-by-Step Guide&lt;/a&gt; by &lt;strong&gt;logz.io&lt;/strong&gt; (added 21. Sep 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/uschtwill/docker_monitoring_logging_alerting&quot;&gt;Out of the box Docker Monitoring, Logging, Alerting&lt;/a&gt; by &lt;strong&gt;Wilhelm Uschtrin&lt;/strong&gt; (added 21. Sep 2016) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@yoanis_gil/logging-with-docker-part-1-b23ef1443aac#.16avnrf2a&quot;&gt;Docker Logging&lt;/a&gt; by &lt;strong&gt;Yoanis Gil Delgado&lt;/strong&gt; (added 4. Jan 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.loggly.com/blog/what-does-the-docker-daemon-log-contain&quot;&gt;What Does the Docker Daemon Log Contain?&lt;/a&gt; by &lt;strong&gt;Andre Newmann&lt;/strong&gt; (added 17. Dec 2015) &lt;/li&gt;

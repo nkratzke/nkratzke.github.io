@@ -2182,7 +2182,7 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;http://flux7.com/blogs/docker/docker-tutorial-series-part-8-docker-remote-api/&quot;&gt;Docker Remote API&lt;/a&gt; by &lt;strong&gt;Flux7&lt;/strong&gt; (added 3. Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Using the Docker programmatically &lt;small&gt;language bindings and IDEs&lt;/small&gt;&lt;/h3&gt;
+&lt;h3&gt;Using Docker programmatically &lt;small&gt;language bindings and IDEs&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.zenika.com/index.php?post/2015/06/15/Docker-meets-the-IDE&quot;&gt;Docker meets the IDE&lt;/a&gt; by &lt;strong&gt;Mario Loriedo&lt;/strong&gt; (added 18. Jun 2015) &lt;/li&gt;
@@ -2240,9 +2240,10 @@ to get further informations about Docker, Containerization and Microservices.
 &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/installation/google/&quot;&gt;QuickStart with Container-optimized Google Compute Engine images&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 27. Feb 2015) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Docker &lt;small&gt;swarm mode&lt;/small&gt;&lt;/h3&gt;
+&lt;h3&gt;Docker &lt;small&gt;Swarm Mode&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://lostechies.com/gabrielschenker/2016/09/05/docker-and-swarm-mode-part-1/&quot;&gt;Docker and Swarm Mode Part 1&lt;/a&gt;, &lt;a href=&quot;https://lostechies.com/gabrielschenker/2016/09/11/docker-and-swarm-mode-part-2/&quot;&gt;Part 2&lt;/a&gt;, &lt;a href=&quot;https://lostechies.com/gabrielschenker/2016/10/05/docker-and-swarm-mode-part-3&quot;&gt;Part 3&lt;/a&gt; by &lt;strong&gt;Gabriel Schenker&lt;/strong&gt; (added 6. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1464&quot;&gt;Understanding Node Failure Handling under Docker 1.12 Swarm Mode&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016)&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1445&quot;&gt;Docker 1.12 Swarm Mode – Under the hood&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1391&quot;&gt;Docker 1.12 Networking Model Overview&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;

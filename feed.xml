@@ -7,6 +7,100 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Programming I (Winter 2016)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming
+for freshman students.&lt;/p&gt;
+
+&lt;p&gt;The lecture covers aspects like primitive and reference data types, operators, expressions,
+control flow, routine (method) definitions, I/O programming,
+recursive and object oriented programming.
+JAVA is used as teaching language, nevertheless the principles are applicable to every (imperative or class based object oriented) programming language.&lt;/p&gt;
+
+&lt;p&gt;Lecture is given for computer science students at Lübeck University of Applied Sciences.&lt;/p&gt;
+
+&lt;p&gt;Lecture will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fundamental concepts&lt;/strong&gt; of programming including &lt;strong&gt;programming paradigms&lt;/strong&gt; and &lt;strong&gt;runtime models&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;, &lt;strong&gt;data types&lt;/strong&gt;, &lt;strong&gt;operators&lt;/strong&gt; and &lt;strong&gt;expressions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control flow&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt; (functions, procedures, methods)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference data types&lt;/strong&gt; and &lt;strong&gt;collections&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(Stream based) &lt;strong&gt;I/O programming&lt;/strong&gt; and &lt;strong&gt;serialization&lt;/strong&gt; of objects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recursive programming&lt;/strong&gt; and &lt;strong&gt;recursive datastructures&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Functional programming&lt;/strong&gt; using &lt;strong&gt;lambda functions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exception handling&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Introduction to &lt;strong&gt;object oriented programming&lt;/strong&gt; and &lt;strong&gt;UML&lt;/strong&gt; introducing fundamental concepts like &lt;strong&gt;abstraction&lt;/strong&gt;, &lt;strong&gt;encapsulation&lt;/strong&gt;, &lt;strong&gt;polymorphism&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Course Material (german only)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture Unit 1: &lt;a href=&quot;/assets/ws2016/progI/Unit01.pdf&quot;&gt;Core concepts of programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 2: &lt;a href=&quot;/assets/ws2016/progI/Unit02.pdf&quot;&gt;Fundamentals of imperative programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 3: &lt;a href=&quot;/assets/ws2016/progI/Unit03.pdf&quot;&gt;Reference data types and collections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2016/progI/Unit04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2016/progI/Unit05.pdf&quot;&gt;Recursive and functional programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ws2016/progI/Unit06.pdf&quot;&gt;OO and UML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2016/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Mon, 10 Oct 2016 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//lecture/2016/10/10/lecture-programming-i.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//lecture/2016/10/10/lecture-programming-i.html</guid>
+    </item>
+    
+    <item>
+      <title>Fundamentals of Programming (Winter 2016)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture is about fundamentals of programming
+for freshman students.&lt;/p&gt;
+
+&lt;p&gt;The lecture covers aspects like primitive and reference data types, operators, expressions,
+control flow, routine (method) definitions
+recursive and object oriented programming.
+JAVA is used as teaching language, nevertheless the principles are applicable to every (imperative or class based object oriented) programming language.&lt;/p&gt;
+
+&lt;p&gt;Lecture is given for &lt;em&gt;information technology and design&lt;/em&gt; students at Lübeck University of Applied Sciences.&lt;/p&gt;
+
+&lt;p&gt;Lecture will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fundamental concepts&lt;/strong&gt; of programming including &lt;strong&gt;programming paradigms&lt;/strong&gt; and &lt;strong&gt;runtime models&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;, &lt;strong&gt;data types&lt;/strong&gt;, &lt;strong&gt;operators&lt;/strong&gt; and &lt;strong&gt;expressions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control flow&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt; (functions, procedures, methods)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference data types&lt;/strong&gt; and &lt;strong&gt;collections&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(Stream based) &lt;strong&gt;I/O programming&lt;/strong&gt; and &lt;strong&gt;serialization&lt;/strong&gt; of objects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recursive programming&lt;/strong&gt; and &lt;strong&gt;datastructures&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Course Material (german only)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture Unit 1: &lt;a href=&quot;/assets/ws2016/progI/Unit01.pdf&quot;&gt;Core concepts of programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 2: &lt;a href=&quot;/assets/ws2016/progI/Unit02.pdf&quot;&gt;Fundamentals of imperative programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 3: &lt;a href=&quot;/assets/ws2016/progI/Unit03.pdf&quot;&gt;Reference data types and collections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2016/progI/Unit04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt; (skipped, just for self study)&lt;/li&gt;
+&lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2016/progI/Unit05.pdf&quot;&gt;Recursive programming&lt;/a&gt; (functional programming skipped, just for self study)&lt;/li&gt;
+&lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2016/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Mon, 10 Oct 2016 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//lecture/2016/10/10/lecture-fundamentals-of-programming.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//lecture/2016/10/10/lecture-fundamentals-of-programming.html</guid>
+    </item>
+    
+    <item>
       <title>Analyse und Integration von Storage-Clustern in elastische Container Plattformen</title>
       <description>
         

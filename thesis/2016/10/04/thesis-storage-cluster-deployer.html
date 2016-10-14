@@ -78,7 +78,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			<h2>Analyse und Integration von Storage-Clustern in elastische Container Plattformen</h2>
 			<p class="meta">
 			
-			<strong>04 Oct 2016</strong>
+			Latest update: <strong>2016-10-14</strong>
 			
 			</p>
 		</div>
@@ -153,7 +153,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <tr>
 	<th>State: </th>
-	<td>announced</td>
+	<td>ongoing</td>
 </tr>
 
 
@@ -183,11 +183,68 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <br>
 
-<p>In Abstimmung</p>
+<p>Cloud Computing ist häufig durch nicht-standardisierte, herstellerspezifische Schnittstellen 
+und Vendor Lock-in gekennzeichnet. Der Einsatz von elastischen Container Plattformen 
+(wie Kubernetes, Apache Mesos, Docker Swarm, Nomad, etc.) kann Vendor Lock-In reduzieren. 
+Elastische Container Plattformen können auf Maschinen von verschiedenen Cloud Service Providern 
+(z.B. AWS, GCE, Azure) ausgebracht werden und ermöglichen eine Migration von Workloads zwischen Cloud-Anbietern. 
+Eine Realisierung dieses Ansatzes wurde bereits teilweise durch die Entwicklung eines Cluster-Deployers 
+für Kubernetes auf Amazon AWS und OpenStack umgesetzt. Aktuell können zustandslose Applikationen 
+providerunabhängig bereitgestellt werden. Mit einem ergänzenden Storage-Cluster sollen 
+nun auch zustandsbehaftete Applikationen unterstützt werden.</p>
+
+<p><strong>In dieser Masterarbeit sollen dafür existierende Open Source Storage-Cluster Lösungen 
+analysiert, integriert und hinsichtlich Migrierbarkeit evaluiert werden. 
+</strong></p>
+
+<p>Hierzu müssen im Detail folgende Teilaufgaben bearbeitet und dokumentiert (Masterarbeit) werden:</p>
 
 <h3>Teilaufgaben</h3>
 
-<p>In Abstimmung</p>
+<p><em>Hinweis:
+Sollten sich während der Bearbeitung dieser Arbeit einzelne Aspekte als schwer realisierbar erweisen, kann die Aufgabenstellung - nach plausiblem Nachweis der Schwierigkeit - angepasst werden.
+</em></p>
+
+<h4>Analyse von bestehenden Storage-Cluster Lösungen</h4>
+
+<p>Aktuell gibt es mehre Storage-Cluster-Produkte die potenziell geeignet sind 
+(eine entsprechende Liste wird zur Verfügung gestellt und bildet den Ausgangspunkt der Analyse).</p>
+
+<ul>
+<li>Diese sollen auf ihre speziellen Besonderheiten untersucht, vergleichend analysiert und hinsichtlich ihrer Integrationseignung für elastische Container Plattformen beurteilt werden. </li>
+<li>Die Kriterien bei der vergleichenden Analyse sollen in Absprache selbstständig erarbeitet werden.</li>
+<li>Bei der vergleichenden Analyse sollen mindestens die drei geeignetsten Storage-Cluster-Lösungen sowie die Cluster-Software Kubernetes und Docker’s SwarmMode berücksichtigt werden. Die vergleichende Analyse sollen mögliche Umsetzungsmöglichkeiten betrachten, insbesondere die 
+
+<ul>
+<li>containerisierte Bereitstellung des Storage-Clusters innerhalb eines Clusters, </li>
+<li>die separate, &quot;native&quot; Storage-Software-Installation in Kombination mit Container-Cluster-Plug-Ins (2.1) oder Docker-Plug-Ins (2.2)</li>
+</ul></li>
+</ul>
+
+<h4>Automatisches Bereitstellen von Storage-Cluster Lösungen (Integration)</h4>
+
+<p>Aktuell ist ein Deployer für ein Kubernetes Cluster vorhanden und für andere Plattformen, 
+wie beispielweise Apache Mesos und Docker Swarm, geplant. 
+Der bestehende Deployer soll um eine Storage-Komponente ergänzt werden. </p>
+
+<ul>
+<li>Zunächst soll GlusterFS in einer containerisierten Version auf dem vorhandenen Kubernetes Cluster installiert werden.</li>
+<li>Das System muss skalierbar sein.</li>
+<li>Es soll ein Storage-Cluster-Deployer für drei Storage-Cluster (wie bspw. GlusterFS, Ceph oder Flocker) prototypisch implementiert werden. Die Storage-Cluster sind entsprechend der vorhergegangen Analyse auszuwählen.</li>
+<li>Die Architektur des Storage-Cluster-Deployer soll so gestaltet und dokumentiert werden, dass andere Storage-Systeme nachträglich ergänzt werden können.</li>
+<li>Um den Storage-Cluster zu beschreiben soll das JSON-Format verwendet werden. Eine starke Anlehnung an die vorhandene Deployer-Umsetzung ist gewünscht.</li>
+<li>Als Programmiersprache ist idealerweise Ruby zu verwenden. Wird sich gegen Ruby entschieden, ist die Sprachwahl gesondert zu begründen und die Vorteile entsprechend nachvollziehbar aufzuführen.</li>
+<li>Der Storage-Deployer ist so zu entwickeln, dass er den Gem­-Konventionen entspricht, da die Software auf RubyGems.org bereit gestellt werden soll.</li>
+</ul>
+
+<h4>Evaluierung der Migrierbarkeit von Storage-Clustern</h4>
+
+<ul>
+<li>Der Storage-Cluster-Deployer muss auf Maschinen von Amazon AWS, GCE und OpenStack deployed werden können.</li>
+<li>Die Provider-Migration zwischen Cloud-Service Infrastrukturen soll getestet werden. Dazu gehört die Migration von AWS zu OpenStack und umgekehrt sowie die Migration von AWS zu GCE und umgekehrt.</li>
+<li>Hierzu sind sinnvolle Testfälle mit Applikationen sinnvoller Komplexität zu definieren und durchzuführen. Auftretende Einschränkungen insbesondere hinsichtlich Datenvollständigkeit und –konsistenz sind aufzuführen.</li>
+<li>Geeignete Test-Tools müssen selbstständig gefunden oder entwickelt werden.</li>
+</ul>
 
 
 

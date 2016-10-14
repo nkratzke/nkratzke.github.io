@@ -287,102 +287,8 @@ footer {
 	padding-right: 0px;
 }
 
-.navbar .nav li#about:hover {
-	border-top: 5px solid #428bca;
-  border-bottom: 0px;
-}
-
-.navbar .nav li#about {
-	border-bottom: 5px solid #428bca;
-}
-
-.navbar .nav li#about:hover a {
-	color: #428bca;
+.navbar .nav li:hover a {
 	background: transparent;
-}
-
-.navbar .nav li#blog:hover {
-  border-top: 5px solid #356AA0;
-	border-bottom: 0px;
-}
-
-.navbar .nav li#blog {
-	border-bottom: 5px solid #356AA0;
-}
-
-.navbar .nav li#blog:hover a {
-	color: #356AA0;
-	background: transparent;
-}
-
-.navbar .nav li#archive:hover {
-	border-top: 5px solid lightgrey;
-  border-bottom: 0px;
-}
-
-.navbar .nav li#archive:hover a {
-	color: lightgrey;
-  background: transparent;
-}
-
-.navbar .nav li#archive {
-	border-bottom: 5px solid lightgrey;
-}
-
-.navbar .nav li#lectures:hover {
-	border-top: 5px solid #cc9900;
-  border-bottom: 0px;
-}
-
-.navbar .nav li#lectures:hover a {
-	color: #cc9900;
-  background: transparent;
-}
-
-.navbar .nav li#lectures {
-	border-bottom: 5px solid #cc9900;
-}
-
-.navbar .nav li#research:hover {
-	border-top: 5px solid #6BBA70;
-	border-bottom: 0px;
-}
-
-.navbar .nav li#research:hover a {
-	color: #6BBA70;
-	background: transparent;
-}
-
-.navbar .nav li#research {
-	border-bottom: 5px solid #6BBA70;
-}
-
-.navbar .nav li#thesis:hover {
-	border-top: 5px solid darkred;
-	border-bottom: 0px;
-}
-
-.navbar .nav li#thesis:hover a {
-	color: darkred;
-  background: transparent;
-}
-
-.navbar .nav li#thesis {
-	border-bottom: 5px solid darkred;
-}
-
-.navbar .nav li#publications:hover {
-	border-top: 5px solid white;
-  border-bottom: 0px;
-}
-
-.navbar .nav li#publications:hover a {
-	color: white;
-	background: transparent;
-}
-
-.navbar .nav li#publications {
-	border-bottom: 5px solid white;
 }
 
 .navbar .navbar-brand {
@@ -409,9 +315,9 @@ footer {
 
 #home {
 	background-color: darkgray;
-	color: rgba(255, 255, 255, 0.75);
-	background-image: url('/img/landing/keyboard.jpg');
-	background-position: center top;
+	color: rgba(255, 255, 255, 0.9);
+	background-image: url('/img/landing/california.jpg');
+	background-position: center center;
 	background-size: cover;
 }
 
@@ -422,7 +328,7 @@ footer {
 
 #home a {
 	font-weight: bold;
-	color: rgba(255, 255, 255, 0.75);
+	color: rgba(255, 255, 255, 0.9);
 }
 
 #home .row {
@@ -435,15 +341,15 @@ footer {
 }
 
 #home h1 small {
-	color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.75);
 }
 
 #home h2 small {
-	color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.75);
 }
 
 #home img {
-	opacity: 0.75;
+	opacity: 0.9;
 	width: 33%;
 }
 
@@ -595,7 +501,7 @@ footer {
 	width: 100%;
 }
 
-.tagteaser tr td.year {
+.tagteaser tr td, .tagteaser tr {
 	background-color: transparent !important;
 }
 
@@ -696,27 +602,31 @@ footer {
 /* BIBLIOGRAPHY */
 #bibliography h3 {
 	margin-top: 2em;
-	border-bottom: 1px solid black;
+	border-left: 5px solid black;
+	padding-left: 10px;
 }
 
 .bibliography {
 	list-style-type: none;
 	list-style-position: outside;
 	padding: 0px;
-	font-size: 1.7rem;
+	/*font-size: 1.7rem;*/
 }
 
 .bibliography li {
 	padding: 5px;
+	padding-left: 15px;
+
+	margin-bottom: 5px;
 }
 
-.bibliography li {
+/*.bibliography li {
 	border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .bibliography li:first-child {
 	border-top: 0px solid transparent;
-}
+}*/
 
 .bibliographydetails {
 	font-size: 1.7rem;

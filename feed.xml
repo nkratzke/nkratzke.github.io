@@ -7,23 +7,17 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Valuable Container Platform Links (Swarm)</title>
+      <title>Valuable Swarm Links</title>
       <description>
         
         &lt;img src=&quot;/img/posts/containership.jpg&quot;&gt;
         
-        &lt;p&gt;Elastic container platforms like &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt; or 
-&lt;a href=&quot;http://www.docker.io&quot;&gt;Docker Swarm&lt;/a&gt; get more and more attention due to the
+        &lt;p&gt;Elastic container platforms like &lt;a href=&quot;http://www.docker.io&quot;&gt;Docker Swarm&lt;/a&gt; get more and more attention due to the
 fact that they enable and simplify the deployment and operation of
 multi-container systems or cloud-native applications.&lt;/p&gt;
 
 &lt;p&gt;All these platforms provide weekly email newsletters where great links,
 news, articles, howtos, manuals and more can be found.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.docker.io&quot;&gt;Docker&lt;/a&gt; weekly &lt;a href=&quot;https://www.docker.com/subscribe_newsletter/&quot;&gt;newsletter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://kubeweekly.com&quot;&gt;KubeWeekly&lt;/a&gt; newsletter aggregating all interesting weekly news about &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;p&gt;Nevertheless, these informations are short-living. They are fading out of
 focus as the weeks pass by. But there are a lot of great posts
@@ -38,15 +32,20 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
   contains links I find useful from a very personal point of view).&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul class=&quot;nav nav-tabs&quot;&gt;
+&lt;ul class=&quot;nav nav-pills&quot;&gt;
   &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-kubernetes.html&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
   &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-swarm.html&quot;&gt;Docker Swarm Mode&lt;/a&gt;&lt;/li&gt;
+  &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2014/08/24/valuable-docker-links.html&quot;&gt;Docker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;What is Docker&amp;#39;s Swarm Mode?&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/key-concepts/&quot;&gt;Swarm Mode Key Concepts&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lostechies.com/gabrielschenker/2016/09/05/docker-and-swarm-mode-part-1/&quot;&gt;Docker and Swarm Mode Part 1&lt;/a&gt;, &lt;a href=&quot;https://lostechies.com/gabrielschenker/2016/09/11/docker-and-swarm-mode-part-2/&quot;&gt;Part 2&lt;/a&gt;, &lt;a href=&quot;https://lostechies.com/gabrielschenker/2016/10/05/docker-and-swarm-mode-part-3&quot;&gt;Part 3&lt;/a&gt; by &lt;strong&gt;Gabriel Schenker&lt;/strong&gt; (added 6. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1464&quot;&gt;Understanding Node Failure Handling under Docker 1.12 Swarm Mode&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1445&quot;&gt;Docker 1.12 Swarm Mode – Under the hood&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1317&quot;&gt;Docker Engine 1.12 comes with built-in Distribution &amp;amp; Orchestration System&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Deploying the platform (your first cluster)&lt;/h3&gt;
@@ -59,6 +58,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/&quot;&gt;Deploy a service to the swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.couchbase.com/2016/july/labels-constraints-docker-daemon-service&quot;&gt;Labels and Constraints with Docker Daemon and Service&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@LachlanEvenson/5-minutes-dabbling-with-docker-distributed-application-bundles-dab-60f2dca3829#.b4irfua41&quot;&gt;5 minutes dabbling with Docker Distributed Application Bundles (DAB)&lt;/a&gt; by &lt;strong&gt;Lachlan Evenson&lt;/strong&gt; (added 28. Jun 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Monitoring the platform&lt;/h3&gt;
@@ -71,7 +72,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://collabnix.com/archives/1391&quot;&gt;Docker 1.12 Networking Model Overview&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Securing the platform&lt;/h3&gt;
@@ -94,25 +96,17 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Valuable Container Platform Links (Kubernetes)</title>
+      <title>Valuable Kubernetes Links</title>
       <description>
         
         &lt;img src=&quot;/img/posts/containership.jpg&quot;&gt;
         
-        &lt;p&gt;Elastic container platforms like &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt; or 
-&lt;a href=&quot;http://www.docker.io&quot;&gt;Docker Swarm&lt;/a&gt; get more and more attention due to the
+        &lt;p&gt;Elastic container platforms like &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt; get more and more attention due to the
 fact that they enable and simplify the deployment and operation of
 multi-container systems or cloud-native applications.&lt;/p&gt;
 
 &lt;p&gt;All these platforms provide weekly email newsletters where great links,
-news, articles, howtos, manuals and more can be found.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.docker.io&quot;&gt;Docker&lt;/a&gt; weekly &lt;a href=&quot;https://www.docker.com/subscribe_newsletter/&quot;&gt;newsletter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://kubeweekly.com&quot;&gt;KubeWeekly&lt;/a&gt; newsletter aggregating all interesting weekly news about &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Nevertheless, these informations are short-living. They are fading out of
+news, articles, howtos, manuals and more can be found. Nevertheless, these informations are short-living. They are fading out of
 focus as the weeks pass by. But there are a lot of great posts
 which should be collected and presented in a more enduring way.&lt;/p&gt;
 
@@ -125,9 +119,12 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
   contains links I find useful from a very personal point of view).&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul class=&quot;nav nav-tabs&quot;&gt;
+&lt;p&gt;There are further link collections dealing with:&lt;/p&gt;
+
+&lt;ul class=&quot;nav nav-pills&quot;&gt;
   &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-kubernetes.html&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
   &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-swarm.html&quot;&gt;Docker Swarm Mode&lt;/a&gt;&lt;/li&gt;
+  &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2014/08/24/valuable-docker-links.html&quot;&gt;Docker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;What is Kubernetes?&lt;/h3&gt;
@@ -162,6 +159,12 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Platform Networking&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.weave.works/weave-net-kubernetes-integration/&quot;&gt;Run Weave Net with Kubernetes in Just One Line&lt;/a&gt; by &lt;strong&gt;Bryan Boreham&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Securing the platform&lt;/h3&gt;
@@ -2421,8 +2424,7 @@ Course is supported by educational grants from:
         
         &lt;img src=&quot;/img/posts/docker.png&quot;&gt;
         
-        &lt;p&gt;&lt;small&gt;
-The &lt;a href=&quot;http://www.docker.io&quot;&gt;Docker&lt;/a&gt; weekly email &lt;a href=&quot;https://www.docker.com/subscribe_newsletter/&quot;&gt;newsletter&lt;/a&gt; is a great service to stay tuned
+        &lt;p&gt;The &lt;a href=&quot;http://www.docker.io&quot;&gt;Docker&lt;/a&gt; weekly email &lt;a href=&quot;https://www.docker.com/subscribe_newsletter/&quot;&gt;newsletter&lt;/a&gt; is a great service to stay tuned
 with Docker. You find great links, news, articles, howtos,
 manuals, and more, and all about Docker and its evolving ecosystem.
 Nevertheless, these informations are short-living. They are fading out of
@@ -2441,8 +2443,15 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;p&gt;You may want to check similar pages like 
 &lt;a href=&quot;http://getawesomeness.com/get/docker&quot;&gt;Awesome Docker&lt;/a&gt; or
 &lt;a href=&quot;http://howtocookmicroservices.com/&quot;&gt;How to cook microservices&lt;/a&gt; 
-to get further informations about Docker, Containerization and Microservices.
-&lt;/small&gt;&lt;/p&gt;
+to get further informations about Docker, Containerization and Microservices.&lt;/p&gt;
+
+&lt;p&gt;There are further link collections dealing with:&lt;/p&gt;
+
+&lt;ul class=&quot;nav nav-pills&quot;&gt;
+  &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-kubernetes.html&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
+  &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-swarm.html&quot;&gt;Docker Swarm Mode&lt;/a&gt;&lt;/li&gt;
+  &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;/2014/08/24/valuable-docker-links.html&quot;&gt;Docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 

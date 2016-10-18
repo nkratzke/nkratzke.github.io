@@ -7,6 +7,183 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Valuable Container Platform Links (Swarm)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/containership.jpg&quot;&gt;
+        
+        &lt;p&gt;Elastic container platforms like &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt; or 
+&lt;a href=&quot;http://www.docker.io&quot;&gt;Docker Swarm&lt;/a&gt; get more and more attention due to the
+fact that they enable and simplify the deployment and operation of
+multi-container systems or cloud-native applications.&lt;/p&gt;
+
+&lt;p&gt;All these platforms provide weekly email newsletters where great links,
+news, articles, howtos, manuals and more can be found.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.docker.io&quot;&gt;Docker&lt;/a&gt; weekly &lt;a href=&quot;https://www.docker.com/subscribe_newsletter/&quot;&gt;newsletter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kubeweekly.com&quot;&gt;KubeWeekly&lt;/a&gt; newsletter aggregating all interesting weekly news about &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nevertheless, these informations are short-living. They are fading out of
+focus as the weeks pass by. But there are a lot of great posts
+which should be collected and presented in a more enduring way.&lt;/p&gt;
+
+&lt;p&gt;The links on this site are reviewed and updated weekly (very subjective).&lt;/p&gt;
+
+&lt;p&gt;Feel free to contact &lt;a href=&quot;/about.html&quot;&gt;me&lt;/a&gt; if you think there are valuable links missing
+or if you know better links. You may also want to use the disqus comments at the end of this
+article to propose improvements or additional or even better links.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
+  contains links I find useful from a very personal point of view).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul class=&quot;nav nav-tabs&quot;&gt;
+  &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-kubernetes.html&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
+  &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-swarm.html&quot;&gt;Docker Swarm Mode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;What is Docker&amp;#39;s Swarm Mode?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/key-concepts/&quot;&gt;Swarm Mode Key Concepts&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Deploying the platform (your first cluster)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/swarm-tutorial/&quot;&gt;Getting started with swarm mode&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Deploying workloads/services&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/&quot;&gt;Deploy a service to the swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Monitoring the platform&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://logz.io/blog/docker-swarm-monitoring-logging-using-elk-stack/&quot;&gt;Docker Swarm Monitoring and Logging Using the ELK Stack&lt;/a&gt; by Asaf Yigal__ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Monitoring workloads/services&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Securing the platform&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/security/security/&quot;&gt;Docker Security&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/userguide/networking/overlay-security-model/&quot;&gt;Docker swarm mode overlay network security model&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Securing workloads/services&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;to be done&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Tue, 18 Oct 2016 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2016/10/18/valuable-container-platform-links-swarm.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2016/10/18/valuable-container-platform-links-swarm.html</guid>
+    </item>
+    
+    <item>
+      <title>Valuable Container Platform Links (Kubernetes)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/containership.jpg&quot;&gt;
+        
+        &lt;p&gt;Elastic container platforms like &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt; or 
+&lt;a href=&quot;http://www.docker.io&quot;&gt;Docker Swarm&lt;/a&gt; get more and more attention due to the
+fact that they enable and simplify the deployment and operation of
+multi-container systems or cloud-native applications.&lt;/p&gt;
+
+&lt;p&gt;All these platforms provide weekly email newsletters where great links,
+news, articles, howtos, manuals and more can be found.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.docker.io&quot;&gt;Docker&lt;/a&gt; weekly &lt;a href=&quot;https://www.docker.com/subscribe_newsletter/&quot;&gt;newsletter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kubeweekly.com&quot;&gt;KubeWeekly&lt;/a&gt; newsletter aggregating all interesting weekly news about &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nevertheless, these informations are short-living. They are fading out of
+focus as the weeks pass by. But there are a lot of great posts
+which should be collected and presented in a more enduring way.&lt;/p&gt;
+
+&lt;p&gt;The links on this site are reviewed and updated weekly (very subjective).&lt;/p&gt;
+
+&lt;p&gt;Feel free to contact &lt;a href=&quot;/about.html&quot;&gt;me&lt;/a&gt; if you think there are valuable links missing
+or if you know better links. You may also want to use the disqus comments at the end of this
+article to propose improvements or additional or even better links.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
+  contains links I find useful from a very personal point of view).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul class=&quot;nav nav-tabs&quot;&gt;
+  &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-kubernetes.html&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
+  &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-swarm.html&quot;&gt;Docker Swarm Mode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;What is Kubernetes?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/whatisk8s/&quot;&gt;What is Kubernetes&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dzone.com/articles/exploring-kubernetes-as-a-mesos-framework-does-it&quot;&gt;Exploring Kubernetes as a Mesos Framework: Does it Make Sense?&lt;/a&gt; by &lt;strong&gt;Klaus Ma&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://codefresh.io/blog/know-kubernetes-1-4/&quot;&gt;What to Know About Kubernetes 1.4&lt;/a&gt; by &lt;strong&gt;Oley Verhovsky&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Deploying the platform (your first cluster)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/getting-started-guides/kubeadm/&quot;&gt;Installing Kubernetes on Linux with kubeadm&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/tutorials/&quot;&gt;Tutorials&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Deploying workloads/services&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/hellonode/&quot;&gt;Hello World&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Monitoring the platform&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/getting-started-guides/logging-elasticsearch/&quot;&gt;Logging with Elasticsearch and Kibana&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Monitoring workloads/services&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Securing the platform&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/weaveworks/weave-kube/issues/38#issuecomment-253843577&quot;&gt;Activate weave overlay network encryption for Kubernetes&lt;/a&gt; by &lt;strong&gt;Issue on GitHub&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Securing workloads/services&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/secrets/&quot;&gt;Secrets&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/pod-security-policy/&quot;&gt;Pod Security Policies&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Tue, 18 Oct 2016 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2016/10/18/valuable-container-platform-links-kubernetes.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2016/10/18/valuable-container-platform-links-kubernetes.html</guid>
+    </item>
+    
+    <item>
       <title>Programming I (Winter 2016)</title>
       <description>
         

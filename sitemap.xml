@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://www.nkode.io/2016/10/18/valuable-container-platform-links-swarm.html</loc>
+<lastmod>2016-10-18T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2016/10/18/valuable-container-platform-links-kubernetes.html</loc>
+<lastmod>2016-10-18T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://www.nkode.io/lecture/2016/10/10/lecture-programming-i.html</loc>
 <lastmod>2016-10-10T00:00:00+02:00</lastmod>
 </url>
@@ -537,6 +545,12 @@
 </url>
 <url>
 <loc>http://www.nkode.io/tag/storage/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/kubernetes/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/swarm/</loc>
 </url>
 <url>
 <loc>http://www.nkode.io/assets/content/poster-container-cluster.pdf</loc>

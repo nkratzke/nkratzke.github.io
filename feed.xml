@@ -32,6 +32,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
   contains links I find useful from a very personal point of view).&lt;/strong&gt;&lt;/p&gt;
 
+&lt;p&gt;You may want to check additional link collections dealing with:&lt;/p&gt;
+
 &lt;ul class=&quot;nav nav-pills&quot;&gt;
   &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-kubernetes.html&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
   &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-swarm.html&quot;&gt;Docker Swarm Mode&lt;/a&gt;&lt;/li&gt;
@@ -51,6 +53,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Deploying the platform (your first cluster)&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://kunalkushwaha.github.io/2016/10/14/understanding-infrakit&quot;&gt;Understanding InfraKit&lt;/a&gt; by &lt;strong&gt;Kunal Kushawa&lt;/strong&gt; (added 20. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/swarm-tutorial/&quot;&gt;Getting started with swarm mode&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -119,7 +122,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Warning: Links are not selected by objective criteria (this collection only
   contains links I find useful from a very personal point of view).&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;There are further link collections dealing with:&lt;/p&gt;
+&lt;p&gt;You may want to check additional link collections dealing with:&lt;/p&gt;
 
 &lt;ul class=&quot;nav nav-pills&quot;&gt;
   &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-kubernetes.html&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
@@ -2445,7 +2448,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;a href=&quot;http://howtocookmicroservices.com/&quot;&gt;How to cook microservices&lt;/a&gt; 
 to get further informations about Docker, Containerization and Microservices.&lt;/p&gt;
 
-&lt;p&gt;There are further link collections dealing with:&lt;/p&gt;
+&lt;p&gt;You may want to check additional link collections dealing with:&lt;/p&gt;
 
 &lt;ul class=&quot;nav nav-pills&quot;&gt;
   &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;/2016/10/18/valuable-container-platform-links-kubernetes.html&quot;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;
@@ -2813,7 +2816,7 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - A Cloud-native Applications Reference Model for Enterprise Architects. In &lt;i&gt;8th Workshop on Service oriented Enterprise Architecture for Enterprise Engineering (SoEA4EE 2016) in conjunction with the EDOC 2016 conference&lt;/i&gt;.&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - a Cloud-Native Application Reference Model for Enterprise Architects. In &lt;i&gt;2016 IEEE 20th International Enterprise Distributed Object Computing Workshop (EDOCW)&lt;/i&gt; (pp. 1–10). http://doi.org/10.1109/EDOCW.2016.7584353&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href='https://www.researchgate.net/publication/304024156'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;

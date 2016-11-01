@@ -13,11 +13,11 @@
         &lt;img src=&quot;/img/posts/multi-sensor.jpg&quot;&gt;
         
         &lt;p&gt;Gegenstand dieser Masterarbeit ist die Entwicklung einer generischen Tracker-Architektur 
-zur Fusion und Anzeige einer mittels mehrerer Radarstationen erfassten Luftlage sowie
+zur Fusion und Anzeige einer mittels mehrerer Radarsystemen erfassten Luftlage sowie
 der Nachweis der Implementierbarkeit anhand eines Software-Prototypen inkl. dessen Evaluation.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Es sind mehrere mobile Radar-Stationen (Fahrzeuge bzw. sich bewegende Schiffe/Flugzeuge) 
+&lt;li&gt;Es sind mehrere mobile (Landfahrzeug-, Schiffs- oder Flugzeug-gestützte) Radarsysteme 
 zu berücksichtigen, die in einem Einsatzgebiet positioniert werden oder patroullieren.&lt;/li&gt;
 &lt;li&gt;Es gibt einen zentralen Knoten, der die Daten zu Azimut, Elevation
 und Entfernung und die Fehler von den einzelnen Stationen erhält und

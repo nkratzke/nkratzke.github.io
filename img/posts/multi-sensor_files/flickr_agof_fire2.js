@@ -1,0 +1,1 @@
+window.setTimeout(function(){ iom.c(iam_data, 1); }, 100);

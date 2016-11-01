@@ -1,0 +1,17 @@
+document.write("<!-- APT Vendor: Agof, Format: Standard Graphical -->\n");
+document.write("<!-- SZM VERSION=\"20151111\" -->\n");
+document.write("<div id=\"iam\"></div>\n");
+document.write("");
+document.write("<scr" + "ipt src=\"https://s.yimg.com/dh/ap/agof/flickr_agof_vars_2022219890.js\"></scr" + "ipt>");
+document.write("\n");
+document.write("");
+document.write("<scr" + "ipt src=\"https://s.yimg.com/dh/ap/sfagof/iam_4.1.7.js\"></scr" + "ipt>");
+document.write("\n");
+document.write("");
+document.write("<scr" + "ipt src=\"https://s.yimg.com/dh/ap/sfagof/iam_nxss_safeframe_4.1.7.js\"></scr" + "ipt>");
+document.write("\n");
+document.write("");
+document.write("<scr" + "ipt src=\"https://s.yimg.com/dh/ap/agof/flickr_agof_fire2.js\"></scr" + "ipt>");
+document.write("\n");
+document.write("<!--https://beap-bc.yahoo.com/yc/YnY9MS4wLjAmYnM9KDE3ZWw0Mjg1ZyhnaWQkY3ZpcVRBQUFBQUM3X0Y4RDJ1SE1GMlNNd2E5N3hsZ1lacEVBQkRsMyxzdCQxNDc3OTk0MTI5Mjc2NzcwLHNpJDI2NjM1MzIsc3AkMjAyMjIxOTg5MCxjdCQyNSx5YngkeTdlMVdVTl93eThxMUFQd3pIS3RiQSxsbmckZGUtZGUsY3IkNDAxMjkzNDUzMix2JDIuMCxhaWQkSVhqS0hBcklFbUEtLGJpJDI4MzQ1MDUzMixtbWUkMjk2MzQxMTYwNzk2ODI5NjA1MyxyJDAseW9vJDEsYWdwJDM2NTI4MjAzMixhcCRSUykp/0/*-->");
+var url = ""; if(url && url.search("http") != -1){document.write('<script src="' + url + '"><\/script>');}document.write("<!--QYZ 283450532,4012934532,;;RS;2022219890;1--><img style=\"display:none\" width=0 height=0 alt=\"\" src=\"https://csc.beap.bc.yahoo.com/yi?bv=1.0.0&bs=(136i18ugr(gid$cviqTAAAAAC7_F8D2uHMF2SMwa97xlgYZpEABDl3,st$1477994129276770,si$2663532,sp$2022219890,pv$1,v$2.0))&t=DR_3&al=(as$138qm0dru,aid$IXjKHArIEmA-,bi$283450532,agp$365282032,cr$4012934532,ct$25,at$0,eob$gd1_match_id=-1:ypos=RS)\">");

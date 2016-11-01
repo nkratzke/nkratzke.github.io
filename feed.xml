@@ -7,6 +7,56 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Entwurf und Entwicklung eines generischen Multisensor Trackers</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/multi-sensor.jpg&quot;&gt;
+        
+        &lt;p&gt;Gegenstand dieser Masterarbeit ist die Entwicklung einer generischen Tracker-Architektur 
+zur Fusion und Anzeige einer mittels mehrerer Radarstationen erfassten Luftlage sowie
+der Nachweis der Implementierbarkeit anhand eines Software-Prototypen inkl. dessen Evaluation.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Es sind mehrere mobile Radar-Stationen (Fahrzeuge bzw. sich bewegende Schiffe/Flugzeuge) 
+zu berücksichtigen, die in einem Einsatzgebiet positioniert werden oder patroullieren.&lt;/li&gt;
+&lt;li&gt;Es gibt einen zentralen Knoten, der die Daten zu Azimut, Elevation
+und Entfernung und die Fehler von den einzelnen Stationen erhält und
+daraus den Track generiert (&amp;quot;der Tracker&amp;quot;).&lt;/li&gt;
+&lt;li&gt;Zu berücksichtigende Probleme sind z. B. die unterschiedlichen Abtastfrequenzen, die
+(zeitliche) Synchronisation und die Fusion der Daten. Sensoren sind geeignet
+zu parametrisieren und deren generische Einbindung in das System vorzusehen.&lt;/li&gt;
+&lt;li&gt;Der Tracker soll mehrere Trackingalgorithmen und
+Bewegungsmodelle für die
+Vorhersage und Korrektur des Tracks sinnvoll integrieren. Es soll berücksichtigt werden, das grundsätzlich mehrere 
+Trackingalgorithmen bzw. Bewegungsmodelle je nach Fall bzw. Bewegung angewendet werden können.&lt;/li&gt;
+&lt;li&gt;Die Trackingalgorithmen und Bewegungsmodelle sollen systematisch evaluiert werden. 
+Hierzu ist ein Experimentplan und daraus abgeleitete Szenarien (Testdaten, z. B. ein Flugobjekt auf einer Kreisbahn im Raum oder
+anhand von Echtdaten) zu entwickeln, zu dokumentieren und durchzuführen.&lt;/li&gt;
+&lt;li&gt;Als Programmiersprache für die Implementierung ist Python vorgesehen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Im Einzelnen sind hierbei folgende Aufgaben zu bearbeiten:&lt;/p&gt;
+
+&lt;h3&gt;Aufgaben:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Analyse, Recherche und Dokumentation&lt;/strong&gt; in Frage kommender &lt;strong&gt;Verfahren 
+für Multi-Sensor Datenfusionen&lt;/strong&gt; im beschriebenen Kontext. Entsprechende Trackingalgorithmen
+und Bewegungsmodelle sowie deren Zusammenwirken sind geeignet aufzubereiten und darzustellen.&lt;/li&gt;
+&lt;li&gt;Untersuchung und Dokumentation der &lt;strong&gt;Vor- und Nachteile&lt;/strong&gt; der einzelnen Verfahren.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ableitung und Dokumentation&lt;/strong&gt; einer &lt;strong&gt;generischen Tracker-Architektur&lt;/strong&gt;, die mit möglichst vielen der untersuchten Verfahren realisierbar ist.&lt;/li&gt;
+&lt;li&gt;Begründete und dokumentierte &lt;strong&gt;Auswahl&lt;/strong&gt; eines oder mehrerer der untersuchten Multi-Sensor &lt;strong&gt;Datenfusionsverfahren&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prototypische Realisierung&lt;/strong&gt; gem. der generischen Architektur des gewählten Multi-Sensor Datenfusionsverfahrens inkl. Darstellungslösung für die Luftlage.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluierung&lt;/strong&gt; des Prototypen hinsichtlich &lt;strong&gt;Trackinggenauigkeit und Datenfusionsfähigkeiten&lt;/strong&gt; inkl. Dokumentation der Evaluierungsergebnisse.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//thesis/2016/11/01/thesis-multi-sensor-tracker.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//thesis/2016/11/01/thesis-multi-sensor-tracker.html</guid>
+    </item>
+    
+    <item>
       <title>Valuable Swarm Links</title>
       <description>
         

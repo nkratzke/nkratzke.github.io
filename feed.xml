@@ -201,15 +201,18 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/hellonode/&quot;&gt;Hello World&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Monitoring the platform&lt;/h3&gt;
+&lt;h3&gt;Monitoring and (auto-)scaling the platform&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.kcluster.io/auto-scaling-kubernetes-clusters-with-kcluster-io-1b2da5514c5d#.dygjczjeo&quot;&gt;Auto Scaling Kubernetes Clusters with KCluster.io&lt;/a&gt; by &lt;strong&gt;KCluster&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/getting-started-guides/logging-elasticsearch/&quot;&gt;Logging with Elasticsearch and Kibana&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Monitoring workloads/services&lt;/h3&gt;
+&lt;h3&gt;Monitoring and (auto-)scaling workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.netsil.com/microservice-monitoring-in-kubernetes-with-netsil-84891563c0de#.2gfgzgpau&quot;&gt;Microservice Monitoring in Kubernetes with Netsil&lt;/a&gt; by &lt;strong&gt;Matt Baldwin&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/SpringCentral/writing-a-kubernetes-autoscaler-with-groovy-and-spring-boot&quot;&gt;Writing a Kubernetes Autoscaler with Groovy and Spring Boot&lt;/a&gt; by &lt;strong&gt;Ray Tsang&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -229,6 +232,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Securing workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.trireme.io&quot;&gt;Trireme&lt;/a&gt; by &lt;strong&gt;Aporeto&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.sdxcentral.com/articles/news/aporeto-thinks-container-security-simple/2016/11/&quot;&gt;Aporeto Thinks Container Security Can Really Be This Simple&lt;/a&gt; by &lt;strong&gt;Craig Matsumoto&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/secrets/&quot;&gt;Secrets&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/pod-security-policy/&quot;&gt;Pod Security Policies&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2852,7 +2857,14 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQP+2016]&lt;/strong&gt; &lt;span id=&quot;KQP+2016&quot;&gt;Kratzke, N., Quint, P.-C., Palme, D., &amp;amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp;amp; B. Koch (Eds.), &lt;i&gt;European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges&lt;/i&gt;. SCITEPRESS.&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal on Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4).&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/309673663'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQP+2016]&lt;/strong&gt; &lt;span id=&quot;KQP+2016&quot;&gt;Kratzke, N., Quint, P.-C., Palme, D., &amp;amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp;amp; B. Koch (Eds.), &lt;i&gt;European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges&lt;/i&gt;. SCITEPRESS.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href='https://www.researchgate.net/publication/304578995'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;

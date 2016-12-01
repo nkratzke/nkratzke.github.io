@@ -7,6 +7,61 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Präsentations-Modus für Eclipse (Presentation Mode for Eclipse)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;Präsentationsprogramme wie PowerPoint bieten bei mehreren Bildschirmen normalerweise 
+eine erweitere Darstellung für den Vortragenden und eine reduzierte Darstellung für das
+Publikum (die eigentliche Präsentation). Die Darstellung für den Vortragenden beinhaltet
+dabei üblicherweise mehr Informationen (wie bspw. die nächsten Slides, Kommentare zu den Slides,
+Markierungs- und Highlighting Funktionen, etc.).&lt;/p&gt;
+
+&lt;p&gt;Insbesondere zur Erläuterung von Programmiersachverhalten in Vorlesungen, Schulungen, Tutorials, etc.
+wäre es auch für Softwareentwicklungsumgebungen hilfreich, einen Präsentationsmodus zu haben, der zwei
+Bildschirme (einen für den Vortragenden, einen für das Publikum/Beamer) unterstützt.&lt;/p&gt;
+
+&lt;p&gt;Während auf dem Hauptmonitor die übliche Softwareentwicklungsumgebung für den Vortragenden aufliegt
+(inkl. aller Detailinformationen),
+sollte auf dem Präsentationsmonitor(-beamer) nur eine Datei sowie ggf. eine Konsolenausgabe aufliegen,
+auf die der Fokus des Publikums gelenkt werden soll.&lt;/p&gt;
+
+&lt;p&gt;Aufgabe dieser Abschlussarbeit ist es, für die Softwareentwicklungsumgebung Eclipse ein Plugin zu entwickeln,
+dass diese Fähigkeit zu einem Präsentationsmodus für Eclipse auf einem zweiten Bildschirm ausbaut.&lt;/p&gt;
+
+&lt;p&gt;Eclipse bietet grundsätzlich die Möglichkeit Editorfenster zu klonen. Hierdurch ist es möglich, Änderungen in einer
+Datei in einem Editorfenster durchzuführen, die in einem anderen Fenster zeitgleich zur Darstellung
+gebracht werden. Das Plugin soll hierzu die folgenden zusätzlichen Features bereitstellen.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Der Präsentationsmodus soll per Hot-Key aktiviert und deaktiviert werden können.&lt;/li&gt;
+&lt;li&gt;Wird der Präsentationsmodus aktiviert, soll (wenn vorhanden) auf einem zweiten Monitor das aktuell aufliegende 
+Editorfenster als Vollbild auf den zweiten (Präsentations)-Monitor als Präsentationseditorfenster geklont werden.&lt;/li&gt;
+&lt;li&gt;Highlighting, das im einen Editor vorgenommen wird, soll im Präsentationseditorfenster gespiegelt werden.&lt;/li&gt;
+&lt;li&gt;Auch das Konsolenfenster, soll als Präsentationskonsole auf den zweiten Monitor geklont werden können.&lt;/li&gt;
+&lt;li&gt;Die gespiegelte Präsentationskonsole soll bei aktivitiertem Präsentationsmodus per Short-Cut-Key ein- und ausgeblendet werden können.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Aufgaben, Dokumentation und Outcomes&lt;/h3&gt;
+
+&lt;p&gt;Im einzelnen sind die folgenden Aufgaben zu bearbeiten:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Analysieren&lt;/strong&gt; der oben genannten Features, Ableitung und Dokumentation verfeinerter &lt;strong&gt;Software Requirements&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Entwicklung und Abstimmung mit dem Aufgabensteller eines Lösungskonzepts (Architektur) für das &lt;strong&gt;Präsentationsplugin&lt;/strong&gt; für Eclipse&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implementieren&lt;/strong&gt; des Präsentationsplugins (das Plugin soll über den Marketplace von Eclipse bereitgestellt werden können. Hierzu sind alle Vorgaben durch das Plugin einzuhalten).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test und Nachweis&lt;/strong&gt; der Funktionstüchtigkeit des Präsentationsplugins&lt;/li&gt;
+&lt;li&gt;Begleitende &lt;strong&gt;Dokumentation&lt;/strong&gt; der oben angegebenen Schritte, Designentscheidungen und Ergebnisse gem. folgendem &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;Template&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//thesis/2016/12/01/thesis-eclipse-presentation.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//thesis/2016/12/01/thesis-eclipse-presentation.html</guid>
+    </item>
+    
+    <item>
       <title>Entwurf und Entwicklung eines generischen Multisensor Trackers</title>
       <description>
         

@@ -148,7 +148,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;What is Docker&amp;#39;s Swarm Mode?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/key-concepts/&quot;&gt;Swarm Mode Key Concepts&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/key-concepts/&quot;&gt;Swarm Mode Key Concepts&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://lostechies.com/gabrielschenker/2016/09/05/docker-and-swarm-mode-part-1/&quot;&gt;Docker and Swarm Mode Part 1&lt;/a&gt;, &lt;a href=&quot;https://lostechies.com/gabrielschenker/2016/09/11/docker-and-swarm-mode-part-2/&quot;&gt;Part 2&lt;/a&gt;, &lt;a href=&quot;https://lostechies.com/gabrielschenker/2016/10/05/docker-and-swarm-mode-part-3&quot;&gt;Part 3&lt;/a&gt; by &lt;strong&gt;Gabriel Schenker&lt;/strong&gt; (added 6. Oct 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1464&quot;&gt;Understanding Node Failure Handling under Docker 1.12 Swarm Mode&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016)&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://collabnix.com/archives/1445&quot;&gt;Docker 1.12 Swarm Mode – Under the hood&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
@@ -159,13 +159,13 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://kunalkushwaha.github.io/2016/10/14/understanding-infrakit&quot;&gt;Understanding InfraKit&lt;/a&gt; by &lt;strong&gt;Kunal Kushawa&lt;/strong&gt; (added 20. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/swarm-tutorial/&quot;&gt;Getting started with swarm mode&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/swarm-tutorial/&quot;&gt;Getting started with swarm mode&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Deploying workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/&quot;&gt;Deploy a service to the swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/swarm-tutorial/deploy-service/&quot;&gt;Deploy a service to the swarm&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.couchbase.com/2016/july/labels-constraints-docker-daemon-service&quot;&gt;Labels and Constraints with Docker Daemon and Service&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 21. Jul 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@LachlanEvenson/5-minutes-dabbling-with-docker-distributed-application-bundles-dab-60f2dca3829#.b4irfua41&quot;&gt;5 minutes dabbling with Docker Distributed Application Bundles (DAB)&lt;/a&gt; by &lt;strong&gt;Lachlan Evenson&lt;/strong&gt; (added 28. Jun 2016) &lt;/li&gt;
 &lt;/ul&gt;
@@ -173,22 +173,22 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Monitoring the platform&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://logz.io/blog/docker-swarm-monitoring-logging-using-elk-stack/&quot;&gt;Docker Swarm Monitoring and Logging Using the ELK Stack&lt;/a&gt; by Asaf Yigal__ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://logz.io/blog/docker-swarm-monitoring-logging-using-elk-stack/&quot;&gt;Docker Swarm Monitoring and Logging Using the ELK Stack&lt;/a&gt; by Asaf Yigal__ (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Monitoring workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://collabnix.com/archives/1391&quot;&gt;Docker 1.12 Networking Model Overview&lt;/a&gt; by &lt;strong&gt;Ajeet Singh Raina&lt;/strong&gt; (added 21. Jul 2016) &lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Securing the platform&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/security/security/&quot;&gt;Docker Security&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/userguide/networking/overlay-security-model/&quot;&gt;Docker swarm mode overlay network security model&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/security/security/&quot;&gt;Docker Security&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/userguide/networking/overlay-security-model/&quot;&gt;Docker swarm mode overlay network security model&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Securing workloads/services&lt;/h3&gt;
@@ -238,29 +238,30 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;What is Kubernetes?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/whatisk8s/&quot;&gt;What is Kubernetes&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://dzone.com/articles/exploring-kubernetes-as-a-mesos-framework-does-it&quot;&gt;Exploring Kubernetes as a Mesos Framework: Does it Make Sense?&lt;/a&gt; by &lt;strong&gt;Klaus Ma&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://codefresh.io/blog/know-kubernetes-1-4/&quot;&gt;What to Know About Kubernetes 1.4&lt;/a&gt; by &lt;strong&gt;Oley Verhovsky&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/whatisk8s/&quot;&gt;What is Kubernetes&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dzone.com/articles/exploring-kubernetes-as-a-mesos-framework-does-it&quot;&gt;Exploring Kubernetes as a Mesos Framework: Does it Make Sense?&lt;/a&gt; by &lt;strong&gt;Klaus Ma&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://codefresh.io/blog/know-kubernetes-1-4/&quot;&gt;What to Know About Kubernetes 1.4&lt;/a&gt; by &lt;strong&gt;Oley Verhovsky&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Deploying the platform (your first cluster)&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/getting-started-guides/kubeadm/&quot;&gt;Installing Kubernetes on Linux with kubeadm&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/tutorials/&quot;&gt;Tutorials&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nivenly.com/k8s-aws-private-networking/&quot;&gt;How to set up a HA privately networked Kubernetes cluster in AWS with kops&lt;/a&gt; by &lt;strong&gt;Kris Nova&lt;/strong&gt; (added 13. Dec 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/getting-started-guides/kubeadm/&quot;&gt;Installing Kubernetes on Linux with kubeadm&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/tutorials/&quot;&gt;Tutorials&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Deploying workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/hellonode/&quot;&gt;Hello World&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/hellonode/&quot;&gt;Hello World&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Monitoring and (auto-)scaling the platform&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.kcluster.io/auto-scaling-kubernetes-clusters-with-kcluster-io-1b2da5514c5d#.dygjczjeo&quot;&gt;Auto Scaling Kubernetes Clusters with KCluster.io&lt;/a&gt; by &lt;strong&gt;KCluster&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/getting-started-guides/logging-elasticsearch/&quot;&gt;Logging with Elasticsearch and Kibana&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/getting-started-guides/logging-elasticsearch/&quot;&gt;Logging with Elasticsearch and Kibana&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Monitoring and (auto-)scaling workloads/services&lt;/h3&gt;
@@ -268,20 +269,20 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.netsil.com/microservice-monitoring-in-kubernetes-with-netsil-84891563c0de#.2gfgzgpau&quot;&gt;Microservice Monitoring in Kubernetes with Netsil&lt;/a&gt; by &lt;strong&gt;Matt Baldwin&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/SpringCentral/writing-a-kubernetes-autoscaler-with-groovy-and-spring-boot&quot;&gt;Writing a Kubernetes Autoscaler with Groovy and Spring Boot&lt;/a&gt; by &lt;strong&gt;Ray Tsang&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Platform Networking&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.weave.works/weave-net-kubernetes-integration/&quot;&gt;Run Weave Net with Kubernetes in Just One Line&lt;/a&gt; by &lt;strong&gt;Bryan Boreham&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.weave.works/weave-net-kubernetes-integration/&quot;&gt;Run Weave Net with Kubernetes in Just One Line&lt;/a&gt; by &lt;strong&gt;Bryan Boreham&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Securing the platform&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/weaveworks/weave-kube/issues/38#issuecomment-253843577&quot;&gt;Activate weave overlay network encryption for Kubernetes&lt;/a&gt; by &lt;strong&gt;Issue on GitHub&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/weaveworks/weave-kube/issues/38#issuecomment-253843577&quot;&gt;Activate weave overlay network encryption for Kubernetes&lt;/a&gt; by &lt;strong&gt;Issue on GitHub&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Securing workloads/services&lt;/h3&gt;
@@ -289,8 +290,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.trireme.io&quot;&gt;Trireme&lt;/a&gt; by &lt;strong&gt;Aporeto&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.sdxcentral.com/articles/news/aporeto-thinks-container-security-simple/2016/11/&quot;&gt;Aporeto Thinks Container Security Can Really Be This Simple&lt;/a&gt; by &lt;strong&gt;Craig Matsumoto&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/secrets/&quot;&gt;Secrets&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/pod-security-policy/&quot;&gt;Pod Security Policies&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/secrets/&quot;&gt;Secrets&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/pod-security-policy/&quot;&gt;Pod Security Policies&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

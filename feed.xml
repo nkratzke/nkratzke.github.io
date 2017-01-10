@@ -158,7 +158,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Deploying the platform (your first cluster)&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://kunalkushwaha.github.io/2016/10/14/understanding-infrakit&quot;&gt;Understanding InfraKit&lt;/a&gt; by &lt;strong&gt;Kunal Kushawa&lt;/strong&gt; (added 20. Oct 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kunalkushwaha.github.io/2016/10/14/understanding-infrakit&quot;&gt;Understanding InfraKit&lt;/a&gt; by &lt;strong&gt;Kunal Kushawa&lt;/strong&gt; (added 20. Oct 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/engine/swarm/swarm-tutorial/&quot;&gt;Getting started with swarm mode&lt;/a&gt; by &lt;strong&gt;Docker&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -173,7 +173,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Monitoring the platform&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://logz.io/blog/docker-swarm-monitoring-logging-using-elk-stack/&quot;&gt;Docker Swarm Monitoring and Logging Using the ELK Stack&lt;/a&gt; by Asaf Yigal__ (added 18. Oct 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://logz.io/blog/docker-swarm-monitoring-logging-using-elk-stack/&quot;&gt;Docker Swarm Monitoring and Logging Using the ELK Stack&lt;/a&gt; by &lt;strong&gt;Asaf Yigal&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Monitoring workloads/services&lt;/h3&gt;
@@ -260,15 +260,15 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Monitoring and (auto-)scaling the platform&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.kcluster.io/auto-scaling-kubernetes-clusters-with-kcluster-io-1b2da5514c5d#.dygjczjeo&quot;&gt;Auto Scaling Kubernetes Clusters with KCluster.io&lt;/a&gt; by &lt;strong&gt;KCluster&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.kcluster.io/auto-scaling-kubernetes-clusters-with-kcluster-io-1b2da5514c5d#.dygjczjeo&quot;&gt;Auto Scaling Kubernetes Clusters with KCluster.io&lt;/a&gt; by &lt;strong&gt;KCluster&lt;/strong&gt; (added 8. Nov 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/getting-started-guides/logging-elasticsearch/&quot;&gt;Logging with Elasticsearch and Kibana&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Monitoring and (auto-)scaling workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.netsil.com/microservice-monitoring-in-kubernetes-with-netsil-84891563c0de#.2gfgzgpau&quot;&gt;Microservice Monitoring in Kubernetes with Netsil&lt;/a&gt; by &lt;strong&gt;Matt Baldwin&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/SpringCentral/writing-a-kubernetes-autoscaler-with-groovy-and-spring-boot&quot;&gt;Writing a Kubernetes Autoscaler with Groovy and Spring Boot&lt;/a&gt; by &lt;strong&gt;Ray Tsang&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.netsil.com/microservice-monitoring-in-kubernetes-with-netsil-84891563c0de#.2gfgzgpau&quot;&gt;Microservice Monitoring in Kubernetes with Netsil&lt;/a&gt; by &lt;strong&gt;Matt Baldwin&lt;/strong&gt; (added 8. Nov 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/SpringCentral/writing-a-kubernetes-autoscaler-with-groovy-and-spring-boot&quot;&gt;Writing a Kubernetes Autoscaler with Groovy and Spring Boot&lt;/a&gt; by &lt;strong&gt;Ray Tsang&lt;/strong&gt; (added 8. Nov 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/monitoring/&quot;&gt;Resource Usage Monitoring&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
@@ -276,6 +276,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Platform Networking&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.weave.works/weave-net-kubernetes-integration/&quot;&gt;Run Weave Net with Kubernetes in Just One Line&lt;/a&gt; by &lt;strong&gt;Bryan Boreham&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -288,8 +289,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Securing workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.trireme.io&quot;&gt;Trireme&lt;/a&gt; by &lt;strong&gt;Aporeto&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.sdxcentral.com/articles/news/aporeto-thinks-container-security-simple/2016/11/&quot;&gt;Aporeto Thinks Container Security Can Really Be This Simple&lt;/a&gt; by &lt;strong&gt;Craig Matsumoto&lt;/strong&gt; (added 8. Nov 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.trireme.io&quot;&gt;Trireme&lt;/a&gt; by &lt;strong&gt;Aporeto&lt;/strong&gt; (added 8. Nov 2016) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.sdxcentral.com/articles/news/aporeto-thinks-container-security-simple/2016/11/&quot;&gt;Aporeto Thinks Container Security Can Really Be This Simple&lt;/a&gt; by &lt;strong&gt;Craig Matsumoto&lt;/strong&gt; (added 8. Nov 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/secrets/&quot;&gt;Secrets&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/pod-security-policy/&quot;&gt;Pod Security Policies&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
@@ -2707,6 +2708,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;h3&gt;Docker &lt;small&gt;network&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.weave.works/&quot;&gt;Weave - the Docker network&lt;/a&gt; by &lt;strong&gt;weaveworks&lt;/strong&gt; (added 1. Jun 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-bridge-overlay-network-compose-variable-substitution&quot;&gt;Docker Bridge and Overlay Network with Compose Variable Substitution&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
@@ -2913,7 +2915,14 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal on Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4).&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2017a]&lt;/strong&gt; &lt;span id=&quot;KQ2017a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. &lt;i&gt;Journal of Systems and Software&lt;/i&gt;. http://doi.org/10.1016/j.jss.2017.01.001&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/312045183'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2017a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal on Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4).&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href='https://www.researchgate.net/publication/309673663'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;

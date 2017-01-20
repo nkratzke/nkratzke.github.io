@@ -61,7 +61,7 @@ exemplarisch nachgewiesen werden.&lt;/p&gt;
 &lt;li&gt;Es muss gezeigt werden, das Systemzustände der Cluster-Nodes (bspw. CPU-Load, Arbeitsspeicher, Plattenplatz, Netzwerklast, etc.) erkannt und in sinnvolle Skalierungsaktionen umgesetzt werden können.&lt;/li&gt;
 &lt;li&gt;Dazu müssen geeignete Tools zur Erzeugung von Lasten identifiziert oder ggf. erstellt werden.&lt;/li&gt;
 &lt;li&gt;Es muss getestet werden, dass das System entsprechend der überwachten Metriken selbstständig skaliert.&lt;/li&gt;
-&lt;li&gt;Es soll sowohl das horizontale Hoch- und Runterskalieren getestet werden.&lt;/li&gt;
+&lt;li&gt;Es soll horizontales und automatisches Hoch- und Runterskalieren getestet werden.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

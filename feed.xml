@@ -7,6 +7,70 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Autoscaling für elastische Container Plattformen</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/automatik.jpg&quot;&gt;
+        
+        &lt;p&gt;In dieser Bachelorarbeit sollen existierende Open Source Monitoring Lösungen 
+(wie z.B. der ELK-Stack, Prometheus, etc.) analysiert und mit einer bestehenden 
+Deployer-Lösung für elastische Containerplattformen (wie Kubernetes, Apache Mesos, Docker Swarm, Nomad, etc.), 
+zu einem Auto-Scaler integriert werden.
+Eine Realisierung dieses Deployers wurde bereits für Kubernetes auf Amazon AWS und OpenStack umgesetzt. 
+Es sollen Metriken der Cluster-Nodes erfasst, zusammengeführt und analysiert werden.
+Die Bestimmung geeigneter Metriken für Skalierungsmaßnahmen gehört nicht zum Umfang dieser Arbeit. 
+Die Arbeit soll jedoch nachweisen,
+dass beliebig erfassbare Metriken (und Metrikkombinationen) für eine Autoskalierung genutzt werden können.
+Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:&lt;/p&gt;
+
+&lt;h3&gt;Teilaufgaben&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Hinweis:
+Sollten sich während der Bearbeitung dieser Arbeit einzelne Aspekte als schwer realisierbar erweisen, kann die Aufgabenstellung - nach plausiblem Nachweis der Schwierigkeit - angepasst werden.
+&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4&gt;Analyse von bestehenden Monitoring-Lösungen&lt;/h4&gt;
+
+&lt;p&gt;Es gibt diverse Tools und Tool-Stacks mit denen das Monitoring von Cluster-Nodes erfolgen kann.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mittels einer Recherche sollen geeignete (mind. drei) Monitoring-Systeme/Stacks identifiziert und verglichen werden.&lt;/li&gt;
+&lt;li&gt;Die Kriterien für eine vergleichende Analyse sollen auf dem Funktionsumfang (unterstützt Metriken) und der Skalierbarkeit beruhen. Ausschlusskriterien sind Dienste die nur als externer Service zu Verfügung stehen und Tools unter nicht nicht-freier Lizenz.&lt;/li&gt;
+&lt;li&gt;Weitere Kriterien, besonders solche, die für die Umsetzung und Integration mit dem vorhandenen ECP-Deployer zusammenhängen, sollen in Absprache selbstständig identifiziert werden.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Automatisches Skalieren des Clusters (Integration)&lt;/h4&gt;
+
+&lt;p&gt;Aktuell ist ein Deployer für ein Kubernetes Cluster vorhanden und für andere Plattformen, 
+wie beispielweise Apache Mesos und Docker Swarm, geplant. 
+Der bestehende Deployer soll um eine Monitoring- und Skalierungs-Komponente ergänzt werden.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Entsprechend der vergleichenden Analyse soll das geeignetste Monitoring-System installiert und integriert werden.&lt;/li&gt;
+&lt;li&gt;Es soll ein System in Ruby umgesetzt werden, welches anhand der Daten aus dem Monitoring-System und der übergebenen Metriken die Anzahl der Cluster-Nodes nach Bedarf anpasst (Auto-Skallierung)&lt;/li&gt;
+&lt;li&gt;Dazu muss die Cluster-Konfiguration angepasst und der ECP-Deployer geeignet getriggert werden.&lt;/li&gt;
+&lt;li&gt;Es sind nach Möglichkeit einfache Datenformate wie bspw. JSON zu nutzen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Evaluierung der Skalierbarkeit des Clusters&lt;/h4&gt;
+
+&lt;p&gt;Anhand von mehreren erfassbaren Metriken/Metrikkombinationen soll das Skalieren des Clusters 
+exemplarisch nachgewiesen werden.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Es muss gezeigt werden, das Systemzustände der Cluster-Nodes (bspw. CPU-Load, Arbeitsspeicher, Plattenplatz, Netzwerklast, etc.) erkannt und in sinnvolle Skalierungsaktionen umgesetzt werden können.&lt;/li&gt;
+&lt;li&gt;Dazu müssen geeignete Tools zur Erzeugung von Lasten identifiziert oder ggf. erstellt werden.&lt;/li&gt;
+&lt;li&gt;Es muss getestet werden, dass das System entsprechend der überwachten Metriken selbstständig skaliert.&lt;/li&gt;
+&lt;li&gt;Es soll sowohl das horizontale Hoch- und Runterskalieren getestet werden.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Fri, 20 Jan 2017 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//thesis/2017/01/20/thesis-auto-scaling.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//thesis/2017/01/20/thesis-auto-scaling.html</guid>
+    </item>
+    
+    <item>
       <title>Präsentations-Modus für Eclipse (Presentation Mode for Eclipse)</title>
       <description>
         

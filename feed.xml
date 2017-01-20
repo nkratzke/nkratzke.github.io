@@ -2635,6 +2635,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@nagarwal/understanding-the-docker-internals-7ccb052ce9fe?mkt_tok=eyJpIjoiWVdNMk1qaG1NekZoWWpOaSIsInQiOiJVd0tsWEJzbXpIdEdMSUZTRGhhUUFSMG85RDRyVm80Z2p1ZXp1YklMa2pWczlsUHNVNUtGNW9DUE5OSkptS1UxaVRVZ3hEY3BtU1hoSWR1aTM5cW5SVm4wS205M1ZcL3gxQmFaNkFDdEFBSmZrWU1jWkxOanRGSnJSOEQyb2Fib3IifQ%3D%3D#.atopwz2fj&quot;&gt;Understanding the Docker Internals&lt;/a&gt; by &lt;strong&gt;Nitin Agarwal&lt;/strong&gt; (added 20. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.datadoghq.com/docker-adoption/&quot;&gt;Eight Surprising Facts about Real Docker Adoption&lt;/a&gt; by &lt;strong&gt;datadoghq.com&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://valdhaus.co/writings/docker-misconceptions&quot;&gt;Docker Misconceptions&lt;/a&gt; by &lt;strong&gt;Matt Jaynes&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://venturebeat.com/2015/06/30/10-myths-about-enterprise-adoption-of-docker&quot;&gt;10 myths about enterprise adoption of Docker&lt;/a&gt; by &lt;strong&gt;Bob Quillin&lt;/strong&gt; (added 9. Jul 2015)&lt;br&gt;&lt;/li&gt;

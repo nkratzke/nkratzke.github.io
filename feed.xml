@@ -35,7 +35,7 @@ Sollten sich während der Bearbeitung dieser Arbeit einzelne Aspekte als schwer 
 
 &lt;ul&gt;
 &lt;li&gt;Mittels einer Recherche sollen geeignete (mind. drei) Monitoring-Systeme/Stacks identifiziert und verglichen werden.&lt;/li&gt;
-&lt;li&gt;Die Kriterien für eine vergleichende Analyse sollen auf dem Funktionsumfang (unterstützt Metriken) und der Skalierbarkeit beruhen. Ausschlusskriterien sind Dienste die nur als externer Service zu Verfügung stehen und Tools unter nicht nicht-freier Lizenz.&lt;/li&gt;
+&lt;li&gt;Die Kriterien für eine vergleichende Analyse sollen auf dem Funktionsumfang (unterstützt Metriken) und der Skalierbarkeit beruhen. Ausschlusskriterien sind Dienste die nur als externer Service zu Verfügung stehen und Tools unter nicht-freier Lizenz.&lt;/li&gt;
 &lt;li&gt;Weitere Kriterien, besonders solche, die für die Umsetzung und Integration mit dem vorhandenen ECP-Deployer zusammenhängen, sollen in Absprache selbstständig identifiziert werden.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -258,7 +258,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Securing workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;to be done&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/on-docker/secrets-and-lie-abilities-the-state-of-modern-secret-management-2017-c82ec9136a3d?mkt_tok=eyJpIjoiTVdKaVl6Um1ORE0wT1ROaSIsInQiOiJLcmhCVlZDYjRHZGdYcTdtbmhcL2VYWHl3Sit3XC9KOVwvOHNWZ0p1bU51ZnBiVFU5SDNYMndnb2pWZW44UStwSFwvSVZSTWZsWjFucHJKVnhNaUNFa1wveTA1TGNFaFFvdVNsa094elEyQ0RIOCs0Z0JvVnluVHRxT3llK1Y1ZFE2ZjF6In0%3D#.jz1gd8oww&quot;&gt;Secrets and LIE-abilities: The State of Modern Secret Management (2017)&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 10. Feb 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://windsock.io/secrets-come-to-docker&quot;&gt;Secrets Come to Docker&lt;/a&gt; by &lt;strong&gt;Nigel Brown&lt;/strong&gt; (added 10. Feb 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -310,7 +311,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Deploying the platform (your first cluster)&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.nivenly.com/k8s-aws-private-networking/&quot;&gt;How to set up a HA privately networked Kubernetes cluster in AWS with kops&lt;/a&gt; by &lt;strong&gt;Kris Nova&lt;/strong&gt; (added 13. Dec 2016) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nivenly.com/k8s-aws-private-networking/&quot;&gt;How to set up a HA privately networked Kubernetes cluster in AWS with kops&lt;/a&gt; by &lt;strong&gt;Kris Nova&lt;/strong&gt; (added 13. Dec 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/getting-started-guides/kubeadm/&quot;&gt;Installing Kubernetes on Linux with kubeadm&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/tutorials/&quot;&gt;Tutorials&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
@@ -318,6 +319,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Deploying workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.kubernetes.io/2017/01/fission-serverless-functions-as-service-for-kubernetes.html&quot;&gt;Fission: Serverless Functions as a Service for Kubernetes&lt;/a&gt; by &lt;strong&gt;Soam Vasani&lt;/strong&gt; (added 30. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/hellonode/&quot;&gt;Hello World&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -2728,7 +2730,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;li&gt;&lt;a href=&quot;http://humblec.com/containers-docker-glusterfs-dockit-easy-way-glusterfs-deployment-docker/&quot;&gt;An easy way of GlusterFS deployment with Docker&lt;/a&gt; by &lt;strong&gt;humblec.com&lt;/strong&gt; (added 18. Aug 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://pertino.com/blog/secure-cloud-bursting-part-1/&quot;&gt;How to build a Jenkins Master&lt;/a&gt; by &lt;strong&gt;Luke Woydziak&lt;/strong&gt; (added 25. Jul 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.nkode.io/2014/03/05/dockerize-dart.html&quot;&gt;Dart meets Docker, How to Dockerize Dart Apps&lt;/a&gt; by &lt;strong&gt;Nane Kratzke&lt;/strong&gt; (added 3. Jul 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://loige.com/simple-echo-server-written-in-go-dockerized/?utm_source=Docker+News&amp;amp;utm_campaign=f90a032721-Docker_0_5_0_7_18_2013&amp;amp;utm_medium=email&amp;amp;utm_term=0_c0995b6e8f-f90a032721-235712605&quot;&gt;Simple echo server written in Go, dockerized&lt;/a&gt; by &lt;strong&gt;Loige.com&lt;/strong&gt;  (added 3. Jul 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://loige.com/simple-echo-server-written-in-go-dockerized/?utm_source=Docker+News&amp;utm_campaign=f90a032721-Docker_0_5_0_7_18_2013&amp;utm_medium=email&amp;utm_term=0_c0995b6e8f-f90a032721-235712605&quot;&gt;Simple echo server written in Go, dockerized&lt;/a&gt; by &lt;strong&gt;Loige.com&lt;/strong&gt;  (added 3. Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
@@ -2804,7 +2806,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;li&gt;&lt;a href=&quot;https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/&quot;&gt;Resource management in Docker&lt;/a&gt; by &lt;strong&gt;Marek Goldmann&lt;/strong&gt;  (added 18. Sep 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://domino.research.ibm.com/library/cyberdig.nsf/papers/0929052195DD819C85257D2300681E7B/$File/rc25482.pdf&quot;&gt;An Updated Performance Comparison of Virtual Machines and Linux Containers&lt;/a&gt; by &lt;strong&gt;Wes Felter, Alexandre Ferreira, Ram Rajamony, Juan Rubio&lt;/strong&gt;  (added 17. Aug 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.librato.com/posts/docker-container-data-with-fluentd&quot;&gt;Collecting Docker Container Data with Fluentd&lt;/a&gt; by &lt;strong&gt;kiyototamura&lt;/strong&gt; (added 17. Aug 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.sflow.com/2014/06/docker-performance-monitoring.html?utm_source=Docker+News&amp;amp;utm_campaign=f90a032721-Docker_0_5_0_7_18_2013&amp;amp;utm_medium=email&amp;amp;utm_term=0_c0995b6e8f-f90a032721-235712605&quot;&gt;Docker performance monitor&lt;/a&gt; by &lt;strong&gt;sflow.com&lt;/strong&gt; (added 3. Jul 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.sflow.com/2014/06/docker-performance-monitoring.html?utm_source=Docker+News&amp;utm_campaign=f90a032721-Docker_0_5_0_7_18_2013&amp;utm_medium=email&amp;utm_term=0_c0995b6e8f-f90a032721-235712605&quot;&gt;Docker performance monitor&lt;/a&gt; by &lt;strong&gt;sflow.com&lt;/strong&gt; (added 3. Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Securing Docker&lt;/h3&gt;

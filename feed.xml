@@ -342,7 +342,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Platform Networking&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.weave.works/weave-net-kubernetes-integration/&quot;&gt;Run Weave Net with Kubernetes in Just One Line&lt;/a&gt; by &lt;strong&gt;Bryan Boreham&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -592,7 +592,7 @@ and operated on a self-service elastic platform.
 &lt;h3&gt;Reference Model&lt;/h3&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&quot;/img/posts/cloud-native-stack.png&quot; class='nogrey' width=100%&gt;
+&lt;img src=&quot;/img/posts/cloud-native-stack.png&quot; class=&#39;nogrey&#39; width=100%&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Details are explained in the &lt;a href=&quot;/bibliography/KP2016.html&quot;&gt;paper&lt;/a&gt; (provided via Research Gate). The motivating background is presented in the following slides.&lt;/p&gt;
@@ -635,7 +635,7 @@ My students implemented several classical games as &lt;a href=&quot;https://www.
 
 &lt;p&gt;Congratulations.&lt;/p&gt;
 
-&lt;p&gt;&lt;iframe width='90%' height='2048px' src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&#39;90%&#39; height=&#39;2048px&#39; src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
 
       </description>
       <pubDate>Mon, 11 Jul 2016 00:00:00 +0200</pubDate>
@@ -849,7 +849,7 @@ which are intensively discussed in enterprise IT and cloud-native application so
 a DIN A1 printable PDF version (german only) for your office.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/content/poster-container-cluster.pdf&quot; mimetype=&quot;application/pdf&quot;&gt;
-    &lt;img src=&quot;/img/posts/poster-container-cluster.png&quot; class='nogrey' width=90%&gt;
+    &lt;img src=&quot;/img/posts/poster-container-cluster.png&quot; class=&#39;nogrey&#39; width=90%&gt;
 &lt;/a&gt;&lt;/p&gt;
 
       </description>
@@ -1070,7 +1070,7 @@ confidence bands and all data points).&lt;/p&gt;
 &lt;p&gt;This would produce a much clearer picture with additional descriptive statistical information.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&quot;/img/posts/transferplot-withbands.png&quot; class='nogrey' width=75%&gt;
+&lt;img src=&quot;/img/posts/transferplot-withbands.png&quot; class=&#39;nogrey&#39; width=75%&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;h2&gt;Further Information&lt;/h2&gt;
@@ -1360,13 +1360,13 @@ Thus, our similarity-based  virtual machine type selection strategy seems to be 
 
 &lt;h3&gt;Absolute data transfer rates of bare (grey), containerized (red) and overlay network connected (blue) services&lt;/h3&gt;
 
-&lt;p&gt;&lt;img class='nogrey' src=&quot;/img/posts/absolute-container-sdn.png&quot; width=100%&gt;
+&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/absolute-container-sdn.png&quot; width=100%&gt;
 &lt;strong&gt;Median transfer rates with 90% confidence bands (5% and 95% percentile) 
 and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3&gt;Relative impact of containers (red) and overlay network (blue) compared with a bare (grey) deployment&lt;/h3&gt;
 
-&lt;p&gt;&lt;img class='nogrey' src=&quot;/img/posts/relative-container-sdn.png&quot; width=100%&gt;
+&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/relative-container-sdn.png&quot; width=100%&gt;
 &lt;strong&gt;Relative transfer rates and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
 
       </description>
@@ -1488,7 +1488,7 @@ My students implemented several classical games as &lt;a href=&quot;https://www.
 
 &lt;p&gt;Congratulations.&lt;/p&gt;
 
-&lt;p&gt;&lt;iframe width='90%' height='2048px' src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&#39;90%&#39; height=&#39;2048px&#39; src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
 
       </description>
       <pubDate>Wed, 15 Jul 2015 00:00:00 +0200</pubDate>
@@ -2637,7 +2637,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@nagarwal/understanding-the-docker-internals-7ccb052ce9fe?mkt_tok=eyJpIjoiWVdNMk1qaG1NekZoWWpOaSIsInQiOiJVd0tsWEJzbXpIdEdMSUZTRGhhUUFSMG85RDRyVm80Z2p1ZXp1YklMa2pWczlsUHNVNUtGNW9DUE5OSkptS1UxaVRVZ3hEY3BtU1hoSWR1aTM5cW5SVm4wS205M1ZcL3gxQmFaNkFDdEFBSmZrWU1jWkxOanRGSnJSOEQyb2Fib3IifQ%3D%3D#.atopwz2fj&quot;&gt;Understanding the Docker Internals&lt;/a&gt; by &lt;strong&gt;Nitin Agarwal&lt;/strong&gt; (added 20. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@nagarwal/understanding-the-docker-internals-7ccb052ce9fe?mkt_tok=eyJpIjoiWVdNMk1qaG1NekZoWWpOaSIsInQiOiJVd0tsWEJzbXpIdEdMSUZTRGhhUUFSMG85RDRyVm80Z2p1ZXp1YklMa2pWczlsUHNVNUtGNW9DUE5OSkptS1UxaVRVZ3hEY3BtU1hoSWR1aTM5cW5SVm4wS205M1ZcL3gxQmFaNkFDdEFBSmZrWU1jWkxOanRGSnJSOEQyb2Fib3IifQ%3D%3D#.atopwz2fj&quot;&gt;Understanding the Docker Internals&lt;/a&gt; by &lt;strong&gt;Nitin Agarwal&lt;/strong&gt; (added 20. Jan 2017) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.datadoghq.com/docker-adoption/&quot;&gt;Eight Surprising Facts about Real Docker Adoption&lt;/a&gt; by &lt;strong&gt;datadoghq.com&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://valdhaus.co/writings/docker-misconceptions&quot;&gt;Docker Misconceptions&lt;/a&gt; by &lt;strong&gt;Matt Jaynes&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://venturebeat.com/2015/06/30/10-myths-about-enterprise-adoption-of-docker&quot;&gt;10 myths about enterprise adoption of Docker&lt;/a&gt; by &lt;strong&gt;Bob Quillin&lt;/strong&gt; (added 9. Jul 2015)&lt;br&gt;&lt;/li&gt;
@@ -2775,7 +2775,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;h3&gt;Docker &lt;small&gt;network&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;span class=&#39;label label-success&#39;&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.weave.works/&quot;&gt;Weave - the Docker network&lt;/a&gt; by &lt;strong&gt;weaveworks&lt;/strong&gt; (added 1. Jun 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-bridge-overlay-network-compose-variable-substitution&quot;&gt;Docker Bridge and Overlay Network with Compose Variable Substitution&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
@@ -2982,93 +2982,93 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2017a]&lt;/strong&gt; &lt;span id=&quot;KQ2017a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. &lt;i&gt;Journal of Systems and Software&lt;/i&gt;, &lt;i&gt;126&lt;/i&gt;(April), 1–16. http://doi.org/10.1016/j.jss.2017.01.001&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2017a]&lt;/strong&gt; &lt;span id=&quot;KQ2017a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. &lt;i&gt;Journal Of Systems and Software&lt;/i&gt;, &lt;i&gt;126&lt;/i&gt;(April), 1–16. doi:10.1016/j.jss.2017.01.001&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/312045183'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/312045183&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2017a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal on Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4), 389–400.&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[QK2016a]&lt;/strong&gt; &lt;span id=&quot;QK2016a&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Overcome Vendor Lock-In by Integrating Already Available Container Technologies - Towards Transferability in Cloud Computing for SMEs. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2016 (7th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt;.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/309673663'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/292980185&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQP+2016]&lt;/strong&gt; &lt;span id=&quot;KQP+2016&quot;&gt;Kratzke, N., Quint, P.-C., Palme, D., &amp;amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp;amp; B. Koch (Eds.), &lt;i&gt;European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges&lt;/i&gt;. SCITEPRESS.&lt;/span&gt;
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2016a]&lt;/strong&gt; &lt;span id=&quot;KQ2016a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of the 6th International Conference on Cloud Computing and Services Science (CLOSER 2016)&lt;/i&gt; (pp. 223–231). doi:10.5220/0005732202230231&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/304578995'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/292657431&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQP+2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2016b]&lt;/strong&gt; &lt;span id=&quot;KQ2016b&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp;amp; J. Cardoso (Eds.), &lt;i&gt;Cloud Computing and Services Science Selected Papers&lt;/i&gt;. Springer.&lt;/span&gt;
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - a Cloud-Native Application Reference Model for Enterprise Architects. In &lt;i&gt;2016 IEEE 20th International Enterprise Distributed Object Computing Workshop (EDOCW)&lt;/i&gt; (pp. 1–10). doi:10.1109/EDOCW.2016.7584353&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/308219976'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - a Cloud-Native Application Reference Model for Enterprise Architects. In &lt;i&gt;2016 IEEE 20th International Enterprise Distributed Object Computing Workshop (EDOCW)&lt;/i&gt; (pp. 1–10). http://doi.org/10.1109/EDOCW.2016.7584353&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/304024156'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/304024156&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KP2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2016a]&lt;/strong&gt; &lt;span id=&quot;KQ2016a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of the 6th International Conference on Cloud Computing and Services Science (CLOSER 2016)&lt;/i&gt; (pp. 223–231). http://doi.org/10.5220/0005732202230231&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2016b]&lt;/strong&gt; &lt;span id=&quot;KQ2016b&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp;amp; J. Cardoso (Eds.), &lt;i&gt;Cloud Computing and Services Science Selected Papers&lt;/i&gt;. Springer.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/292657431'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/308219976&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[QK2016a]&lt;/strong&gt; &lt;span id=&quot;QK2016a&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Overcome Vendor Lock-In by Integrating Already Available Container Technologies - Towards Transferability in Cloud Computing for SMEs. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2016 (7th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt;.&lt;/span&gt;
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQP+2016]&lt;/strong&gt; &lt;span id=&quot;KQP+2016&quot;&gt;Kratzke, N., Quint, P.-C., Palme, D., &amp;amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp;amp; B. Koch (Eds.), &lt;i&gt;European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges&lt;/i&gt;. SCITEPRESS.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/292980185'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/304578995&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQP+2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal On Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4), 389–400.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/284501557'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/309673663&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/278242891'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/278242891&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/273456042'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/273456042&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2015b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/284501557&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2014d]&lt;/strong&gt; &lt;span id=&quot;Kra2014d&quot;&gt;Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittels einer generischen Cloud Service Description Language. &lt;i&gt;Impulse - Aus Forschung Und Lehre Der FH Lübeck&lt;/i&gt;, &lt;i&gt;18&lt;/i&gt;(1).&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014d.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kra2014a]&lt;/strong&gt; &lt;span id=&quot;Kra2014a&quot;&gt;Kratzke, N. (2014). Lightweight Virtualization Cluster - Howto overcome Cloud Vendor Lock-in. &lt;i&gt;Journal of Computer and Communication (JCC)&lt;/i&gt;, &lt;i&gt;2&lt;/i&gt;(12). http://doi.org/10.4236/jcc.2014.212001&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2014a]&lt;/strong&gt; &lt;span id=&quot;Kra2014a&quot;&gt;Kratzke, N. (2014). Lightweight Virtualization Cluster - Howto overcome Cloud Vendor Lock-in. &lt;i&gt;Journal Of Computer and Communication (JCC)&lt;/i&gt;, &lt;i&gt;2&lt;/i&gt;(12). doi:10.4236/jcc.2014.212001&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/265416477'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/265416477&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kra2014b]&lt;/strong&gt; &lt;span id=&quot;Kra2014b&quot;&gt;Kratzke, N. (2014). A Lightweight Virtualization Cluster Reference Architecture Derived from Open Source PaaS Platforms. &lt;i&gt;Open Journal of Mobile Computing and Cloud Computing (MCCC)&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(2), 17–30.&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2014b]&lt;/strong&gt; &lt;span id=&quot;Kra2014b&quot;&gt;Kratzke, N. (2014). A Lightweight Virtualization Cluster Reference Architecture Derived from Open Source PaaS Platforms. &lt;i&gt;Open Journal Of Mobile Computing and Cloud Computing (MCCC)&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(2), 17–30.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/265416428'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href=&#39;https://www.researchgate.net/publication/265416428&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;

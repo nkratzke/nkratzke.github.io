@@ -71,11 +71,11 @@ img.nogrey {
 }
 
 article header .imgteaser {
-	height: 250px;
+	height: 350px;
 }
 
 .imgteaser {
-	height: 100px;
+	height: 150px;
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);

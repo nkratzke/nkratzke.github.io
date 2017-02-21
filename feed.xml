@@ -7,6 +7,64 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Eine spielerische Einführung in das Computational Thinking</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/children.jpg&quot;&gt;
+        
+        &lt;p&gt;Kinder kommen - wenn überhaupt -   frühestens im Grundschulalter mit
+Programmierung in Kontakt. Ansätze das Computational Thinking systematisch zu vermitteln
+liegen häufig noch in den Kinderschuhen. Webapplikationen  wie z.B.    &lt;a href=&quot;https://lightbot.com/flash.html&quot;&gt;lightbot&lt;/a&gt; 
+ermöglichen zwar einen spielerischen Zugang,   indem ein
+Roboter durch eine Sequenz von Anweisungen Schritt  für    Schritt 
+an ein  Ziel    geführt werden kann. Allerdings    wird    nur begrenzt    darauf  eingegangen,&lt;br&gt;
+welche weitergehenden Konzepte Programmiersprachen  haben.  &lt;/p&gt;
+
+&lt;p&gt;Mit dieser Bachelorarbeit soll eine Webapplikationen in Anlehnung an das
+Eingangs erwähnte Lightbot-Spiel entwickelt werden. Diese Webapplikation soll dabei weniger auf eine
+3D Darstellung wert legen, sondern ergänzend
+zur sequentiellen Ausführung von Einzelanweisungen zusätzliche 
+Konzepte imperativer Programmiersprachen spielerisch nutzen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Variablen zur Speicherung von Zuständen&lt;/li&gt;
+&lt;li&gt;Schleifen mit Bedingungen&lt;/li&gt;
+&lt;li&gt;Funktionen mit Parametern und Rückgabewerten&lt;/li&gt;
+&lt;li&gt;ggf. Collection-artige Datenstrukturen wie Listen, Queues, Stacks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kindern soll mit    Hilfe   einer graphischen   Darstellung und Erklärung
+der Konzepte    geholfen    werden  diese zu verstehen und zur Lösung von
+Problemen spielerisch anzuwenden.   Die genannten Konzepten sollen hierzu mittels&lt;br&gt;
+verschiedener   Level und steigendem Schwierigkeitsgrad schrittweise und 
+spielerisch eingeführt werden.&lt;/p&gt;
+
+&lt;p&gt;Die Applikation soll als Stand-alone Webapplikation (Single Page App)
+für Desktop- und Tablet-Browser mittels eines etablierten Responsive Web Frameworks
+konzipiert werden, die ohne eine zentrale Server-Komponente auskommt und daher
+flexibel in Schulen auf Laptops/Desktops oder Tablets eingesetzt werden kann. 
+Die Wahl der Implementierungssprache obliegt dem Autor der Arbeit ist jedoch zu begründen. 
+Die Übertragbarkeit des Spielkonzepts auf Smartphones ist grundsätzlich konzeptionell zu berücksichtigen.&lt;/p&gt;
+
+&lt;h3&gt;Aufgaben, Dokumentation und Outcomes&lt;/h3&gt;
+
+&lt;p&gt;Im einzelnen sind die folgenden Aufgaben zu bearbeiten:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Analysieren&lt;/strong&gt; der oben genannten Anforderungen und Randbedingungen sowie Formulierung verfeinerter funktionaler und nicht-funktionaler &lt;strong&gt;Requirements&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Entwicklung und Abstimmung mit dem Aufgabensteller eines Lösungskonzepts (Architektur)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implementieren&lt;/strong&gt; des Spiels.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test und Nachweis&lt;/strong&gt; des Spiels inkl. Evaluierung des Spielkonzepts für die Zielgruppe.&lt;/li&gt;
+&lt;li&gt;Begleitende &lt;strong&gt;Dokumentation&lt;/strong&gt; der oben angegebenen Schritte. Zur Dokumentation der Ergebnisse kann folgendes &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;Template&lt;/a&gt; genutzt werden.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0100</pubDate>
+      <link>http://www.nkode.io//thesis/2017/02/21/thesis-learn-to-prog.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//thesis/2017/02/21/thesis-learn-to-prog.html</guid>
+    </item>
+    
+    <item>
       <title>Autoscaling für elastische Container Plattformen</title>
       <description>
         
@@ -2982,20 +3040,20 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[KQ2017a]&lt;/strong&gt; &lt;span id=&quot;KQ2017a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. &lt;i&gt;Journal of Systems and Software&lt;/i&gt;, &lt;i&gt;126&lt;/i&gt;(April), 1–16. http://doi.org/10.1016/j.jss.2017.01.001&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Kra2017a]&lt;/strong&gt; &lt;span id=&quot;Kra2017a&quot;&gt;Kratzke, N. (2017). Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms. In &lt;i&gt;Proceedings of the 7th Int. Conf. on Cloud Computing and Services Science (CLOSER 2017)&lt;/i&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/313860386'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2017a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2017a]&lt;/strong&gt; &lt;span id=&quot;KQ2017a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. &lt;i&gt;Journal of Systems and Software&lt;/i&gt;, &lt;i&gt;126&lt;/i&gt;(April), 1–16. http://doi.org/10.1016/j.jss.2017.01.001&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href='https://www.researchgate.net/publication/312045183'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2017a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal on Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4), 389–400.&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/309673663'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQP+2016]&lt;/strong&gt; &lt;span id=&quot;KQP+2016&quot;&gt;Kratzke, N., Quint, P.-C., Palme, D., &amp;amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp;amp; B. Koch (Eds.), &lt;i&gt;European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges&lt;/i&gt;. SCITEPRESS.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -3020,13 +3078,6 @@ enterprises.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2016a]&lt;/strong&gt; &lt;span id=&quot;KQ2016a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of the 6th International Conference on Cloud Computing and Services Science (CLOSER 2016)&lt;/i&gt; (pp. 223–231). http://doi.org/10.5220/0005732202230231&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/292657431'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[QK2016a]&lt;/strong&gt; &lt;span id=&quot;QK2016a&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Overcome Vendor Lock-In by Integrating Already Available Container Technologies - Towards Transferability in Cloud Computing for SMEs. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2016 (7th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt;.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -3034,6 +3085,20 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2016a]&lt;/strong&gt; &lt;span id=&quot;KQ2016a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of the 6th International Conference on Cloud Computing and Services Science (CLOSER 2016)&lt;/i&gt; (pp. 223–231). http://doi.org/10.5220/0005732202230231&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/292657431'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal on Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4), 389–400.&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/309673663'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;

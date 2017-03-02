@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    text-align: center;
+    vertical-align: center;
+    font-size: 50px;
+}
+
+table {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.start {
+    background-color: grey;
+}
+
+td.end {
+    background-color: lightskyblue;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+#output {
+    margin-top: 25px;
+    font-size: 50px;
+    text-align: center;
+    color: lightgrey;
+    font-weight: bold;
+}

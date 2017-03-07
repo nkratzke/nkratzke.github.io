@@ -401,7 +401,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Platform Networking&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@alex__richards/getting-started-with-traefik-43fb7302b224#.ppv4cgcmt&quot;&gt;Getting started with Traefik&lt;/a&gt; by &lt;strong&gt;Alex Richards&lt;/strong&gt; (added 7. Mar 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.weave.works/weave-net-kubernetes-integration/&quot;&gt;Run Weave Net with Kubernetes in Just One Line&lt;/a&gt; by &lt;strong&gt;Bryan Boreham&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -2834,7 +2835,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;h3&gt;Docker &lt;small&gt;network&lt;/small&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.weave.works/&quot;&gt;Weave - the Docker network&lt;/a&gt; by &lt;strong&gt;weaveworks&lt;/strong&gt; (added 1. Jun 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.arungupta.me/docker-bridge-overlay-network-compose-variable-substitution&quot;&gt;Docker Bridge and Overlay Network with Compose Variable Substitution&lt;/a&gt; by &lt;strong&gt;Arun Gupta&lt;/strong&gt; (added 16. Dec 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.projectcalico.org/docker-libnetwork-is-almost-here-and-calico-is-ready&quot;&gt;Docker libnetwork is almost here, and Calico is ready!&lt;/a&gt; by &lt;strong&gt;Tom Denham&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;

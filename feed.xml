@@ -415,6 +415,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Securing workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kubernetes/ingress/tree/master/examples/external-auth/nginx&quot;&gt;Kubernetes Ingres authentication&lt;/a&gt; by &lt;strong&gt;Manuel Alejandro de Brito Fontes&lt;/strong&gt; (added 14. Mar 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.trireme.io&quot;&gt;Trireme&lt;/a&gt; by &lt;strong&gt;Aporeto&lt;/strong&gt; (added 8. Nov 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.sdxcentral.com/articles/news/aporeto-thinks-container-security-simple/2016/11/&quot;&gt;Aporeto Thinks Container Security Can Really Be This Simple&lt;/a&gt; by &lt;strong&gt;Craig Matsumoto&lt;/strong&gt; (added 8. Nov 2016) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/secrets/&quot;&gt;Secrets&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;

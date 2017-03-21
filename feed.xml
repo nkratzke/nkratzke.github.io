@@ -398,9 +398,10 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/user-guide/ui/&quot;&gt;Kubernetes Dashboard&lt;/a&gt; by &lt;em&gt;Kubernetes.io&lt;/em&gt;_ (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Platform Networking&lt;/h3&gt;
+&lt;h3&gt;Platform Networking and Service Communication&lt;/h3&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.buoyant.io/2016/10/04/a-service-mesh-for-kubernetes-part-i-top-line-service-metrics/&quot;&gt;Linkerd: A Service Mesh for Kubernetes&lt;/a&gt; by &lt;strong&gt;Alex Leong&lt;/strong&gt;, &lt;strong&gt;Sarah Brown&lt;/strong&gt;, &lt;strong&gt;Risha Mars&lt;/strong&gt;, &lt;strong&gt;Kevin Lingerfield&lt;/strong&gt;, and more (added 21. Mar 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@alex__richards/getting-started-with-traefik-43fb7302b224#.ppv4cgcmt&quot;&gt;Getting started with Traefik&lt;/a&gt; by &lt;strong&gt;Alex Richards&lt;/strong&gt; (added 7. Mar 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://jvns.ca/blog/2016/12/22/container-networking/&quot;&gt;A container networking overview&lt;/a&gt; by &lt;strong&gt;Julia Evans&lt;/strong&gt; (added 10. Jan 2017) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.weave.works/weave-net-kubernetes-integration/&quot;&gt;Run Weave Net with Kubernetes in Just One Line&lt;/a&gt; by &lt;strong&gt;Bryan Boreham&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
@@ -2698,7 +2699,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;h3&gt;What is Docker?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@nagarwal/understanding-the-docker-internals-7ccb052ce9fe?mkt_tok=eyJpIjoiWVdNMk1qaG1NekZoWWpOaSIsInQiOiJVd0tsWEJzbXpIdEdMSUZTRGhhUUFSMG85RDRyVm80Z2p1ZXp1YklMa2pWczlsUHNVNUtGNW9DUE5OSkptS1UxaVRVZ3hEY3BtU1hoSWR1aTM5cW5SVm4wS205M1ZcL3gxQmFaNkFDdEFBSmZrWU1jWkxOanRGSnJSOEQyb2Fib3IifQ%3D%3D#.atopwz2fj&quot;&gt;Understanding the Docker Internals&lt;/a&gt; by &lt;strong&gt;Nitin Agarwal&lt;/strong&gt; (added 20. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@nagarwal/understanding-the-docker-internals-7ccb052ce9fe?mkt_tok=eyJpIjoiWVdNMk1qaG1NekZoWWpOaSIsInQiOiJVd0tsWEJzbXpIdEdMSUZTRGhhUUFSMG85RDRyVm80Z2p1ZXp1YklMa2pWczlsUHNVNUtGNW9DUE5OSkptS1UxaVRVZ3hEY3BtU1hoSWR1aTM5cW5SVm4wS205M1ZcL3gxQmFaNkFDdEFBSmZrWU1jWkxOanRGSnJSOEQyb2Fib3IifQ%3D%3D#.atopwz2fj&quot;&gt;Understanding the Docker Internals&lt;/a&gt; by &lt;strong&gt;Nitin Agarwal&lt;/strong&gt; (added 20. Jan 2017) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.datadoghq.com/docker-adoption/&quot;&gt;Eight Surprising Facts about Real Docker Adoption&lt;/a&gt; by &lt;strong&gt;datadoghq.com&lt;/strong&gt; (added 2. Nov 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://valdhaus.co/writings/docker-misconceptions&quot;&gt;Docker Misconceptions&lt;/a&gt; by &lt;strong&gt;Matt Jaynes&lt;/strong&gt; (added 14. Aug 2015) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://venturebeat.com/2015/06/30/10-myths-about-enterprise-adoption-of-docker&quot;&gt;10 myths about enterprise adoption of Docker&lt;/a&gt; by &lt;strong&gt;Bob Quillin&lt;/strong&gt; (added 9. Jul 2015)&lt;br&gt;&lt;/li&gt;

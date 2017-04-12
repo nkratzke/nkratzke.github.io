@@ -7,6 +7,26 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Cloud-native Apps</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/com-interview.jpg&quot;&gt;
+        
+        &lt;h2&gt;80% der Cloud-Dienste sind nicht standardisiert&lt;/h2&gt;
+
+&lt;p&gt;Dank vieler Vorzüge erlebt Cloud-native einen Hype. Das Konzept hat aber auch Nachteile. Wer zur Entwicklung Cloud-nativer Applikationen Dienste eines Cloud-Anbieters einsetzt, spart viel Arbeit, begibt sich aber auch in Abhängigkeiten. Wie lässt sich das Risiko eines Vendor Lock-Ins minimieren?&lt;/p&gt;
+
+&lt;p&gt;Mehr dazu in folgendem Interview (auch als &lt;a href=&quot;/assets/self-archive/com-interview.pdf&quot;&gt;PDF&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='/img/posts/com-interview.jpg' width=75%&gt;&lt;/p&gt;
+
+      </description>
+      <pubDate>Wed, 12 Apr 2017 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2017/04/12/cloud-com-interview.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2017/04/12/cloud-com-interview.html</guid>
+    </item>
+    
+    <item>
       <title>Eine spielerische Einführung in das Computational Thinking</title>
       <description>
         
@@ -316,8 +336,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Securing workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/on-docker/secrets-and-lie-abilities-the-state-of-modern-secret-management-2017-c82ec9136a3d?mkt_tok=eyJpIjoiTVdKaVl6Um1ORE0wT1ROaSIsInQiOiJLcmhCVlZDYjRHZGdYcTdtbmhcL2VYWHl3Sit3XC9KOVwvOHNWZ0p1bU51ZnBiVFU5SDNYMndnb2pWZW44UStwSFwvSVZSTWZsWjFucHJKVnhNaUNFa1wveTA1TGNFaFFvdVNsa094elEyQ0RIOCs0Z0JvVnluVHRxT3llK1Y1ZFE2ZjF6In0%3D#.jz1gd8oww&quot;&gt;Secrets and LIE-abilities: The State of Modern Secret Management (2017)&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 10. Feb 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://windsock.io/secrets-come-to-docker&quot;&gt;Secrets Come to Docker&lt;/a&gt; by &lt;strong&gt;Nigel Brown&lt;/strong&gt; (added 10. Feb 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/on-docker/secrets-and-lie-abilities-the-state-of-modern-secret-management-2017-c82ec9136a3d?mkt_tok=eyJpIjoiTVdKaVl6Um1ORE0wT1ROaSIsInQiOiJLcmhCVlZDYjRHZGdYcTdtbmhcL2VYWHl3Sit3XC9KOVwvOHNWZ0p1bU51ZnBiVFU5SDNYMndnb2pWZW44UStwSFwvSVZSTWZsWjFucHJKVnhNaUNFa1wveTA1TGNFaFFvdVNsa094elEyQ0RIOCs0Z0JvVnluVHRxT3llK1Y1ZFE2ZjF6In0%3D#.jz1gd8oww&quot;&gt;Secrets and LIE-abilities: The State of Modern Secret Management (2017)&lt;/a&gt; by &lt;strong&gt;Jeff Nickoloff&lt;/strong&gt; (added 10. Feb 2017) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://windsock.io/secrets-come-to-docker&quot;&gt;Secrets Come to Docker&lt;/a&gt; by &lt;strong&gt;Nigel Brown&lt;/strong&gt; (added 10. Feb 2017) &lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -378,7 +398,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;10 Most Common Reasons Kubernetes Deployments Fail &lt;a href=&quot;https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-part-1/&quot;&gt;Part I&lt;/a&gt; and &lt;a href=&quot;https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Ross Kukulinski&lt;/strong&gt; (added 28. Feb 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.kubernetes.io/2017/01/fission-serverless-functions-as-service-for-kubernetes.html&quot;&gt;Fission: Serverless Functions as a Service for Kubernetes&lt;/a&gt; by &lt;strong&gt;Soam Vasani&lt;/strong&gt; (added 30. Jan 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.kubernetes.io/2017/01/fission-serverless-functions-as-service-for-kubernetes.html&quot;&gt;Fission: Serverless Functions as a Service for Kubernetes&lt;/a&gt; by &lt;strong&gt;Soam Vasani&lt;/strong&gt; (added 30. Jan 2017) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/hellonode/&quot;&gt;Hello World&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
 

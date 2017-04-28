@@ -7,6 +7,57 @@
     <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/Porto-Closer-2017.jpg&quot;&gt;
+        
+        &lt;p&gt;How to transfer elastic container platforms like Docker Swarm, Kubernetes across different cloud service providers like AWS, GCE, Azure, OpenStack &lt;strong&gt;at runtime&lt;/strong&gt;? &lt;/p&gt;
+
+&lt;p&gt;I presented a proof-of-concept solution (accepted as an full paper) to do this on the &lt;a href=&quot;http://closer.scitevents.org/?y=2017&quot;&gt;7th International Conference on Cloud Computing and Services Science&lt;/a&gt; (CLOSER 2017) in Porto, Portugal.&lt;/p&gt;
+
+&lt;p&gt;Currently the proof-of-concept system supports the following infrastructures and elastic platforms.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Infrastructures: AWS (using Ruby aws-sdk), GCE (using CLI interface), Azure (using fog.io), OpenStack (using fog.io)&lt;/li&gt;
+&lt;li&gt;Platforms: Kubernetes (1.6 and above), Docker Swarm (1.12 and above)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, due to its extendable design arbitrary cloud infrastructures (IaaS) and elastic container platforms can be supported by providing addtional drivers.&lt;/p&gt;
+
+&lt;p&gt;A full text version of the paper is provided via &lt;span class=&quot;researchgate&quot;&gt;&lt;a href=&quot;https://www.researchgate.net/publication/313860386&quot;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;&lt;/span&gt;.
+Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/Kra2017a.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The conference presentation slides are embedded in this post. However, they can be accessed directly via &lt;a href=&quot;slideshare&quot;&gt;SlideShare&lt;/a&gt; as well.&lt;/p&gt;
+
+&lt;h3&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Elastic container platforms (like Kubernetes, Docker Swarm, Apache Mesos) fit very well with existing cloud-native application architecture approaches. So it is more than astonishing, that these already existing and open source available elastic platforms are not considered more consequently in multi-cloud research. Elastic container platforms provide inherent multi-cloud support that can be easily accessed. We present a solution proposal of a control process which is able to scale (and migrate as a side effect) elastic container platforms across different public and private cloud-service providers. This control loop can be used in an execution phase of self-adaptive auto-scaling MAPE loops (monitoring, analysis, planning, execution). Additionally, we present several lessons learned from our prototype implementation which might be of general interest for researchers and practitioners. For instance, to describe only the intended state of an elastic platform and let a single control process take care to reach this intended state is far less complex than to define plenty of specific and necessary multi-cloud aware workflows to deploy, migrate, terminate, scale up and scale down elastic platforms or applications.&lt;/p&gt;
+
+&lt;h3&gt;Slides&lt;/h3&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe src=&quot;http://www.slideshare.net/slideshow/embed_code/key/HLaB6fZ30TIuwt&quot;
+        width=&quot;100%&quot;
+        height=&quot;500px&quot;
+        frameborder=&quot;0&quot;
+        marginwidth=&quot;0&quot;
+        marginheight=&quot;0&quot;
+        scrolling=&quot;no&quot;
+        style=&quot;border: 1px solid white; max-width: 100%; background-color: white;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3&gt;Proof-of-Concept Implementation&lt;/h3&gt;
+
+&lt;p&gt;The proof-of-concept implementation can be found in the following &lt;a href=&quot;https://bitbucket.org/nanekratzke/plain&quot;&gt;bitbucket&lt;/a&gt; repository. You will find the last progress in the &lt;strong&gt;working&lt;/strong&gt; branch.&lt;/p&gt;
+
+      </description>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0200</pubDate>
+      <link>http://www.nkode.io//2017/04/28/closer2017.html</link>
+      <guid isPermaLink="true">http://www.nkode.io//2017/04/28/closer2017.html</guid>
+    </item>
+    
+    <item>
       <title>Cloud-native Apps</title>
       <description>
         
@@ -397,7 +448,7 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 &lt;h3&gt;Deploying workloads/services&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;10 Most Common Reasons Kubernetes Deployments Fail &lt;a href=&quot;https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-part-1/&quot;&gt;Part I&lt;/a&gt; and &lt;a href=&quot;https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Ross Kukulinski&lt;/strong&gt; (added 28. Feb 2017) &lt;span class='label label-success'&gt;New&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;10 Most Common Reasons Kubernetes Deployments Fail &lt;a href=&quot;https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-part-1/&quot;&gt;Part I&lt;/a&gt; and &lt;a href=&quot;https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-part-2/&quot;&gt;Part II&lt;/a&gt; by &lt;strong&gt;Ross Kukulinski&lt;/strong&gt; (added 28. Feb 2017) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.kubernetes.io/2017/01/fission-serverless-functions-as-service-for-kubernetes.html&quot;&gt;Fission: Serverless Functions as a Service for Kubernetes&lt;/a&gt; by &lt;strong&gt;Soam Vasani&lt;/strong&gt; (added 30. Jan 2017) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://kubernetes.io/docs/hellonode/&quot;&gt;Hello World&lt;/a&gt; by &lt;strong&gt;Kubernetes.io&lt;/strong&gt; (added 18. Oct 2016) &lt;/li&gt;
 &lt;/ul&gt;
@@ -3064,7 +3115,7 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Kra2017a]&lt;/strong&gt; &lt;span id=&quot;Kra2017a&quot;&gt;Kratzke, N. (2017). Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms. In &lt;i&gt;Proceedings of the 7th Int. Conf. on Cloud Computing and Services Science (CLOSER 2017)&lt;/i&gt;.&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Kra2017a]&lt;/strong&gt; &lt;span id=&quot;Kra2017a&quot;&gt;Kratzke, N. (2017). Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms. In &lt;i&gt;Proceedings of the 7th Int. Conf. on Cloud Computing and Services Science (CLOSER 2017)&lt;/i&gt; (pp. 29–42).&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href='https://www.researchgate.net/publication/313860386'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;

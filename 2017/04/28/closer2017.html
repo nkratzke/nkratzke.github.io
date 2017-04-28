@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
+    <meta property="twitter:account_id" content="4503599630726265" />
+    <title>Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/customize.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+
+    
+
+    <link href='/feed.xml' rel='alternate' type='application/atom+xml'>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-380838-9']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+<div class="navbar navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    	<span class="sr-only">Toggle navigation</span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+    	<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><div class="brand-icon"></div>nkode.io</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+  	    <li id="about"><a href="/about.html">About me</a></li>
+        <li id="blog"><a href="/blog.html">Blog</a></li>
+        <li id="research"><a href="/research.html">Research</a></li>
+        <li id="lectures"><a href="/lectures.html">Lectures</a></li>
+        <li id="thesis"><a href="/thesis.html">Thesis</a></li>
+        <li id="archive"><a href="/log.html">Log</a></li>
+  		  <li id="publications"><a href="/publications.html">Publications</a></li>
+    	</ul>
+    </div>
+  </div>
+</div>
+
+
+    
+    <div class="content">
+      <div class="container">
+        <article class="post ">
+	<header>
+		
+		<div class='imgteaser' style='background:transparent url("/img/posts/Porto-Closer-2017.jpg") no-repeat center center;background-size:cover'>
+		</div>
+		
+		<div class="headline">
+			
+			<small>(Image: own picture)</small>
+			
+			<h2>Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms</h2>
+			<p class="meta">
+			
+			<strong>28 Apr 2017</strong>
+			
+			</p>
+		</div>
+	</header>
+	<section>
+		<div class="rightbar">
+			<h3>Tags </h3>
+			<div class="tags hidden-print">
+	<ul>
+	
+		<li><a href="/tag/blog"><span class="tag">#blog</span></a></li>
+	
+		<li><a href="/tag/paper"><span class="tag">#paper</span></a></li>
+	
+		<li><a href="/tag/cloud"><span class="tag">#cloud</span></a></li>
+	
+		<li><a href="/tag/research"><span class="tag">#research</span></a></li>
+	
+		<li><a href="/tag/cloudtransit"><span class="tag">#cloudtransit</span></a></li>
+	
+		<li><a href="/tag/container"><span class="tag">#container</span></a></li>
+	
+		<li><a href="/tag/ecp"><span class="tag">#ecp</span></a></li>
+	
+		<li><a href="/tag/kubernetes"><span class="tag">#kubernetes</span></a></li>
+	
+		<li><a href="/tag/swarm"><span class="tag">#swarm</span></a></li>
+	
+		<li><a href="/tag/docker"><span class="tag">#docker</span></a></li>
+	
+	</ul>
+</div>
+
+			<h3>Share </h3>
+			<div class="share hidden-print">
+	<ul>
+		<li>
+			<a href="http://twitter.com/home?status=Smuggling+Multi-Cloud+Support+into+Cloud-native+Applications+using+Elastic+Container+Platforms http://www.nkode.io/2017/04/28/closer2017.html" target="_blank">
+				<img src="/img/social/twitter-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="https://plus.google.com/share?url=http://www.nkode.io/2017/04/28/closer2017.html" target="_blank">
+				<img src="/img/social/googleplus-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.nkode.io/2017/04/28/closer2017.html&title=Smuggling+Multi-Cloud+Support+into+Cloud-native+Applications+using+Elastic+Container+Platforms&summary=&source=" target="_blank">
+				<img src="/img/social/linkedin-128-black.png">
+			</a>
+		</li>
+		<li>
+			<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Fwww.nkode.io%2F2017%2F04%2F28%2Fcloser2017.html&title=Smuggling+Multi-Cloud+Support+into+Cloud-native+Applications+using+Elastic+Container+Platforms" target="_blank">
+				<img src="/img/social/xing-128-black.png">
+			</a>
+		</li>
+	</ul>
+</div>
+
+		</div>
+		<p>How to transfer elastic container platforms like Docker Swarm, Kubernetes across different cloud service providers like AWS, GCE, Azure, OpenStack <strong>at runtime</strong>? </p>
+
+<p>I presented a proof-of-concept solution (accepted as an full paper) to do this on the <a href="http://closer.scitevents.org/?y=2017">7th International Conference on Cloud Computing and Services Science</a> (CLOSER 2017) in Porto, Portugal.</p>
+
+<p>Currently the proof-of-concept system supports the following infrastructures and elastic platforms.</p>
+
+<ul>
+<li>Infrastructures: AWS (using Ruby aws-sdk), GCE (using CLI interface), Azure (using fog.io), OpenStack (using fog.io)</li>
+<li>Platforms: Kubernetes (1.6 and above), Docker Swarm (1.12 and above)</li>
+</ul>
+
+<p>However, due to its extendable design arbitrary cloud infrastructures (IaaS) and elastic container platforms can be supported by providing addtional drivers.</p>
+
+<p>A full text version of the paper is provided via <span class="researchgate"><a href="https://www.researchgate.net/publication/313860386">Research<em>Gate</em></a></span>.
+Informations how to cite the paper can be found <a href="/bibliography/Kra2017a.html">here</a>.</p>
+
+<p>The conference presentation slides are embedded in this post. However, they can be accessed directly via <a href="slideshare">SlideShare</a> as well.</p>
+
+<h3>Abstract</h3>
+
+<p>Elastic container platforms (like Kubernetes, Docker Swarm, Apache Mesos) fit very well with existing cloud-native application architecture approaches. So it is more than astonishing, that these already existing and open source available elastic platforms are not considered more consequently in multi-cloud research. Elastic container platforms provide inherent multi-cloud support that can be easily accessed. We present a solution proposal of a control process which is able to scale (and migrate as a side effect) elastic container platforms across different public and private cloud-service providers. This control loop can be used in an execution phase of self-adaptive auto-scaling MAPE loops (monitoring, analysis, planning, execution). Additionally, we present several lessons learned from our prototype implementation which might be of general interest for researchers and practitioners. For instance, to describe only the intended state of an elastic platform and let a single control process take care to reach this intended state is far less complex than to define plenty of specific and necessary multi-cloud aware workflows to deploy, migrate, terminate, scale up and scale down elastic platforms or applications.</p>
+
+<h3>Slides</h3>
+
+<p><center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/key/HLaB6fZ30TIuwt"
+        width="100%"
+        height="500px"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        scrolling="no"
+        style="border: 1px solid white; max-width: 100%; background-color: white;"></iframe>
+</center></p>
+
+<h3>Proof-of-Concept Implementation</h3>
+
+<p>The proof-of-concept implementation can be found in the following <a href="https://bitbucket.org/nanekratzke/plain">bitbucket</a> repository. You will find the last progress in the <strong>working</strong> branch.</p>
+
+		
+	</section>
+	<footer>
+	</footer>
+	
+</article>
+
+      </div>
+    </div>
+
+    <div class="end hidden-print">
+  <div class="container">
+     <div class="row">
+    	<div class="col-sm-5 block">
+	        <center>
+		    	&copy; Nane Kratzke (All rights reserved)
+		   		<div class="socialsites">
+  <center>
+   <a href="https://twitter.com/nanekratzke" title="Twitter"><img src="/img/social/twitter-128.png" alt="Twitter"></a>
+   <a href="http://www.slideshare.com/i21aneka" title="Slideshare"><img src="/img/social/slideshare-128.png" alt="Slideshare"></a>
+   <a href="https://github.com/nkratzke" title="Github"><img src="/img/social/github-128.png" alt="Github"></a>
+   <a href="https://www.researchgate.net/profile/Nane_Kratzke" title="Researchgate"><img src="/img/social/researchgate-128.png" alt="Researchgate"></a>
+   <a href="https://de.linkedin.com/in/nanekratzke" title="LinkedIN"><img src="/img/social/linkedin-128.png" alt="LinkedIN"></a>
+   <a href="https://www.xing.com/profile/Nane_Kratzke" title="Xing"><img src="/img/social/xing-128.png" alt="Xing"></a>
+   <a href="https://plus.google.com/+NaneKratzke" title="Google Plus"><img src="/img/social/googleplus-128.png" alt="Google Plus"></a>
+   <a href="/feed.xml" title="RSS"><img src="/img/social/rss-128.png" alt="RSS"></a>
+ </center>
+</div>
+
+    		</center>
+    	</div>
+        <div class="col-sm-2"></div>
+    	<div class="col-sm-5 block hidden-xs">
+	    	<center>
+		      Links to my official sites
+		      <div class="officialsites">
+   <a href="https://www.fh-luebeck.de/hochschule/hochschulorganisation/personalverzeichnis/person/nane-kratzke/"><img src="/img/official/fhl-logo.png"></a>
+   <a href="https://cosa.fh-luebeck.de/en/contact/people/n-kratzke"><img src="/img/official/cosa-logo.png"></a>
+</div>
+    		</center>
+    	</div>
+    </div>
+  </div>
+</div>
+
+<div class="footer hidden-print">
+	<div class="container">
+		<center>
+			<a href="/about.html">About</a> &bullet;
+			<a href="/disclosure.html">Contact</a> &bullet;
+			<a href="/disclosure.html">Legal Notice (Impressum)</a>
+		</center>
+	</div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

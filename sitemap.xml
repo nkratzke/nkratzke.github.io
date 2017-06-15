@@ -1,1049 +1,1331 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://www.nkode.io/2017/04/12/cloud-com-interview.html</loc>
-    <lastmod>2017-04-12T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2017/02/21/thesis-learn-to-prog.html</loc>
-    <lastmod>2017-02-21T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2017/01/20/thesis-auto-scaling.html</loc>
-    <lastmod>2017-01-20T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2016/12/01/thesis-eclipse-presentation.html</loc>
-    <lastmod>2016-12-01T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2016/11/01/thesis-multi-sensor-tracker.html</loc>
-    <lastmod>2016-11-01T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2016/10/18/valuable-container-platform-links-swarm.html</loc>
-    <lastmod>2016-10-18T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2016/10/18/valuable-container-platform-links-kubernetes.html</loc>
-    <lastmod>2016-10-18T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2016/10/10/lecture-programming-i.html</loc>
-    <lastmod>2016-10-10T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2016/10/10/lecture-fundamentals-of-programming.html</loc>
-    <lastmod>2016-10-10T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2016/10/04/thesis-storage-cluster-deployer.html</loc>
-    <lastmod>2016-10-04T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2016/09/21/burning-cloud.html</loc>
-    <lastmod>2016-09-21T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2016/09/04/edoc2016.html</loc>
-    <lastmod>2016-09-04T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2016/07/11/And-the-winner-is-namcap.html</loc>
-    <lastmod>2016-07-11T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2016/07/01/open4ssh.html</loc>
-    <lastmod>2016-07-01T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2016/04/28/container-and-container-cluster.html</loc>
-    <lastmod>2016-04-28T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2016/04/11/lecture-webtech.html</loc>
-    <lastmod>2016-04-11T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2016/04/11/lecture-programming-ii.html</loc>
-    <lastmod>2016-04-11T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2016/04/11/lecture-advanced-programming.html</loc>
-    <lastmod>2016-04-11T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2016/04/06/closer2016.html</loc>
-    <lastmod>2016-04-06T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2016/03/15/thesis-analyse-und-optimierung-von-automatisierten-tests.html</loc>
-    <lastmod>2016-03-15T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2016/03/01/thesis-automatisierte-bewertung-von-prog-praktika.html</loc>
-    <lastmod>2016-03-01T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2015/11/24/how-to-operate-container-clusters-more-efficiently.html</loc>
-    <lastmod>2015-11-24T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2015/09/16/lecture-programming-i.html</loc>
-    <lastmod>2015-09-16T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2015/09/16/lecture-fundamentals-of-programming.html</loc>
-    <lastmod>2015-09-16T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2015/07/15/And-the-winner-is-tetris.html</loc>
-    <lastmod>2015-07-15T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2015/06/15/paper-automatic-benchmark-iaas.html</loc>
-    <lastmod>2015-06-15T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2015/04/13/sperrvermerk.html</loc>
-    <lastmod>2015-04-13T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2015/03/16/cloudcomputing2015.html</loc>
-    <lastmod>2015-03-16T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2015/03/01/lecture-webtech.html</loc>
-    <lastmod>2015-03-01T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2015/03/01/lecture-programming-ii.html</loc>
-    <lastmod>2015-03-01T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2015/03/01/lecture-advanced-programming.html</loc>
-    <lastmod>2015-03-01T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2015/01/22/how-to-write-a-paper.html</loc>
-    <lastmod>2015-01-22T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/11/16/pingpong.html</loc>
-    <lastmod>2014-11-16T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2014/10/21/thesis-low-cost-touch-projector.html</loc>
-    <lastmod>2014-10-21T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2014/10/13/thesis-bluetooth-low-energy.html</loc>
-    <lastmod>2014-10-13T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/10/08/paper-lvc.html</loc>
-    <lastmod>2014-10-08T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/09/12/easymysql.html</loc>
-    <lastmod>2014-09-12T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2014/09/01/lecture-programming-i.html</loc>
-    <lastmod>2014-09-01T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2014/09/01/lecture-fundamentals-of-programming.html</loc>
-    <lastmod>2014-09-01T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2014/09/01/lecture-db-web-programming.html</loc>
-    <lastmod>2014-09-01T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/08/24/valuable-docker-links.html</loc>
-    <lastmod>2014-08-24T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2014/07/13/lecture-programming-ii.html</loc>
-    <lastmod>2014-07-13T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/research/project/2014/06/25/project-cloud-transit.html</loc>
-    <lastmod>2014-06-25T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/06/25/job-posting-cloud-transit.html</loc>
-    <lastmod>2014-06-25T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2014/05/19/thesis-action-item-ontology.html</loc>
-    <lastmod>2014-05-19T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2014/03/19/thesis-analyse-von-legacy-software.html</loc>
-    <lastmod>2014-03-19T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2014/03/06/thesis-mouse-daten.html</loc>
-    <lastmod>2014-03-06T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/03/05/dockerize-dart.html</loc>
-    <lastmod>2014-03-05T15:12:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2014/03/04/thesis-pumpscanner.html</loc>
-    <lastmod>2014-03-04T10:56:13+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2014/03/01/lecture-webtech.html</loc>
-    <lastmod>2014-03-01T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/02/28/dart-part-II.html</loc>
-    <lastmod>2014-02-28T15:12:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html</loc>
-    <lastmod>2014-02-25T16:39:48+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html</loc>
-    <lastmod>2014-02-21T20:37:25+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/02/18/parallels-dart.html</loc>
-    <lastmod>2014-02-18T16:39:48+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2014/02/17/thesis-bomberman.html</loc>
-    <lastmod>2014-02-17T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/2014/02/13/dart-part-I.html</loc>
-    <lastmod>2014-02-13T09:39:48+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2013/11/08/thesis-evaluation-cross-mobile-frameworks.html</loc>
-    <lastmod>2013-11-08T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis/2013/08/08/thesis-test-mobile-apps.html</loc>
-    <lastmod>2013-08-08T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lecture/2012/09/01/lecture-db-web-programming.html</loc>
-    <lastmod>2012-09-01T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/about.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/blog.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/disclosure.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/lectures.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/log.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/publications.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/research.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/thesis.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2017a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/KQ2017a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/KQ2016a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Finnern2016.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/QK2016b.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/QK2016a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/KH2016.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/KQ2016b.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/KQP+2016.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/KP2016.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2015a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/KQ2015a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/KQ2015.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2015b.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2014d.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2014a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2014b.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2012c.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2012a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2012d.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2012b.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/GKK2012.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2011a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2011c.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2011b.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/GSK2011.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/GSK2010.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/KK2009.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/LMKL2009.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2007.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2006.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2005a.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2005b.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/bibliography/Kra2005c.html</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/web/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/lecture/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/database/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/html/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/css/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/javascript/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/php/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/thesis/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/mobile/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/app/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/android/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/analysis/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/qa/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/cross/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/iOS/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/WindowsPhone/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/blog/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/dart/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/slideshare/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/programming/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/game/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/parallels/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/kinect/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/ux/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/start/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/cloud/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/industrial/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/deploy/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/docker/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/container/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/legacy/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/code/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/opensource/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/semantic/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/ontology/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/job/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/research/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/assistant/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/project/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/iaas/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/paas/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/cloudtransit/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/java/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/lightweight/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/virtualization/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/mysql/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/paper/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/bluetooth/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/touch/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/beamer/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/network/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/cluster/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/benchmark/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/weave/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/sdn/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/continuous-integration/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/test/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/continuous-delivery/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/microservice/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/rest/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/http/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/ssh/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/ruby/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/cloud-native/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/reference/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/model/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/migration/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/elastic/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/platform/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/storage/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/kubernetes/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/swarm/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/multi-sensor/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/data/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/fusion/</loc>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/tag/autoscaling/</loc>
-  </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2012/09/01/lecture-db-web-programming.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2013/08/08/thesis-test-mobile-apps.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2013/11/08/thesis-evaluation-cross-mobile-frameworks.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/02/13/dart-part-I.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2014/02/17/thesis-bomberman.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/02/18/parallels-dart.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/02/28/dart-part-II.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2014/03/01/lecture-webtech.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2014/03/04/thesis-pumpscanner.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/03/05/dockerize-dart.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2014/03/06/thesis-mouse-daten.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2014/03/19/thesis-analyse-von-legacy-software.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2014/05/19/thesis-action-item-ontology.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/06/25/job-posting-cloud-transit.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/research/project/2014/06/25/project-cloud-transit.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2014/07/13/lecture-programming-ii.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/08/24/valuable-docker-links.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2014/09/01/lecture-db-web-programming.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2014/09/01/lecture-fundamentals-of-programming.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2014/09/01/lecture-programming-i.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/09/12/easymysql.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/10/08/paper-lvc.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2014/10/13/thesis-bluetooth-low-energy.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2014/10/21/thesis-low-cost-touch-projector.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2014/11/16/pingpong.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2015/01/22/how-to-write-a-paper.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2015/03/01/lecture-advanced-programming.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2015/03/01/lecture-programming-ii.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2015/03/01/lecture-webtech.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2015/03/16/cloudcomputing2015.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2015/04/13/sperrvermerk.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2015/06/15/paper-automatic-benchmark-iaas.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2015/07/15/And-the-winner-is-tetris.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2015/09/16/lecture-fundamentals-of-programming.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2015/09/16/lecture-programming-i.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2015/11/24/how-to-operate-container-clusters-more-efficiently.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2016/03/01/thesis-automatisierte-bewertung-von-prog-praktika.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2016/03/15/thesis-analyse-und-optimierung-von-automatisierten-tests.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2016/04/06/closer2016.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2016/04/11/lecture-advanced-programming.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2016/04/11/lecture-programming-ii.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2016/04/11/lecture-webtech.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2016/04/28/container-and-container-cluster.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2016/07/01/open4ssh.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2016/07/11/And-the-winner-is-namcap.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2016/09/04/edoc2016.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2016/09/21/burning-cloud.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2016/10/04/thesis-storage-cluster-deployer.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2016/10/10/lecture-fundamentals-of-programming.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/lecture/2016/10/10/lecture-programming-i.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2016/10/18/valuable-container-platform-links-kubernetes.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2016/10/18/valuable-container-platform-links-swarm.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2016/11/01/thesis-multi-sensor-tracker.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2016/12/01/thesis-eclipse-presentation.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2017/01/20/thesis-auto-scaling.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/thesis/2017/02/21/thesis-learn-to-prog.html</loc>
-    </url>
-    <url>
-      <loc>http://www.nkode.io/2017/04/12/cloud-com-interview.html</loc>
-    </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/breakout/game.html</loc>
-    <lastmod>2015-11-19T16:58:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/breakout/packages/test/src/runner/browser/static/index.html</loc>
-    <lastmod>2015-11-19T16:58:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/caveescape/index.html</loc>
-    <lastmod>2015-11-19T16:58:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/caveescape/packages/test/src/runner/browser/static/index.html</loc>
-    <lastmod>2015-11-19T16:58:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/dicewars/index.html</loc>
-    <lastmod>2015-11-19T16:58:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/pacman/index.html</loc>
-    <lastmod>2015-11-19T16:58:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/rennspiel/index.html</loc>
-    <lastmod>2015-11-19T16:58:01+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/rennspiel/packages/test/src/runner/browser/static/index.html</loc>
-    <lastmod>2015-11-19T16:58:01+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/spaceinvaders/space.html</loc>
-    <lastmod>2015-11-19T16:58:01+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/spaceinvaders2/feindeIndex.html</loc>
-    <lastmod>2015-11-19T16:58:01+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/spaceinvaders2/game.html</loc>
-    <lastmod>2015-11-19T16:58:01+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/spaceinvaders2/index.html</loc>
-    <lastmod>2015-11-19T16:58:01+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/stackattack/index.html</loc>
-    <lastmod>2015-11-19T16:58:01+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/tetris/index.html</loc>
-    <lastmod>2015-11-19T16:58:01+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2015/webtech/games/unblockit/index.html</loc>
-    <lastmod>2015-11-19T16:58:01+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/01-breakout/web/Breakout.html</loc>
-    <lastmod>2016-06-25T19:10:07+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/01-breakout/web/index.html</loc>
-    <lastmod>2016-06-25T19:10:07+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/02-cubedash/web/index.html</loc>
-    <lastmod>2016-07-05T18:48:10+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/03-tankgame/web/index.html</loc>
-    <lastmod>2016-07-06T17:55:15+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/04-legendhref/web/index.html</loc>
-    <lastmod>2016-07-06T17:55:15+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/06-tilldeath/web/index.html</loc>
-    <lastmod>2016-06-25T19:10:07+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/07-kistenschieben/web/KistenschiebenView.html</loc>
-    <lastmod>2016-07-06T17:55:16+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/08-brickgame/web/index.html</loc>
-    <lastmod>2016-07-06T17:55:16+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/08-brickgame/web/packages/test/src/runner/browser/static/index.html</loc>
-    <lastmod>2016-07-06T17:55:17+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/Breakout.html</loc>
-    <lastmod>2016-06-25T19:10:07+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/about.html</loc>
-    <lastmod>2016-06-25T19:10:07+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/game.html</loc>
-    <lastmod>2016-06-25T19:10:07+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/highscore.html</loc>
-    <lastmod>2016-06-25T19:10:07+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/index.html</loc>
-    <lastmod>2016-06-25T19:10:07+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/ss2016/webtech/games/12-brickcrash/web/index.html</loc>
-    <lastmod>2016-07-04T19:03:31+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech-hall-of-fame/index.html</loc>
-    <lastmod>2016-07-11T19:03:04+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/CSS/child/child.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/CSS/classes/classes.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/CSS/combined/combined.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/CSS/divspan/divspan.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/CSS/follow/follow.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/CSS/pseudo/pseudo.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/CSS/specificity/specificity.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/CSS/specificity/tricky_css_rules.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/EventHandler/handler.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/ExceptionHandling/ex.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Functions/functions.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Functions/lambda.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Functions/undefined.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/FunktionaleFeatures/funktional.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/FunktionaleFeatures/table.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/HelloWorld/hello_world.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/HelloWorld/hello_world_counter.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/HelloWorld/hello_world_external_js.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/HelloWorld/hello_world_onload_js.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/JSON/json.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/OOFeatures/oo.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Schleifen/for.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Schleifen/forin.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/VariablenDeklaration/example.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/VariablenDeklaration/miniuebung.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/VariablenDeklaration/typing.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/ajaxkeysniffer.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/css_jquery_emulation.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/css_reference.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/css_transform.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/dom_transform.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/hello_world_jquery.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/keysniffer.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/table_transform.html</loc>
-    <lastmod>2015-11-19T16:58:03+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/static/dartmotion/index.html</loc>
-    <lastmod>2017-05-14T14:59:45+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/static/dartsort/index.html</loc>
-    <lastmod>2017-05-14T10:30:07+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/static/eratosthenes/index.html</loc>
-    <lastmod>2015-11-19T16:58:06+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.nkode.io/static/sortieren/index.html</loc>
-    <lastmod>2017-05-14T10:24:16+02:00</lastmod>
-  </url>
+<url>
+<loc>http://www.nkode.io/lecture/2017/06/15/lecture-webtech.html</loc>
+<lastmod>2017-06-15T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2017/04/28/closer2017.html</loc>
+<lastmod>2017-04-28T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2017/04/12/cloud-com-interview.html</loc>
+<lastmod>2017-04-12T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2017/02/21/thesis-learn-to-prog.html</loc>
+<lastmod>2017-02-21T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2017/01/20/thesis-auto-scaling.html</loc>
+<lastmod>2017-01-20T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2016/12/01/thesis-eclipse-presentation.html</loc>
+<lastmod>2016-12-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2016/11/01/thesis-multi-sensor-tracker.html</loc>
+<lastmod>2016-11-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2016/10/18/valuable-container-platform-links-swarm.html</loc>
+<lastmod>2016-10-18T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2016/10/18/valuable-container-platform-links-kubernetes.html</loc>
+<lastmod>2016-10-18T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2016/10/10/lecture-programming-i.html</loc>
+<lastmod>2016-10-10T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2016/10/10/lecture-fundamentals-of-programming.html</loc>
+<lastmod>2016-10-10T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2016/10/04/thesis-storage-cluster-deployer.html</loc>
+<lastmod>2016-10-04T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2016/09/21/burning-cloud.html</loc>
+<lastmod>2016-09-21T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2016/09/04/edoc2016.html</loc>
+<lastmod>2016-09-04T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2016/07/11/And-the-winner-is-namcap.html</loc>
+<lastmod>2016-07-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2016/07/01/open4ssh.html</loc>
+<lastmod>2016-07-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2016/04/28/container-and-container-cluster.html</loc>
+<lastmod>2016-04-28T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2016/04/11/lecture-webtech.html</loc>
+<lastmod>2016-04-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2016/04/11/lecture-programming-ii.html</loc>
+<lastmod>2016-04-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2016/04/11/lecture-advanced-programming.html</loc>
+<lastmod>2016-04-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2016/04/06/closer2016.html</loc>
+<lastmod>2016-04-06T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2016/03/15/thesis-analyse-und-optimierung-von-automatisierten-tests.html</loc>
+<lastmod>2016-03-15T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2016/03/01/thesis-automatisierte-bewertung-von-prog-praktika.html</loc>
+<lastmod>2016-03-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2015/11/24/how-to-operate-container-clusters-more-efficiently.html</loc>
+<lastmod>2015-11-24T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2015/09/16/lecture-programming-i.html</loc>
+<lastmod>2015-09-16T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2015/09/16/lecture-fundamentals-of-programming.html</loc>
+<lastmod>2015-09-16T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2015/07/15/And-the-winner-is-tetris.html</loc>
+<lastmod>2015-07-15T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2015/06/15/paper-automatic-benchmark-iaas.html</loc>
+<lastmod>2015-06-15T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2015/04/13/sperrvermerk.html</loc>
+<lastmod>2015-04-13T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2015/03/16/cloudcomputing2015.html</loc>
+<lastmod>2015-03-16T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2015/03/01/lecture-webtech.html</loc>
+<lastmod>2015-03-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2015/03/01/lecture-programming-ii.html</loc>
+<lastmod>2015-03-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2015/03/01/lecture-advanced-programming.html</loc>
+<lastmod>2015-03-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2015/01/22/how-to-write-a-paper.html</loc>
+<lastmod>2015-01-22T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/11/16/pingpong.html</loc>
+<lastmod>2014-11-16T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2014/10/21/thesis-low-cost-touch-projector.html</loc>
+<lastmod>2014-10-21T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2014/10/13/thesis-bluetooth-low-energy.html</loc>
+<lastmod>2014-10-13T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/10/08/paper-lvc.html</loc>
+<lastmod>2014-10-08T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/09/12/easymysql.html</loc>
+<lastmod>2014-09-12T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2014/09/01/lecture-programming-i.html</loc>
+<lastmod>2014-09-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2014/09/01/lecture-fundamentals-of-programming.html</loc>
+<lastmod>2014-09-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2014/09/01/lecture-db-web-programming.html</loc>
+<lastmod>2014-09-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/08/24/valuable-docker-links.html</loc>
+<lastmod>2014-08-24T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2014/07/13/lecture-programming-ii.html</loc>
+<lastmod>2014-07-13T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/research/project/2014/06/25/project-cloud-transit.html</loc>
+<lastmod>2014-06-25T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/06/25/job-posting-cloud-transit.html</loc>
+<lastmod>2014-06-25T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2014/05/19/thesis-action-item-ontology.html</loc>
+<lastmod>2014-05-19T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2014/03/19/thesis-analyse-von-legacy-software.html</loc>
+<lastmod>2014-03-19T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2014/03/06/thesis-mouse-daten.html</loc>
+<lastmod>2014-03-06T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/03/05/dockerize-dart.html</loc>
+<lastmod>2014-03-05T15:12:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2014/03/04/thesis-pumpscanner.html</loc>
+<lastmod>2014-03-04T10:56:13+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2014/03/01/lecture-webtech.html</loc>
+<lastmod>2014-03-01T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/02/28/dart-part-II.html</loc>
+<lastmod>2014-02-28T15:12:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/02/25/pragmatic-request-parameter-handling-start.html</loc>
+<lastmod>2014-02-25T16:39:48+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2014/02/21/thesis-kinect-control.html</loc>
+<lastmod>2014-02-21T20:37:25+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/02/18/parallels-dart.html</loc>
+<lastmod>2014-02-18T16:39:48+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2014/02/17/thesis-bomberman.html</loc>
+<lastmod>2014-02-17T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/2014/02/13/dart-part-I.html</loc>
+<lastmod>2014-02-13T09:39:48+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2013/11/08/thesis-evaluation-cross-mobile-frameworks.html</loc>
+<lastmod>2013-11-08T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis/2013/08/08/thesis-test-mobile-apps.html</loc>
+<lastmod>2013-08-08T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/lecture/2012/09/01/lecture-db-web-programming.html</loc>
+<lastmod>2012-09-01T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/about.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/blog.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/disclosure.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/lectures.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/log.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/publications.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/research.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/thesis.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2017a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/KQ2017a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/KH2016.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/KQ2016b.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/QK2016b.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Finnern2016.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/KQ2016a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/QK2016a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/KP2016.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/KQP+2016.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2015a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/KQ2015a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/KQ2015.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2015b.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2014a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2014b.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2014d.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/GKK2012.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2012b.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2012c.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2012d.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2012a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/GSK2011.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2011c.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2011a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2011b.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/GSK2010.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/KK2009.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/LMKL2009.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2007.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2006.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2005a.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2005b.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/bibliography/Kra2005c.html</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/web/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/lecture/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/database/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/html/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/css/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/javascript/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/php/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/thesis/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/mobile/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/app/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/android/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/analysis/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/qa/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/cross/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/iOS/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/WindowsPhone/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/blog/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/dart/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/slideshare/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/programming/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/game/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/parallels/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/kinect/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/ux/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/start/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/cloud/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/industrial/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/deploy/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/docker/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/container/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/legacy/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/code/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/opensource/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/semantic/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/ontology/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/job/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/research/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/assistant/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/project/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/iaas/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/paas/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/cloudtransit/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/java/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/lightweight/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/virtualization/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/mysql/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/paper/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/bluetooth/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/touch/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/beamer/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/network/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/cluster/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/benchmark/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/weave/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/sdn/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/continuous-integration/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/test/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/continuous-delivery/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/microservice/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/rest/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/http/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/ssh/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/ruby/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/cloud-native/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/reference/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/model/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/migration/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/elastic/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/platform/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/storage/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/kubernetes/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/swarm/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/multi-sensor/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/data/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/fusion/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/autoscaling/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/tag/ecp/</loc>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/content/poster-container-cluster.pdf</loc>
+<lastmod>2016-10-05T09:14:25+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-excercises.pdf</loc>
+<lastmod>2016-10-05T09:14:25+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit01.pdf</loc>
+<lastmod>2016-10-05T09:14:25+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit02.pdf</loc>
+<lastmod>2016-10-05T09:14:25+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit03.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit04.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit05.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit06.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit07.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit08.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit09.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit10.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit11.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/programming/prog-unit12.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/self-archive/Sperrvermerke-2015-03-16.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/self-archive/com-interview.pdf</loc>
+<lastmod>2017-04-12T12:44:09+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2014/webtech/cloud.pdf</loc>
+<lastmod>2016-10-05T09:14:26+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2014/webtech/dart1.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2014/webtech/dart2.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2014/webtech/ex1.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2014/webtech/ex2.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2014/webtech/html_css.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/progII/prog-excercises.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/progII/prog-unit06.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/progII/prog-unit07.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/progII/prog-unit08.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/progII/prog-unit09.pdf</loc>
+<lastmod>2016-10-05T09:14:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/progII/prog-unit10.pdf</loc>
+<lastmod>2016-10-05T09:14:28+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/progII/prog-unit11.pdf</loc>
+<lastmod>2016-10-05T09:14:28+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/progII/prog-unit12.pdf</loc>
+<lastmod>2016-10-05T09:14:28+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/breakout/game.html</loc>
+<lastmod>2016-10-05T09:14:28+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/breakout/packages/test/src/runner/browser/static/index.html</loc>
+<lastmod>2016-10-05T09:14:28+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/caveescape/index.html</loc>
+<lastmod>2016-10-05T09:14:28+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/caveescape/packages/test/src/runner/browser/static/index.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/dicewars/index.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/pacman/index.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/rennspiel/index.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/rennspiel/packages/test/src/runner/browser/static/index.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/spaceinvaders/space.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/spaceinvaders2/feindeIndex.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/spaceinvaders2/game.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/spaceinvaders2/index.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/stackattack/index.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/tetris/index.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/games/unblockit/index.html</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/webtech-cloud.pdf</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/webtech-dart-i.pdf</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/webtech-dart-iI.pdf</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/webtech-ex1.pdf</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/webtech-ex2.pdf</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2015/webtech/webtech-html-css.pdf</loc>
+<lastmod>2016-10-05T09:14:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/progII/prog-exercises.pdf</loc>
+<lastmod>2016-10-05T09:14:30+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/progII/prog-unit06.pdf</loc>
+<lastmod>2016-10-05T09:14:30+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/progII/prog-unit07.pdf</loc>
+<lastmod>2016-10-05T09:14:30+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/progII/prog-unit08.pdf</loc>
+<lastmod>2016-10-05T09:14:30+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/progII/prog-unit09.pdf</loc>
+<lastmod>2016-10-05T09:14:30+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/progII/prog-unit10.pdf</loc>
+<lastmod>2016-10-05T09:14:30+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/progII/prog-unit11.pdf</loc>
+<lastmod>2016-10-05T09:14:31+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/progII/prog-unit12.pdf</loc>
+<lastmod>2016-10-05T09:14:31+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/01-breakout/web/Breakout.html</loc>
+<lastmod>2016-10-05T09:14:31+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/01-breakout/web/index.html</loc>
+<lastmod>2016-10-05T09:14:31+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/02-cubedash/web/index.html</loc>
+<lastmod>2016-10-05T09:14:31+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/03-tankgame/web/index.html</loc>
+<lastmod>2016-10-05T09:14:31+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/04-legendhref/web/index.html</loc>
+<lastmod>2016-10-05T09:14:32+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/06-tilldeath/web/index.html</loc>
+<lastmod>2016-10-05T09:14:32+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/07-kistenschieben/web/KistenschiebenView.html</loc>
+<lastmod>2016-10-05T09:14:32+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/08-brickgame/web/index.html</loc>
+<lastmod>2016-10-05T09:14:33+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/08-brickgame/web/packages/test/src/runner/browser/static/index.html</loc>
+<lastmod>2016-10-05T09:14:33+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/Breakout.html</loc>
+<lastmod>2016-10-05T09:14:33+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/about.html</loc>
+<lastmod>2016-10-05T09:14:33+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/game.html</loc>
+<lastmod>2016-10-05T09:14:33+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/highscore.html</loc>
+<lastmod>2016-10-05T09:14:33+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/09-pacman/web/index.html</loc>
+<lastmod>2016-10-05T09:14:33+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/games/12-brickcrash/web/index.html</loc>
+<lastmod>2016-10-05T09:14:34+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/webtech-dart-i.pdf</loc>
+<lastmod>2016-10-05T09:14:34+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/webtech-dart-ii.pdf</loc>
+<lastmod>2016-10-05T09:14:34+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/webtech-html-css.pdf</loc>
+<lastmod>2016-10-05T09:14:34+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2016/webtech/webtech-http-rest.pdf</loc>
+<lastmod>2016-10-05T09:14:35+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2017/webtech/webtech-dart-i.pdf</loc>
+<lastmod>2017-06-15T08:52:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2017/webtech/webtech-dart-ii.pdf</loc>
+<lastmod>2017-06-15T08:53:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2017/webtech/webtech-html-css.pdf</loc>
+<lastmod>2017-06-15T08:50:46+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ss2017/webtech/webtech-http-rest.pdf</loc>
+<lastmod>2017-06-15T08:54:39+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2013/2013-thesis-markus-domin.pdf</loc>
+<lastmod>2016-10-05T09:14:35+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2013/2013-thesis-stefanie-grimm.pdf</loc>
+<lastmod>2016-10-05T09:14:35+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2014/2014-thesis-christian-wenzlick.pdf</loc>
+<lastmod>2016-10-05T09:14:35+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2014/2014-thesis-rayner-vesely.pdf</loc>
+<lastmod>2016-10-05T09:14:35+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2014/2014-thesis-zhenzhou-qiu.pdf</loc>
+<lastmod>2016-10-05T09:14:35+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2015/2015-thesis-andre-schwarz.pdf</loc>
+<lastmod>2016-10-05T09:14:35+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2015/2015-thesis-lars-graubner.pdf</loc>
+<lastmod>2016-10-05T09:14:36+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2015/2015-thesis-martin-stoeber.pdf</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2016/2016-thesis-martin-locker.pdf</loc>
+<lastmod>2016-12-02T10:01:56+01:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/thesis/2016/2016-thesis-timo-hamann.pdf</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech-hall-of-fame/index.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/dart-i-ex.pdf</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/dart-ii-ex.pdf</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/CSS/child/child.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/CSS/classes/classes.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/CSS/combined/combined.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/CSS/divspan/divspan.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/CSS/follow/follow.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/CSS/pseudo/pseudo.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/CSS/specificity/specificity.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/CSS/specificity/tricky_css_rules.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/EventHandler/handler.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/ExceptionHandling/ex.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Functions/functions.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Functions/lambda.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Functions/undefined.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/FunktionaleFeatures/funktional.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/FunktionaleFeatures/table.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/HelloWorld/hello_world.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/HelloWorld/hello_world_counter.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/HelloWorld/hello_world_external_js.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/HelloWorld/hello_world_onload_js.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/JSON/json.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/OOFeatures/oo.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Schleifen/for.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/Schleifen/forin.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/VariablenDeklaration/example.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/VariablenDeklaration/miniuebung.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/VariablenDeklaration/typing.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/ajaxkeysniffer.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/css_jquery_emulation.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/css_reference.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/css_transform.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/dom_transform.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/hello_world_jquery.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/keysniffer.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/examples/JavaScript/jQuery/table_transform.html</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/html-css-ex.pdf</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/webtech_unit_1.pdf</loc>
+<lastmod>2016-10-05T09:14:37+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/webtech_unit_2.pdf</loc>
+<lastmod>2016-10-05T09:14:38+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/webtech_unit_3.pdf</loc>
+<lastmod>2016-10-05T09:14:38+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/webtech/webtech_unit_cloud.pdf</loc>
+<lastmod>2016-10-05T09:14:38+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/db_1.pdf</loc>
+<lastmod>2016-10-05T09:14:38+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/db_2.pdf</loc>
+<lastmod>2016-10-05T09:14:38+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/db_3.pdf</loc>
+<lastmod>2016-10-05T09:14:38+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/excercises.pdf</loc>
+<lastmod>2016-10-05T09:14:38+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/js.pdf</loc>
+<lastmod>2016-10-05T09:14:39+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/php_1.pdf</loc>
+<lastmod>2016-10-05T09:14:39+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/php_2.pdf</loc>
+<lastmod>2016-10-05T09:14:39+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/php_3.pdf</loc>
+<lastmod>2016-10-05T09:14:39+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/php_4.pdf</loc>
+<lastmod>2016-10-05T09:14:39+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/php_5.pdf</loc>
+<lastmod>2016-10-05T09:14:39+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2012/dbsp/php_6.pdf</loc>
+<lastmod>2016-10-05T09:14:40+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/cloud.pdf</loc>
+<lastmod>2016-10-05T09:14:40+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/dart1.pdf</loc>
+<lastmod>2016-10-05T09:14:40+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/dart2.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/db1.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/db2.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/db3.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/ex1.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/ex2.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/ex3.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/dbwp/html_css.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/progI/excercises.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/progI/unit01.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/progI/unit02.pdf</loc>
+<lastmod>2016-10-05T09:14:41+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/progI/unit03.pdf</loc>
+<lastmod>2016-10-05T09:14:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/progI/unit04.pdf</loc>
+<lastmod>2016-10-05T09:14:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/progI/unit05.pdf</loc>
+<lastmod>2016-10-05T09:14:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2014/progI/unit06.pdf</loc>
+<lastmod>2016-10-05T09:14:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2015/progI/Unit01.pdf</loc>
+<lastmod>2016-10-05T09:14:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2015/progI/Unit02.pdf</loc>
+<lastmod>2016-10-05T09:14:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2015/progI/Unit03.pdf</loc>
+<lastmod>2016-10-05T09:14:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2015/progI/Unit04.pdf</loc>
+<lastmod>2016-10-05T09:14:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2015/progI/Unit05.pdf</loc>
+<lastmod>2016-10-05T09:14:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2015/progI/Unit06.pdf</loc>
+<lastmod>2016-10-05T09:14:43+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2015/progI/excercises.pdf</loc>
+<lastmod>2016-10-05T09:14:43+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2016/progI/Unit01.pdf</loc>
+<lastmod>2016-10-10T15:13:21+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2016/progI/Unit02.pdf</loc>
+<lastmod>2016-10-10T15:14:24+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2016/progI/Unit03.pdf</loc>
+<lastmod>2016-10-10T15:14:56+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2016/progI/Unit04.pdf</loc>
+<lastmod>2016-10-10T15:15:25+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2016/progI/Unit05.pdf</loc>
+<lastmod>2016-10-10T15:15:57+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2016/progI/Unit06.pdf</loc>
+<lastmod>2016-10-10T15:16:42+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/assets/ws2016/progI/excercises.pdf</loc>
+<lastmod>2016-10-10T15:11:27+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/static/dartmotion/index.html</loc>
+<lastmod>2017-06-01T08:54:55+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/static/dartsort/index.html</loc>
+<lastmod>2017-06-01T08:54:55+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/static/eratosthenes/index.html</loc>
+<lastmod>2016-10-05T09:14:44+02:00</lastmod>
+</url>
+<url>
+<loc>http://www.nkode.io/static/sortieren/index.html</loc>
+<lastmod>2017-03-02T13:51:49+01:00</lastmod>
+</url>
 </urlset>

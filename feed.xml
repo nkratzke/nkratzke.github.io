@@ -3,8 +3,35 @@
   <channel>
     <title>nkode.io</title>
     <description>A Blog About Programming, Cloud Computing, Webbased Systems</description>
-    <link>http://www.nkode.io</link>
-    <atom:link href="http://www.nkode.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>And the winner is ... Dynamite Man</title>
+      <description>
+        
+        &lt;img src=&quot;/assets/webtech-hall-of-fame/background.jpg&quot;&gt;
+        
+        &lt;p&gt;One more time we had some fun this summer semester &lt;a href=&quot;/lecture/2017/06/15/lecture-webtech.html&quot;&gt;webtechnology course&lt;/a&gt;. 
+My students implemented several classical games as &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; single page HTML &amp;#39;apps&amp;#39;.&lt;/p&gt;
+
+&lt;p&gt;Three games (of 18 game submissions) entered the &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Webtech Hall of Fame&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;#1: &lt;a href=&quot;/assets/ss2017/webtech/games/team-04-dynamite-man/web/index.html&quot;&gt;Dynamite Man&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#2: &lt;a href=&quot;/assets/ss2017/webtech/games/team-07-ninja-swap/web/index.html&quot;&gt;Ninja Swap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#3: &lt;a href=&quot;/assets/ss2017/webtech/games/team-06-star-speeder/web/index.html&quot;&gt;Star Speeder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Congratulations.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width='90%' height='2048px' src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
+
+      </description>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0200</pubDate>
+      <link>http://localhost:4000//2017/07/24/And-the-winner-is-Dynamite-Man.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2017/07/24/And-the-winner-is-Dynamite-Man.html</guid>
+    </item>
     
     <item>
       <title>Web Technologies (Summer 2017)</title>
@@ -86,8 +113,8 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
 
       </description>
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2017/06/15/lecture-webtech.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2017/06/15/lecture-webtech.html</guid>
+      <link>http://localhost:4000//lecture/2017/06/15/lecture-webtech.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2017/06/15/lecture-webtech.html</guid>
     </item>
     
     <item>
@@ -137,8 +164,8 @@ Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/K
 
       </description>
       <pubDate>Fri, 28 Apr 2017 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2017/04/28/closer2017.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2017/04/28/closer2017.html</guid>
+      <link>http://localhost:4000//2017/04/28/closer2017.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2017/04/28/closer2017.html</guid>
     </item>
     
     <item>
@@ -153,12 +180,12 @@ Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/K
 
 &lt;p&gt;Mehr dazu in folgendem Interview (auch als &lt;a href=&quot;/assets/self-archive/com-interview.pdf&quot;&gt;PDF&lt;/a&gt;):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#39;/img/posts/com-interview.jpg&#39; width=75%&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src='/img/posts/com-interview.jpg' width=75%&gt;&lt;/p&gt;
 
       </description>
       <pubDate>Wed, 12 Apr 2017 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2017/04/12/cloud-com-interview.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2017/04/12/cloud-com-interview.html</guid>
+      <link>http://localhost:4000//2017/04/12/cloud-com-interview.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2017/04/12/cloud-com-interview.html</guid>
     </item>
     
     <item>
@@ -215,8 +242,8 @@ Die Übertragbarkeit des Spielkonzepts auf Smartphones ist grundsätzlich konzep
 
       </description>
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2017/02/21/thesis-learn-to-prog.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2017/02/21/thesis-learn-to-prog.html</guid>
+      <link>http://localhost:4000//thesis/2017/02/21/thesis-learn-to-prog.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2017/02/21/thesis-learn-to-prog.html</guid>
     </item>
     
     <item>
@@ -279,8 +306,8 @@ exemplarisch nachgewiesen werden.&lt;/p&gt;
 
       </description>
       <pubDate>Fri, 20 Jan 2017 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2017/01/20/thesis-auto-scaling.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2017/01/20/thesis-auto-scaling.html</guid>
+      <link>http://localhost:4000//thesis/2017/01/20/thesis-auto-scaling.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2017/01/20/thesis-auto-scaling.html</guid>
     </item>
     
     <item>
@@ -334,8 +361,8 @@ Editorfenster als Vollbild auf den zweiten (Präsentations)-Monitor als Präsent
 
       </description>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2016/12/01/thesis-eclipse-presentation.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2016/12/01/thesis-eclipse-presentation.html</guid>
+      <link>http://localhost:4000//thesis/2016/12/01/thesis-eclipse-presentation.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2016/12/01/thesis-eclipse-presentation.html</guid>
     </item>
     
     <item>
@@ -386,8 +413,8 @@ und Bewegungsmodelle sowie deren Zusammenwirken sind geeignet aufzubereiten und 
 
       </description>
       <pubDate>Tue, 01 Nov 2016 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2016/11/01/thesis-multi-sensor-tracker.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2016/11/01/thesis-multi-sensor-tracker.html</guid>
+      <link>http://localhost:4000//thesis/2016/11/01/thesis-multi-sensor-tracker.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2016/11/01/thesis-multi-sensor-tracker.html</guid>
     </item>
     
     <item>
@@ -479,8 +506,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 
       </description>
       <pubDate>Tue, 18 Oct 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2016/10/18/valuable-container-platform-links-swarm.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2016/10/18/valuable-container-platform-links-swarm.html</guid>
+      <link>http://localhost:4000//2016/10/18/valuable-container-platform-links-swarm.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2016/10/18/valuable-container-platform-links-swarm.html</guid>
     </item>
     
     <item>
@@ -582,8 +609,8 @@ article to propose improvements or additional or even better links.&lt;/p&gt;
 
       </description>
       <pubDate>Tue, 18 Oct 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2016/10/18/valuable-container-platform-links-kubernetes.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2016/10/18/valuable-container-platform-links-kubernetes.html</guid>
+      <link>http://localhost:4000//2016/10/18/valuable-container-platform-links-kubernetes.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2016/10/18/valuable-container-platform-links-kubernetes.html</guid>
     </item>
     
     <item>
@@ -631,8 +658,8 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 
       </description>
       <pubDate>Mon, 10 Oct 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2016/10/10/lecture-programming-i.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2016/10/10/lecture-programming-i.html</guid>
+      <link>http://localhost:4000//lecture/2016/10/10/lecture-programming-i.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2016/10/10/lecture-programming-i.html</guid>
     </item>
     
     <item>
@@ -676,8 +703,8 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 
       </description>
       <pubDate>Mon, 10 Oct 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2016/10/10/lecture-fundamentals-of-programming.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2016/10/10/lecture-fundamentals-of-programming.html</guid>
+      <link>http://localhost:4000//lecture/2016/10/10/lecture-fundamentals-of-programming.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2016/10/10/lecture-fundamentals-of-programming.html</guid>
     </item>
     
     <item>
@@ -751,8 +778,8 @@ Der bestehende Deployer soll um eine Storage-Komponente ergänzt werden. &lt;/p&
 
       </description>
       <pubDate>Tue, 04 Oct 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//thesis/2016/10/04/thesis-storage-cluster-deployer.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2016/10/04/thesis-storage-cluster-deployer.html</guid>
+      <link>http://localhost:4000//thesis/2016/10/04/thesis-storage-cluster-deployer.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2016/10/04/thesis-storage-cluster-deployer.html</guid>
     </item>
     
     <item>
@@ -776,8 +803,8 @@ Der bestehende Deployer soll um eine Storage-Komponente ergänzt werden. &lt;/p&
 
       </description>
       <pubDate>Wed, 21 Sep 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2016/09/21/burning-cloud.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2016/09/21/burning-cloud.html</guid>
+      <link>http://localhost:4000//2016/09/21/burning-cloud.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2016/09/21/burning-cloud.html</guid>
     </item>
     
     <item>
@@ -811,7 +838,7 @@ and operated on a self-service elastic platform.
 &lt;h3&gt;Reference Model&lt;/h3&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&quot;/img/posts/cloud-native-stack.png&quot; class=&#39;nogrey&#39; width=100%&gt;
+&lt;img src=&quot;/img/posts/cloud-native-stack.png&quot; class='nogrey' width=100%&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Details are explained in the &lt;a href=&quot;/bibliography/KP2016.html&quot;&gt;paper&lt;/a&gt; (provided via Research Gate). The motivating background is presented in the following slides.&lt;/p&gt;
@@ -831,8 +858,8 @@ and operated on a self-service elastic platform.
 
       </description>
       <pubDate>Sun, 04 Sep 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2016/09/04/edoc2016.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2016/09/04/edoc2016.html</guid>
+      <link>http://localhost:4000//2016/09/04/edoc2016.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2016/09/04/edoc2016.html</guid>
     </item>
     
     <item>
@@ -854,12 +881,12 @@ My students implemented several classical games as &lt;a href=&quot;https://www.
 
 &lt;p&gt;Congratulations.&lt;/p&gt;
 
-&lt;p&gt;&lt;iframe width=&#39;90%&#39; height=&#39;2048px&#39; src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe width='90%' height='2048px' src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
 
       </description>
       <pubDate>Mon, 11 Jul 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2016/07/11/And-the-winner-is-namcap.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2016/07/11/And-the-winner-is-namcap.html</guid>
+      <link>http://localhost:4000//2016/07/11/And-the-winner-is-namcap.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2016/07/11/And-the-winner-is-namcap.html</guid>
     </item>
     
     <item>
@@ -884,13 +911,13 @@ sequence of commands and returns their exit codes, standard out and standard err
 &lt;h2&gt;Installation&lt;/h2&gt;
 
 &lt;p&gt;Add this line to your application&amp;#39;s Gemfile:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And then execute:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ bundle
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;$ bundle
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Or install it yourself as:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ gem install open4ssh
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;$ gem install open4ssh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Usage&lt;/h2&gt;
 
@@ -898,7 +925,7 @@ sequence of commands and returns their exit codes, standard out and standard err
 
 &lt;p&gt;The following snippets explain how to use Open4ssh. 
 To execute simply one single command on a remote host, we can do the following:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;remote.host.io&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
@@ -912,7 +939,7 @@ To execute simply one single command on a remote host, we can do the following:&
 
 &lt;p&gt;For a lot of cloud scenarios it is more appropriate to support a keybased login. This can be done like that 
 (simply use the key parameter instead of the pwd parameter):&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;remote.host.io&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
@@ -926,7 +953,7 @@ To execute simply one single command on a remote host, we can do the following:&
 
 &lt;p&gt;The following snippets will explain how to use Open4ssh to execute a (sequence) of commands.
 This snippet here will execute five shell commands sequentially&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;pp&amp;#39;&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;returns&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
@@ -944,7 +971,7 @@ This snippet here will execute five shell commands sequentially&lt;/p&gt;
 &lt;span class=&quot;n&quot;&gt;pp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;returns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;and will generate this output.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;[[0, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;touch helloworld.txt&amp;quot;],
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;[[0, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;touch helloworld.txt&amp;quot;],
  [0, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;cat helloworld.txt&amp;quot;],
  [0, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;echo &amp;#39;Hello World&amp;#39; &amp;gt;&amp;gt; helloworld.txt&amp;quot;],
  [0, &amp;quot;Hello World\n&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;cat helloworld.txt&amp;quot;],
@@ -961,7 +988,7 @@ This snippet here will execute five shell commands sequentially&lt;/p&gt;
 
 &lt;p&gt;However, if we launch a sequence of commands exiting with exit codes not equal 0, this sequence is only executed as long as 
 each command could be successfully processed (exit code 0). So this snippet here&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open4ssh&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;pp&amp;#39;&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;returns&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
@@ -979,7 +1006,7 @@ each command could be successfully processed (exit code 0). So this snippet here
 &lt;span class=&quot;n&quot;&gt;pp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;returns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;would produce the following output&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;[[0, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;touch helloworld.txt&amp;quot;],
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;[[0, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;touch helloworld.txt&amp;quot;],
  [0, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;cat helloworld.txt&amp;quot;],
  [127, &amp;quot;&amp;quot;, &amp;quot;bash: this: command not found\n&amp;quot;, &amp;quot;this will not work&amp;quot;]]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -989,7 +1016,7 @@ each command could be successfully processed (exit code 0). So this snippet here
 
 &lt;p&gt;Because Open4ssh only executes commands as long as they are returning a exit code of 0, we can check 
 pragmatically whether all commands of a sequence have been executed successfully:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;exit_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stderr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exit_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stderr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;remote.host.io&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;nane&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/path/to/your/sshkey.pem&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
@@ -1009,7 +1036,7 @@ pragmatically whether all commands of a sequence have been executed successfully
 &lt;h3&gt;What is this good for?&lt;/h3&gt;
 
 &lt;p&gt;Just a small example. Assuming your remote host is a Ubuntu 14.04 system we could do something like that:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;exit_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stderr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exit_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stderr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;remote.host.io&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;nane&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/path/to/your/sshkey.pem&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
@@ -1030,7 +1057,7 @@ Of course, you can do any other tasks as well. This was only one example ;-)&lt;
 &lt;h3&gt;Verbose mode&lt;/h3&gt;
 
 &lt;p&gt;If you want to know what is happening there you can turn on the verbose mode (mostly useful for debugging).&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;exit_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stderr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exit_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stderr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Open4ssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;capture4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;remote.host.io&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;nane&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
      &lt;span class=&quot;ss&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/path/to/your/sshkey.pem&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
@@ -1053,8 +1080,8 @@ Of course, you can do any other tasks as well. This was only one example ;-)&lt;
 
       </description>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2016/07/01/open4ssh.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2016/07/01/open4ssh.html</guid>
+      <link>http://localhost:4000//2016/07/01/open4ssh.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2016/07/01/open4ssh.html</guid>
     </item>
     
     <item>
@@ -1068,13 +1095,13 @@ which are intensively discussed in enterprise IT and cloud-native application so
 a DIN A1 printable PDF version (german only) for your office.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/content/poster-container-cluster.pdf&quot; mimetype=&quot;application/pdf&quot;&gt;
-    &lt;img src=&quot;/img/posts/poster-container-cluster.png&quot; class=&#39;nogrey&#39; width=90%&gt;
+    &lt;img src=&quot;/img/posts/poster-container-cluster.png&quot; class='nogrey' width=90%&gt;
 &lt;/a&gt;&lt;/p&gt;
 
       </description>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2016/04/28/container-and-container-cluster.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2016/04/28/container-and-container-cluster.html</guid>
+      <link>http://localhost:4000//2016/04/28/container-and-container-cluster.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2016/04/28/container-and-container-cluster.html</guid>
     </item>
     
     <item>
@@ -1132,8 +1159,8 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
 
       </description>
       <pubDate>Mon, 11 Apr 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2016/04/11/lecture-webtech.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2016/04/11/lecture-webtech.html</guid>
+      <link>http://localhost:4000//lecture/2016/04/11/lecture-webtech.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2016/04/11/lecture-webtech.html</guid>
     </item>
     
     <item>
@@ -1175,8 +1202,8 @@ at Lübeck University of Applied Sciences and will cover following aspects:&lt;/
 
       </description>
       <pubDate>Mon, 11 Apr 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2016/04/11/lecture-programming-ii.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2016/04/11/lecture-programming-ii.html</guid>
+      <link>http://localhost:4000//lecture/2016/04/11/lecture-programming-ii.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2016/04/11/lecture-programming-ii.html</guid>
     </item>
     
     <item>
@@ -1212,8 +1239,8 @@ and will cover following aspects:&lt;/p&gt;
 
       </description>
       <pubDate>Mon, 11 Apr 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2016/04/11/lecture-advanced-programming.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2016/04/11/lecture-advanced-programming.html</guid>
+      <link>http://localhost:4000//lecture/2016/04/11/lecture-advanced-programming.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2016/04/11/lecture-advanced-programming.html</guid>
     </item>
     
     <item>
@@ -1250,25 +1277,25 @@ Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/K
 &lt;p&gt;The presented &lt;a href=&quot;https://github.com/nkratzke/pingpong&quot;&gt;ppbench&lt;/a&gt; benchmark is provided via GitHub. We provide &lt;code&gt;ppbench&lt;/code&gt; via RubyGems.org. So, installing &lt;code&gt;ppbench&lt;/code&gt; 
 on your system (we assume that this is your personal laptop or workstation) is very easy.
 Assuming you have &lt;strong&gt;Ruby 2.2 (or higher installed)&lt;/strong&gt; installed, simply run&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;gem install ppbench
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;gem install ppbench
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;to install &lt;code&gt;ppbench&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;ppbench&lt;/code&gt; provides several commands and parameters to run and analyze your experiments.
 &lt;code&gt;ppbench&lt;/code&gt; comes with an online help included. Simply run&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ppbench help
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;ppbench help
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;to get some online help about available commands &lt;code&gt;ppbench&lt;/code&gt; is providing.&lt;/p&gt;
 
 &lt;p&gt;A benchmark run is started like that: &lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ppbench run --host http://&amp;lt;pinghostip&amp;gt;:8080 \
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;ppbench run --host http://&amp;lt;pinghostip&amp;gt;:8080 \
             --experiment experiment_tag \
             --machine machine_tag \
             log.csv
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;All benchmark results are written into a log (csv format). These csv based log files can be processed by &lt;code&gt;ppbench&lt;/code&gt;. 
 &lt;code&gt;Ppbench&lt;/code&gt; is able to do some summary analysis on a set of collected benchmark files for a quick analysis. Simply run&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ppbench summary *.csv
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;ppbench summary *.csv
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;to get a tabluar summary.&lt;/p&gt;
 
@@ -1278,7 +1305,7 @@ Assuming you have &lt;strong&gt;Ruby 2.2 (or higher installed)&lt;/strong&gt; in
 &lt;p&gt;The plot commands of ppbench have several flags to tune your plotting. By using the following additions flags
 it is possible to plot 75% confidence bands without showing all measured detail data points (omitting the &lt;code&gt;--nopoints&lt;/code&gt; would show both,
 confidence bands and all data points).&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ppbench transfer-plot --machines m3.xlarge \
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;ppbench transfer-plot --machines m3.xlarge \
                       --experiments bare-dart,bare-go,bare-java \
                       --withbands \
                       --confidence 75 \
@@ -1289,7 +1316,7 @@ confidence bands and all data points).&lt;/p&gt;
 &lt;p&gt;This would produce a much clearer picture with additional descriptive statistical information.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&quot;/img/posts/transferplot-withbands.png&quot; class=&#39;nogrey&#39; width=75%&gt;
+&lt;img src=&quot;/img/posts/transferplot-withbands.png&quot; class='nogrey' width=75%&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;h2&gt;Further Information&lt;/h2&gt;
@@ -1299,8 +1326,8 @@ confidence bands and all data points).&lt;/p&gt;
 
       </description>
       <pubDate>Wed, 06 Apr 2016 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2016/04/06/closer2016.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2016/04/06/closer2016.html</guid>
+      <link>http://localhost:4000//2016/04/06/closer2016.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2016/04/06/closer2016.html</guid>
     </item>
     
     <item>
@@ -1335,8 +1362,8 @@ durch Container Technologien - wie bspw. Docker - sinnnvoll unterstützt werden 
 
       </description>
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2016/03/15/thesis-analyse-und-optimierung-von-automatisierten-tests.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2016/03/15/thesis-analyse-und-optimierung-von-automatisierten-tests.html</guid>
+      <link>http://localhost:4000//thesis/2016/03/15/thesis-analyse-und-optimierung-von-automatisierten-tests.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2016/03/15/thesis-analyse-und-optimierung-von-automatisierten-tests.html</guid>
     </item>
     
     <item>
@@ -1435,8 +1462,8 @@ kann die Aufgabenstellung - nach plausiblem Nachweis der Schwierigkeit - angepas
 
       </description>
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2016/03/01/thesis-automatisierte-bewertung-von-prog-praktika.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2016/03/01/thesis-automatisierte-bewertung-von-prog-praktika.html</guid>
+      <link>http://localhost:4000//thesis/2016/03/01/thesis-automatisierte-bewertung-von-prog-praktika.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2016/03/01/thesis-automatisierte-bewertung-von-prog-praktika.html</guid>
     </item>
     
     <item>
@@ -1579,19 +1606,19 @@ Thus, our similarity-based  virtual machine type selection strategy seems to be 
 
 &lt;h3&gt;Absolute data transfer rates of bare (grey), containerized (red) and overlay network connected (blue) services&lt;/h3&gt;
 
-&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/absolute-container-sdn.png&quot; width=100%&gt;
+&lt;p&gt;&lt;img class='nogrey' src=&quot;/img/posts/absolute-container-sdn.png&quot; width=100%&gt;
 &lt;strong&gt;Median transfer rates with 90% confidence bands (5% and 95% percentile) 
 and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3&gt;Relative impact of containers (red) and overlay network (blue) compared with a bare (grey) deployment&lt;/h3&gt;
 
-&lt;p&gt;&lt;img class=&#39;nogrey&#39; src=&quot;/img/posts/relative-container-sdn.png&quot; width=100%&gt;
+&lt;p&gt;&lt;img class='nogrey' src=&quot;/img/posts/relative-container-sdn.png&quot; width=100%&gt;
 &lt;strong&gt;Relative transfer rates and TCP standard receive window of 83780 bytes (dotted lines)&lt;/strong&gt;&lt;/p&gt;
 
       </description>
       <pubDate>Tue, 24 Nov 2015 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//2015/11/24/how-to-operate-container-clusters-more-efficiently.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2015/11/24/how-to-operate-container-clusters-more-efficiently.html</guid>
+      <link>http://localhost:4000//2015/11/24/how-to-operate-container-clusters-more-efficiently.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2015/11/24/how-to-operate-container-clusters-more-efficiently.html</guid>
     </item>
     
     <item>
@@ -1639,8 +1666,8 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 
       </description>
       <pubDate>Wed, 16 Sep 2015 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2015/09/16/lecture-programming-i.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/09/16/lecture-programming-i.html</guid>
+      <link>http://localhost:4000//lecture/2015/09/16/lecture-programming-i.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2015/09/16/lecture-programming-i.html</guid>
     </item>
     
     <item>
@@ -1684,8 +1711,8 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 
       </description>
       <pubDate>Wed, 16 Sep 2015 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2015/09/16/lecture-fundamentals-of-programming.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/09/16/lecture-fundamentals-of-programming.html</guid>
+      <link>http://localhost:4000//lecture/2015/09/16/lecture-fundamentals-of-programming.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2015/09/16/lecture-fundamentals-of-programming.html</guid>
     </item>
     
     <item>
@@ -1707,12 +1734,12 @@ My students implemented several classical games as &lt;a href=&quot;https://www.
 
 &lt;p&gt;Congratulations.&lt;/p&gt;
 
-&lt;p&gt;&lt;iframe width=&#39;90%&#39; height=&#39;2048px&#39; src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe width='90%' height='2048px' src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;&lt;/p&gt;
 
       </description>
       <pubDate>Wed, 15 Jul 2015 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2015/07/15/And-the-winner-is-tetris.html</guid>
+      <link>http://localhost:4000//2015/07/15/And-the-winner-is-tetris.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2015/07/15/And-the-winner-is-tetris.html</guid>
     </item>
     
     <item>
@@ -1767,8 +1794,8 @@ We present some expectable but also astonishing evaluation results of EasyCompar
 
       </description>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2015/06/15/paper-automatic-benchmark-iaas.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2015/06/15/paper-automatic-benchmark-iaas.html</guid>
+      <link>http://localhost:4000//2015/06/15/paper-automatic-benchmark-iaas.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2015/06/15/paper-automatic-benchmark-iaas.html</guid>
     </item>
     
     <item>
@@ -1792,8 +1819,8 @@ We present some expectable but also astonishing evaluation results of EasyCompar
 
       </description>
       <pubDate>Mon, 13 Apr 2015 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2015/04/13/sperrvermerk.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2015/04/13/sperrvermerk.html</guid>
+      <link>http://localhost:4000//2015/04/13/sperrvermerk.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2015/04/13/sperrvermerk.html</guid>
     </item>
     
     <item>
@@ -1831,8 +1858,8 @@ and analytical views of presented experiments is provided as well as a
 &lt;a href=&quot;https://github.com/nkratzke/sdvn-impact-database&quot;&gt;github repository&lt;/a&gt;.
 Run it by installing Docker and launch the following commands:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker build -t sdvn github.com/nkratzke/sdvn-impact-database
-docker run -d -p 3306:3306 sdvn&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker build -t sdvn github.com/nkratzke/sdvn-impact-database
+docker run -d -p &lt;span class=&quot;m&quot;&gt;3306&lt;/span&gt;:3306 sdvn&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;How to access this database is described &lt;a href=&quot;https://github.com/nkratzke/sdvn-impact-database&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -1841,8 +1868,8 @@ docker run -d -p 3306:3306 sdvn&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;p&gt;The &lt;a href=&quot;https://github.com/nkratzke/pingpong&quot;&gt;Ping Pong&lt;/a&gt; system was used to collect the benchmark data. You can
 easily install the system on any Linux system.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone https://github.com/nkratzke/pingpong.git
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;pingpong
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/nkratzke/pingpong.git
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; pingpong
 sudo sh ./install.sh&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;This will install &lt;em&gt;Dart&lt;/em&gt; runtime and development environment, apachebench,
@@ -1851,7 +1878,7 @@ sudo sh ./install.sh&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;p&gt;It is possible to run the ping and pong service as a docker container.
 Therefore, you have to build a pingpong image on your ping and pong hosts, like that:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker build -t pingpong github.com/nkratzke/pingpong&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker build -t pingpong github.com/nkratzke/pingpong&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;For further information please read the informations provided with the
 &lt;a href=&quot;https://github.com/nkratzke/pingpong&quot;&gt;Ping Pong github repository&lt;/a&gt;.&lt;/p&gt;
@@ -1864,8 +1891,8 @@ Therefore, you have to build a pingpong image on your ping and pong hosts, like 
 
       </description>
       <pubDate>Mon, 16 Mar 2015 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//2015/03/16/cloudcomputing2015.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2015/03/16/cloudcomputing2015.html</guid>
+      <link>http://localhost:4000//2015/03/16/cloudcomputing2015.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2015/03/16/cloudcomputing2015.html</guid>
     </item>
     
     <item>
@@ -1937,8 +1964,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Sun, 01 Mar 2015 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//lecture/2015/03/01/lecture-webtech.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/03/01/lecture-webtech.html</guid>
+      <link>http://localhost:4000//lecture/2015/03/01/lecture-webtech.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2015/03/01/lecture-webtech.html</guid>
     </item>
     
     <item>
@@ -1980,8 +2007,8 @@ at Lübeck University of Applied Sciences and will cover following aspects:&lt;/
 
       </description>
       <pubDate>Sun, 01 Mar 2015 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//lecture/2015/03/01/lecture-programming-ii.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/03/01/lecture-programming-ii.html</guid>
+      <link>http://localhost:4000//lecture/2015/03/01/lecture-programming-ii.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2015/03/01/lecture-programming-ii.html</guid>
     </item>
     
     <item>
@@ -2017,8 +2044,8 @@ and will cover following aspects:&lt;/p&gt;
 
       </description>
       <pubDate>Sun, 01 Mar 2015 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//lecture/2015/03/01/lecture-advanced-programming.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2015/03/01/lecture-advanced-programming.html</guid>
+      <link>http://localhost:4000//lecture/2015/03/01/lecture-advanced-programming.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2015/03/01/lecture-advanced-programming.html</guid>
     </item>
     
     <item>
@@ -2205,8 +2232,8 @@ I tried to figure out the essentials.&lt;/p&gt;
 
       </description>
       <pubDate>Thu, 22 Jan 2015 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//2015/01/22/how-to-write-a-paper.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2015/01/22/how-to-write-a-paper.html</guid>
+      <link>http://localhost:4000//2015/01/22/how-to-write-a-paper.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2015/01/22/how-to-write-a-paper.html</guid>
     </item>
     
     <item>
@@ -2239,28 +2266,28 @@ I tried to figure out the essentials.&lt;/p&gt;
 &lt;h3&gt;Set up a benchmark experiment&lt;/h3&gt;
 
 &lt;p&gt;To do a benchmark you have to set up a &lt;em&gt;siege&lt;/em&gt;, a &lt;em&gt;ping&lt;/em&gt; and a &lt;em&gt;pong&lt;/em&gt; host. We assume these are Linux hosts with git, apt-get, wget and curl installed. Install this package on all of this three hosts by running following commands.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;git clone https://github.com/nkratzke/pingpong.git
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/nkratzke/pingpong.git
 cd pingpong
 sudo sh ./install.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This will install dart runtime and development environment, apachebench, docker as well as the docker overlay network weave.&lt;/p&gt;
 
 &lt;p&gt;It is possible to run the &lt;em&gt;ping&lt;/em&gt; and &lt;em&gt;pong&lt;/em&gt; service as a docker container. Therefore you have to build a pingpong image on your &lt;em&gt;ping&lt;/em&gt; and &lt;em&gt;pong&lt;/em&gt; hosts, like that:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;docker build -t pingpong github.com/nkratzke/pingpong
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;docker build -t pingpong github.com/nkratzke/pingpong
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Please be aware, that the dockerized ping-pong system will not show the same performance like a &amp;quot;naked&amp;quot; run ping-pong system.&lt;/p&gt;
 
 &lt;h3&gt;On the pong host: Set up the &lt;em&gt;pong service&lt;/em&gt;&lt;/h3&gt;
 
 &lt;p&gt;First step is to start the &lt;em&gt;pong&lt;/em&gt; service on the &lt;em&gt;pong&lt;/em&gt; host. This will start the &lt;em&gt;pong&lt;/em&gt; service on the host on port 8080.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;pong:$ sudo dart bin/pong.dart --port=8080
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;pong:$ sudo dart bin/pong.dart --port=8080
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;It is although possible to run the pong server as docker container (you will have performance impacts of about 10% to 20%):&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;pong:$ docker build -t pingpong github.com/nkratzke/pingpong
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;pong:$ docker build -t pingpong github.com/nkratzke/pingpong
 pong:$ docker run -d -p 8080:8080 pingpong --asPong --port=8080
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You want to check wether the &lt;em&gt;pong&lt;/em&gt; service is working correctly by checking that&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;pong:$ curl http://localhost:8080/pong/5
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;pong:$ curl http://localhost:8080/pong/5
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;answers with &amp;#39;poong&amp;#39;.&lt;/p&gt;
 
@@ -2270,14 +2297,14 @@ pong:$ docker run -d -p 8080:8080 pingpong --asPong --port=8080
 
 &lt;p&gt;Second step is to start the &lt;em&gt;ping&lt;/em&gt; service on the &lt;em&gt;ping&lt;/em&gt; host. This will start the &lt;em&gt;ping&lt;/em&gt; service on the host on port 8080.
 You will have to provide the &lt;em&gt;ping&lt;/em&gt; service where it will find its &lt;em&gt;pong&lt;/em&gt; service by providing &lt;code&gt;&amp;lt;pongip&amp;gt;&lt;/code&gt; and port number you have assigned to the &lt;em&gt;pong&lt;/em&gt; service above.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ping:$ sudo dart bin/ping.dart --port=8080 --url=http://&amp;lt;pongip&amp;gt;:8080
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;ping:$ sudo dart bin/ping.dart --port=8080 --url=http://&amp;lt;pongip&amp;gt;:8080
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;It is although possible to run the ping server as docker container (you will have performance impacts of about 10% to 20%):&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;pong:$ docker build -t pingpong github.com/nkratzke/pingpong
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;pong:$ docker build -t pingpong github.com/nkratzke/pingpong
 pong:$ docker run -d -p 8080:8080 pingpong --asPing --port=8080 --url=http://&amp;lt;pongip&amp;gt;:8080
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;You want to check wether the &lt;em&gt;ping&lt;/em&gt; service is started and able to communicate with the &lt;em&gt;pong&lt;/em&gt; service by checking that&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;ping:$ curl http://localhost:8080/ping/5
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;ping:$ curl http://localhost:8080/ping/5
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;answers with &amp;#39;poong&amp;#39;.&lt;/p&gt;
 
@@ -2286,7 +2313,7 @@ pong:$ docker run -d -p 8080:8080 pingpong --asPing --port=8080 --url=http://&am
 &lt;h3&gt;On the siege host: set up apachebench&lt;/h3&gt;
 
 &lt;p&gt;Third step you should run the benchmark to figure out the answer performance of your ping-pong system. On your &lt;em&gt;siege&lt;/em&gt; host you will find a &lt;code&gt;run.sh&lt;/code&gt; script to start your benchmark. You should replace &lt;code&gt;http://my.host.com/ping&lt;/code&gt; with &lt;code&gt;http://&amp;lt;pingip&amp;gt;:8080/ping&lt;/code&gt; to provide the script the correct ping service uri.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# Run the experiment against
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;# Run the experiment against
 # You have to specify your ping host here!
 URL=http://my.host.com/ping
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -2301,12 +2328,12 @@ URL=http://my.host.com/ping
 &lt;p&gt;All benchmark results are written into a file &lt;code&gt;apachebench.log&lt;/code&gt;. This log file can be processed by &lt;code&gt;bin/analyze.dart&lt;/code&gt; to generate a csv file which is better suited to be imported into databases or statistical tools like R.&lt;/p&gt;
 
 &lt;p&gt;The following line converts experiment data (apachebench log format), tag it with a name (here &amp;#39;Reference&amp;#39;) and convert it into a csv file. You can use tags to distinguish different experiments for analysis.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;dart bin/analze.dart --tag=Reference apachebench.log &amp;gt; reference.csv
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;dart bin/analze.dart --tag=Reference apachebench.log &amp;gt; reference.csv
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
       <pubDate>Sun, 16 Nov 2014 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//2014/11/16/pingpong.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/11/16/pingpong.html</guid>
+      <link>http://localhost:4000//2014/11/16/pingpong.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/11/16/pingpong.html</guid>
     </item>
     
     <item>
@@ -2360,8 +2387,8 @@ Grenzen des Aufbaus sind aufzuzeigen.&lt;/p&gt;
 
       </description>
       <pubDate>Tue, 21 Oct 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//thesis/2014/10/21/thesis-low-cost-touch-projector.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2014/10/21/thesis-low-cost-touch-projector.html</guid>
+      <link>http://localhost:4000//thesis/2014/10/21/thesis-low-cost-touch-projector.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2014/10/21/thesis-low-cost-touch-projector.html</guid>
     </item>
     
     <item>
@@ -2413,8 +2440,8 @@ für den Einsatz als Central und als Peripheral Modul.&lt;/p&gt;
 
       </description>
       <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//thesis/2014/10/13/thesis-bluetooth-low-energy.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2014/10/13/thesis-bluetooth-low-energy.html</guid>
+      <link>http://localhost:4000//thesis/2014/10/13/thesis-bluetooth-low-energy.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2014/10/13/thesis-bluetooth-low-energy.html</guid>
     </item>
     
     <item>
@@ -2456,8 +2483,8 @@ or via &lt;a href=&quot;https://www.researchgate.net/publication/265416477_Light
 
       </description>
       <pubDate>Wed, 08 Oct 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2014/10/08/paper-lvc.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/10/08/paper-lvc.html</guid>
+      <link>http://localhost:4000//2014/10/08/paper-lvc.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/10/08/paper-lvc.html</guid>
     </item>
     
     <item>
@@ -2528,12 +2555,12 @@ server. You can clone this repository or tell docker to do the repository handli
 behind the scenes for you (which is my preferred way in case of github provided
   Dockerfiles):&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker build -t mysqldb github.com/nkratzke/easymysql&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker build -t mysqldb github.com/nkratzke/easymysql&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Now you have an image named &lt;em&gt;mysqldb&lt;/em&gt; on your system, capable to
 provide MySQL databases. The simplest way to do start a database is like that:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -d -p 3306:3306 mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -d -p &lt;span class=&quot;m&quot;&gt;3306&lt;/span&gt;:3306 mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;It will create a running container on your system providing a MySQL server.&lt;/p&gt;
 
@@ -2545,26 +2572,26 @@ provide MySQL databases. The simplest way to do start a database is like that:&l
 
 &lt;p&gt;If you want to run your database on a different port than 3306 just do the following:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -d -p 4407:3306 mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -d -p &lt;span class=&quot;m&quot;&gt;4407&lt;/span&gt;:3306 mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;to run it on port 4407 (for instance). You can figure out that the container is running&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker ps&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker ps&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;and docker returns an output like that.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;CONTAINERID  IMAGE    COMMAND       CREATED       STATUS       PORTS
-85fbad3eb5c  mysqldb  &lt;span class=&quot;s2&quot;&gt;&amp;quot;/bin/start&amp;quot;&lt;/span&gt;   &lt;span class=&quot;m&quot;&gt;56&lt;/span&gt; min. ago   Up &lt;span class=&quot;m&quot;&gt;55&lt;/span&gt; min.   0.0.0.0:3306-&amp;gt;3306&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;CONTAINERID  IMAGE    COMMAND       CREATED       STATUS       PORTS
+85fbad3eb5c  mysqldb  &lt;span class=&quot;s2&quot;&gt;&amp;quot;/bin/start&amp;quot;&lt;/span&gt;   &lt;span class=&quot;m&quot;&gt;56&lt;/span&gt; min. ago   Up &lt;span class=&quot;m&quot;&gt;55&lt;/span&gt; min.   &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;.0.0.0:3306-&amp;gt;3306&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;To check whether the database is working, you can connect to it.
 Figure out what address your docker host has. If you are working with Boot2Docker
 you con do this&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;boot2docker ip&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;boot2docker ip&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;and you will get an answer like that:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;The VM&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;s Host only interface IP address is: 192.168.59.104&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;The VM&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;s Host only interface IP address is: &lt;span class=&quot;m&quot;&gt;192&lt;/span&gt;.168.59.104&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Now you have all to connect to your MySQL database. To check that everything is fine
 just start &lt;a href=&quot;https://dev.mysql.com/downloads/workbench/&quot;&gt;MySQLWorkbench&lt;/a&gt; and
@@ -2580,7 +2607,7 @@ enter the following parameters when creating a new database connection:&lt;/p&gt
 &lt;p&gt;To stop a container simply figure out its CONTAINER ID (via &lt;code&gt;docker ps&lt;/code&gt; as shown above)
 and stop it like that:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker stop 85fbad3eb5ce&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker stop 85fbad3eb5ce&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The above mentioned standard database is a read only default database. Not very helpful
 (except for me and my lectures).
@@ -2602,7 +2629,7 @@ This file can be hosted anywhere (accessible from your docker host).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Attention!&lt;/strong&gt; SQL file is assumed to be encoded as UTF8 and has to valid as well as non interactively processable by mysql.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -d -p 3306:3306 -e &lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;http://www.example.org/my/database.sql&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -d -p &lt;span class=&quot;m&quot;&gt;3306&lt;/span&gt;:3306 -e &lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;http://www.example.org/my/database.sql&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3&gt;Define user with &lt;code&gt;user&lt;/code&gt; and &lt;code&gt;password&lt;/code&gt;&lt;/h3&gt;
 
@@ -2610,7 +2637,7 @@ This file can be hosted anywhere (accessible from your docker host).&lt;/p&gt;
 &lt;code&gt;password&lt;/code&gt; parameter.
 By default the created MySQL user will get read access to all databases hosted by this container.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -d -p 3306:3306 -e &lt;span class=&quot;nv&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Nane&amp;quot;&lt;/span&gt; -e &lt;span class=&quot;nv&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;meins&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -d -p &lt;span class=&quot;m&quot;&gt;3306&lt;/span&gt;:3306 -e &lt;span class=&quot;nv&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Nane&amp;quot;&lt;/span&gt; -e &lt;span class=&quot;nv&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;meins&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3&gt;Change access rights with &lt;code&gt;right&lt;/code&gt;&lt;/h3&gt;
 
@@ -2638,11 +2665,11 @@ with the database including&lt;/p&gt;
 
 &lt;p&gt;The read access right is the default one. So&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -d -p 3306:3306 -e &lt;span class=&quot;nv&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;READ&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -d -p &lt;span class=&quot;m&quot;&gt;3306&lt;/span&gt;:3306 -e &lt;span class=&quot;nv&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;READ&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;is synonym to&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -d -p 3306:3306 mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -d -p &lt;span class=&quot;m&quot;&gt;3306&lt;/span&gt;:3306 mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Read access is perfect for providing read-only datasets. E.g. databases for students
 they should use to answer questions. By providing the database read-only
@@ -2651,7 +2678,7 @@ it is assured that no student can destroy the database accidentally.&lt;/p&gt;
 &lt;p&gt;If you want to create a user with complete write access to your database
 you can run something like that&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -d -p 3306:3306 -e &lt;span class=&quot;nv&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Me&amp;quot;&lt;/span&gt; -e &lt;span class=&quot;nv&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;mine&amp;quot;&lt;/span&gt; -e &lt;span class=&quot;nv&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;WRITE&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -d -p &lt;span class=&quot;m&quot;&gt;3306&lt;/span&gt;:3306 -e &lt;span class=&quot;nv&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Me&amp;quot;&lt;/span&gt; -e &lt;span class=&quot;nv&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;mine&amp;quot;&lt;/span&gt; -e &lt;span class=&quot;nv&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;WRITE&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;which will provide &lt;strong&gt;full access&lt;/strong&gt; to the database for user &lt;em&gt;Me&lt;/em&gt;.&lt;/p&gt;
 
@@ -2673,12 +2700,12 @@ file provided via the &lt;code&gt;url&lt;/code&gt; parameter is valid and proces
 with the &lt;code&gt;-t&lt;/code&gt; and &lt;code&gt;-i&lt;/code&gt; parameter of docker. This will forward the output of the container
 to your console, which is likely to be helpful for debugging purposes.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -t -i -p 3306:3306 -e &lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;http://www.ex.org/my/database.sql&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -t -i -p &lt;span class=&quot;m&quot;&gt;3306&lt;/span&gt;:3306 -e &lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;http://www.ex.org/my/database.sql&amp;quot;&lt;/span&gt; mysqldb&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
       </description>
       <pubDate>Fri, 12 Sep 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2014/09/12/easymysql.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/09/12/easymysql.html</guid>
+      <link>http://localhost:4000//2014/09/12/easymysql.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/09/12/easymysql.html</guid>
     </item>
     
     <item>
@@ -2725,8 +2752,8 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 
       </description>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2014/09/01/lecture-programming-i.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2014/09/01/lecture-programming-i.html</guid>
+      <link>http://localhost:4000//lecture/2014/09/01/lecture-programming-i.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2014/09/01/lecture-programming-i.html</guid>
     </item>
     
     <item>
@@ -2769,8 +2796,8 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 
       </description>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2014/09/01/lecture-fundamentals-of-programming.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2014/09/01/lecture-fundamentals-of-programming.html</guid>
+      <link>http://localhost:4000//lecture/2014/09/01/lecture-fundamentals-of-programming.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2014/09/01/lecture-fundamentals-of-programming.html</guid>
     </item>
     
     <item>
@@ -2814,8 +2841,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2014/09/01/lecture-db-web-programming.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2014/09/01/lecture-db-web-programming.html</guid>
+      <link>http://localhost:4000//lecture/2014/09/01/lecture-db-web-programming.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2014/09/01/lecture-db-web-programming.html</guid>
     </item>
     
     <item>
@@ -2949,7 +2976,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;li&gt;&lt;a href=&quot;http://humblec.com/containers-docker-glusterfs-dockit-easy-way-glusterfs-deployment-docker/&quot;&gt;An easy way of GlusterFS deployment with Docker&lt;/a&gt; by &lt;strong&gt;humblec.com&lt;/strong&gt; (added 18. Aug 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://pertino.com/blog/secure-cloud-bursting-part-1/&quot;&gt;How to build a Jenkins Master&lt;/a&gt; by &lt;strong&gt;Luke Woydziak&lt;/strong&gt; (added 25. Jul 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.nkode.io/2014/03/05/dockerize-dart.html&quot;&gt;Dart meets Docker, How to Dockerize Dart Apps&lt;/a&gt; by &lt;strong&gt;Nane Kratzke&lt;/strong&gt; (added 3. Jul 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://loige.com/simple-echo-server-written-in-go-dockerized/?utm_source=Docker+News&amp;amp;utm_campaign=f90a032721-Docker_0_5_0_7_18_2013&amp;amp;utm_medium=email&amp;amp;utm_term=0_c0995b6e8f-f90a032721-235712605&quot;&gt;Simple echo server written in Go, dockerized&lt;/a&gt; by &lt;strong&gt;Loige.com&lt;/strong&gt;  (added 3. Jul 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://loige.com/simple-echo-server-written-in-go-dockerized/?utm_source=Docker+News&amp;utm_campaign=f90a032721-Docker_0_5_0_7_18_2013&amp;utm_medium=email&amp;utm_term=0_c0995b6e8f-f90a032721-235712605&quot;&gt;Simple echo server written in Go, dockerized&lt;/a&gt; by &lt;strong&gt;Loige.com&lt;/strong&gt;  (added 3. Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Containerization &lt;small&gt;Patterns&lt;/small&gt;&lt;/h3&gt;
@@ -3025,7 +3052,7 @@ to get further informations about Docker, Containerization and Microservices.&lt
 &lt;li&gt;&lt;a href=&quot;https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/&quot;&gt;Resource management in Docker&lt;/a&gt; by &lt;strong&gt;Marek Goldmann&lt;/strong&gt;  (added 18. Sep 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://domino.research.ibm.com/library/cyberdig.nsf/papers/0929052195DD819C85257D2300681E7B/$File/rc25482.pdf&quot;&gt;An Updated Performance Comparison of Virtual Machines and Linux Containers&lt;/a&gt; by &lt;strong&gt;Wes Felter, Alexandre Ferreira, Ram Rajamony, Juan Rubio&lt;/strong&gt;  (added 17. Aug 2014) &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.librato.com/posts/docker-container-data-with-fluentd&quot;&gt;Collecting Docker Container Data with Fluentd&lt;/a&gt; by &lt;strong&gt;kiyototamura&lt;/strong&gt; (added 17. Aug 2014) &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.sflow.com/2014/06/docker-performance-monitoring.html?utm_source=Docker+News&amp;amp;utm_campaign=f90a032721-Docker_0_5_0_7_18_2013&amp;amp;utm_medium=email&amp;amp;utm_term=0_c0995b6e8f-f90a032721-235712605&quot;&gt;Docker performance monitor&lt;/a&gt; by &lt;strong&gt;sflow.com&lt;/strong&gt; (added 3. Jul 2014) &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.sflow.com/2014/06/docker-performance-monitoring.html?utm_source=Docker+News&amp;utm_campaign=f90a032721-Docker_0_5_0_7_18_2013&amp;utm_medium=email&amp;utm_term=0_c0995b6e8f-f90a032721-235712605&quot;&gt;Docker performance monitor&lt;/a&gt; by &lt;strong&gt;sflow.com&lt;/strong&gt; (added 3. Jul 2014) &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Securing Docker&lt;/h3&gt;
@@ -3054,8 +3081,8 @@ to get further informations about Docker, Containerization and Microservices.&lt
 
       </description>
       <pubDate>Sun, 24 Aug 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2014/08/24/valuable-docker-links.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/08/24/valuable-docker-links.html</guid>
+      <link>http://localhost:4000//2014/08/24/valuable-docker-links.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/08/24/valuable-docker-links.html</guid>
     </item>
     
     <item>
@@ -3107,8 +3134,8 @@ as well as concurrent programming using threads.&lt;/p&gt;
 
       </description>
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2014/07/13/lecture-programming-ii.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2014/07/13/lecture-programming-ii.html</guid>
+      <link>http://localhost:4000//lecture/2014/07/13/lecture-programming-ii.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2014/07/13/lecture-programming-ii.html</guid>
     </item>
     
     <item>
@@ -3201,103 +3228,103 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Finnern2017]&lt;/strong&gt; &lt;span id=&quot;Finnern2017&quot;&gt;Finnern, T. (2017). &lt;i&gt;Analyse und Integration von Storage-Clustern in elastische Container Plattformen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/thesis/2017/2017-thesis-thomas-finnern.pdf&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2017.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kra2017a]&lt;/strong&gt; &lt;span id=&quot;Kra2017a&quot;&gt;Kratzke, N. (2017). Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms. In &lt;i&gt;Proceedings of the 7th Int. Conf. on Cloud Computing and Services Science (CLOSER 2017)&lt;/i&gt; (pp. 29–42).&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Kra2017a]&lt;/strong&gt; &lt;span id=&quot;Kra2017a&quot;&gt;Kratzke, N. (2017). Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms. In &lt;i&gt;Proceedings of the 7th Int. Conf. on Cloud Computing and Services Science (CLOSER 2017)&lt;/i&gt; (pp. 29–42).&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/313860386&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href='https://www.researchgate.net/publication/313860386'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2017a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2017a]&lt;/strong&gt; &lt;span id=&quot;KQ2017a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. &lt;i&gt;Journal Of Systems and Software&lt;/i&gt;, &lt;i&gt;126&lt;/i&gt;(April), 1–16. doi:10.1016/j.jss.2017.01.001&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[Finnern2017]&lt;/strong&gt; &lt;span id=&quot;Finnern2017&quot;&gt;Finnern, T. (2017). &lt;i&gt;Analyse und Integration von Storage-Clustern in elastische Container Plattformen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/thesis/2017/2017-thesis-thomas-finnern.pdf&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2017.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2017a]&lt;/strong&gt; &lt;span id=&quot;KQ2017a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. &lt;i&gt;Journal of Systems and Software&lt;/i&gt;, &lt;i&gt;126&lt;/i&gt;(April), 1–16. https://doi.org/10.1016/j.jss.2017.01.001&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/312045183&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href='https://www.researchgate.net/publication/312045183'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2017a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2016a]&lt;/strong&gt; &lt;span id=&quot;KQ2016a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of the 6th International Conference on Cloud Computing and Services Science (CLOSER 2016)&lt;/i&gt; (pp. 223–231). doi:10.5220/0005732202230231&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/292657431&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - a Cloud-Native Application Reference Model for Enterprise Architects. In &lt;i&gt;2016 IEEE 20th International Enterprise Distributed Object Computing Workshop (EDOCW)&lt;/i&gt; (pp. 1–10). doi:10.1109/EDOCW.2016.7584353&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/304024156&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KP2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal On Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4), 389–400.&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/309673663&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[QK2016a]&lt;/strong&gt; &lt;span id=&quot;QK2016a&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Overcome Vendor Lock-In by Integrating Already Available Container Technologies - Towards Transferability in Cloud Computing for SMEs. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2016 (7th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt;.&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/292980185&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQP+2016]&lt;/strong&gt; &lt;span id=&quot;KQP+2016&quot;&gt;Kratzke, N., Quint, P.-C., Palme, D., &amp;amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp;amp; B. Koch (Eds.), &lt;i&gt;European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges&lt;/i&gt;. SCITEPRESS.&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/304578995&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQP+2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2016b]&lt;/strong&gt; &lt;span id=&quot;KQ2016b&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp;amp; J. Cardoso (Eds.), &lt;i&gt;Cloud Computing and Services Science Selected Papers&lt;/i&gt;. Springer.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/308219976&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href='https://www.researchgate.net/publication/308219976'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal Of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - a Cloud-Native Application Reference Model for Enterprise Architects. In &lt;i&gt;2016 IEEE 20th International Enterprise Distributed Object Computing Workshop (EDOCW)&lt;/i&gt; (pp. 1–10). https://doi.org/10.1109/EDOCW.2016.7584353&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/278242891&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href='https://www.researchgate.net/publication/304024156'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KP2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[QK2016a]&lt;/strong&gt; &lt;span id=&quot;QK2016a&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Overcome Vendor Lock-In by Integrating Already Available Container Technologies - Towards Transferability in Cloud Computing for SMEs. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2016 (7th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/292980185'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2016a]&lt;/strong&gt; &lt;span id=&quot;KQ2016a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of the 6th International Conference on Cloud Computing and Services Science (CLOSER 2016)&lt;/i&gt; (pp. 223–231). https://doi.org/10.5220/0005732202230231&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/292657431'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal on Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4), 389–400.&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/309673663'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQP+2016]&lt;/strong&gt; &lt;span id=&quot;KQP+2016&quot;&gt;Kratzke, N., Quint, P.-C., Palme, D., &amp;amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp;amp; B. Koch (Eds.), &lt;i&gt;European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges&lt;/i&gt;. SCITEPRESS.&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/304578995'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQP+2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/284501557'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2015]&lt;/strong&gt; &lt;span id=&quot;KQ2015&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. &lt;i&gt;Journal of Cloud Computing Research&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/278242891'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2015b]&lt;/strong&gt; &lt;span id=&quot;Kra2015b&quot;&gt;Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt; (pp. 165–169).&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/273456042&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href='https://www.researchgate.net/publication/273456042'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2015b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances In Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/284501557&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2015a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kra2014d]&lt;/strong&gt; &lt;span id=&quot;Kra2014d&quot;&gt;Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittels einer generischen Cloud Service Description Language. &lt;i&gt;Impulse - Aus Forschung Und Lehre Der FH Lübeck&lt;/i&gt;, &lt;i&gt;18&lt;/i&gt;(1).&lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014d.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kra2014a]&lt;/strong&gt; &lt;span id=&quot;Kra2014a&quot;&gt;Kratzke, N. (2014). Lightweight Virtualization Cluster - Howto overcome Cloud Vendor Lock-in. &lt;i&gt;Journal Of Computer and Communication (JCC)&lt;/i&gt;, &lt;i&gt;2&lt;/i&gt;(12). doi:10.4236/jcc.2014.212001&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2014a]&lt;/strong&gt; &lt;span id=&quot;Kra2014a&quot;&gt;Kratzke, N. (2014). Lightweight Virtualization Cluster - Howto overcome Cloud Vendor Lock-in. &lt;i&gt;Journal of Computer and Communication (JCC)&lt;/i&gt;, &lt;i&gt;2&lt;/i&gt;(12). https://doi.org/10.4236/jcc.2014.212001&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/265416477&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href='https://www.researchgate.net/publication/265416477'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kra2014b]&lt;/strong&gt; &lt;span id=&quot;Kra2014b&quot;&gt;Kratzke, N. (2014). A Lightweight Virtualization Cluster Reference Architecture Derived from Open Source PaaS Platforms. &lt;i&gt;Open Journal Of Mobile Computing and Cloud Computing (MCCC)&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(2), 17–30.&lt;/span&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2014b]&lt;/strong&gt; &lt;span id=&quot;Kra2014b&quot;&gt;Kratzke, N. (2014). A Lightweight Virtualization Cluster Reference Architecture Derived from Open Source PaaS Platforms. &lt;i&gt;Open Journal of Mobile Computing and Cloud Computing (MCCC)&lt;/i&gt;, &lt;i&gt;1&lt;/i&gt;(2), 17–30.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href=&#39;https://www.researchgate.net/publication/265416428&#39;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+    &lt;a href='https://www.researchgate.net/publication/265416428'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2014b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;
@@ -3329,8 +3356,8 @@ Following companies are supporting us:
 
       </description>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//research/project/2014/06/25/project-cloud-transit.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//research/project/2014/06/25/project-cloud-transit.html</guid>
+      <link>http://localhost:4000//research/project/2014/06/25/project-cloud-transit.html</link>
+      <guid isPermaLink="true">http://localhost:4000//research/project/2014/06/25/project-cloud-transit.html</guid>
     </item>
     
     <item>
@@ -3418,8 +3445,8 @@ according to the regulatories of the
 
       </description>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//2014/06/25/job-posting-cloud-transit.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/06/25/job-posting-cloud-transit.html</guid>
+      <link>http://localhost:4000//2014/06/25/job-posting-cloud-transit.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/06/25/job-posting-cloud-transit.html</guid>
     </item>
     
     <item>
@@ -3453,8 +3480,8 @@ according to the regulatories of the
 
       </description>
       <pubDate>Mon, 19 May 2014 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//thesis/2014/05/19/thesis-action-item-ontology.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2014/05/19/thesis-action-item-ontology.html</guid>
+      <link>http://localhost:4000//thesis/2014/05/19/thesis-action-item-ontology.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2014/05/19/thesis-action-item-ontology.html</guid>
     </item>
     
     <item>
@@ -3485,8 +3512,8 @@ according to the regulatories of the
 
       </description>
       <pubDate>Wed, 19 Mar 2014 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2014/03/19/thesis-analyse-von-legacy-software.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2014/03/19/thesis-analyse-von-legacy-software.html</guid>
+      <link>http://localhost:4000//thesis/2014/03/19/thesis-analyse-von-legacy-software.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2014/03/19/thesis-analyse-von-legacy-software.html</guid>
     </item>
     
     <item>
@@ -3516,8 +3543,8 @@ according to the regulatories of the
 
       </description>
       <pubDate>Thu, 06 Mar 2014 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2014/03/06/thesis-mouse-daten.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2014/03/06/thesis-mouse-daten.html</guid>
+      <link>http://localhost:4000//thesis/2014/03/06/thesis-mouse-daten.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2014/03/06/thesis-mouse-daten.html</guid>
     </item>
     
     <item>
@@ -3534,7 +3561,7 @@ according to the regulatories of the
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/nkratzke/containerdart&quot;&gt;Containerdart&lt;/a&gt; is a very simple &lt;a href=&quot;https://www.dartlang.org&quot;&gt;Dart&lt;/a&gt; HTTP server using the &lt;a href=&quot;http://www.sinatrarb.com/&quot;&gt;Sinatra&lt;/a&gt; inspired web framework &lt;a href=&quot;https://github.com/lvivski/start&quot;&gt;Start&lt;/a&gt; to provide static content.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;package:start/start.dart&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;package:start/start.dart&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;host:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;0.0.0.0&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;port:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;8080&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Server&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -3557,17 +3584,17 @@ according to the regulatories of the
 
 &lt;p&gt;Dockerized applications hosted on Github can be installed by docker with one command. We take &lt;a href=&quot;https://github.com/nkratzke/containerdart&quot;&gt;Containerdart&lt;/a&gt; as an example.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker build -t containerdart github.com/nkratzke/containerdart&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker build -t containerdart github.com/nkratzke/containerdart&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Docker downloads specified repository from github and processes a &lt;em&gt;Dockerfile&lt;/em&gt; in it to create an image from it. If image creation is completed you can instantiate a &lt;em&gt;container&lt;/em&gt; from this image with the following command.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -p 8888:8080 -d containerdart&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -p &lt;span class=&quot;m&quot;&gt;8888&lt;/span&gt;:8080 -d containerdart&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Last command starts the container as a daemon and binds the container internal port 8080 to the host port 8888 (it is also possible to map the exposed container port 8080 to any other port number, e.g. 80). The container provided webserver should be accessible on &lt;a href=&quot;http://localhost:8888&quot;&gt;http://localhost:8888&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;You can run&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker ps&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker ps&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;to see that a container containing our simple Dart based HTTP server is running.&lt;/p&gt;
 
@@ -3582,49 +3609,49 @@ according to the regulatories of the
 
 &lt;p&gt;It is recommended to inspect the git repository of &lt;a href=&quot;https://github.com/nkratzke/containerdart&quot;&gt;Containerdart&lt;/a&gt; on github. You will see it is a normal Dart package except one additional file called &lt;em&gt;Dockerfile&lt;/em&gt;. Docker uses dockerfiles to automate image generation. It is a great and simple format to define deployments.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Install a dart container for demonstration purposes.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Your dart server app will be accessible via HTTP on container port 8080.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# You should adapt this Dockerfile to your needs.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# If you are new to Dockerfiles please read&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# http://docs.docker.io/en/latest/reference/builder/&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# to learn more about Dockerfiles.&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Install a dart container for demonstration purposes.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Your dart server app will be accessible via HTTP on container port 8080.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# You should adapt this Dockerfile to your needs.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# If you are new to Dockerfiles please read&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# http://docs.docker.io/en/latest/reference/builder/&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# to learn more about Dockerfiles.&lt;/span&gt;
 
 FROM stackbrew/ubuntu:13.10
 MAINTAINER Nane Kratzke &amp;lt;nane@nkode.io&amp;gt;
 
-&lt;span class=&quot;c&quot;&gt;# Install Dart SDK. Do not touch this until you know what you are doing.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# We do not install darteditor nor dartium because this is a server container.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Install Dart SDK. Do not touch this until you know what you are doing.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# We do not install darteditor nor dartium because this is a server container.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu&lt;/span&gt;
 RUN apt-get update
 RUN apt-get install -y software-properties-common python-software-properties
 RUN apt-add-repository ppa:hachre/dart
 RUN apt-get -y update
 RUN apt-get install -y dartsdk
 
-&lt;span class=&quot;c&quot;&gt;# Install the dart server app. Add additional directories if necessary for your app.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Install the dart server app. Add additional directories if necessary for your app.&lt;/span&gt;
 ADD pubspec.yaml /container/pubspec.yaml
 ADD bin          /container/bin
 ADD web          /container/web
 
-&lt;span class=&quot;c&quot;&gt;# Build the app. Do not touch this.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Build the app. Do not touch this.&lt;/span&gt;
 WORKDIR /container
 RUN pub build
 
-&lt;span class=&quot;c&quot;&gt;# Expose port 8080. You should change it to the port(s) your app is serving on.&lt;/span&gt;
-EXPOSE 8080
+&lt;span class=&quot;c1&quot;&gt;# Expose port 8080. You should change it to the port(s) your app is serving on.&lt;/span&gt;
+EXPOSE &lt;span class=&quot;m&quot;&gt;8080&lt;/span&gt;
 
-&lt;span class=&quot;c&quot;&gt;# Entrypoint.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Whenever the container is started the following command is executed in your container.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# In most cases it simply starts your app.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Entrypoint.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Whenever the container is started the following command is executed in your container.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# In most cases it simply starts your app.&lt;/span&gt;
 WORKDIR /container/bin
 ENTRYPOINT &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;dart&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
 
-&lt;span class=&quot;c&quot;&gt;# Change this to your starting dart.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Change this to your starting dart.&lt;/span&gt;
 CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;httpserver.dart&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;This file explains docker what to do when&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker build -t containerdart github.com/nkratzke/containerdart&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker build -t containerdart github.com/nkratzke/containerdart&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;is called. So the above shown &lt;em&gt;Dockerfile&lt;/em&gt; extends&lt;/p&gt;
 
@@ -3644,11 +3671,11 @@ CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&
 
 &lt;p&gt;You can install it using docker&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker build -t dartchat github.com/nkratzke/dartchat&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker build -t dartchat github.com/nkratzke/dartchat&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;and run it like this&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;docker run -p 8080:3000 -d dartchat&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;docker run -p &lt;span class=&quot;m&quot;&gt;8080&lt;/span&gt;:3000 -d dartchat&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Accessing &lt;a href=&quot;http://localhost:8080&quot;&gt;http://localhost:8080&lt;/a&gt; will provide you following webpage:&lt;/p&gt;
 
@@ -3659,43 +3686,43 @@ CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&
 
 &lt;p&gt;The responsible &lt;em&gt;Dockerfile&lt;/em&gt; of Dartchat looks like this:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Install a dartchat as a docker container.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Dartchat will be exposed via HTTP on port 3000.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# This file is hosted on github. Therefore you can start it in docker like this:&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# &amp;gt; docker build -t dartchat github.com/nkratzke/dartchat&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# &amp;gt; docker run -p 8080:3000 -d dartchat&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Install a dartchat as a docker container.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Dartchat will be exposed via HTTP on port 3000.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# This file is hosted on github. Therefore you can start it in docker like this:&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# &amp;gt; docker build -t dartchat github.com/nkratzke/dartchat&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# &amp;gt; docker run -p 8080:3000 -d dartchat&lt;/span&gt;
 
 FROM stackbrew/ubuntu:13.10
 MAINTAINER Nane Kratzke &amp;lt;nane@nkode.io&amp;gt;
 
-&lt;span class=&quot;c&quot;&gt;# Install Dart SDK. Do not touch this until you know what you are doing.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# We do not install darteditor nor dartium because this is a server container.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Install Dart SDK. Do not touch this until you know what you are doing.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# We do not install darteditor nor dartium because this is a server container.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu&lt;/span&gt;
 RUN apt-get update
 RUN apt-get install -y software-properties-common python-software-properties
 RUN apt-add-repository ppa:hachre/dart
 RUN apt-get -y update
 RUN apt-get install -y dartsdk
 
-&lt;span class=&quot;c&quot;&gt;# Install the dart server app.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Install the dart server app.&lt;/span&gt;
 ADD pubspec.yaml /container/pubspec.yaml
 ADD lib          /container/lib
 ADD bin          /container/bin
 ADD web          /container/web
 
-&lt;span class=&quot;c&quot;&gt;# Build the app. Do not touch this.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Build the app. Do not touch this.&lt;/span&gt;
 WORKDIR /container
 RUN pub build
 
-&lt;span class=&quot;c&quot;&gt;# Expose port 3000.&lt;/span&gt;
-EXPOSE 3000
+&lt;span class=&quot;c1&quot;&gt;# Expose port 3000.&lt;/span&gt;
+EXPOSE &lt;span class=&quot;m&quot;&gt;3000&lt;/span&gt;
 
-&lt;span class=&quot;c&quot;&gt;# Entrypoint.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Entrypoint.&lt;/span&gt;
 WORKDIR /container/bin
 ENTRYPOINT &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;dart&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
 
-&lt;span class=&quot;c&quot;&gt;# Change this to your starting dart.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Change this to your starting dart.&lt;/span&gt;
 CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;chartserver.dart&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3&gt;Closing remarks regarding docker (on non linux systems)&lt;/h3&gt;
@@ -3704,8 +3731,8 @@ CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&
 
       </description>
       <pubDate>Wed, 05 Mar 2014 15:12:00 +0100</pubDate>
-      <link>http://www.nkode.io//2014/03/05/dockerize-dart.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/03/05/dockerize-dart.html</guid>
+      <link>http://localhost:4000//2014/03/05/dockerize-dart.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/03/05/dockerize-dart.html</guid>
     </item>
     
     <item>
@@ -3734,8 +3761,8 @@ CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&
 
       </description>
       <pubDate>Tue, 04 Mar 2014 10:56:13 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2014/03/04/thesis-pumpscanner.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2014/03/04/thesis-pumpscanner.html</guid>
+      <link>http://localhost:4000//thesis/2014/03/04/thesis-pumpscanner.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2014/03/04/thesis-pumpscanner.html</guid>
     </item>
     
     <item>
@@ -3781,8 +3808,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Sat, 01 Mar 2014 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//lecture/2014/03/01/lecture-webtech.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2014/03/01/lecture-webtech.html</guid>
+      <link>http://localhost:4000//lecture/2014/03/01/lecture-webtech.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2014/03/01/lecture-webtech.html</guid>
     </item>
     
     <item>
@@ -3829,8 +3856,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Fri, 28 Feb 2014 15:12:00 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/28/dart-part-II.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/28/dart-part-II.html</guid>
+      <link>http://localhost:4000//2014/02/28/dart-part-II.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/02/28/dart-part-II.html</guid>
     </item>
     
     <item>
@@ -3841,7 +3868,7 @@ Course is supported by educational grants from:
 
 &lt;p&gt;That is how my &lt;a href=&quot;https://github.com/lvivski/start/issues/49&quot;&gt;proposal&lt;/a&gt; looked like:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/**&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;cm&quot;&gt;/**&lt;/span&gt;
 &lt;span class=&quot;cm&quot;&gt; * Method to get post parameters from a [Request] object.&lt;/span&gt;
 &lt;span class=&quot;cm&quot;&gt; */&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Future&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getPostParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Encoding&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;enc:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UTF8&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -3859,7 +3886,7 @@ Course is supported by educational grants from:
 
 &lt;p&gt;This proposal has made it to &lt;a href=&quot;https://github.com/lvivski/start&quot;&gt;Start&lt;/a&gt; version 0.2.1 with following &lt;a href=&quot;https://github.com/lvivski/start/commit/8b68217ae8b3674429e883fc64f1a66b6f8dfcc8&quot;&gt;commit&lt;/a&gt;. So with &lt;a href=&quot;https://github.com/lvivski/start&quot;&gt;Start&lt;/a&gt; version 0.2.1 you can do now the following pragmatic form of post request parameter handling.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;package:start/start.dart&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;package:start/start.dart&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;port:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Server&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -3885,7 +3912,7 @@ Course is supported by educational grants from:
 
 &lt;p&gt;Since &lt;a href=&quot;https://github.com/lvivski/start&quot;&gt;Start&lt;/a&gt; version 0.2.2 you should use &lt;code&gt;payload()&lt;/code&gt;. By using &lt;code&gt;payload&lt;/code&gt; you can also handle parameters provided via POST, PUT, DELETE in request body. Above mentioned parameter handling changes to:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;package:start/start.dart&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;package:start/start.dart&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;port:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Server&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -3908,8 +3935,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Tue, 25 Feb 2014 16:39:48 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/25/pragmatic-request-parameter-handling-start.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/25/pragmatic-request-parameter-handling-start.html</guid>
+      <link>http://localhost:4000//2014/02/25/pragmatic-request-parameter-handling-start.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/02/25/pragmatic-request-parameter-handling-start.html</guid>
     </item>
     
     <item>
@@ -3937,8 +3964,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Fri, 21 Feb 2014 20:37:25 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2014/02/21/thesis-kinect-control.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2014/02/21/thesis-kinect-control.html</guid>
+      <link>http://localhost:4000//thesis/2014/02/21/thesis-kinect-control.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2014/02/21/thesis-kinect-control.html</guid>
     </item>
     
     <item>
@@ -3956,7 +3983,7 @@ concurrency aspects (&lt;a href=&quot;https://en.wikipedia.org/wiki/Thread_safet
 by applying the following function &lt;code&gt;fib&lt;/code&gt; (and of course the fibonacci function is here only a
 placeholder for any computational intensive function of the real world)&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
@@ -3964,7 +3991,7 @@ placeholder for any computational intensive function of the real world)&lt;/p&gt
 
 &lt;p&gt;we could do this in Dart like that (a very simple example of map/reduce):&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
   &lt;span class=&quot;s2&quot;&gt;&amp;quot;fib(40) + fib(41) + ... + fib(45) = &amp;quot;&lt;/span&gt;
   &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
@@ -3972,7 +3999,7 @@ placeholder for any computational intensive function of the real world)&lt;/p&gt
 
 &lt;p&gt;This would prompt the following result on console.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;40&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; + fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;41&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; + ... + fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;45&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 2805634932&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; + fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; + ... + fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2805634932&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3&gt; Parallelize map &lt;/h3&gt;
 
@@ -3997,7 +4024,7 @@ more than one thread in parallel).&lt;/p&gt;
 
 &lt;p&gt;By using Rochas Worker package the calculation of our fibonacci sum can be parallelized like that&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;package:worker/worker.dart&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;package:worker/worker.dart&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;dart:async&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -4036,7 +4063,7 @@ more than one thread in parallel).&lt;/p&gt;
 
 &lt;p&gt;and we will get the same result (but now computed in parallel).&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;40&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; + fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;41&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; + ... + fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;45&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 2805634932&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; + fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; + ... + fib&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2805634932&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3&gt; Discussion of the worker solution &lt;/h3&gt;
 
@@ -4051,7 +4078,7 @@ Me either (but actual it is not possible to do it in another way, but we will co
 
 &lt;p&gt;Let us take our initial problem.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
   &lt;span class=&quot;s2&quot;&gt;&amp;quot;fib(40) + fib(41) + ... + fib(45) = &amp;quot;&lt;/span&gt;
   &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
@@ -4067,12 +4094,12 @@ in parallel&lt;/em&gt; (and not in sequential order, which is what &lt;code&gt;m
 
 &lt;p&gt;This is called a &lt;strong&gt;parallel map&lt;/strong&gt; and it works great on iterables. Parallel map &lt;code&gt;pmap&lt;/code&gt; might be typed like that:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Future&amp;lt;Iterable&amp;gt; pmap&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;dynamic f&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;dynamic&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;Future&amp;lt;Iterable&amp;gt; pmap&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;dynamic f&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;dynamic&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Because &lt;code&gt;pmap&lt;/code&gt; returns a &lt;code&gt;Future&lt;/code&gt; (it is executed asynchronously because it is parallel) of an &lt;code&gt;Iterable&lt;/code&gt; we have to rewrite our
 initial problem a little bit.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pmap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
     &lt;span class=&quot;s2&quot;&gt;&amp;quot;fib(40) + fib(41) + ... + fib(45) = &amp;quot;&lt;/span&gt;
@@ -4089,18 +4116,18 @@ initial problem a little bit.&lt;/p&gt;
 &lt;p&gt;Gilad Bracha has written an interesting blog post about &lt;a href=&quot;https://www.dartlang.org/articles/emulating-functions/&quot;&gt;emulating functions in Dart&lt;/a&gt;. According to this article we
 are able to implement our fibonacci function as a &lt;em&gt;wannabe function&lt;/em&gt; like that&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FibFunc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FibFunc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;and we can instantiate objects of this class being callable like &amp;quot;normal&amp;quot; functions.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fibFunc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FibFunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fibFunc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FibFunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib40&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fibFunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;These objects are no closures but behave like functions and they are transferable between isolates. Our solution would change into&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FibFunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pmap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
@@ -4118,13 +4145,13 @@ is in fact only a small wrapper around the worker package. It defines a parallel
 
 &lt;p&gt;Therefore the parallel package defines a function &lt;code&gt;parallel&lt;/code&gt; to transform any &lt;code&gt;Iterable&lt;/code&gt; collection into a &lt;code&gt;PIterable&lt;/code&gt; collection.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;n&quot;&gt;PIterable&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Iterable&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PIterable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PIterable&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Iterable&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PIterable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Future&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;It furthermore defines a library private &lt;code&gt;MessagableFunction&lt;/code&gt; by extending the &lt;code&gt;Task&lt;/code&gt; concept of the &lt;a href=&quot;https://pub.dartlang.org/packages/worker&quot;&gt;Worker&lt;/a&gt; package (this library private class is in fact the bridge to the worker package).&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;_MessageableFunction&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Task&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;_MessageableFunction&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Task&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;_MessageableFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
@@ -4133,7 +4160,7 @@ is in fact only a small wrapper around the worker package. It defines a parallel
 
 &lt;p&gt;Finally the &lt;code&gt;PIterable&lt;/code&gt; class is implemented like this:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PIterable&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Iterable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PIterable&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Iterable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 
   &lt;span class=&quot;c1&quot;&gt;// Wrapped future of an iterable&lt;/span&gt;
   &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Future&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Iterable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_futureIterable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -4178,7 +4205,7 @@ on &lt;code&gt;PIterable&lt;/code&gt; which can be executed in parallel.&lt;/p&g
 you can combine the parallel &lt;code&gt;map&lt;/code&gt; with all methods known from &lt;code&gt;Iterable&lt;/code&gt; (for example
 &lt;code&gt;reduce&lt;/code&gt;).&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FibFunc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FibFunc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -4214,11 +4241,11 @@ you can combine the parallel &lt;code&gt;map&lt;/code&gt; with all methods known
 
 &lt;p&gt;It would be great if Dart had a syntax to create anonymous wannabe functions (not closures) so that&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;  &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// the closure form would be (n) =&amp;gt; fib(n)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;  &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// the closure form would be (n) =&amp;gt; fib(n)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;would be syntactic sugar for:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;  &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FibFunc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;  &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FibFunc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FibFunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -4226,7 +4253,7 @@ you can combine the parallel &lt;code&gt;map&lt;/code&gt; with all methods known
 &lt;p&gt;If Dart would provide that form of syntactic sugar it would be possible to come very close
 to a pragmatic form to express parallelization in Dart:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;  &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span&gt;&lt;/span&gt;  &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;41&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;43&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;44&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
   &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;       &lt;span class=&quot;c1&quot;&gt;// parallel&lt;/span&gt;
                           &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// delegated to Iterable&lt;/span&gt;
                           &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -4235,8 +4262,8 @@ to a pragmatic form to express parallelization in Dart:&lt;/p&gt;
 
       </description>
       <pubDate>Tue, 18 Feb 2014 16:39:48 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/18/parallels-dart.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/18/parallels-dart.html</guid>
+      <link>http://localhost:4000//2014/02/18/parallels-dart.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/02/18/parallels-dart.html</guid>
     </item>
     
     <item>
@@ -4279,8 +4306,8 @@ and destroy obstacles. Exploding bombs can set off other bombs, kill or injure e
 
       </description>
       <pubDate>Mon, 17 Feb 2014 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2014/02/17/thesis-bomberman.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2014/02/17/thesis-bomberman.html</guid>
+      <link>http://localhost:4000//thesis/2014/02/17/thesis-bomberman.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2014/02/17/thesis-bomberman.html</guid>
     </item>
     
     <item>
@@ -4315,8 +4342,8 @@ conversion of data formats (often used in the web domain)&lt;/em&gt;.&lt;/p&gt;
 
       </description>
       <pubDate>Thu, 13 Feb 2014 09:39:48 +0100</pubDate>
-      <link>http://www.nkode.io//2014/02/13/dart-part-I.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//2014/02/13/dart-part-I.html</guid>
+      <link>http://localhost:4000//2014/02/13/dart-part-I.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2014/02/13/dart-part-I.html</guid>
     </item>
     
     <item>
@@ -4393,8 +4420,8 @@ Sensordaten wie die nativ entwickelte App darstellen)&lt;/li&gt;
 
       </description>
       <pubDate>Fri, 08 Nov 2013 00:00:00 +0100</pubDate>
-      <link>http://www.nkode.io//thesis/2013/11/08/thesis-evaluation-cross-mobile-frameworks.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2013/11/08/thesis-evaluation-cross-mobile-frameworks.html</guid>
+      <link>http://localhost:4000//thesis/2013/11/08/thesis-evaluation-cross-mobile-frameworks.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2013/11/08/thesis-evaluation-cross-mobile-frameworks.html</guid>
     </item>
     
     <item>
@@ -4463,8 +4490,8 @@ und aufbereitet werden.&lt;/p&gt;
 
       </description>
       <pubDate>Thu, 08 Aug 2013 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//thesis/2013/08/08/thesis-test-mobile-apps.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//thesis/2013/08/08/thesis-test-mobile-apps.html</guid>
+      <link>http://localhost:4000//thesis/2013/08/08/thesis-test-mobile-apps.html</link>
+      <guid isPermaLink="true">http://localhost:4000//thesis/2013/08/08/thesis-test-mobile-apps.html</guid>
     </item>
     
     <item>
@@ -4510,8 +4537,8 @@ Course is supported by educational grants from:
 
       </description>
       <pubDate>Sat, 01 Sep 2012 00:00:00 +0200</pubDate>
-      <link>http://www.nkode.io//lecture/2012/09/01/lecture-db-web-programming.html</link>
-      <guid isPermaLink="true">http://www.nkode.io//lecture/2012/09/01/lecture-db-web-programming.html</guid>
+      <link>http://localhost:4000//lecture/2012/09/01/lecture-db-web-programming.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2012/09/01/lecture-db-web-programming.html</guid>
     </item>
     
   </channel>

@@ -7,6 +7,45 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A List of Serverless Frameworks</title>
+      <description>
+        
+        &lt;p&gt;Serverless computing is a cloud computing execution model in which the the allocation of machine resources is dynamically managed. There is a good blog bost by Mike Roberts on &lt;a href=&quot;https://martinfowler.com/articles/serverless.html&quot;&gt;serverless architectures&lt;/a&gt; for the interested reader. &amp;quot;Serverless computing&amp;quot; is misleading to some degree. Obviously servers are still needed, but the term &amp;quot;serverless&amp;quot; is used because the server management and capacity planning decisions are completely hidden from the developer or operator. Serverless code can be used in conjunction with code deployed in more traditional styles, such as microservices. However, applications can be written to be purely serverless as well.&lt;/p&gt;
+
+&lt;p&gt;There are very well curated link lists dealing with serverless computing in general like &lt;a href=&quot;https://github.com/anaibol/awesome-serverless&quot;&gt;Awesome serverless&lt;/a&gt;. However, this blog post would like to concentrate only on the frameworks. The main intent is to curate a list of open source serverless frameworks over time.&lt;/p&gt;
+
+&lt;h3&gt;Commercial serverless frameworks&lt;/h3&gt;
+
+&lt;p&gt;Most public cloud service providers offer compute runtimes, also known as function as a service (FaaS) platforms. Here are some well known type representatives.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.google.com/appengine/&quot;&gt;Google App Engine&lt;/a&gt; (one of the first commercially successfull solutions, however App Engine relies on a custom Python framework.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/de/lambda/&quot;&gt;AWS Lambda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.google.com/functions/&quot;&gt;Google Cloud Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/services/functions/&quot;&gt;Azure Functions&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Open (source) serverless frameworks&lt;/h3&gt;
+
+&lt;p&gt;All of the mentioned commercial serverless computing models are prone to create vendor lock-in (to some degree). Therefore, open source serverless frameworks might be an alternative with the downside that the infrastructure must be operated. Obviously these frameworks need platforms or infrastructures to be executed on. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://openwhisk.incubator.apache.org/&quot;&gt;OpenWhisk&lt;/a&gt; by Apache includes native support for Node.js, Python, Java, and Swift, and supports other languages and runtime via Docker containers.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kubeless.io/&quot;&gt;Kubeless&lt;/a&gt;, a serverless framework for Kubernetes.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://fission.io/&quot;&gt;Fission&lt;/a&gt;, another serverless framework for Kubernetes, supporting Python, NodeJS, Go, C#, and PHP.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://funktion.fabric8.io/&quot;&gt;Funktion&lt;/a&gt;, an event-based lambda programming environment for Kubernetes.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/alexellis/faas&quot;&gt;Functions as a Service (OpenFaaS)&lt;/a&gt; - a serverless framework for Docker &amp;amp; Kubernetes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This list is likely not complete. If you know further serverless frameworks do not hesitate to contact me.&lt;/p&gt;
+
+      </description>
+      <pubDate>Tue, 12 Sep 2017 00:00:00 +0200</pubDate>
+      <link>http://localhost:4000//2017/09/12/serverless-frameworks.html</link>
+      <guid isPermaLink="true">http://localhost:4000//2017/09/12/serverless-frameworks.html</guid>
+    </item>
+    
+    <item>
       <title>And the winner is ... Dynamite Man</title>
       <description>
         
@@ -244,6 +283,61 @@ Die Übertragbarkeit des Spielkonzepts auf Smartphones ist grundsätzlich konzep
       <pubDate>Tue, 21 Feb 2017 00:00:00 +0100</pubDate>
       <link>http://localhost:4000//thesis/2017/02/21/thesis-learn-to-prog.html</link>
       <guid isPermaLink="true">http://localhost:4000//thesis/2017/02/21/thesis-learn-to-prog.html</guid>
+    </item>
+    
+    <item>
+      <title>#BTW17</title>
+      <description>
+        
+        &lt;table class=&quot;project&quot;&gt;
+&lt;tr&gt;
+  &lt;th&gt;Project duration&lt;/th&gt;
+  &lt;td&gt;1st Feb. 2017 - 28th Feb. 2018&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;th&gt;Project manager&lt;/th&gt;
+  &lt;td&gt;Prof. Nane Kratzke&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;Research context&lt;/h3&gt;
+
+&lt;p&gt;Data-driven political campaigns can be successful. &lt;em&gt;&amp;quot;The Obama 2012 campaign used data analytics and the experimental method to assemble a winning coalition vote by vote. In doing so, it overturned the long dominance of TV advertising in U.S. politics and created something new in the world: a national campaign run like a local ward election, where the interests of individual voters were known and addressed.&amp;quot;&lt;/em&gt; &lt;a href=&quot;https://www.technologyreview.com/s/509026/how-obamas-team-used-big-data-to-rally-voters/&quot;&gt;Technology Review&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;But four years later, &lt;a href=&quot;https://www.washingtonpost.com/news/post-politics/wp/2016/11/09/clintons-data-driven-campaign-relied-heavily-on-an-algorithm-named-ada-what-didnt-she-see/?utm_term=.0d42b30d02c7&quot;&gt;Hillary Clinton’s data-driven campaign&lt;/a&gt; organized by the same party failed under the eyes of the world. The question is why data-driven campaigns worked for Barack Obama but not for Hillary Clinton? There is an interesting &lt;a href=&quot;http://www.politico.com/magazine/story/2017/02/data-driven-campaigns-democrats-need-message-214759&quot;&gt;article&lt;/a&gt;
+proclaiming that ‘data-driven’ campaigns are killing the US Democratic Party, because the wrong lessons from Obama’s success have been learned. Dave Gold states that &lt;em&gt;&amp;quot;Democrats have allowed microtargeting to become microthinking. Each cycle, we speak to fewer and fewer people and have less and less to say&amp;quot;&lt;/em&gt; although adressing the right audience. So, whether this is true or not can not be answered by this paper. However, it should be obvious for the reader that data collected acompanying such election campaigns might contain worthful insights.&lt;/p&gt;
+
+&lt;p&gt;Especially Twitter analysis of US election campaigns are done for a while. However, there exist only &lt;a href=&quot;http://journals.sagepub.com/doi/10.1177/0894439314558836&quot;&gt;some open accessible Twitter datasets&lt;/a&gt; with a clear focus on political election campaigns in countries of the European Union. That is why this project records Twitter interactions for one further European country (Germany).&lt;/p&gt;
+
+&lt;p&gt;One major motivation to record this dataset is to collect Twitter data in the &amp;quot;hot&amp;quot; (pre-)phase of political election campaigns in Germany. Social media channels are used more or more intensively by all political parties to distribute political messages and it is more than likely that the professionality -- or the data-driveness -- will increase in the future. So, this dataset might be one of the latest recordable datasets without being affected by too much microtargeting effects in political campaigning in Germany. Therefore, it might be used for future studies analyzing the campaigns for the 19th German Bundestag but also as a reference dataset to measure &amp;#39;data-driven&amp;#39; effects of political campaigns and microtargeting on Twitter in future campaigns.&lt;/p&gt;
+
+&lt;h3&gt;Research objectives&lt;/h3&gt;
+
+&lt;p&gt;The project has the following objectives:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Record&lt;/strong&gt; a representative dataset of Twitter interactions during to pre- and hot-phase for the 19th German Bundestag elections.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provide&lt;/strong&gt; this dataset via an Open Data platform like &lt;a href=&quot;https://zenodo.org/&quot;&gt;Zenodo&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Develop&lt;/strong&gt; or contribute to pragmatic software tools that enable to record Twitter datasets over long period of times.&lt;/li&gt;
+&lt;li&gt;Perform a &lt;strong&gt;network analysis&lt;/strong&gt; of the recorded dataset regarding political parties in Germany.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publish&lt;/strong&gt; analysis results in Open Access scholary contribution channels.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Provided software and datasets&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/nkratzke/twista&quot;&gt;Twista&lt;/a&gt; is a Twitter streaming and analysis command line tool.&lt;/li&gt;
+&lt;li&gt;BTW17 dataset (recording until 24th Sept. 2017)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Publications&lt;/h3&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
+
+      </description>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
+      <link>http://localhost:4000//research/project/2017/02/01/project-btw17.html</link>
+      <guid isPermaLink="true">http://localhost:4000//research/project/2017/02/01/project-btw17.html</guid>
     </item>
     
     <item>

@@ -14,7 +14,7 @@
 
 &lt;p&gt;There are very well curated link lists dealing with serverless computing in general like &lt;a href=&quot;https://github.com/anaibol/awesome-serverless&quot;&gt;Awesome serverless&lt;/a&gt;. However, this blog post would like to concentrate only on the frameworks. The main intent is to curate a list of open source serverless frameworks over time.&lt;/p&gt;
 
-&lt;h3&gt;Commercial serverless frameworks&lt;/h3&gt;
+&lt;h3&gt;Public (commercial) serverless services&lt;/h3&gt;
 
 &lt;p&gt;Most public cloud service providers offer compute runtimes, also known as function as a service (FaaS) platforms. Here are some well known type representatives.&lt;/p&gt;
 
@@ -25,7 +25,7 @@
 &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/services/functions/&quot;&gt;Azure Functions&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Open (source) serverless frameworks&lt;/h3&gt;
+&lt;h3&gt;Open (source) serverless platforms&lt;/h3&gt;
 
 &lt;p&gt;All of the mentioned commercial serverless computing models are prone to create vendor lock-in (to some degree). Therefore, open source serverless frameworks might be an alternative with the downside that the infrastructure must be operated. Obviously these frameworks need platforms or infrastructures to be executed on. &lt;/p&gt;
 
@@ -35,9 +35,22 @@
 &lt;li&gt;&lt;a href=&quot;http://fission.io/&quot;&gt;Fission&lt;/a&gt;, another serverless framework for Kubernetes, supporting Python, NodeJS, Go, C#, and PHP.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://funktion.fabric8.io/&quot;&gt;Funktion&lt;/a&gt;, an event-based lambda programming environment for Kubernetes.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/alexellis/faas&quot;&gt;Functions as a Service (OpenFaaS)&lt;/a&gt; - a serverless framework for Docker &amp;amp; Kubernetes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/iron-io/functions&quot;&gt;IronFunctions&lt;/a&gt; - the serverless microservices platform&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-function&quot;&gt;SpringCloud Functions&lt;/a&gt; - the serverless approach of Spring&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This list is likely not complete. If you know further serverless frameworks do not hesitate to contact me.&lt;/p&gt;
+&lt;p&gt;This list is likely not complete. If you know further serverless platforms do not hesitate to contact me.&lt;/p&gt;
+
+&lt;h3&gt;Provider agnostic serverless frameworks&lt;/h3&gt;
+
+&lt;p&gt;While serverless platforms need infrastructures to be executed on, provider agnostic serverless frameworks provide a provider and platform agnostic way to define and deploy serverless code on various serverless platforms or commercial serverless services. This is an option to avoid (or reduce) vendor lock-in without the necessity to operate an own infrastructure.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://serverless.com/&quot;&gt;Serverless Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https//squeezer.io&quot;&gt;Squeezer Framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This list is likely not complete. If you know further provider agnostic serverless frameworks do not hesitate to contact me.&lt;/p&gt;
 
       </description>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0200</pubDate>

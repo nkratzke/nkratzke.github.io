@@ -7,6 +7,99 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Programming I (Winter 2017)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming
+for freshman students.&lt;/p&gt;
+
+&lt;p&gt;This course covers aspects like primitive and reference data types, operators, expressions,
+control flow, routine (method) definitions, I/O programming,
+recursive and object oriented programming.
+JAVA is used as teaching language, nevertheless the principles are applicable to every (imperative or class based object oriented) programming language.&lt;/p&gt;
+
+&lt;p&gt;The course is given for computer science students at Lübeck University of Applied Sciences.&lt;/p&gt;
+
+&lt;p&gt;Lecture will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fundamental concepts&lt;/strong&gt; of programming including &lt;strong&gt;programming paradigms&lt;/strong&gt; and &lt;strong&gt;runtime models&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;, &lt;strong&gt;data types&lt;/strong&gt;, &lt;strong&gt;operators&lt;/strong&gt; and &lt;strong&gt;expressions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control flow&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt; (functions, procedures, methods)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference data types&lt;/strong&gt; and &lt;strong&gt;collections&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(Stream based) &lt;strong&gt;I/O programming&lt;/strong&gt; and &lt;strong&gt;serialization&lt;/strong&gt; of objects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recursive programming&lt;/strong&gt; and &lt;strong&gt;recursive datastructures&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Functional programming&lt;/strong&gt; using &lt;strong&gt;lambda functions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exception handling&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Introduction to &lt;strong&gt;object oriented programming&lt;/strong&gt; and &lt;strong&gt;UML&lt;/strong&gt; introducing fundamental concepts like &lt;strong&gt;abstraction&lt;/strong&gt;, &lt;strong&gt;encapsulation&lt;/strong&gt;, &lt;strong&gt;polymorphism&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Course Material (german only)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture Unit 1: &lt;a href=&quot;/assets/ws2017/progI/Unit_01.pdf&quot;&gt;Core concepts of programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 2: &lt;a href=&quot;/assets/ws2017/progI/Unit_02.pdf&quot;&gt;Fundamentals of imperative programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 3: &lt;a href=&quot;/assets/ws2017/progI/Unit_03.pdf&quot;&gt;Reference data types and collections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2017/progI/Unit_04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2017/progI/Unit_05.pdf&quot;&gt;Recursive and functional programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ws2017/progI/Unit_06.pdf&quot;&gt;OO and UML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2017/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0200</pubDate>
+      <link>http://localhost:4000//lecture/2017/09/21/lecture-programming-i.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2017/09/21/lecture-programming-i.html</guid>
+    </item>
+    
+    <item>
+      <title>Introduction to Programming (Winter 2017)</title>
+      <description>
+        
+        &lt;img src=&quot;/img/posts/java-code.jpg&quot;&gt;
+        
+        &lt;p&gt;The lecture provides an introduction into programming
+for freshman students.&lt;/p&gt;
+
+&lt;p&gt;The lecture covers basic aspects like primitive and reference data types, operators, expressions,
+control flow, routine (method) definitions
+recursive and object oriented programming.
+JAVA is used as teaching language, nevertheless the principles are applicable to every (imperative or class based object oriented) programming language.&lt;/p&gt;
+
+&lt;p&gt;The lecture is given for &lt;em&gt;information technology and design&lt;/em&gt; students at Lübeck University of Applied Sciences.&lt;/p&gt;
+
+&lt;p&gt;Lecture will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fundamental concepts&lt;/strong&gt; of programming including &lt;strong&gt;programming paradigms&lt;/strong&gt; and &lt;strong&gt;runtime models&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;, &lt;strong&gt;data types&lt;/strong&gt;, &lt;strong&gt;operators&lt;/strong&gt; and &lt;strong&gt;expressions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control flow&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt; (functions, procedures, methods)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference data types&lt;/strong&gt; and &lt;strong&gt;collections&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;(Stream based) &lt;strong&gt;I/O programming&lt;/strong&gt; and &lt;strong&gt;serialization&lt;/strong&gt; of objects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recursive programming&lt;/strong&gt; and &lt;strong&gt;datastructures&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Course Material (german only)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture Unit 1: &lt;a href=&quot;/assets/ws2017/progI/Unit_01.pdf&quot;&gt;Core concepts of programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 2: &lt;a href=&quot;/assets/ws2017/progI/Unit_02.pdf&quot;&gt;Fundamentals of imperative programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 3: &lt;a href=&quot;/assets/ws2017/progI/Unit_03.pdf&quot;&gt;Reference data types and collections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2017/progI/Unit_04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt; (skipped, just for self study)&lt;/li&gt;
+&lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2017/progI/Unit_05.pdf&quot;&gt;Recursive programming&lt;/a&gt; (functional programming skipped, just for self study)&lt;/li&gt;
+&lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2017/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0200</pubDate>
+      <link>http://localhost:4000//lecture/2017/09/21/introduction-to-prgramming.html</link>
+      <guid isPermaLink="true">http://localhost:4000//lecture/2017/09/21/introduction-to-prgramming.html</guid>
+    </item>
+    
+    <item>
       <title>A List of Serverless Frameworks</title>
       <description>
         

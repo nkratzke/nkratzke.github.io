@@ -292,7 +292,7 @@
 <loc>http://localhost:4000/thesis.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/bibliography/Finnern2017.html</loc>
+<loc>http://localhost:4000/bibliography/QK2017.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/bibliography/KQ2017a.html</loc>
@@ -301,7 +301,7 @@
 <loc>http://localhost:4000/bibliography/Kra2017a.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/bibliography/KQ2016b.html</loc>
+<loc>http://localhost:4000/bibliography/Finnern2017.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/bibliography/KP2016.html</loc>
@@ -323,6 +323,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/bibliography/KQP+2016.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bibliography/KQ2016b.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/bibliography/KQ2015.html</loc>

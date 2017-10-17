@@ -3432,16 +3432,19 @@ enterprises.&lt;/p&gt;
 
 &lt;h3&gt;Publications&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Kra2017a]&lt;/strong&gt; &lt;span id=&quot;Kra2017a&quot;&gt;Kratzke, N. (2017). Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms. In &lt;i&gt;Proceedings of the 7th Int. Conf. on Cloud Computing and Services Science (CLOSER 2017)&lt;/i&gt; (pp. 29–42).&lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Finnern2017]&lt;/strong&gt; &lt;span id=&quot;Finnern2017&quot;&gt;Finnern, T. (2017). &lt;i&gt;Analyse und Integration von Storage-Clustern in elastische Container Plattformen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/thesis/2017/2017-thesis-thomas-finnern.pdf&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2017.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[QK2017]&lt;/strong&gt; &lt;span id=&quot;QK2017&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2017). Towards a Description of Elastic Cloud-native Applications for Transferable Multi-Cloud-Deployments. In &lt;i&gt;Proceedings of the 1st Int. Forum on Microservices (Microservices 2017, Odense, Denmark)&lt;/i&gt;.&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2017.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kra2017a]&lt;/strong&gt; &lt;span id=&quot;Kra2017a&quot;&gt;Kratzke, N. (2017). Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms. In &lt;i&gt;Proceedings of the 7th Int. Conf. on Cloud Computing and Services Science (CLOSER 2017)&lt;/i&gt; (pp. 29–42).&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
     &lt;a href='https://www.researchgate.net/publication/313860386'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2017a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Finnern2017]&lt;/strong&gt; &lt;span id=&quot;Finnern2017&quot;&gt;Finnern, T. (2017). &lt;i&gt;Analyse und Integration von Storage-Clustern in elastische Container Plattformen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/thesis/2017/2017-thesis-thomas-finnern.pdf&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2017.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2017a]&lt;/strong&gt; &lt;span id=&quot;KQ2017a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. &lt;i&gt;Journal of Systems and Software&lt;/i&gt;, &lt;i&gt;126&lt;/i&gt;(April), 1–16. https://doi.org/10.1016/j.jss.2017.01.001&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -3449,13 +3452,6 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2017a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[KQ2016b]&lt;/strong&gt; &lt;span id=&quot;KQ2016b&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp;amp; J. Cardoso (Eds.), &lt;i&gt;Cloud Computing and Services Science Selected Papers&lt;/i&gt;. Springer.&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/308219976'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KP2016]&lt;/strong&gt; &lt;span id=&quot;KP2016&quot;&gt;Kratzke, N., &amp;amp; Peinl, R. (2016). ClouNS - a Cloud-Native Application Reference Model for Enterprise Architects. In &lt;i&gt;2016 IEEE 20th International Enterprise Distributed Object Computing Workshop (EDOCW)&lt;/i&gt; (pp. 1–10). https://doi.org/10.1109/EDOCW.2016.7584353&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -3463,16 +3459,6 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KP2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[QK2016a]&lt;/strong&gt; &lt;span id=&quot;QK2016a&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Overcome Vendor Lock-In by Integrating Already Available Container Technologies - Towards Transferability in Cloud Computing for SMEs. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2016 (7th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt;.&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-    &lt;a href='https://www.researchgate.net/publication/292980185'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2016a]&lt;/strong&gt; &lt;span id=&quot;KQ2016a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). ppbench - A Visualizing Network Benchmark for Microservices. In &lt;i&gt;Proceedings of the 6th International Conference on Cloud Computing and Services Science (CLOSER 2016)&lt;/i&gt; (pp. 223–231). https://doi.org/10.5220/0005732202230231&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -3480,6 +3466,16 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[QK2016a]&lt;/strong&gt; &lt;span id=&quot;QK2016a&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Overcome Vendor Lock-In by Integrating Already Available Container Technologies - Towards Transferability in Cloud Computing for SMEs. In &lt;i&gt;Proceedings of CLOUD COMPUTING 2016 (7th. International Conference on Cloud Computing, GRIDS and Virtualization)&lt;/i&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/292980185'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/QK2016a.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Finnern2016]&lt;/strong&gt; &lt;span id=&quot;Finnern2016&quot;&gt;Finnern, T. (2016). &lt;i&gt;Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen&lt;/i&gt;. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Finnern2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[QK2016b]&lt;/strong&gt; &lt;span id=&quot;QK2016b&quot;&gt;Quint, P.-C., &amp;amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. &lt;i&gt;International Journal on Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;9&lt;/i&gt;(3&amp;4), 389–400.&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;
@@ -3494,6 +3490,13 @@ enterprises.&lt;/p&gt;
 &lt;/span&gt;
 
 &lt;a class=&quot;details&quot; href=&quot;/bibliography/KQP+2016.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[KQ2016b]&lt;/strong&gt; &lt;span id=&quot;KQ2016b&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp;amp; J. Cardoso (Eds.), &lt;i&gt;Cloud Computing and Services Science Selected Papers&lt;/i&gt;. Springer.&lt;/span&gt;
+
+&lt;span class=&quot;researchgate&quot;&gt;
+    &lt;a href='https://www.researchgate.net/publication/308219976'&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
+&lt;/span&gt;
+
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/KQ2016b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[KQ2015a]&lt;/strong&gt; &lt;span id=&quot;KQ2015a&quot;&gt;Kratzke, N., &amp;amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. &lt;i&gt;International Journal On Advances in Networks and Services&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8&lt;/span&gt;
 
 &lt;span class=&quot;researchgate&quot;&gt;

@@ -1,187 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
-    <meta property="twitter:account_id" content="4503599630726265" />
-    <title>Autoscaling für elastische Container Plattformen</title>
+<html>
+	<head>
+		<title>Autoscaling für elastische Container Plattformen</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="/css/customize.css" />
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
 
-    <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/customize.css" rel="stylesheet">
-    <link href="/css/syntax.css" rel="stylesheet">
+							<!-- Logo -->
+								<a href="/index.html" class="logo">
+									<span class="symbol"><img src="/img/topic/cloud.png" alt="" /></span><span class="title">nkode.io</span>
+								</a>
 
-    
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
 
-    <link href='/feed.xml' rel='alternate' type='application/atom+xml'>
-    <!-- Google Analytics -->
-    <script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-380838-9']);
-_gaq.push(['_trackPageview']);
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+						</div>
+					</header>
 
-ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="/index.html">Home</a></li>
+							<li><a href="/blog.html">Blog</a></li>
+							<li><a href="/lectures.html">Lectures</a></li>
+							<li><a href="/projects.html">Research Projects</a></li>
+							<li><a href="/thesis.html">Thesis</a></li>
+							<li><a href="/publications.html">Publications</a></li>
+							<li><a href="/about.html">About me</a></li>
+						</ul>
+					</nav>
 
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-  </head>
-  <body>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+<h1>Autoscaling für elastische Container Plattformen</h1>
 
-    <!-- Fixed navbar -->
-<div class="navbar navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-    	<span class="sr-only">Toggle navigation</span>
-    	<span class="icon-bar"></span>
-    	<span class="icon-bar"></span>
-    	<span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/"><div class="brand-icon"></div>nkode.io</a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav pull-right">
-  	    <li id="about"><a href="/about.html">About me</a></li>
-        <li id="blog"><a href="/blog.html">Blog</a></li>
-        <li id="research"><a href="/research.html">Research</a></li>
-        <li id="lectures"><a href="/lectures.html">Lectures</a></li>
-        <li id="thesis"><a href="/thesis.html">Thesis</a></li>
-        <li id="archive"><a href="/log.html">Log</a></li>
-  		  <li id="publications"><a href="/publications.html">Publications</a></li>
-    	</ul>
-    </div>
-  </div>
-</div>
+<img src="/img/posts/automatik.jpg" width="100%"/>
 
 
-    
-    <div class="content">
-      <div class="container">
-        <article class="post thesis">
-	<header>
-		
-		<div class='imgteaser' style='background:transparent url("/img/posts/automatik.jpg") no-repeat center center;background-size:cover'>
-		</div>
-		
-		<div class="headline">
-			
-			<small>(Image: Pixabay.com, MikeBird, Lizenz: CC0 Public Domain)</small>
-			
-			<h2>Autoscaling für elastische Container Plattformen</h2>
-			<p class="meta">
-			
-			Latest update: <strong>2017-09-21</strong>
-			
-			</p>
-		</div>
-	</header>
-	<section>
-		<div class="rightbar">
-			<h3>Tags </h3>
-			<div class="tags hidden-print">
-	<ul>
-	
-		<li><a href="/tag/thesis"><span class="tag">#thesis</span></a></li>
-	
-		<li><a href="/tag/container"><span class="tag">#container</span></a></li>
-	
-		<li><a href="/tag/elastic"><span class="tag">#elastic</span></a></li>
-	
-		<li><a href="/tag/platform"><span class="tag">#platform</span></a></li>
-	
-		<li><a href="/tag/kubernetes"><span class="tag">#kubernetes</span></a></li>
-	
-		<li><a href="/tag/storage"><span class="tag">#storage</span></a></li>
-	
-		<li><a href="/tag/cluster"><span class="tag">#cluster</span></a></li>
-	
-		<li><a href="/tag/autoscaling"><span class="tag">#autoscaling</span></a></li>
-	
-	</ul>
-</div>
+Pixabay.com, MikeBird, Lizenz: CC0 Public Domain
 
-			<h3>Share </h3>
-			<div class="share hidden-print">
-	<ul>
-		<li>
-			<a href="http://twitter.com/home?status=Autoscaling+f%C3%BCr+elastische+Container+Plattformen http://localhost:4000/thesis/2017/01/20/thesis-auto-scaling.html" target="_blank">
-				<img src="/img/social/twitter-128-black.png">
-			</a>
-		</li>
-		<li>
-			<a href="https://plus.google.com/share?url=http://localhost:4000/thesis/2017/01/20/thesis-auto-scaling.html" target="_blank">
-				<img src="/img/social/googleplus-128-black.png">
-			</a>
-		</li>
-		<li>
-			<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/thesis/2017/01/20/thesis-auto-scaling.html&title=Autoscaling+f%C3%BCr+elastische+Container+Plattformen&summary=&source=" target="_blank">
-				<img src="/img/social/linkedin-128-black.png">
-			</a>
-		</li>
-		<li>
-			<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Flocalhost%3A4000%2Fthesis%2F2017%2F01%2F20%2Fthesis-auto-scaling.html&title=Autoscaling+f%C3%BCr+elastische+Container+Plattformen" target="_blank">
-				<img src="/img/social/xing-128-black.png">
-			</a>
-		</li>
-	</ul>
-</div>
+</header>
 
-		</div>
-		<table class="project">
+<ul class='thesismeta'>
 
-<tr>
-	<th>Degree: </th>
-	<td>Bachelor (B. Sc.)</td>
-</tr>
+<li><strong>Author:</strong> Christian Stüben
 
 
-
-<tr>
-	<th>Study programme: </th>
-	<td>Informatik/Softwaretechnik</td>
-</tr>
+<li><strong>State:</strong> completed
 
 
-
-<tr>
-	<th>State: </th>
-	<td>completed</td>
-</tr>
+<li><strong>Study programme:</strong> Informatik/Softwaretechnik
 
 
-
-<tr>
-	<th>Author: </th>
-	<td>Christian Stüben</td>
-</tr>
+<li><strong>Degree:</strong> Bachelor (B. Sc.)
 
 
-
-<tr>
-	<th>Company: </th>
-	<td><a href="http://www.cosa.fh-luebeck.de">CoSA</a></td>
-</tr>
+<li><strong>Company:</strong> <a href="http://www.cosa.fh-luebeck.de">CoSA</a>
 
 
-
-<tr>
-	<th>Language: </th>
-	<td>German</td>
-</tr>
+<li><a href="/assets/thesis/2017/2017-thesis-christian-stueben.pdf">Thesis report</a></li>
 
 
+<li><a href="/assets/thesis/2017/2017-thesis-christian-stueben.zip">Source code</a></li>
 
-</table>
-
-<br>
+</ul>
 
 <p>In dieser Bachelorarbeit sollen existierende Open Source Monitoring Lösungen 
 (wie z.B. der ELK-Stack, Prometheus, etc.) analysiert und mit einer bestehenden 
@@ -194,138 +94,96 @@ Die Arbeit soll jedoch nachweisen,
 dass beliebig erfassbare Metriken (und Metrikkombinationen) für eine Autoskalierung genutzt werden können.
 Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:</p>
 
-<h3>Teilaufgaben</h3>
+<h3 id="teilaufgaben">Teilaufgaben</h3>
 
 <p><em>Hinweis:
 Sollten sich während der Bearbeitung dieser Arbeit einzelne Aspekte als schwer realisierbar erweisen, kann die Aufgabenstellung - nach plausiblem Nachweis der Schwierigkeit - angepasst werden.
 </em></p>
 
-<h4>Analyse von bestehenden Monitoring-Lösungen</h4>
+<h4 id="analyse-von-bestehenden-monitoring-lösungen">Analyse von bestehenden Monitoring-Lösungen</h4>
 
 <p>Es gibt diverse Tools und Tool-Stacks mit denen das Monitoring von Cluster-Nodes erfolgen kann.</p>
 
 <ul>
-<li>Mittels einer Recherche sollen geeignete (mind. drei) Monitoring-Systeme/Stacks identifiziert und verglichen werden.</li>
-<li>Die Kriterien für eine vergleichende Analyse sollen auf dem Funktionsumfang (unterstützt Metriken) und der Skalierbarkeit beruhen. Ausschlusskriterien sind Dienste die nur als externer Service zu Verfügung stehen und Tools unter nicht-freier Lizenz.</li>
-<li>Weitere Kriterien, besonders solche, die für die Umsetzung und Integration mit dem vorhandenen ECP-Deployer zusammenhängen, sollen in Absprache selbstständig identifiziert werden.</li>
+  <li>Mittels einer Recherche sollen geeignete (mind. drei) Monitoring-Systeme/Stacks identifiziert und verglichen werden.</li>
+  <li>Die Kriterien für eine vergleichende Analyse sollen auf dem Funktionsumfang (unterstützt Metriken) und der Skalierbarkeit beruhen. Ausschlusskriterien sind Dienste die nur als externer Service zu Verfügung stehen und Tools unter nicht-freier Lizenz.</li>
+  <li>Weitere Kriterien, besonders solche, die für die Umsetzung und Integration mit dem vorhandenen ECP-Deployer zusammenhängen, sollen in Absprache selbstständig identifiziert werden.</li>
 </ul>
 
-<h4>Automatisches Skalieren des Clusters (Integration)</h4>
+<h4 id="automatisches-skalieren-des-clusters-integration">Automatisches Skalieren des Clusters (Integration)</h4>
 
 <p>Aktuell ist ein Deployer für ein Kubernetes Cluster vorhanden und für andere Plattformen, 
 wie beispielweise Apache Mesos und Docker Swarm, geplant. 
 Der bestehende Deployer soll um eine Monitoring- und Skalierungs-Komponente ergänzt werden.</p>
 
 <ul>
-<li>Entsprechend der vergleichenden Analyse soll das geeignetste Monitoring-System installiert und integriert werden.</li>
-<li>Es soll ein System in Ruby umgesetzt werden, welches anhand der Daten aus dem Monitoring-System und der übergebenen Metriken die Anzahl der Cluster-Nodes nach Bedarf anpasst (Auto-Skallierung)</li>
-<li>Dazu muss die Cluster-Konfiguration angepasst und der ECP-Deployer geeignet getriggert werden.</li>
-<li>Es sind nach Möglichkeit einfache Datenformate wie bspw. JSON zu nutzen.</li>
+  <li>Entsprechend der vergleichenden Analyse soll das geeignetste Monitoring-System installiert und integriert werden.</li>
+  <li>Es soll ein System in Ruby umgesetzt werden, welches anhand der Daten aus dem Monitoring-System und der übergebenen Metriken die Anzahl der Cluster-Nodes nach Bedarf anpasst (Auto-Skallierung)</li>
+  <li>Dazu muss die Cluster-Konfiguration angepasst und der ECP-Deployer geeignet getriggert werden.</li>
+  <li>Es sind nach Möglichkeit einfache Datenformate wie bspw. JSON zu nutzen.</li>
 </ul>
 
-<h4>Evaluierung der Skalierbarkeit des Clusters</h4>
+<h4 id="evaluierung-der-skalierbarkeit-des-clusters">Evaluierung der Skalierbarkeit des Clusters</h4>
 
 <p>Anhand von mehreren erfassbaren Metriken/Metrikkombinationen soll das Skalieren des Clusters 
 exemplarisch nachgewiesen werden.</p>
 
 <ul>
-<li>Es muss gezeigt werden, das Systemzustände der Cluster-Nodes (bspw. CPU-Load, Arbeitsspeicher, Plattenplatz, Netzwerklast, etc.) erkannt und in sinnvolle Skalierungsaktionen umgesetzt werden können.</li>
-<li>Dazu müssen geeignete Tools zur Erzeugung von Lasten identifiziert oder ggf. erstellt werden.</li>
-<li>Es muss getestet werden, dass das System entsprechend der überwachten Metriken selbstständig skaliert.</li>
-<li>Es soll horizontales und automatisches Hoch- und Runterskalieren getestet werden.</li>
+  <li>Es muss gezeigt werden, das Systemzustände der Cluster-Nodes (bspw. CPU-Load, Arbeitsspeicher, Plattenplatz, Netzwerklast, etc.) erkannt und in sinnvolle Skalierungsaktionen umgesetzt werden können.</li>
+  <li>Dazu müssen geeignete Tools zur Erzeugung von Lasten identifiziert oder ggf. erstellt werden.</li>
+  <li>Es muss getestet werden, dass das System entsprechend der überwachten Metriken selbstständig skaliert.</li>
+  <li>Es soll horizontales und automatisches Hoch- und Runterskalieren getestet werden.</li>
 </ul>
 
 
+						</div>
+					</div>
 
-<div class="thesis">
-	
-	
-	<div class="outcome">
-		<div class="row">
-			
-			<div class="col-xs-6">
-				<div class="document">
-					<a href="/assets/thesis/2017/2017-thesis-christian-stueben.pdf">
-					Thesis<br>
-					<img src="/img/topic/pdf-icon-white.png" width="40px">
-					</a>
-				</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>About</h2>
+								Nane Kratzke (Computer Scientist)<br>
+								Lübeck University of Applied Sciences, Germany<br>
+								<ul class="icons">
+									<li><a href="https://www.twitter.com/nanekratzke" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/nkratzke" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/nanekratzke" class="icon fa-linkedin"><span class="label">LinkedIN</span></a></li>
+									<li><a href="https://www.slideshare.net/i21aneka" class="icon fa-slideshare"><span class="label">Slideshare</span></a></li>
+									<li><a href="https://plus.google.com/+NaneKratzke" class="icon fa-google"><span class="label">Google+</span></a></li>
+									<li>&nbsp;</li>
+									<li><a href="https://www.researchgate.net/NaneKratzke"><img src="/img/social/RG_square_green.png" height="16px" alt="ResearchGate" /></a></li>
+									<li><a href="http://orcid.org/0000-0001-5130-4969"><img  src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="Orcid" /></a></li>
+									<li><a href="https://publons.com/author/667487/nane-kratzke#profile"><img src="https://publons.com/static/images/icons/publons.png" width="16px" height="16px" alt="Publons" /></a></li>
+									<li>&nbsp;</li>
+									<li><a href="/feed.xml" class="icon fa-rss"><span class="label">RSS</span></a></li>
+								</ul>
+							</section>
+							<section>
+								<h2>My Official Sites</h2>
+								<a href="https://www.fh-luebeck.de/hochschule/hochschulorganisation/personalverzeichnis/person/nane-kratzke/">
+									<img src="/img/official/fhl-logo.png" alt="FH Lübeck" height="50px" />
+								</a>
+								&nbsp;
+								<a href="https://cosa.fh-luebeck.de/en/contact/people/n-kratzke">
+									<img src="/img/official/cosa-logo.png" alt="CoSA" height="50px" />
+								</a>
+							</section>
+							<div class="copyright">
+								&copy; Nane Kratzke, 2012 - 2017 &bullet; <a href="/disclosure.html">Imprint</a> &bullet; All rights reserved Design: <a href="http://html5up.net">HTML5 UP
+							</div>
+						</div>
+					</footer>
+
 			</div>
-			
-			
-			<div class="col-xs-6">
-				<div class="sourcecode">
-					<a href="/assets/thesis/2017/2017-thesis-christian-stueben.zip">
-					Sources<br>
-					<img src="/img/topic/download-icon-white.png" width="40px">
-					</a>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-	
-	
-</div>
 
+		<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/js/main.js"></script>
 
-		
-	</section>
-	<footer>
-	</footer>
-	
-</article>
-
-      </div>
-    </div>
-
-    <div class="end hidden-print">
-  <div class="container">
-     <div class="row">
-    	<div class="col-sm-5 block">
-	        <center>
-		    	&copy; Nane Kratzke (All rights reserved)
-		   		<div class="socialsites">
-  <center>
-   <a href="https://twitter.com/nanekratzke" title="Twitter"><img src="/img/social/twitter-128.png" alt="Twitter"></a>
-   <a href="http://www.slideshare.com/i21aneka" title="Slideshare"><img src="/img/social/slideshare-128.png" alt="Slideshare"></a>
-   <a href="https://github.com/nkratzke" title="Github"><img src="/img/social/github-128.png" alt="Github"></a>
-   <a href="https://www.researchgate.net/profile/Nane_Kratzke" title="Researchgate"><img src="/img/social/researchgate-128.png" alt="Researchgate"></a>
-   <a href="https://de.linkedin.com/in/nanekratzke" title="LinkedIN"><img src="/img/social/linkedin-128.png" alt="LinkedIN"></a>
-   <a href="https://www.xing.com/profile/Nane_Kratzke" title="Xing"><img src="/img/social/xing-128.png" alt="Xing"></a>
-   <a href="https://plus.google.com/+NaneKratzke" title="Google Plus"><img src="/img/social/googleplus-128.png" alt="Google Plus"></a>
-   <a href="/feed.xml" title="RSS"><img src="/img/social/rss-128.png" alt="RSS"></a>
- </center>
-</div>
-
-    		</center>
-    	</div>
-        <div class="col-sm-2"></div>
-    	<div class="col-sm-5 block hidden-xs">
-	    	<center>
-		      Links to my official sites
-		      <div class="officialsites">
-   <a href="https://www.fh-luebeck.de/hochschule/hochschulorganisation/personalverzeichnis/person/nane-kratzke/"><img src="/img/official/fhl-logo.png"></a>
-   <a href="https://cosa.fh-luebeck.de/en/contact/people/n-kratzke"><img src="/img/official/cosa-logo.png"></a>
-</div>
-    		</center>
-    	</div>
-    </div>
-  </div>
-</div>
-
-<div class="footer hidden-print">
-	<div class="container">
-		<center>
-			<a href="/about.html">About</a> &bullet;
-			<a href="/disclosure.html">Contact</a> &bullet;
-			<a href="/disclosure.html">Legal Notice (Impressum)</a>
-		</center>
-	</div>
-</div>
-
-
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-  </body>
+	</body>
 </html>

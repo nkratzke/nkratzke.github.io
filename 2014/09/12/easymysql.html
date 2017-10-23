@@ -1,141 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
-    <meta property="twitter:account_id" content="4503599630726265" />
-    <title>Easy MySQL with Docker</title>
+<html>
+	<head>
+		<title>Easy MySQL with Docker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="/css/customize.css" />
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
 
-    <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/customize.css" rel="stylesheet">
-    <link href="/css/syntax.css" rel="stylesheet">
+							<!-- Logo -->
+								<a href="/index.html" class="logo">
+									<span class="symbol"><img src="/img/topic/cloud.png" alt="" /></span><span class="title">nkode.io</span>
+								</a>
 
-    
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
 
-    <link href='/feed.xml' rel='alternate' type='application/atom+xml'>
-    <!-- Google Analytics -->
-    <script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-380838-9']);
-_gaq.push(['_trackPageview']);
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+						</div>
+					</header>
 
-ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="/index.html">Home</a></li>
+							<li><a href="/blog.html">Blog</a></li>
+							<li><a href="/lectures.html">Lectures</a></li>
+							<li><a href="/projects.html">Research Projects</a></li>
+							<li><a href="/thesis.html">Thesis</a></li>
+							<li><a href="/publications.html">Publications</a></li>
+							<li><a href="/about.html">About me</a></li>
+						</ul>
+					</nav>
 
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-  </head>
-  <body>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+<h1>Easy MySQL with Docker</h1>
 
-    <!-- Fixed navbar -->
-<div class="navbar navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-    	<span class="sr-only">Toggle navigation</span>
-    	<span class="icon-bar"></span>
-    	<span class="icon-bar"></span>
-    	<span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/"><div class="brand-icon"></div>nkode.io</a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav pull-right">
-  	    <li id="about"><a href="/about.html">About me</a></li>
-        <li id="blog"><a href="/blog.html">Blog</a></li>
-        <li id="research"><a href="/research.html">Research</a></li>
-        <li id="lectures"><a href="/lectures.html">Lectures</a></li>
-        <li id="thesis"><a href="/thesis.html">Thesis</a></li>
-        <li id="archive"><a href="/log.html">Log</a></li>
-  		  <li id="publications"><a href="/publications.html">Publications</a></li>
-    	</ul>
-    </div>
-  </div>
-</div>
+<img src="/img/posts/docker.png" width="100%"/>
 
 
-    
-    <div class="content">
-      <div class="container">
-        <article class="post ">
-	<header>
-		
-		<div class='imgteaser' style='background:transparent url("/img/posts/docker.png") no-repeat center center;background-size:cover'>
-		</div>
-		
-		<div class="headline">
-			
-			<h2>Easy MySQL with Docker</h2>
-			<p class="meta">
-			
-			Latest update: <strong>2014-10-17</strong>
-			
-			</p>
-		</div>
-	</header>
-	<section>
-		<div class="rightbar">
-			<h3>Tags </h3>
-			<div class="tags hidden-print">
-	<ul>
-	
-		<li><a href="/tag/blog"><span class="tag">#blog</span></a></li>
-	
-		<li><a href="/tag/docker"><span class="tag">#docker</span></a></li>
-	
-		<li><a href="/tag/database"><span class="tag">#database</span></a></li>
-	
-		<li><a href="/tag/mysql"><span class="tag">#mysql</span></a></li>
-	
-		<li><a href="/tag/cloud"><span class="tag">#cloud</span></a></li>
-	
-	</ul>
-</div>
+</header>
 
-			<h3>Share </h3>
-			<div class="share hidden-print">
-	<ul>
-		<li>
-			<a href="http://twitter.com/home?status=Easy+MySQL+with+Docker http://localhost:4000/2014/09/12/easymysql.html" target="_blank">
-				<img src="/img/social/twitter-128-black.png">
-			</a>
-		</li>
-		<li>
-			<a href="https://plus.google.com/share?url=http://localhost:4000/2014/09/12/easymysql.html" target="_blank">
-				<img src="/img/social/googleplus-128-black.png">
-			</a>
-		</li>
-		<li>
-			<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2014/09/12/easymysql.html&title=Easy+MySQL+with+Docker&summary=&source=" target="_blank">
-				<img src="/img/social/linkedin-128-black.png">
-			</a>
-		</li>
-		<li>
-			<a href="https://www.xing.com/app/user?op=share&url=http%3A%2F%2Flocalhost%3A4000%2F2014%2F09%2F12%2Feasymysql.html&title=Easy+MySQL+with+Docker" target="_blank">
-				<img src="/img/social/xing-128-black.png">
-			</a>
-		</li>
-	</ul>
-</div>
 
-		</div>
-		<p><strong>A docker container to provide MySQL databases on the fly.</strong></p>
-
-<p><a href="docker">Docker</a> is an open-source engine that automates the deployment of applications
-as portable and self-contained containers that will run virtually anywhere.
-Dockerized applications reduce configuration efforts and obstacles
-for administrators. Applications (e.g. databases) can be provided in a configured,
-self-contained and frictionless way.</p>
-
-<h2>Intended usage</h2>
+<h2 id="intended-usage">Intended usage</h2>
 
 <p>This <a href="http://github.com/nkratzke/EasyMySQL">Dockerfile (check github)</a> is
 used to provide MySQL databases in a frictionless
@@ -148,17 +71,17 @@ for similar purposes in complete different domains.</p>
 <p>Whenever you have to</p>
 
 <ul>
-<li>provide data as a relational database via MySQL</li>
-<li>with user based access requirement</li>
-<li>for demonstrational purposes (throw-away database)</li>
-<li>in an ad hoc way</li>
+  <li>provide data as a relational database via MySQL</li>
+  <li>with user based access requirement</li>
+  <li>for demonstrational purposes (throw-away database)</li>
+  <li>in an ad hoc way</li>
 </ul>
 
 <p>this container might be of interest to you.</p>
 
 <p><strong>Warning: You should not use this container for production purposes.</strong></p>
 
-<h2>Prerequisites</h2>
+<h2 id="prerequisites">Prerequisites</h2>
 
 <p>First, you have to install <a href="docker">Docker</a>.</p>
 
@@ -175,11 +98,11 @@ follow the <a href="http://boot2docker.io">boot2docker</a> installation instruct
 for</p>
 
 <ul>
-<li><a href="https://github.com/boot2docker/windows-installer/releases">Windows</a> or</li>
-<li><a href="https://github.com/boot2docker/osx-installer/releases">Mac OS X</a></li>
+  <li><a href="https://github.com/boot2docker/windows-installer/releases">Windows</a> or</li>
+  <li><a href="https://github.com/boot2docker/osx-installer/releases">Mac OS X</a></li>
 </ul>
 
-<h2>Usage</h2>
+<h2 id="usage">Usage</h2>
 
 <p>Start Boot2Docker according to your operating system. You can skip this step, if
 you are working on a Linux system.</p>
@@ -189,73 +112,73 @@ server. You can clone this repository or tell docker to do the repository handli
 behind the scenes for you (which is my preferred way in case of github provided
   Dockerfiles):</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker build -t mysqldb github.com/nkratzke/easymysql</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker build -t mysqldb github.com/nkratzke/easymysql</code></pre></figure>
 
 <p>Now you have an image named <em>mysqldb</em> on your system, capable to
 provide MySQL databases. The simplest way to do start a database is like that:</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker run -d -p <span class="m">3306</span>:3306 mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 mysqldb</code></pre></figure>
 
 <p>It will create a running container on your system providing a MySQL server.</p>
 
 <ul>
-<li>Container will provide a standard database (I use for demonstration purposes in some of my lectures).</li>
-<li>MySQL server has a user called <em>student</em> with a password called <em>secret</em></li>
-<li>The database is reachable on port 3306 (standard MySQL Port)</li>
+  <li>Container will provide a standard database (I use for demonstration purposes in some of my lectures).</li>
+  <li>MySQL server has a user called <em>student</em> with a password called <em>secret</em></li>
+  <li>The database is reachable on port 3306 (standard MySQL Port)</li>
 </ul>
 
 <p>If you want to run your database on a different port than 3306 just do the following:</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker run -d -p <span class="m">4407</span>:3306 mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 4407:3306 mysqldb</code></pre></figure>
 
 <p>to run it on port 4407 (for instance). You can figure out that the container is running</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker ps</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker ps</code></pre></figure>
 
 <p>and docker returns an output like that.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>CONTAINERID  IMAGE    COMMAND       CREATED       STATUS       PORTS
-85fbad3eb5c  mysqldb  <span class="s2">&quot;/bin/start&quot;</span>   <span class="m">56</span> min. ago   Up <span class="m">55</span> min.   <span class="m">0</span>.0.0.0:3306-&gt;3306</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">CONTAINERID  IMAGE    COMMAND       CREATED       STATUS       PORTS
+85fbad3eb5c  mysqldb  <span class="s2">"/bin/start"</span>   56 min. ago   Up 55 min.   0.0.0.0:3306-&gt;3306</code></pre></figure>
 
 <p>To check whether the database is working, you can connect to it.
 Figure out what address your docker host has. If you are working with Boot2Docker
 you con do this</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>boot2docker ip</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">boot2docker ip</code></pre></figure>
 
 <p>and you will get an answer like that:</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>The VM<span class="err">&#39;</span>s Host only interface IP address is: <span class="m">192</span>.168.59.104</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">The VM<span class="s1">'s Host only interface IP address is: 192.168.59.104</span></code></pre></figure>
 
 <p>Now you have all to connect to your MySQL database. To check that everything is fine
 just start <a href="https://dev.mysql.com/downloads/workbench/">MySQLWorkbench</a> and
 enter the following parameters when creating a new database connection:</p>
 
 <ul>
-<li><strong>Hostname:</strong> IP address or DNS name of your docker host (when you are working with boot2docker its the ip you get via <code>boot2docker ip</code>)</li>
-<li><strong>Username:</strong> <em>student</em> (you can change this, we will come to this later)</li>
-<li><strong>Password:</strong> <em>secret</em> (you can change this, we will come to this later)</li>
-<li><strong>Default Schema:</strong> <em>LVBsp</em> (you can change the database as well, we will come to this later)</li>
+  <li><strong>Hostname:</strong> IP address or DNS name of your docker host (when you are working with boot2docker its the ip you get via <code>boot2docker ip</code>)</li>
+  <li><strong>Username:</strong> <em>student</em> (you can change this, we will come to this later)</li>
+  <li><strong>Password:</strong> <em>secret</em> (you can change this, we will come to this later)</li>
+  <li><strong>Default Schema:</strong> <em>LVBsp</em> (you can change the database as well, we will come to this later)</li>
 </ul>
 
 <p>To stop a container simply figure out its CONTAINER ID (via <code>docker ps</code> as shown above)
 and stop it like that:</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker stop 85fbad3eb5ce</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker stop 85fbad3eb5ce</code></pre></figure>
 
 <p>The above mentioned standard database is a read only default database. Not very helpful
 (except for me and my lectures).
 But the container is capable to do more by providing a set of parameters.</p>
 
 <ul>
-<li><code>user</code> and <code>password</code> to define your own user</li>
-<li><code>right</code> to define whether you want to provide just read or full access rights</li>
-<li><code>url</code> to provide an arbitrary sql file (UTF8 encoded) to deliver your own database</li>
+  <li><code>user</code> and <code>password</code> to define your own user</li>
+  <li><code>right</code> to define whether you want to provide just read or full access rights</li>
+  <li><code>url</code> to provide an arbitrary sql file (UTF8 encoded) to deliver your own database</li>
 </ul>
 
-<p>So let&#39;s figure out some details.</p>
+<p>So let’s figure out some details.</p>
 
-<h3>Use your own database(s) with <code>url</code></h3>
+<h2 id="use-your-own-databases-with-url">Use your own database(s) with <code>url</code></h2>
 
 <p>You can provide your own database via a sql file when you start your container.
 Just use the <code>url</code> parameter to point to a valid sql file.
@@ -263,23 +186,23 @@ This file can be hosted anywhere (accessible from your docker host).</p>
 
 <p><strong>Attention!</strong> SQL file is assumed to be encoded as UTF8 and has to valid as well as non interactively processable by mysql.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker run -d -p <span class="m">3306</span>:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">&quot;http://www.example.org/my/database.sql&quot;</span> mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">"http://www.example.org/my/database.sql"</span> mysqldb</code></pre></figure>
 
-<h3>Define user with <code>user</code> and <code>password</code></h3>
+<h2 id="define-user-with-user-and-password">Define user with <code>user</code> and <code>password</code></h2>
 
 <p>You can create your own user with own password by using the <code>user</code> and
 <code>password</code> parameter.
 By default the created MySQL user will get read access to all databases hosted by this container.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker run -d -p <span class="m">3306</span>:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">&quot;Nane&quot;</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">&quot;meins&quot;</span> mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">"Nane"</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">"meins"</span> mysqldb</code></pre></figure>
 
-<h3>Change access rights with <code>right</code></h3>
+<h2 id="change-access-rights-with-right">Change access rights with <code>right</code></h2>
 
 <p>You can change the access rights of your database.</p>
 
 <ul>
-<li><code>READ</code> (which is mapped to GRANT SELECT on all databases) <strong>[DEFAULT]</strong></li>
-<li><code>WRITE</code> (GRANT ALL PRIVILEGES WITH OPTIONS on all databases, so this is power user is able to do everything)</li>
+  <li><code>READ</code> (which is mapped to GRANT SELECT on all databases) <strong>[DEFAULT]</strong></li>
+  <li><code>WRITE</code> (GRANT ALL PRIVILEGES WITH OPTIONS on all databases, so this is power user is able to do everything)</li>
 </ul>
 
 <p><strong>Hint! Access rights have to be written completely in uppercase.
@@ -289,21 +212,21 @@ So <code>Write</code> is not recognized as <code>WRITE</code>!!!</strong></p>
 with the database including</p>
 
 <ul>
-<li>create new databases</li>
-<li>drop existing databases</li>
-<li>insert and modify data</li>
-<li>create or drop users</li>
-<li>changes rights of existing users</li>
-<li>shutdown databases and so on.</li>
+  <li>create new databases</li>
+  <li>drop existing databases</li>
+  <li>insert and modify data</li>
+  <li>create or drop users</li>
+  <li>changes rights of existing users</li>
+  <li>shutdown databases and so on.</li>
 </ul>
 
 <p>The read access right is the default one. So</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker run -d -p <span class="m">3306</span>:3306 -e <span class="nv">right</span><span class="o">=</span><span class="s2">&quot;READ&quot;</span> mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 -e <span class="nv">right</span><span class="o">=</span><span class="s2">"READ"</span> mysqldb</code></pre></figure>
 
 <p>is synonym to</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker run -d -p <span class="m">3306</span>:3306 mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 mysqldb</code></pre></figure>
 
 <p>Read access is perfect for providing read-only datasets. E.g. databases for students
 they should use to answer questions. By providing the database read-only
@@ -312,7 +235,7 @@ it is assured that no student can destroy the database accidentally.</p>
 <p>If you want to create a user with complete write access to your database
 you can run something like that</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker run -d -p <span class="m">3306</span>:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">&quot;Me&quot;</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">&quot;mine&quot;</span> -e <span class="nv">right</span><span class="o">=</span><span class="s2">&quot;WRITE&quot;</span> mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">"Me"</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">"mine"</span> -e <span class="nv">right</span><span class="o">=</span><span class="s2">"WRITE"</span> mysqldb</code></pre></figure>
 
 <p>which will provide <strong>full access</strong> to the database for user <em>Me</em>.</p>
 
@@ -323,7 +246,7 @@ they have to be aware that the user can do arbitrary harm to the database.
 So normally a user with write access should create users with a more restrictive
 set of rights for the database. But this is up to the user.</p>
 
-<h3>Tips for troubleshooting</h3>
+<h2 id="tips-for-troubleshooting">Tips for troubleshooting</h2>
 
 <p>If you want to provide your own databases, you must assure that your database definition
 file provided via the <code>url</code> parameter is valid and processable by MySQL.</p>
@@ -334,81 +257,57 @@ file provided via the <code>url</code> parameter is valid and processable by MyS
 with the <code>-t</code> and <code>-i</code> parameter of docker. This will forward the output of the container
 to your console, which is likely to be helpful for debugging purposes.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>docker run -t -i -p <span class="m">3306</span>:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">&quot;http://www.ex.org/my/database.sql&quot;</span> mysqldb</code></pre></figure>
-
-		
-			<hr>
-			<div id="disqus_thread"></div>
-			<script type="text/javascript">
-					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-					var disqus_shortname = 'wwwnkodeio'; // required: replace example with your forum shortname
-
-					/* * * DON'T EDIT BELOW THIS LINE * * */
-					(function() {
-							var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-							dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-							(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-					})();
-			</script>
-			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-		
-	</section>
-	<footer>
-	</footer>
-	
-</article>
-
-      </div>
-    </div>
-
-    <div class="end hidden-print">
-  <div class="container">
-     <div class="row">
-    	<div class="col-sm-5 block">
-	        <center>
-		    	&copy; Nane Kratzke (All rights reserved)
-		   		<div class="socialsites">
-  <center>
-   <a href="https://twitter.com/nanekratzke" title="Twitter"><img src="/img/social/twitter-128.png" alt="Twitter"></a>
-   <a href="http://www.slideshare.com/i21aneka" title="Slideshare"><img src="/img/social/slideshare-128.png" alt="Slideshare"></a>
-   <a href="https://github.com/nkratzke" title="Github"><img src="/img/social/github-128.png" alt="Github"></a>
-   <a href="https://www.researchgate.net/profile/Nane_Kratzke" title="Researchgate"><img src="/img/social/researchgate-128.png" alt="Researchgate"></a>
-   <a href="https://de.linkedin.com/in/nanekratzke" title="LinkedIN"><img src="/img/social/linkedin-128.png" alt="LinkedIN"></a>
-   <a href="https://www.xing.com/profile/Nane_Kratzke" title="Xing"><img src="/img/social/xing-128.png" alt="Xing"></a>
-   <a href="https://plus.google.com/+NaneKratzke" title="Google Plus"><img src="/img/social/googleplus-128.png" alt="Google Plus"></a>
-   <a href="/feed.xml" title="RSS"><img src="/img/social/rss-128.png" alt="RSS"></a>
- </center>
-</div>
-
-    		</center>
-    	</div>
-        <div class="col-sm-2"></div>
-    	<div class="col-sm-5 block hidden-xs">
-	    	<center>
-		      Links to my official sites
-		      <div class="officialsites">
-   <a href="https://www.fh-luebeck.de/hochschule/hochschulorganisation/personalverzeichnis/person/nane-kratzke/"><img src="/img/official/fhl-logo.png"></a>
-   <a href="https://cosa.fh-luebeck.de/en/contact/people/n-kratzke"><img src="/img/official/cosa-logo.png"></a>
-</div>
-    		</center>
-    	</div>
-    </div>
-  </div>
-</div>
-
-<div class="footer hidden-print">
-	<div class="container">
-		<center>
-			<a href="/about.html">About</a> &bullet;
-			<a href="/disclosure.html">Contact</a> &bullet;
-			<a href="/disclosure.html">Legal Notice (Impressum)</a>
-		</center>
-	</div>
-</div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -t -i -p 3306:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">"http://www.ex.org/my/database.sql"</span> mysqldb</code></pre></figure>
 
 
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-  </body>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>About</h2>
+								Nane Kratzke (Computer Scientist)<br>
+								Lübeck University of Applied Sciences, Germany<br>
+								<ul class="icons">
+									<li><a href="https://www.twitter.com/nanekratzke" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/nkratzke" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/nanekratzke" class="icon fa-linkedin"><span class="label">LinkedIN</span></a></li>
+									<li><a href="https://www.slideshare.net/i21aneka" class="icon fa-slideshare"><span class="label">Slideshare</span></a></li>
+									<li><a href="https://plus.google.com/+NaneKratzke" class="icon fa-google"><span class="label">Google+</span></a></li>
+									<li>&nbsp;</li>
+									<li><a href="https://www.researchgate.net/NaneKratzke"><img src="/img/social/RG_square_green.png" height="16px" alt="ResearchGate" /></a></li>
+									<li><a href="http://orcid.org/0000-0001-5130-4969"><img  src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="Orcid" /></a></li>
+									<li><a href="https://publons.com/author/667487/nane-kratzke#profile"><img src="https://publons.com/static/images/icons/publons.png" width="16px" height="16px" alt="Publons" /></a></li>
+									<li>&nbsp;</li>
+									<li><a href="/feed.xml" class="icon fa-rss"><span class="label">RSS</span></a></li>
+								</ul>
+							</section>
+							<section>
+								<h2>My Official Sites</h2>
+								<a href="https://www.fh-luebeck.de/hochschule/hochschulorganisation/personalverzeichnis/person/nane-kratzke/">
+									<img src="/img/official/fhl-logo.png" alt="FH Lübeck" height="50px" />
+								</a>
+								&nbsp;
+								<a href="https://cosa.fh-luebeck.de/en/contact/people/n-kratzke">
+									<img src="/img/official/cosa-logo.png" alt="CoSA" height="50px" />
+								</a>
+							</section>
+							<div class="copyright">
+								&copy; Nane Kratzke, 2012 - 2017 &bullet; <a href="/disclosure.html">Imprint</a> &bullet; All rights reserved Design: <a href="http://html5up.net">HTML5 UP
+							</div>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/js/main.js"></script>
+
+	</body>
 </html>

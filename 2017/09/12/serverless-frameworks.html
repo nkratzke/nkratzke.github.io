@@ -67,6 +67,12 @@
 							<header>
 <h1>A List of Serverless Frameworks</h1>
 
+<strong>12 Sep 2017</strong>
+
+
+, latest update: 03 Oct 2017
+
+
 <img src="/img/posts/serveimage.png" width="100%"/>
 
 
@@ -74,9 +80,9 @@
 
 <p>Serverless computing is a cloud computing execution model in which the the allocation of machine resources is dynamically managed. There is a good blog bost by Mike Roberts on <a href="https://martinfowler.com/articles/serverless.html">serverless architectures</a> for the interested reader. “Serverless computing” is misleading to some degree. Obviously servers are still needed, but the term “serverless” is used because the server management and capacity planning decisions are completely hidden from the developer or operator. Serverless code can be used in conjunction with code deployed in more traditional styles, such as microservices. However, applications can be written to be purely serverless as well.</p>
 
-<p>There are very well curated link lists dealing with serverless computing in general like <a href="https://github.com/anaibol/awesome-serverless">Awesome serverless</a>. However, this blog post would like to concentrate only on the frameworks. The main intent is to curate a list of open source serverless frameworks over time.</p>
+<p>There are very well curated link lists dealing with serverless computing in general like <a href="https://github.com/anaibol/awesome-serverless">Awesome serverless</a>. However, this blog post would like to concentrate only on the frameworks. The main intent is to curate a list of open source serverless frameworks over time. If you think some framework is missing do not hesitate to <a href="mailto:nane.kratzke@fh-luebeck.de">propose</a> it.</p>
 
-<h3 id="public-commercial-serverless-services">Public (commercial) serverless services</h3>
+<h2 id="public-commercial-serverless-services">Public (commercial) serverless services</h2>
 
 <p>Most public cloud service providers offer compute runtimes, also known as function as a service (FaaS) platforms. Here are some well known type representatives.</p>
 
@@ -87,11 +93,12 @@
   <li><a href="https://azure.microsoft.com/en-us/services/functions/">Azure Functions</a>.</li>
 </ul>
 
-<h3 id="open-source-serverless-platforms">Open (source) serverless platforms</h3>
+<h2 id="open-source-serverless-platforms">Open (source) serverless platforms</h2>
 
 <p>All of the mentioned commercial serverless computing models are prone to create vendor lock-in (to some degree). Therefore, open source serverless frameworks might be an alternative with the downside that the infrastructure must be operated. Obviously these frameworks need platforms or infrastructures to be executed on.</p>
 
 <ul>
+  <li><a href="https://github.com/nuclio/nuclio">nuclio</a> - High-Performance Serverless event and data processing framework (added 24. Oct 2017) <span class="date">New</span></li>
   <li><a href="http://fnproject.io/">Fn project</a> - The Fn project is a container native serverless platform. It supports every programming language. (added 3. Oct 2017) <span class="date">New</span></li>
   <li><a href="https://openwhisk.incubator.apache.org/">OpenWhisk</a> by Apache includes native support for Node.js, Python, Java, and Swift, and supports other languages and runtime via Docker containers. (added 12. Sep 2017) <span class="date">New</span></li>
   <li><a href="http://kubeless.io/">Kubeless</a>, a serverless framework for Kubernetes. (added 12. Sep 2017) <span class="date">New</span></li>
@@ -104,7 +111,7 @@
 
 <p>This list is likely not complete. If you know further serverless platforms do not hesitate to contact me.</p>
 
-<h3 id="provider-agnostic-serverless-frameworks">Provider agnostic serverless frameworks</h3>
+<h2 id="provider-agnostic-serverless-frameworks">Provider agnostic serverless frameworks</h2>
 
 <p>While serverless platforms need infrastructures to be executed on, provider agnostic serverless frameworks provide a provider and platform agnostic way to define and deploy serverless code on various serverless platforms or commercial serverless services. This is an option to avoid (or reduce) vendor lock-in without the necessity to operate an own infrastructure.</p>
 

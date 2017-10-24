@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-23T16:38:32+02:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/10/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-10-19T20:00:35+02:00</published><updated>2017-10-19T20:00:35+02:00</updated><id>http://localhost:4000/jekyll/update/2017/10/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/10/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Programming I (Winter 2017)</title><link href="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2017)" /><published>2017-09-21T00:00:00+02:00</published><updated>2017-09-21T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/09/21/lecture-programming-i</id><content type="html" xml:base="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-24T09:15:55+02:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Programming I (Winter 2017)</title><link href="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2017)" /><published>2017-09-21T00:00:00+02:00</published><updated>2017-09-21T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/09/21/lecture-programming-i</id><content type="html" xml:base="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming
 for freshman students.&lt;/p&gt;
 
 &lt;p&gt;This course covers aspects like primitive and reference data types, operators, expressions,
@@ -77,9 +65,9 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
   &lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">A List of Serverless Frameworks</title><link href="http://localhost:4000/2017/09/12/serverless-frameworks.html" rel="alternate" type="text/html" title="A List of Serverless Frameworks" /><published>2017-09-12T00:00:00+02:00</published><updated>2017-09-12T00:00:00+02:00</updated><id>http://localhost:4000/2017/09/12/serverless-frameworks</id><content type="html" xml:base="http://localhost:4000/2017/09/12/serverless-frameworks.html">&lt;p&gt;Serverless computing is a cloud computing execution model in which the the allocation of machine resources is dynamically managed. There is a good blog bost by Mike Roberts on &lt;a href=&quot;https://martinfowler.com/articles/serverless.html&quot;&gt;serverless architectures&lt;/a&gt; for the interested reader. “Serverless computing” is misleading to some degree. Obviously servers are still needed, but the term “serverless” is used because the server management and capacity planning decisions are completely hidden from the developer or operator. Serverless code can be used in conjunction with code deployed in more traditional styles, such as microservices. However, applications can be written to be purely serverless as well.&lt;/p&gt;
 
-&lt;p&gt;There are very well curated link lists dealing with serverless computing in general like &lt;a href=&quot;https://github.com/anaibol/awesome-serverless&quot;&gt;Awesome serverless&lt;/a&gt;. However, this blog post would like to concentrate only on the frameworks. The main intent is to curate a list of open source serverless frameworks over time.&lt;/p&gt;
+&lt;p&gt;There are very well curated link lists dealing with serverless computing in general like &lt;a href=&quot;https://github.com/anaibol/awesome-serverless&quot;&gt;Awesome serverless&lt;/a&gt;. However, this blog post would like to concentrate only on the frameworks. The main intent is to curate a list of open source serverless frameworks over time. If you think some framework is missing do not hesitate to &lt;a href=&quot;mailto:nane.kratzke@fh-luebeck.de&quot;&gt;propose&lt;/a&gt; it.&lt;/p&gt;
 
-&lt;h3 id=&quot;public-commercial-serverless-services&quot;&gt;Public (commercial) serverless services&lt;/h3&gt;
+&lt;h2 id=&quot;public-commercial-serverless-services&quot;&gt;Public (commercial) serverless services&lt;/h2&gt;
 
 &lt;p&gt;Most public cloud service providers offer compute runtimes, also known as function as a service (FaaS) platforms. Here are some well known type representatives.&lt;/p&gt;
 
@@ -90,11 +78,12 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
   &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/services/functions/&quot;&gt;Azure Functions&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;open-source-serverless-platforms&quot;&gt;Open (source) serverless platforms&lt;/h3&gt;
+&lt;h2 id=&quot;open-source-serverless-platforms&quot;&gt;Open (source) serverless platforms&lt;/h2&gt;
 
 &lt;p&gt;All of the mentioned commercial serverless computing models are prone to create vendor lock-in (to some degree). Therefore, open source serverless frameworks might be an alternative with the downside that the infrastructure must be operated. Obviously these frameworks need platforms or infrastructures to be executed on.&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nuclio/nuclio&quot;&gt;nuclio&lt;/a&gt; - High-Performance Serverless event and data processing framework (added 24. Oct 2017) &lt;span class=&quot;date&quot;&gt;New&lt;/span&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://fnproject.io/&quot;&gt;Fn project&lt;/a&gt; - The Fn project is a container native serverless platform. It supports every programming language. (added 3. Oct 2017) &lt;span class=&quot;date&quot;&gt;New&lt;/span&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://openwhisk.incubator.apache.org/&quot;&gt;OpenWhisk&lt;/a&gt; by Apache includes native support for Node.js, Python, Java, and Swift, and supports other languages and runtime via Docker containers. (added 12. Sep 2017) &lt;span class=&quot;date&quot;&gt;New&lt;/span&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://kubeless.io/&quot;&gt;Kubeless&lt;/a&gt;, a serverless framework for Kubernetes. (added 12. Sep 2017) &lt;span class=&quot;date&quot;&gt;New&lt;/span&gt;&lt;/li&gt;
@@ -107,7 +96,7 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 
 &lt;p&gt;This list is likely not complete. If you know further serverless platforms do not hesitate to contact me.&lt;/p&gt;
 
-&lt;h3 id=&quot;provider-agnostic-serverless-frameworks&quot;&gt;Provider agnostic serverless frameworks&lt;/h3&gt;
+&lt;h2 id=&quot;provider-agnostic-serverless-frameworks&quot;&gt;Provider agnostic serverless frameworks&lt;/h2&gt;
 
 &lt;p&gt;While serverless platforms need infrastructures to be executed on, provider agnostic serverless frameworks provide a provider and platform agnostic way to define and deploy serverless code on various serverless platforms or commercial serverless services. This is an option to avoid (or reduce) vendor lock-in without the necessity to operate an own infrastructure.&lt;/p&gt;
 
@@ -117,9 +106,8 @@ JAVA is used as teaching language, nevertheless the principles are applicable to
 &lt;/ul&gt;
 
 &lt;p&gt;This list is likely not complete. If you know further provider agnostic serverless frameworks do not hesitate to contact me.&lt;/p&gt;</content><author><name>Nane Kratzke,</name></author><category term="blog" /><category term="cloud" /><category term="serverless" /><category term="frameworks" /><category term="programming" /><category term="game" /><summary type="html">Serverless computing is a cloud computing execution model in which the the allocation of machine resources is dynamically managed. There is a good blog bost by Mike Roberts on serverless architectures for the interested reader. “Serverless computing” is misleading to some degree. Obviously servers are still needed, but the term “serverless” is used because the server management and capacity planning decisions are completely hidden from the developer or operator. Serverless code can be used in conjunction with code deployed in more traditional styles, such as microservices. However, applications can be written to be purely serverless as well.</summary></entry><entry><title type="html">And the winner is … Dynamite Man</title><link href="http://localhost:4000/2017/07/24/And-the-winner-is-Dynamite-Man.html" rel="alternate" type="text/html" title="And the winner is ... Dynamite Man" /><published>2017-07-24T00:00:00+02:00</published><updated>2017-07-24T00:00:00+02:00</updated><id>http://localhost:4000/2017/07/24/And-the-winner-is-Dynamite-Man</id><content type="html" xml:base="http://localhost:4000/2017/07/24/And-the-winner-is-Dynamite-Man.html">&lt;p&gt;One more time we had some fun this summer semester &lt;a href=&quot;/lecture/2017/06/15/lecture-webtech.html&quot;&gt;webtechnology course&lt;/a&gt;. 
-My students implemented several classical games as &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; single page HTML ‘apps’.&lt;/p&gt;
-
-&lt;p&gt;Three games (of 18 game submissions) entered the &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Webtech Hall of Fame&lt;/a&gt;.&lt;/p&gt;
+My students implemented several classical games as &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; single page HTML ‘apps’.
+And these three games (of 18 game submissions) entered the &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Webtech Hall of Fame&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;#1: &lt;a href=&quot;/assets/ss2017/webtech/games/team-04-dynamite-man/web/index.html&quot;&gt;Dynamite Man&lt;/a&gt;&lt;/li&gt;
@@ -130,7 +118,7 @@ My students implemented several classical games as &lt;a href=&quot;https://www.
 &lt;p&gt;Congratulations.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;2048px&quot; src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;
-&lt;/iframe&gt;&lt;/iframe&gt;</content><author><name>Nane Kratzke,</name></author><category term="blog" /><summary type="html">One more time we had some fun this summer semester webtechnology course. My students implemented several classical games as Dart single page HTML ‘apps’.</summary></entry><entry><title type="html">Web Technologies (Summer 2017)</title><link href="http://localhost:4000/lecture/2017/06/15/lecture-webtech.html" rel="alternate" type="text/html" title="Web Technologies (Summer 2017)" /><published>2017-06-15T00:00:00+02:00</published><updated>2017-06-15T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/06/15/lecture-webtech</id><content type="html" xml:base="http://localhost:4000/lecture/2017/06/15/lecture-webtech.html">&lt;p&gt;This project is about common technologies used to build (part) of web information systems.
+&lt;/iframe&gt;&lt;/iframe&gt;</content><author><name>Nane Kratzke,</name></author><category term="blog" /><summary type="html">One more time we had some fun this summer semester webtechnology course. My students implemented several classical games as Dart single page HTML ‘apps’. And these three games (of 18 game submissions) entered the Webtech Hall of Fame.</summary></entry><entry><title type="html">Web Technologies (Summer 2017)</title><link href="http://localhost:4000/lecture/2017/06/15/lecture-webtech.html" rel="alternate" type="text/html" title="Web Technologies (Summer 2017)" /><published>2017-06-15T00:00:00+02:00</published><updated>2017-06-15T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/06/15/lecture-webtech</id><content type="html" xml:base="http://localhost:4000/lecture/2017/06/15/lecture-webtech.html">&lt;p&gt;This project is about common technologies used to build (part) of web information systems.
 The project course is given for students
 at Lübeck University of Applied Sciences (in german language).
 The course covers following aspects:&lt;/p&gt;
@@ -323,4 +311,54 @@ proclaiming that ‘data-driven’ campaigns are killing the US Democratic Party
 	&lt;a href=&quot;https://www.researchgate.net/publication/320555485&quot;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
 &lt;/span&gt;
 
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2017b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Nane Kratzke</name></author><category term="social" /><category term="media" /><category term="Twitter" /><category term="research" /><category term="project" /><category term="BTW17" /><category term="data-science" /><summary type="html">Research setting</summary></entry></feed>
+&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2017b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Nane Kratzke</name></author><category term="social" /><category term="media" /><category term="Twitter" /><category term="research" /><category term="project" /><category term="BTW17" /><category term="data-science" /><summary type="html">Research setting</summary></entry><entry><title type="html">Autoscaling für elastische Container Plattformen</title><link href="http://localhost:4000/thesis/2017/01/20/thesis-auto-scaling.html" rel="alternate" type="text/html" title="Autoscaling für elastische Container Plattformen" /><published>2017-01-20T00:00:00+01:00</published><updated>2017-01-20T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2017/01/20/thesis-auto-scaling</id><content type="html" xml:base="http://localhost:4000/thesis/2017/01/20/thesis-auto-scaling.html">&lt;p&gt;In dieser Bachelorarbeit sollen existierende Open Source Monitoring Lösungen 
+(wie z.B. der ELK-Stack, Prometheus, etc.) analysiert und mit einer bestehenden 
+Deployer-Lösung für elastische Containerplattformen (wie Kubernetes, Apache Mesos, Docker Swarm, Nomad, etc.), 
+zu einem Auto-Scaler integriert werden.
+Eine Realisierung dieses Deployers wurde bereits für Kubernetes auf Amazon AWS und OpenStack umgesetzt. 
+Es sollen Metriken der Cluster-Nodes erfasst, zusammengeführt und analysiert werden.
+Die Bestimmung geeigneter Metriken für Skalierungsmaßnahmen gehört nicht zum Umfang dieser Arbeit. 
+Die Arbeit soll jedoch nachweisen,
+dass beliebig erfassbare Metriken (und Metrikkombinationen) für eine Autoskalierung genutzt werden können.
+Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:&lt;/p&gt;
+
+&lt;h3 id=&quot;teilaufgaben&quot;&gt;Teilaufgaben&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Hinweis:
+Sollten sich während der Bearbeitung dieser Arbeit einzelne Aspekte als schwer realisierbar erweisen, kann die Aufgabenstellung - nach plausiblem Nachweis der Schwierigkeit - angepasst werden.
+&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;analyse-von-bestehenden-monitoring-lösungen&quot;&gt;Analyse von bestehenden Monitoring-Lösungen&lt;/h4&gt;
+
+&lt;p&gt;Es gibt diverse Tools und Tool-Stacks mit denen das Monitoring von Cluster-Nodes erfolgen kann.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mittels einer Recherche sollen geeignete (mind. drei) Monitoring-Systeme/Stacks identifiziert und verglichen werden.&lt;/li&gt;
+  &lt;li&gt;Die Kriterien für eine vergleichende Analyse sollen auf dem Funktionsumfang (unterstützt Metriken) und der Skalierbarkeit beruhen. Ausschlusskriterien sind Dienste die nur als externer Service zu Verfügung stehen und Tools unter nicht-freier Lizenz.&lt;/li&gt;
+  &lt;li&gt;Weitere Kriterien, besonders solche, die für die Umsetzung und Integration mit dem vorhandenen ECP-Deployer zusammenhängen, sollen in Absprache selbstständig identifiziert werden.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;automatisches-skalieren-des-clusters-integration&quot;&gt;Automatisches Skalieren des Clusters (Integration)&lt;/h4&gt;
+
+&lt;p&gt;Aktuell ist ein Deployer für ein Kubernetes Cluster vorhanden und für andere Plattformen, 
+wie beispielweise Apache Mesos und Docker Swarm, geplant. 
+Der bestehende Deployer soll um eine Monitoring- und Skalierungs-Komponente ergänzt werden.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Entsprechend der vergleichenden Analyse soll das geeignetste Monitoring-System installiert und integriert werden.&lt;/li&gt;
+  &lt;li&gt;Es soll ein System in Ruby umgesetzt werden, welches anhand der Daten aus dem Monitoring-System und der übergebenen Metriken die Anzahl der Cluster-Nodes nach Bedarf anpasst (Auto-Skallierung)&lt;/li&gt;
+  &lt;li&gt;Dazu muss die Cluster-Konfiguration angepasst und der ECP-Deployer geeignet getriggert werden.&lt;/li&gt;
+  &lt;li&gt;Es sind nach Möglichkeit einfache Datenformate wie bspw. JSON zu nutzen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;evaluierung-der-skalierbarkeit-des-clusters&quot;&gt;Evaluierung der Skalierbarkeit des Clusters&lt;/h4&gt;
+
+&lt;p&gt;Anhand von mehreren erfassbaren Metriken/Metrikkombinationen soll das Skalieren des Clusters 
+exemplarisch nachgewiesen werden.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Es muss gezeigt werden, das Systemzustände der Cluster-Nodes (bspw. CPU-Load, Arbeitsspeicher, Plattenplatz, Netzwerklast, etc.) erkannt und in sinnvolle Skalierungsaktionen umgesetzt werden können.&lt;/li&gt;
+  &lt;li&gt;Dazu müssen geeignete Tools zur Erzeugung von Lasten identifiziert oder ggf. erstellt werden.&lt;/li&gt;
+  &lt;li&gt;Es muss getestet werden, dass das System entsprechend der überwachten Metriken selbstständig skaliert.&lt;/li&gt;
+  &lt;li&gt;Es soll horizontales und automatisches Hoch- und Runterskalieren getestet werden.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="container" /><category term="elastic" /><category term="platform" /><category term="kubernetes" /><category term="storage" /><category term="cluster" /><category term="autoscaling" /><summary type="html">In dieser Bachelorarbeit sollen existierende Open Source Monitoring Lösungen (wie z.B. der ELK-Stack, Prometheus, etc.) analysiert und mit einer bestehenden Deployer-Lösung für elastische Containerplattformen (wie Kubernetes, Apache Mesos, Docker Swarm, Nomad, etc.), zu einem Auto-Scaler integriert werden. Eine Realisierung dieses Deployers wurde bereits für Kubernetes auf Amazon AWS und OpenStack umgesetzt. Es sollen Metriken der Cluster-Nodes erfasst, zusammengeführt und analysiert werden. Die Bestimmung geeigneter Metriken für Skalierungsmaßnahmen gehört nicht zum Umfang dieser Arbeit. Die Arbeit soll jedoch nachweisen, dass beliebig erfassbare Metriken (und Metrikkombinationen) für eine Autoskalierung genutzt werden können. Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:</summary></entry></feed>

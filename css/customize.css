@@ -48,8 +48,8 @@ header {
 
 .symbol {
     background-color: #222222;
-    padding: 0.05em;
-    border-radius: 1em;
+    padding: 0.5em;
+    border-radius: 2em 2em 2em 0em;
 }
 
 .date, .update {

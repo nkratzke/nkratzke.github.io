@@ -1,16 +1,32 @@
+body {
+    font-size: 17pt;
+}
+
 p {
     margin-bottom: 0.5em;
 }
 
 h2, h3, h4, h5, h6 {
-    margin-top: 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
     letter-spacing: 0.05em;
+}
+
+h2 {
+    margin-top: 1.75em;
+    font-size: 1.75em;
+}
+
+section h2 {
+    font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1.25em;
 }
 
 h2 > small, h3 > small {
     color: #888888;
-    font-size: 0.8rem;
+    font-size: 90%;
 }
 
 #footer, #footer .inner .copyright {

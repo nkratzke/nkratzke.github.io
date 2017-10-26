@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-25T14:16:46+02:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Programming I (Winter 2017)</title><link href="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2017)" /><published>2017-09-21T00:00:00+02:00</published><updated>2017-09-21T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/09/21/lecture-programming-i</id><content type="html" xml:base="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming for freshman students and covers fundamental concepts of programming.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-26T11:19:07+02:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Programming I (Winter 2017)</title><link href="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2017)" /><published>2017-09-21T00:00:00+02:00</published><updated>2017-09-21T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/09/21/lecture-programming-i</id><content type="html" xml:base="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming for freshman students and covers fundamental concepts of programming.
 JAVA is used as teaching language, nevertheless the principles are applicable to every (imperative or class based object oriented) programming language.
 The course is given for &lt;em&gt;Computer Science&lt;/em&gt; students at the Lübeck University of Applied Sciences.
 and covers the following aspects:&lt;/p&gt;
@@ -208,7 +208,53 @@ Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/K
 
 &lt;p&gt;Mehr dazu in folgendem Interview (auch als &lt;a href=&quot;/assets/self-archive/com-interview.pdf&quot;&gt;PDF&lt;/a&gt;):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/posts/com-interview.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>Nane Kratzke</name></author><category term="blog" /><category term="cloud" /><category term="container" /><category term="docker" /><category term="kubernetes" /><summary type="html">80% der Cloud-Dienste sind nicht standardisiert</summary></entry><entry><title type="html">Eine spielerische Einführung in das Computational Thinking</title><link href="http://localhost:4000/thesis/2017/02/21/thesis-learn-to-prog.html" rel="alternate" type="text/html" title="Eine spielerische Einführung in das Computational Thinking" /><published>2017-02-21T00:00:00+01:00</published><updated>2017-02-21T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2017/02/21/thesis-learn-to-prog</id><content type="html" xml:base="http://localhost:4000/thesis/2017/02/21/thesis-learn-to-prog.html">&lt;p&gt;Kinder kommen - wenn überhaupt -	frühestens im Grundschulalter mit
+&lt;p&gt;&lt;img src=&quot;/img/posts/com-interview.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;</content><author><name>Nane Kratzke</name></author><category term="blog" /><category term="cloud" /><category term="container" /><category term="docker" /><category term="kubernetes" /><summary type="html">80% der Cloud-Dienste sind nicht standardisiert</summary></entry><entry><title type="html">Programming II (Summer 2017)</title><link href="http://localhost:4000/lecture/2017/04/11/programming-ii.html" rel="alternate" type="text/html" title="Programming II (Summer 2017)" /><published>2017-04-11T00:00:00+02:00</published><updated>2017-04-11T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/04/11/programming-ii</id><content type="html" xml:base="http://localhost:4000/lecture/2017/04/11/programming-ii.html">&lt;p&gt;The course &lt;strong&gt;Programming II&lt;/strong&gt; continues &lt;strong&gt;Programming I&lt;/strong&gt; by introducing more sophistacted programming aspects
+for second semester students. JAVA is used as teaching language. 
+Nevertheless, the principles are applicable to every (class based) object oriented programming language.&lt;/p&gt;
+
+&lt;p&gt;The course is given for students of the &lt;a href=&quot;https://www.fh-luebeck.de/hochschule/fachbereich-elektrotechnik-und-informatik/studiengaenge/informatik-softwaretechnik-bsc/uebersicht/&quot;&gt;Computer Science/Software Engineering&lt;/a&gt; study programme
+at the Lübeck University of Applied Sciences and will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Object oriented concepts&lt;/strong&gt; and programming techniques&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt; of software including introduction to &lt;strong&gt;contracts&lt;/strong&gt;, &lt;strong&gt;unit testing&lt;/strong&gt; and &lt;strong&gt;code coverage&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Generics&lt;/strong&gt; introducing concepts like generic classes and methodes as well as concepts like type erasure, bounds&lt;/li&gt;
+  &lt;li&gt;Introduction to &lt;strong&gt;OOAD&lt;/strong&gt; (object oriented analysis and design) by example of Tic Tac Toe&lt;/li&gt;
+  &lt;li&gt;Graphical user interfaces (&lt;strong&gt;GUI&lt;/strong&gt;) using Swing introducing &lt;strong&gt;MVC&lt;/strong&gt; (model view controler) paradigma&lt;/li&gt;
+  &lt;li&gt;Concurrent programming using &lt;strong&gt;threads&lt;/strong&gt; introducing accompanying &lt;strong&gt;thread safeness&lt;/strong&gt; problems like race conditions, producer-consumer problem, deadlocks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ss2016/progII/prog-unit06.pdf&quot;&gt;Introduction to object oriented programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Self Study Unit 7: &lt;a href=&quot;/assets/ss2016/progII/prog-unit07.pdf&quot;&gt;Further aspects of object oriented programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 8: &lt;a href=&quot;/assets/ss2016/progII/prog-unit08.pdf&quot;&gt;Testing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 9: &lt;a href=&quot;/assets/ss2016/progII/prog-unit09.pdf&quot;&gt;Generics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 10: &lt;a href=&quot;/assets/ss2016/progII/prog-unit10.pdf&quot;&gt;OOAD by example of Tic Tac Toe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 11: &lt;a href=&quot;/assets/ss2016/progII/prog-unit11.pdf&quot;&gt;GUI and MVC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 12: &lt;a href=&quot;/assets/ss2016/progII/prog-unit12.pdf&quot;&gt;Concurrent programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ss2016/progII/prog-exercises.pdf&quot;&gt;Catalogue of exercises&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">Advanced Programming (Summer 2017)</title><link href="http://localhost:4000/lecture/2017/04/11/advanced-programming.html" rel="alternate" type="text/html" title="Advanced Programming (Summer 2017)" /><published>2017-04-11T00:00:00+02:00</published><updated>2017-04-11T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/04/11/advanced-programming</id><content type="html" xml:base="http://localhost:4000/lecture/2017/04/11/advanced-programming.html">&lt;p&gt;The course &lt;strong&gt;Advanced Programming&lt;/strong&gt; continues &lt;strong&gt;Fundaments of Programming&lt;/strong&gt; by introducing more sophistacted programming aspects
+for second semester students. JAVA is used as teaching language. Nevertheless, the principles are applicable to every (class based) object oriented programming language.
+The course is given for students of the &lt;a href=&quot;https://www.fh-luebeck.de/hochschule/fachbereich-elektrotechnik-und-informatik/studiengaenge/informationstechnologie-und-design-bsc/uebersicht/&quot;&gt;Information Technology and Design&lt;/a&gt; study program at Lübeck University of Applied Sciences
+and will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Object oriented concepts and programming techniques&lt;/li&gt;
+  &lt;li&gt;Introduction to &lt;strong&gt;OOAD&lt;/strong&gt; (object oriented analysis and design) by example of Tic Tac Toe&lt;/li&gt;
+  &lt;li&gt;Graphical user interfaces (&lt;strong&gt;GUI&lt;/strong&gt;) using Swing introducing &lt;strong&gt;MVC&lt;/strong&gt; (model view controler) paradigma&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ss2016/progII/prog-unit06.pdf&quot;&gt;Introduction to object oriented programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Self Study Unit 7: &lt;a href=&quot;/assets/ss2016/progII/prog-unit07.pdf&quot;&gt;Further aspects of object oriented programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 10: &lt;a href=&quot;/assets/ss2016/progII/prog-unit10.pdf&quot;&gt;OOAD by example of Tic Tac Toe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 11: &lt;a href=&quot;/assets/ss2016/progII/prog-unit11.pdf&quot;&gt;GUI and MVC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ss2016/progII/prog-exercises.pdf&quot;&gt;Catalogue of exercises&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">Eine spielerische Einführung in das Computational Thinking</title><link href="http://localhost:4000/thesis/2017/02/21/thesis-learn-to-prog.html" rel="alternate" type="text/html" title="Eine spielerische Einführung in das Computational Thinking" /><published>2017-02-21T00:00:00+01:00</published><updated>2017-02-21T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2017/02/21/thesis-learn-to-prog</id><content type="html" xml:base="http://localhost:4000/thesis/2017/02/21/thesis-learn-to-prog.html">&lt;p&gt;Kinder kommen - wenn überhaupt -	frühestens im Grundschulalter mit
 Programmierung in Kontakt. Ansätze das Computational Thinking systematisch zu vermitteln
 liegen häufig noch in den Kinderschuhen. Webapplikationen	wie	z.B.	&lt;a href=&quot;https://lightbot.com/flash.html&quot;&gt;lightbot&lt;/a&gt; 
 ermöglichen zwar einen spielerischen Zugang,	indem ein
@@ -252,101 +298,4 @@ Die Übertragbarkeit des Spielkonzepts auf Smartphones ist grundsätzlich konzep
   &lt;li&gt;&lt;strong&gt;Implementieren&lt;/strong&gt; des Spiels.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Test und Nachweis&lt;/strong&gt; des Spiels inkl. Evaluierung des Spielkonzepts für die Zielgruppe.&lt;/li&gt;
   &lt;li&gt;Begleitende &lt;strong&gt;Dokumentation&lt;/strong&gt; der oben angegebenen Schritte. Zur Dokumentation der Ergebnisse kann folgendes &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;Template&lt;/a&gt; genutzt werden.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="programming" /><category term="web" /><summary type="html">Kinder kommen - wenn überhaupt - frühestens im Grundschulalter mit Programmierung in Kontakt. Ansätze das Computational Thinking systematisch zu vermitteln liegen häufig noch in den Kinderschuhen. Webapplikationen wie z.B. lightbot ermöglichen zwar einen spielerischen Zugang, indem ein Roboter durch eine Sequenz von Anweisungen Schritt für Schritt an ein Ziel geführt werden kann. Allerdings wird nur begrenzt darauf eingegangen, welche weitergehenden Konzepte Programmiersprachen haben.</summary></entry><entry><title type="html">#BTW17 - The German Bundestag Elections of 2017 on Twitter</title><link href="http://localhost:4000/research/project/2017/02/01/project-btw17.html" rel="alternate" type="text/html" title="#BTW17 - The German Bundestag Elections of 2017 on Twitter" /><published>2017-02-01T00:00:00+01:00</published><updated>2017-02-01T00:00:00+01:00</updated><id>http://localhost:4000/research/project/2017/02/01/project-btw17</id><content type="html" xml:base="http://localhost:4000/research/project/2017/02/01/project-btw17.html">&lt;h2 id=&quot;research-setting&quot;&gt;Research setting&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Project duration: 1st Feb. 2017 - 28th Feb. 2018&lt;/li&gt;
-  &lt;li&gt;Involved researchers: Nane Kratzke&lt;/li&gt;
-  &lt;li&gt;Funding: Lübeck University of Applied Sciences internal Project&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;research-context&quot;&gt;Research context&lt;/h2&gt;
-
-&lt;p&gt;Data-driven political campaigns can be successful. &lt;em&gt;“The Obama 2012 campaign used data analytics and the experimental method to assemble a winning coalition vote by vote. In doing so, it overturned the long dominance of TV advertising in U.S. politics and created something new in the world: a national campaign run like a local ward election, where the interests of individual voters were known and addressed.”&lt;/em&gt; &lt;a href=&quot;https://www.technologyreview.com/s/509026/how-obamas-team-used-big-data-to-rally-voters/&quot;&gt;Technology Review&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;But four years later, &lt;a href=&quot;https://www.washingtonpost.com/news/post-politics/wp/2016/11/09/clintons-data-driven-campaign-relied-heavily-on-an-algorithm-named-ada-what-didnt-she-see/?utm_term=.0d42b30d02c7&quot;&gt;Hillary Clinton’s data-driven campaign&lt;/a&gt; organized by the same party failed under the eyes of the world. The question is why data-driven campaigns worked for Barack Obama but not for Hillary Clinton? There is an interesting &lt;a href=&quot;http://www.politico.com/magazine/story/2017/02/data-driven-campaigns-democrats-need-message-214759&quot;&gt;article&lt;/a&gt;
-proclaiming that ‘data-driven’ campaigns are killing the US Democratic Party, because the wrong lessons from Obama’s success have been learned. Dave Gold states that &lt;em&gt;“Democrats have allowed microtargeting to become microthinking. Each cycle, we speak to fewer and fewer people and have less and less to say”&lt;/em&gt; although adressing the right audience. So, whether this is true or not can not be answered by this paper. However, it should be obvious for the reader that data collected acompanying such election campaigns might contain worthful insights.&lt;/p&gt;
-
-&lt;p&gt;Especially Twitter analysis of US election campaigns are done for a while. However, there exist only &lt;a href=&quot;http://journals.sagepub.com/doi/10.1177/0894439314558836&quot;&gt;some open accessible Twitter datasets&lt;/a&gt; with a clear focus on political election campaigns in countries of the European Union. That is why this project records Twitter interactions for one further European country (Germany).&lt;/p&gt;
-
-&lt;p&gt;One major motivation to record this dataset is to collect Twitter data in the “hot” (pre-)phase of political election campaigns in Germany. Social media channels are used more or more intensively by all political parties to distribute political messages and it is more than likely that the professionality – or the data-driveness – will increase in the future. So, this dataset might be one of the latest recordable datasets without being affected by too much microtargeting effects in political campaigning in Germany. Therefore, it might be used for future studies analyzing the campaigns for the 19th German Bundestag but also as a reference dataset to measure ‘data-driven’ effects of political campaigns and microtargeting on Twitter in future campaigns.&lt;/p&gt;
-
-&lt;h2 id=&quot;research-objectives&quot;&gt;Research objectives&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Record&lt;/strong&gt; a representative dataset of Twitter interactions during to pre- and hot-phase for the 19th German Bundestag elections.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Provide&lt;/strong&gt; this dataset via an Open Data platform like &lt;a href=&quot;https://zenodo.org/&quot;&gt;Zenodo&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Develop&lt;/strong&gt; or contribute to pragmatic software tools that enable to record Twitter datasets over long period of times.&lt;/li&gt;
-  &lt;li&gt;Perform a &lt;strong&gt;network analysis&lt;/strong&gt; of the recorded dataset regarding political parties in Germany.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Publish&lt;/strong&gt; analysis results in Open Access scholary contribution channels.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;research-outcomes&quot;&gt;Research outcomes&lt;/h2&gt;
-
-&lt;p&gt;Software (SW), Datasets (DS), Presentations (PR)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SW: &lt;a href=&quot;https://github.com/nkratzke/twista&quot;&gt;Twista&lt;/a&gt; is a Twitter streaming and analysis command line tool.&lt;/li&gt;
-  &lt;li&gt;DS: &lt;a href=&quot;https://zenodo.org/record/835735&quot;&gt;BTW17 dataset&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;PR: &lt;a href=&quot;https://www.slideshare.net/i21aneka/der-bundestagswahlkampf-2017-auf-twitter-war-der-ausgang-abzusehen&quot;&gt;Der Bundestagswahlkampf 2017 auf Twitter - War der Ausgang abzusehen?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;publications&quot;&gt;Publications&lt;/h2&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;strong&gt;[Kra2017b]&lt;/strong&gt; &lt;span id=&quot;Kra2017b&quot;&gt;Kratzke, N. (2017). The #BTW17 Twitter Dataset - Recorded Tweets of the Federal Election Campaigns of 2017 for the 19th German Bundestag. &lt;i&gt;Data&lt;/i&gt;, &lt;i&gt;2&lt;/i&gt;(4).&lt;/span&gt;
-
-&lt;span class=&quot;researchgate&quot;&gt;
-	&lt;a href=&quot;https://www.researchgate.net/publication/320555485&quot;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;
-&lt;/span&gt;
-
-&lt;a class=&quot;details&quot; href=&quot;/bibliography/Kra2017b.html&quot;&gt;more&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Nane Kratzke</name></author><category term="social" /><category term="media" /><category term="Twitter" /><category term="research" /><category term="project" /><category term="BTW17" /><category term="data-science" /><summary type="html">Research setting</summary></entry><entry><title type="html">Autoscaling für elastische Container Plattformen</title><link href="http://localhost:4000/thesis/2017/01/20/thesis-auto-scaling.html" rel="alternate" type="text/html" title="Autoscaling für elastische Container Plattformen" /><published>2017-01-20T00:00:00+01:00</published><updated>2017-01-20T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2017/01/20/thesis-auto-scaling</id><content type="html" xml:base="http://localhost:4000/thesis/2017/01/20/thesis-auto-scaling.html">&lt;p&gt;In dieser Bachelorarbeit sollen existierende Open Source Monitoring Lösungen 
-(wie z.B. der ELK-Stack, Prometheus, etc.) analysiert und mit einer bestehenden 
-Deployer-Lösung für elastische Containerplattformen (wie Kubernetes, Apache Mesos, Docker Swarm, Nomad, etc.), 
-zu einem Auto-Scaler integriert werden.
-Eine Realisierung dieses Deployers wurde bereits für Kubernetes auf Amazon AWS und OpenStack umgesetzt. 
-Es sollen Metriken der Cluster-Nodes erfasst, zusammengeführt und analysiert werden.
-Die Bestimmung geeigneter Metriken für Skalierungsmaßnahmen gehört nicht zum Umfang dieser Arbeit. 
-Die Arbeit soll jedoch nachweisen,
-dass beliebig erfassbare Metriken (und Metrikkombinationen) für eine Autoskalierung genutzt werden können.
-Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:&lt;/p&gt;
-
-&lt;h3 id=&quot;teilaufgaben&quot;&gt;Teilaufgaben&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Hinweis:
-Sollten sich während der Bearbeitung dieser Arbeit einzelne Aspekte als schwer realisierbar erweisen, kann die Aufgabenstellung - nach plausiblem Nachweis der Schwierigkeit - angepasst werden.
-&lt;/em&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;analyse-von-bestehenden-monitoring-lösungen&quot;&gt;Analyse von bestehenden Monitoring-Lösungen&lt;/h4&gt;
-
-&lt;p&gt;Es gibt diverse Tools und Tool-Stacks mit denen das Monitoring von Cluster-Nodes erfolgen kann.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mittels einer Recherche sollen geeignete (mind. drei) Monitoring-Systeme/Stacks identifiziert und verglichen werden.&lt;/li&gt;
-  &lt;li&gt;Die Kriterien für eine vergleichende Analyse sollen auf dem Funktionsumfang (unterstützt Metriken) und der Skalierbarkeit beruhen. Ausschlusskriterien sind Dienste die nur als externer Service zu Verfügung stehen und Tools unter nicht-freier Lizenz.&lt;/li&gt;
-  &lt;li&gt;Weitere Kriterien, besonders solche, die für die Umsetzung und Integration mit dem vorhandenen ECP-Deployer zusammenhängen, sollen in Absprache selbstständig identifiziert werden.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;automatisches-skalieren-des-clusters-integration&quot;&gt;Automatisches Skalieren des Clusters (Integration)&lt;/h4&gt;
-
-&lt;p&gt;Aktuell ist ein Deployer für ein Kubernetes Cluster vorhanden und für andere Plattformen, 
-wie beispielweise Apache Mesos und Docker Swarm, geplant. 
-Der bestehende Deployer soll um eine Monitoring- und Skalierungs-Komponente ergänzt werden.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Entsprechend der vergleichenden Analyse soll das geeignetste Monitoring-System installiert und integriert werden.&lt;/li&gt;
-  &lt;li&gt;Es soll ein System in Ruby umgesetzt werden, welches anhand der Daten aus dem Monitoring-System und der übergebenen Metriken die Anzahl der Cluster-Nodes nach Bedarf anpasst (Auto-Skallierung)&lt;/li&gt;
-  &lt;li&gt;Dazu muss die Cluster-Konfiguration angepasst und der ECP-Deployer geeignet getriggert werden.&lt;/li&gt;
-  &lt;li&gt;Es sind nach Möglichkeit einfache Datenformate wie bspw. JSON zu nutzen.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;evaluierung-der-skalierbarkeit-des-clusters&quot;&gt;Evaluierung der Skalierbarkeit des Clusters&lt;/h4&gt;
-
-&lt;p&gt;Anhand von mehreren erfassbaren Metriken/Metrikkombinationen soll das Skalieren des Clusters 
-exemplarisch nachgewiesen werden.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Es muss gezeigt werden, das Systemzustände der Cluster-Nodes (bspw. CPU-Load, Arbeitsspeicher, Plattenplatz, Netzwerklast, etc.) erkannt und in sinnvolle Skalierungsaktionen umgesetzt werden können.&lt;/li&gt;
-  &lt;li&gt;Dazu müssen geeignete Tools zur Erzeugung von Lasten identifiziert oder ggf. erstellt werden.&lt;/li&gt;
-  &lt;li&gt;Es muss getestet werden, dass das System entsprechend der überwachten Metriken selbstständig skaliert.&lt;/li&gt;
-  &lt;li&gt;Es soll horizontales und automatisches Hoch- und Runterskalieren getestet werden.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="container" /><category term="elastic" /><category term="platform" /><category term="kubernetes" /><category term="storage" /><category term="cluster" /><category term="autoscaling" /><summary type="html">In dieser Bachelorarbeit sollen existierende Open Source Monitoring Lösungen (wie z.B. der ELK-Stack, Prometheus, etc.) analysiert und mit einer bestehenden Deployer-Lösung für elastische Containerplattformen (wie Kubernetes, Apache Mesos, Docker Swarm, Nomad, etc.), zu einem Auto-Scaler integriert werden. Eine Realisierung dieses Deployers wurde bereits für Kubernetes auf Amazon AWS und OpenStack umgesetzt. Es sollen Metriken der Cluster-Nodes erfasst, zusammengeführt und analysiert werden. Die Bestimmung geeigneter Metriken für Skalierungsmaßnahmen gehört nicht zum Umfang dieser Arbeit. Die Arbeit soll jedoch nachweisen, dass beliebig erfassbare Metriken (und Metrikkombinationen) für eine Autoskalierung genutzt werden können. Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="programming" /><category term="web" /><summary type="html">Kinder kommen - wenn überhaupt - frühestens im Grundschulalter mit Programmierung in Kontakt. Ansätze das Computational Thinking systematisch zu vermitteln liegen häufig noch in den Kinderschuhen. Webapplikationen wie z.B. lightbot ermöglichen zwar einen spielerischen Zugang, indem ein Roboter durch eine Sequenz von Anweisungen Schritt für Schritt an ein Ziel geführt werden kann. Allerdings wird nur begrenzt darauf eingegangen, welche weitergehenden Konzepte Programmiersprachen haben.</summary></entry></feed>

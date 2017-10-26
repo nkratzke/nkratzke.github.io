@@ -67,7 +67,7 @@
 							<header>
 <h1>Cloud TRANSIT</h1>
 
-<strong>02 Feb 2016</strong>
+<strong>26 Oct 2016</strong>
 , first release: 25 Jun 2014
 
 
@@ -83,7 +83,15 @@ pixabay.com, CC0
 
 <ul>
   <li>Project duration: 1st Nov. 2014 - 31th Mar. 2018</li>
-  <li>Involved researchers: Nane Kratzke, Peter-Christian Quint, Thomas Finnern, Christian Stüben, Arne Salveter</li>
+  <li>Involved researchers and domain matter experts:
+    <ul>
+      <li>Nane Kratzke, Peter-Christian Quint (Lübeck University of Applied Sciences)</li>
+      <li>Christian Stüben, Arne Salveter (Lübeck University of Applied Sciences)</li>
+      <li>Dirk Reimers, Derek Palme (fat IT solutions GmbH, Kiel)</li>
+      <li>Thomas Finnern (wilhelm.Tel GmbH, Stadtwerke Norderstedt)</li>
+      <li>René Peinl (Hof University of Applied Sciences)</li>
+    </ul>
+  </li>
   <li>Funding: German <a href="http://www.bmbf.de/en/index.php">Federal Ministry of Education and Research</a> <strong>(13FH021PX4)</strong></li>
   <li>Project partners:
     <ul>
@@ -95,7 +103,7 @@ pixabay.com, CC0
 
 <h2 id="research-context">Research context</h2>
 
-<p>Current cloud computing related research focuses often <a href="https://www.springer.com/business+%26+management/operations+research/book/978-1-4419-1627-3">Service Science</a> related problems and therefore concentrates on aspects how to design, operate and deliver agile cloud based services according to a broad economical as well as technological) understanding of the <a href="https://en.wikipedia.org/wiki/Service">service</a> term.
+<p>Current cloud computing related research focuses often <a href="https://www.springer.com/business+%26+management/operations+research/book/978-1-4419-1627-3">Service Science</a> related problems and therefore concentrates on aspects how to design, operate and deliver agile cloud based services according to a broad economical as well as technological understanding of the <a href="https://en.wikipedia.org/wiki/Service">service</a> term.
 Beside common security, governance and cost forecast concerns, often technological <a href="https://en.wikipedia.org/wiki/Vendor_lock-in">vendor lock-in</a> worries come along with cloud computing, which is especially true for small and medium-sized enterprises (<a href="/bibliography/Kra2011a.html">Kra2011a</a>, <a href="/bibliography/Kra2011b.html">Kra2011b</a>, <a href="/bibliography/Kra2012b.html">Kra2012b</a>.
 But astonishing little research activities focus a technological point of view how to overcome technical <a href="https://en.wikipedia.org/wiki/Vendor_lock-in">vendor lock-in</a> problems in cloud computing. Therefore, this technological point of view is particulary addressed 
 by this research project.</p>
@@ -103,36 +111,99 @@ by this research project.</p>
 <h2 id="research-objectives">Research objectives</h2>
 
 <ul>
-  <li>Analyzation of public and private cloud infrastructures</li>
-  <li>Requirements analysis for a generic cloud service description language focusing cloud-native applications</li>
-  <li>Development of a transferable platform solution for cloud-native applications</li>
-  <li>Considering cloud services of typical complexity (distributed, load balanced, auto scaling)</li>
-  <li>Realizing a prototypic implementation of the description language</li>
-  <li>Providing a proof-of-concept solution</li>
+  <li>Analyzing public and private cloud infrastructures to determine <strong>commonalities</strong> that can be relied on to avoid vendor lock-in for cloud-native applications.</li>
+  <li>Investigation of solutions to realize <strong>transferable platform concepts</strong> for cloud-native applications.</li>
+  <li>Requirements engineering for a generic <strong>cloud service description language</strong> focusing cloud-native applications considering cloud services of typical complexity (distributed, load balanced, auto scaling).</li>
+  <li>Realizing a <strong>prototypic implementation</strong> of the cloud service description language.</li>
+  <li>Evaluating a <strong>proof-of-concept</strong> solution.</li>
 </ul>
 
 <h2 id="research-outcomes">Research outcomes</h2>
 
-<p>Software (SW), Datasets (DS), Presentations (PR)</p>
+<p>Software <strong>(SW)</strong>, Datasets <strong>(DS)</strong>, Presentations <strong>(PR)</strong></p>
 
 <ul>
-  <li>SW: <a href="https://github.com/nkratzke/pingpong">ppbench</a> - a benchmark for microservices</li>
+  <li><strong>SW:</strong> <a href="https://bitbucket.org/cloudtransit/ecp_deploy">ECP Deploy</a> - a tool to deploy elastic container platforms pragmatically</li>
+  <li><strong>SW:</strong> <a href="https://bitbucket.org/cloudtransit/easycompare">easycompare</a> - a tool to measure similarities of virtual machine types across different cloud service providers</li>
+  <li><strong>SW:</strong> <a href="https://github.com/nkratzke/pingpong">ppbench</a> - a benchmark for microservices</li>
   <li>
-    <p>SW: <a href="https://github.com/nkratzke/open4ssh">Open4SSH</a> - a pragmatic SSH interface for remote automation scenarios in Ruby environments</p>
+    <p><strong>SW:</strong> <a href="https://github.com/nkratzke/open4ssh">Open4SSH</a> - a pragmatic SSH interface for remote automation scenarios for Ruby</p>
   </li>
-  <li>PR: <a href="https://www.slideshare.net/i21aneka/smuggling-multicloud-support-into-cloudnative-applications-using-elastic-container-platforms">Smuggling Multi-Cloud Support into Cloud-native Applications</a> (CLOSER 2017 Conference, Porto, Portugal)</li>
-  <li>PR: <a href="https://www.slideshare.net/i21aneka/20161102-computermuseumcloud-transit-67771887">Was die Cloud mit einem brennenden Haus zu tun hat</a> (Motivationsvortrag zu hybriden Cloud Strategien im Computer Museum Kiel, 2016)</li>
-  <li>PR: <a href="https://www.slideshare.net/i21aneka/clouns-a-cloudnative-application-reference-model-for-enterprise-architects">ClouNS - A Cloud-native Application Reference Model for Enterprise Architects</a> (EDOC 2016 Conference, Wien, Austria)</li>
-  <li>PR: <a href="https://www.slideshare.net/i21aneka/ppbench-a-visualizing-network-benchmark-for-microservices">ppbench - A Visualizing Network Benchmark for Microservices</a> (CLOSER 2016 Conference, Rome, Italy)</li>
-  <li>PR: <a href="https://www.slideshare.net/i21aneka/about-microservices-containers-and-their-underestimated-impact-on-network-performance">About Microservices, Containers and Underestimated Impact on Network Performance</a> (CLOUD COMPUTING 2015 Conference, Nice, France)</li>
+  <li><strong>PR:</strong> <a href="/assets/content/2017-10-25-microservice-odense.pdf">Towards a Description of Elastic Cloud- native Applications for Transferable Multi-Cloud-Deployments</a> (Microservices 2017 Forum, Odense, Denmark)</li>
+  <li><strong>PR:</strong> <a href="https://www.slideshare.net/i21aneka/smuggling-multicloud-support-into-cloudnative-applications-using-elastic-container-platforms">Smuggling Multi-Cloud Support into Cloud-native Applications</a> (CLOSER 2017 Conference, Porto, Portugal)</li>
+  <li><strong>PR:</strong> <a href="https://www.slideshare.net/i21aneka/20161102-computermuseumcloud-transit-67771887">Was die Cloud mit einem brennenden Haus zu tun hat</a> (Motivationsvortrag zu hybriden Cloud Strategien im Computer Museum Kiel, 2016)</li>
+  <li><strong>PR:</strong> <a href="https://www.slideshare.net/i21aneka/clouns-a-cloudnative-application-reference-model-for-enterprise-architects">ClouNS - A Cloud-native Application Reference Model for Enterprise Architects</a> (EDOC 2016 Conference, Wien, Austria)</li>
+  <li><strong>PR:</strong> <a href="https://www.slideshare.net/i21aneka/ppbench-a-visualizing-network-benchmark-for-microservices">ppbench - A Visualizing Network Benchmark for Microservices</a> (CLOSER 2016 Conference, Rome, Italy)</li>
+  <li><strong>PR:</strong> <a href="https://www.slideshare.net/i21aneka/about-microservices-containers-and-their-underestimated-impact-on-network-performance">About Microservices, Containers and Underestimated Impact on Network Performance</a> (CLOUD COMPUTING 2015 Conference, Nice, France)</li>
 </ul>
 
 <h2 id="publications">Publications</h2>
 
-<ol class="bibliography"><li><strong>[Finnern2017]</strong> <span id="Finnern2017">Finnern, T. (2017). <i>Analyse und Integration von Storage-Clustern in elastische Container Plattformen</i>. Retrieved from http://www.nkode.io/assets/thesis/2017/2017-thesis-thomas-finnern.pdf</span>
+<h3 id="-journal-papers">&gt; Journal Papers</h3>
+<ol class="bibliography"><li><strong>[KQ2017a]</strong> <span id="KQ2017a">Kratzke, N., &amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. <i>Journal of Systems and Software</i>, <i>126</i>(April), 1–16. https://doi.org/10.1016/j.jss.2017.01.001</span>
 
-<a class="details" href="/bibliography/Finnern2017.html">more</a></li>
-<li><strong>[QK2017]</strong> <span id="QK2017">Quint, P.-C., &amp; Kratzke, N. (2017). Towards a Description of Elastic Cloud-native Applications for Transferable Multi-Cloud-Deployments. In <i>Proceedings of the 1st Int. Forum on Microservices (Microservices 2017, Odense, Denmark)</i>.</span>
+<span class="researchgate">
+	<a href="https://www.researchgate.net/publication/312045183">Research<em>Gate</em></a>
+</span>
+
+<a class="details" href="/bibliography/KQ2017a.html">more</a></li>
+<li><strong>[QK2016b]</strong> <span id="QK2016b">Quint, P.-C., &amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. <i>International Journal on Advances in Networks and Services</i>, <i>9</i>(3&amp;4), 389–400.</span>
+
+<span class="researchgate">
+	<a href="https://www.researchgate.net/publication/309673663">Research<em>Gate</em></a>
+</span>
+
+<a class="details" href="/bibliography/QK2016b.html">more</a></li>
+<li><strong>[KQ2015]</strong> <span id="KQ2015">Kratzke, N., &amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. <i>Journal of Cloud Computing Research</i>, <i>1</i>(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx</span>
+
+<span class="researchgate">
+	<a href="https://www.researchgate.net/publication/278242891">Research<em>Gate</em></a>
+</span>
+
+<a class="details" href="/bibliography/KQ2015.html">more</a></li>
+<li><strong>[KQ2015a]</strong> <span id="KQ2015a">Kratzke, N., &amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. <i>International Journal On Advances in Networks and Services</i>, <i>8</i>(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8</span>
+
+<span class="researchgate">
+	<a href="https://www.researchgate.net/publication/284501557">Research<em>Gate</em></a>
+</span>
+
+<a class="details" href="/bibliography/KQ2015a.html">more</a></li>
+<li><strong>[Kra2014d]</strong> <span id="Kra2014d">Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittels einer generischen Cloud Service Description Language. <i>Impulse - Aus Forschung Und Lehre Der FH Lübeck</i>, <i>18</i>(1).</span>
+
+<a class="details" href="/bibliography/Kra2014d.html">more</a></li>
+<li><strong>[Kra2014a]</strong> <span id="Kra2014a">Kratzke, N. (2014). Lightweight Virtualization Cluster - Howto overcome Cloud Vendor Lock-in. <i>Journal of Computer and Communication (JCC)</i>, <i>2</i>(12). https://doi.org/10.4236/jcc.2014.212001</span>
+
+<span class="researchgate">
+	<a href="https://www.researchgate.net/publication/265416477">Research<em>Gate</em></a>
+</span>
+
+<a class="details" href="/bibliography/Kra2014a.html">more</a></li>
+<li><strong>[Kra2014b]</strong> <span id="Kra2014b">Kratzke, N. (2014). A Lightweight Virtualization Cluster Reference Architecture Derived from Open Source PaaS Platforms. <i>Open Journal of Mobile Computing and Cloud Computing (MCCC)</i>, <i>1</i>(2), 17–30.</span>
+
+<span class="researchgate">
+	<a href="https://www.researchgate.net/publication/265416428">Research<em>Gate</em></a>
+</span>
+
+<a class="details" href="/bibliography/Kra2014b.html">more</a></li></ol>
+
+<h3 id="-book-chapters">&gt; Book Chapters</h3>
+<ol class="bibliography"><li><strong>[KQP+2016]</strong> <span id="KQP+2016">Kratzke, N., Quint, P.-C., Palme, D., &amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp; B. Koch (Eds.), <i>European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges</i>. SCITEPRESS.</span>
+
+<span class="researchgate">
+	<a href="https://www.researchgate.net/publication/304578995">Research<em>Gate</em></a>
+</span>
+
+<a class="details" href="/bibliography/KQP+2016.html">more</a></li>
+<li><strong>[KQ2016b]</strong> <span id="KQ2016b">Kratzke, N., &amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp; J. Cardoso (Eds.), <i>Cloud Computing and Services Science Selected Papers</i>. Springer.</span>
+
+<span class="researchgate">
+	<a href="https://www.researchgate.net/publication/308219976">Research<em>Gate</em></a>
+</span>
+
+<a class="details" href="/bibliography/KQ2016b.html">more</a></li></ol>
+
+<h3 id="-conference-papers">&gt; Conference Papers</h3>
+<ol class="bibliography"><li><strong>[QK2017]</strong> <span id="QK2017">Quint, P.-C., &amp; Kratzke, N. (2017). Towards a Description of Elastic Cloud-native Applications for Transferable Multi-Cloud-Deployments. In <i>Proceedings of the 1st Int. Forum on Microservices (Microservices 2017, Odense, Denmark)</i>.</span>
 
 <a class="details" href="/bibliography/QK2017.html">more</a></li>
 <li><strong>[Kra2017a]</strong> <span id="Kra2017a">Kratzke, N. (2017). Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms. In <i>Proceedings of the 7th Int. Conf. on Cloud Computing and Services Science (CLOSER 2017)</i> (pp. 29–42).</span>
@@ -142,13 +213,6 @@ by this research project.</p>
 </span>
 
 <a class="details" href="/bibliography/Kra2017a.html">more</a></li>
-<li><strong>[KQ2017a]</strong> <span id="KQ2017a">Kratzke, N., &amp; Quint, P.-C. (2017). Understanding Cloud-native Applications after 10 Years of Cloud Computing - A Systematic Mapping Study. <i>Journal of Systems and Software</i>, <i>126</i>(April), 1–16. https://doi.org/10.1016/j.jss.2017.01.001</span>
-
-<span class="researchgate">
-	<a href="https://www.researchgate.net/publication/312045183">Research<em>Gate</em></a>
-</span>
-
-<a class="details" href="/bibliography/KQ2017a.html">more</a></li>
 <li><strong>[KP2016]</strong> <span id="KP2016">Kratzke, N., &amp; Peinl, R. (2016). ClouNS - a Cloud-Native Application Reference Model for Enterprise Architects. In <i>2016 IEEE 20th International Enterprise Distributed Object Computing Workshop (EDOCW)</i> (pp. 1–10). https://doi.org/10.1109/EDOCW.2016.7584353</span>
 
 <span class="researchgate">
@@ -170,68 +234,24 @@ by this research project.</p>
 </span>
 
 <a class="details" href="/bibliography/QK2016a.html">more</a></li>
-<li><strong>[Finnern2016]</strong> <span id="Finnern2016">Finnern, T. (2016). <i>Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen</i>. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf</span>
-
-<a class="details" href="/bibliography/Finnern2016.html">more</a></li>
-<li><strong>[QK2016b]</strong> <span id="QK2016b">Quint, P.-C., &amp; Kratzke, N. (2016). Taming the Complexity of Elasticity, Scalability and Transferability in Cloud Computing - Cloud-Native Applications for SMEs. <i>International Journal on Advances in Networks and Services</i>, <i>9</i>(3&amp;4), 389–400.</span>
-
-<span class="researchgate">
-	<a href="https://www.researchgate.net/publication/309673663">Research<em>Gate</em></a>
-</span>
-
-<a class="details" href="/bibliography/QK2016b.html">more</a></li>
-<li><strong>[KQP+2016]</strong> <span id="KQP+2016">Kratzke, N., Quint, P.-C., Palme, D., &amp; Reimers, D. (2016). Project Cloud TRANSIT - Or to Simplify Cloud-native Application Provisioning for SMEs by Integrating Already Available Container Technologies. In V. Kantere &amp; B. Koch (Eds.), <i>European Project Space on Smart Systems, Big Data, Future Internet - Towards Serving the Grand Societal Challenges</i>. SCITEPRESS.</span>
-
-<span class="researchgate">
-	<a href="https://www.researchgate.net/publication/304578995">Research<em>Gate</em></a>
-</span>
-
-<a class="details" href="/bibliography/KQP+2016.html">more</a></li>
-<li><strong>[KQ2016b]</strong> <span id="KQ2016b">Kratzke, N., &amp; Quint, P.-C. (2016). Investigation of Impacts on Network Performance in the Advance of a Microservice Design. In M. Helfert, D. Ferguson, V. M. Munoz, &amp; J. Cardoso (Eds.), <i>Cloud Computing and Services Science Selected Papers</i>. Springer.</span>
-
-<span class="researchgate">
-	<a href="https://www.researchgate.net/publication/308219976">Research<em>Gate</em></a>
-</span>
-
-<a class="details" href="/bibliography/KQ2016b.html">more</a></li>
-<li><strong>[KQ2015a]</strong> <span id="KQ2015a">Kratzke, N., &amp; Quint, P.-C. (2015). How to Operate Container Clusters more Efficiently? Some Insights Concerning Containers, Software-Defined-Networks, and their sometimes Counterintuitive Impact on Network Performance. <i>International Journal On Advances in Networks and Services</i>, <i>8</i>(3&amp;4), 203–214. Retrieved from http://www.thinkmind.org/download.php?articleid=netser_v8_n34_2015_8</span>
-
-<span class="researchgate">
-	<a href="https://www.researchgate.net/publication/284501557">Research<em>Gate</em></a>
-</span>
-
-<a class="details" href="/bibliography/KQ2015a.html">more</a></li>
-<li><strong>[KQ2015]</strong> <span id="KQ2015">Kratzke, N., &amp; Quint, P.-C. (2015). About Automatic Benchmarking of IaaS Cloud Service Providers for a World of Container Clusters. <i>Journal of Cloud Computing Research</i>, <i>1</i>(1), 16–34. Retrieved from http://jccr.uscip.us/PublishedIssues.aspx</span>
-
-<span class="researchgate">
-	<a href="https://www.researchgate.net/publication/278242891">Research<em>Gate</em></a>
-</span>
-
-<a class="details" href="/bibliography/KQ2015.html">more</a></li>
 <li><strong>[Kra2015b]</strong> <span id="Kra2015b">Kratzke, N. (2015). About Microservices, Containers and their Underestimated Impact on Network Performance. In <i>Proceedings of CLOUD COMPUTING 2015 (6th. International Conference on Cloud Computing, GRIDS and Virtualization)</i> (pp. 165–169).</span>
 
 <span class="researchgate">
 	<a href="https://www.researchgate.net/publication/273456042">Research<em>Gate</em></a>
 </span>
 
-<a class="details" href="/bibliography/Kra2015b.html">more</a></li>
-<li><strong>[Kra2014d]</strong> <span id="Kra2014d">Kratzke, N. (2014). CloudTRANSIT - Sichere, plattformunabhängige und transferierbare IT-Services mittels einer generischen Cloud Service Description Language. <i>Impulse - Aus Forschung Und Lehre Der FH Lübeck</i>, <i>18</i>(1).</span>
+<a class="details" href="/bibliography/Kra2015b.html">more</a></li></ol>
 
-<a class="details" href="/bibliography/Kra2014d.html">more</a></li>
-<li><strong>[Kra2014a]</strong> <span id="Kra2014a">Kratzke, N. (2014). Lightweight Virtualization Cluster - Howto overcome Cloud Vendor Lock-in. <i>Journal of Computer and Communication (JCC)</i>, <i>2</i>(12). https://doi.org/10.4236/jcc.2014.212001</span>
+<h3 id="-reports">&gt; Reports</h3>
+<ol class="bibliography"><li><strong>[Stueben2017]</strong> <span id="Stueben2017">Stüben, C. (2017). <i>Autoscaling für elastische Container Plattformen</i>. Retrieved from http://www.nkode.io/assets/thesis/2017/2017-thesis-christian-stueben.pdf</span>
 
-<span class="researchgate">
-	<a href="https://www.researchgate.net/publication/265416477">Research<em>Gate</em></a>
-</span>
+<a class="details" href="/bibliography/Stueben2017.html">more</a></li>
+<li><strong>[Finnern2017]</strong> <span id="Finnern2017">Finnern, T. (2017). <i>Analyse und Integration von Storage-Clustern in elastische Container Plattformen</i>. Retrieved from http://www.nkode.io/assets/thesis/2017/2017-thesis-thomas-finnern.pdf</span>
 
-<a class="details" href="/bibliography/Kra2014a.html">more</a></li>
-<li><strong>[Kra2014b]</strong> <span id="Kra2014b">Kratzke, N. (2014). A Lightweight Virtualization Cluster Reference Architecture Derived from Open Source PaaS Platforms. <i>Open Journal of Mobile Computing and Cloud Computing (MCCC)</i>, <i>1</i>(2), 17–30.</span>
+<a class="details" href="/bibliography/Finnern2017.html">more</a></li>
+<li><strong>[Finnern2016]</strong> <span id="Finnern2016">Finnern, T. (2016). <i>Evaluation einer Cloudspeicher-Loesung bei einem Telekommunikationsunternehmen</i>. Retrieved from http://www.nkode.io/assets/self-archive/evaluation-cloudspeicher.pdf</span>
 
-<span class="researchgate">
-	<a href="https://www.researchgate.net/publication/265416428">Research<em>Gate</em></a>
-</span>
-
-<a class="details" href="/bibliography/Kra2014b.html">more</a></li></ol>
+<a class="details" href="/bibliography/Finnern2016.html">more</a></li></ol>
 
 
 						</div>

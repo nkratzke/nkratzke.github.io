@@ -1,5 +1,5 @@
 body {
-    font-size: 17pt;
+    font-size: 16pt;
 }
 
 p {
@@ -34,7 +34,7 @@ h2 > small, h3 > small {
     background-color: #333333;
     color: white;
     padding-top: 1em;
-    font-size: 15pt;
+    font-size: 14pt;
 }
 
 footer a.icon {

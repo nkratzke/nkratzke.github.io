@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-16T09:44:23+01:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Programming I (Winter 2017)</title><link href="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2017)" /><published>2017-09-21T00:00:00+02:00</published><updated>2017-09-21T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/09/21/lecture-programming-i</id><content type="html" xml:base="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming for freshman students and covers fundamental concepts of programming.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-12T11:18:35+01:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Analysis of Face Recognition Capabilities by Example of a Mobile Web Game</title><link href="http://localhost:4000/thesis/2017/12/12/thesis-face-recognition.html" rel="alternate" type="text/html" title="Analysis of Face Recognition Capabilities by Example of a Mobile Web Game" /><published>2017-12-12T00:00:00+01:00</published><updated>2017-12-12T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2017/12/12/thesis-face-recognition</id><content type="html" xml:base="http://localhost:4000/thesis/2017/12/12/thesis-face-recognition.html">&lt;p&gt;This thesis shall identify face recognition, face tracking, and face gesture recognition libraries,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;summarize and categorize their features,&lt;/li&gt;
+  &lt;li&gt;assess and compare their efficiency,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;to develop and realize an interesting game concept that demonstrates face recognition capabilities of smartphones. The resulting web game should be executable in a modern mobile HTML5 web browser. The game is intended to be presented on fairs to demonstrate student outcomes of computer science students. The game will likely involve technologies like JavaScript, HTML, DOM-Tree, CSS and so on. The game should be realized as a single page web app. No server component should be necessary to operate the game.&lt;/p&gt;
+
+&lt;p&gt;It is recommended to study and consider this &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;template&lt;/a&gt; for thesis documentation from the very beginning.&lt;/p&gt;
+
+&lt;h2 id=&quot;tasks-documentation-and-outcomes&quot;&gt;Tasks, Documentation and Outcomes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Analyze&lt;/strong&gt; face recognition, face tracking, and face gesture recognition libraries,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Compare&lt;/strong&gt; performance and efficiency of such kind of libraries,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Summarize&lt;/strong&gt; features, opportunities and limitations of these libraries and derive an interesting game concpet that is playable on a wide range of mobile browsers on SmartPhones,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Implementation&lt;/strong&gt; and documentation of the game&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Evaluation&lt;/strong&gt; of the game including typical software testing and user acceptance strategies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; of the above mentioned steps. It is recommended to allign the documentation according to this &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;Template&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="programming" /><category term="web" /><summary type="html">This thesis shall identify face recognition, face tracking, and face gesture recognition libraries,</summary></entry><entry><title type="html">Programming I (Winter 2017)</title><link href="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2017)" /><published>2017-09-21T00:00:00+02:00</published><updated>2017-09-21T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/09/21/lecture-programming-i</id><content type="html" xml:base="http://localhost:4000/lecture/2017/09/21/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming for freshman students and covers fundamental concepts of programming.
 JAVA is used as teaching language, nevertheless the principles are applicable to every (imperative or class based object oriented) programming language.
 The course is given for &lt;em&gt;Computer Science&lt;/em&gt; students at the Lübeck University of Applied Sciences.
 and covers the following aspects:&lt;/p&gt;
@@ -71,7 +91,7 @@ and will cover following aspects:&lt;/p&gt;
 &lt;p&gt;All of the mentioned commercial serverless computing models are prone to create vendor lock-in (to some degree). Therefore, open source serverless frameworks might be an alternative with the downside that the infrastructure must be operated. Obviously these frameworks need platforms or infrastructures to be executed on.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nuclio/nuclio&quot;&gt;nuclio&lt;/a&gt; - High-Performance Serverless event and data processing framework (added 24. Oct 2017) &lt;span class=&quot;date&quot;&gt;New&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nuclio/nuclio&quot;&gt;nuclio&lt;/a&gt; - High-Performance Serverless event and data processing framework (added 24. Oct 2017)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://fnproject.io/&quot;&gt;Fn project&lt;/a&gt; - The Fn project is a container native serverless platform. It supports every programming language. (added 3. Oct 2017)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://openwhisk.incubator.apache.org/&quot;&gt;OpenWhisk&lt;/a&gt; by Apache includes native support for Node.js, Python, Java, and Swift, and supports other languages and runtime via Docker containers. (added 12. Sep 2017)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://kubeless.io/&quot;&gt;Kubeless&lt;/a&gt;, a serverless framework for Kubernetes. (added 12. Sep 2017)&lt;/li&gt;
@@ -254,48 +274,4 @@ and will cover following aspects:&lt;/p&gt;
   &lt;li&gt;Lecture Unit 10: &lt;a href=&quot;/assets/ss2016/progII/prog-unit10.pdf&quot;&gt;OOAD by example of Tic Tac Toe&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Lecture Unit 11: &lt;a href=&quot;/assets/ss2016/progII/prog-unit11.pdf&quot;&gt;GUI and MVC&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ss2016/progII/prog-exercises.pdf&quot;&gt;Catalogue of exercises&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">Eine spielerische Einführung in das Computational Thinking</title><link href="http://localhost:4000/thesis/2017/02/21/thesis-learn-to-prog.html" rel="alternate" type="text/html" title="Eine spielerische Einführung in das Computational Thinking" /><published>2017-02-21T00:00:00+01:00</published><updated>2017-02-21T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2017/02/21/thesis-learn-to-prog</id><content type="html" xml:base="http://localhost:4000/thesis/2017/02/21/thesis-learn-to-prog.html">&lt;p&gt;Kinder kommen - wenn überhaupt -	frühestens im Grundschulalter mit
-Programmierung in Kontakt. Ansätze das Computational Thinking systematisch zu vermitteln
-liegen häufig noch in den Kinderschuhen. Webapplikationen	wie	z.B.	&lt;a href=&quot;https://lightbot.com/flash.html&quot;&gt;lightbot&lt;/a&gt; 
-ermöglichen zwar einen spielerischen Zugang,	indem ein
-Roboter durch eine Sequenz von Anweisungen Schritt	für	Schritt	
-an ein	Ziel	geführt werden kann. Allerdings	wird	nur begrenzt	darauf	eingegangen,	
-welche weitergehenden Konzepte Programmiersprachen	haben.&lt;/p&gt;
-
-&lt;p&gt;Mit dieser Bachelorarbeit soll eine Webapplikationen in Anlehnung an das
-Eingangs erwähnte Lightbot-Spiel entwickelt werden. Diese Webapplikation soll dabei weniger auf eine
-3D Darstellung wert legen, sondern ergänzend
-zur sequentiellen Ausführung von Einzelanweisungen zusätzliche 
-Konzepte imperativer Programmiersprachen spielerisch nutzen:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Variablen zur Speicherung von Zuständen&lt;/li&gt;
-  &lt;li&gt;Schleifen mit Bedingungen&lt;/li&gt;
-  &lt;li&gt;Funktionen mit Parametern und Rückgabewerten&lt;/li&gt;
-  &lt;li&gt;ggf. Collection-artige Datenstrukturen wie Listen, Queues, Stacks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Kindern	soll mit	Hilfe	einer graphischen	Darstellung	und Erklärung
-der	Konzepte	geholfen	werden	diese zu verstehen und zur Lösung von
-Problemen spielerisch anzuwenden.	Die genannten Konzepten	sollen hierzu mittels	
-verschiedener	Level und steigendem Schwierigkeitsgrad	schrittweise und 
-spielerisch eingeführt werden.&lt;/p&gt;
-
-&lt;p&gt;Die Applikation soll als Stand-alone Webapplikation (Single Page App)
-für Desktop- und Tablet-Browser mittels eines etablierten Responsive Web Frameworks
-konzipiert werden, die ohne eine zentrale Server-Komponente auskommt und daher
-flexibel in Schulen auf Laptops/Desktops oder Tablets eingesetzt werden kann. 
-Die Wahl der Implementierungssprache obliegt dem Autor der Arbeit ist jedoch zu begründen. 
-Die Übertragbarkeit des Spielkonzepts auf Smartphones ist grundsätzlich konzeptionell zu berücksichtigen.&lt;/p&gt;
-
-&lt;h2 id=&quot;aufgaben-dokumentation-und-outcomes&quot;&gt;Aufgaben, Dokumentation und Outcomes&lt;/h2&gt;
-
-&lt;p&gt;Im einzelnen sind die folgenden Aufgaben zu bearbeiten:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Analysieren&lt;/strong&gt; der oben genannten Anforderungen und Randbedingungen sowie Formulierung verfeinerter funktionaler und nicht-funktionaler &lt;strong&gt;Requirements&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Entwicklung und Abstimmung mit dem Aufgabensteller eines Lösungskonzepts (Architektur)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Implementieren&lt;/strong&gt; des Spiels.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Test und Nachweis&lt;/strong&gt; des Spiels inkl. Evaluierung des Spielkonzepts für die Zielgruppe.&lt;/li&gt;
-  &lt;li&gt;Begleitende &lt;strong&gt;Dokumentation&lt;/strong&gt; der oben angegebenen Schritte. Zur Dokumentation der Ergebnisse kann folgendes &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;Template&lt;/a&gt; genutzt werden.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="programming" /><category term="web" /><summary type="html">Kinder kommen - wenn überhaupt - frühestens im Grundschulalter mit Programmierung in Kontakt. Ansätze das Computational Thinking systematisch zu vermitteln liegen häufig noch in den Kinderschuhen. Webapplikationen wie z.B. lightbot ermöglichen zwar einen spielerischen Zugang, indem ein Roboter durch eine Sequenz von Anweisungen Schritt für Schritt an ein Ziel geführt werden kann. Allerdings wird nur begrenzt darauf eingegangen, welche weitergehenden Konzepte Programmiersprachen haben.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry></feed>

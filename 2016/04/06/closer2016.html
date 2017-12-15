@@ -106,36 +106,32 @@ Rome, Bud Ellison / flickr.com, Licence: CC BY 2.0
 on your system (we assume that this is your personal laptop or workstation) is very easy.
 Assuming you have <strong>Ruby 2.2 (or higher installed)</strong> installed, simply run</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>gem install ppbench
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install ppbench
+</code></pre></div></div>
 
 <p>to install <code>ppbench</code>.</p>
 
 <p><code>ppbench</code> provides several commands and parameters to run and analyze your experiments.
 <code>ppbench</code> comes with an online help included. Simply run</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ppbench help
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ppbench help
+</code></pre></div></div>
 
 <p>to get some online help about available commands <code>ppbench</code> is providing.</p>
 
 <p>A benchmark run is started like that:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ppbench run --host http://&lt;pinghostip&gt;:8080 \
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ppbench run --host http://&lt;pinghostip&gt;:8080 \
             --experiment experiment_tag \
             --machine machine_tag \
             log.csv
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>All benchmark results are written into a log (csv format). These csv based log files can be processed by <code>ppbench</code>. 
 <code>Ppbench</code> is able to do some summary analysis on a set of collected benchmark files for a quick analysis. Simply run</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ppbench summary *.csv
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ppbench summary *.csv
+</code></pre></div></div>
 
 <p>to get a tabluar summary.</p>
 
@@ -146,15 +142,14 @@ Assuming you have <strong>Ruby 2.2 (or higher installed)</strong> installed, sim
 it is possible to plot 75% confidence bands without showing all measured detail data points (omitting the <code>--nopoints</code> would show both,
 confidence bands and all data points).</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ppbench transfer-plot --machines m3.xlarge \
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ppbench transfer-plot --machines m3.xlarge \
                       --experiments bare-dart,bare-go,bare-java \
                       --withbands \
                       --confidence 75 \
                       --nopoints \
                       --pdf graphic.pdf \
                       *.csv | Rscript -
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This would produce a much clearer picture with additional descriptive statistical information.</p>
 

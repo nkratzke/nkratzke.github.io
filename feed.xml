@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-14T10:30:09+01:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Analysis of Face Recognition Capabilities by Example of a Mobile Web Game</title><link href="http://localhost:4000/thesis/2017/12/12/thesis-face-recognition.html" rel="alternate" type="text/html" title="Analysis of Face Recognition Capabilities by Example of a Mobile Web Game" /><published>2017-12-12T00:00:00+01:00</published><updated>2017-12-12T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2017/12/12/thesis-face-recognition</id><content type="html" xml:base="http://localhost:4000/thesis/2017/12/12/thesis-face-recognition.html">&lt;p&gt;This thesis shall identify face recognition, face tracking, and face gesture recognition libraries,&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-15T19:30:10+01:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Analyse und Optimierung von Software-Update-Verfahren</title><link href="http://localhost:4000/thesis/2017/12/15/thesis-update-verfahren.html" rel="alternate" type="text/html" title="Analyse und Optimierung von Software-Update-Verfahren" /><published>2017-12-15T00:00:00+01:00</published><updated>2017-12-15T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2017/12/15/thesis-update-verfahren</id><content type="html" xml:base="http://localhost:4000/thesis/2017/12/15/thesis-update-verfahren.html">&lt;p&gt;In dieser Arbeit geht es um sogenannte Patches für clientbasierte Software. Untersucht werden sollen bestehende Patchverfahren, die insbesondere bei Videospielen Anwendung finden.
+Auf Basis dieser Untersuchungen sollen Optimierungen vorgeschlagen, implementiert
+und evaluiert werden, die sich auf die folgenden Bereiche beziehen:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Speicherbedarf: Ein Patchverfahren sollte server- wie clientseitig möglichst wenig Speicher in Form vorzuhaltender Patches benötigen.&lt;/li&gt;
+  &lt;li&gt;Datentransfer: Patchverfahren sollten möglichst wenig (Upstream wie Downstream) Datentransfer  erzeugen.&lt;/li&gt;
+  &lt;li&gt;Geschwindigkeit: Patchverfahren sollten auf dem Zieldevice möglichst schnell durchgeführt werden können.&lt;/li&gt;
+  &lt;li&gt;Sicherheit: Patchverfahren sollten hinsichtlich Manipulationen geschützt sein (z.B. sollte ein Spieler nicht Dateien veränderen, um sich daraus selbst einen unfairen Vorteil zu verschaffen, Verdopplung des Punktestands, etc.).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Es wird empfohlen folgendes &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;Template&lt;/a&gt; zur Dokumentation der Bachelorarbeit von Anfang an zu berücksichtigen.&lt;/p&gt;
+
+&lt;h2 id=&quot;aufgaben-dokumentation-und-outcomes&quot;&gt;Aufgaben, Dokumentation und Outcomes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Analyse&lt;/strong&gt; und Dokumentation bestehender Patchverfahren,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ableiten&lt;/strong&gt; und Darstellung von Optimierungsmöglichkeiten im Bereich von Speicherbedarf, Datentransfer, Geschwindigkeit und Sicherheit&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Implementierung&lt;/strong&gt; von optimierten Patchverfahren,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Leistungsermittlung&lt;/strong&gt; der implementierten Patchverfahren und vergleichende Gegenüberstellung der gemessenen Leistungsdaten&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dokumentation&lt;/strong&gt; der oben dargestellten Schritte inklusive eines Fazits und Schlussfolgerungen sowie Empfehlungen zur Optimierung von Patch- und Updateverfahren.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><summary type="html">In dieser Arbeit geht es um sogenannte Patches für clientbasierte Software. Untersucht werden sollen bestehende Patchverfahren, die insbesondere bei Videospielen Anwendung finden. Auf Basis dieser Untersuchungen sollen Optimierungen vorgeschlagen, implementiert und evaluiert werden, die sich auf die folgenden Bereiche beziehen:</summary></entry><entry><title type="html">Analysis of Face Recognition Capabilities by Example of a Mobile Web Game</title><link href="http://localhost:4000/thesis/2017/12/12/thesis-face-recognition.html" rel="alternate" type="text/html" title="Analysis of Face Recognition Capabilities by Example of a Mobile Web Game" /><published>2017-12-12T00:00:00+01:00</published><updated>2017-12-12T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2017/12/12/thesis-face-recognition</id><content type="html" xml:base="http://localhost:4000/thesis/2017/12/12/thesis-face-recognition.html">&lt;p&gt;This thesis shall identify face recognition, face tracking, and face gesture recognition libraries,&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;summarize and categorize their features,&lt;/li&gt;
@@ -254,24 +275,5 @@ at the Lübeck University of Applied Sciences and will cover following aspects:&
   &lt;li&gt;Lecture Unit 10: &lt;a href=&quot;/assets/ss2016/progII/prog-unit10.pdf&quot;&gt;OOAD by example of Tic Tac Toe&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Lecture Unit 11: &lt;a href=&quot;/assets/ss2016/progII/prog-unit11.pdf&quot;&gt;GUI and MVC&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Lecture Unit 12: &lt;a href=&quot;/assets/ss2016/progII/prog-unit12.pdf&quot;&gt;Concurrent programming&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ss2016/progII/prog-exercises.pdf&quot;&gt;Catalogue of exercises&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">Advanced Programming (Summer 2017)</title><link href="http://localhost:4000/lecture/2017/04/11/advanced-programming.html" rel="alternate" type="text/html" title="Advanced Programming (Summer 2017)" /><published>2017-04-11T00:00:00+02:00</published><updated>2017-04-11T00:00:00+02:00</updated><id>http://localhost:4000/lecture/2017/04/11/advanced-programming</id><content type="html" xml:base="http://localhost:4000/lecture/2017/04/11/advanced-programming.html">&lt;p&gt;The course &lt;strong&gt;Advanced Programming&lt;/strong&gt; continues &lt;strong&gt;Fundaments of Programming&lt;/strong&gt; by introducing more sophistacted programming aspects
-for second semester students. JAVA is used as teaching language. Nevertheless, the principles are applicable to every (class based) object oriented programming language.
-The course is given for students of the &lt;a href=&quot;https://www.fh-luebeck.de/hochschule/fachbereich-elektrotechnik-und-informatik/studiengaenge/informationstechnologie-und-design-bsc/uebersicht/&quot;&gt;Information Technology and Design&lt;/a&gt; study program at Lübeck University of Applied Sciences
-and will cover following aspects:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Object oriented concepts and programming techniques&lt;/li&gt;
-  &lt;li&gt;Introduction to &lt;strong&gt;OOAD&lt;/strong&gt; (object oriented analysis and design) by example of Tic Tac Toe&lt;/li&gt;
-  &lt;li&gt;Graphical user interfaces (&lt;strong&gt;GUI&lt;/strong&gt;) using Swing introducing &lt;strong&gt;MVC&lt;/strong&gt; (model view controler) paradigma&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ss2016/progII/prog-unit06.pdf&quot;&gt;Introduction to object oriented programming&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Self Study Unit 7: &lt;a href=&quot;/assets/ss2016/progII/prog-unit07.pdf&quot;&gt;Further aspects of object oriented programming&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Lecture Unit 10: &lt;a href=&quot;/assets/ss2016/progII/prog-unit10.pdf&quot;&gt;OOAD by example of Tic Tac Toe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Lecture Unit 11: &lt;a href=&quot;/assets/ss2016/progII/prog-unit11.pdf&quot;&gt;GUI and MVC&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ss2016/progII/prog-exercises.pdf&quot;&gt;Catalogue of exercises&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry></feed>

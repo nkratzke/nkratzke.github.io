@@ -108,11 +108,11 @@
 
 <p>Dockerized applications hosted on Github can be installed by docker with one command. We take <a href="https://github.com/nkratzke/containerdart">Containerdart</a> as an example.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker build -t containerdart github.com/nkratzke/containerdart</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker build <span class="nt">-t</span> containerdart github.com/nkratzke/containerdart</code></pre></figure>
 
 <p>Docker downloads specified repository from github and processes a <em>Dockerfile</em> in it to create an image from it. If image creation is completed you can instantiate a <em>container</em> from this image with the following command.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -p 8888:8080 -d containerdart</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-p</span> 8888:8080 <span class="nt">-d</span> containerdart</code></pre></figure>
 
 <p>Last command starts the container as a daemon and binds the container internal port 8080 to the host port 8888 (it is also possible to map the exposed container port 8080 to any other port number, e.g. 80). The container provided webserver should be accessible on <a href="http://localhost:8888">http://localhost:8888</a>.</p>
 
@@ -147,10 +147,10 @@ MAINTAINER Nane Kratzke &lt;nane@nkode.io&gt;
 <span class="c"># We do not install darteditor nor dartium because this is a server container.</span>
 <span class="c"># See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu</span>
 RUN apt-get update
-RUN apt-get install -y software-properties-common python-software-properties
+RUN apt-get install <span class="nt">-y</span> software-properties-common python-software-properties
 RUN apt-add-repository ppa:hachre/dart
-RUN apt-get -y update
-RUN apt-get install -y dartsdk
+RUN apt-get <span class="nt">-y</span> update
+RUN apt-get install <span class="nt">-y</span> dartsdk
 
 <span class="c"># Install the dart server app. Add additional directories if necessary for your app.</span>
 ADD pubspec.yaml /container/pubspec.yaml
@@ -175,7 +175,7 @@ CMD <span class="o">[</span><span class="s2">"httpserver.dart"</span><span class
 
 <p>This file explains docker what to do when</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker build -t containerdart github.com/nkratzke/containerdart</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker build <span class="nt">-t</span> containerdart github.com/nkratzke/containerdart</code></pre></figure>
 
 <p>is called. So the above shown <em>Dockerfile</em> extends</p>
 
@@ -195,11 +195,11 @@ CMD <span class="o">[</span><span class="s2">"httpserver.dart"</span><span class
 
 <p>You can install it using docker</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker build -t dartchat github.com/nkratzke/dartchat</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker build <span class="nt">-t</span> dartchat github.com/nkratzke/dartchat</code></pre></figure>
 
 <p>and run it like this</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -p 8080:3000 -d dartchat</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-p</span> 8080:3000 <span class="nt">-d</span> dartchat</code></pre></figure>
 
 <p>Accessing <a href="http://localhost:8080">http://localhost:8080</a> will provide you following webpage:</p>
 
@@ -224,10 +224,10 @@ MAINTAINER Nane Kratzke &lt;nane@nkode.io&gt;
 <span class="c"># We do not install darteditor nor dartium because this is a server container.</span>
 <span class="c"># See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu</span>
 RUN apt-get update
-RUN apt-get install -y software-properties-common python-software-properties
+RUN apt-get install <span class="nt">-y</span> software-properties-common python-software-properties
 RUN apt-add-repository ppa:hachre/dart
-RUN apt-get -y update
-RUN apt-get install -y dartsdk
+RUN apt-get <span class="nt">-y</span> update
+RUN apt-get install <span class="nt">-y</span> dartsdk
 
 <span class="c"># Install the dart server app.</span>
 ADD pubspec.yaml /container/pubspec.yaml

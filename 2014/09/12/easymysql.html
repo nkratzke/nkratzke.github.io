@@ -132,12 +132,12 @@ server. You can clone this repository or tell docker to do the repository handli
 behind the scenes for you (which is my preferred way in case of github provided
   Dockerfiles):</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker build -t mysqldb github.com/nkratzke/easymysql</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker build <span class="nt">-t</span> mysqldb github.com/nkratzke/easymysql</code></pre></figure>
 
 <p>Now you have an image named <em>mysqldb</em> on your system, capable to
 provide MySQL databases. The simplest way to do start a database is like that:</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-d</span> <span class="nt">-p</span> 3306:3306 mysqldb</code></pre></figure>
 
 <p>It will create a running container on your system providing a MySQL server.</p>
 
@@ -149,7 +149,7 @@ provide MySQL databases. The simplest way to do start a database is like that:</
 
 <p>If you want to run your database on a different port than 3306 just do the following:</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 4407:3306 mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-d</span> <span class="nt">-p</span> 4407:3306 mysqldb</code></pre></figure>
 
 <p>to run it on port 4407 (for instance). You can figure out that the container is running</p>
 
@@ -206,7 +206,7 @@ This file can be hosted anywhere (accessible from your docker host).</p>
 
 <p><strong>Attention!</strong> SQL file is assumed to be encoded as UTF8 and has to valid as well as non interactively processable by mysql.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">"http://www.example.org/my/database.sql"</span> mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-d</span> <span class="nt">-p</span> 3306:3306 <span class="nt">-e</span> <span class="nv">url</span><span class="o">=</span><span class="s2">"http://www.example.org/my/database.sql"</span> mysqldb</code></pre></figure>
 
 <h2 id="define-user-with-user-and-password">Define user with <code>user</code> and <code>password</code></h2>
 
@@ -214,7 +214,7 @@ This file can be hosted anywhere (accessible from your docker host).</p>
 <code>password</code> parameter.
 By default the created MySQL user will get read access to all databases hosted by this container.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">"Nane"</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">"meins"</span> mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-d</span> <span class="nt">-p</span> 3306:3306 <span class="nt">-e</span> <span class="nv">user</span><span class="o">=</span><span class="s2">"Nane"</span> <span class="nt">-e</span> <span class="nv">password</span><span class="o">=</span><span class="s2">"meins"</span> mysqldb</code></pre></figure>
 
 <h2 id="change-access-rights-with-right">Change access rights with <code>right</code></h2>
 
@@ -242,11 +242,11 @@ with the database including</p>
 
 <p>The read access right is the default one. So</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 -e <span class="nv">right</span><span class="o">=</span><span class="s2">"READ"</span> mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-d</span> <span class="nt">-p</span> 3306:3306 <span class="nt">-e</span> <span class="nv">right</span><span class="o">=</span><span class="s2">"READ"</span> mysqldb</code></pre></figure>
 
 <p>is synonym to</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-d</span> <span class="nt">-p</span> 3306:3306 mysqldb</code></pre></figure>
 
 <p>Read access is perfect for providing read-only datasets. E.g. databases for students
 they should use to answer questions. By providing the database read-only
@@ -255,7 +255,7 @@ it is assured that no student can destroy the database accidentally.</p>
 <p>If you want to create a user with complete write access to your database
 you can run something like that</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -d -p 3306:3306 -e <span class="nv">user</span><span class="o">=</span><span class="s2">"Me"</span> -e <span class="nv">password</span><span class="o">=</span><span class="s2">"mine"</span> -e <span class="nv">right</span><span class="o">=</span><span class="s2">"WRITE"</span> mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-d</span> <span class="nt">-p</span> 3306:3306 <span class="nt">-e</span> <span class="nv">user</span><span class="o">=</span><span class="s2">"Me"</span> <span class="nt">-e</span> <span class="nv">password</span><span class="o">=</span><span class="s2">"mine"</span> <span class="nt">-e</span> <span class="nv">right</span><span class="o">=</span><span class="s2">"WRITE"</span> mysqldb</code></pre></figure>
 
 <p>which will provide <strong>full access</strong> to the database for user <em>Me</em>.</p>
 
@@ -277,7 +277,7 @@ file provided via the <code>url</code> parameter is valid and processable by MyS
 with the <code>-t</code> and <code>-i</code> parameter of docker. This will forward the output of the container
 to your console, which is likely to be helpful for debugging purposes.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run -t -i -p 3306:3306 -e <span class="nv">url</span><span class="o">=</span><span class="s2">"http://www.ex.org/my/database.sql"</span> mysqldb</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-t</span> <span class="nt">-i</span> <span class="nt">-p</span> 3306:3306 <span class="nt">-e</span> <span class="nv">url</span><span class="o">=</span><span class="s2">"http://www.ex.org/my/database.sql"</span> mysqldb</code></pre></figure>
 
 
 						</div>

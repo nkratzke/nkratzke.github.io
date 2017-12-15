@@ -102,19 +102,17 @@
 
 <p>To do a benchmark you have to set up a <em>siege</em>, a <em>ping</em> and a <em>pong</em> host. We assume these are Linux hosts with git, apt-get, wget and curl installed. Install this package on all of this three hosts by running following commands.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/nkratzke/pingpong.git
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/nkratzke/pingpong.git
 cd pingpong
 sudo sh ./install.sh
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This will install dart runtime and development environment, apachebench, docker as well as the docker overlay network weave.</p>
 
 <p>It is possible to run the <em>ping</em> and <em>pong</em> service as a docker container. Therefore you have to build a pingpong image on your <em>ping</em> and <em>pong</em> hosts, like that:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>docker build -t pingpong github.com/nkratzke/pingpong
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker build -t pingpong github.com/nkratzke/pingpong
+</code></pre></div></div>
 
 <p>Please be aware, that the dockerized ping-pong system will not show the same performance like a “naked” run ping-pong system.</p>
 
@@ -122,22 +120,19 @@ sudo sh ./install.sh
 
 <p>First step is to start the <em>pong</em> service on the <em>pong</em> host. This will start the <em>pong</em> service on the host on port 8080.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>pong:$ sudo dart bin/pong.dart --port=8080
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pong:$ sudo dart bin/pong.dart --port=8080
+</code></pre></div></div>
 
 <p>It is although possible to run the pong server as docker container (you will have performance impacts of about 10% to 20%):</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>pong:$ docker build -t pingpong github.com/nkratzke/pingpong
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pong:$ docker build -t pingpong github.com/nkratzke/pingpong
 pong:$ docker run -d -p 8080:8080 pingpong --asPong --port=8080
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>You want to check wether the <em>pong</em> service is working correctly by checking that</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>pong:$ curl http://localhost:8080/pong/5
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pong:$ curl http://localhost:8080/pong/5
+</code></pre></div></div>
 
 <p>answers with ‘poong’.</p>
 
@@ -148,22 +143,19 @@ pong:$ docker run -d -p 8080:8080 pingpong --asPong --port=8080
 <p>Second step is to start the <em>ping</em> service on the <em>ping</em> host. This will start the <em>ping</em> service on the host on port 8080.
 You will have to provide the <em>ping</em> service where it will find its <em>pong</em> service by providing <code>&lt;pongip&gt;</code> and port number you have assigned to the <em>pong</em> service above.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ping:$ sudo dart bin/ping.dart --port=8080 --url=http://&lt;pongip&gt;:8080
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ping:$ sudo dart bin/ping.dart --port=8080 --url=http://&lt;pongip&gt;:8080
+</code></pre></div></div>
 
 <p>It is although possible to run the ping server as docker container (you will have performance impacts of about 10% to 20%):</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>pong:$ docker build -t pingpong github.com/nkratzke/pingpong
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pong:$ docker build -t pingpong github.com/nkratzke/pingpong
 pong:$ docker run -d -p 8080:8080 pingpong --asPing --port=8080 --url=http://&lt;pongip&gt;:8080
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>You want to check wether the <em>ping</em> service is started and able to communicate with the <em>pong</em> service by checking that</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ping:$ curl http://localhost:8080/ping/5
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ping:$ curl http://localhost:8080/ping/5
+</code></pre></div></div>
 
 <p>answers with ‘poong’.</p>
 
@@ -173,11 +165,10 @@ pong:$ docker run -d -p 8080:8080 pingpong --asPing --port=8080 --url=http://&lt
 
 <p>Third step you should run the benchmark to figure out the answer performance of your ping-pong system. On your <em>siege</em> host you will find a <code>run.sh</code> script to start your benchmark. You should replace <code>http://my.host.com/ping</code> with <code>http://&lt;pingip&gt;:8080/ping</code> to provide the script the correct ping service uri.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># Run the experiment against
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Run the experiment against
 # You have to specify your ping host here!
 URL=http://my.host.com/ping
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>The <code>run.sh</code> script provides more parameters to vary your experiments. You can change</p>
 
@@ -191,9 +182,8 @@ URL=http://my.host.com/ping
 
 <p>The following line converts experiment data (apachebench log format), tag it with a name (here ‘Reference’) and convert it into a csv file. You can use tags to distinguish different experiments for analysis.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>dart bin/analze.dart --tag=Reference apachebench.log &gt; reference.csv
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dart bin/analze.dart --tag=Reference apachebench.log &gt; reference.csv
+</code></pre></div></div>
 
 						</div>
 					</div>

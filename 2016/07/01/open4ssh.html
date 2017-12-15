@@ -94,21 +94,18 @@ sequence of commands and returns their exit codes, standard out and standard err
 
 <p>Add this line to your application’s Gemfile:</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="n">gem</span> <span class="s1">'open4ssh'</span>
-</code></pre>
-</div>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s1">'open4ssh'</span>
+</code></pre></div></div>
 
 <p>And then execute:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ bundle
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle
+</code></pre></div></div>
 
 <p>Or install it yourself as:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ gem install open4ssh
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gem install open4ssh
+</code></pre></div></div>
 
 <h2 id="usage">Usage</h2>
 
@@ -117,7 +114,7 @@ sequence of commands and returns their exit codes, standard out and standard err
 <p>The following snippets explain how to use Open4ssh. 
 To execute simply one single command on a remote host, we can do the following:</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'open4ssh'</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'open4ssh'</span>
 
 <span class="n">stdout</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture</span><span class="p">(</span>
      <span class="ss">host: </span><span class="s1">'remote.host.io'</span><span class="p">,</span>
@@ -126,15 +123,14 @@ To execute simply one single command on a remote host, we can do the following:<
      <span class="ss">cmd: </span><span class="s1">'ls -la'</span>
 <span class="p">)</span>
 <span class="nb">puts</span> <span class="n">stdout</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This will execute the bash command ‘ls -la’ on host <em>remote.host.io</em> as user <em>nane</em>.</p>
 
 <p>For a lot of cloud scenarios it is more appropriate to support a keybased login. This can be done like that 
 (simply use the key parameter instead of the pwd parameter):</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'open4ssh'</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'open4ssh'</span>
 
 <span class="n">stdout</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture</span><span class="p">(</span>
      <span class="ss">host: </span><span class="s1">'remote.host.io'</span><span class="p">,</span>
@@ -143,15 +139,14 @@ To execute simply one single command on a remote host, we can do the following:<
      <span class="ss">cmd: </span><span class="s1">'ls -la'</span>
 <span class="p">)</span>
 <span class="nb">puts</span> <span class="n">stdout</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h3 id="remote-execution-of-a-sequence-of-commands-via-ssh">Remote execution of a sequence of commands via SSH</h3>
 
 <p>The following snippets will explain how to use Open4ssh to execute a (sequence) of commands.
 This snippet here will execute five shell commands sequentially</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'open4ssh'</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'open4ssh'</span>
 <span class="nb">require</span> <span class="s1">'pp'</span>
 
 <span class="n">returns</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture4</span><span class="p">(</span>
@@ -167,18 +162,16 @@ This snippet here will execute five shell commands sequentially</p>
      <span class="p">]</span>
 <span class="p">)</span>
 <span class="n">pp</span><span class="p">(</span><span class="n">returns</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>and will generate this output.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>[[0, "", "", "touch helloworld.txt"],
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[0, "", "", "touch helloworld.txt"],
  [0, "", "", "cat helloworld.txt"],
  [0, "", "", "echo 'Hello World' &gt;&gt; helloworld.txt"],
  [0, "Hello World\n", "", "cat helloworld.txt"],
  [0, "", "", "rm helloworld.txt"]]
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>So, for each command a list of return values is returned.</p>
 
@@ -192,7 +185,7 @@ This snippet here will execute five shell commands sequentially</p>
 <p>However, if we launch a sequence of commands exiting with exit codes not equal 0, this sequence is only executed as long as 
 each command could be successfully processed (exit code 0). So this snippet here</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'open4ssh'</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'open4ssh'</span>
 <span class="nb">require</span> <span class="s1">'pp'</span>
 
 <span class="n">returns</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture4</span><span class="p">(</span>
@@ -208,16 +201,14 @@ each command could be successfully processed (exit code 0). So this snippet here
      <span class="p">]</span>
 <span class="p">)</span>
 <span class="n">pp</span><span class="p">(</span><span class="n">returns</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>would produce the following output</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>[[0, "", "", "touch helloworld.txt"],
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[0, "", "", "touch helloworld.txt"],
  [0, "", "", "cat helloworld.txt"],
  [127, "", "bash: this: command not found\n", "this will not work"]]
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>and the last two commands would not been executed on the remote host, because the third command failed.</p>
 
@@ -226,7 +217,7 @@ each command could be successfully processed (exit code 0). So this snippet here
 <p>Because Open4ssh only executes commands as long as they are returning a exit code of 0, we can check 
 pragmatically whether all commands of a sequence have been executed successfully:</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="n">exit_code</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture4</span><span class="p">(</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">exit_code</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture4</span><span class="p">(</span>
      <span class="ss">host: </span><span class="s1">'remote.host.io'</span><span class="p">,</span>
      <span class="ss">user: </span><span class="s1">'nane'</span><span class="p">,</span>
      <span class="ss">key: </span><span class="s1">'/path/to/your/sshkey.pem'</span><span class="p">,</span>
@@ -242,14 +233,13 @@ pragmatically whether all commands of a sequence have been executed successfully
 <span class="k">if</span> <span class="p">(</span><span class="n">exit_code</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">command</span> <span class="o">==</span> <span class="s2">"rm helloworld.txt"</span><span class="p">)</span>
     <span class="nb">puts</span> <span class="s2">"Everything worked fine"</span>
 <span class="k">end</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h3 id="what-is-this-good-for">What is this good for?</h3>
 
 <p>Just a small example. Assuming your remote host is a Ubuntu 14.04 system we could do something like that:</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="n">exit_code</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture4</span><span class="p">(</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">exit_code</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture4</span><span class="p">(</span>
      <span class="ss">host: </span><span class="s1">'remote.host.io'</span><span class="p">,</span>
      <span class="ss">user: </span><span class="s1">'nane'</span><span class="p">,</span>
      <span class="ss">key: </span><span class="s1">'/path/to/your/sshkey.pem'</span><span class="p">,</span>
@@ -262,8 +252,7 @@ pragmatically whether all commands of a sequence have been executed successfully
 <span class="k">if</span> <span class="p">(</span><span class="n">command</span> <span class="o">==</span> <span class="s2">"sudo docker swarm init"</span> <span class="o">&amp;&amp;</span> <span class="n">exit_code</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
     <span class="nb">puts</span> <span class="s2">"You started successfully a new Docker Swarm cluster."</span>
 <span class="k">end</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This would fire up an initial master for a <a href="https://docs.docker.com/engine/swarm/">Docker Swarm cluster</a> 
 in a few lines of Ruby code. Be patient. This can take several minutes. 
@@ -273,7 +262,7 @@ Of course, you can do any other tasks as well. This was only one example ;-)</p>
 
 <p>If you want to know what is happening there you can turn on the verbose mode (mostly useful for debugging).</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="n">exit_code</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture4</span><span class="p">(</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">exit_code</span><span class="p">,</span> <span class="n">stdout</span><span class="p">,</span> <span class="n">stderr</span><span class="p">,</span> <span class="n">command</span> <span class="o">=</span> <span class="no">Open4ssh</span><span class="p">.</span><span class="nf">capture4</span><span class="p">(</span>
      <span class="ss">host: </span><span class="s1">'remote.host.io'</span><span class="p">,</span>
      <span class="ss">user: </span><span class="s1">'nane'</span><span class="p">,</span>
      <span class="ss">key: </span><span class="s1">'/path/to/your/sshkey.pem'</span><span class="p">,</span>
@@ -287,8 +276,7 @@ Of course, you can do any other tasks as well. This was only one example ;-)</p>
 <span class="k">if</span> <span class="p">(</span><span class="n">command</span> <span class="o">==</span> <span class="s2">"sudo docker swarm init"</span> <span class="o">&amp;&amp;</span> <span class="n">exit_code</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
     <span class="nb">puts</span> <span class="s2">"You started successfully a new Docker Swarm cluster."</span>
 <span class="k">end</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This will perform the same install like above but will print all messages of the Docker install script on your console.</p>
 

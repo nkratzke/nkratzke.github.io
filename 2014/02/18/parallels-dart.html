@@ -197,7 +197,7 @@ in parallel</em> (and not in sequential order, which is what <code>map</code> do
 
 <p>This is called a <strong>parallel map</strong> and it works great on iterables. Parallel map <code>pmap</code> might be typed like that:</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">Future&lt;Iterable&gt; </span>pmap<span class="o">(</span>dynamic f<span class="o">(</span>dynamic<span class="o">))</span>;</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">Future&lt;Iterable&gt; pmap<span class="o">(</span>dynamic f<span class="o">(</span>dynamic<span class="o">))</span><span class="p">;</span></code></pre></figure>
 
 <p>Because <code>pmap</code> returns a <code>Future</code> (it is executed asynchronously because it is parallel) of an <code>Iterable</code> we have to rewrite our
 initial problem a little bit.</p>

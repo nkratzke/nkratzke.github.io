@@ -1,0 +1,210 @@
+<html>
+	<head>
+		<title>Ein P2P-basierter Echtzeit-Online-Editor für Code-Reviews und Pair-Programming</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="/css/customize.css" />
+
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-380838-9']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		</script>
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="/index.html" class="logo">
+									<span class="symbol"><img src="/img/topic/cloud.png" alt="" /></span><span class="title">nkode.io</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="/index.html">Home</a></li>
+							<li><a href="/blog.html">Blog</a></li>
+							<li><a href="/lectures.html">Lectures</a></li>
+							<li><a href="/talks.html">Talks</a></li>
+							<li><a href="/projects.html">Research Projects</a></li>
+							<li><a href="/thesis.html">Thesis</a></li>
+							<li><a href="/publications.html">Publications</a></li>
+							<li><a href="/about.html">About me</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+<h1>Ein P2P-basierter Echtzeit-Online-Editor für Code-Reviews und Pair-Programming</h1>
+
+<strong>06 Feb 2018</strong>
+
+
+
+<img src="/img/posts/programming.jpg" width="100%"/>
+
+
+Programming, hitesh0141, Pixabay.com (CC0 Public Domain)
+
+</header>
+
+<h2>Meta</h2>
+<ul class='thesismeta'>
+
+<li><strong>Author:</strong> Melanie Lucht
+
+
+<li><strong>State:</strong> announced
+
+
+<li><strong>Study programme:</strong> Medieninformatik online
+
+
+<li><strong>Degree:</strong> Master (M. Sc.)
+
+
+<li><strong>Company:</strong> <a href="http://www.cosa.fh-luebeck.de">CoSA</a>
+
+
+
+</ul>
+
+<h2>Thesis</h2>
+
+<p>Gegenstand dieser Masterarbeit ist ein Browser-basiertes
+Code-Review Tool, dass es ermöglicht Unterstützung von einem
+entfernten Teammitglied anzufordern, insbesondere um einen fachlichen
+Austausch zu Quellcode zu ermöglichen. Zur Vermeidung eines aufwändigen 
+Backend-Server-Systems soll die Kommunikation 
+zwischen den Browsern mittels einer Peer-to-Peer-basierten 
+WebRTC-Verbindung erfolgen.</p>
+
+<p>Die Applikation soll insbesondere folgendes Szenario abdecken:
+Ein Initiator möchte einen fachlichen Austausch zu einem Quellcode
+anstoßen, indem er ein Teammitglied mittels einer Zufalls-URL 
+zu einer Online-Session einlädt. Über diese URL kann ein anderer
+Entwickler Änderungen am gemeinsam editierten Quellcode vornehmen
+und zur Verfügung stellen. Solche Änderungen werden geeignet markiert.
+Der Initiator soll diese Änderungen übernehmen können.</p>
+
+<p>Die Lösung soll eine Kombination aus Pair-Programming und Code-Review
+unterstützen, indem unter anderem die folgenden Funktionalitäten
+bereitgestellt werden.</p>
+
+<p>Priorität 1 (MUSS):</p>
+<ul>
+  <li>Kollaboratives Editieren (wie oben beschrieben)</li>
+  <li>Bereitstellung von Zufalls-URLs für Sessioneinladungen per Copy-Paste</li>
+  <li>Text-Chat</li>
+  <li>Import- und Export von Textdateien</li>
+  <li>Austausch der Daten über eine Echtzeit-P2P-Verbindung</li>
+  <li>Aufbau der Verbindung ggf. über einen Connection Server (STUN, Signaling Server)</li>
+  <li>Der Connection Server soll in Form eines Docker Containers bereitgestellt werden.</li>
+</ul>
+
+<p>Priorität 2 (KANN):</p>
+<ul>
+  <li>Audio-Chat</li>
+  <li>Video-Chat</li>
+  <li>EMail Integration</li>
+  <li>Slack Integration (slack.com)</li>
+</ul>
+
+<h2 id="teilaufgaben">Teilaufgaben:</h2>
+
+<ul>
+  <li>Analyse bestehender Lösungsansätze</li>
+  <li>Analyse der WebRTC Technologien und verfügbare APIs</li>
+  <li>Architekturentwurf der Anwendung</li>
+  <li>Prototypische Implementierung des Editors (gem. Prioritäten)</li>
+  <li>Prototypische Implementierung des Connection Servers</li>
+  <li>Die Funktionsfähigkeit von Editor und Connection Server soll mittels Softwaretests geeignet nachgewiesen werden.</li>
+  <li>Die Nutzbarkeit soll systematisch evaluiert werden. Hierbei ist ein Entwicklerteam geeignet einzubeziehen.</li>
+  <li>Dokumentation der oben angegeben Schritte (Master-Arbeit) inkl. Bewertung der Nutzbarkeit und technischen Eignung für oben angegebenen Einsatzzweck.</li>
+</ul>
+
+<p>Es wird empfohlen die Dokumentation von Anfang an begleitend zur Arbeit zu erstellen und sich an einem Dokumentations-Template - wie bspw. <a href="https://github.com/nkratzke/BAMA-Template">diesem</a> - zu orientieren.</p>
+
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>About</h2>
+								Nane Kratzke (Computer Scientist)<br>
+								Lübeck University of Applied Sciences, Germany<br>
+								<ul class="icons">
+									<li><a href="https://www.twitter.com/nanekratzke" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/nkratzke" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/nanekratzke" class="icon fa-linkedin"><span class="label">LinkedIN</span></a></li>
+									<li><a href="https://www.slideshare.net/i21aneka" class="icon fa-slideshare"><span class="label">Slideshare</span></a></li>
+									<li><a href="https://plus.google.com/+NaneKratzke" class="icon fa-google"><span class="label">Google+</span></a></li>
+									<li>&nbsp;</li>
+									<li><a href="https://www.researchgate.net/profile/NaneKratzke"><img src="/img/social/RG_square_green.png" height="16px" alt="ResearchGate" /></a></li>
+									<li><a href="http://orcid.org/0000-0001-5130-4969"><img  src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="Orcid" /></a></li>
+									<li><a href="https://publons.com/author/667487/nane-kratzke#profile"><img src="https://publons.com/static/images/icons/publons.png" width="16px" height="16px" alt="Publons" /></a></li>
+									<li>&nbsp;</li>
+									<li><a href="/feed.xml" class="icon fa-rss"><span class="label">RSS</span></a></li>
+								</ul>
+							</section>
+							<section>
+								<h2>Further Sites</h2>
+								<a href="https://www.fh-luebeck.de/hochschule/hochschulorganisation/personalverzeichnis/person/nane-kratzke/">
+									<img src="/img/official/fhl-logo.png" alt="FH Lübeck" height="75pt" />
+								</a>
+								&nbsp;
+								<a href="https://cosa.fh-luebeck.de/en/contact/people/n-kratzke">
+									<img src="/img/official/cosa-logo.png" alt="CoSA" height="75pt" />
+								</a>
+							</section>
+							<div class="copyright">
+								&copy; Nane Kratzke, 2012 - 2018 &bullet; <a href="/disclosure.html">Imprint</a> &bullet; All rights reserved Design: <a href="http://html5up.net">HTML5 UP
+							</div>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/js/main.js"></script>
+
+	</body>
+</html>

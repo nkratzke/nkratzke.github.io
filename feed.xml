@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-31T19:51:55+01:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Digitalisierung eines Geschäftsprozesses zur Materialrückgabe</title><link href="http://localhost:4000/thesis/2018/01/25/thesis-rma-process.html" rel="alternate" type="text/html" title="Digitalisierung eines Geschäftsprozesses zur Materialrückgabe" /><published>2018-01-25T00:00:00+01:00</published><updated>2018-01-25T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2018/01/25/thesis-rma-process</id><content type="html" xml:base="http://localhost:4000/thesis/2018/01/25/thesis-rma-process.html">&lt;p&gt;In dieser Bachelorarbeit soll ein bislang nicht digitalisierter Geschäftsprozess (Return Material Authorisation, RMA) analysiert und digitalisiert werden. Dabei sind die vorhandene Prozessdokumentation und das vorhandene Firmen Customer Relationship Managment (CRM) System zu berücksichtigen. Die Lösung ist zusammen mit dem Geschäftsprozess-Owner (RMA Team) und den Prozess nutzenden Kunden zu evaluieren. Der Schwerpunkt der Digitalisierung soll im Bereich Kundenanfrage bis zum fertigen Vorgangs-Datensatz für das CRM System liegen. Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-06T10:13:00+01:00</updated><id>http://localhost:4000/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Ein P2P-basierter Echtzeit-Online-Editor für Code-Reviews und Pair-Programming</title><link href="http://localhost:4000/thesis/2018/02/06/thesis-collab-editor.html" rel="alternate" type="text/html" title="Ein P2P-basierter Echtzeit-Online-Editor für Code-Reviews und Pair-Programming" /><published>2018-02-06T00:00:00+01:00</published><updated>2018-02-06T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2018/02/06/thesis-collab-editor</id><content type="html" xml:base="http://localhost:4000/thesis/2018/02/06/thesis-collab-editor.html">&lt;p&gt;Gegenstand dieser Masterarbeit ist ein Browser-basiertes
+Code-Review Tool, dass es ermöglicht Unterstützung von einem
+entfernten Teammitglied anzufordern, insbesondere um einen fachlichen
+Austausch zu Quellcode zu ermöglichen. Zur Vermeidung eines aufwändigen 
+Backend-Server-Systems soll die Kommunikation 
+zwischen den Browsern mittels einer Peer-to-Peer-basierten 
+WebRTC-Verbindung erfolgen.&lt;/p&gt;
+
+&lt;p&gt;Die Applikation soll insbesondere folgendes Szenario abdecken:
+Ein Initiator möchte einen fachlichen Austausch zu einem Quellcode
+anstoßen, indem er ein Teammitglied mittels einer Zufalls-URL 
+zu einer Online-Session einlädt. Über diese URL kann ein anderer
+Entwickler Änderungen am gemeinsam editierten Quellcode vornehmen
+und zur Verfügung stellen. Solche Änderungen werden geeignet markiert.
+Der Initiator soll diese Änderungen übernehmen können.&lt;/p&gt;
+
+&lt;p&gt;Die Lösung soll eine Kombination aus Pair-Programming und Code-Review
+unterstützen, indem unter anderem die folgenden Funktionalitäten
+bereitgestellt werden.&lt;/p&gt;
+
+&lt;p&gt;Priorität 1 (MUSS):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Kollaboratives Editieren (wie oben beschrieben)&lt;/li&gt;
+  &lt;li&gt;Bereitstellung von Zufalls-URLs für Sessioneinladungen per Copy-Paste&lt;/li&gt;
+  &lt;li&gt;Text-Chat&lt;/li&gt;
+  &lt;li&gt;Import- und Export von Textdateien&lt;/li&gt;
+  &lt;li&gt;Austausch der Daten über eine Echtzeit-P2P-Verbindung&lt;/li&gt;
+  &lt;li&gt;Aufbau der Verbindung ggf. über einen Connection Server (STUN, Signaling Server)&lt;/li&gt;
+  &lt;li&gt;Der Connection Server soll in Form eines Docker Containers bereitgestellt werden.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Priorität 2 (KANN):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Audio-Chat&lt;/li&gt;
+  &lt;li&gt;Video-Chat&lt;/li&gt;
+  &lt;li&gt;EMail Integration&lt;/li&gt;
+  &lt;li&gt;Slack Integration (slack.com)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;teilaufgaben&quot;&gt;Teilaufgaben:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Analyse bestehender Lösungsansätze&lt;/li&gt;
+  &lt;li&gt;Analyse der WebRTC Technologien und verfügbare APIs&lt;/li&gt;
+  &lt;li&gt;Architekturentwurf der Anwendung&lt;/li&gt;
+  &lt;li&gt;Prototypische Implementierung des Editors (gem. Prioritäten)&lt;/li&gt;
+  &lt;li&gt;Prototypische Implementierung des Connection Servers&lt;/li&gt;
+  &lt;li&gt;Die Funktionsfähigkeit von Editor und Connection Server soll mittels Softwaretests geeignet nachgewiesen werden.&lt;/li&gt;
+  &lt;li&gt;Die Nutzbarkeit soll systematisch evaluiert werden. Hierbei ist ein Entwicklerteam geeignet einzubeziehen.&lt;/li&gt;
+  &lt;li&gt;Dokumentation der oben angegeben Schritte (Master-Arbeit) inkl. Bewertung der Nutzbarkeit und technischen Eignung für oben angegebenen Einsatzzweck.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Es wird empfohlen die Dokumentation von Anfang an begleitend zur Arbeit zu erstellen und sich an einem Dokumentations-Template - wie bspw. &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;diesem&lt;/a&gt; - zu orientieren.&lt;/p&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="process" /><summary type="html">Gegenstand dieser Masterarbeit ist ein Browser-basiertes Code-Review Tool, dass es ermöglicht Unterstützung von einem entfernten Teammitglied anzufordern, insbesondere um einen fachlichen Austausch zu Quellcode zu ermöglichen. Zur Vermeidung eines aufwändigen Backend-Server-Systems soll die Kommunikation zwischen den Browsern mittels einer Peer-to-Peer-basierten WebRTC-Verbindung erfolgen.</summary></entry><entry><title type="html">Digitalisierung eines Geschäftsprozesses zur Materialrückgabe</title><link href="http://localhost:4000/thesis/2018/01/25/thesis-rma-process.html" rel="alternate" type="text/html" title="Digitalisierung eines Geschäftsprozesses zur Materialrückgabe" /><published>2018-01-25T00:00:00+01:00</published><updated>2018-01-25T00:00:00+01:00</updated><id>http://localhost:4000/thesis/2018/01/25/thesis-rma-process</id><content type="html" xml:base="http://localhost:4000/thesis/2018/01/25/thesis-rma-process.html">&lt;p&gt;In dieser Bachelorarbeit soll ein bislang nicht digitalisierter Geschäftsprozess (Return Material Authorisation, RMA) analysiert und digitalisiert werden. Dabei sind die vorhandene Prozessdokumentation und das vorhandene Firmen Customer Relationship Managment (CRM) System zu berücksichtigen. Die Lösung ist zusammen mit dem Geschäftsprozess-Owner (RMA Team) und den Prozess nutzenden Kunden zu evaluieren. Der Schwerpunkt der Digitalisierung soll im Bereich Kundenanfrage bis zum fertigen Vorgangs-Datensatz für das CRM System liegen. Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:&lt;/p&gt;
 
 &lt;h2 id=&quot;teilaufgaben&quot;&gt;Teilaufgaben&lt;/h2&gt;
 
@@ -286,34 +338,4 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
   &lt;li&gt;Team 18: &lt;a href=&quot;/assets/ss2017/webtech/games/team-18-frogger/web/index.html&quot;&gt;Frogger&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Team 19: &lt;a href=&quot;/assets/ss2017/webtech/games/team-19-memory/web/index.html&quot;&gt;Memory&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Team 20: &lt;a href=&quot;/assets/ss2017/webtech/games/team-20-dartfall/web/index.html&quot;&gt;Dartfall&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="web" /><category term="lecture" /><category term="database" /><category term="html" /><category term="css" /><category term="dart" /><category term="programming" /><category term="rest" /><category term="http" /><summary type="html"></summary></entry><entry><title type="html">Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms</title><link href="http://localhost:4000/2017/04/28/closer2017.html" rel="alternate" type="text/html" title="Smuggling Multi-Cloud Support into Cloud-native Applications using Elastic Container Platforms" /><published>2017-04-28T00:00:00+02:00</published><updated>2017-04-28T00:00:00+02:00</updated><id>http://localhost:4000/2017/04/28/closer2017</id><content type="html" xml:base="http://localhost:4000/2017/04/28/closer2017.html">&lt;p&gt;How to transfer elastic container platforms like Docker Swarm, Kubernetes across different cloud service providers like AWS, GCE, Azure, OpenStack &lt;strong&gt;at runtime&lt;/strong&gt;?&lt;/p&gt;
-
-&lt;p&gt;I presented a proof-of-concept solution (accepted as an full paper) to do this on the &lt;a href=&quot;http://closer.scitevents.org/?y=2017&quot;&gt;7th International Conference on Cloud Computing and Services Science&lt;/a&gt; (CLOSER 2017) in Porto, Portugal.&lt;/p&gt;
-
-&lt;p&gt;Currently the proof-of-concept system supports the following infrastructures and elastic platforms.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Infrastructures: AWS (using Ruby aws-sdk), GCE (using CLI interface), Azure (using fog.io), OpenStack (using fog.io)&lt;/li&gt;
-  &lt;li&gt;Platforms: Kubernetes (1.6 and above), Docker Swarm (1.12 and above)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;However, due to its extendable design arbitrary cloud infrastructures (IaaS) and elastic container platforms can be supported by providing addtional drivers.&lt;/p&gt;
-
-&lt;p&gt;A full text version of the paper is provided via &lt;span class=&quot;researchgate&quot;&gt;&lt;a href=&quot;https://www.researchgate.net/publication/313860386&quot;&gt;Research&lt;em&gt;Gate&lt;/em&gt;&lt;/a&gt;&lt;/span&gt;.
-Informations how to cite the paper can be found &lt;a href=&quot;/bibliography/Kra2017a.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The conference presentation slides are embedded in this post. However, they can be accessed directly via &lt;a href=&quot;slideshare&quot;&gt;SlideShare&lt;/a&gt; as well.&lt;/p&gt;
-
-&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
-
-&lt;p&gt;Elastic container platforms (like Kubernetes, Docker Swarm, Apache Mesos) fit very well with existing cloud-native application architecture approaches. So it is more than astonishing, that these already existing and open source available elastic platforms are not considered more consequently in multi-cloud research. Elastic container platforms provide inherent multi-cloud support that can be easily accessed. We present a solution proposal of a control process which is able to scale (and migrate as a side effect) elastic container platforms across different public and private cloud-service providers. This control loop can be used in an execution phase of self-adaptive auto-scaling MAPE loops (monitoring, analysis, planning, execution). Additionally, we present several lessons learned from our prototype implementation which might be of general interest for researchers and practitioners. For instance, to describe only the intended state of an elastic platform and let a single control process take care to reach this intended state is far less complex than to define plenty of specific and necessary multi-cloud aware workflows to deploy, migrate, terminate, scale up and scale down elastic platforms or applications.&lt;/p&gt;
-
-&lt;h3 id=&quot;slides&quot;&gt;Slides&lt;/h3&gt;
-
-&lt;center&gt;
-&lt;iframe src=&quot;http://www.slideshare.net/slideshow/embed_code/key/HLaB6fZ30TIuwt&quot; width=&quot;100%&quot; height=&quot;500px&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border: 1px solid white; max-width: 100%; background-color: white;&quot;&gt;&lt;/iframe&gt;
-&lt;/center&gt;
-
-&lt;h3 id=&quot;proof-of-concept-implementation&quot;&gt;Proof-of-Concept Implementation&lt;/h3&gt;
-
-&lt;p&gt;The proof-of-concept implementation can be found in the following &lt;a href=&quot;https://bitbucket.org/nanekratzke/plain&quot;&gt;bitbucket&lt;/a&gt; repository. You will find the last progress in the &lt;strong&gt;working&lt;/strong&gt; branch.&lt;/p&gt;</content><author><name>Nane Kratzke</name></author><category term="blog" /><category term="paper" /><category term="cloud" /><category term="research" /><category term="cloudtransit" /><category term="container" /><category term="ecp" /><category term="kubernetes" /><category term="swarm" /><category term="docker" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="web" /><category term="lecture" /><category term="database" /><category term="html" /><category term="css" /><category term="dart" /><category term="programming" /><category term="rest" /><category term="http" /><summary type="html"></summary></entry></feed>

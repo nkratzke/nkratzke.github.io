@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-03-08T10:35:34+01:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Ein P2P-basierter Echtzeit-Online-Editor für Code-Reviews und Pair-Programming</title><link href="http://www.nkode.io/thesis/2018/02/06/thesis-collab-editor.html" rel="alternate" type="text/html" title="Ein P2P-basierter Echtzeit-Online-Editor für Code-Reviews und Pair-Programming" /><published>2018-02-06T00:00:00+01:00</published><updated>2018-02-06T00:00:00+01:00</updated><id>http://www.nkode.io/thesis/2018/02/06/thesis-collab-editor</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/02/06/thesis-collab-editor.html">&lt;p&gt;Gegenstand dieser Masterarbeit ist ein Browser-basiertes
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-03-11T16:56:41+01:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Conference Talks, Madeira 2018</title><link href="http://www.nkode.io/2018/03/11/madeira-talks.html" rel="alternate" type="text/html" title="Conference Talks, Madeira 2018" /><published>2018-03-11T00:00:00+01:00</published><updated>2018-03-11T00:00:00+01:00</updated><id>http://www.nkode.io/2018/03/11/madeira-talks</id><content type="html" xml:base="http://www.nkode.io/2018/03/11/madeira-talks.html">&lt;p&gt;I am glad to contribute the following to the &lt;a href=&quot;http://closer.scitevents.org/?y=2018&quot;&gt;8th International Conference on Cloud Computing and Services Science (CLOSER 2018)&lt;/a&gt; in Funchal, Madeira, Portugal this March 2018.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Position paper presentation about “Making Cloud Applications Too Fast and Furious for Attackers”&lt;/li&gt;
+  &lt;li&gt;Paper presention about “A Lightweight Multi-Cloud DSL for Cloud-native Applications”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;position-paper-presentation&quot;&gt;Position Paper Presentation&lt;/h2&gt;
+
+&lt;h3 id=&quot;about-being-the-tortoise-or-the-hare-making-cloud-applications-too-fast-and-furious-for-attackers&quot;&gt;About being the Tortoise or the Hare? Making Cloud Applications too Fast and Furious for Attackers&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bit.ly/2FuG5H1&quot;&gt;
+&lt;img src=&quot;/img/posts/CLOSER-POSITION-2018.png&quot; width=&quot;45%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Cloud applications expose - beside service endpoints - also potential or actual vulnerabilities. And attackers have several advantages on their side. They can select the weapons, the point of time and the point of attack. Very often cloud application security engineering efforts focus to harden the fortress walls but seldom assume that attacks may be successful. So, cloud applications rely on their defensive walls but seldom attack intruders actively. Biological systems are different. They accept that defensive “walls” can be breached at several layers and therefore make use of an active and adaptive defense system to attack potential intruders - an immune system. This position paper proposes such an immune system inspired approach to ensure that even undetected intruders can be purged out of cloud applications. This makes it much harder for intruders to maintain a presence on victim systems. Evaluation experiments with popular cloud service infrastructures (Amazon Web Services, Google Compute Engine, Azure and OpenStack) showed that this could minimize the undetected acting period of intruders down to minutes.&lt;/p&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/2GgiyH8&quot;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bibliography/Kra2018b.html&quot;&gt;Howto cite&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;paper-presentation&quot;&gt;Paper presentation&lt;/h2&gt;
+
+&lt;h3 id=&quot;towards-a-lightweight-multi-cloud-dsl-for-elastic-and-transferable-cloud-native-applications&quot;&gt;Towards a Lightweight Multi-Cloud DSL for Elastic and Transferable Cloud-native Applications&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/i21aneka/towards-a-lightweight-multicloud-dsl-for-elastic-and-transferable-cloudnative-applications&quot;&gt;
+&lt;img src=&quot;/img/posts/CLOSER-2018.png&quot; width=&quot;45%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;abstract-1&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Cloud-native applications are intentionally designed for the cloud in order to leverage cloud platform features like horizontal scaling and elasticity – benefits coming along with cloud platforms. In addition to classical (and very often static) multi-tier deployment scenarios, cloud-native applications are typically operated on much more complex but elastic infrastructures. Furthermore, there is a trend to use elastic container platforms like Kubernetes, Docker Swarm or Apache Mesos. However, especially multi-cloud use cases are astonishingly complex to handle. In consequence, cloud-native applications are prone to vendor lock-in. Very often TOSCA-based approaches are used to tackle this aspect. But, these application topology defining approaches are limited in supporting multi-cloud adaption of a cloud-native application at runtime. In this paper, we analyzed several approaches to define cloud-native applications being multi-cloud transferable at runtime. We have not found an approach that fully satisfies all of our requirements. Therefore we introduce a solution proposal that separates elastic platform definition from cloud application definition. We present first considerations for a domain specific language for application definition and demonstrate evaluation results on the platform level showing that a cloud-native application can be transfered between different cloud service providers like Azure and Google within minutes and without downtime. The evaluation covers public and private cloud service infrastructures provided by Amazon Web Services, Microsoft Azure, Google Compute Engine and OpenStack.&lt;/p&gt;
+
+&lt;h3 id=&quot;links-1&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.researchgate.net/publication/321918056&quot;&gt;Paper&lt;/a&gt; (ResearchGate)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/cloudtransit/ucaml&quot;&gt;UCAML&lt;/a&gt; (Proposed DSL on Bitbucket)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bibliography/QK2018a.html&quot;&gt;Howto cite&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="blog" /><category term="cloud" /><category term="research" /><category term="cloudtransit" /><summary type="html">I am glad to contribute the following to the 8th International Conference on Cloud Computing and Services Science (CLOSER 2018) in Funchal, Madeira, Portugal this March 2018.</summary></entry><entry><title type="html">Ein P2P-basierter Echtzeit-Online-Editor für Code-Reviews und Pair-Programming</title><link href="http://www.nkode.io/thesis/2018/02/06/thesis-collab-editor.html" rel="alternate" type="text/html" title="Ein P2P-basierter Echtzeit-Online-Editor für Code-Reviews und Pair-Programming" /><published>2018-02-06T00:00:00+01:00</published><updated>2018-02-06T00:00:00+01:00</updated><id>http://www.nkode.io/thesis/2018/02/06/thesis-collab-editor</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/02/06/thesis-collab-editor.html">&lt;p&gt;Gegenstand dieser Masterarbeit ist ein Browser-basiertes
 Code-Review Tool, dass es ermöglicht Unterstützung von einem
 entfernten Teammitglied anzufordern, insbesondere um einen fachlichen
 Austausch zu Quellcode zu ermöglichen. Zur Vermeidung eines aufwändigen 
@@ -273,70 +317,4 @@ And these three games (of 18 game submissions) entered the &lt;a href=&quot;/ass
 &lt;p&gt;Congratulations.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;2048px&quot; src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;
-&lt;/iframe&gt;&lt;/iframe&gt;</content><author><name>Nane Kratzke,</name></author><category term="blog" /><summary type="html">One more time we had some fun this summer semester webtechnology course. My students implemented several classical games as Dart single page HTML ‘apps’. And these three games (of 18 game submissions) entered the Webtech Hall of Fame.</summary></entry><entry><title type="html">Web Technologies (Summer 2017)</title><link href="http://www.nkode.io/lecture/2017/06/15/lecture-webtech.html" rel="alternate" type="text/html" title="Web Technologies (Summer 2017)" /><published>2017-06-15T00:00:00+02:00</published><updated>2017-06-15T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2017/06/15/lecture-webtech</id><content type="html" xml:base="http://www.nkode.io/lecture/2017/06/15/lecture-webtech.html">&lt;p&gt;This project is about common technologies used to build (part) of web information systems.
-The project course is given for students
-at Lübeck University of Applied Sciences (in german language).
-The course covers following aspects:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;descriptional languages&lt;/strong&gt; for web content like &lt;a href=&quot;http://www.w3.org/html/&quot;&gt;HTML&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;presentational languages&lt;/strong&gt; for web content like &lt;a href=&quot;http://www.w3.org/Style/CSS/&quot;&gt;CSS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Document Object Model&lt;/strong&gt; (DOM)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;client and server side programming&lt;/strong&gt; with &lt;a href=&quot;https://www.dartlang.org&quot;&gt;Dart&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;security aspects&lt;/strong&gt; like &lt;em&gt;HTML injections&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Students apply their intensified web programming skills by developing
-a small one person, DOM-tree based (that means not canvas based)
-online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HTML Unit: &lt;a href=&quot;/assets/ss2017/webtech/webtech-html-css.pdf&quot;&gt;HTML and CSS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Dart Unit: &lt;a href=&quot;/assets/ss2017/webtech/webtech-dart-i.pdf&quot;&gt;Part 1&lt;/a&gt;, &lt;a href=&quot;/assets/ss2017/webtech/webtech-dart-ii.pdf&quot;&gt;Part 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;REST and HTTP Unit: &lt;a href=&quot;/assets/ss2017/webtech/webtech-http-rest.pdf&quot;&gt;REST&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;An exemplary reference game: &lt;a href=&quot;https://github.com/nkratzke/dartsnake&quot;&gt;SnakeDart&lt;/a&gt; (another game has to be developped using Dart)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;game-outcomes&quot;&gt;Game outcomes&lt;/h2&gt;
-
-&lt;p&gt;20 Teams started this project. These teams plan to finish the following announced games. Playable game outcomes will be linked here. So, stay tuned.&lt;/p&gt;
-
-&lt;p&gt;Be aware, this semester mobile games have to be implemented. So, some of the following games may be only working in mobile devices (due to necessarry 3D orientation or geolocation capabilities). However, most of the announced games should be playable on desktop browsers as well.&lt;/p&gt;
-
-&lt;h3 id=&quot;group-a&quot;&gt;Group A&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Team 1: &lt;a href=&quot;/assets/ss2017/webtech/games/team-01-ctb/web/start.html&quot;&gt;Catch the Ballz&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 2: &lt;a href=&quot;/assets/ss2017/webtech/games/team-02-running-man/web/index.html&quot;&gt;Running Man&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 3: &lt;a href=&quot;/assets/ss2017/webtech/games/team-03-tetris/web/index.html&quot;&gt;Tetris&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 4: &lt;a href=&quot;/assets/ss2017/webtech/games/team-04-dynamite-man/web/index.html&quot;&gt;Dynamite Man&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 5: &lt;a href=&quot;/assets/ss2017/webtech/games/team-05-schfel-space/web/index.html&quot;&gt;SchFel Space (Invader)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;group-b&quot;&gt;Group B&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Team 6: &lt;a href=&quot;/assets/ss2017/webtech/games/team-06-star-speeder/web/index.html&quot;&gt;Star Speeder&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 7: &lt;a href=&quot;/assets/ss2017/webtech/games/team-07-ninja-swap/web/index.html&quot;&gt;Ninja Swap&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 8: &lt;a href=&quot;/assets/ss2017/webtech/games/team-08-tower-defence/web/index.html&quot;&gt;Tower Defence&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 9: &lt;a href=&quot;/assets/ss2017/webtech/games/team-09-simdart/web/index.html&quot;&gt;Simdart&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 10: &lt;a href=&quot;/assets/ss2017/webtech/games/team-10-sudoku/web/index.html&quot;&gt;Sudoku&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;group-c&quot;&gt;Group C&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Team 11: &lt;a href=&quot;/assets/ss2017/webtech/games/team-11-drops/web/index.html&quot;&gt;Drops&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 12: &lt;a href=&quot;/assets/ss2017/webtech/games/team-12-conway-wars/web/index.html&quot;&gt;Conway Wars&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 13: Space Combat Game &lt;strong&gt;(team surrendered)&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Team 14: A.R.S.S. [Another Random Space Shooter] &lt;strong&gt;(team surrendered)&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Team 15: &lt;a href=&quot;/assets/ss2017/webtech/games/team-15-breakout/web/index.html&quot;&gt;Break Out&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 16: &lt;a href=&quot;/assets/ss2017/webtech/games/team-16-flappydart/web/index.html&quot;&gt;Flappy Dart&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;group-d&quot;&gt;Group D&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Team 17: &lt;a href=&quot;/assets/ss2017/webtech/games/team-17-tombrunner/web/index.html&quot;&gt;TOMB Runner&lt;/a&gt; &lt;em&gt;sadly, this game has a severe bug … :-(&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Team 18: &lt;a href=&quot;/assets/ss2017/webtech/games/team-18-frogger/web/index.html&quot;&gt;Frogger&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 19: &lt;a href=&quot;/assets/ss2017/webtech/games/team-19-memory/web/index.html&quot;&gt;Memory&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 20: &lt;a href=&quot;/assets/ss2017/webtech/games/team-20-dartfall/web/index.html&quot;&gt;Dartfall&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="web" /><category term="lecture" /><category term="database" /><category term="html" /><category term="css" /><category term="dart" /><category term="programming" /><category term="rest" /><category term="http" /><summary type="html"></summary></entry></feed>
+&lt;/iframe&gt;&lt;/iframe&gt;</content><author><name>Nane Kratzke,</name></author><category term="blog" /><summary type="html">One more time we had some fun this summer semester webtechnology course. My students implemented several classical games as Dart single page HTML ‘apps’. And these three games (of 18 game submissions) entered the Webtech Hall of Fame.</summary></entry></feed>

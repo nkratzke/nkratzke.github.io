@@ -1,0 +1,178 @@
+<html>
+	<head>
+		<title>Conference Talks, Madeira 2018</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="/css/customize.css" />
+
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-380838-9']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		</script>
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="/index.html" class="logo">
+									<span class="symbol"><img src="/img/topic/cloud.png" alt="" /></span><span class="title">nkode.io</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="/index.html">Home</a></li>
+							<li><a href="/blog.html">Blog</a></li>
+							<li><a href="/lectures.html">Lectures</a></li>
+							<li><a href="/talks.html">Talks</a></li>
+							<li><a href="/projects.html">Research Projects</a></li>
+							<li><a href="/thesis.html">Thesis</a></li>
+							<li><a href="/publications.html">Publications</a></li>
+							<li><a href="/about.html">About me</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+<h1>Conference Talks, Madeira 2018</h1>
+
+<strong>11 Mar 2018</strong>
+
+
+
+<img src="/img/posts/madeira.jpg" width="100%"/>
+
+
+Madeira, Pixabay (CC0 Public Domain)
+
+</header>
+
+<p>I am glad to contribute the following to the <a href="http://closer.scitevents.org/?y=2018">8th International Conference on Cloud Computing and Services Science (CLOSER 2018)</a> in Funchal, Madeira, Portugal this March 2018.</p>
+
+<ul>
+  <li>Position paper presentation about “Making Cloud Applications Too Fast and Furious for Attackers”</li>
+  <li>Paper presention about “A Lightweight Multi-Cloud DSL for Cloud-native Applications”</li>
+</ul>
+
+<h2 id="position-paper-presentation">Position Paper Presentation</h2>
+
+<h3 id="about-being-the-tortoise-or-the-hare-making-cloud-applications-too-fast-and-furious-for-attackers">About being the Tortoise or the Hare? Making Cloud Applications too Fast and Furious for Attackers</h3>
+
+<p><a href="http://bit.ly/2FuG5H1">
+<img src="/img/posts/CLOSER-POSITION-2018.png" width="45%" />
+</a></p>
+
+<h3 id="abstract">Abstract</h3>
+
+<p>Cloud applications expose - beside service endpoints - also potential or actual vulnerabilities. And attackers have several advantages on their side. They can select the weapons, the point of time and the point of attack. Very often cloud application security engineering efforts focus to harden the fortress walls but seldom assume that attacks may be successful. So, cloud applications rely on their defensive walls but seldom attack intruders actively. Biological systems are different. They accept that defensive “walls” can be breached at several layers and therefore make use of an active and adaptive defense system to attack potential intruders - an immune system. This position paper proposes such an immune system inspired approach to ensure that even undetected intruders can be purged out of cloud applications. This makes it much harder for intruders to maintain a presence on victim systems. Evaluation experiments with popular cloud service infrastructures (Amazon Web Services, Google Compute Engine, Azure and OpenStack) showed that this could minimize the undetected acting period of intruders down to minutes.</p>
+
+<h3 id="links">Links</h3>
+
+<ul>
+  <li><a href="http://bit.ly/2GgiyH8">Paper</a></li>
+  <li><a href="/bibliography/Kra2018b.html">Howto cite</a></li>
+</ul>
+
+<h2 id="paper-presentation">Paper presentation</h2>
+
+<h3 id="towards-a-lightweight-multi-cloud-dsl-for-elastic-and-transferable-cloud-native-applications">Towards a Lightweight Multi-Cloud DSL for Elastic and Transferable Cloud-native Applications</h3>
+
+<p><a href="https://www.slideshare.net/i21aneka/towards-a-lightweight-multicloud-dsl-for-elastic-and-transferable-cloudnative-applications">
+<img src="/img/posts/CLOSER-2018.png" width="45%" />
+</a></p>
+
+<h3 id="abstract-1">Abstract</h3>
+
+<p>Cloud-native applications are intentionally designed for the cloud in order to leverage cloud platform features like horizontal scaling and elasticity – benefits coming along with cloud platforms. In addition to classical (and very often static) multi-tier deployment scenarios, cloud-native applications are typically operated on much more complex but elastic infrastructures. Furthermore, there is a trend to use elastic container platforms like Kubernetes, Docker Swarm or Apache Mesos. However, especially multi-cloud use cases are astonishingly complex to handle. In consequence, cloud-native applications are prone to vendor lock-in. Very often TOSCA-based approaches are used to tackle this aspect. But, these application topology defining approaches are limited in supporting multi-cloud adaption of a cloud-native application at runtime. In this paper, we analyzed several approaches to define cloud-native applications being multi-cloud transferable at runtime. We have not found an approach that fully satisfies all of our requirements. Therefore we introduce a solution proposal that separates elastic platform definition from cloud application definition. We present first considerations for a domain specific language for application definition and demonstrate evaluation results on the platform level showing that a cloud-native application can be transfered between different cloud service providers like Azure and Google within minutes and without downtime. The evaluation covers public and private cloud service infrastructures provided by Amazon Web Services, Microsoft Azure, Google Compute Engine and OpenStack.</p>
+
+<h3 id="links-1">Links</h3>
+
+<ul>
+  <li><a href="https://www.researchgate.net/publication/321918056">Paper</a> (ResearchGate)</li>
+  <li><a href="https://bitbucket.org/cloudtransit/ucaml">UCAML</a> (Proposed DSL on Bitbucket)</li>
+  <li><a href="/bibliography/QK2018a.html">Howto cite</a></li>
+</ul>
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>About</h2>
+								Nane Kratzke (Computer Scientist)<br>
+								Lübeck University of Applied Sciences, Germany<br>
+								<ul class="icons">
+									<li><a href="https://www.twitter.com/nanekratzke" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/nkratzke" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/nanekratzke" class="icon fa-linkedin"><span class="label">LinkedIN</span></a></li>
+									<li><a href="https://www.slideshare.net/i21aneka" class="icon fa-slideshare"><span class="label">Slideshare</span></a></li>
+									<li><a href="https://plus.google.com/+NaneKratzke" class="icon fa-google"><span class="label">Google+</span></a></li>
+									<li>&nbsp;</li>
+									<li><a href="https://www.researchgate.net/profile/NaneKratzke"><img src="/img/social/RG_square_green.png" height="16px" alt="ResearchGate" /></a></li>
+									<li><a href="http://orcid.org/0000-0001-5130-4969"><img  src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="Orcid" /></a></li>
+									<li><a href="https://publons.com/author/667487/nane-kratzke#profile"><img src="https://publons.com/static/images/icons/publons.png" width="16px" height="16px" alt="Publons" /></a></li>
+									<li>&nbsp;</li>
+									<li><a href="/feed.xml" class="icon fa-rss"><span class="label">RSS</span></a></li>
+								</ul>
+							</section>
+							<section>
+								<h2>Further Sites</h2>
+								<a href="https://www.fh-luebeck.de/hochschule/hochschulorganisation/personalverzeichnis/person/nane-kratzke/">
+									<img src="/img/official/fhl-logo.png" alt="FH Lübeck" height="75pt" />
+								</a>
+								&nbsp;
+								<a href="https://cosa.fh-luebeck.de/en/contact/people/n-kratzke">
+									<img src="/img/official/cosa-logo.png" alt="CoSA" height="75pt" />
+								</a>
+							</section>
+							<div class="copyright">
+								&copy; Nane Kratzke, 2012 - 2018 &bullet; <a href="/disclosure.html">Imprint</a> &bullet; All rights reserved Design: <a href="http://html5up.net">HTML5 UP
+							</div>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/js/main.js"></script>
+
+	</body>
+</html>

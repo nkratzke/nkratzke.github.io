@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-03-14T18:03:29+01:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Conference Talks, Madeira 2018</title><link href="http://www.nkode.io/2018/03/11/madeira-talks.html" rel="alternate" type="text/html" title="Conference Talks, Madeira 2018" /><published>2018-03-11T00:00:00+01:00</published><updated>2018-03-11T00:00:00+01:00</updated><id>http://www.nkode.io/2018/03/11/madeira-talks</id><content type="html" xml:base="http://www.nkode.io/2018/03/11/madeira-talks.html">&lt;p&gt;I am glad to contribute the following to the &lt;a href=&quot;http://closer.scitevents.org/?y=2018&quot;&gt;8th International Conference on Cloud Computing and Services Science (CLOSER 2018)&lt;/a&gt; in Funchal, Madeira, Portugal this March 2018.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-03-14T19:55:32+01:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Web Technologies (Summer 2018)</title><link href="http://www.nkode.io/lecture/2018/03/14/webtech.html" rel="alternate" type="text/html" title="Web Technologies (Summer 2018)" /><published>2018-03-14T00:00:00+01:00</published><updated>2018-03-14T00:00:00+01:00</updated><id>http://www.nkode.io/lecture/2018/03/14/webtech</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/03/14/webtech.html">&lt;p&gt;This project is about common technologies used to build (part) of web information systems.
+The project course is given for students
+at Lübeck University of Applied Sciences (in german language).
+The course covers following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;descriptional languages&lt;/strong&gt; for web content like &lt;a href=&quot;http://www.w3.org/html/&quot;&gt;HTML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;presentational languages&lt;/strong&gt; for web content like &lt;a href=&quot;http://www.w3.org/Style/CSS/&quot;&gt;CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Document Object Model&lt;/strong&gt; (DOM)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;client and server side programming&lt;/strong&gt; with &lt;a href=&quot;https://www.dartlang.org&quot;&gt;Dart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;security aspects&lt;/strong&gt; like &lt;em&gt;HTML injections&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Students apply their intensified web programming skills by developing
+a small one person, DOM-tree based (that means not canvas based)
+online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
+
+&lt;p&gt;I am currently working on updates on the following course material. Stay tuned for updates.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unit 01: HTML + DOM-Tree + CSS&lt;/li&gt;
+  &lt;li&gt;Unit 02: Dart I (Dart as full purpose programming language)&lt;/li&gt;
+  &lt;li&gt;Unit 03: Dart II (Client- and server-side programming with)&lt;/li&gt;
+  &lt;li&gt;Unit 04: REST and HTTP&lt;/li&gt;
+  &lt;li&gt;An exemplary reference game: &lt;a href=&quot;https://github.com/nkratzke/dartsnake&quot;&gt;SnakeDart&lt;/a&gt; (another game has to be developped using Dart)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;game-outcomes&quot;&gt;Game outcomes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stay tuned for updates on resulting game updates.&lt;/li&gt;
+  &lt;li&gt;So far you can have a look on the &lt;a href=&quot;/assets/webtech-hall-of-fame&quot;&gt;hall-of-fame&lt;/a&gt; of former semesters.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="web" /><category term="lecture" /><category term="database" /><category term="html" /><category term="css" /><category term="dart" /><category term="programming" /><category term="rest" /><category term="http" /><summary type="html"></summary></entry><entry><title type="html">Programming II (Summer 2018)</title><link href="http://www.nkode.io/lecture/2018/03/14/lecture-programming-ii.html" rel="alternate" type="text/html" title="Programming II (Summer 2018)" /><published>2018-03-14T00:00:00+01:00</published><updated>2018-03-14T00:00:00+01:00</updated><id>http://www.nkode.io/lecture/2018/03/14/lecture-programming-ii</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/03/14/lecture-programming-ii.html">&lt;p&gt;The course &lt;strong&gt;Programming II&lt;/strong&gt; continues &lt;strong&gt;Programming I&lt;/strong&gt; by introducing more sophistacted programming aspects
+for second semester students. JAVA is used as teaching language. 
+Nevertheless, the principles are applicable to every (class based) object oriented programming language.&lt;/p&gt;
+
+&lt;p&gt;The course is given for students of the &lt;a href=&quot;https://www.fh-luebeck.de/hochschule/fachbereich-elektrotechnik-und-informatik/studiengaenge/informatik-softwaretechnik-bsc/uebersicht/&quot;&gt;Computer Science/Software Engineering&lt;/a&gt; study programme
+at the Lübeck University of Applied Sciences and will cover following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Object oriented concepts&lt;/strong&gt; and programming techniques&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt; of software including introduction to &lt;strong&gt;contracts&lt;/strong&gt;, &lt;strong&gt;unit testing&lt;/strong&gt; and &lt;strong&gt;code coverage&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Generics&lt;/strong&gt; introducing concepts like generic classes and methodes as well as concepts like type erasure, bounds&lt;/li&gt;
+  &lt;li&gt;Introduction to &lt;strong&gt;OOAD&lt;/strong&gt; (object oriented analysis and design) by example of Tic Tac Toe&lt;/li&gt;
+  &lt;li&gt;Graphical user interfaces (&lt;strong&gt;GUI&lt;/strong&gt;) using Swing introducing &lt;strong&gt;MVC&lt;/strong&gt; (model view controler) paradigma&lt;/li&gt;
+  &lt;li&gt;Concurrent programming using &lt;strong&gt;threads&lt;/strong&gt; introducing accompanying &lt;strong&gt;thread safeness&lt;/strong&gt; problems like race conditions, producer-consumer problem, deadlocks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
+
+&lt;p&gt;I am currently working on updates on the following course material. Stay tuned for updates.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lecture Unit 6: Introduction to object oriented programming&lt;/li&gt;
+  &lt;li&gt;Self Study Unit 7: Further aspects of object oriented programming&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 8: Testing&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 9: Generics&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 10: OOAD by example of Tic Tac Toe&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 11: GUI and MVC&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 12: Concurrent programming&lt;/li&gt;
+  &lt;li&gt;Catalogue of exercises&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">Conference Talks, Madeira 2018</title><link href="http://www.nkode.io/2018/03/11/madeira-talks.html" rel="alternate" type="text/html" title="Conference Talks, Madeira 2018" /><published>2018-03-11T00:00:00+01:00</published><updated>2018-03-11T00:00:00+01:00</updated><id>http://www.nkode.io/2018/03/11/madeira-talks</id><content type="html" xml:base="http://www.nkode.io/2018/03/11/madeira-talks.html">&lt;p&gt;I am glad to contribute the following to the &lt;a href=&quot;http://closer.scitevents.org/?y=2018&quot;&gt;8th International Conference on Cloud Computing and Services Science (CLOSER 2018)&lt;/a&gt; in Funchal, Madeira, Portugal this March 2018.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Position paper presentation about “Making Cloud Applications Too Fast and Furious for Attackers”&lt;/li&gt;
@@ -261,60 +324,4 @@ and will cover following aspects:&lt;/p&gt;
   &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2017/progI/Unit_05.pdf&quot;&gt;Recursive programming&lt;/a&gt; (functional programming skipped, just for self study)&lt;/li&gt;
   &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2017/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">A List of Serverless Frameworks</title><link href="http://www.nkode.io/2017/09/12/serverless-frameworks.html" rel="alternate" type="text/html" title="A List of Serverless Frameworks" /><published>2017-09-12T00:00:00+02:00</published><updated>2017-09-12T00:00:00+02:00</updated><id>http://www.nkode.io/2017/09/12/serverless-frameworks</id><content type="html" xml:base="http://www.nkode.io/2017/09/12/serverless-frameworks.html">&lt;p&gt;Serverless computing is a cloud computing execution model in which the the allocation of machine resources is dynamically managed. There is a good blog bost by Mike Roberts on &lt;a href=&quot;https://martinfowler.com/articles/serverless.html&quot;&gt;serverless architectures&lt;/a&gt; for the interested reader. “Serverless computing” is misleading to some degree. Obviously servers are still needed, but the term “serverless” is used because the server management and capacity planning decisions are completely hidden from the developer or operator. Serverless code can be used in conjunction with code deployed in more traditional styles, such as microservices. However, applications can be written to be purely serverless as well.&lt;/p&gt;
-
-&lt;p&gt;There are very well curated link lists dealing with serverless computing in general like &lt;a href=&quot;https://github.com/anaibol/awesome-serverless&quot;&gt;Awesome serverless&lt;/a&gt;. However, this blog post would like to concentrate only on the frameworks. The main intent is to curate a list of open source serverless frameworks over time. If you think some framework is missing do not hesitate to &lt;a href=&quot;mailto:nane.kratzke@fh-luebeck.de&quot;&gt;propose&lt;/a&gt; it.&lt;/p&gt;
-
-&lt;h2 id=&quot;public-commercial-serverless-services&quot;&gt;Public (commercial) serverless services&lt;/h2&gt;
-
-&lt;p&gt;Most public cloud service providers offer compute runtimes, also known as function as a service (FaaS) platforms. Here are some well known type representatives.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com/appengine/&quot;&gt;Google App Engine&lt;/a&gt; (one of the first commercially successfull solutions, however App Engine relies on a custom Python framework.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/de/lambda/&quot;&gt;AWS Lambda&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com/functions/&quot;&gt;Google Cloud Functions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/services/functions/&quot;&gt;Azure Functions&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;open-source-serverless-platforms&quot;&gt;Open (source) serverless platforms&lt;/h2&gt;
-
-&lt;p&gt;All of the mentioned commercial serverless computing models are prone to create vendor lock-in (to some degree). Therefore, open source serverless frameworks might be an alternative with the downside that the infrastructure must be operated. Obviously these frameworks need platforms or infrastructures to be executed on.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/openfaas/faas&quot;&gt;OpenFaaS&lt;/a&gt; - OpenFaaS (added 7. Mar 2018) &lt;span class=&quot;date&quot;&gt;New&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nuclio/nuclio&quot;&gt;nuclio&lt;/a&gt; - High-Performance Serverless event and data processing framework (added 24. Oct 2017)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fnproject.io/&quot;&gt;Fn project&lt;/a&gt; - The Fn project is a container native serverless platform. It supports every programming language. (added 3. Oct 2017)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://openwhisk.incubator.apache.org/&quot;&gt;OpenWhisk&lt;/a&gt; by Apache includes native support for Node.js, Python, Java, and Swift, and supports other languages and runtime via Docker containers. (added 12. Sep 2017)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://kubeless.io/&quot;&gt;Kubeless&lt;/a&gt;, a serverless framework for Kubernetes. (added 12. Sep 2017)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fission.io/&quot;&gt;Fission&lt;/a&gt;, another serverless framework for Kubernetes, supporting Python, NodeJS, Go, C#, and PHP. (added 12. Sep 2017)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://funktion.fabric8.io/&quot;&gt;Funktion&lt;/a&gt;, an event-based lambda programming environment for Kubernetes. (added 12. Sep 2017)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/alexellis/faas&quot;&gt;Functions as a Service (OpenFaaS)&lt;/a&gt; - a serverless framework for Docker &amp;amp; Kubernetes (added 12. Sep 2017)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/iron-io/functions&quot;&gt;IronFunctions&lt;/a&gt; - the serverless microservices platform (added 12. Sep 2017)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-function&quot;&gt;SpringCloud Functions&lt;/a&gt; - the serverless approach of Spring (added 12. Sep 2017)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This list is likely not complete. If you know further serverless platforms do not hesitate to contact me.&lt;/p&gt;
-
-&lt;h2 id=&quot;provider-agnostic-serverless-frameworks&quot;&gt;Provider agnostic serverless frameworks&lt;/h2&gt;
-
-&lt;p&gt;While serverless platforms need infrastructures to be executed on, provider agnostic serverless frameworks provide a provider and platform agnostic way to define and deploy serverless code on various serverless platforms or commercial serverless services. This is an option to avoid (or reduce) vendor lock-in without the necessity to operate an own infrastructure.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://serverless.com/&quot;&gt;Serverless Framework&lt;/a&gt; (added 13. Sep 2017)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://squeezer.io&quot;&gt;Squeezer Framework&lt;/a&gt; (added 13. Sep 2017)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This list is likely not complete. If you know further provider agnostic serverless frameworks do not hesitate to contact me.&lt;/p&gt;</content><author><name>Nane Kratzke,</name></author><category term="blog" /><category term="cloud" /><category term="serverless" /><category term="frameworks" /><category term="programming" /><category term="game" /><summary type="html">Serverless computing is a cloud computing execution model in which the the allocation of machine resources is dynamically managed. There is a good blog bost by Mike Roberts on serverless architectures for the interested reader. “Serverless computing” is misleading to some degree. Obviously servers are still needed, but the term “serverless” is used because the server management and capacity planning decisions are completely hidden from the developer or operator. Serverless code can be used in conjunction with code deployed in more traditional styles, such as microservices. However, applications can be written to be purely serverless as well.</summary></entry><entry><title type="html">And the winner is … Dynamite Man</title><link href="http://www.nkode.io/2017/07/24/And-the-winner-is-Dynamite-Man.html" rel="alternate" type="text/html" title="And the winner is ... Dynamite Man" /><published>2017-07-24T00:00:00+02:00</published><updated>2017-07-24T00:00:00+02:00</updated><id>http://www.nkode.io/2017/07/24/And-the-winner-is-Dynamite-Man</id><content type="html" xml:base="http://www.nkode.io/2017/07/24/And-the-winner-is-Dynamite-Man.html">&lt;p&gt;One more time we had some fun this summer semester &lt;a href=&quot;/lecture/2017/06/15/lecture-webtech.html&quot;&gt;webtechnology course&lt;/a&gt;. 
-My students implemented several classical games as &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; single page HTML ‘apps’.
-And these three games (of 18 game submissions) entered the &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Webtech Hall of Fame&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;#1: &lt;a href=&quot;/assets/ss2017/webtech/games/team-04-dynamite-man/web/index.html&quot;&gt;Dynamite Man&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;#2: &lt;a href=&quot;/assets/ss2017/webtech/games/team-07-ninja-swap/web/index.html&quot;&gt;Ninja Swap&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;#3: &lt;a href=&quot;/assets/ss2017/webtech/games/team-06-star-speeder/web/index.html&quot;&gt;Star Speeder&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Congratulations.&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;2048px&quot; src=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Uupps, your browser does not support iframes.&lt;iframe&gt;
-&lt;/iframe&gt;&lt;/iframe&gt;</content><author><name>Nane Kratzke,</name></author><category term="blog" /><summary type="html">One more time we had some fun this summer semester webtechnology course. My students implemented several classical games as Dart single page HTML ‘apps’. And these three games (of 18 game submissions) entered the Webtech Hall of Fame.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry></feed>

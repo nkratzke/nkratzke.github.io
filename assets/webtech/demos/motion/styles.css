@@ -17,12 +17,19 @@ h1 {
 #field {
     background-color: black;
     margin: auto;
+    font-size: 5em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#field.gameover {
+    color: white;
 }
 
 #area {
     position: absolute;
-    background-color: lightgrey;
-    border: 1px dashed black;
+    background-color: rgba(200, 200, 200, 0.5);
 }
 
 #ball {

@@ -15,26 +15,34 @@ h1 {
 }
 
 #field {
-    background-color: black;
+    background-color: white;
+    background-image: url("background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
     margin: auto;
     font-size: 5em;
-    color: black;
+    color: white;
     font-weight: bold;
     text-align: center;
 }
 
-#field.gameover {
-    color: white;
+#field #over {
+    visibility: hidden;
+}
+
+#field.gameover #over {
+    visibility: visible;
 }
 
 #area {
     position: absolute;
-    background-color: rgba(200, 200, 200, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #ball {
     position: absolute;
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 #ball.danger {

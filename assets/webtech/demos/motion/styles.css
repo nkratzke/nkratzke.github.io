@@ -72,3 +72,15 @@ h1 {
     text-align: center;
     color: white;
 }
+
+#qr {
+    position: relative;
+    z-index: 100;
+    width: 220px;
+    margin: auto;
+    padding: 20pt;
+    border-radius: 10pt;
+    background-color: white;
+    text-align: center;
+    visibility: collapse;
+}

@@ -3212,37 +3212,39 @@ y.gI(z).A(0,"out")
 y.gI(z).A(0,"danger")
 if(a.ay(b))y.gI(z).u(0,"danger")
 if(a.bo(b))y.gI(z).u(0,"out")}}}],["","",,F,{"^":"",
-hZ:[function(){var z,y,x,w,v,u,t,s,r,q,p,o
+hZ:[function(){var z,y,x,w,v,u,t,s,r,q,p,o,n,m
 z=document
 y=z.body;(y&&C.m).gcS(y)
 x=z.querySelector("#alpha")
 w=z.querySelector("#beta")
 v=z.querySelector("#gamma")
-u=new Q.dX(z.querySelector("#field"),z.querySelector("#over"),z.querySelector("#area"),z.querySelector("#ball"))
+u=z.querySelector("#qr")
+t=z.querySelector("#orient")
+s=new Q.dX(z.querySelector("#field"),z.querySelector("#over"),z.querySelector("#area"),z.querySelector("#ball"))
 z=window.innerWidth
 if(typeof z!=="number")return z.S()
 y=window.innerHeight
 if(typeof y!=="number")return y.S()
-t=window.innerWidth
-if(typeof t!=="number")return t.S()
-t/=4
-s=new Q.bB(z/2,y/2,t,null,!1,0,0,u)
-s.d=t
-t=window.innerWidth
-if(typeof t!=="number")return t.S()
+r=window.innerWidth
+if(typeof r!=="number")return r.S()
+r/=4
+q=new Q.bB(z/2,y/2,r,null,!1,0,0,s)
+q.d=r
+r=window.innerWidth
+if(typeof r!=="number")return r.S()
 y=window.innerHeight
 if(typeof y!=="number")return y.S()
 z=window.innerWidth
 if(typeof z!=="number")return z.S()
 z/=8
-r=new Q.bB(t/2,y/2,z,null,!1,0,0,u)
-r.d=z
-u.bB(s,r)
-q=P.aH(P.ay(0,0,0,30,0,0),new F.fC(u,s,r))
-p=P.aH(P.ay(0,0,0,0,0,1),new F.fD(s,r))
-o=P.aH(P.ay(0,0,0,500,0,0),new F.fE(s,r,C.o))
-W.cu(window,"deviceorientation",new F.fF(x,w,v),!1,W.dd)
-P.aH(P.ay(0,0,0,15,0,0),new F.fG(s,r,q,p,o))},"$0","cP",0,0,1],
+p=new Q.bB(r/2,y/2,z,null,!1,0,0,s)
+p.d=z
+s.bB(q,p)
+o=P.aH(P.ay(0,0,0,30,0,0),new F.fC(s,q,p))
+n=P.aH(P.ay(0,0,0,0,0,1),new F.fD(q,p))
+m=P.aH(P.ay(0,0,0,500,0,0),new F.fE(q,p,C.o))
+W.cu(window,"deviceorientation",new F.fF(x,w,v,u,t),!1,W.dd)
+P.aH(P.ay(0,0,0,15,0,0),new F.fG(q,p,o,n,m))},"$0","cP",0,0,1],
 fC:{"^":"f:2;a,b,c",
 $1:function(a){var z,y
 z=this.b
@@ -3270,10 +3272,20 @@ x=x.b
 v=z.b
 z.f=(y-w)/20
 z.r=(x-v)/20}},
-fF:{"^":"f:2;a,b,c",
-$1:function(a){this.a.textContent="Alpha: "+H.b(J.cZ(a))+"\xb0"
+fF:{"^":"f:2;a,b,c,d,e",
+$1:function(a){var z,y
+z=J.cZ(a)==null&&a.beta==null&&a.gamma==null
+y=this.d
+if(z){z=y.style
+z.visibility="visible"
+z=this.e.style
+z.visibility="collapse"}else{this.a.textContent="Alpha: "+H.b(a.alpha)+"\xb0"
 this.b.textContent="Beta: "+H.b(a.beta)+"\xb0"
-this.c.textContent="Gamma: "+H.b(a.gamma)+"\xb0"}},
+this.c.textContent="Gamma: "+H.b(a.gamma)+"\xb0"
+z=y.style
+z.visibility="collapse"
+z=this.e.style
+z.visibility="visible"}}},
 fG:{"^":"f:2;a,b,c,d,e",
 $1:function(a){if(1.25*this.a.c<this.b.c){this.c.P()
 this.e.P()

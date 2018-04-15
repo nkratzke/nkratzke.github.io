@@ -17,7 +17,7 @@ html, body {
 h1 {
     margin: 30pt;
     padding: 0pt;
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     font-weight: bold;
     color: white;
@@ -65,12 +65,7 @@ h1 {
     background-image: url("danger.png");
     background-repeat: no-repeat;
     background-size: 50% auto;
-    background-position: center center;}
-
-#alpha, #beta, #gamma {
-    font-size: 20pt;
-    text-align: center;
-    color: white;
+    background-position: center center;
 }
 
 #qr {

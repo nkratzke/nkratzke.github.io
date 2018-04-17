@@ -3251,30 +3251,31 @@ y.e=Math.min(20,Math.max(-20,H.x(a.gamma)))
 y.f=z-30}}},
 fI:{"^":"f:2;a,b,c,d,e,f",
 $1:function(a){var z,y,x,w,v,u
-z=this.e
-y=window.innerWidth
-if(typeof y!=="number")return y.H()
-x=window.innerHeight
+z=this.b
+if(z.style.display==="none")return
+y=this.e
+x=window.innerWidth
 if(typeof x!=="number")return x.H()
-z.a=y/2
-z.b=x/2
-x=this.f
-y=window.innerWidth
-if(typeof y!=="number")return y.H()
 w=window.innerHeight
 if(typeof w!=="number")return w.H()
-x.a=y/2
-x.b=w/2
-x.a2(-1000)
-w=this.b
-y=w.style
-y.display="none"
-y=this.c
-v=y.style
+y.a=x/2
+y.b=w/2
+w=this.f
+x=window.innerWidth
+if(typeof x!=="number")return x.H()
+v=window.innerHeight
+if(typeof v!=="number")return v.H()
+w.a=x/2
+w.b=v/2
+w.a2(-1000)
+v=z.style
+v.display="none"
+x=this.c
+v=x.style
 v.display="none"
 v=this.d
-u=P.ce(P.bL(0,0,0,500,0,0),new F.fF(this.a,v,z,x))
-P.ce(P.bL(0,0,0,30,0,0),new F.fG(w,y,v,z,x,u))}},
+u=P.ce(P.bL(0,0,0,500,0,0),new F.fF(this.a,v,y,w))
+P.ce(P.bL(0,0,0,30,0,0),new F.fG(z,x,v,y,w,u))}},
 fF:{"^":"f:2;a,b,c,d",
 $1:function(a){var z,y,x,w,v,u
 z=window.innerWidth

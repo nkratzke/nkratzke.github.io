@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-04-28T14:58:37+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Web Technologies (Summer 2018)</title><link href="http://www.nkode.io/lecture/2018/03/14/webtech.html" rel="alternate" type="text/html" title="Web Technologies (Summer 2018)" /><published>2018-03-14T00:00:00+01:00</published><updated>2018-03-14T00:00:00+01:00</updated><id>http://www.nkode.io/lecture/2018/03/14/webtech</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/03/14/webtech.html">&lt;p&gt;This project is about common technologies used to build (part) of web information systems.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-05-10T11:53:42+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter</title><link href="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html" rel="alternate" type="text/html" title="Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html">&lt;p&gt;Für die Bewohner von Studentenwohnheimen soll eine App entwickelt
+werden, die diesen im sozialen und organisatorischen Bereich von Studentenwohnheimen pragmatische Interaktionsmöglichkeiten bietet und auf einem dezentralen und selbstorganisierendem Ansatz basiert.&lt;/p&gt;
+
+&lt;p&gt;Studentenwohnheime sind häufig Heimat von mehreren hundert Studierenden mit hoher Fluktuation. Häufig existieren jedoch keine Online-Plattformen für Studentenwohnheimbelange. Meist wird hierzu (selbstorganisiert) auf Facebook-Gruppen ausgewichen, die von einzelnen Bewohnern erstellt werden. Verlassen die Gruppenadministratoren das Wohnheim zerfallen jedoch häufig diese Online-Gruppen aufgrund fehlender Administratoren und es müssen andere Organisationsformen in unregelmäßigen Abständen durch Bewohner gefunden werden.&lt;/p&gt;
+
+&lt;p&gt;Um eine möglichst attraktive und sich selbstorganisierende Plattform für Studentenwohnheime zu bieten, soll zunächst ermittelt werden, welche Funktionen die Bewohner nutzen würden und wie groß der Bedarf an einer App ist. Dies könnten beispielsweise ein Wohnheimflohmarkt, ein Foodshare-Programm, Meldungen an den Hausmeister, Annahme von Paketen, eine WG-Einkaufsliste und weitere Features sein.&lt;/p&gt;
+
+&lt;p&gt;Features mit ausreichendem Bedarf sollen dann implementiert
+werden. Ferner soll eine geeignete technische Architektur für eine solche App entwickelt werden, die möglichst dezentral aufgebaut sein soll und es ermöglicht weitere Funktionalitäten für eine solche App nachträglich zu erweitern. Es soll auf zentrale Serverkomponenten verzichtet werden und Kommunikationskanäle genutzt werden von denen bekannt ist, dass Studierende über diese verlässlich erreichbar sind (bspw. Email). Der Ansatz kann als eine Art Social-Network-over-Email-Ansatz bezeichnet werden. Dabei soll Nutzern der App nicht deutlich werden, dass im Hintergrund EMails genutzt werden. Nutzer, die die App nicht nutzen wollen, sollen dennoch in der Lage sein, Nachrichtenströmen rund um Wohnhemisbelange per EMail (lesend) zu folgen.&lt;/p&gt;
+
+&lt;p&gt;Die App soll mit &lt;a href=&quot;https://www.flutter.io&quot;&gt;Flutter&lt;/a&gt; für Android und iOS entwickelt werden. Dabei soll erhoben werden, inwiefern sich Flutter für die Entwicklung solcher Apps eignet (Lessons Learned).&lt;/p&gt;
+
+&lt;h2 id=&quot;teilaufgaben&quot;&gt;Teilaufgaben:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bedarfsanalyse von Funktionen für Studentenwohnheime. Hierbei sind Bewohner des Studentenwohnheims  geeignet einzubeziehen.&lt;/li&gt;
+  &lt;li&gt;Analyse denkbarer technischer Lösungsansätze (dezentral, selbstorganisierend).&lt;/li&gt;
+  &lt;li&gt;Architekturentwurf der Anwendung&lt;/li&gt;
+  &lt;li&gt;Die Funktionsfähigkeit der App soll mittels Softwaretests geeignet nachgewiesen werden.&lt;/li&gt;
+  &lt;li&gt;Die Nutzbarkeit der App soll systematisch evaluiert werden. Hierbei sind Bewohner des Studentenwohnheims  geeignet einzubeziehen.&lt;/li&gt;
+  &lt;li&gt;Dokumentation der oben angegeben Schritte (Bachelor-Arbeit) inkl. Bewertung der Nutzbarkeit des Frameworks Flutter für solche Arten von Apps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Es wird empfohlen die Dokumentation von Anfang an begleitend zur Arbeit zu erstellen und sich an einem Dokumentations-Template - wie bspw. &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;diesem&lt;/a&gt; - zu orientieren.&lt;/p&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><summary type="html">Für die Bewohner von Studentenwohnheimen soll eine App entwickelt werden, die diesen im sozialen und organisatorischen Bereich von Studentenwohnheimen pragmatische Interaktionsmöglichkeiten bietet und auf einem dezentralen und selbstorganisierendem Ansatz basiert.</summary></entry><entry><title type="html">Web Technologies (Summer 2018)</title><link href="http://www.nkode.io/lecture/2018/03/14/webtech.html" rel="alternate" type="text/html" title="Web Technologies (Summer 2018)" /><published>2018-03-14T00:00:00+01:00</published><updated>2018-03-14T00:00:00+01:00</updated><id>http://www.nkode.io/lecture/2018/03/14/webtech</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/03/14/webtech.html">&lt;p&gt;This project is about common technologies used to build (part) of web information systems.
 The project course is given for students
 at Lübeck University of Applied Sciences (in german language).
 The course covers following aspects:&lt;/p&gt;
@@ -296,31 +319,6 @@ and covers the following aspects:&lt;/p&gt;
   &lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2017/progI/Unit_04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2017/progI/Unit_05.pdf&quot;&gt;Recursive and functional programming&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ws2017/progI/Unit_06.pdf&quot;&gt;OO and UML&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2017/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">Introduction to Programming (Winter 2017)</title><link href="http://www.nkode.io/lecture/2017/09/21/introduction-to-prgramming.html" rel="alternate" type="text/html" title="Introduction to Programming (Winter 2017)" /><published>2017-09-21T00:00:00+02:00</published><updated>2017-09-21T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2017/09/21/introduction-to-prgramming</id><content type="html" xml:base="http://www.nkode.io/lecture/2017/09/21/introduction-to-prgramming.html">&lt;p&gt;This course provides an introduction into programming for freshman students and teaches a fundamental understanding of programming.
-JAVA is used as teaching language, nevertheless the principles are applicable to every (imperative or class based object oriented) programming language.&lt;/p&gt;
-
-&lt;p&gt;This course is given for &lt;em&gt;Information Technology and Design&lt;/em&gt; students at the Lübeck University of Applied Sciences
-and will cover following aspects:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Fundamental concepts&lt;/strong&gt; of programming including &lt;strong&gt;programming paradigms&lt;/strong&gt; and &lt;strong&gt;runtime models&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;, &lt;strong&gt;data types&lt;/strong&gt;, &lt;strong&gt;operators&lt;/strong&gt; and &lt;strong&gt;expressions&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Control flow&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt; (functions, procedures, methods)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Reference data types&lt;/strong&gt; and &lt;strong&gt;collections&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;(Stream based) &lt;strong&gt;I/O programming&lt;/strong&gt; and &lt;strong&gt;serialization&lt;/strong&gt; of objects&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Recursive programming&lt;/strong&gt; and &lt;strong&gt;datastructures&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Lecture Unit 1: &lt;a href=&quot;/assets/ws2017/progI/Unit_01.pdf&quot;&gt;Core concepts of programming&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Lecture Unit 2: &lt;a href=&quot;/assets/ws2017/progI/Unit_02.pdf&quot;&gt;Fundamentals of imperative programming&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Lecture Unit 3: &lt;a href=&quot;/assets/ws2017/progI/Unit_03.pdf&quot;&gt;Reference data types and collections&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2017/progI/Unit_04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt; (skipped, just for self study)&lt;/li&gt;
-  &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2017/progI/Unit_05.pdf&quot;&gt;Recursive programming&lt;/a&gt; (functional programming skipped, just for self study)&lt;/li&gt;
   &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2017/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Youtube Playlist: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL06-G-mnBYTJ2QffB3jgjZH-1TVIwMDr8&quot;&gt;Excercises of WS2015/16 explained&lt;/a&gt; (thanks to &lt;strong&gt;Marco Torge Gabrecht&lt;/strong&gt; for providing this tremendous work)&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry></feed>

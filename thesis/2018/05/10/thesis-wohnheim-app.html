@@ -1,0 +1,177 @@
+<html>
+	<head>
+		<title>Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="/css/customize.css" />
+
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-380838-9']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		</script>
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="/index.html" class="logo">
+									<span class="symbol"><img src="/img/topic/cloud.png" alt="" /></span><span class="title">nkode.io</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="/index.html">Home</a></li>
+							<li><a href="/blog.html">Blog</a></li>
+							<li><a href="/lectures.html">Lectures</a></li>
+							<li><a href="/talks.html">Talks</a></li>
+							<li><a href="/projects.html">Research Projects</a></li>
+							<li><a href="/thesis.html">Thesis</a></li>
+							<li><a href="/publications.html">Publications</a></li>
+							<li><a href="/about.html">About me</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+<h1>Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter</h1>
+
+<strong>10 May 2018</strong>
+
+
+
+
+</header>
+
+<h2>Meta</h2>
+<ul class='thesismeta'>
+
+<li><strong>Author:</strong> Tim Korinth
+
+
+<li><strong>State:</strong> announced
+
+
+<li><strong>Study programme:</strong> Informatik/Softwaretechnik
+
+
+<li><strong>Degree:</strong> Bachelor (B. Sc.)
+
+
+<li><strong>Company:</strong> <a href="https://cosa.fh-luebeck.de/de/">CoSA</a>
+
+
+
+</ul>
+
+<h2>Thesis</h2>
+
+<p>Für die Bewohner von Studentenwohnheimen soll eine App entwickelt
+werden, die diesen im sozialen und organisatorischen Bereich von Studentenwohnheimen pragmatische Interaktionsmöglichkeiten bietet und auf einem dezentralen und selbstorganisierendem Ansatz basiert.</p>
+
+<p>Studentenwohnheime sind häufig Heimat von mehreren hundert Studierenden mit hoher Fluktuation. Häufig existieren jedoch keine Online-Plattformen für Studentenwohnheimbelange. Meist wird hierzu (selbstorganisiert) auf Facebook-Gruppen ausgewichen, die von einzelnen Bewohnern erstellt werden. Verlassen die Gruppenadministratoren das Wohnheim zerfallen jedoch häufig diese Online-Gruppen aufgrund fehlender Administratoren und es müssen andere Organisationsformen in unregelmäßigen Abständen durch Bewohner gefunden werden.</p>
+
+<p>Um eine möglichst attraktive und sich selbstorganisierende Plattform für Studentenwohnheime zu bieten, soll zunächst ermittelt werden, welche Funktionen die Bewohner nutzen würden und wie groß der Bedarf an einer App ist. Dies könnten beispielsweise ein Wohnheimflohmarkt, ein Foodshare-Programm, Meldungen an den Hausmeister, Annahme von Paketen, eine WG-Einkaufsliste und weitere Features sein.</p>
+
+<p>Features mit ausreichendem Bedarf sollen dann implementiert
+werden. Ferner soll eine geeignete technische Architektur für eine solche App entwickelt werden, die möglichst dezentral aufgebaut sein soll und es ermöglicht weitere Funktionalitäten für eine solche App nachträglich zu erweitern. Es soll auf zentrale Serverkomponenten verzichtet werden und Kommunikationskanäle genutzt werden von denen bekannt ist, dass Studierende über diese verlässlich erreichbar sind (bspw. Email). Der Ansatz kann als eine Art Social-Network-over-Email-Ansatz bezeichnet werden. Dabei soll Nutzern der App nicht deutlich werden, dass im Hintergrund EMails genutzt werden. Nutzer, die die App nicht nutzen wollen, sollen dennoch in der Lage sein, Nachrichtenströmen rund um Wohnhemisbelange per EMail (lesend) zu folgen.</p>
+
+<p>Die App soll mit <a href="https://www.flutter.io">Flutter</a> für Android und iOS entwickelt werden. Dabei soll erhoben werden, inwiefern sich Flutter für die Entwicklung solcher Apps eignet (Lessons Learned).</p>
+
+<h2 id="teilaufgaben">Teilaufgaben:</h2>
+
+<ul>
+  <li>Bedarfsanalyse von Funktionen für Studentenwohnheime. Hierbei sind Bewohner des Studentenwohnheims  geeignet einzubeziehen.</li>
+  <li>Analyse denkbarer technischer Lösungsansätze (dezentral, selbstorganisierend).</li>
+  <li>Architekturentwurf der Anwendung</li>
+  <li>Die Funktionsfähigkeit der App soll mittels Softwaretests geeignet nachgewiesen werden.</li>
+  <li>Die Nutzbarkeit der App soll systematisch evaluiert werden. Hierbei sind Bewohner des Studentenwohnheims  geeignet einzubeziehen.</li>
+  <li>Dokumentation der oben angegeben Schritte (Bachelor-Arbeit) inkl. Bewertung der Nutzbarkeit des Frameworks Flutter für solche Arten von Apps.</li>
+</ul>
+
+<p>Es wird empfohlen die Dokumentation von Anfang an begleitend zur Arbeit zu erstellen und sich an einem Dokumentations-Template - wie bspw. <a href="https://github.com/nkratzke/BAMA-Template">diesem</a> - zu orientieren.</p>
+
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>About</h2>
+								Nane Kratzke (Computer Scientist)<br>
+								Lübeck University of Applied Sciences, Germany<br>
+								<ul class="icons">
+									<li><a href="https://www.twitter.com/nanekratzke" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/nkratzke" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/nanekratzke" class="icon fa-linkedin"><span class="label">LinkedIN</span></a></li>
+									<li><a href="https://www.slideshare.net/i21aneka" class="icon fa-slideshare"><span class="label">Slideshare</span></a></li>
+									<li><a href="https://plus.google.com/+NaneKratzke" class="icon fa-google"><span class="label">Google+</span></a></li>
+									<li>&nbsp;</li>
+									<li><a href="https://www.researchgate.net/profile/NaneKratzke"><img src="/img/social/RG_square_green.png" height="16px" alt="ResearchGate" /></a></li>
+									<li><a href="http://orcid.org/0000-0001-5130-4969"><img  src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="Orcid" /></a></li>
+									<li><a href="https://publons.com/author/667487/nane-kratzke#profile"><img src="https://publons.com/static/images/icons/publons.png" width="16px" height="16px" alt="Publons" /></a></li>
+									<li>&nbsp;</li>
+									<li><a href="/feed.xml" class="icon fa-rss"><span class="label">RSS</span></a></li>
+								</ul>
+							</section>
+							<section>
+								<h2>Further Sites</h2>
+								<a href="https://www.fh-luebeck.de/hochschule/hochschulorganisation/personalverzeichnis/person/nane-kratzke/">
+									<img src="/img/official/fhl-logo.png" alt="FH Lübeck" height="75pt" />
+								</a>
+								&nbsp;
+								<a href="https://cosa.fh-luebeck.de/en/contact/people/n-kratzke">
+									<img src="/img/official/cosa-logo.png" alt="CoSA" height="75pt" />
+								</a>
+							</section>
+							<div class="copyright">
+								&copy; Nane Kratzke, 2012 - 2018 &bullet; <a href="/disclosure.html">Imprint</a> &bullet; All rights reserved Design: <a href="http://html5up.net">HTML5 UP
+							</div>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/js/main.js"></script>
+
+	</body>
+</html>

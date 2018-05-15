@@ -68,7 +68,7 @@
 							<header>
 <h1>Ein P2P-basierter Echtzeit-Online-Editor für Code-Reviews und Pair-Programming</h1>
 
-<strong>06 Mar 2018</strong>
+<strong>15 May 2018</strong>
 , first release: 06 Feb 2018
 
 
@@ -83,19 +83,15 @@ Programming, hitesh0141, Pixabay.com (CC0 Public Domain)
 <h2>Meta</h2>
 <ul class='thesismeta'>
 
-<li><strong>Author:</strong> Melanie Lucht
-
 
 <li><strong>State:</strong> announced
 
 
-<li><strong>Study programme:</strong> Medieninformatik online
+<li><strong>Study programme:</strong> Informatik, ITD, Medieninformatik
 
 
-<li><strong>Degree:</strong> Master (M. Sc.)
+<li><strong>Degree:</strong> Bachelor (B. Sc.) oder Master (M.Sc.)
 
-
-<li><strong>Company:</strong> <a href="https://www.cocoo.io">cocoo.io UG & Co. KG</a>
 
 
 
@@ -103,43 +99,33 @@ Programming, hitesh0141, Pixabay.com (CC0 Public Domain)
 
 <h2>Thesis</h2>
 
-<p>Gegenstand dieser Masterarbeit ist ein Browser-basiertes
+<p>Gegenstand dieser Arbeit ist ein Browser-basiertes
 Code-Review Tool, dass es ermöglicht Unterstützung von einem
 entfernten Teammitglied anzufordern, insbesondere um einen fachlichen
 Austausch zu Quellcode zu ermöglichen. Zur Vermeidung eines aufwändigen 
 Backend-Server-Systems soll die Kommunikation 
 zwischen den Browsern mittels einer Peer-to-Peer-basierten 
-WebRTC-Verbindung erfolgen.</p>
+WebRTC-Verbindung erfolgen. Zentrale Serverkomponenten sollen (auch für den WebRTC Verbindungsaufbau) weitestmöglich vermieden oder wenn möglich durch “Serverless” Ansätze realisiert werden.</p>
 
 <p>Die Applikation soll insbesondere folgendes Szenario abdecken:
 Ein Initiator möchte einen fachlichen Austausch zu einem Quellcode
 anstoßen, indem er ein Teammitglied mittels einer Zufalls-URL 
 zu einer Online-Session einlädt. Über diese URL kann ein anderer
 Entwickler Änderungen am gemeinsam editierten Quellcode vornehmen
-und zur Verfügung stellen. Solche Änderungen werden geeignet markiert.
+und Anmerkungen vornehmen.
 Der Initiator soll diese Änderungen übernehmen können.</p>
 
 <p>Die Lösung soll eine Kombination aus Pair-Programming und Code-Review
 unterstützen, indem unter anderem die folgenden Funktionalitäten
 bereitgestellt werden.</p>
 
-<p>Priorität 1 (MUSS):</p>
 <ul>
   <li>Kollaboratives Editieren (wie oben beschrieben)</li>
   <li>Bereitstellung von Zufalls-URLs für Sessioneinladungen per Copy-Paste</li>
-  <li>Text-Chat</li>
+  <li>Anmerkungen zu Codezeilen und Codebereichen (ggf. Chat-artig)</li>
   <li>Import- und Export von Textdateien</li>
+  <li>Import- und Export aus Git-basierten Repositories</li>
   <li>Austausch der Daten über eine Echtzeit-P2P-Verbindung</li>
-  <li>Aufbau der Verbindung ggf. über einen Connection Server (STUN, Signaling Server)</li>
-  <li>Der Connection Server soll in Form eines Docker Containers bereitgestellt werden.</li>
-</ul>
-
-<p>Priorität 2 (KANN):</p>
-<ul>
-  <li>Audio-Chat</li>
-  <li>Video-Chat</li>
-  <li>EMail Integration</li>
-  <li>Slack Integration (slack.com)</li>
 </ul>
 
 <h2 id="teilaufgaben">Teilaufgaben:</h2>
@@ -149,10 +135,9 @@ bereitgestellt werden.</p>
   <li>Analyse der WebRTC Technologien und verfügbare APIs</li>
   <li>Architekturentwurf der Anwendung</li>
   <li>Prototypische Implementierung des Editors (gem. Prioritäten)</li>
-  <li>Prototypische Implementierung des Connection Servers</li>
-  <li>Die Funktionsfähigkeit von Editor und Connection Server soll mittels Softwaretests geeignet nachgewiesen werden.</li>
-  <li>Die Nutzbarkeit soll systematisch evaluiert werden. Hierbei ist ein Entwicklerteam geeignet einzubeziehen.</li>
-  <li>Dokumentation der oben angegeben Schritte (Master-Arbeit) inkl. Bewertung der Nutzbarkeit und technischen Eignung für oben angegebenen Einsatzzweck.</li>
+  <li>Die Funktionsfähigkeit soll mittels Softwaretests geeignet nachgewiesen werden.</li>
+  <li>Die Nutzbarkeit soll systematisch evaluiert werden.</li>
+  <li>Dokumentation der oben angegeben Schritte inkl. Bewertung der Nutzbarkeit und technischen Eignung für oben angegebenen Einsatzzweck.</li>
 </ul>
 
 <p>Es wird empfohlen die Dokumentation von Anfang an begleitend zur Arbeit zu erstellen und sich an einem Dokumentations-Template - wie bspw. <a href="https://github.com/nkratzke/BAMA-Template">diesem</a> - zu orientieren.</p>

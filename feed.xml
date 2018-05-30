@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-05-24T09:06:29+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter</title><link href="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html" rel="alternate" type="text/html" title="Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html">&lt;p&gt;Für die Bewohner von Studentenwohnheimen soll eine App entwickelt
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-05-30T08:05:26+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter</title><link href="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html" rel="alternate" type="text/html" title="Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html">&lt;p&gt;Für die Bewohner von Studentenwohnheimen soll eine App entwickelt
 werden, die diesen im sozialen und organisatorischen Bereich von Studentenwohnheimen pragmatische Interaktionsmöglichkeiten bietet und auf einem dezentralen und selbstorganisierendem Ansatz basiert.&lt;/p&gt;
 
 &lt;p&gt;Studentenwohnheime sind häufig Heimat von mehreren hundert Studierenden mit hoher Fluktuation. Häufig existieren jedoch keine Online-Plattformen für Studentenwohnheimbelange. Meist wird hierzu (selbstorganisiert) auf Facebook-Gruppen ausgewichen, die von einzelnen Bewohnern erstellt werden. Verlassen die Gruppenadministratoren das Wohnheim zerfallen jedoch häufig diese Online-Gruppen aufgrund fehlender Administratoren und es müssen andere Organisationsformen in unregelmäßigen Abständen durch Bewohner gefunden werden.&lt;/p&gt;
@@ -76,7 +76,8 @@ The course covers following aspects:&lt;/p&gt;
   &lt;li&gt;&lt;strong&gt;presentational languages&lt;/strong&gt; for web content like &lt;a href=&quot;http://www.w3.org/Style/CSS/&quot;&gt;CSS&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Document Object Model&lt;/strong&gt; (DOM)&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;client and server side programming&lt;/strong&gt; with &lt;a href=&quot;https://www.dartlang.org&quot;&gt;Dart&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;security aspects&lt;/strong&gt; like &lt;em&gt;HTML injections&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;progressive web app&lt;/strong&gt; and offline capabilities of web pages&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gyroscope&lt;/strong&gt; based controls&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Students apply their intensified web programming skills by developing
@@ -90,17 +91,66 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/assets/ss2018/webtech/unit-01.pdf&quot;&gt;Unit 01:&lt;/a&gt; HTML + DOM-Tree + CSS&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/assets/ss2018/webtech/unit-02.pdf&quot;&gt;Unit 02:&lt;/a&gt; Dart I (Dart as full purpose programming language)&lt;/li&gt;
-  &lt;li&gt;[Unit 03:]//assets/ss2018/webtech/unit-03.pdf Dart II (Client- and server-side programming)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/ss2018/webtech/unit-03.pdf&quot;&gt;Unit 03:&lt;/a&gt; Dart II (Client- and server-side programming)&lt;/li&gt;
   &lt;li&gt;Self Study &lt;a href=&quot;/assets/ss2018/webtech/unit-04.pdf&quot;&gt;Unit 04:&lt;/a&gt; HTTP and REST&lt;/li&gt;
-  &lt;li&gt;An exemplary reference game: &lt;a href=&quot;https://github.com/nkratzke/dartsnake&quot;&gt;SnakeDart&lt;/a&gt; (another game has to be developped using Dart)&lt;/li&gt;
+  &lt;li&gt;Add-On &lt;a href=&quot;/assets/ss2018/webtech/unit-05.pdf&quot;&gt;Unit 05:&lt;/a&gt; Progressive Web Apps and more with Dart&lt;/li&gt;
+  &lt;li&gt;Reference game: &lt;a href=&quot;https://github.com/nkratzke/dartsnake&quot;&gt;SnakeDart&lt;/a&gt; (another game has to be developped using Dart)&lt;/li&gt;
+  &lt;li&gt;Reference mobile “game”: &lt;a href=&quot;https://github.com/nkratzke/dartmotion&quot;&gt;Shadow Hunter&lt;/a&gt; (used to demonstrate progressibe web app features and gyroscope control on mobile devicesPWA)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;game-outcomes&quot;&gt;Game outcomes&lt;/h2&gt;
 
-&lt;p&gt;Stay tuned for resulting game updates.&lt;/p&gt;
+&lt;p&gt;So far you can have a look on the &lt;a href=&quot;/assets/webtech-hall-of-fame&quot;&gt;hall-of-fame&lt;/a&gt; of former semesters. Stay tuned for resulting game updates. The following Teams have formed up to release plenty of interesting mobile game concepts.&lt;/p&gt;
+
+&lt;h3 id=&quot;group-1&quot;&gt;Group 1&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;So far you can have a look on the &lt;a href=&quot;/assets/webtech-hall-of-fame&quot;&gt;hall-of-fame&lt;/a&gt; of former semesters.&lt;/li&gt;
+  &lt;li&gt;Team 1.A: Klick Mich (Click me)&lt;/li&gt;
+  &lt;li&gt;Team 1.B: Battle City (I)&lt;/li&gt;
+  &lt;li&gt;Team 1.C: Tetris 360°&lt;/li&gt;
+  &lt;li&gt;Team 1.D: Dart Jump&lt;/li&gt;
+  &lt;li&gt;Team 1.E: Mexican Jump&lt;/li&gt;
+  &lt;li&gt;Team 1.F: Brick Out&lt;/li&gt;
+  &lt;li&gt;Team 1.G: Swipe and Move&lt;/li&gt;
+  &lt;li&gt;Team 1.H: Pingu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;group-2&quot;&gt;Group 2&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Team 2.A: Australia Simulator&lt;/li&gt;
+  &lt;li&gt;Team 2.B: Dungeon Crawler&lt;/li&gt;
+  &lt;li&gt;Team 2.C: Star Droid&lt;/li&gt;
+  &lt;li&gt;Team 2.D: Donkey Jump&lt;/li&gt;
+  &lt;li&gt;Team 2.E: Path Puzzle&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Team 2.F: surrendered&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Team 2.G: Grid Shift&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;group-3&quot;&gt;Group 3&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Team 3.A: RabbitRinth&lt;/li&gt;
+  &lt;li&gt;Team 3.B: Color Jump&lt;/li&gt;
+  &lt;li&gt;Team 3.C: Schiffe versenken (I)&lt;/li&gt;
+  &lt;li&gt;Team 3.D: Outbreak&lt;/li&gt;
+  &lt;li&gt;Team 3.E: Battle City (II)&lt;/li&gt;
+  &lt;li&gt;Team 3.F: SmurfsGoneWild&lt;/li&gt;
+  &lt;li&gt;Team 3.G: Space Babel&lt;/li&gt;
+  &lt;li&gt;Team 3.H: Jumpy Run&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;group-4&quot;&gt;Group 4&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Team 4.A: Stone Royal&lt;/li&gt;
+  &lt;li&gt;Team 4.B: Star Jet Enterprise&lt;/li&gt;
+  &lt;li&gt;Team 4.C: Bombenhagel&lt;/li&gt;
+  &lt;li&gt;Team 4.D: Frank the Fruitman&lt;/li&gt;
+  &lt;li&gt;Team 4.E: Jagd … (naming in progress)&lt;/li&gt;
+  &lt;li&gt;Team 4.F: Open Flood&lt;/li&gt;
+  &lt;li&gt;Team 4.G: Break Out&lt;/li&gt;
+  &lt;li&gt;Team 4.H: Battle Ships (Schiffe versenken II)&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="web" /><category term="lecture" /><category term="database" /><category term="html" /><category term="css" /><category term="dart" /><category term="programming" /><category term="rest" /><category term="http" /><summary type="html"></summary></entry><entry><title type="html">Programming II (Summer 2018)</title><link href="http://www.nkode.io/lecture/2018/03/14/lecture-programming-ii.html" rel="alternate" type="text/html" title="Programming II (Summer 2018)" /><published>2018-03-14T00:00:00+01:00</published><updated>2018-03-14T00:00:00+01:00</updated><id>http://www.nkode.io/lecture/2018/03/14/lecture-programming-ii</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/03/14/lecture-programming-ii.html">&lt;p&gt;The course &lt;strong&gt;Programming II&lt;/strong&gt; continues &lt;strong&gt;Programming I&lt;/strong&gt; by introducing more sophistacted programming aspects
 for second semester students. JAVA is used as teaching language. 
 Nevertheless, the principles are applicable to every (class based) object oriented programming language.&lt;/p&gt;

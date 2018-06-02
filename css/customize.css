@@ -85,3 +85,11 @@ header {
 .tiles article.intro > .image:before {
     background-color: rgba(0, 0, 0, 0.75);
 }
+
+/* About me */ 
+
+h1 + img[src $= 'nane.jpg'] {
+    width: 50% !important;
+    margin-top: -2em;
+    border-radius: 0px 1000px 1000px 0px;
+}

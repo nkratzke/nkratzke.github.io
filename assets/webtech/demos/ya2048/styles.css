@@ -21,22 +21,21 @@ h1 {
   background: white;
 }
 
-td.tile2    { background: #ff450055 !important; }
-td.tile4    { background: #ff450066 !important; }
-td.tile8    { background: #ff450077 !important; }
-td.tile16   { background: #ff450088 !important; }
-td.tile32   { background: #ff450099 !important; }
-td.tile64   { background: #ff4500aa !important; }
-td.tile128  { background: #ff4500bb !important; }
-td.tile256  { background: #ff4500cc !important; }
-td.tile512  { background: #ff4500dd !important; }
-td.tile1024 { background: #ff4500ee !important; font-size: 1.25em; }
-td.tile2048 { background: #ff4500ff !important; font-size: 1.25em; }
+td.tile2    { background: #FF8C0055 !important; }
+td.tile4    { background: #FF8C0066 !important; }
+td.tile8    { background: #FF8C0077 !important; }
+td.tile16   { background: #FF8C0088 !important; }
+td.tile32   { background: #FF8C0099 !important; }
+td.tile64   { background: #FF8C00aa !important; }
+td.tile128  { background: #FF8C00bb !important; }
+td.tile256  { background: #FF8C00cc !important; }
+td.tile512  { background: #FF8C00dd !important; }
+td.tile1024 { background: #FF8C00ee !important; font-size: 1.25em; }
+td.tile2048 { background: #FF8C00ff !important; font-size: 1.25em; }
 
 @keyframes change {
     0%, 100% { transform: scale(1) }
-    25% { opacity: 0.25 }
-    50% { transform: scale(3); background: darkgreen; color: white; border: 0px solid transparent; }
+    75% { transform: scale(5); color: darkorange;}
 }
 
 @keyframes shake {
@@ -128,37 +127,30 @@ td.right { animation: fade 250ms, right 250ms }
 
 #high:empty { display: none; }
 
-#high, #current {
-    font-size: 0.66em;
-    width: 25em;
+#scoring {
+    font-size: 0.5em;
     margin: 1em auto 1em auto;
     text-align: center;
 }
 
-#current .score, #current .points {
+#scoring td { width: 2em; color: dimgray }
+.score, .points, .highscore, .highpoints {
     background: transparent;
-    border: 1pt solid black;
-    color: black;
-    font-size: 1.5em;
+    font-size: 3em;
+    padding: 0em 0.5em 0.5em 0.5em;
+    font-weight: bold;
+    border-radius: 4em;
 }
+.highscore, .highpoints { color: darkorange !important; }
+
 
 .change {
     animation: change 500ms;
 }
 
-.points, .score {
-    font-size: 1.2em;
-    margin: 1em;
-    padding: 0.5em;
-    background: black;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
 footer {
     text-align: center;
     margin-top: 2em;
-    font-size: 0.5em;
+    font-size: 0.66em;
     line-height: 1.5em;
 }

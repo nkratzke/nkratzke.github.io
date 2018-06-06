@@ -5042,7 +5042,7 @@ z=window.localStorage
 y=new Z.ii(z,[],C.w,0)
 y.cE(4,4)
 z=document
-x=new A.is(y,z.querySelector("#output"),z.querySelector("#gameover"),z.querySelector("#current .score"),z.querySelector("#current .points"),z.querySelector("#high .score"),z.querySelector("#high .points"))
+x=new A.is(y,z.querySelector("#output"),z.querySelector("#gameover"),z.querySelector("#scoring .score"),z.querySelector("#scoring .points"),z.querySelector("#scoring .highscore"),z.querySelector("#scoring .highpoints"))
 x.aP()
 new X.ij(y,x).d4(0)},"$0","eh",0,0,2]},1],["","",,Z,{"^":"",ii:{"^":"e;a,b,c,d",
 cP:function(a,b){var z
@@ -5318,7 +5318,7 @@ x=Math.min(800,Math.min(H.bo(z),H.bo(y)))
 y=this.a.b
 z=y.length
 if(0>=z)return H.f(y,0)
-w=C.z.ef(x/Math.max(y[0].length,z)*0.75)
+w=C.z.ef(x/Math.max(y[0].length,z)*0.7)
 for(z=document,y=new W.ct(z.querySelectorAll("#output td"),[null]),y=new H.aP(y,y.gh(y),0,null);y.m();){v=y.d
 u=J.q(v)
 J.eH(u.gJ(v),""+w+"px")

@@ -15,10 +15,20 @@
 <body>
 
     <h1>Yet another 2048</h1>
-    <table id="current">
+    <table id="scoring">
         <tbody><tr>
-            <td>Points:</td><td class="points"></td>
-            <td>Score:</td><td class="score"></td>
+            <td>Points:</td>
+            <td>Score:</td>
+            <td></td>
+            <td>Highest Points</td>
+            <td>Highest Score</td>
+        </tr>
+        <tr>
+            <td class="points"></td>
+            <td class="score"></td>
+            <td></td>
+            <td class="highpoints"></td>
+            <td class="highscore"></td>
         </tr>
     </tbody></table>
     <div id="output"></div>
@@ -26,10 +36,6 @@
         <h1>Game Over</h1>
         <input id="playagain" type="button" value="Play again">
     </div>
-    <table id="high">
-        <tbody><tr><td>Highest points</td><td>Highest score</td></tr>
-        <tr><td class="points"></td><td class="score"></td></tr>
-    </tbody></table>
 
     <footer>
         Author: Nane Kratzke, Lübeck University of Applied Sciences<br>

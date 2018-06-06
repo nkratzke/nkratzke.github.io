@@ -5040,7 +5040,7 @@ nX:[function(){var z,y,x
 U.iY("./pwa.dart.js")
 z=window.localStorage
 y=new Z.ii(z,[],C.w,0)
-y.cE(4,3)
+y.cE(4,4)
 z=document
 x=new A.is(y,z.querySelector("#output"),z.querySelector("#gameover"),z.querySelector("#current .score"),z.querySelector("#current .points"),z.querySelector("#high .score"),z.querySelector("#high .points"))
 x.aP()

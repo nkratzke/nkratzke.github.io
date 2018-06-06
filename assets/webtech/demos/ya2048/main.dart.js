@@ -5314,11 +5314,11 @@ J.b4(J.aK(v[u],t)).v(0,this.dI(a))}++t}}},
 dP:function(){var z,y,x,w,v,u
 z=window.innerWidth
 y=window.innerHeight
-x=Math.min(H.bo(z),H.bo(y))
+x=Math.min(800,Math.min(H.bo(z),H.bo(y)))
 y=this.a.b
 z=y.length
 if(0>=z)return H.f(y,0)
-w=C.z.ef(x/Math.max(y[0].length,z)/2)
+w=C.z.ef(x/Math.max(y[0].length,z)*0.75)
 for(z=document,y=new W.ct(z.querySelectorAll("#output td"),[null]),y=new H.aP(y,y.gh(y),0,null);y.m();){v=y.d
 u=J.q(v)
 J.eH(u.gJ(v),""+w+"px")

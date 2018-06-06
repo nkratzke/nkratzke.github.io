@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+#output td {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 0.25em;
+  background: white;
+}
+
+td.tile2    { background: #ff450055 !important; }
+td.tile4    { background: #ff450066 !important; }
+td.tile8    { background: #ff450077 !important; }
+td.tile16   { background: #ff450088 !important; }
+td.tile32   { background: #ff450099 !important; }
+td.tile64   { background: #ff4500aa !important; }
+td.tile128  { background: #ff4500bb !important; }
+td.tile256  { background: #ff4500cc !important; }
+td.tile512  { background: #ff4500dd !important; }
+td.tile1024 { background: #ff4500ee !important; font-size: 1.25em; }
+td.tile2048 { background: #ff4500ff !important; font-size: 1.25em; }
+
+@keyframes change {
+    0%, 100% { transform: scale(1) }
+    25% { opacity: 0.25 }
+    50% { transform: scale(3); background: darkgreen; color: white; border: 0px solid transparent; }
+}
+
+@keyframes shake {
+    0%, 100% { transform: rotate(0deg) }
+    25% { transform: rotate(5deg) }
+    75% { transform: rotate(-5deg) }
+}
+
+#output.warning {
+    animation: shake 10ms 50;
+}
+
+@keyframes fade {
+    0% { opacity: 1 }
+    100% { opacity: 0 }
+}
+
+@keyframes left {
+     0% { transform: translateX(0px); }
+     100% { transform: translateX(-1em); }
+}
+
+@keyframes right {
+    0% { transform: translateX(0px); }
+    100% { transform: translateX(+1em); }
+}
+
+@keyframes up {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-1em); }
+}
+
+@keyframes down {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(+1em); }
+}
+
+@keyframes pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.25); }
+    100% { transform: scale(1); }
+}
+
+td.pop { animation: pop 500ms }
+td.up { animation: fade 250ms, up 250ms }
+td.down { animation: fade 250ms, down 250ms }
+td.left { animation: fade 250ms, left 250ms }
+td.right { animation: fade 250ms, right 250ms }
+
+#output table {
+  background: #eeeeee;
+  border-spacing: 0.5em;
+  border-radius: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gameover {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2000px;
+    color: white;
+    padding-top: 5em;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+#gameover input[type='button'] {
+    background-color: transparent; /* Green */
+    border: 1px solid white;
+    border-radius: 0.5em;
+    font-weight: bold;
+    color: white;
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+#gameover input[type='button']:hover {
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#high:empty { display: none; }
+
+#high, #current {
+    font-size: 0.66em;
+    width: 25em;
+    margin: 1em auto 1em auto;
+    text-align: center;
+}
+
+#current .score, #current .points {
+    background: transparent;
+    border: 1pt solid black;
+    color: black;
+    font-size: 1.5em;
+}
+
+.change {
+    animation: change 500ms;
+}
+
+.points, .score {
+    font-size: 1.2em;
+    margin: 1em;
+    padding: 0.5em;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 0.5em;
+    line-height: 1.5em;
+}

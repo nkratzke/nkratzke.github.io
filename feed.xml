@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-06-19T14:22:09+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter</title><link href="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html" rel="alternate" type="text/html" title="Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html">&lt;p&gt;Für die Bewohner von Studentenwohnheimen soll eine App entwickelt
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-06-28T07:59:12+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter</title><link href="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html" rel="alternate" type="text/html" title="Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html">&lt;p&gt;Für die Bewohner von Studentenwohnheimen soll eine App entwickelt
 werden, die diesen im sozialen und organisatorischen Bereich von Studentenwohnheimen pragmatische Interaktionsmöglichkeiten bietet und auf einem dezentralen und selbstorganisierendem Ansatz basiert.&lt;/p&gt;
 
 &lt;p&gt;Studentenwohnheime sind häufig Heimat von mehreren hundert Studierenden mit hoher Fluktuation. Häufig existieren jedoch keine Online-Plattformen für Studentenwohnheimbelange. Meist wird hierzu (selbstorganisiert) auf Facebook-Gruppen ausgewichen, die von einzelnen Bewohnern erstellt werden. Verlassen die Gruppenadministratoren das Wohnheim zerfallen jedoch häufig diese Online-Gruppen aufgrund fehlender Administratoren und es müssen andere Organisationsformen in unregelmäßigen Abständen durch Bewohner gefunden werden.&lt;/p&gt;
@@ -108,23 +108,23 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
   &lt;li&gt;Team 1.A: Klick Mich (Click me)&lt;/li&gt;
   &lt;li&gt;Team 1.B: Battle City (I)&lt;/li&gt;
   &lt;li&gt;Team 1.C: Tetris 360°&lt;/li&gt;
-  &lt;li&gt;Team 1.D: Dart Jump&lt;/li&gt;
+  &lt;li&gt;Team 1.D: Dart Jump (&lt;strong&gt;2nd place&lt;/strong&gt; in group)&lt;/li&gt;
   &lt;li&gt;Team 1.E: Mexican Jump&lt;/li&gt;
   &lt;li&gt;Team 1.F: Brick Out&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Team 1.G: Swipe and Move (surrendered)&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Team 1.H: Pingu&lt;/li&gt;
+  &lt;li&gt;Team 1.H: Pingu (&lt;strong&gt;1st place&lt;/strong&gt; in group)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;group-2&quot;&gt;Group 2&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Team 2.A: Australia Simulator&lt;/li&gt;
-  &lt;li&gt;Team 2.B: Dungeon Crawler&lt;/li&gt;
-  &lt;li&gt;Team 2.C: Star Droid&lt;/li&gt;
-  &lt;li&gt;Team 2.D: Donkey Jump&lt;/li&gt;
-  &lt;li&gt;Team 2.E: Path Puzzle&lt;/li&gt;
+  &lt;li&gt;Team 2.A: Australia Simulator (&lt;strong&gt;1st place&lt;/strong&gt; in group)&lt;/li&gt;
+  &lt;li&gt;Team 2.B: Dart Rogue&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Team 2.C: Star Droid (surrendered)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Team 2.D: Donkey Jump (surrendered)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Team 2.E: Path Puzzle (surrendered)&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Team 2.F: Place a Bomb (surrendered)&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Team 2.G: Grid Shift&lt;/li&gt;
+  &lt;li&gt;Team 2.G: Grid Shift (&lt;strong&gt;2nd place&lt;/strong&gt; in group)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;group-3&quot;&gt;Group 3&lt;/h3&gt;

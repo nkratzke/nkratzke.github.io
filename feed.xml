@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-06-28T09:38:46+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter</title><link href="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html" rel="alternate" type="text/html" title="Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html">&lt;p&gt;Für die Bewohner von Studentenwohnheimen soll eine App entwickelt
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-06-28T16:46:21+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms</title><link href="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html" rel="alternate" type="text/html" title="Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms" /><published>2018-06-28T00:00:00+02:00</published><updated>2018-06-28T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html">&lt;p&gt;Cloud-native applications are intentionally designed for the cloud in order to leverage
+cloud platform features like korizontal scaling and elasicity - benefits coming along
+with cloud platforms. In addition to classical (and very often static) multi-tier deployment
+scenarios, cloud-native applications are typically operated on much more complex but elastic
+infrastructures. Furthermore, there is a trend to use elastic container platforms like
+Kubernetes, Docker Swarm or Apache Mesos. However, describing this service can be extensive
+and platform specific. Therefore, we developed a domain specific language for describing
+cloud-native applications, including features like model-to-model generation for specific elastic container platforms.&lt;/p&gt;
+
+&lt;p&gt;In this thesis, a graphical user interface for describing cloud-native application for multi-cloud deployments has to be implemented.&lt;/p&gt;
+
+&lt;p&gt;For this purpose, the following sub-tasks have to be dealt with and documented:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Familiarization with UCAML (Universal Cloud Application Modeling Language), cloud-native applications (especially Docker), cloud computing and elastic container platforms&lt;/li&gt;
+  &lt;li&gt;Identification of the GUI requirements&lt;/li&gt;
+  &lt;li&gt;Design the software architecture of the GUI service&lt;/li&gt;
+  &lt;li&gt;Implementation and evaluation of the GUI&lt;/li&gt;
+  &lt;li&gt;Implementation of the GUI as a web-service&lt;/li&gt;
+  &lt;li&gt;Automatic validation of the user input&lt;/li&gt;
+  &lt;li&gt;Practical evaluation of the GUI by using it for describing a cloud-native demo application (e.g. the Sock Shop)&lt;/li&gt;
+  &lt;li&gt;Writing a developer documentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note: Should individual aspects shown to be to difficult to achieve during the processing of this work, the task can be adapted - after plausible proof of difficulty.&lt;/p&gt;</content><author><name>Peter-Christian Quint</name></author><category term="thesis" /><category term="programming" /><category term="web" /><summary type="html">Cloud-native applications are intentionally designed for the cloud in order to leverage cloud platform features like korizontal scaling and elasicity - benefits coming along with cloud platforms. In addition to classical (and very often static) multi-tier deployment scenarios, cloud-native applications are typically operated on much more complex but elastic infrastructures. Furthermore, there is a trend to use elastic container platforms like Kubernetes, Docker Swarm or Apache Mesos. However, describing this service can be extensive and platform specific. Therefore, we developed a domain specific language for describing cloud-native applications, including features like model-to-model generation for specific elastic container platforms.</summary></entry><entry><title type="html">Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter</title><link href="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html" rel="alternate" type="text/html" title="Entwicklung einer dezentralen Studentenwohnheim-App mit Flutter" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/05/10/thesis-wohnheim-app.html">&lt;p&gt;Für die Bewohner von Studentenwohnheimen soll eine App entwickelt
 werden, die diesen im sozialen und organisatorischen Bereich von Studentenwohnheimen pragmatische Interaktionsmöglichkeiten bietet und auf einem dezentralen und selbstorganisierendem Ansatz basiert.&lt;/p&gt;
 
 &lt;p&gt;Studentenwohnheime sind häufig Heimat von mehreren hundert Studierenden mit hoher Fluktuation. Häufig existieren jedoch keine Online-Plattformen für Studentenwohnheimbelange. Meist wird hierzu (selbstorganisiert) auf Facebook-Gruppen ausgewichen, die von einzelnen Bewohnern erstellt werden. Verlassen die Gruppenadministratoren das Wohnheim zerfallen jedoch häufig diese Online-Gruppen aufgrund fehlender Administratoren und es müssen andere Organisationsformen in unregelmäßigen Abständen durch Bewohner gefunden werden.&lt;/p&gt;
@@ -368,24 +392,4 @@ und evaluiert werden, die sich auf die folgenden Bereiche beziehen:&lt;/p&gt;
   &lt;li&gt;&lt;strong&gt;Implementierung&lt;/strong&gt; von optimierten Patchverfahren,&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Leistungsermittlung&lt;/strong&gt; der implementierten Patchverfahren und vergleichende Gegenüberstellung der gemessenen Leistungsdaten&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Dokumentation&lt;/strong&gt; der oben dargestellten Schritte inklusive eines Fazits und Schlussfolgerungen sowie Empfehlungen zur Optimierung von Patch- und Updateverfahren.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><summary type="html">In dieser Arbeit geht es um sogenannte Patches für clientbasierte Software. Untersucht werden sollen bestehende Patchverfahren, die insbesondere bei Videospielen Anwendung finden. Auf Basis dieser Untersuchungen sollen Optimierungen vorgeschlagen, implementiert und evaluiert werden, die sich auf die folgenden Bereiche beziehen:</summary></entry><entry><title type="html">Analysis of Face Recognition Capabilities by Example of a Mobile Web Game</title><link href="http://www.nkode.io/thesis/2017/12/12/thesis-face-recognition.html" rel="alternate" type="text/html" title="Analysis of Face Recognition Capabilities by Example of a Mobile Web Game" /><published>2017-12-12T00:00:00+01:00</published><updated>2017-12-12T00:00:00+01:00</updated><id>http://www.nkode.io/thesis/2017/12/12/thesis-face-recognition</id><content type="html" xml:base="http://www.nkode.io/thesis/2017/12/12/thesis-face-recognition.html">&lt;p&gt;This thesis shall identify face recognition, face tracking, and face gesture recognition libraries,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;summarize and categorize their features,&lt;/li&gt;
-  &lt;li&gt;assess and compare their efficiency,&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;to develop and realize an interesting game concept that demonstrates face recognition capabilities of smartphones. The resulting web game should be executable in a modern mobile HTML5 web browser. The game is intended to be presented on fairs to demonstrate student outcomes of computer science students. The game will likely involve technologies like JavaScript, HTML, DOM-Tree, CSS and so on. The game should be realized as a single page web app. No server component should be necessary to operate the game.&lt;/p&gt;
-
-&lt;p&gt;It is recommended to study and consider this &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;template&lt;/a&gt; for thesis documentation from the very beginning.&lt;/p&gt;
-
-&lt;h2 id=&quot;tasks-documentation-and-outcomes&quot;&gt;Tasks, Documentation and Outcomes&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Analyze&lt;/strong&gt; face recognition, face tracking, and face gesture recognition libraries&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Compare&lt;/strong&gt; performance and efficiency of such kind of libraries&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Summarize&lt;/strong&gt; features, opportunities and limitations of these libraries and derive an interesting game concpet that is playable on a wide range of mobile browsers on smartphones&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Implementation&lt;/strong&gt; and documentation of the game&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Evaluation&lt;/strong&gt; of the game including typical software testing and user acceptance strategies&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; of the above mentioned steps.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="programming" /><category term="web" /><summary type="html">This thesis shall identify face recognition, face tracking, and face gesture recognition libraries,</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><summary type="html">In dieser Arbeit geht es um sogenannte Patches für clientbasierte Software. Untersucht werden sollen bestehende Patchverfahren, die insbesondere bei Videospielen Anwendung finden. Auf Basis dieser Untersuchungen sollen Optimierungen vorgeschlagen, implementiert und evaluiert werden, die sich auf die folgenden Bereiche beziehen:</summary></entry></feed>

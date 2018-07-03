@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-07-03T08:18:41+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms</title><link href="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html" rel="alternate" type="text/html" title="Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms" /><published>2018-06-28T00:00:00+02:00</published><updated>2018-06-28T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html">&lt;p&gt;Cloud-native applications are intentionally designed for the cloud in order to leverage
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-07-03T08:22:28+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms</title><link href="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html" rel="alternate" type="text/html" title="Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms" /><published>2018-06-28T00:00:00+02:00</published><updated>2018-06-28T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html">&lt;p&gt;Cloud-native applications are intentionally designed for the cloud in order to leverage
 cloud platform features like korizontal scaling and elasicity - benefits coming along
 with cloud platforms. In addition to classical (and very often static) multi-tier deployment
 scenarios, cloud-native applications are typically operated on much more complex but elastic
@@ -92,7 +92,7 @@ Hierbei soll es nicht darum gehen, dem Studierenden die eigentliche Arbeit abzun
 
 &lt;p&gt;Es wird empfohlen die Dokumentation von Anfang an begleitend zur Arbeit zu erstellen und sich an einem Dokumentations-Template - wie bspw. &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;diesem&lt;/a&gt; - zu orientieren.&lt;/p&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><summary type="html">Für Studierende im letzten Semester eines Bachelorstudiengangs, stellt das Verfassen einer Bachelorarbeit DIE wesentliche Prüfungsleistung dar. Die Auseinandersetzung mit komplexen Problemstellungen stellt erfahrungsgemäß für viele Studierende eine große Herausforderung dar, welche sich aus dem erstmaligen Zusammenspiel von selbstständigem und eigenverantwortlichem Arbeiten sowie Problemlösen mittels erworbener Fach- und Methodenkenntnisse über einen längeren (in etwa dreimonatigen) Zeitraum ergibt.</summary></entry><entry><title type="html">Web Technologies (Summer 2018)</title><link href="http://www.nkode.io/lecture/2018/03/14/webtech.html" rel="alternate" type="text/html" title="Web Technologies (Summer 2018)" /><published>2018-03-14T00:00:00+01:00</published><updated>2018-03-14T00:00:00+01:00</updated><id>http://www.nkode.io/lecture/2018/03/14/webtech</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/03/14/webtech.html">&lt;p&gt;This project is about common technologies used to build (part) of web information systems.
 The project course is given for students
-at Lübeck University of Applied Sciences (in german language).
+at the Lübeck University of Applied Sciences (in german language).
 The course covers following aspects:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -110,8 +110,6 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
 
 &lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
 
-&lt;p&gt;I am currently working on updates on the following course material. Stay tuned for updates.&lt;/p&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/assets/ss2018/webtech/unit-01.pdf&quot;&gt;Unit 01:&lt;/a&gt; HTML + DOM-Tree + CSS&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/assets/ss2018/webtech/unit-02.pdf&quot;&gt;Unit 02:&lt;/a&gt; Dart I (Dart as full purpose programming language)&lt;/li&gt;
@@ -124,7 +122,8 @@ online game like &lt;em&gt;Tetris&lt;/em&gt; or &lt;em&gt;Boulder Dash&lt;/em&gt
 
 &lt;h2 id=&quot;game-outcomes&quot;&gt;Game outcomes&lt;/h2&gt;
 
-&lt;p&gt;So far you can have a look on the &lt;a href=&quot;/assets/webtech-hall-of-fame&quot;&gt;hall-of-fame&lt;/a&gt; of former semesters. Stay tuned for resulting game updates. The following Teams have formed up to release plenty of interesting mobile game concepts.&lt;/p&gt;
+&lt;p&gt;The following teams formed up released the following interesting mobile game implementations.
+To have a look on the &lt;a href=&quot;/assets/webtech-hall-of-fame&quot;&gt;hall-of-fame&lt;/a&gt; of former semesters might be interesting as well.&lt;/p&gt;
 
 &lt;h3 id=&quot;group-1&quot;&gt;Group 1&lt;/h3&gt;
 

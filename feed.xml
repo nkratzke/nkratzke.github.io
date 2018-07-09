@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-07-03T13:12:47+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms</title><link href="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html" rel="alternate" type="text/html" title="Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms" /><published>2018-06-28T00:00:00+02:00</published><updated>2018-06-28T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html">&lt;p&gt;Cloud-native applications are intentionally designed for the cloud in order to leverage
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-07-09T11:59:41+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms</title><link href="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html" rel="alternate" type="text/html" title="Developing a Graphical User Interface for Describing Cloud-native Applications for Elastic Container Platforms" /><published>2018-06-28T00:00:00+02:00</published><updated>2018-06-28T00:00:00+02:00</updated><id>http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/06/28/thesis-ucaml-gui.html">&lt;p&gt;Cloud-native applications are intentionally designed for the cloud in order to leverage
 cloud platform features like korizontal scaling and elasicity - benefits coming along
 with cloud platforms. In addition to classical (and very often static) multi-tier deployment
 scenarios, cloud-native applications are typically operated on much more complex but elastic
@@ -135,19 +135,19 @@ To have a look on the &lt;a href=&quot;/assets/webtech-hall-of-fame&quot;&gt;hal
   &lt;li&gt;Team 1.E: &lt;a href=&quot;/assets/ss2018/webtech/games/team-1e/index.html&quot;&gt;Mexican Jones&lt;/a&gt; &lt;em&gt;[sadly keyboard control on desktop browsers seems buggy]&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Team 1.F: &lt;a href=&quot;/assets/ss2018/webtech/games/team-1f/index.html&quot;&gt;Brick Out&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;Team 1.G: Swipe and Move (surrendered)&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;Team 1.H: &lt;a href=&quot;/assets/ss2018/webtech/games/team-1h/index.html&quot;&gt;Pingu&lt;/a&gt; (&lt;strong&gt;placed 1st&lt;/strong&gt; in group)&lt;/li&gt;
+  &lt;li&gt;Team 1.H: &lt;a href=&quot;/assets/ss2018/webtech/games/team-1h/index.html&quot;&gt;Pingu&lt;/a&gt; (&lt;strong&gt;placed 1st&lt;/strong&gt; in group, &lt;strong&gt;Final Five&lt;/strong&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;group-2&quot;&gt;Group 2&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Team 2.A: &lt;a href=&quot;/assets/ss2018/webtech/games/team-2a/index.html&quot;&gt;Australia Simulator&lt;/a&gt; (&lt;strong&gt;placed 1st&lt;/strong&gt; in group)&lt;/li&gt;
+  &lt;li&gt;Team 2.A: &lt;a href=&quot;/assets/ss2018/webtech/games/team-2a/index.html&quot;&gt;Australia Simulator&lt;/a&gt; (&lt;strong&gt;placed 1st&lt;/strong&gt; in group, &lt;strong&gt;Final Five&lt;/strong&gt;)&lt;/li&gt;
   &lt;li&gt;Team 2.B: &lt;a href=&quot;/assets/ss2018/webtech/games/team-2b/index.html&quot;&gt;Dart Rogue&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;Team 2.C: Star Droid (surrendered)&lt;/del&gt;&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;Team 2.D: Donkey Jump (surrendered)&lt;/del&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Team 2.E: Path Puzzle (not released for public)&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;Team 2.F: Place a Bomb (surrendered)&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;Team 2.G: &lt;a href=&quot;/assets/ss2018/webtech/games/team-2g/index.html&quot;&gt;Grid Shift&lt;/a&gt; (&lt;strong&gt;placed 2nd&lt;/strong&gt; in group) &lt;em&gt;[sadly keyboard control on desktop browsers seems buggy]&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Team 2.G: &lt;a href=&quot;/assets/ss2018/webtech/games/team-2g/index.html&quot;&gt;Grid Shift&lt;/a&gt; (&lt;strong&gt;placed 2nd&lt;/strong&gt; in group, &lt;strong&gt;Final Five&lt;/strong&gt;) &lt;em&gt;[sadly keyboard control on desktop browsers seems buggy]&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;group-3&quot;&gt;Group 3&lt;/h3&gt;
@@ -157,7 +157,7 @@ To have a look on the &lt;a href=&quot;/assets/webtech-hall-of-fame&quot;&gt;hal
   &lt;li&gt;Team 3.B: &lt;a href=&quot;/assets/ss2018/webtech/games/team-3b/index.html&quot;&gt;Color Jump&lt;/a&gt; (&lt;strong&gt;placed 2nd&lt;/strong&gt; in group)&lt;/li&gt;
   &lt;li&gt;Team 3.C: &lt;a href=&quot;/assets/ss2018/webtech/games/team-3c/index.html&quot;&gt;Warships&lt;/a&gt; &lt;em&gt;[sadly some images not working due to German special character encoding problems like in “flugzeugträger.png”]&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;Team 3.D: Outbreak (surrendered)&lt;/del&gt;&lt;/li&gt;
-  &lt;li&gt;Team 3.E: &lt;a href=&quot;/assets/ss2018/webtech/games/team-3e/index.html&quot;&gt;Battle City&lt;/a&gt; (&lt;strong&gt;placed 1st&lt;/strong&gt; in group)&lt;/li&gt;
+  &lt;li&gt;Team 3.E: &lt;a href=&quot;/assets/ss2018/webtech/games/team-3e/index.html&quot;&gt;Battle City&lt;/a&gt; (&lt;strong&gt;placed 1st&lt;/strong&gt; in group, &lt;strong&gt;Final Five&lt;/strong&gt;)&lt;/li&gt;
   &lt;li&gt;Team 3.F: &lt;a href=&quot;/assets/ss2018/webtech/games/team-3f/index.html&quot;&gt;SmurfsGoneWild&lt;/a&gt; &lt;em&gt;[sadly some images (drag icon) not working due to wrong relative paths]&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Team 3.G: Space Babel (not released for public)&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Team 3.H: &lt;a href=&quot;/assets/ss2018/webtech/games/team-3h/index.html&quot;&gt;Jumpy Run&lt;/a&gt;&lt;/li&gt;
@@ -169,7 +169,7 @@ To have a look on the &lt;a href=&quot;/assets/webtech-hall-of-fame&quot;&gt;hal
   &lt;li&gt;Team 4.A: &lt;a href=&quot;/assets/ss2018/webtech/games/team-4a/index.html&quot;&gt;Stone Royal&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Team 4.B: &lt;a href=&quot;/assets/ss2018/webtech/games/team-4b/html/index.html&quot;&gt;Star Jet Enterprise&lt;/a&gt; &lt;em&gt;[sadly keyboard control on desktop browsers seems buggy]&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Team 4.C: &lt;a href=&quot;/assets/ss2018/webtech/games/team-4c/index.html&quot;&gt;Bombenhagel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Team 4.D: &lt;a href=&quot;/assets/ss2018/webtech/games/team-4d/index.html&quot;&gt;Frank the Fruitman&lt;/a&gt; (&lt;strong&gt;placed 1st (shared)&lt;/strong&gt; in group)&lt;/li&gt;
+  &lt;li&gt;Team 4.D: &lt;a href=&quot;/assets/ss2018/webtech/games/team-4d/index.html&quot;&gt;Frank the Fruitman&lt;/a&gt; (&lt;strong&gt;placed 1st (shared)&lt;/strong&gt; in group, &lt;strong&gt;Final Five&lt;/strong&gt;)&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Team 4.E: Hunt (not released for public)&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Team 4.F: &lt;a href=&quot;/assets/ss2018/webtech/games/team-4f/index.html&quot;&gt;Open Flood&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Team 4.G: &lt;a href=&quot;/assets/ss2018/webtech/games/team-4g/index.html&quot;&gt;Break Out&lt;/a&gt; (&lt;strong&gt;placed 1st (shared)&lt;/strong&gt; in group)&lt;/li&gt;

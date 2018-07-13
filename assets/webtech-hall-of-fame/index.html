@@ -22,14 +22,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<style>
 			
-			@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic|Roboto|Open+Sans);
-			
+			@import url('https://fonts.googleapis.com/css?family=Nunito|Orbitron|Rajdhani');
+
 			body {
 				background: url('background.jpg') no-repeat center center fixed !important;
 				background-size: cover !important;
 				color: rgba(255, 255, 255, 0.75);
 				font-size: 20px;
-				font-family: 'Gentium Book Basic';
+				font-family: 'Orbitron', sans-serif;;
 				font-weight: 100;
 			}
 			
@@ -42,7 +42,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			
 			#kopf h1 { 
 				font-weight: 800; 
-				font-size: 64px; 
+				font-size: 4em; 
 				text-transform: uppercase; 
 				padding-top: 0.5em;
 				padding-bottom: 0.5em;
@@ -50,7 +50,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 				border-bottom: 2px solid rgba(255, 255, 255, 0.75);
 			}
 			
-			#kopf h2 { font-weight: 400; font-size: 34px; text-transform: uppercase; }
+			#kopf h2 { font-weight: 400; font-size: 1.2em; color: rgba(255,255,255, 0.95); margin-bottom: 2em;}
 			
 			#kopf {
 				margin: 2em !important;
@@ -60,14 +60,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			
 			#fuss {
 				margin-top: 200px;
-				background: rgba(0, 0, 0, 0.5);
-				font-family: 'Open Sans';
+				background: rgba(0, 0, 0, 0.75);
+				font-family: 'Nunito', sans-serif;;
 				padding: 2em;
-				font-size: 0.8em;
-			}
-			
-			#fuss h3 {
-				font-family: 'Gentium Book Basic';
+				font-size: 0.9em;
 			}
 			
 			#fuss ol {
@@ -100,15 +96,15 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 				text-align: center;
 				margin: 20px;
 				padding: 1em;
-				font-family: 'Roboto';
-				background-color: rgba(0, 0, 0, 0.25);
-				border-radius: 2px;
+				font-family: 'Nunito', sans-serif;;
+				background-color: rgba(0, 0, 0, 0.5);
+				border-radius: 1em;
 			}
 			
 			.first a, .second a, .third a {
 				color: rgba(255, 255, 255, 0.75);
 				font-weight: 800;
-				font-family: 'Gentium Book Basic';
+				font-family: 'Nunito', sans-serif;
 				font-size: 2em;
 				text-transform: uppercase;
 				line-height: 90%;
@@ -116,7 +112,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 			.first .percent, .second .percent, .third .percent {
 				font-size: 48px;
-				font-family: 'Gentium Book Basic';
+				font-family: 'Orbitron', sans-serif;;
 				font-weight: 800;
 				border-radius: 50%;
 				padding: 5px;
@@ -125,8 +121,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 				margin-right: auto;
 				width: 2.5em;
 				height: 2.5em;
-				border: 5px solid rgba(255, 255, 255, 0.75);
-				background: rgba(0, 0, 0, 0.25);
+				/*border: 5px solid rgba(255, 255, 255, 0.75);
+				background: rgba(0, 0, 0, 0.25);*/
 				margin-bottom: 0.5em;
 			}
 			
@@ -159,13 +155,41 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		<div class='container'>
 
 			<div class="year">
-				Summer Semester 2018<br><small>(Voting in progress, stay tuned)</small>
-				<br>
-				<br><a href="https://www.nkode.io/lecture/2018/03/14/webtech.html">Considered game submissions</a>
-				<br>
-				<br>
+				Summer Semester 2018<br>(Smartphone Edition)
 			</div>
-
+			<div class='row'>
+				<div class='col-md-4'>					
+					<div class='first'>
+						<div class='percent'>66%</div>
+						<a href="/assets/ss2018/webtech/games/team-2a/index.html">#1<br>Australia<br>Simulator</a>
+						<ul class='authors'>
+							<li>Thomas Urner</li>
+							<li>Niklas Kühtmann</li>
+						</ul>
+					</div>
+				</div>
+				<div class='col-md-4'>
+					<div class='second'>
+						<div class='percent'>21%</div>
+						<a href="/assets/ss2018/webtech/games/team-1h/index.html">#2<br>Happy<br>Pingu</a>
+						<ul class='authors'>
+							<li>Johannes Gille</li>
+							<li>Dustin Donges</li>
+						</ul>
+					</div>
+				</div>
+				<div class='col-md-4'>
+					<div class='third'>
+						<div class='percent'>6%</div>
+						<a href="/assets/ss2018/webtech/games/team-2g/index.html">#3<br>GridShift<br>&nbsp;</a>
+						<ul class='authors'>
+							<li>Jan Marco Bruhns</li>
+							<li>Robert Vagt</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		
 			<div class="year">
 				Summer Semester 2017<br>(Mobile Edition)
 			</div>
@@ -215,7 +239,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 				<div class='col-md-4'>					
 					<div class='first'>
 						<div class='percent'>37%</div>
-						<a href="/assets/ss2016/webtech/games/09-pacman/web/index.html">#1<br>Namcap<br>(aka Pacman)</a>
+						<a href="/assets/ss2016/webtech/games/09-pacman/web/index.html">#1<br>Namcap<br>(Pacman)</a>
 						<ul class='authors'>
 							<li>Sheraz Azad</li>
 							<li>Malte Grebe</li>
@@ -260,7 +284,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 				<div class='col-md-4'>					
 					<div class='first'>
 						<div class='percent'>41%</div>
-						<a href="/assets/ss2015/webtech/games/tetris/index.html">#1<br>Tetris</a>
+						<a href="/assets/ss2015/webtech/games/tetris/index.html">#1<br>Tetris<br>&nbsp;</a>
 						<ul class='authors'>
 							<li>Antonia Berg</li>
 							<li>Berengar Doege</li>
@@ -282,7 +306,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 				<div class='col-md-4'>
 					<div class='third'>
 						<div class='percent'>14%</div>
-						<a href="/assets/ss2015/webtech/games/unblockit/index.html">#3<br>UnBlock It</a>
+						<a href="/assets/ss2015/webtech/games/unblockit/index.html">#3<br>UnBlock It<br>&nbsp;</a>
 						<ul class='authors'>
 							<li>Marco Buchholz</li>
 							<li>Timo Hamann</li>

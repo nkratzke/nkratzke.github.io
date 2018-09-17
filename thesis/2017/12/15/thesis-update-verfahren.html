@@ -180,7 +180,7 @@ und evaluiert werden, die sich auf die folgenden Bereiche beziehen:</p>
 					$("a[href$='.pdf']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 
@@ -188,7 +188,7 @@ und evaluiert werden, die sich auf die folgenden Bereiche beziehen:</p>
 					$("a[href$='.zip']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 			</script>

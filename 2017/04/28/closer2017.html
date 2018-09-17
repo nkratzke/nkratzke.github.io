@@ -165,7 +165,7 @@ Informations how to cite the paper can be found <a href="/bibliography/Kra2017a.
 					$("a[href$='.pdf']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 
@@ -173,7 +173,7 @@ Informations how to cite the paper can be found <a href="/bibliography/Kra2017a.
 					$("a[href$='.zip']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 			</script>

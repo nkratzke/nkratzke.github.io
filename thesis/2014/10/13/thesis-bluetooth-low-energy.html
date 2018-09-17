@@ -200,7 +200,7 @@ für den Einsatz als Central und als Peripheral Modul.</p>
 					$("a[href$='.pdf']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 
@@ -208,7 +208,7 @@ für den Einsatz als Central und als Peripheral Modul.</p>
 					$("a[href$='.zip']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 			</script>

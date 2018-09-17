@@ -307,7 +307,7 @@ CMD <span class="o">[</span><span class="s2">"chartserver.dart"</span><span clas
 					$("a[href$='.pdf']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 
@@ -315,7 +315,7 @@ CMD <span class="o">[</span><span class="s2">"chartserver.dart"</span><span clas
 					$("a[href$='.zip']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 			</script>

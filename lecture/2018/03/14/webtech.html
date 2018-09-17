@@ -218,7 +218,7 @@ To have a look on the <a href="/assets/webtech-hall-of-fame">hall-of-fame</a> of
 					$("a[href$='.pdf']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 
@@ -226,7 +226,7 @@ To have a look on the <a href="/assets/webtech-hall-of-fame">hall-of-fame</a> of
 					$("a[href$='.zip']").each(function () {
 						var url = $(this).attr("href").toLowerCase();
 						if (url.startsWith("http://") || url.startsWith("https://")) return;
-						$(this).attr("href", base + url);
+						$(this).attr("href", base + $(this).attr("href"));
 					});
 				});
 			</script>

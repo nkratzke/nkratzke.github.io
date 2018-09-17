@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-09-17T14:16:58+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">And the winner is … Australia Simulator</title><link href="http://www.nkode.io/2018/07/13/And-the-winner-is.html" rel="alternate" type="text/html" title="And the winner is ... Australia Simulator" /><published>2018-07-13T00:00:00+02:00</published><updated>2018-07-13T00:00:00+02:00</updated><id>http://www.nkode.io/2018/07/13/And-the-winner-is</id><content type="html" xml:base="http://www.nkode.io/2018/07/13/And-the-winner-is.html">&lt;p&gt;One more time we had some fun this summer semester &lt;a href=&quot;/lecture/2018/03/14/webtech.html&quot;&gt;webtechnology course&lt;/a&gt;. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-09-17T14:29:18+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Programming I (Winter 2018)</title><link href="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2018)" /><published>2018-09-17T00:00:00+02:00</published><updated>2018-09-17T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2018/09/17/lecture-programming-i</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming for first-year students and covers fundamental concepts of programming.
+JAVA is used as a teaching language. Nevertheless, the principles apply to every (imperative or class-based object-oriented) programming language.
+The course is given for &lt;em&gt;Computer Science&lt;/em&gt; students at the Lübeck University of Applied Sciences, and covers the following aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fundamental concepts&lt;/strong&gt; of programming including &lt;strong&gt;programming paradigms&lt;/strong&gt; and &lt;strong&gt;runtime models&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;, &lt;strong&gt;data types&lt;/strong&gt;, &lt;strong&gt;operators&lt;/strong&gt; and &lt;strong&gt;expressions&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Control flow&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt; (functions, procedures, methods)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reference data types&lt;/strong&gt; and &lt;strong&gt;collections&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;(Stream based) &lt;strong&gt;I/O programming&lt;/strong&gt; and &lt;strong&gt;serialization&lt;/strong&gt; of objects&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recursive programming&lt;/strong&gt; and &lt;strong&gt;recursive datastructures&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Functional programming&lt;/strong&gt; using &lt;strong&gt;lambda functions&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Exception handling&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Introduction to &lt;strong&gt;object oriented programming&lt;/strong&gt; and &lt;strong&gt;UML&lt;/strong&gt; introducing fundamental concepts like &lt;strong&gt;abstraction&lt;/strong&gt;, &lt;strong&gt;encapsulation&lt;/strong&gt;, and &lt;strong&gt;polymorphism&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lecture Unit 1: &lt;a href=&quot;/assets/ws2018/progI/Unit_01.pdf&quot;&gt;Core concepts of programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 2: &lt;a href=&quot;/assets/ws2018/progI/Unit_02.pdf&quot;&gt;Fundamentals of imperative programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 3: &lt;a href=&quot;/assets/ws2018/progI/Unit_03.pdf&quot;&gt;Reference data types and collections&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2018/progI/Unit_04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2018/progI/Unit_05.pdf&quot;&gt;Recursive and functional programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 6: &lt;a href=&quot;/assets/ws2018/progI/Unit_06.pdf&quot;&gt;OO and UML&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2017/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">And the winner is … Australia Simulator</title><link href="http://www.nkode.io/2018/07/13/And-the-winner-is.html" rel="alternate" type="text/html" title="And the winner is ... Australia Simulator" /><published>2018-07-13T00:00:00+02:00</published><updated>2018-07-13T00:00:00+02:00</updated><id>http://www.nkode.io/2018/07/13/And-the-winner-is</id><content type="html" xml:base="http://www.nkode.io/2018/07/13/And-the-winner-is.html">&lt;p&gt;One more time we had some fun this summer semester &lt;a href=&quot;/lecture/2018/03/14/webtech.html&quot;&gt;webtechnology course&lt;/a&gt;. 
 My students implemented several games as &lt;a href=&quot;https://www.dartlang.org/&quot;&gt;Dart&lt;/a&gt; single page DOM-tree based HTML ‘apps’.&lt;/p&gt;
 
 &lt;p&gt;These three games (of 27 game submissions) entered the &lt;a href=&quot;/assets/webtech-hall-of-fame/index.html&quot;&gt;Webtech Hall of Fame&lt;/a&gt;.&lt;/p&gt;
@@ -332,53 +358,4 @@ bereitgestellt werden.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Die Funktionsfähigkeit der Lösung soll mittels Softwaretests geeignet nachgewiesen werden.&lt;/li&gt;
   &lt;li&gt;Die Nutzbarkeit soll systematisch evaluiert werden. Hierbei ist das Support Team und Kunde geeignet einzubeziehen.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="process" /><summary type="html">In dieser Bachelorarbeit sollen bislang nicht digitalisierte Geschäftsprozesse (Supportanfrage, Ersatzteilbestellung und Materialrücklieferung) analysiert und digitalisiert werden. Dabei sind die vorhandene Prozessdokumentation und das vorhandene Firmen Customer Relationship Managment (CRM) System zu berücksichtigen. Die Lösung ist zusammen mit dem Geschäftsprozess-Owner (Support Team) und den Prozess nutzenden Kunden (Geschäftspartnern) zu evaluieren. Der Schwerpunkt der Digitalisierung soll im Bereich Kundenanfrage bis zum fertigen Vorgangs-Datensatz für das CRM System liegen. Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:</summary></entry><entry><title type="html">Conference Talks, Barcelona 2018</title><link href="http://www.nkode.io/2018/01/18/barcelona-talks.html" rel="alternate" type="text/html" title="Conference Talks, Barcelona 2018" /><published>2018-01-18T00:00:00+01:00</published><updated>2018-01-18T00:00:00+01:00</updated><id>http://www.nkode.io/2018/01/18/barcelona-talks</id><content type="html" xml:base="http://www.nkode.io/2018/01/18/barcelona-talks.html">&lt;p&gt;I am glad to contribute the following to the &lt;a href=&quot;https://www.iaria.org/conferences2018/CLOUDCOMPUTING18.html&quot;&gt;9th International Conference on Cloud Computing, GRIDs, and Virtualization (CLOUD COMPUTING 2018)&lt;/a&gt; in Barcelona, Spain this February 2018.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Paper presention of “About an Immune System Understanding for Cloud-native Applications”&lt;/li&gt;
-  &lt;li&gt;The contribution of “Bricks and Mortar of Cloud-native Cathedrals” to a panel discussion on “Challenges in Cloud Computing-based Systems”&lt;/li&gt;
-  &lt;li&gt;The contribution of “There is no impenetrable system” to a panel discussion on “Security and Safety in Cloud-based Systems and Services”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;paper-presentation&quot;&gt;Paper Presentation&lt;/h2&gt;
-
-&lt;h3 id=&quot;about-an-immune-system-understanding-for-cloud-native-applications&quot;&gt;About an Immune System Understanding for Cloud-native Applications&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/i21aneka/about-an-immune-system-understanding-for-cloudnative-applications-biology-inspired-thoughts-to-immunize-the-cloud-forensic-trail-86351671&quot;&gt;
-&lt;img src=&quot;/img/posts/CLOUD-COMPUTING-2018.png&quot; width=&quot;45%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
-
-&lt;p&gt;There is no such thing as an impenetrable system, although the penetration of systems does get harder from year to year. The median days that intruders remained undetected on victim systems dropped from 416 days in 2010 down to 99 in 2016. Perhaps because of that, a new trend in security breaches is to compromise the forensic trail to allow the intruder to remain undetected for longer in victim systems and to retain valuable footholds for as long as possible. This paper proposes an immune system inspired solution which uses a more frequent regeneration of cloud application nodes to ensure that undetected compromised nodes can be purged. This makes it much harder for intruders to maintain a presence on victim systems. Basically the biological concept of cell-regeneration is combined with the information systems concept of append-only logs. Evaluation experiments performed on popular cloud service infrastructures (Amazon Web Services, Google Compute Engine, Azure and OpenStack) have shown that between 6 and 40 nodes of elastic container platforms can be regenerated per hour. Even a large cluster of 400 nodes could be regenerated in somewhere between 9 and 66 hours. So, regeneration shows the potential to reduce the foothold of undetected intruders from months to just hours.&lt;/p&gt;
-
-&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.researchgate.net/publication/322577384&quot;&gt;Paper&lt;/a&gt; (ResearchGate)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/bibliography/Kra2018a.html&quot;&gt;Howto cite&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;panel-discussion&quot;&gt;Panel discussion&lt;/h2&gt;
-
-&lt;h3 id=&quot;challenges-in-cloud-computing-based-systems&quot;&gt;Challenges in Cloud Computing-based Systems&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/i21aneka/we-have-the-bricks-to-build-cloudnative-cathedrals-but-do-we-have-the-mortar&quot;&gt;
-&lt;img src=&quot;/img/posts/CLOUD-COMPUTING-PANEL-2018.png&quot; width=&quot;45%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;abstract-1&quot;&gt;Abstract&lt;/h3&gt;
-
-&lt;p&gt;Cloud-native applications (CNA) are build more and more often according to microservice and &lt;a href=&quot;http://isa-principles.org/&quot;&gt;independent system architecture (ISA)&lt;/a&gt; approaches. ISA involves two architecture layers: the macro and the micro architecture layer. Software engineering outcomes on the micro layer are often distributed in a standardized form as self-contained deployment units (so called container images). There exist plenty of programming languages to implement these units: JAVA, C, C++, JavaScript, Python, R, PHP, Ruby, … (this list is almost endless). But on the macro layer, one might mention &lt;a href=&quot;http://docs.oasis-open.org/tosca/TOSCA/v1.0/TOSCA-v1.0.html&quot;&gt;TOSCA&lt;/a&gt; and little more. TOSCA is an OASIS deployment and orchestration standard language to describe a topology of cloud based web services, their components, relationships, and the processes that manage them. This works for static deployments. However, CNA are elastic, self-adaptive - almost the exact opposite of what can be defined efficiently using TOSCA. For these kind of scenarios one might mention &lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt; or &lt;a href=&quot;https://docs.docker.com/engine/swarm/&quot;&gt;Docker Swarm&lt;/a&gt; as container orchestrators which are intentionally build to operate elastic services formed of containers. But these operating platforms do not provide expressive and pragmatic programming languages covering the macro layer of cloud-native applications. So it seems there is a gap and the question arises, whether we need further (and what kind of) macro layer languages for CNA?&lt;/p&gt;
-
-&lt;h2 id=&quot;panel-discussion-1&quot;&gt;Panel discussion&lt;/h2&gt;
-
-&lt;h3 id=&quot;security-and-safety-in-cloud-based-systems-and-services&quot;&gt;Security and Safety in Cloud-based Systems and Services&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/i21aneka/there-is-no-impenetrable-system-so-why-we-are-still-waiting-to-get-breached&quot;&gt;
-&lt;img src=&quot;/img/posts/CLOUD-PANEL-II-2018.png&quot; width=&quot;45%&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;abstract-2&quot;&gt;Abstract&lt;/h3&gt;
-
-&lt;p&gt;Although it might be hard to accept. By principle, attackers can establish footholds in our systems whenever they want (zero-day exploits). Cloud application security engineering efforts focus to harden the “fortress walls”. Therefore, cloud applications rely on these defensive walls but seldom attack intruders actively. There is the somehow the need for a more reactive component. A component that could be inspired by biological systems. Biological systems consider by design that defensive “walls” can be breached at several layers. So, biological systems provide an additional active defense system to attack potential successful intruders - an immune system. Although several experts find this approach “intriguing”, there are follow-up questions arising. What is about exploits that adapt to bio-inspired systems? How to protect the immune system against direct attacks? Are cloud immune systems prone to phenomenons like fever (running hot) or auto-immune diseases (self-attacking)?&lt;/p&gt;</content><author><name>Nane Kratzke</name></author><category term="blog" /><category term="paper" /><category term="cloud" /><category term="research" /><category term="cloudtransit" /><category term="container" /><category term="ecp" /><category term="kubernetes" /><category term="swarm" /><category term="docker" /><summary type="html">I am glad to contribute the following to the 9th International Conference on Cloud Computing, GRIDs, and Virtualization (CLOUD COMPUTING 2018) in Barcelona, Spain this February 2018.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="process" /><summary type="html">In dieser Bachelorarbeit sollen bislang nicht digitalisierte Geschäftsprozesse (Supportanfrage, Ersatzteilbestellung und Materialrücklieferung) analysiert und digitalisiert werden. Dabei sind die vorhandene Prozessdokumentation und das vorhandene Firmen Customer Relationship Managment (CRM) System zu berücksichtigen. Die Lösung ist zusammen mit dem Geschäftsprozess-Owner (Support Team) und den Prozess nutzenden Kunden (Geschäftspartnern) zu evaluieren. Der Schwerpunkt der Digitalisierung soll im Bereich Kundenanfrage bis zum fertigen Vorgangs-Datensatz für das CRM System liegen. Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:</summary></entry></feed>

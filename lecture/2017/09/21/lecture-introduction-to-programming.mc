@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Blog</title>
+		<title>Introduction to Programming (Winter 2017)</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
@@ -66,151 +66,49 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-<h1>Blog</h1>
+<h1>Introduction to Programming (Winter 2017)</h1>
+
+<strong>21 Sep 2017</strong>
 
 
 
-<img src="/img/lecture.jpg" width="100%"/>
+<img src="/img/posts/coding.jpg" width="100%"/>
 
+
+Pixabay, CC0
 
 </header>
 
-<h2>Lectures</h2>
-<p>
-    I provide all of my course material online. 
-    You will find all handouts, exercises and some reference implementations.
-    For some courses you will also find some student project outcomes like online games (Webtechnology courses since summer 2015).
-</p>
+[prog-unit1]: /assets/ws2018/progI/Unit_01.pdf
+[prog-unit2]: /assets/ws2018/progI/Unit_02.pdf
+[prog-unit3]: /assets/ws2018/progI/Unit_03.pdf
+[prog-unit4]: /assets/ws2018/progI/Unit_04.pdf
+[prog-unit5]: /assets/ws2018/progI/Unit_05.pdf
+[prog-excercises]: /assets/ws2017/progI/excercises.pdf
 
-<h3>> 2018</h3>
-<ul>
+This course is about fundamentals of programming for first-year students and covers fundamental concepts of programming.
+JAVA is used as a teaching language. Nevertheless, the principles apply to every (imperative or class-based object-oriented) programming language.
 
-    
-    
-    <li><a href="/lecture/2018/09/17/lecture-programming-i.html">Programming I (Winter 2018)</a>, 17 Sep 2018
+This course is given for _Information Technology and Design_ students at the Lübeck University of Applied Sciences
+and will cover following aspects:
 
-    
-    
-    <li><a href="/lecture/2018/03/14/webtech.html">Web Technologies (Summer 2018)</a>, 14 Mar 2018
+- __Fundamental concepts__ of programming including __programming paradigms__ and __runtime models__
+- __Variables__, __data types__, __operators__ and __expressions__
+- __Control flow__ and __routines__ (functions, procedures, methods)
+- __Reference data types__ and __collections__
+- (Stream based) __I/O programming__ and __serialization__ of objects
+- __Recursive programming__ and __datastructures__
 
-    
-    
-    <li><a href="/lecture/2018/03/14/lecture-programming-ii.html">Programming II (Summer 2018)</a>, 14 Mar 2018
 
-    
-    
-        </ul>
-        
-        <h3>> 2017</h3>
-        <ul>
-    
-    <li><a href="/lecture/2017/09/21/lecture-introduction-to-programming.mc">Introduction to Programming (Winter 2017)</a>, 21 Sep 2017
+## Course Material (german only) ##
 
-    
-    
-    <li><a href="/lecture/2017/09/21/lecture-programming-i.html">Programming I (Winter 2017)</a>, 21 Sep 2017
+- Lecture Unit 1: [Core concepts of programming][prog-unit1]
+- Lecture Unit 2: [Fundamentals of imperative programming][prog-unit2]
+- Lecture Unit 3: [Reference data types and collections][prog-unit3]
+- Lecture Unit 4: [I/O programming, serialization][prog-unit4] (skipped, just for self study)
+- Lecture Unit 5: [Recursive programming][prog-unit5] (functional programming skipped, just for self study)
+- Exercises: [Catalogue of excercises][prog-excercises]
 
-    
-    
-    <li><a href="/lecture/2017/09/21/introduction-to-prgramming.html">Introduction to Programming (Winter 2017)</a>, 21 Sep 2017
-
-    
-    
-    <li><a href="/lecture/2017/06/15/lecture-webtech.html">Web Technologies (Summer 2017)</a>, 15 Jun 2017
-
-    
-    
-    <li><a href="/lecture/2017/04/11/programming-ii.html">Programming II (Summer 2017)</a>, 11 Apr 2017
-
-    
-    
-    <li><a href="/lecture/2017/04/11/advanced-programming.html">Advanced Programming (Summer 2017)</a>, 11 Apr 2017
-
-    
-    
-        </ul>
-        
-        <h3>> 2016</h3>
-        <ul>
-    
-    <li><a href="/lecture/2016/10/10/lecture-programming-i.html">Programming I (Winter 2016)</a>, 10 Oct 2016
-
-    
-    
-    <li><a href="/lecture/2016/10/10/lecture-fundamentals-of-programming.html">Fundamentals of Programming (Winter 2016)</a>, 10 Oct 2016
-
-    
-    
-    <li><a href="/lecture/2016/04/11/lecture-webtech.html">Web Technologies (Summer 2016)</a>, 11 Apr 2016
-
-    
-    
-    <li><a href="/lecture/2016/04/11/lecture-programming-ii.html">Programming II (Summer 2016)</a>, 11 Apr 2016
-
-    
-    
-    <li><a href="/lecture/2016/04/11/lecture-advanced-programming.html">Advanced Programming (Summer 2016)</a>, 11 Apr 2016
-
-    
-    
-        </ul>
-        
-        <h3>> 2015</h3>
-        <ul>
-    
-    <li><a href="/lecture/2015/09/16/lecture-programming-i.html">Programming I (Winter 2015)</a>, 16 Sep 2015
-
-    
-    
-    <li><a href="/lecture/2015/09/16/lecture-fundamentals-of-programming.html">Fundamentals of Programming (Winter 2015)</a>, 16 Sep 2015
-
-    
-    
-    <li><a href="/lecture/2015/03/01/lecture-webtech.html">Web Technologies (Summer 2015)</a>, 01 Mar 2015
-
-    
-    
-    <li><a href="/lecture/2015/03/01/lecture-programming-ii.html">Programming II (Summer 2015)</a>, 01 Mar 2015
-
-    
-    
-    <li><a href="/lecture/2015/03/01/lecture-advanced-programming.html">Advanced Programming (Summer 2015)</a>, 01 Mar 2015
-
-    
-    
-        </ul>
-        
-        <h3>> 2014</h3>
-        <ul>
-    
-    <li><a href="/lecture/2014/09/01/lecture-programming-i.html">Programming I (Winter 2014)</a>, 01 Sep 2014
-
-    
-    
-    <li><a href="/lecture/2014/09/01/lecture-fundamentals-of-programming.html">Fundamentals of Programming (Winter 2014)</a>, 01 Sep 2014
-
-    
-    
-    <li><a href="/lecture/2014/09/01/lecture-db-web-programming.html">Database and Web Programming (Winter 2014)</a>, 01 Sep 2014
-
-    
-    
-    <li><a href="/lecture/2014/07/13/lecture-programming-ii.html">Programming II (Summer 2014)</a>, 13 Jul 2014
-
-    
-    
-    <li><a href="/lecture/2014/03/01/lecture-webtech.html">Web Technologies (Summer 2014)</a>, 01 Mar 2014
-
-    
-    
-        </ul>
-        
-        <h3>> 2012</h3>
-        <ul>
-    
-    <li><a href="/lecture/2012/09/01/lecture-db-web-programming.html">Database-based Web Server Programming (Winter 2012)</a>, 01 Sep 2012
-
-</ul>
 						</div>
 					</div>
 

@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-09-17T14:29:18+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Programming I (Winter 2018)</title><link href="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2018)" /><published>2018-09-17T00:00:00+02:00</published><updated>2018-09-17T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2018/09/17/lecture-programming-i</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming for first-year students and covers fundamental concepts of programming.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-09-17T14:35:44+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Introduction to Programming (Winter 2018)</title><link href="http://www.nkode.io/lecture/2018/09/17/lecture-introduction-to-programming.mc" rel="alternate" type="text/html" title="Introduction to Programming (Winter 2018)" /><published>2018-09-17T00:00:00+02:00</published><updated>2018-09-17T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2018/09/17/lecture-introduction-to-programming</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/09/17/lecture-introduction-to-programming.mc">[prog-unit1]: /assets/ws2018/progI/Unit_01.pdf
+[prog-unit2]: /assets/ws2018/progI/Unit_02.pdf
+[prog-unit3]: /assets/ws2018/progI/Unit_03.pdf
+[prog-unit4]: /assets/ws2018/progI/Unit_04.pdf
+[prog-unit5]: /assets/ws2018/progI/Unit_05.pdf
+[prog-excercises]: /assets/ws2017/progI/excercises.pdf
+
+This course is about fundamentals of programming for first-year students and covers fundamental concepts of programming.
+JAVA is used as a teaching language. Nevertheless, the principles apply to every (imperative or class-based object-oriented) programming language.
+
+This course is given for _Information Technology and Design_ students at the Lübeck University of Applied Sciences
+and will cover following aspects:
+
+- __Fundamental concepts__ of programming including __programming paradigms__ and __runtime models__
+- __Variables__, __data types__, __operators__ and __expressions__
+- __Control flow__ and __routines__ (functions, procedures, methods)
+- __Reference data types__ and __collections__
+- (Stream based) __I/O programming__ and __serialization__ of objects
+- __Recursive programming__ and __datastructures__
+
+
+## Course Material (german only) ##
+
+- Lecture Unit 1: [Core concepts of programming][prog-unit1]
+- Lecture Unit 2: [Fundamentals of imperative programming][prog-unit2]
+- Lecture Unit 3: [Reference data types and collections][prog-unit3]
+- Lecture Unit 4: [I/O programming, serialization][prog-unit4] (skipped, just for self study)
+- Lecture Unit 5: [Recursive programming][prog-unit5] (functional programming skipped, just for self study)
+- Exercises: [Catalogue of excercises][prog-excercises]</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html">[prog-unit1]: /assets/ws2018/progI/Unit_01.pdf [prog-unit2]: /assets/ws2018/progI/Unit_02.pdf [prog-unit3]: /assets/ws2018/progI/Unit_03.pdf [prog-unit4]: /assets/ws2018/progI/Unit_04.pdf [prog-unit5]: /assets/ws2018/progI/Unit_05.pdf [prog-excercises]: /assets/ws2017/progI/excercises.pdf</summary></entry><entry><title type="html">Programming I (Winter 2018)</title><link href="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2018)" /><published>2018-09-17T00:00:00+02:00</published><updated>2018-09-17T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2018/09/17/lecture-programming-i</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming for first-year students and covers fundamental concepts of programming.
 JAVA is used as a teaching language. Nevertheless, the principles apply to every (imperative or class-based object-oriented) programming language.
 The course is given for &lt;em&gt;Computer Science&lt;/em&gt; students at the Lübeck University of Applied Sciences, and covers the following aspects:&lt;/p&gt;
 
@@ -334,28 +362,4 @@ bereitgestellt werden.&lt;/p&gt;
   &lt;li&gt;Dokumentation der oben angegeben Schritte (Master-Arbeit) inkl. Bewertung der Nutzbarkeit und technischen Eignung für oben angegebenen Einsatzzweck.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Es wird empfohlen die Dokumentation von Anfang an begleitend zur Arbeit zu erstellen und sich an einem Dokumentations-Template - wie bspw. &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;diesem&lt;/a&gt; - zu orientieren.&lt;/p&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="process" /><summary type="html">Gegenstand dieser Masterarbeit ist ein Browser-basiertes Code-Review Tool, dass es ermöglicht Unterstützung von einem entfernten Teammitglied anzufordern, insbesondere um einen fachlichen Austausch zu Quellcode zu ermöglichen. Zur Vermeidung eines aufwändigen Backend-Server-Systems soll die Kommunikation zwischen den Browsern mittels einer Peer-to-Peer-basierten WebRTC-Verbindung erfolgen.</summary></entry><entry><title type="html">Digitalisierung von Geschäftsprozessen zur Ersatzteilbestellung und Materialrückgabe</title><link href="http://www.nkode.io/thesis/2018/01/25/thesis-rma-process.html" rel="alternate" type="text/html" title="Digitalisierung von Geschäftsprozessen zur Ersatzteilbestellung und Materialrückgabe" /><published>2018-01-25T00:00:00+01:00</published><updated>2018-01-25T00:00:00+01:00</updated><id>http://www.nkode.io/thesis/2018/01/25/thesis-rma-process</id><content type="html" xml:base="http://www.nkode.io/thesis/2018/01/25/thesis-rma-process.html">&lt;p&gt;In dieser Bachelorarbeit sollen bislang nicht digitalisierte Geschäftsprozesse (Supportanfrage, Ersatzteilbestellung und Materialrücklieferung) analysiert und digitalisiert werden. Dabei sind die vorhandene Prozessdokumentation und das vorhandene Firmen Customer Relationship Managment (CRM) System zu berücksichtigen. Die Lösung ist zusammen mit dem Geschäftsprozess-Owner (Support Team) und den Prozess nutzenden Kunden (Geschäftspartnern) zu evaluieren. Der Schwerpunkt der Digitalisierung soll im Bereich Kundenanfrage bis zum fertigen Vorgangs-Datensatz für das CRM System liegen. Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:&lt;/p&gt;
-
-&lt;h2 id=&quot;teilaufgaben&quot;&gt;Teilaufgaben&lt;/h2&gt;
-
-&lt;p&gt;Die &lt;strong&gt;Dokumentation&lt;/strong&gt; folgender Aufgaben erfolgt im Rahmen der schriftlichen Ausarbeitung der Bachelorarbeit. Es wird empfohlen sich dabei an folgendes &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;Template&lt;/a&gt; zu halten.&lt;/p&gt;
-
-&lt;h3 id=&quot;analyse-des-istzustands&quot;&gt;Analyse des Istzustands&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Analyse des vorhandenen Prozesses&lt;/li&gt;
-  &lt;li&gt;Entwickeln und bewerten möglicher Lösungsmöglichkeiten&lt;/li&gt;
-  &lt;li&gt;Selektion einer favorisierten Lösungsmöglichkeit gemeinsam mit dem RMA Team&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;prototypische-realisierung-und-integration&quot;&gt;Prototypische Realisierung und Integration&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Anforderungen erheben (gemeinsam mit dem Support Team)&lt;/li&gt;
-  &lt;li&gt;Architektur für eine Integration in das bestehende Support entwickeln&lt;/li&gt;
-  &lt;li&gt;Protoypische Implementierung der Geschäftsprozesse&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;funktionsnachweis-und-evaluierung&quot;&gt;Funktionsnachweis und Evaluierung&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Die Funktionsfähigkeit der Lösung soll mittels Softwaretests geeignet nachgewiesen werden.&lt;/li&gt;
-  &lt;li&gt;Die Nutzbarkeit soll systematisch evaluiert werden. Hierbei ist das Support Team und Kunde geeignet einzubeziehen.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="process" /><summary type="html">In dieser Bachelorarbeit sollen bislang nicht digitalisierte Geschäftsprozesse (Supportanfrage, Ersatzteilbestellung und Materialrücklieferung) analysiert und digitalisiert werden. Dabei sind die vorhandene Prozessdokumentation und das vorhandene Firmen Customer Relationship Managment (CRM) System zu berücksichtigen. Die Lösung ist zusammen mit dem Geschäftsprozess-Owner (Support Team) und den Prozess nutzenden Kunden (Geschäftspartnern) zu evaluieren. Der Schwerpunkt der Digitalisierung soll im Bereich Kundenanfrage bis zum fertigen Vorgangs-Datensatz für das CRM System liegen. Im Detail müssen folgende Teilaufgaben bearbeitet und dokumentiert (Bachelorarbeit) werden:</summary></entry></feed>
+&lt;p&gt;Es wird empfohlen die Dokumentation von Anfang an begleitend zur Arbeit zu erstellen und sich an einem Dokumentations-Template - wie bspw. &lt;a href=&quot;https://github.com/nkratzke/BAMA-Template&quot;&gt;diesem&lt;/a&gt; - zu orientieren.&lt;/p&gt;</content><author><name>Nane Kratzke</name></author><category term="thesis" /><category term="process" /><summary type="html">Gegenstand dieser Masterarbeit ist ein Browser-basiertes Code-Review Tool, dass es ermöglicht Unterstützung von einem entfernten Teammitglied anzufordern, insbesondere um einen fachlichen Austausch zu Quellcode zu ermöglichen. Zur Vermeidung eines aufwändigen Backend-Server-Systems soll die Kommunikation zwischen den Browsern mittels einer Peer-to-Peer-basierten WebRTC-Verbindung erfolgen.</summary></entry></feed>

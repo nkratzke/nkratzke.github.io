@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Introduction to Programming (Winter 2017)</title>
+		<title>Introduction to Programming (Winter 2018)</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
@@ -66,9 +66,9 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-<h1>Introduction to Programming (Winter 2017)</h1>
+<h1>Introduction to Programming (Winter 2018)</h1>
 
-<strong>21 Sep 2017</strong>
+<strong>17 Sep 2018</strong>
 
 
 

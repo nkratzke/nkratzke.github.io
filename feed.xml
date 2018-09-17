@@ -1,32 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-09-17T14:35:44+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Introduction to Programming (Winter 2018)</title><link href="http://www.nkode.io/lecture/2018/09/17/lecture-introduction-to-programming.mc" rel="alternate" type="text/html" title="Introduction to Programming (Winter 2018)" /><published>2018-09-17T00:00:00+02:00</published><updated>2018-09-17T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2018/09/17/lecture-introduction-to-programming</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/09/17/lecture-introduction-to-programming.mc">[prog-unit1]: /assets/ws2018/progI/Unit_01.pdf
-[prog-unit2]: /assets/ws2018/progI/Unit_02.pdf
-[prog-unit3]: /assets/ws2018/progI/Unit_03.pdf
-[prog-unit4]: /assets/ws2018/progI/Unit_04.pdf
-[prog-unit5]: /assets/ws2018/progI/Unit_05.pdf
-[prog-excercises]: /assets/ws2017/progI/excercises.pdf
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://www.nkode.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.nkode.io/" rel="alternate" type="text/html" /><updated>2018-09-17T14:45:34+02:00</updated><id>http://www.nkode.io/</id><title type="html">nkode.io</title><subtitle>A blog about programming, data, cloud computing, and web scale systems</subtitle><entry><title type="html">Introduction to Programming (Winter 2018)</title><link href="http://www.nkode.io/lecture/2018/09/17/lecture-introduction-to-programming.html" rel="alternate" type="text/html" title="Introduction to Programming (Winter 2018)" /><published>2018-09-17T00:00:00+02:00</published><updated>2018-09-17T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2018/09/17/lecture-introduction-to-programming</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/09/17/lecture-introduction-to-programming.html">&lt;p&gt;This course is about fundamentals of programming for first-year students and covers fundamental concepts of programming.
+JAVA is used as a teaching language. Nevertheless, the principles apply to every (imperative or class-based object-oriented) programming language.&lt;/p&gt;
 
-This course is about fundamentals of programming for first-year students and covers fundamental concepts of programming.
-JAVA is used as a teaching language. Nevertheless, the principles apply to every (imperative or class-based object-oriented) programming language.
+&lt;p&gt;This course is given for &lt;em&gt;Information Technology and Design&lt;/em&gt; students at the Lübeck University of Applied Sciences
+and will cover following aspects:&lt;/p&gt;
 
-This course is given for _Information Technology and Design_ students at the Lübeck University of Applied Sciences
-and will cover following aspects:
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fundamental concepts&lt;/strong&gt; of programming including &lt;strong&gt;programming paradigms&lt;/strong&gt; and &lt;strong&gt;runtime models&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;, &lt;strong&gt;data types&lt;/strong&gt;, &lt;strong&gt;operators&lt;/strong&gt; and &lt;strong&gt;expressions&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Control flow&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt; (functions, procedures, methods)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reference data types&lt;/strong&gt; and &lt;strong&gt;collections&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;(Stream based) &lt;strong&gt;I/O programming&lt;/strong&gt; and &lt;strong&gt;serialization&lt;/strong&gt; of objects&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recursive programming&lt;/strong&gt; and &lt;strong&gt;datastructures&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-- __Fundamental concepts__ of programming including __programming paradigms__ and __runtime models__
-- __Variables__, __data types__, __operators__ and __expressions__
-- __Control flow__ and __routines__ (functions, procedures, methods)
-- __Reference data types__ and __collections__
-- (Stream based) __I/O programming__ and __serialization__ of objects
-- __Recursive programming__ and __datastructures__
+&lt;h2 id=&quot;course-material-german-only&quot;&gt;Course Material (german only)&lt;/h2&gt;
 
-
-## Course Material (german only) ##
-
-- Lecture Unit 1: [Core concepts of programming][prog-unit1]
-- Lecture Unit 2: [Fundamentals of imperative programming][prog-unit2]
-- Lecture Unit 3: [Reference data types and collections][prog-unit3]
-- Lecture Unit 4: [I/O programming, serialization][prog-unit4] (skipped, just for self study)
-- Lecture Unit 5: [Recursive programming][prog-unit5] (functional programming skipped, just for self study)
-- Exercises: [Catalogue of excercises][prog-excercises]</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html">[prog-unit1]: /assets/ws2018/progI/Unit_01.pdf [prog-unit2]: /assets/ws2018/progI/Unit_02.pdf [prog-unit3]: /assets/ws2018/progI/Unit_03.pdf [prog-unit4]: /assets/ws2018/progI/Unit_04.pdf [prog-unit5]: /assets/ws2018/progI/Unit_05.pdf [prog-excercises]: /assets/ws2017/progI/excercises.pdf</summary></entry><entry><title type="html">Programming I (Winter 2018)</title><link href="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2018)" /><published>2018-09-17T00:00:00+02:00</published><updated>2018-09-17T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2018/09/17/lecture-programming-i</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming for first-year students and covers fundamental concepts of programming.
+&lt;ul&gt;
+  &lt;li&gt;Lecture Unit 1: &lt;a href=&quot;/assets/ws2018/progI/Unit_01.pdf&quot;&gt;Core concepts of programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 2: &lt;a href=&quot;/assets/ws2018/progI/Unit_02.pdf&quot;&gt;Fundamentals of imperative programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 3: &lt;a href=&quot;/assets/ws2018/progI/Unit_03.pdf&quot;&gt;Reference data types and collections&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 4: &lt;a href=&quot;/assets/ws2018/progI/Unit_04.pdf&quot;&gt;I/O programming, serialization&lt;/a&gt; (skipped, just for self study)&lt;/li&gt;
+  &lt;li&gt;Lecture Unit 5: &lt;a href=&quot;/assets/ws2018/progI/Unit_05.pdf&quot;&gt;Recursive programming&lt;/a&gt; (functional programming skipped, just for self study)&lt;/li&gt;
+  &lt;li&gt;Exercises: &lt;a href=&quot;/assets/ws2017/progI/excercises.pdf&quot;&gt;Catalogue of excercises&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nane Kratzke</name></author><category term="lecture" /><category term="java" /><category term="programming" /><summary type="html"></summary></entry><entry><title type="html">Programming I (Winter 2018)</title><link href="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html" rel="alternate" type="text/html" title="Programming I (Winter 2018)" /><published>2018-09-17T00:00:00+02:00</published><updated>2018-09-17T00:00:00+02:00</updated><id>http://www.nkode.io/lecture/2018/09/17/lecture-programming-i</id><content type="html" xml:base="http://www.nkode.io/lecture/2018/09/17/lecture-programming-i.html">&lt;p&gt;The course &lt;strong&gt;Programming I&lt;/strong&gt; is about fundamentals of programming for first-year students and covers fundamental concepts of programming.
 JAVA is used as a teaching language. Nevertheless, the principles apply to every (imperative or class-based object-oriented) programming language.
 The course is given for &lt;em&gt;Computer Science&lt;/em&gt; students at the Lübeck University of Applied Sciences, and covers the following aspects:&lt;/p&gt;
 

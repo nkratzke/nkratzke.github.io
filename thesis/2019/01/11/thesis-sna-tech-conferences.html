@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Investigation of Impacts on Network Performance in the Advance of a Microservice Design</title>
+		<title>Social Network Analysis of Twitter Interactions around Technology Conferences</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="google-site-verification" content="D7XyV9pkZo4Wsv7981mVGuGEiSF7WG0Id_J1jGMarcU" />
@@ -66,110 +66,73 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-<h1>Investigation of Impacts on Network Performance in the Advance of a Microservice Design</h1>
+<h1>Social Network Analysis of Twitter Interactions around Technology Conferences</h1>
+
+<strong>11 Jan 2019</strong>
 
 
+
+<img src="/img/posts/network-analysis.jpg" width="100%"/>
 
 
 </header>
 
+<h2>Meta</h2>
+<ul class='thesismeta'>
 
-<p>
-	Download it on <strong><a href='https://www.researchgate.net/publication/311321240'>ResearchGate</a></strong>.
-</p>
-
-
-
-<p>
-	<strong>Abstract: </strong>
-	<em><span itemprop='about'>Due to REST-based protocols, microservice architectures are inherently horizontally scalable. That might be why the microservice architectural style is getting more and more attention for cloud-native application engineering. Corresponding microservice architectures often rely on a complex technology stack which includes containers, elastic platforms and software defined networks. Astonishingly, there are almost no specialized tools to figure out performance impacts (coming along with this microservice architectural style) in the upfront of a microservice design. Therefore, we propose a benchmarking solution intentionally designed for this upfront design phase. Furthermore, we evaluate our benchmark and present some performance data to reflect some often heard cloud-native application performance rules (or myths).</span></em>
-</p>
+<li><strong>Author:</strong> Xiao Cui
 
 
-<p>
-	<strong>Keywords: </strong>
-	<em><span itemprop='keywords'>cloud-native application, microservice, container, cluster, elastic platform, network, performance, reference, benchmark, REST, SDN, software-defined network</span></em>
-</p>
+<li><strong>State:</strong> ongoing
 
 
-<h3>Details <small>[KQ2016b]</small></h3>
-<table class="bibliographydetails">
-	<tr>
-		<th>Author(s): </th>
-		<td><strong><span itemprop='author'>Kratzke, Nane and Quint, Peter-Christian</span></strong></th>
-	</tr>
-
-	
-	<tr>
-		<th>Title:</th>
-		<td><strong><span itemprop='name'>Investigation of Impacts on Network Performance in the Advance of a Microservice Design</span></strong></td>
-	</tr>
-	
-
-	
-	<tr>
-		<th>In book:</th>
-		<td><em>Cloud Computing and Services Science (revised selected papers)</em></td>
-	</tr>
-	
-
-	
-	<tr>
-		<th>Series:</th>
-		<td>Communications in Computer and Information Science (CCIS)</td>
-	</tr>
-	
-
-	
-	<tr>
-		<th>Editor(s):</th>
-		<td>Helfert, Markus and Ferguson, Donald and Munoz, Victor Mendez and Cardoso, Jorge</td>
-	</tr>
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-	<tr>
-		<th>Publisher:</th>
-		<td>Springer</td>
-	</tr>
-	
-
-	
+<li><strong>Study programme:</strong> Information Technology
 
 
-	
-	<tr>
-		<th>Publication year:</th>
-		<td>2017</td>
-	</tr>
-	
+<li><strong>Degree:</strong> Bachelor (B. Sc.)
 
-	
 
-</table>
+<li><strong>Company:</strong> <a href="http://www.cosa.fh-luebeck.de">CoSA</a>
 
-<h3>Bibtex</h3>
-<pre>@incollection{KQ2016b,
-  author = {Kratzke, Nane and Quint, Peter-Christian},
-  booktitle = {{Cloud Computing and Services Science (revised selected papers)}},
-  editor = {Helfert, Markus and Ferguson, Donald and Munoz, Victor Mendez and Cardoso, Jorge},
-  keywords = {cloud-native application, microservice, container, cluster, elastic platform, network, performance, reference, benchmark, REST, SDN, software-defined network},
-  publisher = {Springer},
-  series = {{Communications in Computer and Information Science (CCIS)}},
-  title = {{Investigation of Impacts on Network Performance in the Advance of a Microservice Design}},
-  year = {2017},
-  project = {CloudTRANSIT},
-  researchgate = {https://www.researchgate.net/publication/311321240}
-}
-</pre>
+
+
+</ul>
+
+<h2>Thesis</h2>
+
+<p>Industrial technology conferences are used to demonstrate and report on the latest trends in software, systems, gadgets, frameworks, services, solutions, and more.
+To estimate the future impact of these trends corresponding triggered social network interactions might be a viable data source for evaluation.
+Trends that trigger more interactions might be more interesting to the audience than trends with less impact on social media channels.</p>
+
+<p>This thesis should exploratively gather and analyze data from the social network Twitter around cloud computing related technology conferences.
+It should analyze whether it is possible to identify such trends and correlated multipliers. The overall aim is to identify automatically the</p>
+
+<ul>
+  <li>“hot topics”</li>
+  <li>and relevant multipliers</li>
+</ul>
+
+<p>in a stream of social network interactions around technology conferences. Therefore, the thesis compromises the following tasks:</p>
+
+<ul>
+  <li>Literature review on sentiment analysis and natural language processing.</li>
+  <li>Literature review on social network analysis (graphs).</li>
+  <li>Comparison of existing NLP and sentiment analysis libraries (usability for the study).</li>
+  <li>Comparison of existing graph databases (usability for the study).</li>
+  <li>Implementation of a Twitter stream recording solution using <a href="http://www.tweepy.org">Tweepy</a>.</li>
+  <li>Implementation of a sentiment and multiplier analysis solution on recorded tweets based on libraries from the comparisons above.</li>
+</ul>
+
+<p>Additionally, the analysis solution should demonstrate its operational functioning on two concrete case studies (technology conferences about cloud computing and container-based for cloud-native platforms). The following technology conferences should be used to demonstrate the operational functioning. It should be considered that the relevant reporting around conferences already starts in the upfront and endures more extended than the events.</p>
+
+<ul>
+  <li>DockerCon (San Francisco, 29 Apr - 02 May, 2019)</li>
+  <li>KubeCon + Cloud Native Con Europe (Barcelona, May 20 - 23, 2019)</li>
+</ul>
+
+<p>Both use cases are not offensive from an ethical point of view. However, the thesis should also discuss critically how the same tools and techniques could be misused. E.g., national authorities or further actors could observe systematically social media channels to suppress or manipulate public opinions or freedom of media reporting.</p>
+
+<p>Note: Should individual aspects are shown to be too difficult to achieve during the processing of this work, the task can be adapted - after credible proof of difficulty.</p>
 
 
 						</div>

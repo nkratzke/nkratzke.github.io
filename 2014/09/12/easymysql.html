@@ -199,7 +199,7 @@ But the container is capable to do more by providing a set of parameters.</p>
 
 <p>So let’s figure out some details.</p>
 
-<h2 id="use-your-own-databases-with-url">Use your own database(s) with <code>url</code></h2>
+<h2 id="use-your-own-databases-with-url">Use your own database(s) with <code>url</code>##</h2>
 
 <p>You can provide your own database via a sql file when you start your container.
 Just use the <code>url</code> parameter to point to a valid sql file.
@@ -209,7 +209,7 @@ This file can be hosted anywhere (accessible from your docker host).</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-d</span> <span class="nt">-p</span> 3306:3306 <span class="nt">-e</span> <span class="nv">url</span><span class="o">=</span><span class="s2">"http://www.example.org/my/database.sql"</span> mysqldb</code></pre></figure>
 
-<h2 id="define-user-with-user-and-password">Define user with <code>user</code> and <code>password</code></h2>
+<h2 id="define-user-with-user-and-password">Define user with <code>user</code> and <code>password</code>##</h2>
 
 <p>You can create your own user with own password by using the <code>user</code> and
 <code>password</code> parameter.
@@ -217,7 +217,7 @@ By default the created MySQL user will get read access to all databases hosted b
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">docker run <span class="nt">-d</span> <span class="nt">-p</span> 3306:3306 <span class="nt">-e</span> <span class="nv">user</span><span class="o">=</span><span class="s2">"Nane"</span> <span class="nt">-e</span> <span class="nv">password</span><span class="o">=</span><span class="s2">"meins"</span> mysqldb</code></pre></figure>
 
-<h2 id="change-access-rights-with-right">Change access rights with <code>right</code></h2>
+<h2 id="change-access-rights-with-right">Change access rights with <code>right</code>##</h2>
 
 <p>You can change the access rights of your database.</p>
 

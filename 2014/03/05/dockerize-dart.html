@@ -148,10 +148,10 @@ MAINTAINER Nane Kratzke &lt;nane@nkode.io&gt;
 <span class="c"># We do not install darteditor nor dartium because this is a server container.</span>
 <span class="c"># See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu</span>
 RUN apt-get update
-RUN apt-get install <span class="nt">-y</span> software-properties-common python-software-properties
+RUN apt-get <span class="nb">install</span> <span class="nt">-y</span> software-properties-common python-software-properties
 RUN apt-add-repository ppa:hachre/dart
 RUN apt-get <span class="nt">-y</span> update
-RUN apt-get install <span class="nt">-y</span> dartsdk
+RUN apt-get <span class="nb">install</span> <span class="nt">-y</span> dartsdk
 
 <span class="c"># Install the dart server app. Add additional directories if necessary for your app.</span>
 ADD pubspec.yaml /container/pubspec.yaml
@@ -225,10 +225,10 @@ MAINTAINER Nane Kratzke &lt;nane@nkode.io&gt;
 <span class="c"># We do not install darteditor nor dartium because this is a server container.</span>
 <span class="c"># See: http://askubuntu.com/questions/377233/how-to-install-google-dart-in-ubuntu</span>
 RUN apt-get update
-RUN apt-get install <span class="nt">-y</span> software-properties-common python-software-properties
+RUN apt-get <span class="nb">install</span> <span class="nt">-y</span> software-properties-common python-software-properties
 RUN apt-add-repository ppa:hachre/dart
 RUN apt-get <span class="nt">-y</span> update
-RUN apt-get install <span class="nt">-y</span> dartsdk
+RUN apt-get <span class="nb">install</span> <span class="nt">-y</span> dartsdk
 
 <span class="c"># Install the dart server app.</span>
 ADD pubspec.yaml /container/pubspec.yaml
